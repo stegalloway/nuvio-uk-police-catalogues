@@ -1,0 +1,116 @@
+{
+  "metas": [
+    {
+      "id": "tt34581163",
+      "type": "series",
+      "name": "Merseyside Detectives: The Murders of Ashley and Olivia",
+      "poster": "https://image.tmdb.org/t/p/w500/92tA7HtLO5NZrsNQCbybOCXVzuc.jpg",
+      "posterShape": "poster",
+      "description": "Liverpool, 2022 - Ashley Dale and nine-year-old Olivia Pratt-Korbel are shot dead at home, victims of feuding gangs. Can the police bring the killers to justice?",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/7PkwDNKdWFWNeyebbNY7WoZsKIT.jpg"
+    },
+    {
+      "id": "tt24805866",
+      "type": "series",
+      "name": "Big Little Crimes",
+      "poster": "https://image.tmdb.org/t/p/w500/qghpokJUWJNHghhsvpqSEeMarim.jpg",
+      "posterShape": "poster",
+      "description": "Minor incidents - huge impact. The gob-smacking stories of ordinary coppers who stumbled upon key pieces of evidence and helped take down major criminals.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/1sc0kJjDeMyuTD7aTlVvhjNpIoO.jpg"
+    },
+    {
+      "id": "tt31106703",
+      "type": "series",
+      "name": "To Catch a Copper",
+      "poster": "https://image.tmdb.org/t/p/w500/baDAoXME2y9tb4cgOFlK9Twwgec.jpg",
+      "posterShape": "poster",
+      "description": "Who polices the police? In Avon and Somerset several officers are accused of mistreating or sexually exploiting members of the public. But can coppers really investigate their own?",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/tZnzwv8Th9UIP03WRrWjHng0v8.jpg"
+    },
+    {
+      "id": "tt27125496",
+      "type": "series",
+      "name": "The Real Line of Duty",
+      "poster": "https://image.tmdb.org/t/p/w500/81ypaLkamiYv4UyfBeNxKymEFSw.jpg",
+      "posterShape": "poster",
+      "description": "The hit BBC drama Line Of Duty told the story of a fictional anti-corruption police unit. Now for the first time, senior police officers behind the real life sting operations re-open the casebooks to reveal the methods used to uncover corruption and secure convictions. Narrated by Martin Compston, The Real Line Of Duty uncovers the wider story of the Metropolitan Police turned the torch on their own.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/2qgSGh02icamUwZFUPbWf8lFsS0.jpg"
+    },
+    {
+      "id": "tt31187266",
+      "type": "series",
+      "name": "The Detectives: Taking Down an OCG",
+      "poster": "https://image.tmdb.org/t/p/w500/44XYyXEd7tUh20aJfVbz4p43O5g.jpg",
+      "posterShape": "poster",
+      "description": "With unparalleled and intimate access, following Greater Manchester Police detectives as they try to unravel complex cases.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/stY5PJSPYF5wxFW6tAGVayEygPp.jpg"
+    },
+    {
+      "id": "tmdb:222449",
+      "type": "series",
+      "name": "Cold Case Detectives",
+      "poster": "https://image.tmdb.org/t/p/w500/r4FIgbAOpSO0q04AGhRpOFhTu86.jpg",
+      "posterShape": "poster",
+      "description": "Using the latest developments in forensic science to uncover new evidence, a specialist team of cold case detectives from South Wales Police are determined to finally get justice for six-year-old Carol Ann Stephens.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/8kix6aEkdO3f1vW9lFws04AjMhO.jpg"
+    },
+    {
+      "id": "tt4116046",
+      "type": "series",
+      "name": "24 Hours in Police Custody",
+      "poster": "https://image.tmdb.org/t/p/w500/AfBPcLfNNUsBgANxbKWFxh4zMIQ.jpg",
+      "posterShape": "poster",
+      "description": "The landmark documentary series that captures real life drama at its most intense, following police detectives around the clock as they investigate major crimes.",
+      "releaseInfo": "2014",
+      "genres": [
+        "Documentary",
+        "Crime",
+        "Reality"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/bzlyoFoh8dyjwr3wQCuT56Y5m24.jpg"
+    },
+    {
+      "id": "tt14536022",
+      "type": "series",
+      "name": "Bent Coppers: Crossing the Line of Duty",
+      "poster": "https://image.tmdb.org/t/p/w500/ezbpKag6l0KX7isCzr4L1VnW9Ps.jpg",
+      "posterShape": "poster",
+      "description": "Exploring the corruption within the Metropolitan Police force in the 1960s and 70s eventually leading to the formation of its first anti-corruption unit, A10. With the use of archive footage, insider interviews, and secret recordings, public myths surrounding the incorruptibility of London police are interrogated, revealing uncurbed levels of malfeasance within the force, and revealing the story behind the infamous Times investigation which unearthed unpleasant truths about policing to the broader public.",
+      "releaseInfo": "2021",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/4oXHVXTqfkiuLupcL70ffKd0qu.jpg"
+    }
+  ]
+}

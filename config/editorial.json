@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "description": "56 hand-audited, user-approved UK police documentaries, 15 October 2026.",
+  "categories": {
+    "on-duty": {
+      "name": "On Duty",
+      "tmdbIds": [
+        300827,
+        290241,
+        256170,
+        251663,
+        224013,
+        208086,
+        205597,
+        133781,
+        81440,
+        7734,
+        102854,
+        100615,
+        88749,
+        334435,
+        320987,
+        313891,
+        298623,
+        282058,
+        256705,
+        237903,
+        230136,
+        211398,
+        209294,
+        239911,
+        157657,
+        83712,
+        71252,
+        304549
+      ]
+    },
+    "police-investigations": {
+      "name": "Police Investigations",
+      "tmdbIds": [
+        296914,
+        261713,
+        261393,
+        251035,
+        251918,
+        217930,
+        110709,
+        118177,
+        205475,
+        61956,
+        332236,
+        321315,
+        312521,
+        283630,
+        281192,
+        244583,
+        238600,
+        111000,
+        120511,
+        245753,
+        222449,
+        116322,
+        127680,
+        123343,
+        285276,
+        240613,
+        299992,
+        285949
+      ]
+    }
+  },
+  "manualExceptions": {
+    "102854": "Recent 2026 Channel 5 repeat",
+    "100615": "Recent 2026 Channel 5 repeat",
+    "88749": "Recent 2026 Channel 5 repeat",
+    "61956": "2025-26 new specials outside parent TMDB episode listing",
+    "123343": "Explicitly requested historical detective documentary"
+  },
+  "excludedTmdbIds": [
+    91183,
+    214541,
+    300850
+  ],
+  "excludedAliases": [
+    "body cam",
+    "dom on the spot"
+  ],
+  "publisher": "stegalloway",
+  "originCountry": "GB",
+  "firstAiredWithinYears": 5,
+  "olderRecentOriginalAiredWithinMonths": 24
+}

@@ -1,0 +1,281 @@
+{
+  "metas": [
+    {
+      "id": "tt15521024",
+      "type": "series",
+      "name": "Motorway Cops: Catching Britain's Speeders",
+      "poster": "https://image.tmdb.org/t/p/w500/5g1bNH3GFi0p5CHB5YfaIQa7Iz9.jpg",
+      "posterShape": "poster",
+      "description": "Ride along with the officers risking their lives policing Britain's most dangerous roads.",
+      "releaseInfo": "2021",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/xfCbKg5ci4nOBcJo2R4KU05aEPq.jpg"
+    },
+    {
+      "id": "tt45728900",
+      "type": "series",
+      "name": "Geordie Coppers",
+      "poster": "https://image.tmdb.org/t/p/w500/4jnWjBHNfEU6B6hfK9Qly2WLc7M.jpg",
+      "posterShape": "poster",
+      "description": "Following Newcastle’s neighbourhood police teams and their partners as they tackle crime, disorder and the many unexpected challenges of keeping one of Britain’s liveliest cities safe.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/pSqOoGNPQt9F37uTTH6izwJHmxa.jpg"
+    },
+    {
+      "id": "tt42457939",
+      "type": "series",
+      "name": "Traffic Cops: Pursuit Squad One",
+      "poster": "https://image.tmdb.org/t/p/w500/ggh1vAwYfu3bG1htqC4aDar868B.jpg",
+      "posterShape": "poster",
+      "description": "Follow the UK's highly trained police bikers as they race to save lives and catch suspects.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Crime",
+        "Documentary",
+        "Reality"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/r0W1aD1xEpIWTDPq2PhUt3dmYC7.jpg"
+    },
+    {
+      "id": "tt1397259",
+      "type": "series",
+      "name": "Police Interceptors",
+      "poster": "https://image.tmdb.org/t/p/w500/wC4SeLQyxdqAd5rz2iyA0BZdLmV.jpg",
+      "posterShape": "poster",
+      "description": "Documentary series profiling the work of high-speed police units across Britain.",
+      "releaseInfo": "2008",
+      "genres": [
+        "Documentary",
+        "Crime",
+        "Reality"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/hMQZ6Z5q8QhwYcPxXPO1DyOQGsx.jpg"
+    },
+    {
+      "id": "tmdb:298623",
+      "type": "series",
+      "name": "Street Cops: Catching the Yobs",
+      "poster": "https://image.tmdb.org/t/p/w500/eteS2VyUpjviww3X3izvgTN7rH3.jpg",
+      "posterShape": "poster",
+      "description": "Following Britain's police as they head out to clean up the streets, from chasing down illegal e-scooters, and tackling drunks rampaging through the town centre, to cutting brazen drug dealers down to size.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/aNIuoDJJznakkEMPe6mrNqREfcb.jpg"
+    },
+    {
+      "id": "tt6777360",
+      "type": "series",
+      "name": "Reported Missing",
+      "poster": "https://image.tmdb.org/t/p/w500/qxmW2MyjhwgaFP2DccV2psTmD4a.jpg",
+      "posterShape": "poster",
+      "description": "Every two minutes someone in Britain goes missing. Multiple cameras follow the hunt for missing people, from the police tasked with finding them to loved ones left at home.",
+      "releaseInfo": "2017",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/p14AXhAFasCuThxLp54JtGPkh32.jpg"
+    },
+    {
+      "id": "tt6293468",
+      "type": "series",
+      "name": "Traffic Cops",
+      "poster": "https://image.tmdb.org/t/p/w500/fq2A6r8s8VFdTQlDCfxGRgCqx46.jpg",
+      "posterShape": "poster",
+      "description": "An action-packed documentary series following Yorkshire-based law enforcers. Originally shown by the BBC (2003-2016), this is the new reboot format of the show and was titled \"All New Traffic Cops\" for two series. It was renamed again in 2018 as \"Traffic Cops: On the Edge\" and then as \"Traffic Cops\".",
+      "releaseInfo": "2016",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/tQFEHpLYuGgMFXiiI46AhnhPnrs.jpg"
+    },
+    {
+      "id": "tt42540228",
+      "type": "series",
+      "name": "Peelers: The PSNI for Real",
+      "poster": "https://image.tmdb.org/t/p/w500/nvm6CI0eVywf4ouefsdVjw2yBi6.jpg",
+      "posterShape": "poster",
+      "description": "Unfiltered and up close. The realities and challenges of 24/7 policing in Belfast. Stephen Nolan gets a powerful insight into law and order on the front line.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/4xQsRUTAcqmsh8ZzHNG9Xez7BAd.jpg"
+    },
+    {
+      "id": "tt42421353",
+      "type": "series",
+      "name": "Forensics: Crash Scene Investigators",
+      "poster": "https://image.tmdb.org/t/p/w500/wNxzhE58kLkyV4WXT8dWKQLaeSd.jpg",
+      "posterShape": "poster",
+      "description": "Forensic collision investigators assess crash scenes using technology and detective work.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Reality",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/e8h79fQu0vP1iaNrISg4nw4kueh.jpg"
+    },
+    {
+      "id": "tt42459476",
+      "type": "series",
+      "name": "Police Interceptors: Taking Down the Shoplifting Gangs",
+      "poster": "https://image.tmdb.org/t/p/w500/b7VxCW1puWzb6aAfBC57lZP7h89.jpg",
+      "posterShape": "poster",
+      "description": "Officers tackle the thieves terrorising supermarkets and shops, with organised international crime groups stealing eye-watering amounts in increasingly industrial, brazen and sophisticated ways.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Documentary",
+        "Crime",
+        "Reality"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/1aJyO3DhAqqqkvML6OYo9DSojtY.jpg"
+    },
+    {
+      "id": "tmdb:304549",
+      "type": "series",
+      "name": "Inside the Arrest",
+      "poster": "https://image.tmdb.org/t/p/w500/f6ndg7AOhxDuCv85IRx7HConaTb.jpg",
+      "posterShape": "poster",
+      "description": "Inside the Arrest captures the moment of arrest, conducted more than two thousand times a day by British police, in order to investigate or prevent a crime. The arrest is the start point for every story, a high-stakes moment that can be met with anything from violence to defiance, confession to incredulity.\n\nEach episode features two cases using police bodycam footage to analyse some notorious and high-profile arrests from recent years.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/oapVa0T8QYnM2EpKgIfo3JGaD9l.jpg"
+    },
+    {
+      "id": "tt26750568",
+      "type": "series",
+      "name": "The Crash Detectives",
+      "poster": "https://image.tmdb.org/t/p/w500/byXwl27eRhcTxmnUMM8vDz6eOLg.jpg",
+      "posterShape": "poster",
+      "description": "Series going inside the cordon with Gwent Police's dedicated forensic collision investigators, as they deal with serious incidents on the roads.",
+      "releaseInfo": "2018",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/qkPKSyJ0scegw4JWx544FA1iAqi.jpg"
+    },
+    {
+      "id": "tt27170468",
+      "type": "series",
+      "name": "Highland Cops",
+      "poster": "https://image.tmdb.org/t/p/w500/syp6gc41ddrqfDvqfOygVlAHNPh.jpg",
+      "posterShape": "poster",
+      "description": "Welcome to Britain's biggest beat. Covering 12,000 square miles of loch, glens, islands and mountains, cutting-edge crime fighting meets traditional ways of life.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Documentary",
+        "Reality"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/p2aOiK0uOCBUbVP0kCJIEnxMIoy.jpg"
+    },
+    {
+      "id": "tt45654345",
+      "type": "series",
+      "name": "Police: Night Shift 999",
+      "poster": "https://image.tmdb.org/t/p/w500/bfk0wFeTjZpYa57TvDViJcn1pr5.jpg",
+      "posterShape": "poster",
+      "description": "Following the night shift of Gloucestershire Constabulary, revealing the relentless and uphill fight against night-time crime. As darkness falls across the county, officers face incidents with more drink, drugs and violence than during the day.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/2ACns0J0KWMPYmP8l1NBiFdcwzG.jpg"
+    },
+    {
+      "id": "tt21223450",
+      "type": "series",
+      "name": "Night Coppers",
+      "poster": "https://image.tmdb.org/t/p/w500/ol47fWG2cdcycpJevemV1pnzlzt.jpg",
+      "posterShape": "poster",
+      "description": "Ten thousand revellers pack Brighton’s clubs and pubs every weekend, and as the sun goes down and the lights come up, the number of assaults, sexual violence, anti-social behaviour, drug-related incidents and hate crime goes through the roof – and for the Night Coppers of Brighton, policing this city after dark is one hell of a ride.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Documentary",
+        "Reality"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/wp0GaRdWk3vJRKpW4DOCi5xNi1H.jpg"
+    },
+    {
+      "id": "tt35653064",
+      "type": "series",
+      "name": "Manhunt",
+      "poster": "https://image.tmdb.org/t/p/w500/8AZxn3EPNMFu8LsNQdOREgPqQBw.jpg",
+      "posterShape": "poster",
+      "description": "Cameras follow a specialist police unit dealing with urgent manhunts.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/hp3h8BMHqNnXcbgtr4yWwPC9l8i.jpg"
+    },
+    {
+      "id": "tt27232795",
+      "type": "series",
+      "name": "Rookie Cops",
+      "poster": "https://image.tmdb.org/t/p/w500/efZiJ8xdepM8XrRvY25U3Qy5rXX.jpg",
+      "posterShape": "poster",
+      "description": "A career change with a difference - becoming a new recruit to the police in Wales. Coming from all walks of life, how do they adapt to being thrown into the front line of the law?",
+      "releaseInfo": "2022",
+      "genres": [
+        "Reality",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/nKhVX7362uSlZaZCTqwf4ZBt0Uy.jpg"
+    },
+    {
+      "id": "tmdb:256170",
+      "type": "series",
+      "name": "Football Cops",
+      "poster": "https://image.tmdb.org/t/p/w500/1ugz2oeTN75MJfZfZGu9bCxMJ4g.jpg",
+      "posterShape": "poster",
+      "description": "Behind the scenes with the cops working to stop trouble at matches, from England games to the Premier League and below.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Reality"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/pYhYy7HRoT3K78WZtWf29F10SoC.jpg"
+    },
+    {
+      "id": "tmdb:256705",
+      "type": "series",
+      "name": "Police Raid: Minute by Minute",
+      "poster": "https://image.tmdb.org/t/p/w500/1CgGspqdnxSPtWwmJ0yoQwevLSU.jpg",
+      "posterShape": "poster",
+      "description": "Officers mount a major operation to tackle drug dealing in south Wales.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w500/1CgGspqdnxSPtWwmJ0yoQwevLSU.jpg"
+    },
+    {
+      "id": "tt32127658",
+      "type": "series",
+      "name": "Police Interceptors: Pursuit and Capture",
+      "poster": "https://image.tmdb.org/t/p/w500/hJuG4EZPCWHQyzV9rcf9W8IJ067.jpg",
+      "posterShape": "poster",
+      "description": "Full-throttle documentary series featuring the UK's police in breath-taking chases.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Reality",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/bulwHX1zhxHC60ubAkwy9dMgGqR.jpg"
+    }
+  ]
+}

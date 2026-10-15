@@ -1,0 +1,36 @@
+{
+  "id": "uk.curated.policedocumentaries",
+  "name": "UK Police Documentaries",
+  "description": "Hand-curated UK police factual series, refreshed daily using TMDB.",
+  "version": "1.0.0",
+  "types": [
+    "series"
+  ],
+  "resources": [
+    "catalog"
+  ],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "on-duty",
+      "name": "On Duty",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "police-investigations",
+      "name": "Police Investigations",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    }
+  ]
+}

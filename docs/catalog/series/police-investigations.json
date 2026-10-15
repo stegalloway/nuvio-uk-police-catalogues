@@ -1,0 +1,278 @@
+{
+  "metas": [
+    {
+      "id": "tt48388084",
+      "type": "series",
+      "name": "The Incident Room",
+      "poster": "https://image.tmdb.org/t/p/w500/3GBZPhDLJWAcrPg8sYgpFeETsfO.jpg",
+      "posterShape": "poster",
+      "description": "Inside the nerve centre of murder inquiries, revealed through the detectives themselves.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/gbYtZcvcA9vdSwZimYyUi234tjI.jpg"
+    },
+    {
+      "id": "tt41017478",
+      "type": "series",
+      "name": "999: What Happened Next",
+      "poster": "https://image.tmdb.org/t/p/w500/gT7YgUJbKRTzfMUxAN3hGf3KmlM.jpg",
+      "posterShape": "poster",
+      "description": "Every three seconds, a 999 call is made to the police. But not every call is as it seems. This series follows the investigators hunting for the truth and bringing the guilty to justice.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Crime",
+        "Documentary",
+        "Reality"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/bEwzge2gj8rxxBwM9iWd2RSm8sY.jpg"
+    },
+    {
+      "id": "tt44861919",
+      "type": "series",
+      "name": "The Murder Detective",
+      "poster": "https://image.tmdb.org/t/p/w500/5njRUbAzNpEmOCoxjPPymM0mXRd.jpg",
+      "posterShape": "poster",
+      "description": "A gripping real-world thriller, seven years in the making, telling the inside story of the complex high-risk police investigation into the murder of journalist Lyra McKee.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/oeBOrckcJo4QTJcaqijvLKF5DGX.jpg"
+    },
+    {
+      "id": "tt32223649",
+      "type": "series",
+      "name": "Murder Case: The Digital Detectives",
+      "poster": "https://image.tmdb.org/t/p/w500/3oSabOeV7g1mVaRN4Qpd4UJmE.jpg",
+      "posterShape": "poster",
+      "description": "The next generation crime series revealing the ground-breaking police techniques used to solve murders on Britain's streets.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/sq972T6XYimsknyIxaGbvkQZk3t.jpg"
+    },
+    {
+      "id": "tt11833446",
+      "type": "series",
+      "name": "Murder 24/7",
+      "poster": "https://image.tmdb.org/t/p/w500/qdyKnhB1UThY6Hy446IWQWsC1Nv.jpg",
+      "posterShape": "poster",
+      "description": "Following teams of detectives and specialists involved in murder investigations.",
+      "releaseInfo": "2020",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/lxL38Yq8mmxt6QIvXUGfMdA7kAn.jpg"
+    },
+    {
+      "id": "tt3948836",
+      "type": "series",
+      "name": "Major Crimes Unit",
+      "poster": "https://image.tmdb.org/t/p/w500/33x5tDTyUWM4kvqn7D9NaI2AhNq.jpg",
+      "posterShape": "poster",
+      "description": "With unprecedented access to West Midlands Police’s elite crime-fighting unit, this series follows investigators as they race against time to track suspects, uncover the truth, and deliver justice for victims and their families.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/uRUioWgXuTQMw19dE0Cw6ThUC1R.jpg"
+    },
+    {
+      "id": "tmdb:245753",
+      "type": "series",
+      "name": "Secrets of a Murder Detective",
+      "poster": "https://image.tmdb.org/t/p/w500/6owI5xIVJD3pzNvrdpxBekLGSoz.jpg",
+      "posterShape": "poster",
+      "description": "Former Scotland Yard Homicide Detective Inspector Steve Keogh invites viewers into the intriguing realm of crime solving. With 30 years of experience under his belt including twelve years of service as a murder detective at the Metropolitan Police, Steve is opening up his contact books for the first time to reveal the secrets of what it really takes to be a murder detective on the frontline.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/5yLj6owcSdSgVAqYo3HXOs2ZjQQ.jpg"
+    },
+    {
+      "id": "tt11547582",
+      "type": "series",
+      "name": "Murder Case",
+      "poster": "https://image.tmdb.org/t/p/w500/cTtzw4S8GE1yuKTKYhj7wcyQiy7.jpg",
+      "posterShape": "poster",
+      "description": "Inside Scotland's most complex and shocking murder investigations, with unprecedented access. Police and prosecutors reveal the extraordinary efforts needed to deliver justice.",
+      "releaseInfo": "2019",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/orMiY6AP9iZZaHR7qQDRCKhX8sh.jpg"
+    },
+    {
+      "id": "tt13182856",
+      "type": "series",
+      "name": "Police: Suspect No.1",
+      "poster": "https://image.tmdb.org/t/p/w500/qCDYGA4Gb68ohnYWqxGPnOmSCwg.jpg",
+      "posterShape": "poster",
+      "description": "Exploring the intricacies of producing irrefutable evidence, conducting interviews and finding ways to make the guilty confess.",
+      "releaseInfo": "2020",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/xArc41Unu9ur0LdRlmRMKGZser7.jpg"
+    },
+    {
+      "id": "tt8548754",
+      "type": "series",
+      "name": "Catching a Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/8yJgdLFoxgYG0xPJGTUkQ84zMgw.jpg",
+      "posterShape": "poster",
+      "description": "A gripping series with extraordinary access to the police as they investigate murders and search for missing people.",
+      "releaseInfo": "2017",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/9TQshvNDohdXpi4J3VNErRpNI6U.jpg"
+    },
+    {
+      "id": "tt35641807",
+      "type": "series",
+      "name": "Murder: Suspect No.1",
+      "poster": "https://image.tmdb.org/t/p/w500/ayw0YDkZgtRWh11VPPrh2fJjStV.jpg",
+      "posterShape": "poster",
+      "description": "Crime documentary following homicide detectives at work as a series of horrific and violent murder investigations unfold.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/zSBrEi7HN9VjrE0Ef4M51u5KQgP.jpg"
+    },
+    {
+      "id": "tt38503381",
+      "type": "series",
+      "name": "Murder: Point of Contact",
+      "poster": "https://image.tmdb.org/t/p/w500/vWyZI1iz057aMJOOZhwmOSFDR9f.jpg",
+      "posterShape": "poster",
+      "description": "The show explores how the role of Family Liaison Officers has become a crucial part of modern policing, particularly after the Stephen Lawrence Inquiry. It aims to provide a look at how both families and the police navigate the aftermath of a murder together",
+      "releaseInfo": "2025",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/AnsgEm0mkcZFvpfADtPamMX2HuO.jpg"
+    },
+    {
+      "id": "tt35665832",
+      "type": "series",
+      "name": "Special Ops: To Catch A Criminal",
+      "poster": "https://image.tmdb.org/t/p/w500/8oIxgYgKp3pku1yLH3i0yBvly56.jpg",
+      "posterShape": "poster",
+      "description": "A gritty factual series following the investigations of elite UK police units created to crack the toughest of cases.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/2jOnN8NRW6OLjoL9GzOCAvLFM2V.jpg"
+    },
+    {
+      "id": "tt37694631",
+      "type": "series",
+      "name": "Operation Dark Phone: Murder by Text",
+      "poster": "https://image.tmdb.org/t/p/w500/qQNwBejBSqPbuAouJDTMduiqLaI.jpg",
+      "posterShape": "poster",
+      "description": "The incredible inside story of a huge police operation to infiltrate dangerous global crime gangs through their encrypted phone network.\n\nOperation Dark Phone : Murder by Text is the inside story the biggest ever joint law enforcement operation against a global network of organised crime groups who believed their encrypted phones were safe. Until a collaboration between international authorities - led in the UK by the National Crime Agency - managed to hack their phones to reveal the astonishing details of their messages.  For the first time since the EncroChat network was infiltrated in 2020, the messages sent and the criminals exposed are exclusively revealed in a four part documentary series that tells the story in compelling and shocking detail. For 74 frantic days the authorities could read all the messages and sought to save lives and bring down the gangs, before the criminals realised their data was being captured.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/xKD5NY9AMkY5IEE8W56UEE9IhWL.jpg"
+    },
+    {
+      "id": "tt13691282",
+      "type": "series",
+      "name": "The Moment of Proof",
+      "poster": "https://image.tmdb.org/t/p/w500/bbu4UenfDioETUx2TTAvIGjYuX4.jpg",
+      "posterShape": "poster",
+      "description": "True-crime documentary series telling the story of police investigations, focused on the moment detectives realise they have cracked the case. It may be a DNA match, the moment an alibi is disproven or a dramatic interview room confession.",
+      "releaseInfo": "2021",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/iTIolXlKrAAxNdQkjVsBb3pmXeh.jpg"
+    },
+    {
+      "id": "tt33381630",
+      "type": "series",
+      "name": "Forensics: Murder Scene",
+      "poster": "https://image.tmdb.org/t/p/w500/uEyGqM2aq1xaZWo1f5z5IIdOTCx.jpg",
+      "posterShape": "poster",
+      "description": "Documentary telling the inside story of forensics teams working alongside West Yorkshire Police.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/f2r2zXMPUOHFSrWRjgwnbVJ4hEW.jpg"
+    },
+    {
+      "id": "tt36334448",
+      "type": "series",
+      "name": "The Undercover Police Scandal: Love and Lies Exposed",
+      "poster": "https://image.tmdb.org/t/p/w500/n93FVA8zLTVZoBBVpqMvCrpTWT.jpg",
+      "posterShape": "poster",
+      "description": "The chilling true story of scores of officers who posed as loving partners - and the women who became detectives to expose the infamous Spycops scandal.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/mZgI0XPWl9B3Gg4yrwoPAoUQOM4.jpg"
+    },
+    {
+      "id": "tmdb:285276",
+      "type": "series",
+      "name": "Prime Suspect: Hunting the Predators",
+      "poster": "https://image.tmdb.org/t/p/w500/8bGypiFPY7icRteC5ELM9L7IaGL.jpg",
+      "posterShape": "poster",
+      "description": "Revealing the dark world of online predators investigated by the NCA.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/7OLVtHuOtXlweVBVGWsNgbUF0kJ.jpg"
+    },
+    {
+      "id": "tt14406672",
+      "type": "series",
+      "name": "The Real Manhunter",
+      "poster": "https://image.tmdb.org/t/p/w500/tcv6BJa9bUUgWs1z6fTIexNKRMq.jpg",
+      "posterShape": "poster",
+      "description": "Former Detective Chief Inspector Colin Sutton spent 30 years in the police force, a career that saw him lead many of the most high profile and successful murder investigations of his generation. In this true crime docuseries, Sutton revisits cases he led and explores everything from the crime itself through to the breakthrough moment when the suspect was identified and arrested.",
+      "releaseInfo": "2021",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/mO2JSkouIqDRzTLNM8G3PjJk4Fm.jpg"
+    },
+    {
+      "id": "tt11165808",
+      "type": "series",
+      "name": "When Missing Turns to Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/x3E6tlZUA4qTQACjwkK1CHKpVzL.jpg",
+      "posterShape": "poster",
+      "description": "British true crime documentary series using powerful and emotional testimony from families and friends when a missing persons enquiry turns into a murder investigation.",
+      "releaseInfo": "2019",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/arSxfELkMW4grBiBDhyTAT1CTXm.jpg"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Never commit local tokens or editor credentials.
+.env
+.env.*
+*.token
+*oauth*private*
+*credential*private*
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
