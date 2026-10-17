@@ -19,16 +19,31 @@ for slug,cfg in editor["categories"].items():
     first=read(folder/(slug+".json"))["metas"]
     same=read(folder/slug/"skip=0.json")["metas"]
     assert first==same and len(first)<=20
+    # Follow Nuvio's actual offsets rather than assuming full 20-item pages.
+    # A partial final page still needs a successful empty response afterwards.
     meta=[]
-    for skip in range(0,expected+20,20):
-        meta+=read(folder/slug/(f"skip={skip}.json"))["metas"]
+    skip=0
+    requested=[]
+    while True:
+        requested.append(skip)
+        path=folder/slug/(f"skip={skip}.json")
+        assert path.is_file(),(slug,"Missing pagination response",skip)
+        page=read(path)["metas"]
+        assert isinstance(page,list) and len(page)<=20,(slug,skip,"Invalid page")
+        if not page:break
+        meta+=page
+        skip+=len(page)
+        assert skip<=expected,(slug,"Pagination did not terminate",skip,expected)
     assert len(meta)==expected,(slug,len(meta),expected)
+    for path in (folder/slug).glob("skip=*.json"):
+        offset=int(path.stem.removeprefix("skip="))
+        assert read(path)["metas"]==meta[offset:offset+20],(slug,"Stale page",offset)
     assert len({m["id"] for m in meta})==expected
     assert len({m["name"].casefold() for m in meta})==expected
     assert all(m["id"].startswith(("tt","tmdb:")) and m["type"]=="series" and m["poster"].startswith("https://") for m in meta)
     assert all(m["id"] not in total_ids for m in meta),(slug,"cross-category duplicate")
     total_ids.update(m["id"] for m in meta)
-    print("VALID",slug,expected,"PAGINATED",len(first),len(meta)-len(first))
+    print("VALID",slug,expected,"OFFSETS",requested,"EMPTY_TERMINAL",skip)
 assert len(total_ids)==sum(status["counts"].values())
 assert all(count >= 25 for count in status["counts"].values()),"Unexpected large reduction in a catalogue"
 assert status["source"]=="TMDB"

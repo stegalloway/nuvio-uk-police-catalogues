@@ -17,6 +17,7 @@ EDITORIAL = ROOT / "config" / "editorial.json"
 DISCOVERED = ROOT / "data" / "discovered.json"
 REVIEW = ROOT / "data" / "review-queue.json"
 DOCS = ROOT / "docs"
+PAGE_SIZE = 20
 BASE_URL = "https://api.themoviedb.org/3"
 TODAY = dt.datetime.now(dt.timezone.utc).date()
 UK_BROADCASTERS = {99, 4, 332, 26, 9, 214, 1892, 2461, 497, 259, 578}
@@ -35,6 +36,25 @@ def save_json(path, payload):
     content = json.dumps(payload, indent=2, ensure_ascii=False) + "\n"
     if not path.exists() or path.read_text(encoding="utf-8") != content:
         path.write_text(content, encoding="utf-8")
+
+def write_catalog_pages(folder, slug, metas):
+    """Serve count-based pagination, including offsets cached before a refresh."""
+    save_json(folder / (slug + ".json"), {"metas": metas[:PAGE_SIZE]})
+    pages = folder / slug
+    total = len(metas)
+    offsets = set(range(0, max(60, total + 2 * PAGE_SIZE), PAGE_SIZE))
+    # Nuvio advances by the raw number returned: 20 + 8 requests skip=28.
+    offsets.add(total)
+    for path in pages.glob("skip=*.json"):
+        match = re.fullmatch(r"skip=(\d+)\.json", path.name)
+        if match:
+            offsets.add(int(match.group(1)))
+    # A cached old offset may now fall inside a larger catalogue. Keep its
+    # subsequent pages reachable, and empty old routes after a smaller refresh.
+    for skip in tuple(offsets):
+        offsets.update(range(skip, total, PAGE_SIZE))
+    for skip in sorted(offsets):
+        save_json(pages / f"skip={skip}.json", {"metas": metas[skip:skip + PAGE_SIZE]})
 
 class TMDB:
     def __init__(self, token):
@@ -246,9 +266,7 @@ def render_outputs(tmdb, editorial, discovered, fresh, review, scan_pages, scan_
                           for slug,c in editorial["categories"].items()]}
     save_json(docs/"manifest.json",manifest)
     for slug,(ids,metas) in current.items():
-        save_json(docs/"catalog"/"series"/(slug+".json"),{"metas":metas[:20]})
-        for skip in range(0,max(60,len(metas)+40),20):
-            save_json(docs/"catalog"/"series"/slug/(f"skip={skip}.json"),{"metas":metas[skip:skip+20]})
+        write_catalog_pages(docs/"catalog"/"series", slug, metas)
     save_json(DISCOVERED,{"schema":1,
              **{slug:list(dict.fromkeys(discovered.get(slug,[])+fresh.get(slug,[]))) for slug in editorial["categories"]}})
     save_json(REVIEW,review)

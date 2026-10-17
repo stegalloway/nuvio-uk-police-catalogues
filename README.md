@@ -45,6 +45,13 @@ GitHub Pages publishes `docs/` from the `main` branch. Important routes:
 - `/catalog/series/police-investigations/skip=20.json`
 - `/status.json`
 
+Pages contain up to 20 programmes. Clients advance `skip` by the number actually
+returned, and the exact final offset returns `{"metas": []}`. For example, a
+28-programme list loads offsets `0 → 20 → 28`, with the last response ending
+pagination. Each refresh also rewrites previously published offsets, including
+their next pages when a list grows, so cached offsets remain usable as counts
+change. The validator follows this same client request sequence before publishing.
+
 If Pages temporarily caches an older version, allow for CDN and Nuvio catalogue caches to expire.
 
 ## Source and limitations
