@@ -1,0 +1,10 @@
+# Keep the workflow actions (checkout, setup-python) on supported versions.
+# Monthly, so updates arrive as an occasional pull request to review and merge.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: "Actions"

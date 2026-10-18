@@ -27,6 +27,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Check pagination and watchdog rules
+        run: python -m unittest discover -s tests
       - name: Discover new UK programmes and rebuild both catalogues
         env:
           TMDB_ACCESS_TOKEN: ${{ secrets.TMDB_ACCESS_TOKEN }}
