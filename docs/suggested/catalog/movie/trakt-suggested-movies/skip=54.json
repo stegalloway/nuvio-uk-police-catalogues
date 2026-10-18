@@ -45,20 +45,6 @@
       "imdb_id": "tt27550504"
     },
     {
-      "id": "tt0105236",
-      "type": "movie",
-      "name": "Reservoir Dogs",
-      "poster": "https://image.tmdb.org/t/p/w500/xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
-      "posterShape": "poster",
-      "description": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
-      "genres": [
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "1992",
-      "imdb_id": "tt0105236"
-    },
-    {
       "id": "tt33100314",
       "type": "movie",
       "name": "Remarkably Bright Creatures",
@@ -71,6 +57,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33100314"
+    },
+    {
+      "id": "tt0105236",
+      "type": "movie",
+      "name": "Reservoir Dogs",
+      "poster": "https://image.tmdb.org/t/p/w500/xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
+      "posterShape": "poster",
+      "description": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "1992",
+      "imdb_id": "tt0105236"
     },
     {
       "id": "tt33057137",

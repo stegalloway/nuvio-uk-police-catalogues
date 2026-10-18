@@ -31,6 +31,21 @@
       "imdb_id": "tt4873118"
     },
     {
+      "id": "tt31195136",
+      "type": "movie",
+      "name": "Normal",
+      "poster": "https://image.tmdb.org/t/p/w500/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg",
+      "posterShape": "poster",
+      "description": "An unassuming substitute sheriff with a troubled past responds to a bank robbery in a small, sleepy town and unknowingly uncovers something far more explosive.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31195136"
+    },
+    {
       "id": "tt37971717",
       "type": "movie",
       "name": "One Last Shot",
@@ -57,21 +72,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt34471850"
-    },
-    {
-      "id": "tt31195136",
-      "type": "movie",
-      "name": "Normal",
-      "poster": "https://image.tmdb.org/t/p/w500/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg",
-      "posterShape": "poster",
-      "description": "An unassuming substitute sheriff with a troubled past responds to a bank robbery in a small, sleepy town and unknowingly uncovers something far more explosive.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31195136"
     },
     {
       "id": "tt32642706",
@@ -149,20 +149,6 @@
       "imdb_id": "tt27986457"
     },
     {
-      "id": "tt16368898",
-      "type": "movie",
-      "name": "Lights Out",
-      "poster": "https://image.tmdb.org/t/p/w500/gCOSDDyN0qA8rGoVwsZc72v3RuZ.jpg",
-      "posterShape": "poster",
-      "description": "A drifting ex-soldier turns underground fighter with the help of a just-released ex-con, pitting him against corrupt cops and hired killers now gunning for him and all those he cares about.",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt16368898"
-    },
-    {
       "id": "tt4919268",
       "type": "movie",
       "name": "Bad Boys: Ride or Die",
@@ -191,6 +177,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32357218"
+    },
+    {
+      "id": "tt16368898",
+      "type": "movie",
+      "name": "Lights Out",
+      "poster": "https://image.tmdb.org/t/p/w500/gCOSDDyN0qA8rGoVwsZc72v3RuZ.jpg",
+      "posterShape": "poster",
+      "description": "A drifting ex-soldier turns underground fighter with the help of a just-released ex-con, pitting him against corrupt cops and hired killers now gunning for him and all those he cares about.",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt16368898"
     },
     {
       "id": "tt10366206",
