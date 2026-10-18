@@ -30,20 +30,6 @@
       "imdb_id": "tt31438328"
     },
     {
-      "id": "tt8001106",
-      "type": "series",
-      "name": "Giri/Haji",
-      "poster": "https://image.tmdb.org/t/p/w500/mOeqBvuGOcq0eN1ssGCcRtWA7XW.jpg",
-      "posterShape": "poster",
-      "description": "Family duty sends a lawman to London to look for his mob-assassin brother as a yakuza war threatens to engulf Tokyo. Trust is even tougher to find.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8001106"
-    },
-    {
       "id": "tt13444408",
       "type": "series",
       "name": "Kin",
@@ -58,18 +44,18 @@
       "imdb_id": "tt13444408"
     },
     {
-      "id": "tt15435876",
+      "id": "tt23729238",
       "type": "series",
-      "name": "The Penguin",
-      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
+      "name": "Boat Story",
+      "poster": "https://image.tmdb.org/t/p/w500/gaSiJDRPSgVAUHcP8GRz0Tsw0HS.jpg",
       "posterShape": "poster",
-      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
+      "description": "Two hard-up strangers stumble across a haul of cocaine on a shipwrecked boat. After agreeing to sell it and split the cash, they become entangled with police, masked hitmen, and a sharp-suited gangster known as 'The Tailor'.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15435876"
+      "releaseInfo": "2023",
+      "imdb_id": "tt23729238"
     },
     {
       "id": "tt31849235",
@@ -84,6 +70,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt31849235"
+    },
+    {
+      "id": "tt15435876",
+      "type": "series",
+      "name": "The Penguin",
+      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
+      "posterShape": "poster",
+      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15435876"
     },
     {
       "id": "tt36303968",
@@ -199,18 +199,19 @@
       "imdb_id": "tt0979432"
     },
     {
-      "id": "tt23729238",
+      "id": "tt18923754",
       "type": "series",
-      "name": "Boat Story",
-      "poster": "https://image.tmdb.org/t/p/w500/gaSiJDRPSgVAUHcP8GRz0Tsw0HS.jpg",
+      "name": "Daredevil: Born Again",
+      "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
       "posterShape": "poster",
-      "description": "Two hard-up strangers stumble across a haul of cocaine on a shipwrecked boat. After agreeing to sell it and split the cash, they become entangled with police, masked hitmen, and a sharp-suited gangster known as 'The Tailor'.",
+      "description": "Matt Murdock, a blind lawyer with heightened abilities, is fighting for justice through his bustling law firm, while former mob boss Wilson Fisk pursues his own political endeavors in New York. When their past identities begin to emerge, both men find themselves on an inevitable collision course.",
       "genres": [
         "Drama",
+        "Action & Adventure",
         "Crime"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt23729238"
+      "releaseInfo": "2025",
+      "imdb_id": "tt18923754"
     },
     {
       "id": "tt4301160",
@@ -227,20 +228,6 @@
       "imdb_id": "tt4301160"
     },
     {
-      "id": "tt2442560",
-      "type": "series",
-      "name": "Peaky Blinders",
-      "poster": "https://image.tmdb.org/t/p/w500/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg",
-      "posterShape": "poster",
-      "description": "A gangster family epic set in 1919 Birmingham, England and centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby, who means to move up in the world.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2442560"
-    },
-    {
       "id": "tt3281796",
       "type": "series",
       "name": "Power",
@@ -253,6 +240,20 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt3281796"
+    },
+    {
+      "id": "tt5715524",
+      "type": "series",
+      "name": "Mayans M.C.",
+      "poster": "https://image.tmdb.org/t/p/w500/510A0upV9WRAynEgs1E2B3eBxi5.jpg",
+      "posterShape": "poster",
+      "description": "Set in the aftermath of Jax Teller’s death, Ezekiel \"EZ\" Reyes is fresh out of prison and a prospect in the Mayans M.C. charter on the Cali/Mexi border. Now, EZ must carve out his new identity in a town where he was once the golden boy with the American Dream in his grasp.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt5715524"
     },
     {
       "id": "tt13875494",
@@ -269,18 +270,18 @@
       "imdb_id": "tt13875494"
     },
     {
-      "id": "tt5715524",
+      "id": "tt2707408",
       "type": "series",
-      "name": "Mayans M.C.",
-      "poster": "https://image.tmdb.org/t/p/w500/510A0upV9WRAynEgs1E2B3eBxi5.jpg",
+      "name": "Narcos",
+      "poster": "https://image.tmdb.org/t/p/w500/rTmal9fDbwh5F0waol2hq35U4ah.jpg",
       "posterShape": "poster",
-      "description": "Set in the aftermath of Jax Teller’s death, Ezekiel \"EZ\" Reyes is fresh out of prison and a prospect in the Mayans M.C. charter on the Cali/Mexi border. Now, EZ must carve out his new identity in a town where he was once the golden boy with the American Dream in his grasp.",
+      "description": "A gritty chronicle of the war against Colombia's infamously violent and powerful drug cartels.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt5715524"
+      "releaseInfo": "2015",
+      "imdb_id": "tt2707408"
     }
   ]
 }
