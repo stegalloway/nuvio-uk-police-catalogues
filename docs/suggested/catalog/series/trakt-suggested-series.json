@@ -86,18 +86,18 @@
       "imdb_id": "tt3850598"
     },
     {
-      "id": "tt14168162",
+      "id": "tt12677870",
       "type": "series",
-      "name": "Bosch: Legacy",
-      "poster": "https://image.tmdb.org/t/p/w500/ge5gFKCO6m7MuGyjwjoGvqo2q2m.jpg",
+      "name": "Law & Order: Organized Crime",
+      "poster": "https://image.tmdb.org/t/p/w500/4AvB6Dg8eAbfWv5WOqzCCv2zS90.jpg",
       "posterShape": "poster",
-      "description": "Bosch is now making a living as a private investigator two years after he quit the LAPD and finds himself working with one time enemy and top-notch attorney Honey “Money” Chandler. Meanwhile, Bosch's daughter Maddie is venturing into the world of the LAPD.",
+      "description": "The detectives of the Organized Crime Control Bureau work to dismantle New York City's most vicious and violent illegal enterprises.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14168162"
+      "releaseInfo": "2021",
+      "imdb_id": "tt12677870"
     },
     {
       "id": "tt15837600",
@@ -128,18 +128,18 @@
       "imdb_id": "tt31849235"
     },
     {
-      "id": "tt12677870",
+      "id": "tt14192504",
       "type": "series",
-      "name": "Law & Order: Organized Crime",
-      "poster": "https://image.tmdb.org/t/p/w500/4AvB6Dg8eAbfWv5WOqzCCv2zS90.jpg",
+      "name": "We Own This City",
+      "poster": "https://image.tmdb.org/t/p/w500/qNOYmU6JYMeu2I0xOX9pgCBOBXi.jpg",
       "posterShape": "poster",
-      "description": "The detectives of the Organized Crime Control Bureau work to dismantle New York City's most vicious and violent illegal enterprises.",
+      "description": "The story of the rise and fall of the Baltimore Police Department's Gun Trace Task Force — and the corruption and moral collapse that befell an American city in which the policies of drug prohibition and mass arrest were championed at the expense of actual police work.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt12677870"
+      "releaseInfo": "2022",
+      "imdb_id": "tt14192504"
     },
     {
       "id": "tt11761194",
@@ -170,18 +170,18 @@
       "imdb_id": "tt0979432"
     },
     {
-      "id": "tt14192504",
+      "id": "tt4301160",
       "type": "series",
-      "name": "We Own This City",
-      "poster": "https://image.tmdb.org/t/p/w500/qNOYmU6JYMeu2I0xOX9pgCBOBXi.jpg",
+      "name": "Black Bird",
+      "poster": "https://image.tmdb.org/t/p/w500/qu312pwM61NPTr7nexvovCClDNP.jpg",
       "posterShape": "poster",
-      "description": "The story of the rise and fall of the Baltimore Police Department's Gun Trace Task Force — and the corruption and moral collapse that befell an American city in which the policies of drug prohibition and mass arrest were championed at the expense of actual police work.",
+      "description": "As Jimmy Keene begins a 10-year prison sentence, he gets an incredible offer: If he can elicit a confession from suspected killer Larry Hall, Jimmy will be freed. Completing this mission becomes the challenge of a lifetime.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt14192504"
+      "imdb_id": "tt4301160"
     },
     {
       "id": "tt23729238",
@@ -212,33 +212,18 @@
       "imdb_id": "tt2442560"
     },
     {
-      "id": "tt4301160",
+      "id": "tt36303968",
       "type": "series",
-      "name": "Black Bird",
-      "poster": "https://image.tmdb.org/t/p/w500/qu312pwM61NPTr7nexvovCClDNP.jpg",
+      "name": "Furious",
+      "poster": "https://image.tmdb.org/t/p/w500/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg",
       "posterShape": "poster",
-      "description": "As Jimmy Keene begins a 10-year prison sentence, he gets an incredible offer: If he can elicit a confession from suspected killer Larry Hall, Jimmy will be freed. Completing this mission becomes the challenge of a lifetime.",
+      "description": "FBI agent Alice Black is on the hunt for a mysterious and calculating female serial killer. Both walk their own paths toward justice, and as their lives start to intertwine, the line between right and wrong begins to blur.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt4301160"
-    },
-    {
-      "id": "tt18923754",
-      "type": "series",
-      "name": "Daredevil: Born Again",
-      "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-      "posterShape": "poster",
-      "description": "Matt Murdock, a blind lawyer with heightened abilities, is fighting for justice through his bustling law firm, while former mob boss Wilson Fisk pursues his own political endeavors in New York. When their past identities begin to emerge, both men find themselves on an inevitable collision course.",
-      "genres": [
-        "Drama",
-        "Action & Adventure",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt18923754"
+      "releaseInfo": "2026",
+      "imdb_id": "tt36303968"
     },
     {
       "id": "tt3281796",
@@ -255,20 +240,6 @@
       "imdb_id": "tt3281796"
     },
     {
-      "id": "tt36303968",
-      "type": "series",
-      "name": "Furious",
-      "poster": "https://image.tmdb.org/t/p/w500/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg",
-      "posterShape": "poster",
-      "description": "FBI agent Alice Black is on the hunt for a mysterious and calculating female serial killer. Both walk their own paths toward justice, and as their lives start to intertwine, the line between right and wrong begins to blur.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36303968"
-    },
-    {
       "id": "tt5715524",
       "type": "series",
       "name": "Mayans M.C.",
@@ -281,6 +252,34 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt5715524"
+    },
+    {
+      "id": "tt13875494",
+      "type": "series",
+      "name": "Tracker",
+      "poster": "https://image.tmdb.org/t/p/w500/otula4h1ITZ0eV84eg7Lb8u614C.jpg",
+      "posterShape": "poster",
+      "description": "Lone-wolf survivalist Colter Shaw roams the country as a “reward seeker,” using his expert tracking skills to help private citizens and law enforcement solve all manner of mysteries while contending with his own fractured family.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt13875494"
+    },
+    {
+      "id": "tt2707408",
+      "type": "series",
+      "name": "Narcos",
+      "poster": "https://image.tmdb.org/t/p/w500/rTmal9fDbwh5F0waol2hq35U4ah.jpg",
+      "posterShape": "poster",
+      "description": "A gritty chronicle of the war against Colombia's infamously violent and powerful drug cartels.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt2707408"
     }
   ]
 }

@@ -1,34 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt2707408",
-      "type": "series",
-      "name": "Narcos",
-      "poster": "https://image.tmdb.org/t/p/w500/rTmal9fDbwh5F0waol2hq35U4ah.jpg",
-      "posterShape": "poster",
-      "description": "A gritty chronicle of the war against Colombia's infamously violent and powerful drug cartels.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt2707408"
-    },
-    {
-      "id": "tt13875494",
-      "type": "series",
-      "name": "Tracker",
-      "poster": "https://image.tmdb.org/t/p/w500/otula4h1ITZ0eV84eg7Lb8u614C.jpg",
-      "posterShape": "poster",
-      "description": "Lone-wolf survivalist Colter Shaw roams the country as a “reward seeker,” using his expert tracking skills to help private citizens and law enforcement solve all manner of mysteries while contending with his own fractured family.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt13875494"
-    },
-    {
       "id": "tt8714904",
       "type": "series",
       "name": "Narcos: Mexico",
@@ -41,21 +13,6 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt8714904"
-    },
-    {
-      "id": "tt10399902",
-      "type": "series",
-      "name": "Boy Swallows Universe",
-      "poster": "https://image.tmdb.org/t/p/w500/nb0ek7qonE0YkyaB4dsAw5J9NoH.jpg",
-      "posterShape": "poster",
-      "description": "A young boy growing up in the suburbs of 1980s Brisbane faces the harsh realities of life — and the looming dangers that threaten his family.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt10399902"
     },
     {
       "id": "tt9742936",
@@ -86,18 +43,18 @@
       "imdb_id": "tt5028002"
     },
     {
-      "id": "tt6271042",
+      "id": "tt6423364",
       "type": "series",
-      "name": "McMafia",
-      "poster": "https://image.tmdb.org/t/p/w500/jdt7RFfVCGWrNnrxeQ0Us9kGhJu.jpg",
+      "name": "Bad Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/ukrAdTtJHHEaDRUJmi4XYwBUpRu.jpg",
       "posterShape": "poster",
-      "description": "Alex Godman, the English-raised son of Russian mafia exiles, has spent his life trying to escape the shadow of their past, building his own legitimate business and forging a life with his girlfriend Rebecca. But when a murder forces his family's past to return to threaten them, Alex is drawn into the criminal underworld and must confront his values to protect those he loves.",
+      "description": "A dramatization of the life and death of Montreal mob boss Vito Rizzuto.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6271042"
+      "releaseInfo": "2017",
+      "imdb_id": "tt6423364"
     },
     {
       "id": "tt34866681",
@@ -114,18 +71,18 @@
       "imdb_id": "tt34866681"
     },
     {
-      "id": "tt6423364",
+      "id": "tt6271042",
       "type": "series",
-      "name": "Bad Blood",
-      "poster": "https://image.tmdb.org/t/p/w500/ukrAdTtJHHEaDRUJmi4XYwBUpRu.jpg",
+      "name": "McMafia",
+      "poster": "https://image.tmdb.org/t/p/w500/jdt7RFfVCGWrNnrxeQ0Us9kGhJu.jpg",
       "posterShape": "poster",
-      "description": "A dramatization of the life and death of Montreal mob boss Vito Rizzuto.",
+      "description": "Alex Godman, the English-raised son of Russian mafia exiles, has spent his life trying to escape the shadow of their past, building his own legitimate business and forging a life with his girlfriend Rebecca. But when a murder forces his family's past to return to threaten them, Alex is drawn into the criminal underworld and must confront his values to protect those he loves.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt6423364"
+      "releaseInfo": "2018",
+      "imdb_id": "tt6271042"
     },
     {
       "id": "tt8080122",
@@ -227,18 +184,19 @@
       "imdb_id": "tt6474378"
     },
     {
-      "id": "tt34675596",
+      "id": "tt2077823",
       "type": "series",
-      "name": "Cape Fear",
-      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
+      "name": "Perry Mason",
+      "poster": "https://image.tmdb.org/t/p/w500/5QcaEyfSbJEmiaxf7ch8nBl0GO4.jpg",
       "posterShape": "poster",
-      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
+      "description": "Set in 1932 Los Angeles, the series focuses on the origin story of famed defense lawyer Perry Mason. Living check-to-check as a low-rent private investigator, Mason is haunted by his wartime experiences in France and suffering the effects of a broken marriage. L.A. is booming while the rest of the country recovers from the Great Depression — but a kidnapping gone very wrong leads to Mason exposing a fractured city as he uncovers the truth of the crime.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Mystery",
+        "Crime"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34675596"
+      "releaseInfo": "2020",
+      "imdb_id": "tt2077823"
     },
     {
       "id": "tt1064899",
@@ -267,6 +225,48 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt6517320"
+    },
+    {
+      "id": "tt34675596",
+      "type": "series",
+      "name": "Cape Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
+      "posterShape": "poster",
+      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34675596"
+    },
+    {
+      "id": "tt3032476",
+      "type": "series",
+      "name": "Better Call Saul",
+      "poster": "https://image.tmdb.org/t/p/w500/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
+      "posterShape": "poster",
+      "description": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is “fixer” Mike Ehrmantraut. The series tracks Jimmy’s transformation into Saul Goodman, the man who puts “criminal” in “criminal lawyer\".",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt3032476"
+    },
+    {
+      "id": "tt5011816",
+      "type": "series",
+      "name": "Sneaky Pete",
+      "poster": "https://image.tmdb.org/t/p/w500/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
+      "posterShape": "poster",
+      "description": "A con man on the run from a vicious gangster takes cover from his past by assuming the identity of his prison cellmate, Pete, “reuniting” with Pete’s estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he’s trying to escape - and, just maybe, give him a taste of the loving family he’s never had.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt5011816"
     },
     {
       "id": "tt14507354",

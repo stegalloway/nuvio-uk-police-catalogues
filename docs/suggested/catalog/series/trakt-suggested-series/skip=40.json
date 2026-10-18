@@ -1,47 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt3032476",
+      "id": "tt0903747",
       "type": "series",
-      "name": "Better Call Saul",
-      "poster": "https://image.tmdb.org/t/p/w500/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
+      "name": "Breaking Bad",
+      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
       "posterShape": "poster",
-      "description": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is “fixer” Mike Ehrmantraut. The series tracks Jimmy’s transformation into Saul Goodman, the man who puts “criminal” in “criminal lawyer\".",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt3032476"
-    },
-    {
-      "id": "tt5011816",
-      "type": "series",
-      "name": "Sneaky Pete",
-      "poster": "https://image.tmdb.org/t/p/w500/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
-      "posterShape": "poster",
-      "description": "A con man on the run from a vicious gangster takes cover from his past by assuming the identity of his prison cellmate, Pete, “reuniting” with Pete’s estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he’s trying to escape - and, just maybe, give him a taste of the loving family he’s never had.",
+      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt5011816"
-    },
-    {
-      "id": "tt2077823",
-      "type": "series",
-      "name": "Perry Mason",
-      "poster": "https://image.tmdb.org/t/p/w500/5QcaEyfSbJEmiaxf7ch8nBl0GO4.jpg",
-      "posterShape": "poster",
-      "description": "Set in 1932 Los Angeles, the series focuses on the origin story of famed defense lawyer Perry Mason. Living check-to-check as a low-rent private investigator, Mason is haunted by his wartime experiences in France and suffering the effects of a broken marriage. L.A. is booming while the rest of the country recovers from the Great Depression — but a kidnapping gone very wrong leads to Mason exposing a fractured city as he uncovers the truth of the crime.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt2077823"
+      "releaseInfo": "2008",
+      "imdb_id": "tt0903747"
     },
     {
       "id": "tt0141842",
@@ -58,6 +29,20 @@
       "imdb_id": "tt0141842"
     },
     {
+      "id": "tt30459041",
+      "type": "series",
+      "name": "Your Friends & Neighbors",
+      "poster": "https://image.tmdb.org/t/p/w500/lcp63INKEsVHUly9eayx7gEEOcG.jpg",
+      "posterShape": "poster",
+      "description": "When a financial titan suddenly finds himself divorced and jobless, he starts robbing his wealthy neighbors to stay afloat. Stealing from his own social circle strangely exhilarates him—but he gradually gets tangled in a deadly web.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt30459041"
+    },
+    {
       "id": "tt0118381",
       "type": "series",
       "name": "The Last Don",
@@ -70,34 +55,6 @@
       ],
       "releaseInfo": "1997",
       "imdb_id": "tt0118381"
-    },
-    {
-      "id": "tt27954448",
-      "type": "series",
-      "name": "Law & Order Toronto: Criminal Intent",
-      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
-      "posterShape": "poster",
-      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt27954448"
-    },
-    {
-      "id": "tt1625724",
-      "type": "series",
-      "name": "Love/Hate",
-      "poster": "https://image.tmdb.org/t/p/w500/oLnOU5wYp7I6egnI6lzAIWOqS1D.jpg",
-      "posterShape": "poster",
-      "description": "Modern-day underworld characters Nidge and John Boy wrestle for control of Dublin's illicit drug trade in this forceful crime drama.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1625724"
     },
     {
       "id": "tt0052522",
@@ -114,19 +71,18 @@
       "imdb_id": "tt0052522"
     },
     {
-      "id": "tt5611024",
+      "id": "tt27954448",
       "type": "series",
-      "name": "Fool Me Once",
-      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "name": "Law & Order Toronto: Criminal Intent",
+      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
       "posterShape": "poster",
-      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
       "genres": [
-        "Drama",
         "Crime",
-        "Mystery"
+        "Drama"
       ],
       "releaseInfo": "2024",
-      "imdb_id": "tt5611024"
+      "imdb_id": "tt27954448"
     },
     {
       "id": "tt1958961",
@@ -188,6 +144,21 @@
       "imdb_id": "tt31314754"
     },
     {
+      "id": "tt5611024",
+      "type": "series",
+      "name": "Fool Me Once",
+      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "posterShape": "poster",
+      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt5611024"
+    },
+    {
       "id": "tt36849871",
       "type": "series",
       "name": "Marshals",
@@ -203,20 +174,6 @@
       "imdb_id": "tt36849871"
     },
     {
-      "id": "tt13138834",
-      "type": "series",
-      "name": "Time",
-      "poster": "https://image.tmdb.org/t/p/w500/mhi7oohUBIufTjF9u41uMXYHsw2.jpg",
-      "posterShape": "poster",
-      "description": "Guilt, violence and impossible choices – what does it take to survive? Tense, gritty and heartbreaking – Jimmy McGovern's award-winning prison drama, with an all-star cast.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt13138834"
-    },
-    {
       "id": "tt32559610",
       "type": "series",
       "name": "Countdown",
@@ -229,6 +186,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt32559610"
+    },
+    {
+      "id": "tt13138834",
+      "type": "series",
+      "name": "Time",
+      "poster": "https://image.tmdb.org/t/p/w500/mhi7oohUBIufTjF9u41uMXYHsw2.jpg",
+      "posterShape": "poster",
+      "description": "Guilt, violence and impossible choices – what does it take to survive? Tense, gritty and heartbreaking – Jimmy McGovern's award-winning prison drama, with an all-star cast.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt13138834"
     },
     {
       "id": "tt21906554",
@@ -273,6 +244,21 @@
       "imdb_id": "tt15568702"
     },
     {
+      "id": "tt4276618",
+      "type": "series",
+      "name": "Strike",
+      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
+      "posterShape": "poster",
+      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt4276618"
+    },
+    {
       "id": "tt2805096",
       "type": "series",
       "name": "Chicago P.D.",
@@ -285,6 +271,20 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt2805096"
+    },
+    {
+      "id": "tt7950706",
+      "type": "series",
+      "name": "Leonardo",
+      "poster": "https://image.tmdb.org/t/p/w500/t19XDd3pLIsBGcIsG83IcEVQhr9.jpg",
+      "posterShape": "poster",
+      "description": "A fresh look at the life and legacy of the iconic artist Leonardo da Vinci, positing that he was a gay outsider who used his work as a way of hiding his true self. Each episode will examine one of da Vinci’s artworks for hidden clues about a tortured artist struggling for perfection.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt7950706"
     }
   ]
 }

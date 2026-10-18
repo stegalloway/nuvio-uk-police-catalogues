@@ -76,22 +76,6 @@
       "imdb_id": "tt0114369"
     },
     {
-      "id": "tt0117774",
-      "type": "movie",
-      "name": "The Substitute",
-      "poster": "https://image.tmdb.org/t/p/w500/7vfzvhPMNauUXrVxVOPEfpOsful.jpg",
-      "posterShape": "poster",
-      "description": "When an inner-city Miami schoolteacher gets her knee broken after standing up to the school's gang leader, her mercenary combat specialist boyfriend goes undercover as a substitute teacher to take down the punk. Soon he discovers a conspiracy of criminals at work, and must reassemble his team from his last jungle raid to stop them.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "1996",
-      "imdb_id": "tt0117774"
-    },
-    {
       "id": "tt0110912",
       "type": "movie",
       "name": "Pulp Fiction",
