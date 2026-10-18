@@ -1,19 +1,107 @@
 {
   "metas": [
     {
-      "id": "tt0166924",
+      "id": "tt4550098",
       "type": "movie",
-      "name": "Mulholland Drive",
-      "poster": "https://image.tmdb.org/t/p/w500/x7A59t6ySylr1L7aubOQEA480vM.jpg",
+      "name": "Nocturnal Animals",
+      "poster": "https://image.tmdb.org/t/p/w500/mdLDgQBD0va09npSQX5Zgo2evXM.jpg",
       "posterShape": "poster",
-      "description": "Blonde Betty Elms has only just arrived in Hollywood to become a movie star when she meets an enigmatic brunette with amnesia. Meanwhile, as the two set off to solve the second woman's identity, filmmaker Adam Kesher runs into ominous trouble while casting his latest project.",
+      "description": "Susan Morrow receives a book manuscript from her ex-husband – a man she left 20 years earlier – asking for her opinion of his writing. As she reads, she is drawn into the fictional life of Tony Hastings, a mathematics professor whose family vacation turns violent.",
       "genres": [
-        "Thriller",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt4550098"
+    },
+    {
+      "id": "tt0443706",
+      "type": "movie",
+      "name": "Zodiac",
+      "poster": "https://image.tmdb.org/t/p/w500/6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+      "posterShape": "poster",
+      "description": "Police conduct a manhunt for the Zodiac Killer, a serial killer who terrorized the San Francisco Bay Area during the late 1960s and early 1970s, taunting police with letters, bloodstained clothing, and ciphers mailed to newspapers.",
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0443706"
+    },
+    {
+      "id": "tt0095016",
+      "type": "movie",
+      "name": "Die Hard",
+      "poster": "https://image.tmdb.org/t/p/w500/7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg",
+      "posterShape": "poster",
+      "description": "High above the city of L.A. a team of terrorists has seized a building, taken hostages, and declared war. One man has manages to escape... An off-duty cop hiding somewhere inside. He's alone, tired... and the only chance anyone has got.",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "1988",
+      "imdb_id": "tt0095016"
+    },
+    {
+      "id": "tt27550504",
+      "type": "movie",
+      "name": "Plainclothes",
+      "poster": "https://image.tmdb.org/t/p/w500/bT5QN5QARV5TblAt9jDVQQsnSec.jpg",
+      "posterShape": "poster",
+      "description": "In 1990s New York, an undercover police officer receives an assignment to lure and arrest gay men. However, he's surprised to discover a scintillating connection with one of his targets. As their secret connection deepens and internal pressure to deliver arrests intensifies, he finds himself torn between duty and desire.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt27550504"
+    },
+    {
+      "id": "tt33100314",
+      "type": "movie",
+      "name": "Remarkably Bright Creatures",
+      "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+      "posterShape": "poster",
+      "description": "Through unlikely bonds formed during night shifts at a local aquarium, Tova, an elderly widow, learns of a life-changing discovery that may bring her joy and wonder once again.",
+      "genres": [
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2001",
-      "imdb_id": "tt0166924"
+      "releaseInfo": "2026",
+      "imdb_id": "tt33100314"
+    },
+    {
+      "id": "tt1130884",
+      "type": "movie",
+      "name": "Shutter Island",
+      "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+      "posterShape": "poster",
+      "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1130884"
+    },
+    {
+      "id": "tt33057137",
+      "type": "movie",
+      "name": "Prisoner of War",
+      "poster": "https://image.tmdb.org/t/p/w500/uHNuUIdF35dRSLQQ5Ej0aOhmvB3.jpg",
+      "posterShape": "poster",
+      "description": "British RAF Wing Commander James Wright is captured by the Japanese during WWII and forced to fight in brutal hand-to-hand combat. The Japanese soldiers get more than they bargained for when Wright’s years of martial arts training in Hong Kong prove him to be a formidable opponent.",
+      "genres": [
+        "Action",
+        "War",
+        "Thriller",
+        "History"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt33057137"
     }
   ]
 }

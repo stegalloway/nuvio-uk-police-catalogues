@@ -72,48 +72,6 @@
       "imdb_id": "tt15435876"
     },
     {
-      "id": "tt3850598",
-      "type": "series",
-      "name": "BMF",
-      "poster": "https://image.tmdb.org/t/p/w500/5gUlUufL3fom30qxKawwlWuD7kC.jpg",
-      "posterShape": "poster",
-      "description": "The drug trafficking drama is inspired by the true story of two brothers who rose from the decaying streets of southwest Detroit in the late 1980s and gave birth to one of the most influential crime families in the country. It revolves around brothers Demetrius \"Big Meech\" Flenory and Terry \"Southwest T\" Flenory, who together took their vision beyond the drug trade and into the world of hip-hop. The drama, per Starz, will tell a story about love, family and capitalism in the pursuit of the American dream.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt3850598"
-    },
-    {
-      "id": "tt14192504",
-      "type": "series",
-      "name": "We Own This City",
-      "poster": "https://image.tmdb.org/t/p/w500/qNOYmU6JYMeu2I0xOX9pgCBOBXi.jpg",
-      "posterShape": "poster",
-      "description": "The story of the rise and fall of the Baltimore Police Department's Gun Trace Task Force — and the corruption and moral collapse that befell an American city in which the policies of drug prohibition and mass arrest were championed at the expense of actual police work.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14192504"
-    },
-    {
-      "id": "tt15837600",
-      "type": "series",
-      "name": "Griselda",
-      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
-      "posterShape": "poster",
-      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15837600"
-    },
-    {
       "id": "tt31849235",
       "type": "series",
       "name": "The Westies",
@@ -126,48 +84,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt31849235"
-    },
-    {
-      "id": "tt4301160",
-      "type": "series",
-      "name": "Black Bird",
-      "poster": "https://image.tmdb.org/t/p/w500/qu312pwM61NPTr7nexvovCClDNP.jpg",
-      "posterShape": "poster",
-      "description": "As Jimmy Keene begins a 10-year prison sentence, he gets an incredible offer: If he can elicit a confession from suspected killer Larry Hall, Jimmy will be freed. Completing this mission becomes the challenge of a lifetime.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt4301160"
-    },
-    {
-      "id": "tt11761194",
-      "type": "series",
-      "name": "Power Book IV: Force",
-      "poster": "https://image.tmdb.org/t/p/w500/yzL4Tqbw2JA9MCsHJWFC4xV1IYU.jpg",
-      "posterShape": "poster",
-      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11761194"
-    },
-    {
-      "id": "tt23729238",
-      "type": "series",
-      "name": "Boat Story",
-      "poster": "https://image.tmdb.org/t/p/w500/gaSiJDRPSgVAUHcP8GRz0Tsw0HS.jpg",
-      "posterShape": "poster",
-      "description": "Two hard-up strangers stumble across a haul of cocaine on a shipwrecked boat. After agreeing to sell it and split the cash, they become entangled with police, masked hitmen, and a sharp-suited gangster known as 'The Tailor'.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt23729238"
     },
     {
       "id": "tt36303968",
@@ -184,6 +100,91 @@
       "imdb_id": "tt36303968"
     },
     {
+      "id": "tt3850598",
+      "type": "series",
+      "name": "BMF",
+      "poster": "https://image.tmdb.org/t/p/w500/5gUlUufL3fom30qxKawwlWuD7kC.jpg",
+      "posterShape": "poster",
+      "description": "The drug trafficking drama is inspired by the true story of two brothers who rose from the decaying streets of southwest Detroit in the late 1980s and gave birth to one of the most influential crime families in the country. It revolves around brothers Demetrius \"Big Meech\" Flenory and Terry \"Southwest T\" Flenory, who together took their vision beyond the drug trade and into the world of hip-hop. The drama, per Starz, will tell a story about love, family and capitalism in the pursuit of the American dream.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt3850598"
+    },
+    {
+      "id": "tt15837600",
+      "type": "series",
+      "name": "Griselda",
+      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
+      "posterShape": "poster",
+      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15837600"
+    },
+    {
+      "id": "tt34866681",
+      "type": "series",
+      "name": "Lucky",
+      "poster": "https://image.tmdb.org/t/p/w500/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
+      "posterShape": "poster",
+      "description": "When a multi-million-dollar heist goes sideways, con artist Lucky is forced to go on the run. Pursued by both the FBI and a ruthless crime boss, Lucky must fight for her life—and a way out.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34866681"
+    },
+    {
+      "id": "tt30460310",
+      "type": "series",
+      "name": "Spider-Noir",
+      "poster": "https://image.tmdb.org/t/p/w500/oD8WSVqz84ZRfelkr7JPeJwR9Iv.jpg",
+      "posterShape": "poster",
+      "description": "Ben Reilly, an aging and down on his luck private investigator in 1930s New York, is forced to grapple with his past life as the city's one and only superhero.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt30460310"
+    },
+    {
+      "id": "tt11761194",
+      "type": "series",
+      "name": "Power Book IV: Force",
+      "poster": "https://image.tmdb.org/t/p/w500/yzL4Tqbw2JA9MCsHJWFC4xV1IYU.jpg",
+      "posterShape": "poster",
+      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11761194"
+    },
+    {
+      "id": "tt14192504",
+      "type": "series",
+      "name": "We Own This City",
+      "poster": "https://image.tmdb.org/t/p/w500/qNOYmU6JYMeu2I0xOX9pgCBOBXi.jpg",
+      "posterShape": "poster",
+      "description": "The story of the rise and fall of the Baltimore Police Department's Gun Trace Task Force — and the corruption and moral collapse that befell an American city in which the policies of drug prohibition and mass arrest were championed at the expense of actual police work.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14192504"
+    },
+    {
       "id": "tt0979432",
       "type": "series",
       "name": "Boardwalk Empire",
@@ -196,6 +197,34 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt0979432"
+    },
+    {
+      "id": "tt23729238",
+      "type": "series",
+      "name": "Boat Story",
+      "poster": "https://image.tmdb.org/t/p/w500/gaSiJDRPSgVAUHcP8GRz0Tsw0HS.jpg",
+      "posterShape": "poster",
+      "description": "Two hard-up strangers stumble across a haul of cocaine on a shipwrecked boat. After agreeing to sell it and split the cash, they become entangled with police, masked hitmen, and a sharp-suited gangster known as 'The Tailor'.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt23729238"
+    },
+    {
+      "id": "tt4301160",
+      "type": "series",
+      "name": "Black Bird",
+      "poster": "https://image.tmdb.org/t/p/w500/qu312pwM61NPTr7nexvovCClDNP.jpg",
+      "posterShape": "poster",
+      "description": "As Jimmy Keene begins a 10-year prison sentence, he gets an incredible offer: If he can elicit a confession from suspected killer Larry Hall, Jimmy will be freed. Completing this mission becomes the challenge of a lifetime.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt4301160"
     },
     {
       "id": "tt2442560",
@@ -212,20 +241,6 @@
       "imdb_id": "tt2442560"
     },
     {
-      "id": "tt13875494",
-      "type": "series",
-      "name": "Tracker",
-      "poster": "https://image.tmdb.org/t/p/w500/otula4h1ITZ0eV84eg7Lb8u614C.jpg",
-      "posterShape": "poster",
-      "description": "Lone-wolf survivalist Colter Shaw roams the country as a “reward seeker,” using his expert tracking skills to help private citizens and law enforcement solve all manner of mysteries while contending with his own fractured family.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt13875494"
-    },
-    {
       "id": "tt3281796",
       "type": "series",
       "name": "Power",
@@ -240,6 +255,20 @@
       "imdb_id": "tt3281796"
     },
     {
+      "id": "tt13875494",
+      "type": "series",
+      "name": "Tracker",
+      "poster": "https://image.tmdb.org/t/p/w500/otula4h1ITZ0eV84eg7Lb8u614C.jpg",
+      "posterShape": "poster",
+      "description": "Lone-wolf survivalist Colter Shaw roams the country as a “reward seeker,” using his expert tracking skills to help private citizens and law enforcement solve all manner of mysteries while contending with his own fractured family.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt13875494"
+    },
+    {
       "id": "tt5715524",
       "type": "series",
       "name": "Mayans M.C.",
@@ -252,34 +281,6 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt5715524"
-    },
-    {
-      "id": "tt9742936",
-      "type": "series",
-      "name": "FBI: Most Wanted",
-      "poster": "https://image.tmdb.org/t/p/w500/uwTNBqFrEur3EtK8ofWbtGXMQOP.jpg",
-      "posterShape": "poster",
-      "description": "The Fugitive Task Force relentlessly tracks and captures the notorious criminals on the Bureau's Most Wanted list. Seasoned agents oversee the highly skilled team that functions as a mobile undercover unit that is always out in the field, pursuing those who are most desperate to elude justice.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9742936"
-    },
-    {
-      "id": "tt2707408",
-      "type": "series",
-      "name": "Narcos",
-      "poster": "https://image.tmdb.org/t/p/w500/rTmal9fDbwh5F0waol2hq35U4ah.jpg",
-      "posterShape": "poster",
-      "description": "A gritty chronicle of the war against Colombia's infamously violent and powerful drug cartels.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt2707408"
     }
   ]
 }
