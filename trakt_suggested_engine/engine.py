@@ -6,7 +6,10 @@ This is a Watchly-based custom generator, not an authenticated Watchly client.
 The upstream algorithm provides history weighting, profile construction,
 candidate discovery and scoring. This module adds Ste's existing catalogue
 gates, metadata-based organised-crime priority, a varied series mix, actual
-watched-only exclusion and episode-aware reintroduction of later seasons.
+watched-only exclusion and episode-aware reintroduction of later seasons. It
+also reproduces the TMDB Discover queries behind the "For Ste" (For You) rows
+as one more candidate source, ranked by the same weighting plus a small,
+title-blind release-recency term.
 
 No title or title ID is pinned, blocked or treated as a special case. No account
 data, keys, files or network are read or written by this module. The caller owns
@@ -17,7 +20,7 @@ from __future__ import annotations
 
 from collections import defaultdict
 from dataclasses import asdict, dataclass
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 import math
 import re
 from typing import Any, Callable, Iterable, Mapping, Sequence
@@ -28,6 +31,7 @@ from .returning_base import SeasonPremiere, WatchState, route_title
 
 CATALOGUE_IDS = {"series": "trakt-suggested-series", "movie": "trakt-suggested-movies"}
 CATALOGUE_NAMES = {"series": "Trakt Suggested Series", "movie": "Trakt Suggested Movies"}
+FOR_YOU_SOURCE = "for_you_discover"
 
 
 @dataclass(frozen=True)
@@ -41,6 +45,52 @@ class EngineConfig:
     top_seed_count: int = 15
     thematic_seed_count: int = 4
     metadata_language: str = "en-GB"
+    # Two 20-title TMDB pages: the depth of the For You rows as shown and measured.
+    for_you_pages: int = 2
+    # Added to every card's score, source-blind: weight * 0.5 ** (age / half-life).
+    # A same-day release gains 0.20, two months 0.10, six months 0.025.
+    freshness_weight: float = 0.20
+    freshness_half_life_days: float = 60.0
+
+
+def for_you_queries(kind: str, now: datetime, pages: int) -> list[dict]:
+    """TMDB Discover parameters behind the For You rows, one dict per page.
+
+    Recovered from the saved TMDB Discover+ catalogues "For Ste - Crime &
+    Thriller Movies" (tmdb-d4aecde5-...) and "For Ste - Crime & Mystery Series"
+    (tmdb-c91b0ae8-...), translated exactly as Discover+ discover() does:
+    'any' genres join with '|', releasedOnly adds digital release type 4 (films)
+    or statuses 0|3|4|5 (series) and a release/first-air date on or before
+    today (UTC). The metadata adapter adds language=en-GB, the Discover+
+    config's defaultLanguage. No AIO or Discover+ URL is contacted.
+    """
+    today = now.date().isoformat()
+    if kind == "movie":
+        base = {"sort_by": "primary_release_date.desc", "include_adult": "false",
+                "include_video": "false", "vote_count.gte": 100, "vote_average.gte": 7,
+                "with_genres": "80|53|9648", "without_genres": "16|27|14|878|10751",
+                "with_original_language": "en", "include_image_language": "en-GB,null",
+                "with_release_type": "4", "primary_release_date.lte": today}
+    elif kind == "series":
+        base = {"sort_by": "first_air_date.desc", "include_adult": "false",
+                "vote_count.gte": 30, "vote_average.gte": 7,
+                "with_genres": "80|9648",
+                "without_genres": "16|99|10762|10763|10764|10765|10766|10767",
+                "with_original_language": "en", "include_image_language": "en-GB,null",
+                "with_status": "0|3|4|5", "first_air_date.lte": today}
+    else:
+        raise ValueError("kind must be movie or series")
+    return [dict(base, page=page) for page in range(1, max(0, pages) + 1)]
+
+
+def freshness(release: Any, now: datetime, half_life_days: float) -> float:
+    """1.0 on release day, halving every half_life_days; 0 if unknown or future."""
+    try:
+        released = date.fromisoformat(str(release or "")[:10])
+    except ValueError:
+        return 0.
+    age = (now.date() - released).days
+    return 0. if age < 0 or half_life_days <= 0 else .5 ** (age / half_life_days)
 
 
 class GenerationError(RuntimeError):
@@ -395,6 +445,8 @@ def generate_catalogues(
         raise ValueError("Invalid catalogue/minimum item limit")
     if config.candidate_enrichment_limit < config.catalogue_limit:
         raise ValueError("candidate_enrichment_limit must cover catalogue_limit")
+    if config.for_you_pages < 0 or config.freshness_weight < 0 or config.freshness_half_life_days <= 0:
+        raise ValueError("Invalid For You page count or freshness weighting")
     for name, value in (("watched_movies", watched_movies), ("watched_shows", watched_shows),
                         ("rated_movies", rated_movies), ("rated_shows", rated_shows),
                         ("watched_episode_history", watched_episode_history)):
@@ -467,6 +519,16 @@ def generate_catalogues(
         queries = [dict(query, include_adult="false") for query in queries]
         for rows in runner._map(lambda q: w._rows(runner._call("discover", media, q)), queries):
             merge(rows, "history_profile_discovery")
+        # The For You rows' own query, as a candidate source only: its date
+        # order is kept for diagnostics, never used as a position.
+        for_you_rank = {}
+        for rows in runner._map(lambda q: w._rows(runner._call("discover", media, q)),
+                                for_you_queries(kind, moment, config.for_you_pages)):
+            for raw in rows:
+                tid = w._int(raw.get("id"))
+                if tid and tid not in for_you_rank:
+                    for_you_rank[tid] = len(for_you_rank) + 1
+            merge(rows, FOR_YOU_SOURCE)
         preliminary = []
         for raw in candidates.values():
             score, _ = w.score_candidate(raw, normalised, media)
@@ -480,12 +542,21 @@ def generate_catalogues(
         selected, selected_ids = [], set()
         thematic_candidates = [r for _, r in preliminary if "organised_crime_history_recommendation" in origins[r["id"]]]
         for raw in thematic_candidates[:config.candidate_enrichment_limit // 3] + [r for _, r in preliminary]:
-            if raw["id"] not in selected_ids:
+            # For You-only titles are enriched below, outside this budget, so
+            # they never displace a history candidate from enrichment.
+            if raw["id"] not in selected_ids and origins[raw["id"]] != {FOR_YOU_SOURCE}:
                 selected.append(raw)
                 selected_ids.add(raw["id"])
             if len(selected) >= config.candidate_enrichment_limit:
                 break
-        cards = []
+        # For You adds at most 20 * for_you_pages titles. Enrich all of them on
+        # top of the unchanged history pool, so sparse raw discover rows are not
+        # dropped before the custom weighting sees their keywords and credits.
+        for raw in (r for _, r in preliminary if FOR_YOU_SOURCE in origins[r["id"]]):
+            if raw["id"] not in selected_ids:
+                selected.append(raw)
+                selected_ids.add(raw["id"])
+        cards, watched_by_imdb = [], set()
         for raw, detail in runner._map(lambda r: (r, runner._details(r["id"], media)), selected):
             if not detail:
                 continue
@@ -493,7 +564,10 @@ def generate_catalogues(
             imdb = (detail.get("external_ids") or {}).get("imdb_id") or detail.get("imdb_id")
             if not isinstance(imdb, str) or not re.fullmatch(r"tt[0-9]+", imdb):
                 continue
-            if imdb in watched_imdb or not _eligible(combined, policy, moment):
+            if imdb in watched_imdb:
+                watched_by_imdb.add(raw["id"])
+                continue
+            if not _eligible(combined, policy, moment):
                 continue
             poster = _safe_poster(detail.get("poster_path") or raw.get("poster_path"))
             if not poster:
@@ -504,6 +578,8 @@ def generate_catalogues(
             score, parts = w.score_candidate(combined, normalised, media)
             card.update(poster=poster, profile_score=score, profile_score_parts=parts,
                         theme=thematic_signals(detail), candidate_sources=sorted(origins[raw["id"]]))
+            if raw["id"] in for_you_rank:
+                card["for_you_rank"] = for_you_rank[raw["id"]]
             cards.append(card)
         profile_values = _normalise([c["profile_score"] for c in cards])
         for card, normalised_score in zip(cards, profile_values):
@@ -515,6 +591,11 @@ def generate_catalogues(
                     + .08 * theme["investigation"] + .02 * int(theme["british_or_irish"]))
             else:
                 card["suggested_score"] = normalised_score
+            # Recency replaces For You's pure date order. It depends only on the
+            # release date, so every source's titles are treated alike.
+            card["freshness"] = round(freshness(card.get("release_date"), moment,
+                                                config.freshness_half_life_days), 4)
+            card["suggested_score"] += config.freshness_weight * card["freshness"]
         returning_diagnostics, returners, primary_prefix_count = [], [], 0
         if kind == "series":
             episodes = derive_episode_progress(watched_shows, watched_episode_history)
@@ -573,6 +654,12 @@ def generate_catalogues(
                        "candidate_count": len(candidates), "enriched_count": len(selected),
                        "eligible_discovery_count": len(cards), "returning_count": len(returners),
                        "primary_crime_prefix_count": primary_prefix_count,
+                       "for_you": {"returned_count": len(for_you_rank),
+                                   "watched_suppressed_count": len(set(for_you_rank) & (watched_tmdb | watched_by_imdb)),
+                                   "candidate_count": sum(FOR_YOU_SOURCE in o for o in origins.values()),
+                                   "eligible_card_count": sum("for_you_rank" in c for c in cards),
+                                   "positions": [{"id": c["id"], "position": i + 1, "for_you_rank": c["for_you_rank"]}
+                                                 for i, c in enumerate(ordered) if "for_you_rank" in c]},
                        "returning_decisions": returning_diagnostics,
                        "callback_counts": dict(runner.calls), "warnings": runner.warnings,
                        "selected_cards": ordered}

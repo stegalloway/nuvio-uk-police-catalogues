@@ -185,6 +185,22 @@ class PublicationContracts(unittest.TestCase):
                     publish_result(generated(40), target)
             self.assertEqual(bytes_snapshot(target), before)
 
+    def test_real_engine_with_for_you_source_publishes_only_public_fields(self):
+        from trakt_suggested_engine.test_engine import NOW, fixture_inputs, for_you_fixture_api
+        api, inputs = for_you_fixture_api(), fixture_inputs()
+        histories = dict(zip(INPUT_FILES, inputs))
+        with tempfile.TemporaryDirectory() as directory:
+            target = Path(directory) / "suggested"
+            diagnostics = Path(directory) / "private" / "diagnostics.json"
+            counts = generate_and_publish(histories, api, None, target, failures=SourceFailures(),
+                                          now=NOW, private_diagnostics=diagnostics)
+            self.assertEqual(validate_output(target), counts)
+            public = b"".join(bytes_snapshot(target).values())
+            for private in (b"for_you", b"freshness", b"candidate_sources", b"suggested_score"):
+                self.assertNotIn(private, public)
+            self.assertIn(b"tt300", public)
+            self.assertIn(b"for_you_rank", diagnostics.read_bytes())
+
     def test_private_diagnostics_cannot_be_written_elsewhere_under_pages_docs(self):
         with tempfile.TemporaryDirectory() as directory:
             target = Path(directory) / "docs/suggested"

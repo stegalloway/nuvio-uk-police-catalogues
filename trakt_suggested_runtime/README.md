@@ -27,6 +27,15 @@ The addon ID is `org.trakt.suggested.personal`. It supplies catalogue resources
 only. Row order and exact labels are `Trakt Suggested Series`, then
 `Trakt Suggested Movies`. The existing police manifest and output are untouched.
 
+Each row also merges the titles from the For You Home rows. The engine sends the
+same TMDB Discover queries as the "For Ste" TMDB Discover+ catalogues (two pages
+per type) through the existing TMDB client and cache. It never calls the
+Discover+ or AIO URLs, and no new secret is needed. Those queries carry today's
+date, so their cache entries renew daily. A failed For You request latches like
+any other source failure and retains the previous catalogues. The For You rows
+in AIO/Nuvio are not changed by this package. Retiring them is a separate
+manual step. See `trakt_suggested_engine/README.md` for ranking and recency.
+
 ## Complete inputs and last-good output
 
 Each scheduled generation retrieves full public watched-movie and watched-show
@@ -71,7 +80,10 @@ Credentials never form part of cached parameters. Default cache TTL is 12 hours;
 request; cache files use unique temporary names and atomic replacement.
 
 `--private-diagnostics PATH` is an explicit local-only option. Never put that file
-in the repository or include it in a commit. `--history-dir PATH` is an explicit
+in the repository or include it in a commit. Per row, it reports For You counts
+(`returned`, `watched_suppressed`, `candidate`, `eligible_card`) and each For You
+title's final position. The public pages never carry `for_you_rank`, `freshness`
+or source labels. `--history-dir PATH` is an explicit
 manual/offline option accepting the five filenames declared in `INPUT_FILES`.
 The scheduled workflow never uses snapshots. Cache, history and diagnostics paths
 under the Pages `docs/` tree are rejected.

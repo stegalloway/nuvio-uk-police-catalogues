@@ -33,6 +33,8 @@ movie_payload = result["catalogues"]["movie"]["payload"]
 
 TMDB paths are relative to `/3`, e.g. `/tv/123` or `/discover/movie`. The
 adapter appends `credits,keywords,external_ids` and requests English-GB metadata.
+Each run also sends the two For You Discover queries (see below) through the
+same `tmdb_fetch`; no extra credential or URL is needed.
 Trakt callbacks only receive `/shows/{trakt_id-or-slug-or-imdb}/seasons` with
 `{"extended": "episodes,full"}`. Credentials belong in callback request headers
 or URL construction, never in this package or public catalogue JSON.
@@ -78,6 +80,8 @@ the basis. This generator deliberately makes the following custom adaptations:
 - Rich candidate metadata is scored against the history profile. Series order
   uses 65% profile similarity, 25% criminal-led organised-crime preference, 8% investigation
   and a 2% British/Irish tie-break. This does not impose a UK-only filter.
+- Every card, from any source, then gains a release-recency term (see
+  "For You source and recency").
 - Up to four leading suggestions are reserved for British/Irish criminal-led
   organised-crime, gangland and crime-family stories, ranked by the real profile
   and thematic scores. No titles are pinned, and police-led stories do not
@@ -88,11 +92,51 @@ the basis. This generator deliberately makes the following custom adaptations:
 - After that prefix, the mix uses two wider gangster suggestions followed by
   one broader crime/investigation suggestion, repeating while both groups are available.
   An exhausted group is filled from the other group, without duplicate IDs.
-- Movies retain history-based relevance order after the same existing gates.
+- Movies retain history-based relevance order, plus the recency term, after the
+  same existing gates.
 
 Thematic weighting uses generic keyword descriptions such as "organized crime",
 "crime family", "gangster", "detective" and "missing person". Film/series display
 titles are not inspected to determine that weighting.
+
+## For You source and recency
+
+The two "For Ste" TMDB Discover+ catalogues behind the For You Home rows are
+reproduced as direct TMDB Discover queries (`for_you_queries`), so one row per
+type can carry both. Filters come from the saved Discover+ configuration,
+translated exactly as Discover+ `discover()` does:
+
+| Row | TMDB Discover parameters |
+| --- | --- |
+| Films (`tmdb-d4aecde5-...`) | `/discover/movie`, `sort_by=primary_release_date.desc`, `with_genres=80\|53\|9648`, `without_genres=16\|27\|14\|878\|10751`, `vote_average.gte=7`, `vote_count.gte=100`, `with_original_language=en`, `with_release_type=4`, `primary_release_date.lte=<today UTC>`, `include_adult=false`, `include_video=false`, `include_image_language=en-GB,null`, `language=en-GB` |
+| Series (`tmdb-c91b0ae8-...`) | `/discover/tv`, `sort_by=first_air_date.desc`, `with_genres=80\|9648`, `without_genres=16\|99\|10762\|10763\|10764\|10765\|10766\|10767`, `vote_average.gte=7`, `vote_count.gte=30`, `with_original_language=en`, `with_status=0\|3\|4\|5`, `first_air_date.lte=<today UTC>`, `include_adult=false`, `include_image_language=en-GB,null`, `language=en-GB` |
+
+`for_you_pages` (default 2, i.e. 40 titles per type, the depth of the For You
+rows) controls how many pages are read; 0 disables the source. On
+18 October 2026, page 1 of both queries matched the live Discover+ rows ID for
+ID and in the same order.
+
+These titles are candidates only. They pass the same watched-ID suppression
+(TMDB ID at merge, IMDb ID after enrichment), policy filters, poster and valid
+IMDb `tt` ID rules, and stable-ID deduplication as every other source.
+Overlaps keep both source labels. All For You titles are enriched outside the
+normal enrichment budget, so they never take a history candidate's slot (at
+most 20 extra detail requests per page). They are then scored with the same
+profile similarity, series theme weighting,
+British/Irish criminal-led prefix and 2:1 gangster/broader mix. No position is
+reserved for For You. Its own date order is kept only as a private
+`for_you_rank` diagnostic.
+
+Recency replaces For You's pure newest-first order with a bounded bonus. Every
+card, whatever its source, gains
+`freshness_weight * 0.5 ** (age_days / freshness_half_life_days)`, measured from
+the film release or series premiere date (defaults 0.20 and 60 days). A
+same-day release gains 0.20, two months 0.10, six months 0.025. Unknown or
+future dates gain 0. In the 18 October data, that is about the score gap
+between film positions 3 and 20. A well-matched new release can rise into view,
+but a weak match cannot overtake a strong history match. Returning seasons keep
+their own 30-day recency term. Series recency uses the premiere date, so a new
+season of an old show is handled only by the returning-season rule.
 
 ## Upstream attribution and licence
 
@@ -139,7 +183,11 @@ and at least the first two discovery choices. No third catalogue is generated.
 All posters are clean TMDB portrait images with `posterShape: "poster"`.
 No ratings overlays, episode stills, synthetic placeholder cards or error cards
 are emitted. Items without a usable portrait poster or a valid IMDb `tt` ID are
-omitted so the existing Nuvio/AIO metadata path can resolve them. Catalogue
+omitted so the existing Nuvio/AIO metadata path can resolve them. Keep this rule.
+TMDB splits anthologies such as Monster into one entry per story (e.g.
+`tmdb:299939`, The Lizzie Borden Story). Those entries have no IMDb ID on TMDB or
+Trakt. IMDb only has the anthology (`tt13207736`), so IMDb-keyed artwork showed
+the Dahmer poster on that tile. Never substitute a parent or anthology IMDb ID. Catalogue
 descriptions may identify a returning season, while the title and poster stay
 those of the series. Streams and playback settings are outside this package.
 
@@ -151,10 +199,15 @@ Run from the package's parent directory:
 python3 -m unittest trakt_suggested_engine.test_engine -v
 ```
 
-The 22 focused tests cover public/nested history adapters, stable-ID joins,
+The 38 focused tests cover public/nested history adapters, stable-ID joins,
 episode release boundaries, announced/future/special content, incomplete
 seasons, reset boundaries, started-season exclusion, title-blind theme scoring,
 series mixing and British/Irish criminal-led priority, police-led versus criminal-led organised crime, watched-vs-rated
 separation, filter/poster rules, exactly two
 catalogues, returning-item insertion, valid IMDb-only output and failure instead
-of empty output.
+of empty output. The For You tests check the exact Discover parameters, entry
+into the pool, ranking by weighting rather than source order, the series prefix
+and mix, deduplication, both watched-suppression gates, an unchanged history
+enrichment budget, inherited filters,
+private-field exclusion, disabling the source and the recency curve. Every
+end-to-end contract is re-run with For You rows present.
