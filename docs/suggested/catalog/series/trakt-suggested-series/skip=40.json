@@ -29,18 +29,19 @@
       "imdb_id": "tt0141842"
     },
     {
-      "id": "tt30459041",
+      "id": "tt34771210",
       "type": "series",
-      "name": "Your Friends & Neighbors",
-      "poster": "https://image.tmdb.org/t/p/w500/lcp63INKEsVHUly9eayx7gEEOcG.jpg",
+      "name": "I Will Find You",
+      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
       "posterShape": "poster",
-      "description": "When a financial titan suddenly finds himself divorced and jobless, he starts robbing his wealthy neighbors to stay afloat. Stealing from his own social circle strangely exhilarates him—but he gradually gets tangled in a deadly web.",
+      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
       "genres": [
         "Drama",
+        "Mystery",
         "Crime"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30459041"
+      "releaseInfo": "2026",
+      "imdb_id": "tt34771210"
     },
     {
       "id": "tt0118381",
@@ -71,18 +72,19 @@
       "imdb_id": "tt0052522"
     },
     {
-      "id": "tt27954448",
+      "id": "tt2953250",
       "type": "series",
-      "name": "Law & Order Toronto: Criminal Intent",
-      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+      "name": "Shining Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/qmN97JxhZHgCThRqgzaiSF7C2mj.jpg",
       "posterShape": "poster",
-      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
+      "description": "Years after a brutal attack left her in a constantly shifting reality, Kirby Mazrachi learns that a recent murder is linked to her assault. She teams with veteran reporter Dan Velazquez to understand her ever-changing present—and confront her past.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Mystery",
+        "Crime"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt27954448"
+      "releaseInfo": "2022",
+      "imdb_id": "tt2953250"
     },
     {
       "id": "tt1958961",
@@ -100,48 +102,18 @@
       "imdb_id": "tt1958961"
     },
     {
-      "id": "tt34771210",
+      "id": "tt27954448",
       "type": "series",
-      "name": "I Will Find You",
-      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
+      "name": "Law & Order Toronto: Criminal Intent",
+      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
       "posterShape": "poster",
-      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34771210"
-    },
-    {
-      "id": "tt2953250",
-      "type": "series",
-      "name": "Shining Girls",
-      "poster": "https://image.tmdb.org/t/p/w500/qmN97JxhZHgCThRqgzaiSF7C2mj.jpg",
-      "posterShape": "poster",
-      "description": "Years after a brutal attack left her in a constantly shifting reality, Kirby Mazrachi learns that a recent murder is linked to her assault. She teams with veteran reporter Dan Velazquez to understand her ever-changing present—and confront her past.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt2953250"
-    },
-    {
-      "id": "tt31314754",
-      "type": "series",
-      "name": "Devil in Disguise: John Wayne Gacy",
-      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
-      "posterShape": "poster",
-      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
+      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31314754"
+      "releaseInfo": "2024",
+      "imdb_id": "tt27954448"
     },
     {
       "id": "tt5611024",
@@ -157,6 +129,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5611024"
+    },
+    {
+      "id": "tt31314754",
+      "type": "series",
+      "name": "Devil in Disguise: John Wayne Gacy",
+      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
+      "posterShape": "poster",
+      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31314754"
     },
     {
       "id": "tt36849871",
@@ -259,6 +245,20 @@
       "imdb_id": "tt4276618"
     },
     {
+      "id": "tt7950706",
+      "type": "series",
+      "name": "Leonardo",
+      "poster": "https://image.tmdb.org/t/p/w500/t19XDd3pLIsBGcIsG83IcEVQhr9.jpg",
+      "posterShape": "poster",
+      "description": "A fresh look at the life and legacy of the iconic artist Leonardo da Vinci, positing that he was a gay outsider who used his work as a way of hiding his true self. Each episode will examine one of da Vinci’s artworks for hidden clues about a tortured artist struggling for perfection.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt7950706"
+    },
+    {
       "id": "tt2805096",
       "type": "series",
       "name": "Chicago P.D.",
@@ -273,18 +273,19 @@
       "imdb_id": "tt2805096"
     },
     {
-      "id": "tt7950706",
+      "id": "tt11794812",
       "type": "series",
-      "name": "Leonardo",
-      "poster": "https://image.tmdb.org/t/p/w500/t19XDd3pLIsBGcIsG83IcEVQhr9.jpg",
+      "name": "Cross",
+      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
       "posterShape": "poster",
-      "description": "A fresh look at the life and legacy of the iconic artist Leonardo da Vinci, positing that he was a gay outsider who used his work as a way of hiding his true self. Each episode will examine one of da Vinci’s artworks for hidden clues about a tortured artist struggling for perfection.",
+      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
       "genres": [
+        "Crime",
         "Drama",
-        "Crime"
+        "Mystery"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt7950706"
+      "releaseInfo": "2024",
+      "imdb_id": "tt11794812"
     }
   ]
 }

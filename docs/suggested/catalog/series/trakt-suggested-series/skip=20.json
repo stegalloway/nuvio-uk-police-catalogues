@@ -15,18 +15,18 @@
       "imdb_id": "tt8714904"
     },
     {
-      "id": "tt9742936",
+      "id": "tt34866681",
       "type": "series",
-      "name": "FBI: Most Wanted",
-      "poster": "https://image.tmdb.org/t/p/w500/uwTNBqFrEur3EtK8ofWbtGXMQOP.jpg",
+      "name": "Lucky",
+      "poster": "https://image.tmdb.org/t/p/w500/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
       "posterShape": "poster",
-      "description": "The Fugitive Task Force relentlessly tracks and captures the notorious criminals on the Bureau's Most Wanted list. Seasoned agents oversee the highly skilled team that functions as a mobile undercover unit that is always out in the field, pursuing those who are most desperate to elude justice.",
+      "description": "When a multi-million-dollar heist goes sideways, con artist Lucky is forced to go on the run. Pursued by both the FBI and a ruthless crime boss, Lucky must fight for her life—and a way out.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9742936"
+      "releaseInfo": "2026",
+      "imdb_id": "tt34866681"
     },
     {
       "id": "tt5028002",
@@ -57,32 +57,18 @@
       "imdb_id": "tt6423364"
     },
     {
-      "id": "tt34866681",
+      "id": "tt10732104",
       "type": "series",
-      "name": "Lucky",
-      "poster": "https://image.tmdb.org/t/p/w500/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
+      "name": "Power Book II: Ghost",
+      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
       "posterShape": "poster",
-      "description": "When a multi-million-dollar heist goes sideways, con artist Lucky is forced to go on the run. Pursued by both the FBI and a ruthless crime boss, Lucky must fight for her life—and a way out.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34866681"
-    },
-    {
-      "id": "tt6271042",
-      "type": "series",
-      "name": "McMafia",
-      "poster": "https://image.tmdb.org/t/p/w500/jdt7RFfVCGWrNnrxeQ0Us9kGhJu.jpg",
-      "posterShape": "poster",
-      "description": "Alex Godman, the English-raised son of Russian mafia exiles, has spent his life trying to escape the shadow of their past, building his own legitimate business and forging a life with his girlfriend Rebecca. But when a murder forces his family's past to return to threaten them, Alex is drawn into the criminal underworld and must confront his values to protect those he loves.",
+      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6271042"
+      "releaseInfo": "2020",
+      "imdb_id": "tt10732104"
     },
     {
       "id": "tt8080122",
@@ -99,20 +85,6 @@
       "imdb_id": "tt8080122"
     },
     {
-      "id": "tt10732104",
-      "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
-      "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
-    },
-    {
       "id": "tt1489428",
       "type": "series",
       "name": "Justified",
@@ -125,6 +97,34 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1489428"
+    },
+    {
+      "id": "tt11816814",
+      "type": "series",
+      "name": "Painkiller",
+      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
+      "posterShape": "poster",
+      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt11816814"
+    },
+    {
+      "id": "tt6271042",
+      "type": "series",
+      "name": "McMafia",
+      "poster": "https://image.tmdb.org/t/p/w500/jdt7RFfVCGWrNnrxeQ0Us9kGhJu.jpg",
+      "posterShape": "poster",
+      "description": "Alex Godman, the English-raised son of Russian mafia exiles, has spent his life trying to escape the shadow of their past, building his own legitimate business and forging a life with his girlfriend Rebecca. But when a murder forces his family's past to return to threaten them, Alex is drawn into the criminal underworld and must confront his values to protect those he loves.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6271042"
     },
     {
       "id": "tt5574490",
@@ -141,18 +141,18 @@
       "imdb_id": "tt5574490"
     },
     {
-      "id": "tt11816814",
+      "id": "tt34675596",
       "type": "series",
-      "name": "Painkiller",
-      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
+      "name": "Cape Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
       "posterShape": "poster",
-      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
+      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt11816814"
+      "releaseInfo": "2026",
+      "imdb_id": "tt34675596"
     },
     {
       "id": "tt11646832",
@@ -184,19 +184,18 @@
       "imdb_id": "tt6474378"
     },
     {
-      "id": "tt2077823",
+      "id": "tt14507354",
       "type": "series",
-      "name": "Perry Mason",
-      "poster": "https://image.tmdb.org/t/p/w500/5QcaEyfSbJEmiaxf7ch8nBl0GO4.jpg",
+      "name": "The Endgame",
+      "poster": "https://image.tmdb.org/t/p/w500/qH0BuRkZmP6sdi8R6tvlvwdBxmo.jpg",
       "posterShape": "poster",
-      "description": "Set in 1932 Los Angeles, the series focuses on the origin story of famed defense lawyer Perry Mason. Living check-to-check as a low-rent private investigator, Mason is haunted by his wartime experiences in France and suffering the effects of a broken marriage. L.A. is booming while the rest of the country recovers from the Great Depression — but a kidnapping gone very wrong leads to Mason exposing a fractured city as he uncovers the truth of the crime.",
+      "description": "A high-stakes thriller about Elena Federova, a very recently captured international arms dealer and brilliant criminal mastermind who even in captivity orchestrates a number of coordinated bank heists, and Val Turner, the principled, relentless and socially outcast FBI agent who will stop at nothing to foil her ambitious plan.",
       "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt2077823"
+      "releaseInfo": "2022",
+      "imdb_id": "tt14507354"
     },
     {
       "id": "tt1064899",
@@ -227,18 +226,19 @@
       "imdb_id": "tt6517320"
     },
     {
-      "id": "tt34675596",
+      "id": "tt2077823",
       "type": "series",
-      "name": "Cape Fear",
-      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
+      "name": "Perry Mason",
+      "poster": "https://image.tmdb.org/t/p/w500/5QcaEyfSbJEmiaxf7ch8nBl0GO4.jpg",
       "posterShape": "poster",
-      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
+      "description": "Set in 1932 Los Angeles, the series focuses on the origin story of famed defense lawyer Perry Mason. Living check-to-check as a low-rent private investigator, Mason is haunted by his wartime experiences in France and suffering the effects of a broken marriage. L.A. is booming while the rest of the country recovers from the Great Depression — but a kidnapping gone very wrong leads to Mason exposing a fractured city as he uncovers the truth of the crime.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Mystery",
+        "Crime"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34675596"
+      "releaseInfo": "2020",
+      "imdb_id": "tt2077823"
     },
     {
       "id": "tt3032476",
@@ -269,18 +269,18 @@
       "imdb_id": "tt5011816"
     },
     {
-      "id": "tt14507354",
+      "id": "tt30459041",
       "type": "series",
-      "name": "The Endgame",
-      "poster": "https://image.tmdb.org/t/p/w500/qH0BuRkZmP6sdi8R6tvlvwdBxmo.jpg",
+      "name": "Your Friends & Neighbors",
+      "poster": "https://image.tmdb.org/t/p/w500/lcp63INKEsVHUly9eayx7gEEOcG.jpg",
       "posterShape": "poster",
-      "description": "A high-stakes thriller about Elena Federova, a very recently captured international arms dealer and brilliant criminal mastermind who even in captivity orchestrates a number of coordinated bank heists, and Val Turner, the principled, relentless and socially outcast FBI agent who will stop at nothing to foil her ambitious plan.",
+      "description": "When a financial titan suddenly finds himself divorced and jobless, he starts robbing his wealthy neighbors to stay afloat. Stealing from his own social circle strangely exhilarates him—but he gradually gets tangled in a deadly web.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14507354"
+      "releaseInfo": "2025",
+      "imdb_id": "tt30459041"
     }
   ]
 }

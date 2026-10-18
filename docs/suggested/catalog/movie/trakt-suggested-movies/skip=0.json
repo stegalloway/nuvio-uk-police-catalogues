@@ -74,36 +74,6 @@
       "imdb_id": "tt12593682"
     },
     {
-      "id": "tt32357218",
-      "type": "movie",
-      "name": "Shelter",
-      "poster": "https://image.tmdb.org/t/p/w500/cv7DeQQ7TOozPoTCBdNJIvWKhU1.jpg",
-      "posterShape": "poster",
-      "description": "A man living in self-imposed exile on a remote island rescues a young girl from a violent storm, setting off a chain of events that forces him out of seclusion to protect her from enemies tied to his past.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32357218"
-    },
-    {
-      "id": "tt17024450",
-      "type": "movie",
-      "name": "The Equalizer 3",
-      "poster": "https://image.tmdb.org/t/p/w500/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg",
-      "posterShape": "poster",
-      "description": "Robert McCall finds himself at home in Southern Italy but he discovers his friends are under the control of local crime bosses. As events turn deadly, McCall knows what he has to do: become his friends' protector by taking on the mafia.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt17024450"
-    },
-    {
       "id": "tt10366206",
       "type": "movie",
       "name": "John Wick: Chapter 4",
@@ -117,21 +87,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt10366206"
-    },
-    {
-      "id": "tt15314262",
-      "type": "movie",
-      "name": "The Beekeeper",
-      "poster": "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
-      "posterShape": "poster",
-      "description": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15314262"
     },
     {
       "id": "tt4919268",
@@ -149,6 +104,36 @@
       "imdb_id": "tt4919268"
     },
     {
+      "id": "tt9603208",
+      "type": "movie",
+      "name": "Mission: Impossible - The Final Reckoning",
+      "poster": "https://image.tmdb.org/t/p/w500/iKPsC9EFUafRP9SrUznI61getVP.jpg",
+      "posterShape": "poster",
+      "description": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt9603208"
+    },
+    {
+      "id": "tt15314262",
+      "type": "movie",
+      "name": "The Beekeeper",
+      "poster": "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+      "posterShape": "poster",
+      "description": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15314262"
+    },
+    {
       "id": "tt37971717",
       "type": "movie",
       "name": "One Last Shot",
@@ -161,21 +146,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt37971717"
-    },
-    {
-      "id": "tt4425200",
-      "type": "movie",
-      "name": "John Wick: Chapter 2",
-      "poster": "https://image.tmdb.org/t/p/w500/hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
-      "posterShape": "poster",
-      "description": "John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt4425200"
     },
     {
       "id": "tt5095076",
@@ -206,34 +176,19 @@
       "imdb_id": "tt32430579"
     },
     {
-      "id": "tt6146586",
+      "id": "tt14641788",
       "type": "movie",
-      "name": "John Wick: Chapter 3 - Parabellum",
-      "poster": "https://image.tmdb.org/t/p/w500/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg",
+      "name": "Enola Holmes 2",
+      "poster": "https://image.tmdb.org/t/p/w500/tegBpjM5ODoYoM1NjaiHVLEA0QM.jpg",
       "posterShape": "poster",
-      "description": "Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his every turn.",
+      "description": "Enola takes on her first official case as a detective, but to solve the mystery of a missing girl, she'll need help from friends — and brother Sherlock.",
       "genres": [
-        "Action",
-        "Thriller",
+        "Adventure",
+        "Mystery",
         "Crime"
       ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt6146586"
-    },
-    {
-      "id": "tt9603208",
-      "type": "movie",
-      "name": "Mission: Impossible - The Final Reckoning",
-      "poster": "https://image.tmdb.org/t/p/w500/iKPsC9EFUafRP9SrUznI61getVP.jpg",
-      "posterShape": "poster",
-      "description": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Adventure"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt9603208"
+      "releaseInfo": "2022",
+      "imdb_id": "tt14641788"
     },
     {
       "id": "tt32338669",
@@ -250,34 +205,78 @@
       "imdb_id": "tt32338669"
     },
     {
-      "id": "tt1392214",
+      "id": "tt4425200",
       "type": "movie",
-      "name": "Prisoners",
-      "poster": "https://image.tmdb.org/t/p/w500/uhviyknTT5cEQXbn6vWIqfM4vGm.jpg",
+      "name": "John Wick: Chapter 2",
+      "poster": "https://image.tmdb.org/t/p/w500/hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg",
       "posterShape": "poster",
-      "description": "After his six-year-old daughter is abducted, a desperate father takes justice into his own hands when he loses faith in the detective leading the investigation, setting both men on a collision course as the search descends into obsession and moral compromise.",
+      "description": "John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers.",
       "genres": [
-        "Drama",
+        "Action",
         "Thriller",
         "Crime"
       ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt1392214"
+      "releaseInfo": "2017",
+      "imdb_id": "tt4425200"
     },
     {
-      "id": "tt9620292",
+      "id": "tt7526136",
       "type": "movie",
-      "name": "Promising Young Woman",
-      "poster": "https://image.tmdb.org/t/p/w500/2h4EkRxy36zSsBDkijXSUMJFDaz.jpg",
+      "name": "Heart of the Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
       "posterShape": "poster",
-      "description": "A young woman, traumatized by a tragic event in her past, seeks out vengeance against those who crossed her path.",
+      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
       "genres": [
-        "Thriller",
-        "Crime",
-        "Drama"
+        "Adventure",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt7526136"
+    },
+    {
+      "id": "tt7846844",
+      "type": "movie",
+      "name": "Enola Holmes",
+      "poster": "https://image.tmdb.org/t/p/w500/riYInlsq2kf1AWoGm80JQW5dLKp.jpg",
+      "posterShape": "poster",
+      "description": "While searching for her missing mother, intrepid teen Enola Holmes uses her sleuthing skills to outsmart big brother Sherlock and help a runaway lord.",
+      "genres": [
+        "Adventure",
+        "Mystery",
+        "Crime"
       ],
       "releaseInfo": "2020",
-      "imdb_id": "tt9620292"
+      "imdb_id": "tt7846844"
+    },
+    {
+      "id": "tt6146586",
+      "type": "movie",
+      "name": "John Wick: Chapter 3 - Parabellum",
+      "poster": "https://image.tmdb.org/t/p/w500/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg",
+      "posterShape": "poster",
+      "description": "Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his every turn.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt6146586"
+    },
+    {
+      "id": "tt2820852",
+      "type": "movie",
+      "name": "Furious 7",
+      "poster": "https://image.tmdb.org/t/p/w500/wurKlC3VKUgcfsn0K51MJYEleS2.jpg",
+      "posterShape": "poster",
+      "description": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt2820852"
     },
     {
       "id": "tt15325794",
