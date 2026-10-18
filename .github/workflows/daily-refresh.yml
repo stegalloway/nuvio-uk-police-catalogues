@@ -17,7 +17,7 @@ jobs:
     timeout-minutes: 20
     steps:
       - name: Check out catalogue
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           # Branch tip at job start, not the trigger commit: a run queued behind
           # the other refresh would otherwise start from an outdated commit.
