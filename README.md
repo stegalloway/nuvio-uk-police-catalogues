@@ -34,6 +34,41 @@ A private repository **Actions secret** named `TMDB_ACCESS_TOKEN` grants read-on
 
 No Trakt token is used. The daily scan reads TMDB only and writes public catalogue metadata; it does not access viewing history or streaming accounts.
 
+## Missed-run watchdog and alerts
+
+GitHub runs scheduled jobs late and sometimes drops them. In October 2026 the 06:23 police
+refresh started around 10:50–11:35 UTC, and the first 07:41 Trakt Suggested slot never ran.
+`.github/workflows/catalogue-watchdog.yml` runs `scripts/watchdog.py` every hour at :52:
+
+- It reads each refresh workflow's own `cron` lines, so changing a schedule needs no watchdog edit.
+- If a due time has passed by 25 minutes with no successful or running refresh, it dispatches one.
+  If that run fails, it retries once.
+- After a second failure for the same due time, or when no refresh has succeeded for longer than the
+  schedule allows (police about 27½ h, Trakt Suggested about 9½ h), it opens **one issue per workflow**,
+  titled `Catalogue refresh alert: …`, mentioning the repository owner. That gives a GitHub email
+  and app notification. A new problem adds a comment; repeats of the same one stay quiet.
+- The next successful refresh closes the issue automatically.
+- A workflow GitHub disabled for inactivity is re-enabled. One disabled by hand is left alone.
+- It uses only the built-in `GITHUB_TOKEN`; no personal token or secret is required.
+
+If a delayed scheduled run arrives after the watchdog has already re-run that slot, the refresh simply
+runs twice. Both refreshes are safe to repeat. Check the watchdog's decisions without changing
+anything with `python scripts/watchdog.py --dry-run`.
+
+### Optional outside trigger
+
+The watchdog is itself a GitHub schedule. For an independent wake-up, any outside scheduler
+can dispatch it hourly. The watchdog decides whether anything is due, so extra calls are harmless.
+
+1. Create a **fine-grained personal access token** for this repository only, with
+   **Actions: Read and write**. Note its expiry date.
+2. In the outside scheduler (for example cron-job.org), add an hourly `POST` to
+   `https://api.github.com/repos/stegalloway/nuvio-uk-police-catalogues/actions/workflows/catalogue-watchdog.yml/dispatches`
+   with the headers `Authorization: Bearer <token>`, `Accept: application/vnd.github+json` and the
+   body `{"ref":"main"}`. A successful call returns HTTP 204.
+
+Keep that token only in the scheduler. Never commit it.
+
 ## Pages and Stremio routes
 
 GitHub Pages publishes `docs/` from the `main` branch. Important routes:

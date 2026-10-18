@@ -1,0 +1,39 @@
+name: Catalogue refresh watchdog
+
+# GitHub delays and sometimes drops scheduled runs. Hourly, this re-runs a missed
+# refresh, retries one failure, and opens an issue when refreshes keep failing.
+# An outside scheduler can also dispatch this workflow (see README).
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 * * * *'
+
+permissions:
+  actions: write
+  contents: read
+  issues: write
+
+# Separate from the refresh group: the watchdog never pushes to the branch.
+concurrency:
+  group: catalogue-watchdog
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out schedules and watchdog
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check the watchdog rules
+        run: python -m unittest discover -s tests -p 'test_watchdog.py'
+      - name: Re-run missed refreshes and update alerts
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/watchdog.py
