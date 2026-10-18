@@ -1,0 +1,289 @@
+{
+  "metas": [
+    {
+      "id": "tt6517320",
+      "type": "series",
+      "name": "Too Old to Die Young",
+      "poster": "https://image.tmdb.org/t/p/w500/xGBwXf02Mu2zzqxh6TomLC7xfk7.jpg",
+      "posterShape": "poster",
+      "description": "In one tragic night, Los Angeles County Sheriff's Deputy Martin Jones's life is blown apart, and he is forced into a deadly underground of Cartel soldiers, Yakuza assassins, and mysterious vigilantes. Soon he finds himself lost on a surreal odyssey of murder, mysticism and vengeance, as his past sins close in on him.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt6517320"
+    },
+    {
+      "id": "tt27954448",
+      "type": "series",
+      "name": "Law & Order Toronto: Criminal Intent",
+      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+      "posterShape": "poster",
+      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt27954448"
+    },
+    {
+      "id": "tt3032476",
+      "type": "series",
+      "name": "Better Call Saul",
+      "poster": "https://image.tmdb.org/t/p/w500/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
+      "posterShape": "poster",
+      "description": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is “fixer” Mike Ehrmantraut. The series tracks Jimmy’s transformation into Saul Goodman, the man who puts “criminal” in “criminal lawyer\".",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt3032476"
+    },
+    {
+      "id": "tt5011816",
+      "type": "series",
+      "name": "Sneaky Pete",
+      "poster": "https://image.tmdb.org/t/p/w500/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
+      "posterShape": "poster",
+      "description": "A con man on the run from a vicious gangster takes cover from his past by assuming the identity of his prison cellmate, Pete, “reuniting” with Pete’s estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he’s trying to escape - and, just maybe, give him a taste of the loving family he’s never had.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt5011816"
+    },
+    {
+      "id": "tt5611024",
+      "type": "series",
+      "name": "Fool Me Once",
+      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "posterShape": "poster",
+      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt5611024"
+    },
+    {
+      "id": "tt0141842",
+      "type": "series",
+      "name": "The Sopranos",
+      "poster": "https://image.tmdb.org/t/p/w500/rTc7ZXdroqjkKivFPvCPX0Ru7uw.jpg",
+      "posterShape": "poster",
+      "description": "The story of New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and protégé Christopher Moltisanti.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "1999",
+      "imdb_id": "tt0141842"
+    },
+    {
+      "id": "tt0118381",
+      "type": "series",
+      "name": "The Last Don",
+      "poster": "https://image.tmdb.org/t/p/w500/zvFib9i69BgFBJsUbHoHNTa7GSJ.jpg",
+      "posterShape": "poster",
+      "description": "Spanning decades, a powerful Italian crime family battles internal strife when a ruthless grandson seeks control after a violent wedding sparks unintended chaos, testing loyalties as lines blur between family and criminal enterprise. Best selling author of Mario 'The Godfather' Puzo's blockbuster new novel comes to life in this epic saga of America's most powerful crime family.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "1997",
+      "imdb_id": "tt0118381"
+    },
+    {
+      "id": "tt34771210",
+      "type": "series",
+      "name": "I Will Find You",
+      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
+      "posterShape": "poster",
+      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34771210"
+    },
+    {
+      "id": "tt1625724",
+      "type": "series",
+      "name": "Love/Hate",
+      "poster": "https://image.tmdb.org/t/p/w500/oLnOU5wYp7I6egnI6lzAIWOqS1D.jpg",
+      "posterShape": "poster",
+      "description": "Modern-day underworld characters Nidge and John Boy wrestle for control of Dublin's illicit drug trade in this forceful crime drama.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1625724"
+    },
+    {
+      "id": "tt0052522",
+      "type": "series",
+      "name": "The Untouchables",
+      "poster": "https://image.tmdb.org/t/p/w500/80IDXgaHmcxj6CKRImkpHjnIMcd.jpg",
+      "posterShape": "poster",
+      "description": "Special Agent Eliot Ness and his elite team of incorruptible agents battle organized crime in 1930s Chicago.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "1959",
+      "imdb_id": "tt0052522"
+    },
+    {
+      "id": "tt2953250",
+      "type": "series",
+      "name": "Shining Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/qmN97JxhZHgCThRqgzaiSF7C2mj.jpg",
+      "posterShape": "poster",
+      "description": "Years after a brutal attack left her in a constantly shifting reality, Kirby Mazrachi learns that a recent murder is linked to her assault. She teams with veteran reporter Dan Velazquez to understand her ever-changing present—and confront her past.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt2953250"
+    },
+    {
+      "id": "tt1958961",
+      "type": "series",
+      "name": "Lilyhammer",
+      "poster": "https://image.tmdb.org/t/p/w500/o5I2D5oeIEafpyFw30v11AwkhnB.jpg",
+      "posterShape": "poster",
+      "description": "After Frank The Fixer Tagliano testifies against his Mafia boss in New York, he enters the Witness Protection Program and makes an unusual demand: he wants to be set up with a new life in the Norwegian small town of Lillehammer or as he calls it, Lilyhammer.",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Crime"
+      ],
+      "releaseInfo": "2012",
+      "imdb_id": "tt1958961"
+    },
+    {
+      "id": "tt31314754",
+      "type": "series",
+      "name": "Devil in Disguise: John Wayne Gacy",
+      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
+      "posterShape": "poster",
+      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31314754"
+    },
+    {
+      "id": "tt36849871",
+      "type": "series",
+      "name": "Marshals",
+      "poster": "https://image.tmdb.org/t/p/w500/zV1MRb6eqx6Uj3NSXquZFfz75pa.jpg",
+      "posterShape": "poster",
+      "description": "With the Yellowstone Ranch behind him, Kayce Dutton joins an elite unit of U.S. Marshals, combining his skills as a cowboy and Navy SEAL to bring range justice to Montana, where he and his teammates must balance family, duty and the high psychological cost that comes with serving as the last line of defense in the region's war on violence.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt36849871"
+    },
+    {
+      "id": "tt13138834",
+      "type": "series",
+      "name": "Time",
+      "poster": "https://image.tmdb.org/t/p/w500/mhi7oohUBIufTjF9u41uMXYHsw2.jpg",
+      "posterShape": "poster",
+      "description": "Guilt, violence and impossible choices – what does it take to survive? Tense, gritty and heartbreaking – Jimmy McGovern's award-winning prison drama, with an all-star cast.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt13138834"
+    },
+    {
+      "id": "tt32559610",
+      "type": "series",
+      "name": "Countdown",
+      "poster": "https://image.tmdb.org/t/p/w500/gcSNS5cy1iOmYawIdJCzoc873rQ.jpg",
+      "posterShape": "poster",
+      "description": "When an officer with the Department of Homeland Security is murdered in broad daylight, LAPD detective Mark Meachum is recruited to a secret task force, alongside undercover agents from all branches of law enforcement, to investigate. But the hunt for the killer soon uncovers a plot far more sinister than anyone could have imagined, kicking off a race against time to save a city of millions.",
+      "genres": [
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt32559610"
+    },
+    {
+      "id": "tt21906554",
+      "type": "series",
+      "name": "The Hunting Party",
+      "poster": "https://image.tmdb.org/t/p/w500/mjJMOLr966Q78YUPu0pVA0ydBIP.jpg",
+      "posterShape": "poster",
+      "description": "A small team of investigators are assembled to track down and capture the most dangerous killers our country has ever seen, all of whom have just escaped from a top-secret prison that's not supposed to exist.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt21906554"
+    },
+    {
+      "id": "tt14063678",
+      "type": "series",
+      "name": "The Gold",
+      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
+      "posterShape": "poster",
+      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt14063678"
+    },
+    {
+      "id": "tt15568702",
+      "type": "series",
+      "name": "Litvinenko",
+      "poster": "https://image.tmdb.org/t/p/w500/ojaSBvv1EZqcf4qvgHBhjWcm3Lb.jpg",
+      "posterShape": "poster",
+      "description": "The story of the determined Scotland Yard Officers who worked to prove who was responsible for the death of Alexander Litvinenko, in one of the most complex and dangerous investigations in the history of the Metropolitan Police.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15568702"
+    },
+    {
+      "id": "tt2805096",
+      "type": "series",
+      "name": "Chicago P.D.",
+      "poster": "https://image.tmdb.org/t/p/w500/w7R4ooo2IbOfBKOoMDwaiMGsNQf.jpg",
+      "posterShape": "poster",
+      "description": "A riveting police drama about the men and women of the Chicago Police Department's District 21 who put it all on the line to serve and protect their community. District 21 is made up of two distinctly different groups: the uniformed cops who patrol the beat and go head-to-head with the city's street crimes and the Intelligence Unit that combats the city's major offenses - organized crime, drug trafficking, high profile murders and beyond.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2805096"
+    }
+  ]
+}

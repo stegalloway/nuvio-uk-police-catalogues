@@ -1,0 +1,51 @@
+name: Refresh Trakt Suggested catalogues
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 1,7,13,19 * * *'
+
+permissions:
+  contents: write
+
+# Shared with the existing police updater: both commit to the same branch.
+concurrency:
+  group: uk-police-catalogue-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out catalogues
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check history, returning-season and publication contracts
+        run: |
+          python -m unittest trakt_suggested_engine.test_engine trakt_suggested_runtime.test_runtime
+      - name: Generate both rows from fresh Trakt history
+        env:
+          TRAKT_USERNAME: ${{ secrets.TRAKT_USERNAME || vars.TRAKT_USERNAME }}
+          TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
+          TMDB_ACCESS_TOKEN: ${{ secrets.TMDB_ACCESS_TOKEN }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: python -m trakt_suggested_runtime --cache-dir "$RUNNER_TEMP/trakt-suggested-tmdb" --timeout-minutes 25
+      - name: Validate every published route
+        run: python -m trakt_suggested_runtime --validate-only
+      - name: Commit only final suggested catalogue metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- docs/suggested/
+          if ! git diff --cached --quiet -- docs/suggested/; then
+            git commit -m "Refresh Trakt Suggested catalogues"
+            git push
+          else
+            echo "No catalogue changes."
+          fi

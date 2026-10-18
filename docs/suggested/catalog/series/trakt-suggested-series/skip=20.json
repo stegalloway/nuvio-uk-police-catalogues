@@ -1,0 +1,286 @@
+{
+  "metas": [
+    {
+      "id": "tt34866681",
+      "type": "series",
+      "name": "Lucky",
+      "poster": "https://image.tmdb.org/t/p/w500/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
+      "posterShape": "poster",
+      "description": "When a multi-million-dollar heist goes sideways, con artist Lucky is forced to go on the run. Pursued by both the FBI and a ruthless crime boss, Lucky must fight for her life—and a way out.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34866681"
+    },
+    {
+      "id": "tt3281796",
+      "type": "series",
+      "name": "Power",
+      "poster": "https://image.tmdb.org/t/p/w500/ctftzvyj8b0odco7EoS9VfJhf7K.jpg",
+      "posterShape": "poster",
+      "description": "A successful New York entrepreneur lives a double life as the head of a drug empire that serves only the rich and influential, all while wanting to escape the underworld and keep his family safe.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt3281796"
+    },
+    {
+      "id": "tt5715524",
+      "type": "series",
+      "name": "Mayans M.C.",
+      "poster": "https://image.tmdb.org/t/p/w500/510A0upV9WRAynEgs1E2B3eBxi5.jpg",
+      "posterShape": "poster",
+      "description": "Set in the aftermath of Jax Teller’s death, Ezekiel \"EZ\" Reyes is fresh out of prison and a prospect in the Mayans M.C. charter on the Cali/Mexi border. Now, EZ must carve out his new identity in a town where he was once the golden boy with the American Dream in his grasp.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt5715524"
+    },
+    {
+      "id": "tt9742936",
+      "type": "series",
+      "name": "FBI: Most Wanted",
+      "poster": "https://image.tmdb.org/t/p/w500/uwTNBqFrEur3EtK8ofWbtGXMQOP.jpg",
+      "posterShape": "poster",
+      "description": "The Fugitive Task Force relentlessly tracks and captures the notorious criminals on the Bureau's Most Wanted list. Seasoned agents oversee the highly skilled team that functions as a mobile undercover unit that is always out in the field, pursuing those who are most desperate to elude justice.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt9742936"
+    },
+    {
+      "id": "tt2707408",
+      "type": "series",
+      "name": "Narcos",
+      "poster": "https://image.tmdb.org/t/p/w500/rTmal9fDbwh5F0waol2hq35U4ah.jpg",
+      "posterShape": "poster",
+      "description": "A gritty chronicle of the war against Colombia's infamously violent and powerful drug cartels.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt2707408"
+    },
+    {
+      "id": "tt8714904",
+      "type": "series",
+      "name": "Narcos: Mexico",
+      "poster": "https://image.tmdb.org/t/p/w500/aXwMx8OvRFMfI1RmkbJm6Bq1jVg.jpg",
+      "posterShape": "poster",
+      "description": "See the rise of the Guadalajara Cartel as an American DEA agent learns the danger of targeting narcos in 1980s Mexico.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt8714904"
+    },
+    {
+      "id": "tt10732104",
+      "type": "series",
+      "name": "Power Book II: Ghost",
+      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "posterShape": "poster",
+      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10732104"
+    },
+    {
+      "id": "tt5028002",
+      "type": "series",
+      "name": "StartUp",
+      "poster": "https://image.tmdb.org/t/p/w500/mXiB1e0x3iaRaaPPVhC1c7rgwPr.jpg",
+      "posterShape": "poster",
+      "description": "A desperate banker needs to conceal stolen money. A Haitian-American gang lord wants to go legit. A Cuban-American hacker has an idea that will revolutionize the very future of money itself. Forced to work together, they unwittingly create their version of the American dream - organized crime 2.0.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt5028002"
+    },
+    {
+      "id": "tt6271042",
+      "type": "series",
+      "name": "McMafia",
+      "poster": "https://image.tmdb.org/t/p/w500/jdt7RFfVCGWrNnrxeQ0Us9kGhJu.jpg",
+      "posterShape": "poster",
+      "description": "Alex Godman, the English-raised son of Russian mafia exiles, has spent his life trying to escape the shadow of their past, building his own legitimate business and forging a life with his girlfriend Rebecca. But when a murder forces his family's past to return to threaten them, Alex is drawn into the criminal underworld and must confront his values to protect those he loves.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6271042"
+    },
+    {
+      "id": "tt11816814",
+      "type": "series",
+      "name": "Painkiller",
+      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
+      "posterShape": "poster",
+      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt11816814"
+    },
+    {
+      "id": "tt6423364",
+      "type": "series",
+      "name": "Bad Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/ukrAdTtJHHEaDRUJmi4XYwBUpRu.jpg",
+      "posterShape": "poster",
+      "description": "A dramatization of the life and death of Montreal mob boss Vito Rizzuto.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt6423364"
+    },
+    {
+      "id": "tt8080122",
+      "type": "series",
+      "name": "Godfather of Harlem",
+      "poster": "https://image.tmdb.org/t/p/w500/avhyzJycLNi3nXov2lREhDkP3ik.jpg",
+      "posterShape": "poster",
+      "description": "Loosely based on infamous crime boss Bumpy Johnson, who in the early 1960s returned from ten years in prison to find the neighborhood he once ruled in shambles. With the streets controlled by the Italian mob, Bumpy attempts to regain his piece of Harlem.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt8080122"
+    },
+    {
+      "id": "tt34675596",
+      "type": "series",
+      "name": "Cape Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
+      "posterShape": "poster",
+      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34675596"
+    },
+    {
+      "id": "tt1489428",
+      "type": "series",
+      "name": "Justified",
+      "poster": "https://image.tmdb.org/t/p/w500/ie1quhMk09lDtvtAyQAHTu09R9Z.jpg",
+      "posterShape": "poster",
+      "description": "A character drama based on the 2001 Elmore Leonard short story \"Fire in the Hole.\" Leonard's tale centers around U.S. Marshal Raylan Givens of Kentucky, a quiet but strong-willed official of the law. The tale covers his high-stakes job, as well as his strained relationships with his ex-wife and father.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1489428"
+    },
+    {
+      "id": "tt5574490",
+      "type": "series",
+      "name": "Animal Kingdom",
+      "poster": "https://image.tmdb.org/t/p/w500/rzvdKrnSRKPFI0pgqMQknDPpRC9.jpg",
+      "posterShape": "poster",
+      "description": "17-year-old Joshua \"J\" Cody moves in with his freewheeling relatives in their Southern California beach town after his mother dies of a heroin overdose. Headed by boot-tough matriarch Janine \"Smurf\" Cody and her right-hand Baz, who runs the business and calls the shots, the clan also consists of Pope, the oldest and most dangerous of the Cody boys; Craig, the tough and fearless middle son; and Deran, the troubled, suspicious \"baby\" of the family.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt5574490"
+    },
+    {
+      "id": "tt14507354",
+      "type": "series",
+      "name": "The Endgame",
+      "poster": "https://image.tmdb.org/t/p/w500/qH0BuRkZmP6sdi8R6tvlvwdBxmo.jpg",
+      "posterShape": "poster",
+      "description": "A high-stakes thriller about Elena Federova, a very recently captured international arms dealer and brilliant criminal mastermind who even in captivity orchestrates a number of coordinated bank heists, and Val Turner, the principled, relentless and socially outcast FBI agent who will stop at nothing to foil her ambitious plan.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14507354"
+    },
+    {
+      "id": "tt11646832",
+      "type": "series",
+      "name": "The Outlaws",
+      "poster": "https://image.tmdb.org/t/p/w500/s8vp0S0iz2nPb7TpOpV0rHbm1er.jpg",
+      "posterShape": "poster",
+      "description": "Seven strangers from different walks of life - people who would never normally interact - are forced to work together to renovate a derelict community centre. They resent the menial physical labour and they resent each other. But when one of their number gets dragged into a dangerous world of organised crime, they unite in ways none of them thought possible.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11646832"
+    },
+    {
+      "id": "tt6474378",
+      "type": "series",
+      "name": "Good Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/wpgg6G3UHXepH2Zgpt4W60d6gxR.jpg",
+      "posterShape": "poster",
+      "description": "Three \"good girl\" suburban wives and mothers suddenly find themselves in desperate circumstances and decide to stop playing it safe and risk everything to take their power back.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6474378"
+    },
+    {
+      "id": "tt2077823",
+      "type": "series",
+      "name": "Perry Mason",
+      "poster": "https://image.tmdb.org/t/p/w500/5QcaEyfSbJEmiaxf7ch8nBl0GO4.jpg",
+      "posterShape": "poster",
+      "description": "Set in 1932 Los Angeles, the series focuses on the origin story of famed defense lawyer Perry Mason. Living check-to-check as a low-rent private investigator, Mason is haunted by his wartime experiences in France and suffering the effects of a broken marriage. L.A. is booming while the rest of the country recovers from the Great Depression — but a kidnapping gone very wrong leads to Mason exposing a fractured city as he uncovers the truth of the crime.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt2077823"
+    },
+    {
+      "id": "tt1064899",
+      "type": "series",
+      "name": "Queen of the South",
+      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
+      "posterShape": "poster",
+      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt1064899"
+    }
+  ]
+}
