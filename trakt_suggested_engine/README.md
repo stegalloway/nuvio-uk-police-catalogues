@@ -78,8 +78,15 @@ the basis. This generator deliberately makes the following custom adaptations:
 - Rich candidate metadata is scored against the history profile. Series order
   uses 65% profile similarity, 25% criminal-led organised-crime preference, 8% investigation
   and a 2% British/Irish tie-break. This does not impose a UK-only filter.
-- The leading two suggestions prefer organised crime, followed by one broader
-  crime/investigation suggestion, repeating while both groups are available.
+- Up to four leading suggestions are reserved for British/Irish criminal-led
+  organised-crime, gangland and crime-family stories, ranked by the real profile
+  and thematic scores. No titles are pinned, and police-led stories do not
+  qualify for this leading group merely because they concern organised crime.
+  British/Irish identity uses the series' `origin_country` only. Co-production
+  countries alone do not qualify a US-origin show; missing origin data does not
+  qualify a show for the leading group.
+- After that prefix, the mix uses two wider gangster suggestions followed by
+  one broader crime/investigation suggestion, repeating while both groups are available.
   An exhausted group is filled from the other group, without duplicate IDs.
 - Movies retain history-based relevance order after the same existing gates.
 
@@ -122,9 +129,10 @@ The first started episode of that later season removes the returning suggestion,
 leaving further viewing to Continue Watching. Unknown completion or metadata
 does not manufacture a returning candidate. No show-specific override exists.
 
-Returning seasons are merged into the one series row at positions 3, 7, 11,
-etc., with at most six. The leading two organised-crime suggestions are retained
-when enough candidates exist. No third catalogue is generated.
+Returning seasons are merged into the one series row after the primary prefix:
+normally positions 5, 9, 13, etc. when all four primary slots are filled, with at
+most six. When fewer primary choices exist, insertion begins after that prefix
+and at least the first two discovery choices. No third catalogue is generated.
 
 ## Posters and response shape
 
@@ -143,10 +151,10 @@ Run from the package's parent directory:
 python3 -m unittest trakt_suggested_engine.test_engine -v
 ```
 
-The 20 focused tests cover public/nested history adapters, stable-ID joins,
+The 22 focused tests cover public/nested history adapters, stable-ID joins,
 episode release boundaries, announced/future/special content, incomplete
 seasons, reset boundaries, started-season exclusion, title-blind theme scoring,
-series mixing, police-led versus criminal-led organised crime, watched-vs-rated
+series mixing and British/Irish criminal-led priority, police-led versus criminal-led organised crime, watched-vs-rated
 separation, filter/poster rules, exactly two
 catalogues, returning-item insertion, valid IMDb-only output and failure instead
 of empty output.

@@ -257,7 +257,10 @@ def thematic_signals(detail: Mapping) -> dict[str, Any]:
         or (strong_law_keywords and criminal_role is None)
     )
     priority_organised = 0. if investigator_led else organised
-    countries = {str(c) for c in detail.get("origin_country") or []} | set(w._countries(detail))
+    # Series identity comes from origin_country. A US-origin show can have an
+    # Irish/UK co-production company without being British/Irish gangland TV.
+    # Missing origin metadata is conservatively ineligible for the first group.
+    countries = {str(c) for c in detail.get("origin_country") or []}
     return {
         "organised_crime": round(organised, 4), "investigation": round(investigation, 4),
         "priority_organised_crime": round(priority_organised, 4),
@@ -272,17 +275,37 @@ def thematic_signals(detail: Mapping) -> dict[str, Any]:
     }
 
 
-def rank_and_mix_series(cards: Sequence[Mapping], *, limit: int) -> list[dict]:
-    """Start with two organised-crime choices, then retain a two-to-one mix.
+def _primary_crime_card(card: Mapping) -> bool:
+    theme = card.get("theme") or {}
+    return bool(theme.get("gangster_priority") and theme.get("british_or_irish")
+                and not theme.get("investigator_led"))
 
-    Each group is ranked by personal score. Returning seasons are handled after
-    this function so a return can never displace the leading two crime picks.
+
+def _primary_prefix_count(cards: Sequence[Mapping]) -> int:
+    return min(4, len({c["id"] for c in cards if _primary_crime_card(c)}))
+
+
+def rank_and_mix_series(cards: Sequence[Mapping], *, limit: int) -> list[dict]:
+    """Lead with up to four UK/Irish criminal-led organised-crime stories.
+
+    Then retain two wider gangster choices to one broader crime/investigation
+    choice. Each group is ranked by personal score. Returning seasons are added
+    afterwards without displacing this primary prefix.
     """
+    primary = sorted((dict(c) for c in cards if _primary_crime_card(c)),
+                     key=lambda c: (-c["suggested_score"], c.get("id", "")))
+    result, seen = [], set()
+    for card in primary:
+        if card["id"] not in seen:
+            result.append(card)
+            seen.add(card["id"])
+        if len(result) >= min(4, limit):
+            break
     gangster = sorted((dict(c) for c in cards if c.get("theme", {}).get("gangster_priority")),
                       key=lambda c: (-c["suggested_score"], c.get("id", "")))
     broader = sorted((dict(c) for c in cards if not c.get("theme", {}).get("gangster_priority")),
                      key=lambda c: (-c["suggested_score"], c.get("id", "")))
-    result, seen = [], set()
+    gangster = [c for c in gangster if c["id"] not in seen]
     while len(result) < limit and (gangster or broader):
         for preferred in (gangster, gangster, broader):
             if len(result) >= limit:
@@ -492,7 +515,7 @@ def generate_catalogues(
                     + .08 * theme["investigation"] + .02 * int(theme["british_or_irish"]))
             else:
                 card["suggested_score"] = normalised_score
-        returning_diagnostics, returners = [], []
+        returning_diagnostics, returners, primary_prefix_count = [], [], 0
         if kind == "series":
             episodes = derive_episode_progress(watched_shows, watched_episode_history)
             for key, state in episodes.items():
@@ -533,9 +556,10 @@ def generate_catalogues(
                             suggested_score=score + .25 * theme["priority_organised_crime"] + .15 * math.exp(-age_days / 30))
                 returners.append(card)
             mixed = rank_and_mix_series(cards, limit=config.catalogue_limit)
+            primary_prefix_count = _primary_prefix_count(cards)
             returners.sort(key=lambda c: (-c["suggested_score"], c["id"]))
             for index, card in enumerate(returners[:config.max_returning_items]):
-                mixed.insert(min(2 + 4 * index, len(mixed)), card)
+                mixed.insert(min(max(2, primary_prefix_count) + 4 * index, len(mixed)), card)
             ordered = mixed[:config.catalogue_limit]
         else:
             ordered = sorted(cards, key=lambda c: (-c["suggested_score"], c["id"]))[:config.catalogue_limit]
@@ -548,6 +572,7 @@ def generate_catalogues(
                        "profile_input_count": len(items), "profile_processed_count": len(audit["processed"]),
                        "candidate_count": len(candidates), "enriched_count": len(selected),
                        "eligible_discovery_count": len(cards), "returning_count": len(returners),
+                       "primary_crime_prefix_count": primary_prefix_count,
                        "returning_decisions": returning_diagnostics,
                        "callback_counts": dict(runner.calls), "warnings": runner.warnings,
                        "selected_cards": ordered}

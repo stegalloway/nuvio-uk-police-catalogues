@@ -1,34 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt6517320",
-      "type": "series",
-      "name": "Too Old to Die Young",
-      "poster": "https://image.tmdb.org/t/p/w500/xGBwXf02Mu2zzqxh6TomLC7xfk7.jpg",
-      "posterShape": "poster",
-      "description": "In one tragic night, Los Angeles County Sheriff's Deputy Martin Jones's life is blown apart, and he is forced into a deadly underground of Cartel soldiers, Yakuza assassins, and mysterious vigilantes. Soon he finds himself lost on a surreal odyssey of murder, mysticism and vengeance, as his past sins close in on him.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt6517320"
-    },
-    {
-      "id": "tt27954448",
-      "type": "series",
-      "name": "Law & Order Toronto: Criminal Intent",
-      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
-      "posterShape": "poster",
-      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt27954448"
-    },
-    {
       "id": "tt3032476",
       "type": "series",
       "name": "Better Call Saul",
@@ -57,19 +29,19 @@
       "imdb_id": "tt5011816"
     },
     {
-      "id": "tt5611024",
+      "id": "tt2077823",
       "type": "series",
-      "name": "Fool Me Once",
-      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "name": "Perry Mason",
+      "poster": "https://image.tmdb.org/t/p/w500/5QcaEyfSbJEmiaxf7ch8nBl0GO4.jpg",
       "posterShape": "poster",
-      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "description": "Set in 1932 Los Angeles, the series focuses on the origin story of famed defense lawyer Perry Mason. Living check-to-check as a low-rent private investigator, Mason is haunted by his wartime experiences in France and suffering the effects of a broken marriage. L.A. is booming while the rest of the country recovers from the Great Depression — but a kidnapping gone very wrong leads to Mason exposing a fractured city as he uncovers the truth of the crime.",
       "genres": [
         "Drama",
-        "Crime",
-        "Mystery"
+        "Mystery",
+        "Crime"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5611024"
+      "releaseInfo": "2020",
+      "imdb_id": "tt2077823"
     },
     {
       "id": "tt0141842",
@@ -100,19 +72,18 @@
       "imdb_id": "tt0118381"
     },
     {
-      "id": "tt34771210",
+      "id": "tt27954448",
       "type": "series",
-      "name": "I Will Find You",
-      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
+      "name": "Law & Order Toronto: Criminal Intent",
+      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
       "posterShape": "poster",
-      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
+      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
       "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34771210"
+      "releaseInfo": "2024",
+      "imdb_id": "tt27954448"
     },
     {
       "id": "tt1625724",
@@ -143,19 +114,19 @@
       "imdb_id": "tt0052522"
     },
     {
-      "id": "tt2953250",
+      "id": "tt5611024",
       "type": "series",
-      "name": "Shining Girls",
-      "poster": "https://image.tmdb.org/t/p/w500/qmN97JxhZHgCThRqgzaiSF7C2mj.jpg",
+      "name": "Fool Me Once",
+      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
       "posterShape": "poster",
-      "description": "Years after a brutal attack left her in a constantly shifting reality, Kirby Mazrachi learns that a recent murder is linked to her assault. She teams with veteran reporter Dan Velazquez to understand her ever-changing present—and confront her past.",
+      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
       "genres": [
         "Drama",
-        "Mystery",
-        "Crime"
+        "Crime",
+        "Mystery"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt2953250"
+      "releaseInfo": "2024",
+      "imdb_id": "tt5611024"
     },
     {
       "id": "tt1958961",
@@ -171,6 +142,36 @@
       ],
       "releaseInfo": "2012",
       "imdb_id": "tt1958961"
+    },
+    {
+      "id": "tt34771210",
+      "type": "series",
+      "name": "I Will Find You",
+      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
+      "posterShape": "poster",
+      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34771210"
+    },
+    {
+      "id": "tt2953250",
+      "type": "series",
+      "name": "Shining Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/qmN97JxhZHgCThRqgzaiSF7C2mj.jpg",
+      "posterShape": "poster",
+      "description": "Years after a brutal attack left her in a constantly shifting reality, Kirby Mazrachi learns that a recent murder is linked to her assault. She teams with veteran reporter Dan Velazquez to understand her ever-changing present—and confront her past.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt2953250"
     },
     {
       "id": "tt31314754",

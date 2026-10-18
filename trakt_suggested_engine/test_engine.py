@@ -132,6 +132,30 @@ class RankingContracts(unittest.TestCase):
         self.assertTrue(theme["investigator_led"])
         self.assertFalse(theme["gangster_priority"])
 
+    def test_british_irish_crime_family_prefix_leads_higher_scored_wider_choices(self):
+        primary = {"gangster_priority": True, "british_or_irish": True, "investigator_led": False}
+        wider = {"gangster_priority": True, "british_or_irish": False, "investigator_led": False}
+        police = {"gangster_priority": False, "british_or_irish": True, "investigator_led": True}
+        cards = [{"id": "primary" + str(i), "suggested_score": .20 + i / 100, "theme": primary} for i in range(5)]
+        cards += [{"id": "wider", "suggested_score": .99, "theme": wider},
+                  {"id": "investigation", "suggested_score": 1.0, "theme": police}]
+        ordered = rank_and_mix_series(cards, limit=7)
+        self.assertEqual([c["id"] for c in ordered[:4]], ["primary4", "primary3", "primary2", "primary1"])
+        self.assertEqual({c["id"] for c in ordered[4:]}, {"primary0", "wider", "investigation"})
+        self.assertEqual(ordered[4]["id"], "wider")
+
+    def test_primary_country_uses_series_origin_not_coproduction(self):
+        for origin, production, expected in ((["US"], ["US", "IE"], False),
+                                               (["GB"], ["GB", "US"], True),
+                                               (["IE"], ["CA", "IE", "SE", "GB"], True),
+                                               ([], ["GB"], False)):
+            with self.subTest(origin=origin, production=production):
+                theme = thematic_signals({"overview": "A crime family controls the city's criminal underworld.",
+                    "origin_country": origin,
+                    "production_countries": [{"iso_3166_1": country} for country in production]})
+                self.assertTrue(theme["gangster_priority"])
+                self.assertEqual(theme["british_or_irish"], expected)
+
 
 class FixtureAPI:
     def __init__(self):
@@ -228,11 +252,12 @@ class EndToEndContracts(unittest.TestCase):
     def test_returning_season_merges_into_series_without_third_row(self):
         result = self.run_engine(trakt_fetch=lambda path, params: [season(1), season(2, premiered=NOW)])
         metas = result["catalogues"]["series"]["payload"]["metas"]
-        self.assertEqual(metas[2]["id"], "tt10")
-        self.assertTrue(metas[2]["description"].startswith("Season 2 has started."))
+        self.assertEqual(metas[4]["id"], "tt10")
+        self.assertTrue(metas[4]["description"].startswith("Season 2 has started."))
         self.assertEqual(len(result["catalogues"]), 2)
-        first_cards = result["diagnostics"]["media"]["series"]["selected_cards"][:2]
-        self.assertTrue(all(c["theme"]["gangster_priority"] for c in first_cards))
+        first_cards = result["diagnostics"]["media"]["series"]["selected_cards"][:4]
+        self.assertTrue(all(c["theme"]["gangster_priority"] and c["theme"]["british_or_irish"] for c in first_cards))
+        self.assertEqual(result["diagnostics"]["media"]["series"]["primary_crime_prefix_count"], 4)
 
     def test_missing_episode_metadata_does_not_insert_returner(self):
         def failed(path, params):
