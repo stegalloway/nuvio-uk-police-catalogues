@@ -41,6 +41,8 @@ INPUT_FILES = {
     "rated_shows": "trakt-ratings-shows.json",
     "watched_episode_history": "trakt-episode-history.json",
 }
+OPTIONAL_INPUT_FILES = {"dismissed": "trakt-not-interested.json"}
+DEFAULT_DISMISS_LIST = "not-interested"
 META_FIELDS = frozenset({
     "id", "type", "name", "poster", "posterShape", "description", "releaseInfo",
     "genres", "background", "imdbRating", "runtime", "logo", "imdb_id",
@@ -54,6 +56,10 @@ class RefreshError(RuntimeError):
 
 class SourceError(RefreshError):
     """A required remote source failed or returned an incomplete response."""
+
+
+class MissingSource(LookupError):
+    """An optional source does not exist or is not public. Not a failure."""
 
 
 class SourceFailures:
@@ -111,7 +117,7 @@ class JsonHttpClient:
         self.failures.record(self.source, reason)
         raise SourceError(self.source + " response was unavailable or invalid")
 
-    def get(self, path: str, params: Mapping | None = None) -> JsonResponse:
+    def get(self, path: str, params: Mapping | None = None, *, missing_ok: bool = False) -> JsonResponse:
         if not path.startswith("/") or "?" in path or "#" in path or path.startswith("//"):
             self.fail("invalid_path")
         query = {**dict(params or {}), **self.extra_query}
@@ -145,6 +151,8 @@ class JsonHttpClient:
                         self.fail("api_error_payload")
                     return JsonResponse(data, {k.lower(): v for k, v in response.headers.items()})
             except urllib.error.HTTPError as error:
+                if missing_ok and error.code in (401, 403, 404):
+                    raise MissingSource(self.source + " resource is absent or private")
                 if error.code not in (408, 429, 500, 502, 503, 504) or attempt + 1 == self.attempts:
                     self.fail("http_" + str(error.code))
                 try:
@@ -259,12 +267,16 @@ class TraktClient:
             return self.paginated(path, {"extended": "full"})
         return self._list(first)
 
-    def paginated(self, path: str, params: Mapping | None = None, *, limit: int = 100) -> list[dict]:
+    def paginated(self, path: str, params: Mapping | None = None, *, limit: int = 100,
+                  missing_ok: bool = False) -> list[dict]:
         result: list[dict] = []
         expected_pages = expected_items = None
         fingerprints: set[str] = set()
         for page in range(1, 1001):
-            response = self.http.get(path, {**dict(params or {}), "limit": limit, "page": page})
+            # Only a missing first page means the source is absent; a later
+            # page vanishing is still a failed, partial fetch.
+            response = self.http.get(path, {**dict(params or {}), "limit": limit, "page": page},
+                                     missing_ok=missing_ok and page == 1)
             items = self._list(response)
             headers = response.headers
             try:
@@ -301,7 +313,16 @@ class TraktClient:
             self.http.fail("unexpected_season_path")
         return self._list(self.http.get(path, params))
 
-    def histories(self, username: str) -> dict[str, list[dict]]:
+    def dismissed(self, username: str, slug: str) -> list[dict] | None:
+        """Items of the user's public "Not Interested" list; None while it is absent or private."""
+        path = ("/users/" + urllib.parse.quote(username, safe="") +
+                "/lists/" + urllib.parse.quote(slug, safe="") + "/items")
+        try:
+            return self.paginated(path, missing_ok=True)
+        except MissingSource:
+            return None
+
+    def histories(self, username: str, dismiss_list: str | None = None) -> dict[str, list[dict] | None]:
         user = urllib.parse.quote(username, safe="")
         base = "/users/" + user
         jobs = {
@@ -311,29 +332,38 @@ class TraktClient:
             "rated_shows": lambda: self.paginated(base + "/ratings/shows"),
             "watched_episode_history": lambda: self.paginated(base + "/history/shows"),
         }
+        if dismiss_list:
+            # A missing list is None; any other error fails the refresh, so an
+            # outage can never bring dismissed titles back.
+            jobs["dismissed"] = lambda: self.dismissed(username, dismiss_list)
         with ThreadPoolExecutor(max_workers=3) as pool:
             futures = {key: pool.submit(job) for key, job in jobs.items()}
             # Every required future must succeed. Never interpret an outage as [].
             return {key: future.result() for key, future in futures.items()}
 
 
+def read_snapshot(path: Path) -> list[dict]:
+    value = json.loads(path.read_text(encoding="utf-8-sig"))
+    if isinstance(value, dict):
+        if value.get("status", 200) != 200:
+            raise SourceError("A private snapshot contains a failed response")
+        for key in ("data", "body", "items"):
+            if key in value:
+                value = value[key]
+                if isinstance(value, str):
+                    value = json.loads(value)
+                break
+    if not isinstance(value, list) or any(not isinstance(item, dict) for item in value):
+        raise SourceError("A required private snapshot is missing or invalid")
+    return value
+
+
 def load_history_snapshots(folder: Path) -> dict[str, list[dict]]:
     """Explicit manual/offline option; scheduled workflow always fetches fresh data."""
-    result = {}
-    for name, filename in INPUT_FILES.items():
-        value = json.loads((folder / filename).read_text(encoding="utf-8-sig"))
-        if isinstance(value, dict):
-            if value.get("status", 200) != 200:
-                raise SourceError("A private snapshot contains a failed response")
-            for key in ("data", "body", "items"):
-                if key in value:
-                    value = value[key]
-                    if isinstance(value, str):
-                        value = json.loads(value)
-                    break
-        if not isinstance(value, list) or any(not isinstance(item, dict) for item in value):
-            raise SourceError("A required private snapshot is missing or invalid")
-        result[name] = value
+    result = {name: read_snapshot(folder / filename) for name, filename in INPUT_FILES.items()}
+    for name, filename in OPTIONAL_INPUT_FILES.items():
+        if (folder / filename).exists():
+            result[name] = read_snapshot(folder / filename)
     return result
 
 
@@ -514,10 +544,14 @@ def generate_and_publish(
     for name in INPUT_FILES:
         if name not in histories or not isinstance(histories[name], list):
             raise SourceError("A required history list is missing")
+    # The Not Interested list is optional: None (absent or private) dismisses nothing.
+    extra = {"dismissed": histories["dismissed"]} if histories.get("dismissed") is not None else {}
+    if extra and not isinstance(extra["dismissed"], list):
+        raise SourceError("The Not Interested list is invalid")
     result = generator(
         histories["watched_movies"], histories["watched_shows"],
         histories["rated_movies"], histories["rated_shows"], histories["watched_episode_history"],
-        tmdb_fetch, trakt_fetch=trakt_fetch, now=now,
+        tmdb_fetch, trakt_fetch=trakt_fetch, now=now, **extra,
     )
     # Engines may deliberately catch individual callback failures. A live
     # publication must still retain its last complete good result in that case.
@@ -576,12 +610,18 @@ def main(argv: list[str] | None = None) -> int:
             "https://api.themoviedb.org/3", {"Authorization": "Bearer " + tmdb_token} if tmdb_token else {},
             "tmdb", failures, extra_query={} if tmdb_token else {"api_key": tmdb_key}, deadline=deadline,
         ), args.cache_dir, args.cache_ttl_hours)
-        histories = load_history_snapshots(args.history_dir) if args.history_dir else trakt.histories(username)
+        dismiss_list = os.environ.get("TRAKT_DISMISS_LIST", DEFAULT_DISMISS_LIST).strip()
+        histories = (load_history_snapshots(args.history_dir) if args.history_dir
+                     else trakt.histories(username, dismiss_list))
         counts = generate_and_publish(
             histories, tmdb, trakt.seasons, args.output, failures=failures,
             now=datetime.now(timezone.utc), addon_id=args.addon_id, private_diagnostics=args.private_diagnostics,
         )
-        print(json.dumps({"published": True, "counts": counts}))
+        dismissed = histories.get("dismissed")
+        not_interested = (len(dismissed) if isinstance(dismissed, list) else
+                          "no public list named " + dismiss_list if dismiss_list and not args.history_dir
+                          else "not used")
+        print(json.dumps({"published": True, "counts": counts, "not_interested": not_interested}))
         return 0
     except Exception as error:
         # Errors can carry credential-bearing request URLs or private titles.

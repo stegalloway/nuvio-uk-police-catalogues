@@ -25,6 +25,7 @@ result = generate_catalogues(
     trakt_fetch=trakt_fetch,    # callable(path, params=None) -> decoded JSON
     now=datetime.now(timezone.utc),
     config=EngineConfig(),
+    dismissed=not_interested,   # optional: items of the "Not Interested" Trakt list
 )
 
 series_payload = result["catalogues"]["series"]["payload"]
@@ -68,6 +69,11 @@ the basis. This generator deliberately makes the following custom adaptations:
   the no-adult rule stay in force. No minimum release year is imposed.
 - Actual Trakt watched IDs determine suppression. Ratings inform the profile
   but do not silently mark a rated-only title watched.
+- Titles on the "Not Interested" list (`dismissed`) are suppressed at the same
+  three points as watched ones: the TMDB candidate pool, the IMDb card check
+  and returning-season picks. Movie entries hide films; show, season and
+  episode entries hide the whole series. They never feed the taste profile.
+  Each row's diagnostics report `not_interested.suppressed_count`.
 - Series metadata keywords and synopsis supply organised-crime, investigation
   and British/Irish signals. No title names or title IDs are matched or pinned.
 - Synopsis role order distinguishes criminal-led underworld/family stories from
@@ -199,7 +205,7 @@ Run from the package's parent directory:
 python3 -m unittest trakt_suggested_engine.test_engine -v
 ```
 
-The 38 focused tests cover public/nested history adapters, stable-ID joins,
+The 42 focused tests cover public/nested history adapters, stable-ID joins,
 episode release boundaries, announced/future/special content, incomplete
 seasons, reset boundaries, started-season exclusion, title-blind theme scoring,
 series mixing and British/Irish criminal-led priority, police-led versus criminal-led organised crime, watched-vs-rated
@@ -209,5 +215,8 @@ of empty output. The For You tests check the exact Discover parameters, entry
 into the pool, ranking by weighting rather than source order, the series prefix
 and mix, deduplication, both watched-suppression gates, an unchanged history
 enrichment budget, inherited filters,
-private-field exclusion, disabling the source and the recency curve. Every
+private-field exclusion, disabling the source and the recency curve. The Not
+Interested tests check that listed films and shows (including IMDb-only and
+episode entries) vanish, a show never hides a film with the same TMDB number,
+an empty list changes nothing, and a listed show gets no returning season. Every
 end-to-end contract is re-run with For You rows present.

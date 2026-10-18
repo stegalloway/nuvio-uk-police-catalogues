@@ -129,6 +129,24 @@ def _show_key(show: Mapping) -> str | None:
     return None
 
 
+def dismissed_ids(items: Iterable[Mapping], kind: str) -> tuple[set[str], set[int]]:
+    """IMDb and TMDB IDs a "Not Interested" Trakt list hides for one kind.
+
+    Movie entries hide films. Show, season and episode entries all carry the
+    parent show, and each hides that whole series.
+    """
+    imdb, tmdb = set(), set()
+    for item in items:
+        if not isinstance(item, Mapping):
+            continue
+        ids = ((item.get("movie") if kind == "movie" else item.get("show")) or {}).get("ids") or {}
+        if isinstance(ids.get("imdb"), str) and ids["imdb"]:
+            imdb.add(ids["imdb"])
+        if w._int(ids.get("tmdb")):
+            tmdb.add(w._int(ids["tmdb"]))
+    return imdb, tmdb
+
+
 def _regular_episode(episode: Mapping) -> bool:
     number = w._int(episode.get("number"))
     kind = str(episode.get("episode_type") or "").lower().replace(" ", "_")
@@ -423,6 +441,7 @@ def generate_catalogues(
     trakt_fetch: Callable[[str, Mapping | None], Any] | None = None,
     now: datetime | str | None = None,
     config: EngineConfig | None = None,
+    dismissed: Sequence[Mapping] | None = None,
 ) -> dict:
     """Generate exactly two catalogues in series-first order.
 
@@ -431,6 +450,8 @@ def generate_catalogues(
     trakt_fetch is read-only and receives /shows/{id}/seasons with extended=
     episodes,full. Caller-provided caches may serve metadata; watched payloads
     must be refreshed for every published generation.
+    dismissed holds the items of the "Not Interested" Trakt list. Those titles
+    are hidden exactly like watched ones, and never feed the taste profile.
 
     Raises GenerationError for missing/insufficient input profile or output.
     Never catch that error by publishing {"metas": []}; retain the old files.
@@ -452,6 +473,9 @@ def generate_catalogues(
                         ("watched_episode_history", watched_episode_history)):
         if value is None or not isinstance(value, (list, tuple)):
             raise GenerationError("Missing explicit list input: " + name)
+    dismissed = () if dismissed is None else dismissed
+    if not isinstance(dismissed, (list, tuple)):
+        raise GenerationError("Invalid list input: dismissed")
     if not watched_movies or not watched_shows:
         raise GenerationError("Both movie and series watched histories are required; retain existing catalogues")
     history = w.history_from_trakt(watched_movies, watched_shows, rated_movies, rated_shows)
@@ -461,7 +485,8 @@ def generate_catalogues(
                   "watchly_commit": w.COMMIT, "config": asdict(config), "media": {},
                   "input_counts": {"watched_movies": len(watched_movies), "watched_series": len(watched_shows),
                       "rated_movies": len(rated_movies), "rated_series": len(rated_shows),
-                      "watched_episode_history": len(watched_episode_history)}}}
+                      "watched_episode_history": len(watched_episode_history),
+                      "not_interested": len(dismissed)}}}
     for kind, watch_rows in (("series", watched_shows), ("movie", watched_movies)):
         media = "tv" if kind == "series" else "movie"
         policy = w.ste_policy(kind, newest_first=False)
@@ -492,11 +517,15 @@ def generate_catalogues(
                                        w.interest_score(i, moment)), reverse=True)
             seed_ids = {i["imdb_id"] for i in seeds}
             seeds.extend(i for i in themed[:config.thematic_seed_count] if i["imdb_id"] not in seed_ids)
+        dismissed_imdb, dismissed_tmdb = dismissed_ids(dismissed, kind)
+        dismissed_hits = set()
         candidates, origins = {}, defaultdict(set)
         def merge(rows, origin):
             for raw in rows:
                 tid = w._int(raw.get("id"))
-                if tid and tid not in watched_tmdb and _eligible(raw, policy, moment):
+                if tid in dismissed_tmdb:
+                    dismissed_hits.add(tid)
+                elif tid and tid not in watched_tmdb and _eligible(raw, policy, moment):
                     candidates[tid] = dict(raw)
                     origins[tid].add(origin)
         def recommend(seed):
@@ -567,6 +596,9 @@ def generate_catalogues(
             if imdb in watched_imdb:
                 watched_by_imdb.add(raw["id"])
                 continue
+            if imdb in dismissed_imdb:
+                dismissed_hits.add(raw["id"])
+                continue
             if not _eligible(combined, policy, moment):
                 continue
             poster = _safe_poster(detail.get("poster_path") or raw.get("poster_path"))
@@ -602,6 +634,10 @@ def generate_catalogues(
             for key, state in episodes.items():
                 ids = state["show"].get("ids") or {}
                 tid = w._int(ids.get("tmdb")) or audit["resolved"].get(ids.get("imdb"))
+                if tid in dismissed_tmdb or ids.get("imdb") in dismissed_imdb:
+                    dismissed_hits.add(tid or key)
+                    returning_diagnostics.append({"show_id": key, "route": "hidden", "reason": "not_interested"})
+                    continue
                 detail = runner._details(tid, media) if tid else {}
                 if not detail or not _eligible(_canonical_detail(detail, detail), policy, moment):
                     continue
@@ -660,6 +696,7 @@ def generate_catalogues(
                                    "eligible_card_count": sum("for_you_rank" in c for c in cards),
                                    "positions": [{"id": c["id"], "position": i + 1, "for_you_rank": c["for_you_rank"]}
                                                  for i, c in enumerate(ordered) if "for_you_rank" in c]},
+                       "not_interested": {"suppressed_count": len(dismissed_hits)},
                        "returning_decisions": returning_diagnostics,
                        "callback_counts": dict(runner.calls), "warnings": runner.warnings,
                        "selected_cards": ordered}

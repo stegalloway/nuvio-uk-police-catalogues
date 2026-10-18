@@ -14,6 +14,23 @@ Environment variables:
 - `TRAKT_CLIENT_ID`: read API application key, provided as an Actions secret.
 - `TMDB_ACCESS_TOKEN`: TMDB bearer credential, as used by the existing police
   updater; alternatively `TMDB_API_KEY` is supported.
+- `TRAKT_DISMISS_LIST` (optional): slug of the public Trakt list whose titles are
+  never suggested. Default `not-interested`; an empty value turns it off.
+
+## Not Interested list
+
+To dismiss a title, add it to a **public** Trakt list named "Not Interested"
+(slug `not-interested`). In Nuvio: long-press **+** on the title's details page,
+tick the list, Save. It disappears from both rows at the next refresh.
+Remove it from the list to let it back in.
+
+The runtime reads the whole list, `/users/{user}/lists/{slug}/items`, fully
+paginated. If the list does not exist or is not public (401, 403 or 404 on the
+first page), nothing is dismissed and the refresh carries on. The run log then
+shows `"not_interested": "no public list named not-interested"`, or the item
+count when the list was read. Any other error, including a missing later page,
+fails the refresh like every other source. An outage therefore keeps the
+previous catalogues rather than bringing dismissed titles back.
 
 Run from the repository root:
 
@@ -84,7 +101,8 @@ in the repository or include it in a commit. Per row, it reports For You counts
 (`returned`, `watched_suppressed`, `candidate`, `eligible_card`) and each For You
 title's final position. The public pages never carry `for_you_rank`, `freshness`
 or source labels. `--history-dir PATH` is an explicit
-manual/offline option accepting the five filenames declared in `INPUT_FILES`.
+manual/offline option accepting the five filenames declared in `INPUT_FILES`,
+plus an optional `trakt-not-interested.json`.
 The scheduled workflow never uses snapshots. Cache, history and diagnostics paths
 under the Pages `docs/` tree are rejected.
 
@@ -97,7 +115,7 @@ job has a 30-minute timeout and the reader a 25-minute network deadline.
 
 Its concurrency group is shared with the police updater to prevent two updater
 jobs pushing the same branch simultaneously. It stages **only `docs/suggested/`**.
-It neither changes Trakt watch state nor operates playback, Nuvio appearance,
+It only reads Trakt, including the Not Interested list. It neither changes Trakt watch state nor operates playback, Nuvio appearance,
 other add-ons or the police catalogue rules.
 
 Run focused contracts with:

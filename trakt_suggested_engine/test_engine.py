@@ -328,6 +328,35 @@ class EndToEndContracts(unittest.TestCase):
         with self.assertRaises(GenerationError):
             generate_catalogues(None, *self.inputs[1:], self.api, now=NOW, config=self.config)
 
+    def test_not_interested_titles_are_hidden_like_watched_ones(self):
+        baseline = self.run_engine()
+        self.assertEqual(self.run_engine(dismissed=[])["catalogues"], baseline["catalogues"])
+        movie, other_movie = [m["id"] for m in baseline["catalogues"]["movie"]["payload"]["metas"][:2]]
+        series = baseline["catalogues"]["series"]["payload"]["metas"][0]["id"]
+        result = self.run_engine(dismissed=[
+            {"type": "movie", "movie": {"ids": {"imdb": movie, "tmdb": int(movie[2:])}}},
+            # An IMDb-only episode entry hides its whole show.
+            {"type": "episode", "episode": {"season": 1, "number": 1}, "show": {"ids": {"imdb": series}}},
+            # A show sharing a film's TMDB number never hides that film.
+            {"type": "show", "show": {"ids": {"tmdb": int(other_movie[2:])}}},
+            {"type": "person", "person": {"ids": {"tmdb": 123}}},
+        ])
+        movie_ids = {m["id"] for m in result["catalogues"]["movie"]["payload"]["metas"]}
+        self.assertNotIn(movie, movie_ids)
+        self.assertIn(other_movie, movie_ids)
+        self.assertNotIn(series, {m["id"] for m in result["catalogues"]["series"]["payload"]["metas"]})
+        for kind in ("movie", "series"):
+            self.assertGreaterEqual(result["diagnostics"]["media"][kind]["not_interested"]["suppressed_count"], 1)
+        with self.assertRaises(GenerationError):
+            self.run_engine(dismissed="not a list")
+
+    def test_not_interested_show_gets_no_returning_season(self):
+        result = self.run_engine(trakt_fetch=lambda path, params: [season(1), season(2, premiered=NOW)],
+                                 dismissed=[{"type": "season", "season": {"number": 2}, "show": show()}])
+        self.assertNotIn("tt10", {m["id"] for m in result["catalogues"]["series"]["payload"]["metas"]})
+        reasons = {d.get("reason") for d in result["diagnostics"]["media"]["series"]["returning_decisions"]}
+        self.assertIn("not_interested", reasons)
+
 
 class ForYouContracts(EndToEndContracts):
     """The For You query is one more source, ranked by the same weighting.

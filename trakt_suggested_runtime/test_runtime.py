@@ -48,7 +48,7 @@ class FixtureHTTP:
         self.calls = []
         self.failures = SourceFailures()
 
-    def get(self, path, params=None):
+    def get(self, path, params=None, missing_ok=False):
         self.calls.append((path, params))
         value = self.responses.pop(0)
         if isinstance(value, Exception):
@@ -59,6 +59,14 @@ class FixtureHTTP:
     def fail(self, reason):
         self.failures.record("fixture", reason)
         raise SourceError(reason)
+
+
+class FakeResponse(io.BytesIO):
+    status = 200
+
+    def __init__(self, data, headers):
+        super().__init__(json.dumps(data).encode())
+        self.headers = headers
 
 
 class PaginationContracts(unittest.TestCase):
@@ -201,6 +209,30 @@ class PublicationContracts(unittest.TestCase):
             self.assertIn(b"tt300", public)
             self.assertIn(b"for_you_rank", diagnostics.read_bytes())
 
+    def test_not_interested_items_reach_the_engine_only_when_the_list_exists(self):
+        seen = []
+        def generator(*args, **kwargs):
+            seen.append(kwargs.get("dismissed", "absent"))
+            return generated()
+        items = [{"type": "movie", "movie": {"ids": {"tmdb": 1}}}]
+        with tempfile.TemporaryDirectory() as directory:
+            for value in (items, None):
+                histories = {key: [] for key in INPUT_FILES}
+                histories["dismissed"] = value
+                generate_and_publish(histories, None, None, Path(directory) / "suggested",
+                                     failures=SourceFailures(), generator=generator)
+        self.assertEqual(seen, [items, "absent"])
+
+    def test_real_engine_hides_not_interested_titles(self):
+        from trakt_suggested_engine.test_engine import NOW, fixture_inputs, for_you_fixture_api
+        histories = dict(zip(INPUT_FILES, fixture_inputs()))
+        histories["dismissed"] = [{"type": "movie", "movie": {"ids": {"imdb": "tt300", "tmdb": 300}}}]
+        with tempfile.TemporaryDirectory() as directory:
+            target = Path(directory) / "suggested"
+            generate_and_publish(histories, for_you_fixture_api(), None, target,
+                                 failures=SourceFailures(), now=NOW)
+            self.assertNotIn(b"tt300", b"".join(bytes_snapshot(target).values()))
+
     def test_private_diagnostics_cannot_be_written_elsewhere_under_pages_docs(self):
         with tempfile.TemporaryDirectory() as directory:
             target = Path(directory) / "docs/suggested"
@@ -252,9 +284,48 @@ class TraktSourceContracts(unittest.TestCase):
             for filename in INPUT_FILES.values():
                 atomic_json(folder / filename, {"status": 200, "data": []})
             self.assertEqual(set(load_history_snapshots(folder)), set(INPUT_FILES))
+            atomic_json(folder / "trakt-not-interested.json", [{"type": "show", "show": {"ids": {"tmdb": 1}}}])
+            self.assertEqual(len(load_history_snapshots(folder)["dismissed"]), 1)
             atomic_json(folder / INPUT_FILES["rated_movies"], {"status": 503, "data": []})
             with self.assertRaises(SourceError):
                 load_history_snapshots(folder)
+
+    def test_missing_or_private_not_interested_list_dismisses_nothing(self):
+        for code in (401, 403, 404):
+            failures = SourceFailures()
+            def opener(request, **kwargs):
+                raise urllib.error.HTTPError(request.full_url, code, "missing", {}, None)
+            http = JsonHttpClient("https://api.trakt.tv", {}, "trakt", failures, opener=opener)
+            with self.subTest(code=code):
+                self.assertIsNone(TraktClient(http).dismissed("example", "not-interested"))
+                failures.require_success()
+
+    def test_not_interested_list_is_read_in_full_and_outages_still_fail(self):
+        def client(responses, urls):
+            def opener(request, **kwargs):
+                urls.append(request.full_url)
+                value = responses.pop(0)
+                if isinstance(value, Exception):
+                    raise value
+                return value
+            failures = SourceFailures()
+            return TraktClient(JsonHttpClient("https://api.trakt.tv", {}, "trakt", failures, opener=opener,
+                                              sleeper=lambda _: None, attempts=1)), failures
+        item = {"type": "movie", "movie": {"ids": {"tmdb": 1}}}
+        urls = []
+        trakt, failures = client([FakeResponse([item], {"x-pagination-page-count": "1",
+                                                        "x-pagination-item-count": "1"})], urls)
+        self.assertEqual(trakt.dismissed("some user", "not-interested"), [item])
+        self.assertTrue(urls[0].startswith("https://api.trakt.tv/users/some%20user/lists/not-interested/items?"))
+        failures.require_success()
+        missing_later_page = [FakeResponse([item], {"x-pagination-page-count": "2", "x-pagination-item-count": "2"}),
+                              urllib.error.HTTPError("https://api.trakt.tv", 404, "gone", {}, None)]
+        for responses in (missing_later_page, [urllib.error.HTTPError("https://api.trakt.tv", 503, "down", {}, None)]):
+            trakt, failures = client(responses, [])
+            with self.subTest(responses=responses), self.assertRaises(SourceError):
+                trakt.dismissed("example", "not-interested")
+            with self.assertRaises(SourceError):
+                failures.require_success()
 
 
 class CacheAndTransportContracts(unittest.TestCase):
