@@ -21,6 +21,9 @@ jobs:
       - name: Check out catalogues
         uses: actions/checkout@v4
         with:
+          # Branch tip at job start, not the trigger commit: a run queued behind
+          # the police refresh would otherwise start from an outdated commit.
+          ref: ${{ github.ref_name }}
           persist-credentials: true
       - name: Install Python
         uses: actions/setup-python@v5
@@ -45,6 +48,7 @@ jobs:
           git add -- docs/suggested/
           if ! git diff --cached --quiet -- docs/suggested/; then
             git commit -m "Refresh Trakt Suggested catalogues"
+            git pull --rebase origin "$GITHUB_REF_NAME"
             git push
           else
             echo "No catalogue changes."
