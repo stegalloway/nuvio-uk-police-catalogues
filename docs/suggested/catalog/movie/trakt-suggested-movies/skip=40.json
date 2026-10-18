@@ -16,33 +16,18 @@
       "imdb_id": "tt33296751"
     },
     {
-      "id": "tt31450182",
+      "id": "tt32916440",
       "type": "movie",
-      "name": "Amber Alert",
-      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
+      "name": "Marty Supreme",
+      "poster": "https://image.tmdb.org/t/p/w500/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
       "posterShape": "poster",
-      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
+      "description": "Marty Mauser, a young man with a dream no one respects, goes to hell and back in pursuit of greatness.",
       "genres": [
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31450182"
-    },
-    {
-      "id": "tt2872718",
-      "type": "movie",
-      "name": "Nightcrawler",
-      "poster": "https://image.tmdb.org/t/p/w500/j9HrX8f7GbZQm1BrBiR40uFQZSb.jpg",
-      "posterShape": "poster",
-      "description": "When Lou Bloom, desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story. Aiding him in his effort is Nina, a TV-news veteran.",
-      "genres": [
-        "Crime",
         "Drama",
         "Thriller"
       ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2872718"
+      "releaseInfo": "2025",
+      "imdb_id": "tt32916440"
     },
     {
       "id": "tt33046197",
@@ -61,21 +46,6 @@
       "imdb_id": "tt33046197"
     },
     {
-      "id": "tt1855199",
-      "type": "movie",
-      "name": "End of Watch",
-      "poster": "https://image.tmdb.org/t/p/w500/pDeVKQICkcdwwjHxGj0MeS14YJ6.jpg",
-      "posterShape": "poster",
-      "description": "Two young officers are marked for death after confiscating a small cache of money and firearms from the members of a notorious cartel during a routine traffic stop.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1855199"
-    },
-    {
       "id": "tt4627382",
       "type": "movie",
       "name": "Roofman",
@@ -91,18 +61,62 @@
       "imdb_id": "tt4627382"
     },
     {
-      "id": "tt20215234",
+      "id": "tt2140479",
       "type": "movie",
-      "name": "Conclave",
-      "poster": "https://image.tmdb.org/t/p/w500/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg",
+      "name": "The Accountant",
+      "poster": "https://image.tmdb.org/t/p/w500/fceheXB5fC4WrLVuWJ6OZv9FXYr.jpg",
       "posterShape": "poster",
-      "description": "After the unexpected death of the Pope, Cardinal Lawrence is tasked with managing the covert and ancient ritual of electing a new one. Sequestered in the Vatican with the Catholic Church’s most powerful leaders until the process is complete, Lawrence finds himself at the center of a conspiracy that could lead to its downfall.",
+      "description": "As a math savant uncooks the books for a new client, the Treasury Department closes in on his activities and the body count starts to rise.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt2140479"
+    },
+    {
+      "id": "tt31450182",
+      "type": "movie",
+      "name": "Amber Alert",
+      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
+      "posterShape": "poster",
+      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt31450182"
+    },
+    {
+      "id": "tt2802144",
+      "type": "movie",
+      "name": "Kingsman: The Secret Service",
+      "poster": "https://image.tmdb.org/t/p/w500/r6q9wZK5a2K51KFj4LWVID6Ja1r.jpg",
+      "posterShape": "poster",
+      "description": "The story of a super-secret spy organization that recruits an unrefined but promising street kid into the agency's ultra-competitive training program just as a global threat emerges from a twisted tech genius.",
+      "genres": [
+        "Crime",
+        "Comedy",
+        "Action"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt2802144"
+    },
+    {
+      "id": "tt4550098",
+      "type": "movie",
+      "name": "Nocturnal Animals",
+      "poster": "https://image.tmdb.org/t/p/w500/mdLDgQBD0va09npSQX5Zgo2evXM.jpg",
+      "posterShape": "poster",
+      "description": "Susan Morrow receives a book manuscript from her ex-husband – a man she left 20 years earlier – asking for her opinion of his writing. As she reads, she is drawn into the fictional life of Tony Hastings, a mathematics professor whose family vacation turns violent.",
       "genres": [
         "Drama",
         "Thriller"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt20215234"
+      "releaseInfo": "2016",
+      "imdb_id": "tt4550098"
     },
     {
       "id": "tt14364480",
@@ -134,6 +148,20 @@
       "imdb_id": "tt42863533"
     },
     {
+      "id": "tt20215234",
+      "type": "movie",
+      "name": "Conclave",
+      "poster": "https://image.tmdb.org/t/p/w500/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg",
+      "posterShape": "poster",
+      "description": "After the unexpected death of the Pope, Cardinal Lawrence is tasked with managing the covert and ancient ritual of electing a new one. Sequestered in the Vatican with the Catholic Church’s most powerful leaders until the process is complete, Lawrence finds himself at the center of a conspiracy that could lead to its downfall.",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt20215234"
+    },
+    {
       "id": "tt21825416",
       "type": "movie",
       "name": "Truth & Treason",
@@ -163,21 +191,6 @@
       "imdb_id": "tt27543632"
     },
     {
-      "id": "tt2140479",
-      "type": "movie",
-      "name": "The Accountant",
-      "poster": "https://image.tmdb.org/t/p/w500/fceheXB5fC4WrLVuWJ6OZv9FXYr.jpg",
-      "posterShape": "poster",
-      "description": "As a math savant uncooks the books for a new client, the Treasury Department closes in on his activities and the body count starts to rise.",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt2140479"
-    },
-    {
       "id": "tt15574124",
       "type": "movie",
       "name": "Peaky Blinders: The Immortal Man",
@@ -190,20 +203,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt15574124"
-    },
-    {
-      "id": "tt4550098",
-      "type": "movie",
-      "name": "Nocturnal Animals",
-      "poster": "https://image.tmdb.org/t/p/w500/mdLDgQBD0va09npSQX5Zgo2evXM.jpg",
-      "posterShape": "poster",
-      "description": "Susan Morrow receives a book manuscript from her ex-husband – a man she left 20 years earlier – asking for her opinion of his writing. As she reads, she is drawn into the fictional life of Tony Hastings, a mathematics professor whose family vacation turns violent.",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt4550098"
     },
     {
       "id": "tt0443706",
@@ -250,6 +249,20 @@
       "imdb_id": "tt27550504"
     },
     {
+      "id": "tt0105236",
+      "type": "movie",
+      "name": "Reservoir Dogs",
+      "poster": "https://image.tmdb.org/t/p/w500/xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
+      "posterShape": "poster",
+      "description": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "1992",
+      "imdb_id": "tt0105236"
+    },
+    {
       "id": "tt33100314",
       "type": "movie",
       "name": "Remarkably Bright Creatures",
@@ -262,21 +275,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33100314"
-    },
-    {
-      "id": "tt1130884",
-      "type": "movie",
-      "name": "Shutter Island",
-      "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
-      "posterShape": "poster",
-      "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Mystery"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1130884"
     },
     {
       "id": "tt33057137",
