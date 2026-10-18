@@ -108,9 +108,12 @@ under the Pages `docs/` tree are rejected.
 
 ## Schedule and scope
 
-The workflow requests a refresh every six hours at 01:41, 07:41, 13:41 and 19:41
-UTC, with manual dispatch available. GitHub may start scheduled jobs late; a new
-season appears after the next successful refresh and client cache expiry. The
+The workflow requests a refresh every hour at :17 UTC, with manual dispatch
+available. GitHub often starts this repository's scheduled jobs hours late or
+drops them. The watchdog checks at :52 and re-runs any hour with no refresh by
+then, so a refresh still happens about once an hour. A new season or a Not
+Interested change appears after the next successful refresh, AIO's 5-minute
+catalogue cache and a Nuvio restart. The
 job has a 30-minute timeout and the reader a 25-minute network deadline.
 
 Its concurrency group is shared with the police updater to prevent two updater

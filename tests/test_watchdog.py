@@ -12,6 +12,8 @@ from watchdog import Schedule, decide, sync_issue
 UTC = dt.timezone.utc
 POLICE = Schedule((ROOT / ".github" / "workflows" / "daily-refresh.yml").read_text(encoding="utf-8"))
 TRAKT = Schedule((ROOT / ".github" / "workflows" / "trakt-suggested-refresh.yml").read_text(encoding="utf-8"))
+# The decision tests reason about a fixed six-hourly example, independent of the live file.
+SIX_HOURLY = Schedule("    - cron: '41 1,7,13,19 * * *'\n")
 WORKFLOW = {"name": "Daily UK police documentary refresh", "html_url": "https://example.test/wf"}
 
 
@@ -36,14 +38,27 @@ class ScheduleTests(unittest.TestCase):
     def test_reads_the_real_workflow_schedules(self):
         self.assertEqual(POLICE.times, [dt.time(6, 23)])
         self.assertEqual(POLICE.longest_gap, dt.timedelta(hours=24))
-        self.assertEqual(TRAKT.times, [dt.time(1, 41), dt.time(7, 41), dt.time(13, 41), dt.time(19, 41)])
-        self.assertEqual(TRAKT.longest_gap, dt.timedelta(hours=6))
+        self.assertEqual(TRAKT.times, [dt.time(h, 17) for h in range(24)])
+        self.assertEqual(TRAKT.longest_gap, dt.timedelta(hours=1))
+        self.assertEqual(SIX_HOURLY.longest_gap, dt.timedelta(hours=6))
 
     def test_slot_only_counts_once_its_grace_has_passed(self):
         self.assertEqual(POLICE.last_slot(at("2026-10-18T06:40")), at("2026-10-17T06:23"))
         self.assertEqual(POLICE.last_slot(at("2026-10-18T06:52")), at("2026-10-18T06:23"))
-        self.assertEqual(TRAKT.last_slot(at("2026-10-18T01:00")), at("2026-10-17T19:41"))
-        self.assertEqual(TRAKT.last_slot(at("2026-10-18T10:19")), at("2026-10-18T07:41"))
+        self.assertEqual(SIX_HOURLY.last_slot(at("2026-10-18T01:00")), at("2026-10-17T19:41"))
+        self.assertEqual(SIX_HOURLY.last_slot(at("2026-10-18T10:19")), at("2026-10-18T07:41"))
+
+    def test_hourly_trakt_is_topped_up_every_hour_when_github_skips_it(self):
+        # Worst case: GitHub never starts the schedule, so the only runs are
+        # the watchdog's own dispatches at :52. Each hour must get one.
+        self.assertEqual(TRAKT.last_slot(at("2026-10-18T14:52")), at("2026-10-18T14:17"))
+        result = decide(at("2026-10-18T14:52"), TRAKT, [run("2026-10-18T13:52:30")])
+        self.assertEqual((result.status, result.actions, result.alert), ("missed", ["dispatch"], None))
+        result = decide(at("2026-10-18T14:52"), TRAKT, [run("2026-10-18T14:20:00")])
+        self.assertEqual((result.status, result.actions), ("ok", []))
+        # 1 h gap + 25 min grace + 3 h margin before an overdue alert.
+        result = decide(at("2026-10-18T18:52"), TRAKT, [run("2026-10-18T14:20:00")])
+        self.assertEqual(result.alert[0], "overdue:Sun 18 Oct 14:20 UTC")
 
     def test_rejects_schedules_it_cannot_reason_about(self):
         for cron in ("*/30 * * * *", "0 6 * * 1"):
@@ -66,22 +81,22 @@ class DecisionTests(unittest.TestCase):
                 self.assertEqual((result.status, result.actions), ("running", []))
 
     def test_success_since_slot_is_ok(self):
-        result = decide(at("2026-10-18T08:52"), TRAKT, [run("2026-10-18T07:44:00"), run("2026-10-18T01:45:00")])
+        result = decide(at("2026-10-18T08:52"), SIX_HOURLY, [run("2026-10-18T07:44:00"), run("2026-10-18T01:45:00")])
         self.assertEqual((result.status, result.actions, result.alert), ("ok", [], None))
 
     def test_one_failure_retries_and_two_alert_without_more_runs(self):
         first = [run("2026-10-18T07:43:00", conclusion="failure", number=7), run("2026-10-18T06:13:53")]
-        result = decide(at("2026-10-18T08:52"), TRAKT, first)
+        result = decide(at("2026-10-18T08:52"), SIX_HOURLY, first)
         self.assertEqual((result.status, result.actions, result.alert), ("retrying", ["dispatch"], None))
         second = [run("2026-10-18T08:53:00", conclusion="timed_out", number=8)] + first
-        result = decide(at("2026-10-18T09:52"), TRAKT, second)
+        result = decide(at("2026-10-18T09:52"), SIX_HOURLY, second)
         self.assertEqual((result.status, result.actions), ("failing", []))
         self.assertEqual(result.alert[0], "failing:2026-10-18T07:41")
         self.assertIn("https://example.test/run/8", result.alert[1])
 
     def test_cancelled_runs_do_not_count_as_attempts(self):
         runs = [run("2026-10-18T07:50:00", conclusion="cancelled"), run("2026-10-18T06:13:53")]
-        result = decide(at("2026-10-18T08:52"), TRAKT, runs)
+        result = decide(at("2026-10-18T08:52"), SIX_HOURLY, runs)
         self.assertEqual((result.status, result.actions), ("missed", ["dispatch"]))
 
     def test_overdue_refresh_alerts_while_requesting_another_run(self):
@@ -137,9 +152,9 @@ class IssueTests(unittest.TestCase):
 
     def test_quiet_when_nothing_is_wrong(self):
         api = FakeAPI()
-        ok = decide(at("2026-10-18T08:52"), TRAKT, [run("2026-10-18T07:44:00")])
+        ok = decide(at("2026-10-18T08:52"), SIX_HOURLY, [run("2026-10-18T07:44:00")])
         self.assertIsNone(sync_issue(api, [], WORKFLOW, ok, "stegalloway"))
-        missed = decide(at("2026-10-18T08:52"), TRAKT, [run("2026-10-18T06:13:53")])
+        missed = decide(at("2026-10-18T08:52"), SIX_HOURLY, [run("2026-10-18T06:13:53")])
         self.assertIsNone(sync_issue(api, [], WORKFLOW, missed, "stegalloway"))
         self.assertEqual(api.calls, [])
 

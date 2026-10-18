@@ -3,7 +3,9 @@ name: Refresh Trakt Suggested catalogues
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 1,7,13,19 * * *'
+    # Hourly at :17. The watchdog runs at :52 and counts a slot once its
+    # 25-minute grace has passed, so it re-runs any hour GitHub skips.
+    - cron: '17 * * * *'
 
 permissions:
   contents: write

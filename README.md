@@ -44,7 +44,7 @@ refresh started around 10:50–11:35 UTC, and the first 07:41 Trakt Suggested sl
 - If a due time has passed by 25 minutes with no successful or running refresh, it dispatches one.
   If that run fails, it retries once.
 - After a second failure for the same due time, or when no refresh has succeeded for longer than the
-  schedule allows (police about 27½ h, Trakt Suggested about 9½ h), it opens **one issue per workflow**,
+  schedule allows (police about 27½ h, hourly Trakt Suggested about 4½ h), it opens **one issue per workflow**,
   titled `Catalogue refresh alert: …`, mentioning the repository owner. That gives a GitHub email
   and app notification. A new problem adds a comment; repeats of the same one stay quiet.
 - The next successful refresh closes the issue automatically.
