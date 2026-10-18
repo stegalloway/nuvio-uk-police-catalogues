@@ -30,19 +30,6 @@
       "imdb_id": "tt32430579"
     },
     {
-      "id": "tt33303521",
-      "type": "movie",
-      "name": "The Gates",
-      "poster": "https://image.tmdb.org/t/p/w500/dWMiHlKz0OsbVXEEZR3hYyWHcdq.jpg",
-      "posterShape": "poster",
-      "description": "Three friends' road trip turns terrifying when they witness a murder in a gated community. Trapped inside, hunted by residents who blame them, their bond fractures as a charismatic yet sinister patriarch closes in.",
-      "genres": [
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33303521"
-    },
-    {
       "id": "tt6146586",
       "type": "movie",
       "name": "John Wick: Chapter 3 - Parabellum",
@@ -56,6 +43,19 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt6146586"
+    },
+    {
+      "id": "tt33303521",
+      "type": "movie",
+      "name": "The Gates",
+      "poster": "https://image.tmdb.org/t/p/w500/dWMiHlKz0OsbVXEEZR3hYyWHcdq.jpg",
+      "posterShape": "poster",
+      "description": "Three friends' road trip turns terrifying when they witness a murder in a gated community. Trapped inside, hunted by residents who blame them, their bond fractures as a charismatic yet sinister patriarch closes in.",
+      "genres": [
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33303521"
     },
     {
       "id": "tt14641788",
