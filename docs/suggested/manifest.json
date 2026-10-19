@@ -36,7 +36,7 @@
     {
       "type": "series",
       "id": "trakt-upcoming-episodes",
-      "name": "Upcoming Episodes",
+      "name": "New & Upcoming Episodes",
       "extra": [
         {
           "name": "skip",
