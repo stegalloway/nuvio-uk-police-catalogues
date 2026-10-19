@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt34675596",
+      "type": "series",
+      "name": "Cape Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
+      "posterShape": "poster",
+      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34675596"
+    },
+    {
       "id": "tt11110622",
       "type": "series",
       "name": "White House Farm",
@@ -85,20 +99,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt32559610"
-    },
-    {
-      "id": "tt30459041",
-      "type": "series",
-      "name": "Your Friends & Neighbors",
-      "poster": "https://image.tmdb.org/t/p/w500/lcp63INKEsVHUly9eayx7gEEOcG.jpg",
-      "posterShape": "poster",
-      "description": "When a financial titan suddenly finds himself divorced and jobless, he starts robbing his wealthy neighbors to stay afloat. Stealing from his own social circle strangely exhilarates him—but he gradually gets tangled in a deadly web.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30459041"
     },
     {
       "id": "tt26862142",
