@@ -44,20 +44,6 @@
       "imdb_id": "tt4276618"
     },
     {
-      "id": "tt35707374",
-      "type": "series",
-      "name": "Memory of a Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/3kpXrWW6gmlngwgSa52IhBpjPuz.jpg",
-      "posterShape": "poster",
-      "description": "Angelo Doyle lives two totally separate lives — fearsome NYC hitman and sleepy upstate Cooperstown photocopier salesman and father. Both of them are threatened when he is diagnosed with Alzheimer's, a disease he already lost his older brother to.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35707374"
-    },
-    {
       "id": "tt11816814",
       "type": "series",
       "name": "Painkiller",
@@ -70,6 +56,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt11816814"
+    },
+    {
+      "id": "tt35707374",
+      "type": "series",
+      "name": "Memory of a Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/3kpXrWW6gmlngwgSa52IhBpjPuz.jpg",
+      "posterShape": "poster",
+      "description": "Angelo Doyle lives two totally separate lives — fearsome NYC hitman and sleepy upstate Cooperstown photocopier salesman and father. Both of them are threatened when he is diagnosed with Alzheimer's, a disease he already lost his older brother to.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35707374"
     },
     {
       "id": "tt2304589",
@@ -99,6 +99,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt32559610"
+    },
+    {
+      "id": "tt30459041",
+      "type": "series",
+      "name": "Your Friends & Neighbors",
+      "poster": "https://image.tmdb.org/t/p/w500/lcp63INKEsVHUly9eayx7gEEOcG.jpg",
+      "posterShape": "poster",
+      "description": "When a financial titan suddenly finds himself divorced and jobless, he starts robbing his wealthy neighbors to stay afloat. Stealing from his own social circle strangely exhilarates him—but he gradually gets tangled in a deadly web.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt30459041"
     },
     {
       "id": "tt26862142",
@@ -217,6 +231,20 @@
       "imdb_id": "tt18115928"
     },
     {
+      "id": "tt14063678",
+      "type": "series",
+      "name": "The Gold",
+      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
+      "posterShape": "poster",
+      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt14063678"
+    },
+    {
       "id": "tt31314754",
       "type": "series",
       "name": "Devil in Disguise: John Wayne Gacy",
@@ -245,20 +273,6 @@
       "imdb_id": "tt27954448"
     },
     {
-      "id": "tt14063678",
-      "type": "series",
-      "name": "The Gold",
-      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
-      "posterShape": "poster",
-      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14063678"
-    },
-    {
       "id": "tt1475582",
       "type": "series",
       "name": "Sherlock",
@@ -272,21 +286,6 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1475582"
-    },
-    {
-      "id": "tt33035373",
-      "type": "series",
-      "name": "HIS & HERS",
-      "poster": "https://image.tmdb.org/t/p/w500/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
-      "posterShape": "poster",
-      "description": "Two estranged spouses — one a detective, the other a news reporter — vie to solve a murder in which each believes the other is a prime suspect.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33035373"
     }
   ]
 }

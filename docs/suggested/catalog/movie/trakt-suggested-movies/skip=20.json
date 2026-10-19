@@ -1,19 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt5537002",
+      "id": "tt0117381",
       "type": "movie",
-      "name": "Killers of the Flower Moon",
-      "poster": "https://image.tmdb.org/t/p/w500/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
+      "name": "Primal Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
       "posterShape": "poster",
-      "description": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
+      "description": "Defense attorney Martin Vail takes on jobs for money and prestige rather than any sense of the greater good. His latest case involves an altar boy, accused of brutally murdering the archbishop of Chicago. Vail finds himself up against his ex-pupil and ex-lover, but as the case progresses and the Church's dark secrets are revealed, Vail finds that what appeared a simple case takes on a darker, more dangerous aspect.",
       "genres": [
         "Crime",
-        "History",
-        "Drama"
+        "Drama",
+        "Thriller"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt5537002"
+      "releaseInfo": "1996",
+      "imdb_id": "tt0117381"
     },
     {
       "id": "tt31192372",
@@ -27,6 +27,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt31192372"
+    },
+    {
+      "id": "tt5537002",
+      "type": "movie",
+      "name": "Killers of the Flower Moon",
+      "poster": "https://image.tmdb.org/t/p/w500/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
+      "posterShape": "poster",
+      "description": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
+      "genres": [
+        "Crime",
+        "History",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt5537002"
     },
     {
       "id": "tt14857730",
@@ -44,21 +59,6 @@
       "imdb_id": "tt14857730"
     },
     {
-      "id": "tt32550101",
-      "type": "movie",
-      "name": "STRAW",
-      "poster": "https://image.tmdb.org/t/p/w500/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg",
-      "posterShape": "poster",
-      "description": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
-      "genres": [
-        "Thriller",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32550101"
-    },
-    {
       "id": "tt7131622",
       "type": "movie",
       "name": "Once Upon a Time... in Hollywood",
@@ -72,6 +72,21 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt7131622"
+    },
+    {
+      "id": "tt32550101",
+      "type": "movie",
+      "name": "STRAW",
+      "poster": "https://image.tmdb.org/t/p/w500/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg",
+      "posterShape": "poster",
+      "description": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt32550101"
     },
     {
       "id": "tt30144839",
@@ -104,18 +119,19 @@
       "imdb_id": "tt32537226"
     },
     {
-      "id": "tt0071562",
+      "id": "tt31189814",
       "type": "movie",
-      "name": "The Godfather Part II",
-      "poster": "https://image.tmdb.org/t/p/w500/8a1lJs7mFyGhGhZZDT1azJUoQiZ.jpg",
+      "name": "Fuze",
+      "poster": "https://image.tmdb.org/t/p/w500/oMFdQE5hMJ9JjhNORegwTo0GKmh.jpg",
       "posterShape": "poster",
-      "description": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+      "description": "An unexploded WWII bomb is discovered on a busy construction site in the centre of London. Chaos ensues as the military and police begin a mass evacuation against a ticking clock.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Action",
+        "Crime",
+        "Thriller"
       ],
-      "releaseInfo": "1974",
-      "imdb_id": "tt0071562"
+      "releaseInfo": "2026",
+      "imdb_id": "tt31189814"
     },
     {
       "id": "tt7526136",
@@ -130,6 +146,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt7526136"
+    },
+    {
+      "id": "tt0071562",
+      "type": "movie",
+      "name": "The Godfather Part II",
+      "poster": "https://image.tmdb.org/t/p/w500/8a1lJs7mFyGhGhZZDT1azJUoQiZ.jpg",
+      "posterShape": "poster",
+      "description": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "1974",
+      "imdb_id": "tt0071562"
     },
     {
       "id": "tt0109035",
@@ -147,19 +177,18 @@
       "imdb_id": "tt0109035"
     },
     {
-      "id": "tt31189814",
+      "id": "tt21103218",
       "type": "movie",
-      "name": "Fuze",
-      "poster": "https://image.tmdb.org/t/p/w500/oMFdQE5hMJ9JjhNORegwTo0GKmh.jpg",
+      "name": "The Lost Bus",
+      "poster": "https://image.tmdb.org/t/p/w500/4IPxzGlE17fJAwUTMul4opMeutA.jpg",
       "posterShape": "poster",
-      "description": "An unexploded WWII bomb is discovered on a busy construction site in the centre of London. Chaos ensues as the military and police begin a mass evacuation against a ticking clock.",
+      "description": "A determined father risks everything to rescue a dedicated teacher and her students from a raging wildfire.",
       "genres": [
-        "Action",
-        "Crime",
+        "Drama",
         "Thriller"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31189814"
+      "releaseInfo": "2025",
+      "imdb_id": "tt21103218"
     },
     {
       "id": "tt5027774",
@@ -174,20 +203,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt5027774"
-    },
-    {
-      "id": "tt21103218",
-      "type": "movie",
-      "name": "The Lost Bus",
-      "poster": "https://image.tmdb.org/t/p/w500/4IPxzGlE17fJAwUTMul4opMeutA.jpg",
-      "posterShape": "poster",
-      "description": "A determined father risks everything to rescue a dedicated teacher and her students from a raging wildfire.",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt21103218"
     },
     {
       "id": "tt0108399",
@@ -205,21 +220,6 @@
       "imdb_id": "tt0108399"
     },
     {
-      "id": "tt33296751",
-      "type": "movie",
-      "name": "Tuner",
-      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
-      "posterShape": "poster",
-      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33296751"
-    },
-    {
       "id": "tt9603208",
       "type": "movie",
       "name": "Mission: Impossible - The Final Reckoning",
@@ -235,64 +235,63 @@
       "imdb_id": "tt9603208"
     },
     {
-      "id": "tt27757546",
+      "id": "tt33296751",
       "type": "movie",
-      "name": "Diablo",
-      "poster": "https://image.tmdb.org/t/p/w500/uFQduVyYIinJy3eLjozgfl6Xtcn.jpg",
+      "name": "Tuner",
+      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
       "posterShape": "poster",
-      "description": "Ex-con Kris Chaney seizes the daughter of a Colombian gangster to fulfill a noble promise to the young girl's mother. When her father enlists both the criminal underworld and a psychotic killer to exact his revenge, Kris relies on everything he's ever learned to stay alive and keep his word.",
+      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
       "genres": [
-        "Action",
-        "Thriller",
         "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt27757546"
-    },
-    {
-      "id": "tt31450182",
-      "type": "movie",
-      "name": "Amber Alert",
-      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
-      "posterShape": "poster",
-      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
-      "genres": [
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31450182"
-    },
-    {
-      "id": "tt2582802",
-      "type": "movie",
-      "name": "Whiplash",
-      "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
-      "posterShape": "poster",
-      "description": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
-      "genres": [
         "Drama",
-        "Music",
         "Thriller"
       ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2582802"
+      "releaseInfo": "2026",
+      "imdb_id": "tt33296751"
     },
     {
-      "id": "tt2382320",
+      "id": "tt1131748",
       "type": "movie",
-      "name": "No Time to Die",
-      "poster": "https://image.tmdb.org/t/p/w500/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
+      "name": "Prison Break: The Final Break",
+      "poster": "https://image.tmdb.org/t/p/w500/h1QRyGuWVXM4Cr3FyPISSjMCBkA.jpg",
       "posterShape": "poster",
-      "description": "Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+      "description": "Michael and Sara wed, but the happiness is short-lived when the Feds apprehend her for the murder of Michael's mother, Christina. Once a hit is ordered on Sara, the team reunite to break out the increasingly vulnerable target.",
       "genres": [
         "Action",
-        "Thriller",
-        "Adventure"
+        "Drama",
+        "Thriller"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt2382320"
+      "releaseInfo": "2009",
+      "imdb_id": "tt1131748"
+    },
+    {
+      "id": "tt8946378",
+      "type": "movie",
+      "name": "Knives Out",
+      "poster": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
+      "posterShape": "poster",
+      "description": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt8946378"
+    },
+    {
+      "id": "tt0209144",
+      "type": "movie",
+      "name": "Memento",
+      "poster": "https://image.tmdb.org/t/p/w500/nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
+      "posterShape": "poster",
+      "description": "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2000",
+      "imdb_id": "tt0209144"
     }
   ]
 }

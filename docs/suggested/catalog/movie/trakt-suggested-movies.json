@@ -75,20 +75,6 @@
       "imdb_id": "tt37971717"
     },
     {
-      "id": "tt32430579",
-      "type": "movie",
-      "name": "Crime 101",
-      "poster": "https://image.tmdb.org/t/p/w500/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg",
-      "posterShape": "poster",
-      "description": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
-      "genres": [
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32430579"
-    },
-    {
       "id": "tt36042156",
       "type": "movie",
       "name": "The Punisher: One Last Kill",
@@ -102,6 +88,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt36042156"
+    },
+    {
+      "id": "tt32430579",
+      "type": "movie",
+      "name": "Crime 101",
+      "poster": "https://image.tmdb.org/t/p/w500/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg",
+      "posterShape": "poster",
+      "description": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32430579"
     },
     {
       "id": "tt31195136",
@@ -133,21 +133,6 @@
       "imdb_id": "tt2481498"
     },
     {
-      "id": "tt0107554",
-      "type": "movie",
-      "name": "Menace II Society",
-      "poster": "https://image.tmdb.org/t/p/w500/guvPiEOeXwROpfCb2LkHkVEvOck.jpg",
-      "posterShape": "poster",
-      "description": "A young street hustler attempts to escape the rigors and temptations of the ghetto in a quest for a better life.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "1993",
-      "imdb_id": "tt0107554"
-    },
-    {
       "id": "tt5095076",
       "type": "movie",
       "name": "Wardriver",
@@ -160,21 +145,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt5095076"
-    },
-    {
-      "id": "tt0102926",
-      "type": "movie",
-      "name": "The Silence of the Lambs",
-      "poster": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
-      "posterShape": "poster",
-      "description": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "1991",
-      "imdb_id": "tt0102926"
     },
     {
       "id": "tt4873118",
@@ -192,34 +162,49 @@
       "imdb_id": "tt4873118"
     },
     {
-      "id": "tt0144117",
+      "id": "tt0107554",
       "type": "movie",
-      "name": "The Boondock Saints",
-      "poster": "https://image.tmdb.org/t/p/w500/wtLUmkWg41xFLpvmUWAN1mm65f6.jpg",
+      "name": "Menace II Society",
+      "poster": "https://image.tmdb.org/t/p/w500/guvPiEOeXwROpfCb2LkHkVEvOck.jpg",
       "posterShape": "poster",
-      "description": "Tired of the crime overrunning the streets of Boston, Irish Catholic twin brothers Conner and Murphy are inspired by their faith to cleanse their hometown of evil with their own brand of zealous vigilante justice. As they hunt down and kill one notorious gangster after another, they become controversial folk heroes in the community. But Paul Smecker, an eccentric FBI agent, is fast closing in on their blood-soaked trail.",
+      "description": "A young street hustler attempts to escape the rigors and temptations of the ghetto in a quest for a better life.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "1993",
+      "imdb_id": "tt0107554"
+    },
+    {
+      "id": "tt0102926",
+      "type": "movie",
+      "name": "The Silence of the Lambs",
+      "poster": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+      "posterShape": "poster",
+      "description": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "1991",
+      "imdb_id": "tt0102926"
+    },
+    {
+      "id": "tt17024450",
+      "type": "movie",
+      "name": "The Equalizer 3",
+      "poster": "https://image.tmdb.org/t/p/w500/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg",
+      "posterShape": "poster",
+      "description": "Robert McCall finds himself at home in Southern Italy but he discovers his friends are under the control of local crime bosses. As events turn deadly, McCall knows what he has to do: become his friends' protector by taking on the mafia.",
       "genres": [
         "Action",
         "Thriller",
         "Crime"
       ],
-      "releaseInfo": "1999",
-      "imdb_id": "tt0144117"
-    },
-    {
-      "id": "tt1130884",
-      "type": "movie",
-      "name": "Shutter Island",
-      "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
-      "posterShape": "poster",
-      "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Mystery"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1130884"
+      "releaseInfo": "2023",
+      "imdb_id": "tt17024450"
     },
     {
       "id": "tt32338669",
@@ -236,6 +221,21 @@
       "imdb_id": "tt32338669"
     },
     {
+      "id": "tt0144117",
+      "type": "movie",
+      "name": "The Boondock Saints",
+      "poster": "https://image.tmdb.org/t/p/w500/wtLUmkWg41xFLpvmUWAN1mm65f6.jpg",
+      "posterShape": "poster",
+      "description": "Tired of the crime overrunning the streets of Boston, Irish Catholic twin brothers Conner and Murphy are inspired by their faith to cleanse their hometown of evil with their own brand of zealous vigilante justice. As they hunt down and kill one notorious gangster after another, they become controversial folk heroes in the community. But Paul Smecker, an eccentric FBI agent, is fast closing in on their blood-soaked trail.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "1999",
+      "imdb_id": "tt0144117"
+    },
+    {
       "id": "tt33303521",
       "type": "movie",
       "name": "The Gates",
@@ -249,19 +249,19 @@
       "imdb_id": "tt33303521"
     },
     {
-      "id": "tt0117381",
+      "id": "tt1130884",
       "type": "movie",
-      "name": "Primal Fear",
-      "poster": "https://image.tmdb.org/t/p/w500/qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+      "name": "Shutter Island",
+      "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
       "posterShape": "poster",
-      "description": "Defense attorney Martin Vail takes on jobs for money and prestige rather than any sense of the greater good. His latest case involves an altar boy, accused of brutally murdering the archbishop of Chicago. Vail finds himself up against his ex-pupil and ex-lover, but as the case progresses and the Church's dark secrets are revealed, Vail finds that what appeared a simple case takes on a darker, more dangerous aspect.",
+      "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
       "genres": [
-        "Crime",
         "Drama",
-        "Thriller"
+        "Thriller",
+        "Mystery"
       ],
-      "releaseInfo": "1996",
-      "imdb_id": "tt0117381"
+      "releaseInfo": "2010",
+      "imdb_id": "tt1130884"
     },
     {
       "id": "tt15314262",

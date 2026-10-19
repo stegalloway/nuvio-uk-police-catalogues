@@ -73,20 +73,6 @@
       "imdb_id": "tt7661390"
     },
     {
-      "id": "tt15435876",
-      "type": "series",
-      "name": "The Penguin",
-      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
-      "posterShape": "poster",
-      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15435876"
-    },
-    {
       "id": "tt15837600",
       "type": "series",
       "name": "Griselda",
@@ -99,6 +85,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt15837600"
+    },
+    {
+      "id": "tt15435876",
+      "type": "series",
+      "name": "The Penguin",
+      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
+      "posterShape": "poster",
+      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15435876"
     },
     {
       "id": "tt26676904",
