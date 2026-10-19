@@ -29,7 +29,8 @@ paginated. If the list does not exist or is not public (401, 403 or 404 on the
 first page), nothing is dismissed and the refresh carries on. The run log then
 shows `"not_interested": "no public list named not-interested"`, or the item
 count when the list was read. Any other error, including a missing later page,
-fails the refresh like every other source. An outage therefore keeps the
+fails the refresh like every other source. Each run's GitHub notice
+lists the titles it found on the list. An outage therefore keeps the
 previous catalogues rather than bringing dismissed titles back.
 
 Run from the repository root:
@@ -61,7 +62,10 @@ manual step. See `trakt_suggested_engine/README.md` for ranking and recency.
 Each scheduled generation retrieves full public watched-movie and watched-show
 snapshots, fully paginated movie/show ratings, and fully paginated episode
 history. A failed list or failed later page is never treated as an empty result.
-Pagination headers are checked for changing totals and missing records. Episode
+Pagination headers are checked for changing totals and missing records. Trakt's CDN
+keeps requests made without a login for up to an hour (`s-maxage=3600`), so every
+account read (watched, ratings, history, Not Interested) carries a per-run `_`
+parameter and is always fresh. Episode
 history is read up to a fixed `end_at` instant, so each run requests its own page
 URLs and Trakt cannot mix pages cached at different times. A list whose totals
 still change between pages is re-read from page 1, up to three times, before the

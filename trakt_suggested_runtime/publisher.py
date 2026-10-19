@@ -273,12 +273,13 @@ class TraktClient:
             self.http.fail("unexpected_payload_shape")
         return response.data
 
-    def snapshot(self, path: str) -> list[dict]:
+    def snapshot(self, path: str, params: Mapping | None = None) -> list[dict]:
         # Public watched endpoints are full snapshots. Honour pagination headers
         # if a deployed API version introduces them rather than truncating.
-        first = self.http.get(path, {"extended": "full"})
+        params = {"extended": "full", **dict(params or {})}
+        first = self.http.get(path, params)
         if "x-pagination-page-count" in first.headers:
-            return self.paginated(path, {"extended": "full"})
+            return self.paginated(path, params)
         return self._list(first)
 
     def paginated(self, path: str, params: Mapping | None = None, *, limit: int = 100,
@@ -342,12 +343,12 @@ class TraktClient:
             self.http.fail("unexpected_season_path")
         return self._list(self.http.get(path, params))
 
-    def dismissed(self, username: str, slug: str) -> list[dict] | None:
+    def dismissed(self, username: str, slug: str, params: Mapping | None = None) -> list[dict] | None:
         """Items of the user's public "Not Interested" list; None while it is absent or private."""
         path = ("/users/" + urllib.parse.quote(username, safe="") +
                 "/lists/" + urllib.parse.quote(slug, safe="") + "/items")
         try:
-            return self.paginated(path, missing_ok=True)
+            return self.paginated(path, params, missing_ok=True)
         except MissingSource:
             return None
 
@@ -358,22 +359,40 @@ class TraktClient:
         # A dated end gives each run's history pages their own URLs. On 19 Oct
         # Trakt served cached early pages totalling 839 plays while the last
         # page said 840. Plays after this instant are left for the next run.
-        until = (now or datetime.now(timezone.utc)).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+        moment = (now or datetime.now(timezone.utc)).astimezone(timezone.utc)
+        until = moment.strftime("%Y-%m-%dT%H:%M:%S.000Z")
+        # Trakt's CDN keeps requests without a login for up to an hour
+        # (s-maxage=3600). A per-run parameter makes every account read fresh.
+        fresh = {"_": str(int(moment.timestamp()))}
         jobs = {
-            "watched_movies": lambda: self.snapshot(base + "/watched/movies"),
-            "watched_shows": lambda: self.snapshot(base + "/watched/shows"),
-            "rated_movies": lambda: self.paginated(base + "/ratings/movies"),
-            "rated_shows": lambda: self.paginated(base + "/ratings/shows"),
-            "watched_episode_history": lambda: self.paginated(base + "/history/shows", {"end_at": until}),
+            "watched_movies": lambda: self.snapshot(base + "/watched/movies", fresh),
+            "watched_shows": lambda: self.snapshot(base + "/watched/shows", fresh),
+            "rated_movies": lambda: self.paginated(base + "/ratings/movies", fresh),
+            "rated_shows": lambda: self.paginated(base + "/ratings/shows", fresh),
+            "watched_episode_history": lambda: self.paginated(base + "/history/shows", {"end_at": until, **fresh}),
         }
         if dismiss_list:
             # A missing list is None; any other error fails the refresh, so an
             # outage can never bring dismissed titles back.
-            jobs["dismissed"] = lambda: self.dismissed(username, dismiss_list)
+            jobs["dismissed"] = lambda: self.dismissed(username, dismiss_list, fresh)
         with ThreadPoolExecutor(max_workers=3) as pool:
             futures = {key: pool.submit(job) for key, job in jobs.items()}
             # Every required future must succeed. Never interpret an outage as [].
             return {key: future.result() for key, future in futures.items()}
+
+
+def listed_titles(items: Any, limit: int = 12) -> str:
+    """" (A, B, ...)" naming what the public Not Interested list holds, for the run notice."""
+    if not isinstance(items, list) or not items:
+        return ""
+    names = []
+    for item in items:
+        kind = item.get("type") if isinstance(item, dict) else None
+        holder = (item.get(kind) if kind in ("movie", "show") else item.get("show")) if kind else None
+        title = holder.get("title") if isinstance(holder, dict) else None
+        names.append(" ".join(str(title).replace("%", "%25").split())[:60] if title else "?")
+    more = len(names) - limit
+    return " (" + ", ".join(names[:limit]) + (f", +{more} more" if more > 0 else "") + ")"
 
 
 def read_snapshot(path: Path) -> list[dict]:
@@ -661,7 +680,8 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps({"published": True, "counts": counts, "not_interested": not_interested}))
         if in_actions:
             print("::notice title=Trakt Suggested published::series " + str(counts.get("series")) +
-                  ", movie " + str(counts.get("movie")) + ", not interested " + str(not_interested))
+                  ", movie " + str(counts.get("movie")) + ", upcoming " + str(counts.get("upcoming")) +
+                  ", not interested " + str(not_interested) + listed_titles(dismissed))
         return 0
     except Exception as error:
         # Errors can carry credential-bearing request URLs or private titles.

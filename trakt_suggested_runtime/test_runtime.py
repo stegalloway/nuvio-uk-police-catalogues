@@ -16,7 +16,7 @@ import urllib.error
 from trakt_suggested_runtime.publisher import (
     CATALOGUES, INPUT_FILES, JsonHttpClient, JsonResponse, RefreshError,
     SourceError, SourceFailures, TmdbClient, TraktClient, atomic_json,
-    generate_and_publish, load_history_snapshots, main, manifest,
+    generate_and_publish, listed_titles, load_history_snapshots, main, manifest,
     pagination_offsets, publish_result, read_page, validate_output,
     write_catalog_pages,
 )
@@ -319,9 +319,21 @@ class TraktSourceContracts(unittest.TestCase):
         when = datetime(2026, 10, 19, 12, 1, 30, tzinfo=timezone.utc)
         TraktClient(http).histories("example", "not-interested", now=when)
         history = [params for path, params in http.calls if path.endswith("/history/shows")]
-        self.assertEqual(history, [{"end_at": "2026-10-19T12:01:30.000Z", "limit": 100, "page": 1}])
+        self.assertEqual(history, [{"end_at": "2026-10-19T12:01:30.000Z", "_": "1792411290", "limit": 100, "page": 1}])
         others = [params for path, params in http.calls if not path.endswith("/history/shows")]
         self.assertTrue(others and all("end_at" not in params for params in others))
+        # Every account read carries the per-run parameter past Trakt's CDN cache.
+        self.assertEqual(len(http.calls), 6)
+        self.assertTrue(all(params.get("_") == "1792411290" for _, params in http.calls))
+
+    def test_run_notice_names_the_listed_titles(self):
+        items = [{"type": "movie", "movie": {"title": "The Covenant"}},
+                 {"type": "episode", "episode": {"title": "Pilot"}, "show": {"title": "Giri/Haji"}},
+                 {"type": "person", "person": {"name": "Someone"}}]
+        self.assertEqual(listed_titles(items), " (The Covenant, Giri/Haji, ?)")
+        self.assertEqual(listed_titles(items * 5, limit=2), " (The Covenant, Giri/Haji, +13 more)")
+        self.assertEqual(listed_titles(None), "")
+        self.assertEqual(listed_titles([{"type": "movie", "movie": {"title": "100%" + chr(10) + "Sure"}}]), " (100%25 Sure)")
 
     def test_moving_totals_name_the_list_without_the_username(self):
         moving = [JsonResponse([{"id": 1}], {"x-pagination-page-count": "2", "x-pagination-item-count": "2"}),
