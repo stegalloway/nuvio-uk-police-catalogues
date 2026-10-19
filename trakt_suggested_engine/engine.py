@@ -32,7 +32,7 @@ from .returning_base import SeasonPremiere, WatchState, route_title
 CATALOGUE_IDS = {"series": "trakt-suggested-series", "movie": "trakt-suggested-movies",
                  "upcoming": "trakt-upcoming-episodes"}
 CATALOGUE_NAMES = {"series": "Trakt Suggested Series", "movie": "Trakt Suggested Movies",
-                   "upcoming": "Upcoming Episodes"}
+                   "upcoming": "New & Upcoming Episodes"}
 CATALOGUE_TYPES = {"series": "series", "movie": "movie", "upcoming": "series"}
 FOR_YOU_SOURCE = "for_you_discover"
 
@@ -56,6 +56,9 @@ class EngineConfig:
     freshness_half_life_days: float = 60.0
     # Upcoming Episodes row: next episodes airing within this many days.
     upcoming_horizon_days: int = 90
+    # A show stays on that row this many days after a new episode is out, as
+    # "Out now", while the viewer was caught up before it and hasn't watched it.
+    out_now_days: int = 7
 
 
 def for_you_queries(kind: str, now: datetime, pages: int) -> list[dict]:
@@ -383,6 +386,71 @@ def upcoming_episode(state: Mapping, detail: Mapping, today: date, horizon_days:
     return {"air_date": airs.isoformat(), "season_number": w._int(upcoming.get("season_number")),
             "episode_number": w._int(upcoming.get("episode_number")),
             "episode_name": str(upcoming.get("name") or "").strip()}
+
+
+def recent_release_unwatched(state: Mapping, detail: Mapping, today: date, days: int) -> bool:
+    """Cheap pre-check: TMDB's latest aired episode is recent and unwatched."""
+    latest = detail.get("last_episode_to_air")
+    if not isinstance(latest, Mapping):
+        return False
+    try:
+        aired = date.fromisoformat(str(latest.get("air_date") or "")[:10])
+    except ValueError:
+        return False
+    season, number = w._int(latest.get("season_number")), w._int(latest.get("episode_number"))
+    return (today - timedelta(days=days) <= aired <= today and bool(season) and bool(number)
+            and number not in (state.get("watched_episodes") or {}).get(season, ()))
+
+
+def out_now_episodes(state: Mapping, seasons: Sequence[Mapping], now: datetime, days: int) -> dict | None:
+    """Episodes out in the last `days` days that a viewer caught up before them hasn't watched.
+
+    Walks aired regular episodes newest first, collecting unwatched ones until
+    the first watched episode: that one proves the viewer was caught up before
+    this release. An unwatched episode older than the window, or no watched
+    episode at all, means they were not, so the show is left out.
+    """
+    watched = state.get("watched_episodes") or {}
+    cutoff = now - timedelta(days=days)
+    aired = []
+    for season in seasons:
+        number = w._int(season.get("number"))
+        if not number or number < 1:
+            continue
+        for episode in season.get("episodes") or []:
+            when = _aware(episode.get("first_aired"))
+            if _regular_episode(episode) and when is not None and when <= now:
+                aired.append((when, number, w._int(episode.get("number")), str(episode.get("title") or "").strip()))
+    new = []
+    for when, season, number, title in sorted(aired, reverse=True):
+        if number in watched.get(season, ()):
+            break
+        if when < cutoff:
+            return None
+        new.append((when, season, number, title))
+    else:
+        return None
+    if not new:
+        return None
+    new.reverse()  # oldest first
+    first, last = new[0], new[-1]
+    return {"air_date": last[0].date().isoformat(), "season_number": first[1], "episode_number": first[2],
+            "last_season_number": last[1], "last_episode_number": last[2], "count": len(new),
+            "episode_name": first[3] if len(new) == 1 else "", "out_now": True}
+
+
+def _out_now_text(episode: Mapping, today: date) -> tuple[str, str]:
+    """(card line, description line), e.g. ("Out now · S6 E6", "S6 E6 · Name · out Wed 21 Oct")."""
+    out = date.fromisoformat(episode["air_date"])
+    when = "today" if out == today else "yesterday" if out == today - timedelta(days=1) else f"{out:%a} {out.day} {out:%b}"
+    season, number = episode["season_number"], episode["episode_number"]
+    label = f"S{season} E{number}"
+    if episode["count"] > 1:
+        label += (f"–{episode['last_episode_number']}" if episode["last_season_number"] == season
+                  else f" +{episode['count'] - 1}")
+    name = episode.get("episode_name") or ""
+    named = label + " · " + name if name and not re.fullmatch(r"Episode \d+", name) else label
+    return "Out now · " + label, named + " · out " + when
 
 
 def _upcoming_text(episode: Mapping, today: date) -> tuple[str, str]:
@@ -800,7 +868,18 @@ def generate_catalogues(
                 if not tid or tid in dismissed_tmdb or ids.get("imdb") in dismissed_imdb:
                     continue
                 detail = runner._details(tid, media)
-                episode = upcoming_episode(state, detail, today, config.upcoming_horizon_days) if detail else None
+                episode = None
+                trakt_identifier = ids.get("trakt") or ids.get("slug") or ids.get("imdb")
+                if (detail and trakt_fetch and trakt_identifier
+                        and recent_release_unwatched(state, detail, today, config.out_now_days)):
+                    try:
+                        seasons = trakt_fetch("/shows/" + str(trakt_identifier) + "/seasons", {"extended": "episodes,full"})
+                        if isinstance(seasons, list):
+                            episode = out_now_episodes(state, seasons, moment, config.out_now_days)
+                    except Exception:
+                        episode = None
+                if detail and not episode:
+                    episode = upcoming_episode(state, detail, today, config.upcoming_horizon_days)
                 poster = _safe_poster(detail.get("poster_path")) if episode else None
                 if not poster or detail.get("adult"):
                     continue
@@ -808,7 +887,7 @@ def generate_catalogues(
                 if (not isinstance(card.get("imdb_id"), str) or not re.fullmatch(r"tt[0-9]+", card["imdb_id"])
                         or card["imdb_id"] in dismissed_imdb):
                     continue
-                short, line = _upcoming_text(episode, today)
+                short, line = (_out_now_text if episode.get("out_now") else _upcoming_text)(episode, today)
                 card.update(poster=poster, upcoming_episode=episode, upcoming_short=short, upcoming_line=line)
                 upcoming_cards.setdefault(card["id"], card)
         else:
@@ -839,11 +918,16 @@ def generate_catalogues(
             raise GenerationError("Too few eligible " + kind + " recommendations; retain the last good output", result["diagnostics"])
         result["catalogues"][kind] = {"id": CATALOGUE_IDS[kind], "name": CATALOGUE_NAMES[kind],
                                       "type": kind, "payload": {"metas": [_meta(c, kind) for c in ordered]}}
-    # Soonest first. An empty row is valid: nothing caught up airs soon.
-    upcoming = sorted(upcoming_cards.values(), key=lambda c: (c["upcoming_episode"]["air_date"],
-                                                              c["title"].lower(), c["id"]))[:config.catalogue_limit]
+    # "Out now" first, newest release first; then upcoming, soonest first.
+    # An empty row is valid: nothing caught up is new or due soon.
+    out_now = sorted((c for c in upcoming_cards.values() if c["upcoming_episode"].get("out_now")),
+                     key=lambda c: (c["upcoming_episode"]["air_date"], c["title"].lower(), c["id"]), reverse=True)
+    due = sorted((c for c in upcoming_cards.values() if not c["upcoming_episode"].get("out_now")),
+                 key=lambda c: (c["upcoming_episode"]["air_date"], c["title"].lower(), c["id"]))
+    upcoming = (out_now + due)[:config.catalogue_limit]
     result["diagnostics"]["media"]["upcoming"] = {
-        "horizon_days": config.upcoming_horizon_days, "count": len(upcoming),
+        "horizon_days": config.upcoming_horizon_days, "out_now_days": config.out_now_days,
+        "out_now_count": len(out_now), "count": len(upcoming),
         "selected": [{"id": c["id"], **c["upcoming_episode"]} for c in upcoming]}
     result["catalogues"]["upcoming"] = {"id": CATALOGUE_IDS["upcoming"], "name": CATALOGUE_NAMES["upcoming"],
                                         "type": "series", "payload": {"metas": [_meta(c, "series") for c in upcoming]}}

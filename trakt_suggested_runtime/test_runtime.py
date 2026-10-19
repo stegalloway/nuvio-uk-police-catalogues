@@ -122,7 +122,7 @@ class PublicationContracts(unittest.TestCase):
         self.assertEqual(result["resources"], ["catalog"])
         self.assertEqual([(c["type"], c["name"]) for c in result["catalogs"]],
                          [("series", "Trakt Suggested Series"), ("movie", "Trakt Suggested Movies"),
-                          ("series", "Upcoming Episodes")])
+                          ("series", "New & Upcoming Episodes")])
 
     def test_only_the_upcoming_row_may_be_empty(self):
         with tempfile.TemporaryDirectory() as directory:

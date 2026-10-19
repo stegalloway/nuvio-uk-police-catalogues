@@ -4,7 +4,7 @@ This package generates exactly three precomputed Stremio-compatible catalogues:
 
 1. **Trakt Suggested Series** (`trakt-suggested-series`, type `series`).
 2. **Trakt Suggested Movies** (`trakt-suggested-movies`, type `movie`).
-3. **Upcoming Episodes** (`trakt-upcoming-episodes`, type `series`; see below).
+3. **New & Upcoming Episodes** (`trakt-upcoming-episodes`, type `series`; see below).
 
 It performs no default network requests, credential discovery, filesystem writes,
 account mutations, publishing or scheduling. Runtime callbacks own retrieval and
@@ -193,10 +193,24 @@ most six. When fewer primary choices exist, insertion begins after that prefix
 and at least the first two discovery choices. Returning seasons never get a row
 of their own.
 
-## Upcoming Episodes
+## New & Upcoming Episodes
 
-A separate row of shows the viewer is caught up on whose next episode has a
-confirmed date within `upcoming_horizon_days` (default 90), soonest first.
+A separate row with two parts. First, **Out now**: shows with an episode released
+in the last `out_now_days` (default 7) that the viewer was caught up before and
+hasn't watched yet, newest release first. Then shows the viewer is caught up on
+whose next episode has a confirmed date within `upcoming_horizon_days`
+(default 90), soonest first.
+
+- Out now: a cheap check first (TMDB's `last_episode_to_air` is recent and
+  unwatched), then the show's Trakt seasons (`/shows/{id}/seasons`, one request
+  per such show). Walking aired regular episodes newest first, unwatched ones are
+  collected until the first watched episode, which proves the viewer was caught
+  up. An unwatched episode older than the window, or none watched, leaves the
+  show out. Cards read `Out now · S6 E6`, or `Out now · S2 E1–8` for a season
+  dropped at once; descriptions add the episode name and `out <day>`.
+- This keeps a released episode visible for a week even when Nuvio's Continue
+  Watching would not show it (for example a show removed from it, which Nuvio
+  never brings back until an episode is played or marked).
 
 - Caught up: TMDB's latest aired episode (`last_episode_to_air`) is among the
   episodes watched according to Trakt (watched-show payload plus episode history,
@@ -235,7 +249,7 @@ Run from the package's parent directory:
 python3 -m unittest trakt_suggested_engine.test_engine -v
 ```
 
-The 50 focused tests cover public/nested history adapters, stable-ID joins,
+The 54 focused tests cover public/nested history adapters, stable-ID joins,
 episode release boundaries, announced/future/special content, incomplete
 seasons, reset boundaries, started-season exclusion, title-blind theme scoring,
 series mixing and British/Irish criminal-led priority, police-led versus criminal-led organised crime, watched-vs-rated

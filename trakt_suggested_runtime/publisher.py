@@ -34,7 +34,7 @@ DEFAULT_ADDON_ID = "org.trakt.suggested.personal"
 CATALOGUES = (
     ("series", "series", "trakt-suggested-series", "Trakt Suggested Series"),
     ("movie", "movie", "trakt-suggested-movies", "Trakt Suggested Movies"),
-    ("upcoming", "series", "trakt-upcoming-episodes", "Upcoming Episodes"),
+    ("upcoming", "series", "trakt-upcoming-episodes", "New & Upcoming Episodes"),
 )
 CATALOGUE_ORDER = [key for key, *_ in CATALOGUES]
 # Nothing a caught-up viewer is waiting for may air soon; that row may be empty.

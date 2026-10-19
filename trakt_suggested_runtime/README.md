@@ -43,8 +43,8 @@ python -m trakt_suggested_runtime --validate-only
 The output is `docs/suggested/manifest.json` plus the three nested catalogue trees.
 The addon ID is `org.trakt.suggested.personal`. It supplies catalogue resources
 only. Row order and exact labels are `Trakt Suggested Series`,
-`Trakt Suggested Movies`, then `Upcoming Episodes` (type `series`). The first two
-must hold at least 5 titles; Upcoming Episodes may be empty when nothing a
+`Trakt Suggested Movies`, then `New & Upcoming Episodes` (type `series`). The first two
+must hold at least 5 titles; New & Upcoming Episodes may be empty when nothing a
 caught-up show is waiting for airs within 90 days. The existing police manifest
 and output are untouched.
 

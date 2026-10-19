@@ -420,7 +420,7 @@ class UpcomingContracts(unittest.TestCase):
     def test_caught_up_show_with_a_dated_next_episode_is_listed(self):
         self.schedule()
         result, metas = self.upcoming()
-        self.assertEqual(result["catalogues"]["upcoming"]["name"], "Upcoming Episodes")
+        self.assertEqual(result["catalogues"]["upcoming"]["name"], "New & Upcoming Episodes")
         self.assertEqual(result["catalogues"]["upcoming"]["type"], "series")
         self.assertEqual([(m["id"], m["type"]) for m in metas], [("tt10", "series")])
         self.assertTrue(metas[0]["description"].startswith("S2 E1 · Wed 28 Oct\n\n"))
@@ -464,6 +464,52 @@ class UpcomingContracts(unittest.TestCase):
         self.assertTrue(metas[0]["description"].startswith("S4 E1 · Today\n\n"))
         self.assertTrue(metas[1]["description"].startswith("S2 E1 · Tomorrow\n\n"))
         self.assertEqual([m["releaseInfo"] for m in metas], ["Today · S4 E1", "Tomorrow · S2 E1"])
+
+    # "Out now": the viewer was caught up before a release and hasn't watched it yet.
+    def release(self, aired, latest, upcoming_days=None):
+        """Trakt seasons for show 10 from {season: [days ago per episode]} (negative = future)."""
+        detail = self.api.details[("tv", 10)]
+        detail["last_episode_to_air"] = {"season_number": latest[0], "episode_number": latest[1],
+                                         "air_date": (NOW - timedelta(days=aired[latest[0]][latest[1] - 1])).date().isoformat()}
+        if upcoming_days is not None:
+            detail["next_episode_to_air"] = {"season_number": latest[0], "episode_number": latest[1] + 1,
+                                             "air_date": (NOW + timedelta(days=upcoming_days)).date().isoformat()}
+        seasons = [{"number": s, "episode_count": len(days), "episodes": [
+            {"number": i + 1, "first_aired": (NOW - timedelta(days=d)).isoformat()} for i, d in enumerate(days)]}
+            for s, days in aired.items()]
+        return lambda path, params: seasons
+
+    def test_weekly_episode_stays_as_out_now_for_a_week(self):
+        # Watched S1 E1-E2; E3 came out two days ago, E4 is due in five.
+        fetch = self.release({1: [30, 23, 2, -5]}, latest=(1, 3), upcoming_days=5)
+        result, metas = self.upcoming(trakt_fetch=fetch)
+        self.assertEqual([(m["id"], m["releaseInfo"]) for m in metas], [("tt10", "Out now · S1 E3")])
+        self.assertTrue(metas[0]["description"].startswith("S1 E3 · out Fri 16 Oct\n\n"))
+        self.assertEqual(result["diagnostics"]["media"]["upcoming"]["out_now_count"], 1)
+
+    def test_a_whole_new_season_dropped_at_once(self):
+        fetch = self.release({1: [60, 53], 2: [1, 1, 1]}, latest=(2, 3))
+        metas = self.upcoming(trakt_fetch=fetch)[1]
+        self.assertEqual([(m["id"], m["releaseInfo"]) for m in metas], [("tt10", "Out now · S2 E1–3")])
+        self.assertTrue(metas[0]["description"].startswith("S2 E1–3 · out yesterday\n\n"))
+
+    def test_not_caught_up_or_past_the_week_is_left_out(self):
+        # E3 has sat unwatched for ten days, so E4 two days ago is not "new to a caught-up viewer".
+        fetch = self.release({1: [30, 23, 10, 2]}, latest=(1, 4))
+        self.assertEqual(self.upcoming(trakt_fetch=fetch)[1], [])
+        self.api = FixtureAPI()
+        fetch = self.release({1: [30, 23, 8]}, latest=(1, 3))  # out eight days ago
+        self.assertEqual(self.upcoming(trakt_fetch=fetch)[1], [])
+
+    def test_out_now_comes_before_upcoming(self):
+        self.inputs[1] = self.inputs[1] + [{"show": show(11), "plays": 1, "last_watched_at": "2026-10-17T00:00:00Z"}]
+        self.inputs[4] = self.inputs[4] + [event(3, 8, number=11)]
+        self.api.details[("tv", 11)] = self.api.detail(11)
+        self.schedule(number=11, days=1, last=(3, 8), season_number=4)
+        fetch = self.release({1: [30, 23, 2]}, latest=(1, 3))
+        metas = self.upcoming(trakt_fetch=fetch)[1]
+        self.assertEqual([(m["id"], m["releaseInfo"]) for m in metas],
+                         [("tt10", "Out now · S1 E3"), ("tt11", "Tomorrow · S4 E1")])
 
 
 class ForYouContracts(EndToEndContracts):
