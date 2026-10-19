@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt33100314",
+      "type": "movie",
+      "name": "Remarkably Bright Creatures",
+      "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+      "posterShape": "poster",
+      "description": "Through unlikely bonds formed during night shifts at a local aquarium, Tova, an elderly widow, learns of a life-changing discovery that may bring her joy and wonder once again.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33100314"
+    },
+    {
       "id": "tt0203119",
       "type": "movie",
       "name": "Sexy Beast",
@@ -75,21 +89,6 @@
       ],
       "releaseInfo": "1983",
       "imdb_id": "tt0085210"
-    },
-    {
-      "id": "tt0042041",
-      "type": "movie",
-      "name": "White Heat",
-      "poster": "https://image.tmdb.org/t/p/w500/v7cPOHKKZI9qChi7HDUxNIhEcLR.jpg",
-      "posterShape": "poster",
-      "description": "A psychopathic criminal with a mother complex makes a daring break from prison and then leads his old gang in a chemical plant payroll heist. After the heist, events take a crazy turn.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "1949",
-      "imdb_id": "tt0042041"
     }
   ]
 }

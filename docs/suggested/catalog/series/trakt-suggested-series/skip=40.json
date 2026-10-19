@@ -1,6 +1,35 @@
 {
   "metas": [
     {
+      "id": "tt11110622",
+      "type": "series",
+      "name": "White House Farm",
+      "poster": "https://image.tmdb.org/t/p/w500/nZRFhpDUlGM37BBBYAWhznNxUH7.jpg",
+      "posterShape": "poster",
+      "description": "Factual drama based on the notorious White House Farm murders, and the ensuing police investigation and court case.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11110622"
+    },
+    {
+      "id": "tt4276618",
+      "type": "series",
+      "name": "Strike",
+      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
+      "posterShape": "poster",
+      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt4276618"
+    },
+    {
       "id": "tt35707374",
       "type": "series",
       "name": "Memory of a Killer",
@@ -258,36 +287,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33035373"
-    },
-    {
-      "id": "tt14582876",
-      "type": "series",
-      "name": "On Call",
-      "poster": "https://image.tmdb.org/t/p/w500/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
-      "posterShape": "poster",
-      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt14582876"
-    },
-    {
-      "id": "tt0429087",
-      "type": "series",
-      "name": "Shantaram",
-      "poster": "https://image.tmdb.org/t/p/w500/6FZCmmAdszkEFLAoibEuJPDhW40.jpg",
-      "posterShape": "poster",
-      "description": "Escaped convict Lin Ford flees to the teeming streets of 1980s Bombay, looking to disappear. Working as a medic for the city's poor and neglected, Lin finds unexpected love, connection, and courage on the long road to redemption.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt0429087"
     }
   ]
 }

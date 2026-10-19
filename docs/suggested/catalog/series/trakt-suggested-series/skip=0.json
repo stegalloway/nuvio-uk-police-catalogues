@@ -200,6 +200,21 @@
       "imdb_id": "tt11846996"
     },
     {
+      "id": "tt10399902",
+      "type": "series",
+      "name": "Boy Swallows Universe",
+      "poster": "https://image.tmdb.org/t/p/w500/nb0ek7qonE0YkyaB4dsAw5J9NoH.jpg",
+      "posterShape": "poster",
+      "description": "A young boy growing up in the suburbs of 1980s Brisbane faces the harsh realities of life — and the looming dangers that threaten his family.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt10399902"
+    },
+    {
       "id": "tt2707408",
       "type": "series",
       "name": "Narcos",
@@ -212,20 +227,6 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt2707408"
-    },
-    {
-      "id": "tt8714904",
-      "type": "series",
-      "name": "Narcos: Mexico",
-      "poster": "https://image.tmdb.org/t/p/w500/aXwMx8OvRFMfI1RmkbJm6Bq1jVg.jpg",
-      "posterShape": "poster",
-      "description": "See the rise of the Guadalajara Cartel as an American DEA agent learns the danger of targeting narcos in 1980s Mexico.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt8714904"
     },
     {
       "id": "tt13875494",
@@ -242,6 +243,20 @@
       "imdb_id": "tt13875494"
     },
     {
+      "id": "tt8714904",
+      "type": "series",
+      "name": "Narcos: Mexico",
+      "poster": "https://image.tmdb.org/t/p/w500/aXwMx8OvRFMfI1RmkbJm6Bq1jVg.jpg",
+      "posterShape": "poster",
+      "description": "See the rise of the Guadalajara Cartel as an American DEA agent learns the danger of targeting narcos in 1980s Mexico.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt8714904"
+    },
+    {
       "id": "tt5715524",
       "type": "series",
       "name": "Mayans M.C.",
@@ -254,20 +269,6 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt5715524"
-    },
-    {
-      "id": "tt8080122",
-      "type": "series",
-      "name": "Godfather of Harlem",
-      "poster": "https://image.tmdb.org/t/p/w500/avhyzJycLNi3nXov2lREhDkP3ik.jpg",
-      "posterShape": "poster",
-      "description": "Loosely based on infamous crime boss Bumpy Johnson, who in the early 1960s returned from ten years in prison to find the neighborhood he once ruled in shambles. With the streets controlled by the Italian mob, Bumpy attempts to regain his piece of Harlem.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8080122"
     },
     {
       "id": "tt35515227",
