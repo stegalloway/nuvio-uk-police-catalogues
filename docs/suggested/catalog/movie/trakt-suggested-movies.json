@@ -46,20 +46,6 @@
       "imdb_id": "tt31195136"
     },
     {
-      "id": "tt37971717",
-      "type": "movie",
-      "name": "One Last Shot",
-      "poster": "https://image.tmdb.org/t/p/w500/niQ4NBh2jqAf1hDZP5m6ReWFAb7.jpg",
-      "posterShape": "poster",
-      "description": "Navy Seal Jake Harris must stop a team of mercenaries, led by his disillusioned former comrade, from disabling the US missile defense network.",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt37971717"
-    },
-    {
       "id": "tt34471850",
       "type": "movie",
       "name": "Protector",
@@ -72,6 +58,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt34471850"
+    },
+    {
+      "id": "tt37971717",
+      "type": "movie",
+      "name": "One Last Shot",
+      "poster": "https://image.tmdb.org/t/p/w500/niQ4NBh2jqAf1hDZP5m6ReWFAb7.jpg",
+      "posterShape": "poster",
+      "description": "Navy Seal Jake Harris must stop a team of mercenaries, led by his disillusioned former comrade, from disabling the US missile defense network.",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt37971717"
     },
     {
       "id": "tt32642706",
