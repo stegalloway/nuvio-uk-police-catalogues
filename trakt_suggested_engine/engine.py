@@ -20,7 +20,7 @@ from __future__ import annotations
 
 from collections import defaultdict
 from dataclasses import asdict, dataclass
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 import math
 import re
 from typing import Any, Callable, Iterable, Mapping, Sequence
@@ -29,8 +29,11 @@ from . import watchly_base as w
 from .returning_base import SeasonPremiere, WatchState, route_title
 
 
-CATALOGUE_IDS = {"series": "trakt-suggested-series", "movie": "trakt-suggested-movies"}
-CATALOGUE_NAMES = {"series": "Trakt Suggested Series", "movie": "Trakt Suggested Movies"}
+CATALOGUE_IDS = {"series": "trakt-suggested-series", "movie": "trakt-suggested-movies",
+                 "upcoming": "trakt-upcoming-episodes"}
+CATALOGUE_NAMES = {"series": "Trakt Suggested Series", "movie": "Trakt Suggested Movies",
+                   "upcoming": "Upcoming Episodes"}
+CATALOGUE_TYPES = {"series": "series", "movie": "movie", "upcoming": "series"}
 FOR_YOU_SOURCE = "for_you_discover"
 
 
@@ -51,6 +54,8 @@ class EngineConfig:
     # A same-day release gains 0.20, two months 0.10, six months 0.025.
     freshness_weight: float = 0.20
     freshness_half_life_days: float = 60.0
+    # Upcoming Episodes row: next episodes airing within this many days.
+    upcoming_horizon_days: int = 90
 
 
 def for_you_queries(kind: str, now: datetime, pages: int) -> list[dict]:
@@ -300,6 +305,42 @@ _CRIMINAL_ROLE = re.compile(
     r"bootlegger(?:s)?|money launderer(?:s)?)\b", re.I)
 
 
+def upcoming_episode(state: Mapping, detail: Mapping, today: date, horizon_days: int) -> dict | None:
+    """The next scheduled episode of a show the viewer is caught up on, or None.
+
+    Caught up: TMDB's latest aired episode (last_episode_to_air) is among the
+    episodes Trakt history shows as watched. The next episode needs a confirmed
+    air date from today to today + horizon_days; ended shows have none.
+    """
+    upcoming, latest = detail.get("next_episode_to_air"), detail.get("last_episode_to_air")
+    if not isinstance(upcoming, Mapping) or not isinstance(latest, Mapping):
+        return None
+    try:
+        airs = date.fromisoformat(str(upcoming.get("air_date") or "")[:10])
+    except ValueError:
+        return None
+    if not today <= airs <= today + timedelta(days=horizon_days):
+        return None
+    season, number = w._int(latest.get("season_number")), w._int(latest.get("episode_number"))
+    if not season or not number or number not in (state.get("watched_episodes") or {}).get(season, ()):
+        return None
+    return {"air_date": airs.isoformat(), "season_number": w._int(upcoming.get("season_number")),
+            "episode_number": w._int(upcoming.get("episode_number")),
+            "episode_name": str(upcoming.get("name") or "").strip()}
+
+
+def _upcoming_line(episode: Mapping, today: date) -> str:
+    airs = date.fromisoformat(episode["air_date"])
+    when = "Today" if airs == today else "Tomorrow" if airs == today + timedelta(days=1) else \
+        f"{airs:%a} {airs.day} {airs:%b}" + ("" if airs.year == today.year else f" {airs.year}")
+    season, number = episode.get("season_number"), episode.get("episode_number")
+    label = ("Special" if season == 0 else f"S{season} E{number}") if season is not None and number else "Next episode"
+    name = episode.get("episode_name") or ""
+    if name and not re.fullmatch(r"Episode \d+", name):
+        label += " · " + name
+    return label + " · " + when
+
+
 def thematic_signals(detail: Mapping) -> dict[str, Any]:
     """Explainable, title-blind signals from TMDB keywords and synopsis."""
     keywords = detail.get("keywords") or {}
@@ -427,6 +468,8 @@ def _meta(card: Mapping, kind: str) -> dict:
     if card.get("returning_season"):
         season = card["returning_season"]["season_number"]
         meta["description"] = "Season " + str(season) + " has started.\n\n" + meta["description"]
+    if card.get("upcoming_line"):
+        meta["description"] = card["upcoming_line"] + "\n\n" + meta["description"]
     return meta
 
 
@@ -443,7 +486,7 @@ def generate_catalogues(
     config: EngineConfig | None = None,
     dismissed: Sequence[Mapping] | None = None,
 ) -> dict:
-    """Generate exactly two catalogues in series-first order.
+    """Generate three catalogues: suggested series, suggested movies, upcoming episodes.
 
     Inputs are fresh, fully paginated Trakt payloads (not the tool HTTP envelope).
     tmdb_fetch receives /3-relative paths through the vendored Watchly adapter.
@@ -468,6 +511,8 @@ def generate_catalogues(
         raise ValueError("candidate_enrichment_limit must cover catalogue_limit")
     if config.for_you_pages < 0 or config.freshness_weight < 0 or config.freshness_half_life_days <= 0:
         raise ValueError("Invalid For You page count or freshness weighting")
+    if config.upcoming_horizon_days < 0:
+        raise ValueError("Invalid upcoming horizon")
     for name, value in (("watched_movies", watched_movies), ("watched_shows", watched_shows),
                         ("rated_movies", rated_movies), ("rated_shows", rated_shows),
                         ("watched_episode_history", watched_episode_history)):
@@ -480,13 +525,14 @@ def generate_catalogues(
         raise GenerationError("Both movie and series watched histories are required; retain existing catalogues")
     history = w.history_from_trakt(watched_movies, watched_shows, rated_movies, rated_shows)
     api = w.callbacks_from_fetch(tmdb_fetch, language=config.metadata_language)
-    result = {"generated_at": moment.isoformat(), "catalogue_order": ["series", "movie"],
+    result = {"generated_at": moment.isoformat(), "catalogue_order": ["series", "movie", "upcoming"],
               "catalogues": {}, "diagnostics": {"algorithm": "Watchly-based custom Trakt Suggested generator",
                   "watchly_commit": w.COMMIT, "config": asdict(config), "media": {},
                   "input_counts": {"watched_movies": len(watched_movies), "watched_series": len(watched_shows),
                       "rated_movies": len(rated_movies), "rated_series": len(rated_shows),
                       "watched_episode_history": len(watched_episode_history),
                       "not_interested": len(dismissed)}}}
+    upcoming_cards: dict[str, dict] = {}
     for kind, watch_rows in (("series", watched_shows), ("movie", watched_movies)):
         media = "tv" if kind == "series" else "movie"
         policy = w.ste_policy(kind, newest_first=False)
@@ -678,6 +724,25 @@ def generate_catalogues(
             for index, card in enumerate(returners[:config.max_returning_items]):
                 mixed.insert(min(max(2, primary_prefix_count) + 4 * index, len(mixed)), card)
             ordered = mixed[:config.catalogue_limit]
+            # Upcoming Episodes: every caught-up show, outside Ste's suggestion
+            # filters, from TMDB details the profile has already fetched.
+            today = moment.date()
+            for key, state in episodes.items():
+                ids = state["show"].get("ids") or {}
+                tid = w._int(ids.get("tmdb")) or audit["resolved"].get(ids.get("imdb"))
+                if not tid or tid in dismissed_tmdb or ids.get("imdb") in dismissed_imdb:
+                    continue
+                detail = runner._details(tid, media)
+                episode = upcoming_episode(state, detail, today, config.upcoming_horizon_days) if detail else None
+                poster = _safe_poster(detail.get("poster_path")) if episode else None
+                if not poster or detail.get("adult"):
+                    continue
+                card = runner._card(detail, detail)
+                if (not isinstance(card.get("imdb_id"), str) or not re.fullmatch(r"tt[0-9]+", card["imdb_id"])
+                        or card["imdb_id"] in dismissed_imdb):
+                    continue
+                card.update(poster=poster, upcoming_episode=episode, upcoming_line=_upcoming_line(episode, today))
+                upcoming_cards.setdefault(card["id"], card)
         else:
             ordered = sorted(cards, key=lambda c: (-c["suggested_score"], c["id"]))[:config.catalogue_limit]
         # Stable-ID deduplication after every source merge, including returners.
@@ -705,4 +770,12 @@ def generate_catalogues(
             raise GenerationError("Too few eligible " + kind + " recommendations; retain the last good output", result["diagnostics"])
         result["catalogues"][kind] = {"id": CATALOGUE_IDS[kind], "name": CATALOGUE_NAMES[kind],
                                       "type": kind, "payload": {"metas": [_meta(c, kind) for c in ordered]}}
+    # Soonest first. An empty row is valid: nothing caught up airs soon.
+    upcoming = sorted(upcoming_cards.values(), key=lambda c: (c["upcoming_episode"]["air_date"],
+                                                              c["title"].lower(), c["id"]))[:config.catalogue_limit]
+    result["diagnostics"]["media"]["upcoming"] = {
+        "horizon_days": config.upcoming_horizon_days, "count": len(upcoming),
+        "selected": [{"id": c["id"], **c["upcoming_episode"]} for c in upcoming]}
+    result["catalogues"]["upcoming"] = {"id": CATALOGUE_IDS["upcoming"], "name": CATALOGUE_NAMES["upcoming"],
+                                        "type": "series", "payload": {"metas": [_meta(c, "series") for c in upcoming]}}
     return result

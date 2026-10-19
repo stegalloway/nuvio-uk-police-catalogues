@@ -1,9 +1,10 @@
 # Trakt Suggested recommendation generator
 
-This package generates exactly two precomputed Stremio-compatible catalogues:
+This package generates exactly three precomputed Stremio-compatible catalogues:
 
 1. **Trakt Suggested Series** (`trakt-suggested-series`, type `series`).
 2. **Trakt Suggested Movies** (`trakt-suggested-movies`, type `movie`).
+3. **Upcoming Episodes** (`trakt-upcoming-episodes`, type `series`; see below).
 
 It performs no default network requests, credential discovery, filesystem writes,
 account mutations, publishing or scheduling. Runtime callbacks own retrieval and
@@ -30,6 +31,7 @@ result = generate_catalogues(
 
 series_payload = result["catalogues"]["series"]["payload"]
 movie_payload = result["catalogues"]["movie"]["payload"]
+upcoming_payload = result["catalogues"]["upcoming"]["payload"]  # may be empty
 ```
 
 TMDB paths are relative to `/3`, e.g. `/tv/123` or `/discover/movie`. The
@@ -182,7 +184,27 @@ does not manufacture a returning candidate. No show-specific override exists.
 Returning seasons are merged into the one series row after the primary prefix:
 normally positions 5, 9, 13, etc. when all four primary slots are filled, with at
 most six. When fewer primary choices exist, insertion begins after that prefix
-and at least the first two discovery choices. No third catalogue is generated.
+and at least the first two discovery choices. Returning seasons never get a row
+of their own.
+
+## Upcoming Episodes
+
+A separate row of shows the viewer is caught up on whose next episode has a
+confirmed date within `upcoming_horizon_days` (default 90), soonest first.
+
+- Caught up: TMDB's latest aired episode (`last_episode_to_air`) is among the
+  episodes watched according to Trakt (watched-show payload plus episode history,
+  honouring `reset_at`). A show with an aired, unwatched episode is left out.
+- The date is TMDB's `next_episode_to_air`, from the show details the profile
+  already fetched, so the row adds no extra requests. Ended shows and episodes
+  without a date are left out.
+- Ste's suggestion filters (genres, language, ratings) do not apply: every
+  caught-up show qualifies. Adult titles, missing posters, invalid IMDb IDs and
+  Not Interested shows are excluded.
+- Each description starts with the episode and day, e.g. `S3 E1 · Fri 14 Nov`
+  (`Today`, `Tomorrow`; a real episode name is included; specials say `Special`).
+- The row may be empty. It is built from Trakt history, so removing items from
+  Nuvio's Continue Watching does not affect it.
 
 ## Posters and response shape
 
@@ -205,7 +227,7 @@ Run from the package's parent directory:
 python3 -m unittest trakt_suggested_engine.test_engine -v
 ```
 
-The 42 focused tests cover public/nested history adapters, stable-ID joins,
+The 47 focused tests cover public/nested history adapters, stable-ID joins,
 episode release boundaries, announced/future/special content, incomplete
 seasons, reset boundaries, started-season exclusion, title-blind theme scoring,
 series mixing and British/Irish criminal-led priority, police-led versus criminal-led organised crime, watched-vs-rated
@@ -219,4 +241,6 @@ private-field exclusion, disabling the source and the recency curve. The Not
 Interested tests check that listed films and shows (including IMDb-only and
 episode entries) vanish, a show never hides a film with the same TMDB number,
 an empty list changes nothing, and a listed show gets no returning season. Every
-end-to-end contract is re-run with For You rows present.
+end-to-end contract is re-run with For You rows present. The Upcoming tests check
+caught-up-only selection, the 90-day horizon, ended shows, Not Interested,
+suggestion filters not applying, soonest-first order and an empty row.

@@ -1,6 +1,6 @@
 # Trakt Suggested runtime
 
-This package retrieves private recommendation inputs and publishes only two final
+This package retrieves private recommendation inputs and publishes only three final
 Stremio-compatible catalogue rows. Place it next to `trakt_suggested_engine/` at
 the repository root. Copy `trakt-suggested-refresh.yml` to
 `.github/workflows/trakt-suggested-refresh.yml` when deploying.
@@ -21,7 +21,7 @@ Environment variables:
 
 To dismiss a title, add it to a **public** Trakt list named "Not Interested"
 (slug `not-interested`). In Nuvio: long-press **+** on the title's details page,
-tick the list, Save. It disappears from both rows at the next refresh.
+tick the list, Save. It disappears from every row at the next refresh.
 Remove it from the list to let it back in.
 
 The runtime reads the whole list, `/users/{user}/lists/{slug}/items`, fully
@@ -39,10 +39,13 @@ python -m trakt_suggested_runtime
 python -m trakt_suggested_runtime --validate-only
 ```
 
-The output is `docs/suggested/manifest.json` plus the two nested catalogue trees.
+The output is `docs/suggested/manifest.json` plus the three nested catalogue trees.
 The addon ID is `org.trakt.suggested.personal`. It supplies catalogue resources
-only. Row order and exact labels are `Trakt Suggested Series`, then
-`Trakt Suggested Movies`. The existing police manifest and output are untouched.
+only. Row order and exact labels are `Trakt Suggested Series`,
+`Trakt Suggested Movies`, then `Upcoming Episodes` (type `series`). The first two
+must hold at least 5 titles; Upcoming Episodes may be empty when nothing a
+caught-up show is waiting for airs within 90 days. The existing police manifest
+and output are untouched.
 
 Each row also merges the titles from the For You Home rows. The engine sends the
 same TMDB Discover queries as the "For Ste" TMDB Discover+ catalogues (two pages
@@ -64,7 +67,7 @@ Trakt callback.
 
 The runtime latches callback source failures even if the recommendation engine
 catches an individual exception. In that case it refuses to publish. It generates
-both rows in a temporary directory and validates them together before promoting
+every row in a temporary directory and validates them together before promoting
 the directory. Failed local promotion restores the previous directory. GitHub
 publication uses a single commit after generation and validation succeed.
 

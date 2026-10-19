@@ -268,10 +268,10 @@ class EndToEndContracts(unittest.TestCase):
     def run_engine(self, **kwargs):
         return generate_catalogues(*self.inputs, self.api, now=NOW, config=self.config, **kwargs)
 
-    def test_two_named_series_first_rows_watch_only_exclusion_and_clean_posters(self):
+    def test_named_series_first_rows_watch_only_exclusion_and_clean_posters(self):
         result = self.run_engine()
-        self.assertEqual(result["catalogue_order"], ["series", "movie"])
-        self.assertEqual(set(result["catalogues"]), {"series", "movie"})
+        self.assertEqual(result["catalogue_order"], ["series", "movie", "upcoming"])
+        self.assertEqual(set(result["catalogues"]), {"series", "movie", "upcoming"})
         series = result["catalogues"]["series"]
         movies = result["catalogues"]["movie"]
         self.assertEqual(series["name"], "Trakt Suggested Series")
@@ -292,12 +292,13 @@ class EndToEndContracts(unittest.TestCase):
                 self.assertTrue(meta["poster"].startswith("https://image.tmdb.org/t/p/w500/"))
                 self.assertNotIn("suggested_score", meta)
 
-    def test_returning_season_merges_into_series_without_third_row(self):
+    def test_returning_season_merges_into_series_without_its_own_row(self):
         result = self.run_engine(trakt_fetch=lambda path, params: [season(1), season(2, premiered=NOW)])
         metas = result["catalogues"]["series"]["payload"]["metas"]
         self.assertEqual(metas[4]["id"], "tt10")
         self.assertTrue(metas[4]["description"].startswith("Season 2 has started."))
-        self.assertEqual(len(result["catalogues"]), 2)
+        self.assertEqual(set(result["catalogues"]), {"series", "movie", "upcoming"})
+        self.assertNotIn("tt10", {m["id"] for m in result["catalogues"]["upcoming"]["payload"]["metas"]})
         first_cards = result["diagnostics"]["media"]["series"]["selected_cards"][:4]
         self.assertTrue(all(c["theme"]["gangster_priority"] and c["theme"]["british_or_irish"] for c in first_cards))
         self.assertEqual(result["diagnostics"]["media"]["series"]["primary_crime_prefix_count"], 4)
@@ -356,6 +357,72 @@ class EndToEndContracts(unittest.TestCase):
         self.assertNotIn("tt10", {m["id"] for m in result["catalogues"]["series"]["payload"]["metas"]})
         reasons = {d.get("reason") for d in result["diagnostics"]["media"]["series"]["returning_decisions"]}
         self.assertIn("not_interested", reasons)
+
+
+class UpcomingContracts(unittest.TestCase):
+    """Upcoming Episodes: caught-up shows whose next episode has a date."""
+
+    def setUp(self):
+        self.api = FixtureAPI()
+        self.inputs = list(fixture_inputs())
+        self.config = EngineConfig(catalogue_limit=10, candidate_enrichment_limit=20, minimum_items=3, max_workers=2)
+
+    def schedule(self, number=10, days=10, last=(1, 2), **episode):
+        # The fixture viewer has watched S1 E1-E2 of show 10.
+        detail = self.api.details[("tv", number)]
+        detail["last_episode_to_air"] = {"season_number": last[0], "episode_number": last[1]}
+        detail["next_episode_to_air"] = dict({"air_date": (NOW + timedelta(days=days)).date().isoformat(),
+                                              "season_number": 2, "episode_number": 1, "name": "Episode 1"}, **episode)
+
+    def upcoming(self, **kwargs):
+        result = generate_catalogues(*self.inputs, self.api, now=NOW, config=self.config, **kwargs)
+        return result, result["catalogues"]["upcoming"]["payload"]["metas"]
+
+    def test_caught_up_show_with_a_dated_next_episode_is_listed(self):
+        self.schedule()
+        result, metas = self.upcoming()
+        self.assertEqual(result["catalogues"]["upcoming"]["name"], "Upcoming Episodes")
+        self.assertEqual(result["catalogues"]["upcoming"]["type"], "series")
+        self.assertEqual([(m["id"], m["type"]) for m in metas], [("tt10", "series")])
+        self.assertTrue(metas[0]["description"].startswith("S2 E1 · Wed 28 Oct\n\n"))
+        self.assertTrue(metas[0]["poster"].startswith("https://image.tmdb.org/t/p/w500/"))
+
+    def test_an_empty_row_is_valid(self):
+        result, metas = self.upcoming()
+        self.assertEqual(metas, [])
+        self.assertEqual(result["catalogue_order"], ["series", "movie", "upcoming"])
+
+    def test_only_caught_up_shows_inside_the_horizon(self):
+        # Not caught up (S1 E3 aired, unwatched), past the 90 days, or already aired.
+        for last, days in (((1, 3), 10), ((1, 2), 91), ((1, 2), -1)):
+            with self.subTest(last=last, days=days):
+                self.api = FixtureAPI()
+                self.schedule(days=days, last=last)
+                self.assertEqual(self.upcoming()[1], [])
+        self.api = FixtureAPI()
+        self.schedule(days=90)
+        self.assertEqual(len(self.upcoming()[1]), 1)
+        del self.api.details[("tv", 10)]["next_episode_to_air"]  # ended show
+        self.assertEqual(self.upcoming()[1], [])
+
+    def test_suggestion_filters_do_not_apply_but_not_interested_does(self):
+        self.schedule(name="The Return")
+        self.api.details[("tv", 10)]["vote_average"] = 5.0  # below the suggestion quality floor
+        metas = self.upcoming()[1]
+        self.assertEqual([m["id"] for m in metas], ["tt10"])
+        self.assertTrue(metas[0]["description"].startswith("S2 E1 · The Return · Wed 28 Oct"))
+        self.assertEqual(self.upcoming(dismissed=[{"type": "show", "show": show()}])[1], [])
+
+    def test_soonest_first_with_today_and_tomorrow(self):
+        self.inputs[1] = self.inputs[1] + [{"show": show(11), "plays": 1, "last_watched_at": "2026-10-17T00:00:00Z"}]
+        self.inputs[4] = self.inputs[4] + [event(3, 8, number=11)]
+        self.api.details[("tv", 11)] = self.api.detail(11)
+        self.schedule(days=1)
+        self.schedule(number=11, days=0, last=(3, 8), season_number=4)
+        metas = self.upcoming()[1]
+        self.assertEqual([m["id"] for m in metas], ["tt11", "tt10"])
+        self.assertTrue(metas[0]["description"].startswith("S4 E1 · Today\n\n"))
+        self.assertTrue(metas[1]["description"].startswith("S2 E1 · Tomorrow\n\n"))
 
 
 class ForYouContracts(EndToEndContracts):

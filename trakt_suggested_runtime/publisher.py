@@ -30,10 +30,15 @@ import uuid
 
 PAGE_SIZE = 20
 DEFAULT_ADDON_ID = "org.trakt.suggested.personal"
+# (generator key, Stremio type, catalogue ID, name), in Home order.
 CATALOGUES = (
-    ("series", "trakt-suggested-series", "Trakt Suggested Series"),
-    ("movie", "trakt-suggested-movies", "Trakt Suggested Movies"),
+    ("series", "series", "trakt-suggested-series", "Trakt Suggested Series"),
+    ("movie", "movie", "trakt-suggested-movies", "Trakt Suggested Movies"),
+    ("upcoming", "series", "trakt-upcoming-episodes", "Upcoming Episodes"),
 )
+CATALOGUE_ORDER = [key for key, *_ in CATALOGUES]
+# Nothing a caught-up viewer is waiting for may air soon; that row may be empty.
+MAY_BE_EMPTY = frozenset({"upcoming"})
 INPUT_FILES = {
     "watched_movies": "trakt-watched-movies.json",
     "watched_shows": "trakt-watched-shows.json",
@@ -394,13 +399,14 @@ def manifest(addon_id: str = DEFAULT_ADDON_ID) -> dict:
     if not re.fullmatch(r"[A-Za-z0-9_.-]+", addon_id):
         raise RefreshError("Invalid addon ID")
     return {
-        "id": addon_id, "version": "1.0.0", "name": "Trakt Suggested",
-        "description": "Film and series suggestions with watched filtering and returning seasons.",
+        "id": addon_id, "version": "1.1.0", "name": "Trakt Suggested",
+        "description": "Film and series suggestions with watched filtering and returning seasons, "
+                       "plus upcoming episodes of caught-up shows.",
         "types": ["series", "movie"], "resources": ["catalog"],
         "catalogs": [
             {"type": kind, "id": slug, "name": title,
              "extra": [{"name": "skip", "isRequired": False}]}
-            for kind, slug, title in CATALOGUES
+            for _, kind, slug, title in CATALOGUES
         ],
     }
 
@@ -446,10 +452,10 @@ def validate_output(output: Path, *, minimum_items: int = 5, addon_id: str = DEF
     except (OSError, ValueError):
         raise RefreshError("Missing or invalid manifest") from None
     if actual_manifest != manifest(addon_id):
-        raise RefreshError("Manifest must contain exactly the two ordered catalogues")
+        raise RefreshError("Manifest must contain exactly the ordered catalogues")
     allowed_paths = {Path("manifest.json")}
     counts = {}
-    for kind, slug, _ in CATALOGUES:
+    for key, kind, slug, _ in CATALOGUES:
         folder = output / "catalog" / kind
         first = read_page(folder / (slug + ".json"))
         if first != read_page(folder / slug / "skip=0.json"):
@@ -464,7 +470,7 @@ def validate_output(output: Path, *, minimum_items: int = 5, addon_id: str = DEF
             offset += len(page)
         else:
             raise RefreshError("Catalogue pagination did not terminate")
-        if len(collected) < minimum_items:
+        if len(collected) < (0 if key in MAY_BE_EMPTY else minimum_items):
             raise RefreshError("Catalogue has too few useful titles")
         identities = set()
         for item in collected:
@@ -481,7 +487,7 @@ def validate_output(output: Path, *, minimum_items: int = 5, addon_id: str = DEF
                 raise RefreshError("Stale cached pagination route")
             allowed_paths.add(path.relative_to(output))
         allowed_paths.add((folder / (slug + ".json")).relative_to(output))
-        counts[kind] = len(collected)
+        counts[key] = len(collected)
     actual_paths = {p.relative_to(output) for p in output.rglob("*") if p.is_file()}
     if actual_paths != allowed_paths or any(p.is_symlink() for p in output.rglob("*")):
         raise RefreshError("Unexpected file or link in public output")
@@ -491,7 +497,7 @@ def validate_output(output: Path, *, minimum_items: int = 5, addon_id: str = DEF
 def promote_output(stage: Path, output: Path) -> None:
     """Stage a complete validated directory, with rollback if promotion fails.
 
-    Git publication is one commit after both rows validate. The local directory
+    Git publication is one commit after every row validates. The local directory
     swap never exposes partially generated pages and is rollback-safe on Windows.
     """
     backup = output.with_name("." + output.name + ".previous." + uuid.uuid4().hex)
@@ -512,15 +518,15 @@ def promote_output(stage: Path, output: Path) -> None:
 
 def publish_result(result: Mapping, output: Path, *, minimum_items: int = 5,
                    addon_id: str = DEFAULT_ADDON_ID) -> dict[str, int]:
-    if result.get("catalogue_order") != ["series", "movie"] or set(result.get("catalogues", {})) != {"series", "movie"}:
-        raise RefreshError("Generator did not return exactly two ordered catalogues")
+    if result.get("catalogue_order") != CATALOGUE_ORDER or set(result.get("catalogues", {})) != set(CATALOGUE_ORDER):
+        raise RefreshError("Generator did not return exactly the ordered catalogues")
     output.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix="." + output.name + ".stage.", dir=output.parent) as temporary:
         stage = Path(temporary) / "output"
         stage.mkdir()
         atomic_json(stage / "manifest.json", manifest(addon_id))
-        for kind, slug, title in CATALOGUES:
-            catalogue = result["catalogues"][kind]
+        for key, kind, slug, title in CATALOGUES:
+            catalogue = result["catalogues"][key]
             payload = catalogue.get("payload")
             if (catalogue.get("id") != slug or catalogue.get("name") != title or catalogue.get("type") != kind or
                     not isinstance(payload, dict) or set(payload) != {"metas"} or not isinstance(payload["metas"], list)):

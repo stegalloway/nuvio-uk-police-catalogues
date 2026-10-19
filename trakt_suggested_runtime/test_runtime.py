@@ -31,10 +31,11 @@ def metas(count, kind):
             for index in range(count)]
 
 
-def generated(count=28):
-    return {"catalogue_order": ["series", "movie"], "catalogues": {
-        kind: {"type": kind, "id": slug, "name": title, "payload": {"metas": metas(count, kind)}}
-        for kind, slug, title in CATALOGUES
+def generated(count=28, upcoming=None):
+    return {"catalogue_order": ["series", "movie", "upcoming"], "catalogues": {
+        key: {"type": kind, "id": slug, "name": title,
+              "payload": {"metas": metas(count if upcoming is None or key != "upcoming" else upcoming, kind)}}
+        for key, kind, slug, title in CATALOGUES
     }, "diagnostics": {"private_watched_history": ["PRIVATE-DATA-MUST-NOT-BE-PUBLISHED"]}}
 
 
@@ -76,8 +77,9 @@ class PaginationContracts(unittest.TestCase):
             old_offsets = set()
             for count in (28, 55, 26, 40, 61, 29, 20):
                 with self.subTest(count=count):
-                    self.assertEqual(publish_result(generated(count), target), {"series": count, "movie": count})
-                    for kind, slug, _ in CATALOGUES:
+                    self.assertEqual(publish_result(generated(count), target),
+                                     {"series": count, "movie": count, "upcoming": count})
+                    for _, kind, slug, _ in CATALOGUES:
                         folder = target / "catalog" / kind / slug
                         self.assertEqual(read_page(folder / f"skip={count}.json"), [])
                         for start in old_offsets | {0, count}:
@@ -118,7 +120,25 @@ class PublicationContracts(unittest.TestCase):
         result = manifest()
         self.assertEqual(result["types"], ["series", "movie"])
         self.assertEqual(result["resources"], ["catalog"])
-        self.assertEqual([c["name"] for c in result["catalogs"]], ["Trakt Suggested Series", "Trakt Suggested Movies"])
+        self.assertEqual([(c["type"], c["name"]) for c in result["catalogs"]],
+                         [("series", "Trakt Suggested Series"), ("movie", "Trakt Suggested Movies"),
+                          ("series", "Upcoming Episodes")])
+
+    def test_only_the_upcoming_row_may_be_empty(self):
+        with tempfile.TemporaryDirectory() as directory:
+            target = Path(directory) / "suggested"
+            self.assertEqual(publish_result(generated(upcoming=0), target), {"series": 28, "movie": 28, "upcoming": 0})
+            self.assertEqual(read_page(target / "catalog/series/trakt-upcoming-episodes.json"), [])
+            self.assertEqual(validate_output(target)["upcoming"], 0)
+            short = generated()
+            short["catalogues"]["series"]["payload"]["metas"] = []
+            with self.assertRaises(RefreshError):
+                publish_result(short, target)
+            missing = generated()
+            del missing["catalogues"]["upcoming"]
+            missing["catalogue_order"] = ["series", "movie"]
+            with self.assertRaises(RefreshError):
+                publish_result(missing, target)
 
     def test_private_diagnostics_never_enter_output(self):
         with tempfile.TemporaryDirectory() as directory:
