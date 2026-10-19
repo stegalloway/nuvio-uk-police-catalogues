@@ -44,21 +44,6 @@
       "imdb_id": "tt14857730"
     },
     {
-      "id": "tt7131622",
-      "type": "movie",
-      "name": "Once Upon a Time... in Hollywood",
-      "poster": "https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
-      "posterShape": "poster",
-      "description": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt7131622"
-    },
-    {
       "id": "tt32550101",
       "type": "movie",
       "name": "STRAW",
@@ -72,6 +57,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt32550101"
+    },
+    {
+      "id": "tt7131622",
+      "type": "movie",
+      "name": "Once Upon a Time... in Hollywood",
+      "poster": "https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
+      "posterShape": "poster",
+      "description": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt7131622"
     },
     {
       "id": "tt30144839",
