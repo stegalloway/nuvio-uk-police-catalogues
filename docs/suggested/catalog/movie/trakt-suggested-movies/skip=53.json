@@ -1,33 +1,34 @@
 {
   "metas": [
     {
-      "id": "tt0443706",
+      "id": "tt33057137",
       "type": "movie",
-      "name": "Zodiac",
-      "poster": "https://image.tmdb.org/t/p/w500/6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+      "name": "Prisoner of War",
+      "poster": "https://image.tmdb.org/t/p/w500/uHNuUIdF35dRSLQQ5Ej0aOhmvB3.jpg",
       "posterShape": "poster",
-      "description": "Police conduct a manhunt for the Zodiac Killer, a serial killer who terrorized the San Francisco Bay Area during the late 1960s and early 1970s, taunting police with letters, bloodstained clothing, and ciphers mailed to newspapers.",
-      "genres": [
-        "Crime",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0443706"
-    },
-    {
-      "id": "tt0095016",
-      "type": "movie",
-      "name": "Die Hard",
-      "poster": "https://image.tmdb.org/t/p/w500/7Bjd8kfmDSOzpmhySpEhkUyK2oH.jpg",
-      "posterShape": "poster",
-      "description": "High above the city of L.A. a team of terrorists has seized a building, taken hostages, and declared war. One man has manages to escape... An off-duty cop hiding somewhere inside. He's alone, tired... and the only chance anyone has got.",
+      "description": "British RAF Wing Commander James Wright is captured by the Japanese during WWII and forced to fight in brutal hand-to-hand combat. The Japanese soldiers get more than they bargained for when Wright’s years of martial arts training in Hong Kong prove him to be a formidable opponent.",
       "genres": [
         "Action",
-        "Thriller"
+        "War",
+        "Thriller",
+        "History"
       ],
-      "releaseInfo": "1988",
-      "imdb_id": "tt0095016"
+      "releaseInfo": "2025",
+      "imdb_id": "tt33057137"
+    },
+    {
+      "id": "tt33100314",
+      "type": "movie",
+      "name": "Remarkably Bright Creatures",
+      "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+      "posterShape": "poster",
+      "description": "Through unlikely bonds formed during night shifts at a local aquarium, Tova, an elderly widow, learns of a life-changing discovery that may bring her joy and wonder once again.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33100314"
     },
     {
       "id": "tt27550504",
@@ -45,20 +46,6 @@
       "imdb_id": "tt27550504"
     },
     {
-      "id": "tt33100314",
-      "type": "movie",
-      "name": "Remarkably Bright Creatures",
-      "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
-      "posterShape": "poster",
-      "description": "Through unlikely bonds formed during night shifts at a local aquarium, Tova, an elderly widow, learns of a life-changing discovery that may bring her joy and wonder once again.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33100314"
-    },
-    {
       "id": "tt0105236",
       "type": "movie",
       "name": "Reservoir Dogs",
@@ -71,22 +58,6 @@
       ],
       "releaseInfo": "1992",
       "imdb_id": "tt0105236"
-    },
-    {
-      "id": "tt33057137",
-      "type": "movie",
-      "name": "Prisoner of War",
-      "poster": "https://image.tmdb.org/t/p/w500/uHNuUIdF35dRSLQQ5Ej0aOhmvB3.jpg",
-      "posterShape": "poster",
-      "description": "British RAF Wing Commander James Wright is captured by the Japanese during WWII and forced to fight in brutal hand-to-hand combat. The Japanese soldiers get more than they bargained for when Wright’s years of martial arts training in Hong Kong prove him to be a formidable opponent.",
-      "genres": [
-        "Action",
-        "War",
-        "Thriller",
-        "History"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt33057137"
     },
     {
       "id": "tt0113277",
@@ -102,6 +73,35 @@
       ],
       "releaseInfo": "1995",
       "imdb_id": "tt0113277"
+    },
+    {
+      "id": "tt0765429",
+      "type": "movie",
+      "name": "American Gangster",
+      "poster": "https://image.tmdb.org/t/p/w500/sX9idXDqRUxE5ffww3n3RV5gL55.jpg",
+      "posterShape": "poster",
+      "description": "Loosely based on the criminal career of Frank Lucas, a gangster from La Grange, North Carolina, who smuggled heroin into the United States on American service planes returning from the Vietnam War, before being detained by a task force led by Newark Detective Richie Roberts.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0765429"
+    },
+    {
+      "id": "tt0988045",
+      "type": "movie",
+      "name": "Sherlock Holmes",
+      "poster": "https://image.tmdb.org/t/p/w500/momkKuWburNTqKBF6ez7rvhYVhE.jpg",
+      "posterShape": "poster",
+      "description": "Eccentric consulting detective Sherlock Holmes and Doctor John Watson battle to bring down a new nemesis and unravel a deadly plot that could destroy England.",
+      "genres": [
+        "Action",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2009",
+      "imdb_id": "tt0988045"
     }
   ]
 }

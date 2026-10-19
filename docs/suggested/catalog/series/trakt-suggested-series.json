@@ -16,18 +16,32 @@
       "imdb_id": "tt7661390"
     },
     {
-      "id": "tt31438328",
+      "id": "tt23729238",
       "type": "series",
-      "name": "This City Is Ours",
-      "poster": "https://image.tmdb.org/t/p/w500/fQpJFVWX8MCdOkwoutDw7tjhvgp.jpg",
+      "name": "Boat Story",
+      "poster": "https://image.tmdb.org/t/p/w500/gaSiJDRPSgVAUHcP8GRz0Tsw0HS.jpg",
       "posterShape": "poster",
-      "description": "Notorious gang boss Ronnie (Sean Bean) steps back from his criminal empire, triggering a violent power struggle between his volatile son Jamie (Jack McMullen) and trusted lieutenant Michael (James Nelson Joyce), who sees his chance to seize control. As rivalries ignite and loyalties fracture, the family behind the city’s cocaine trade descends into open war.",
+      "description": "Two hard-up strangers stumble across a haul of cocaine on a shipwrecked boat. After agreeing to sell it and split the cash, they become entangled with police, masked hitmen, and a sharp-suited gangster known as 'The Tailor'.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31438328"
+      "releaseInfo": "2023",
+      "imdb_id": "tt23729238"
+    },
+    {
+      "id": "tt2442560",
+      "type": "series",
+      "name": "Peaky Blinders",
+      "poster": "https://image.tmdb.org/t/p/w500/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg",
+      "posterShape": "poster",
+      "description": "A gangster family epic set in 1919 Birmingham, England and centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby, who means to move up in the world.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt2442560"
     },
     {
       "id": "tt13444408",
@@ -42,20 +56,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt13444408"
-    },
-    {
-      "id": "tt23729238",
-      "type": "series",
-      "name": "Boat Story",
-      "poster": "https://image.tmdb.org/t/p/w500/gaSiJDRPSgVAUHcP8GRz0Tsw0HS.jpg",
-      "posterShape": "poster",
-      "description": "Two hard-up strangers stumble across a haul of cocaine on a shipwrecked boat. After agreeing to sell it and split the cash, they become entangled with police, masked hitmen, and a sharp-suited gangster known as 'The Tailor'.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt23729238"
     },
     {
       "id": "tt31849235",
@@ -100,20 +100,6 @@
       "imdb_id": "tt36303968"
     },
     {
-      "id": "tt15837600",
-      "type": "series",
-      "name": "Griselda",
-      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
-      "posterShape": "poster",
-      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15837600"
-    },
-    {
       "id": "tt15435876",
       "type": "series",
       "name": "The Penguin",
@@ -126,6 +112,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt15435876"
+    },
+    {
+      "id": "tt15837600",
+      "type": "series",
+      "name": "Griselda",
+      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
+      "posterShape": "poster",
+      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15837600"
     },
     {
       "id": "tt34866681",
@@ -171,18 +171,18 @@
       "imdb_id": "tt11761194"
     },
     {
-      "id": "tt13018148",
+      "id": "tt14192504",
       "type": "series",
-      "name": "Tell Me Lies",
-      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
+      "name": "We Own This City",
+      "poster": "https://image.tmdb.org/t/p/w500/qNOYmU6JYMeu2I0xOX9pgCBOBXi.jpg",
       "posterShape": "poster",
-      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
+      "description": "The story of the rise and fall of the Baltimore Police Department's Gun Trace Task Force — and the corruption and moral collapse that befell an American city in which the policies of drug prohibition and mass arrest were championed at the expense of actual police work.",
       "genres": [
-        "Drama",
-        "Mystery"
+        "Crime",
+        "Drama"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt13018148"
+      "imdb_id": "tt14192504"
     },
     {
       "id": "tt0979432",
@@ -197,34 +197,6 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt0979432"
-    },
-    {
-      "id": "tt2442560",
-      "type": "series",
-      "name": "Peaky Blinders",
-      "poster": "https://image.tmdb.org/t/p/w500/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg",
-      "posterShape": "poster",
-      "description": "A gangster family epic set in 1919 Birmingham, England and centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby, who means to move up in the world.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2442560"
-    },
-    {
-      "id": "tt9174718",
-      "type": "series",
-      "name": "The Lost Flowers of Alice Hart",
-      "poster": "https://image.tmdb.org/t/p/w500/sNeGAamuke1a2I4ndcaE0bnukh4.jpg",
-      "posterShape": "poster",
-      "description": "After losing her parents in a mysterious fire, nine-year-old Alice Hart is raised by her grandmother June on a flower farm where she learns there are secrets within secrets. But years on, an unearthed betrayal sees Alice forced to face her past.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt9174718"
     },
     {
       "id": "tt18923754",
@@ -242,6 +214,34 @@
       "imdb_id": "tt18923754"
     },
     {
+      "id": "tt26676904",
+      "type": "series",
+      "name": "Ballard",
+      "poster": "https://image.tmdb.org/t/p/w500/vHQGu6ducKC7JcDU6lqWyx7tWW5.jpg",
+      "posterShape": "poster",
+      "description": "Detective Renée Ballard plunges into a web of murder and corruption as she hunts a ruthless serial killer and uncovers a sinister police conspiracy that threatens everything she stands for. With her own demons nipping at her heels, Ballard must outwit both criminals and colleagues to bring long-overdue justice to the victims and their families.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt26676904"
+    },
+    {
+      "id": "tt5028002",
+      "type": "series",
+      "name": "StartUp",
+      "poster": "https://image.tmdb.org/t/p/w500/mXiB1e0x3iaRaaPPVhC1c7rgwPr.jpg",
+      "posterShape": "poster",
+      "description": "A desperate banker needs to conceal stolen money. A Haitian-American gang lord wants to go legit. A Cuban-American hacker has an idea that will revolutionize the very future of money itself. Forced to work together, they unwittingly create their version of the American dream - organized crime 2.0.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt5028002"
+    },
+    {
       "id": "tt3281796",
       "type": "series",
       "name": "Power",
@@ -256,18 +256,18 @@
       "imdb_id": "tt3281796"
     },
     {
-      "id": "tt14192504",
+      "id": "tt11846996",
       "type": "series",
-      "name": "We Own This City",
-      "poster": "https://image.tmdb.org/t/p/w500/qNOYmU6JYMeu2I0xOX9pgCBOBXi.jpg",
+      "name": "Vigil",
+      "poster": "https://image.tmdb.org/t/p/w500/5zAheY0Upi2MwU3edGtEgb7Ldh3.jpg",
       "posterShape": "poster",
-      "description": "The story of the rise and fall of the Baltimore Police Department's Gun Trace Task Force — and the corruption and moral collapse that befell an American city in which the policies of drug prohibition and mass arrest were championed at the expense of actual police work.",
+      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14192504"
+      "releaseInfo": "2021",
+      "imdb_id": "tt11846996"
     },
     {
       "id": "tt2707408",
