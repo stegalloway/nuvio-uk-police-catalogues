@@ -385,6 +385,7 @@ class UpcomingContracts(unittest.TestCase):
         self.assertEqual(result["catalogues"]["upcoming"]["type"], "series")
         self.assertEqual([(m["id"], m["type"]) for m in metas], [("tt10", "series")])
         self.assertTrue(metas[0]["description"].startswith("S2 E1 · Wed 28 Oct\n\n"))
+        self.assertEqual(metas[0]["releaseInfo"], "Wed 28 Oct · S2 E1")  # shown under the poster
         self.assertTrue(metas[0]["poster"].startswith("https://image.tmdb.org/t/p/w500/"))
 
     def test_an_empty_row_is_valid(self):
@@ -423,6 +424,7 @@ class UpcomingContracts(unittest.TestCase):
         self.assertEqual([m["id"] for m in metas], ["tt11", "tt10"])
         self.assertTrue(metas[0]["description"].startswith("S4 E1 · Today\n\n"))
         self.assertTrue(metas[1]["description"].startswith("S2 E1 · Tomorrow\n\n"))
+        self.assertEqual([m["releaseInfo"] for m in metas], ["Today · S4 E1", "Tomorrow · S2 E1"])
 
 
 class ForYouContracts(EndToEndContracts):

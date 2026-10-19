@@ -329,16 +329,16 @@ def upcoming_episode(state: Mapping, detail: Mapping, today: date, horizon_days:
             "episode_name": str(upcoming.get("name") or "").strip()}
 
 
-def _upcoming_line(episode: Mapping, today: date) -> str:
+def _upcoming_text(episode: Mapping, today: date) -> tuple[str, str]:
+    """(card line, description line), e.g. ("Wed 21 Oct · S6 E6", "S6 E6 · Name · Wed 21 Oct")."""
     airs = date.fromisoformat(episode["air_date"])
     when = "Today" if airs == today else "Tomorrow" if airs == today + timedelta(days=1) else \
         f"{airs:%a} {airs.day} {airs:%b}" + ("" if airs.year == today.year else f" {airs.year}")
     season, number = episode.get("season_number"), episode.get("episode_number")
     label = ("Special" if season == 0 else f"S{season} E{number}") if season is not None and number else "Next episode"
     name = episode.get("episode_name") or ""
-    if name and not re.fullmatch(r"Episode \d+", name):
-        label += " · " + name
-    return label + " · " + when
+    named = label + " · " + name if name and not re.fullmatch(r"Episode \d+", name) else label
+    return when + " · " + label, named + " · " + when
 
 
 def thematic_signals(detail: Mapping) -> dict[str, Any]:
@@ -469,6 +469,8 @@ def _meta(card: Mapping, kind: str) -> dict:
         season = card["returning_season"]["season_number"]
         meta["description"] = "Season " + str(season) + " has started.\n\n" + meta["description"]
     if card.get("upcoming_line"):
+        # Nuvio shows releaseInfo as given under the poster: the air date, not the year.
+        meta["releaseInfo"] = card["upcoming_short"]
         meta["description"] = card["upcoming_line"] + "\n\n" + meta["description"]
     return meta
 
@@ -741,7 +743,8 @@ def generate_catalogues(
                 if (not isinstance(card.get("imdb_id"), str) or not re.fullmatch(r"tt[0-9]+", card["imdb_id"])
                         or card["imdb_id"] in dismissed_imdb):
                     continue
-                card.update(poster=poster, upcoming_episode=episode, upcoming_line=_upcoming_line(episode, today))
+                short, line = _upcoming_text(episode, today)
+                card.update(poster=poster, upcoming_episode=episode, upcoming_short=short, upcoming_line=line)
                 upcoming_cards.setdefault(card["id"], card)
         else:
             ordered = sorted(cards, key=lambda c: (-c["suggested_score"], c["id"]))[:config.catalogue_limit]

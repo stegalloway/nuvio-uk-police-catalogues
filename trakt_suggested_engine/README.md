@@ -201,6 +201,8 @@ confirmed date within `upcoming_horizon_days` (default 90), soonest first.
 - Ste's suggestion filters (genres, language, ratings) do not apply: every
   caught-up show qualifies. Adult titles, missing posters, invalid IMDb IDs and
   Not Interested shows are excluded.
+- The line under each poster (`releaseInfo`, which Nuvio shows as given) is the
+  day and episode, e.g. `Fri 14 Nov · S3 E1`, in place of the year.
 - Each description starts with the episode and day, e.g. `S3 E1 · Fri 14 Nov`
   (`Today`, `Tomorrow`; a real episode name is included; specials say `Special`).
 - The row may be empty. It is built from Trakt history, so removing items from
