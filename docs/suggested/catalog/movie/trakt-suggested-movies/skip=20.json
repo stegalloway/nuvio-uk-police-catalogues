@@ -1,63 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt9603208",
-      "type": "movie",
-      "name": "Mission: Impossible - The Final Reckoning",
-      "poster": "https://image.tmdb.org/t/p/w500/iKPsC9EFUafRP9SrUznI61getVP.jpg",
-      "posterShape": "poster",
-      "description": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Adventure"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt9603208"
-    },
-    {
-      "id": "tt1670345",
-      "type": "movie",
-      "name": "Now You See Me",
-      "poster": "https://image.tmdb.org/t/p/w500/tWsNYbrqy1p1w6K9zRk0mSchztT.jpg",
-      "posterShape": "poster",
-      "description": "An FBI agent and an Interpol detective track a team of illusionists who pull off bank heists during their performances and reward their audiences with the money.",
-      "genres": [
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt1670345"
-    },
-    {
-      "id": "tt15325794",
-      "type": "movie",
-      "name": "Fall",
-      "poster": "https://image.tmdb.org/t/p/w500/spCAxD99U1A6jsiePFoqdEcY0dG.jpg",
-      "posterShape": "poster",
-      "description": "For best friends Becky and Hunter, life is all about conquering fears and pushing limits. But after they climb 2,000 feet to the top of a remote, abandoned radio tower, they find themselves stranded with no way down. Now Becky and Hunter's expert climbing skills will be put to the ultimate test as they desperately fight to survive the elements, a lack of supplies, and vertigo-inducing heights.",
-      "genres": [
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15325794"
-    },
-    {
-      "id": "tt31189814",
-      "type": "movie",
-      "name": "Fuze",
-      "poster": "https://image.tmdb.org/t/p/w500/oMFdQE5hMJ9JjhNORegwTo0GKmh.jpg",
-      "posterShape": "poster",
-      "description": "An unexploded WWII bomb is discovered on a busy construction site in the centre of London. Chaos ensues as the military and police begin a mass evacuation against a ticking clock.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31189814"
-    },
-    {
       "id": "tt30144839",
       "type": "movie",
       "name": "One Battle After Another",
@@ -71,21 +14,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt30144839"
-    },
-    {
-      "id": "tt32537226",
-      "type": "movie",
-      "name": "Hunting Season",
-      "poster": "https://image.tmdb.org/t/p/w500/cbryTyaWdqrKpQCw6K7zm2jrB5v.jpg",
-      "posterShape": "poster",
-      "description": "When a reclusive survivalist and his daughter rescue a mysterious, wounded woman from a river, they become entangled in a deadly web of violence and revenge, forcing them to confront a brutal criminal to survive.",
-      "genres": [
-        "Action",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32537226"
     },
     {
       "id": "tt32550101",
@@ -103,6 +31,64 @@
       "imdb_id": "tt32550101"
     },
     {
+      "id": "tt14857730",
+      "type": "movie",
+      "name": "The Enforcer",
+      "poster": "https://image.tmdb.org/t/p/w500/72V1r1G8S87ELagVxjqAUdChMCt.jpg",
+      "posterShape": "poster",
+      "description": "A noir thriller set in Miami, the film follows an enforcer who discovers his femme fatale boss has branched out into cyber sex trafficking, putting a young runaway he’s befriended at risk. He sacrifices everything to save the young girl from the deadly organization he’s spent his life building.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14857730"
+    },
+    {
+      "id": "tt2481498",
+      "type": "movie",
+      "name": "Extremely Wicked, Shockingly Evil and Vile",
+      "poster": "https://image.tmdb.org/t/p/w500/a7dVwEBU3vupg3hZQMeyL6ksz0F.jpg",
+      "posterShape": "poster",
+      "description": "A chronicle of the crimes of Ted Bundy, from the perspective of his longtime girlfriend, Elizabeth Kloepfer, who refused to believe the truth about him for years.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt2481498"
+    },
+    {
+      "id": "tt5727208",
+      "type": "movie",
+      "name": "Uncut Gems",
+      "poster": "https://image.tmdb.org/t/p/w500/6XN1vxHc7kUSqNWtaQKN45J5x2v.jpg",
+      "posterShape": "poster",
+      "description": "A charismatic New York City jeweler always on the lookout for the next big score makes a series of high-stakes bets that could lead to the windfall of a lifetime. Howard must perform a precarious high-wire act, balancing business, family, and encroaching adversaries on all sides in his relentless pursuit of the ultimate win.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt5727208"
+    },
+    {
+      "id": "tt4550098",
+      "type": "movie",
+      "name": "Nocturnal Animals",
+      "poster": "https://image.tmdb.org/t/p/w500/mdLDgQBD0va09npSQX5Zgo2evXM.jpg",
+      "posterShape": "poster",
+      "description": "Susan Morrow receives a book manuscript from her ex-husband – a man she left 20 years earlier – asking for her opinion of his writing. As she reads, she is drawn into the fictional life of Tony Hastings, a mathematics professor whose family vacation turns violent.",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt4550098"
+    },
+    {
       "id": "tt21103218",
       "type": "movie",
       "name": "The Lost Bus",
@@ -115,21 +101,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt21103218"
-    },
-    {
-      "id": "tt1515091",
-      "type": "movie",
-      "name": "Sherlock Holmes: A Game of Shadows",
-      "poster": "https://image.tmdb.org/t/p/w500/y1MYZkwhZK6L0Jy4YMuPktzDOfn.jpg",
-      "posterShape": "poster",
-      "description": "There is a new criminal mastermind at large (Professor Moriarty) and not only is he Holmes’ intellectual equal, but his capacity for evil and lack of conscience may give him an advantage over the detective.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Mystery"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1515091"
     },
     {
       "id": "tt27757546",
@@ -148,6 +119,51 @@
       "imdb_id": "tt27757546"
     },
     {
+      "id": "tt0144117",
+      "type": "movie",
+      "name": "The Boondock Saints",
+      "poster": "https://image.tmdb.org/t/p/w500/wtLUmkWg41xFLpvmUWAN1mm65f6.jpg",
+      "posterShape": "poster",
+      "description": "Tired of the crime overrunning the streets of Boston, Irish Catholic twin brothers Conner and Murphy are inspired by their faith to cleanse their hometown of evil with their own brand of zealous vigilante justice. As they hunt down and kill one notorious gangster after another, they become controversial folk heroes in the community. But Paul Smecker, an eccentric FBI agent, is fast closing in on their blood-soaked trail.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "1999",
+      "imdb_id": "tt0144117"
+    },
+    {
+      "id": "tt0114814",
+      "type": "movie",
+      "name": "The Usual Suspects",
+      "poster": "https://image.tmdb.org/t/p/w500/99X2SgyFunJFXGAYnDv3sb9pnUD.jpg",
+      "posterShape": "poster",
+      "description": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "1995",
+      "imdb_id": "tt0114814"
+    },
+    {
+      "id": "tt7286456",
+      "type": "movie",
+      "name": "Joker",
+      "poster": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+      "posterShape": "poster",
+      "description": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt7286456"
+    },
+    {
       "id": "tt33296751",
       "type": "movie",
       "name": "Tuner",
@@ -161,6 +177,51 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33296751"
+    },
+    {
+      "id": "tt8946378",
+      "type": "movie",
+      "name": "Knives Out",
+      "poster": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
+      "posterShape": "poster",
+      "description": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt8946378"
+    },
+    {
+      "id": "tt1130884",
+      "type": "movie",
+      "name": "Shutter Island",
+      "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+      "posterShape": "poster",
+      "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1130884"
+    },
+    {
+      "id": "tt0099674",
+      "type": "movie",
+      "name": "The Godfather Part III",
+      "poster": "https://image.tmdb.org/t/p/w500/lm3pQ2QoQ16pextRsmnUbG2onES.jpg",
+      "posterShape": "poster",
+      "description": "In the midst of trying to legitimize his business dealings in 1979 New York and Italy, aging mafia don, Michael Corleone seeks forgiveness for his sins while taking a young protege under his wing.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "1990",
+      "imdb_id": "tt0099674"
     },
     {
       "id": "tt31450182",
@@ -177,6 +238,20 @@
       "imdb_id": "tt31450182"
     },
     {
+      "id": "tt0099685",
+      "type": "movie",
+      "name": "GoodFellas",
+      "poster": "https://image.tmdb.org/t/p/w500/9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg",
+      "posterShape": "poster",
+      "description": "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "1990",
+      "imdb_id": "tt0099685"
+    },
+    {
       "id": "tt27543632",
       "type": "movie",
       "name": "The Housemaid",
@@ -191,34 +266,19 @@
       "imdb_id": "tt27543632"
     },
     {
-      "id": "tt0780504",
+      "id": "tt0119008",
       "type": "movie",
-      "name": "Drive",
-      "poster": "https://image.tmdb.org/t/p/w500/602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
+      "name": "Donnie Brasco",
+      "poster": "https://image.tmdb.org/t/p/w500/xtKLvpOfARi1XVm8u2FTdhY5Piq.jpg",
       "posterShape": "poster",
-      "description": "Driver is a skilled Hollywood stuntman who moonlights as a getaway driver for criminals. Though he projects an icy exterior, lately he's been warming up to a pretty neighbor named Irene and her young son, Benicio. When Irene's husband gets out of jail, he enlists Driver's help in a million-dollar heist. The job goes horribly wrong, and Driver must risk his life to protect Irene and Benicio from the vengeful masterminds behind the robbery.",
+      "description": "An FBI undercover agent infiltrates the mob and identifies more with the mafia life at the expense of his regular one.",
       "genres": [
-        "Drama",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt0780504"
-    },
-    {
-      "id": "tt0110912",
-      "type": "movie",
-      "name": "Pulp Fiction",
-      "poster": "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
-      "posterShape": "poster",
-      "description": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
-      "genres": [
-        "Thriller",
         "Crime",
-        "Comedy"
+        "Drama",
+        "Thriller"
       ],
-      "releaseInfo": "1994",
-      "imdb_id": "tt0110912"
+      "releaseInfo": "1997",
+      "imdb_id": "tt0119008"
     },
     {
       "id": "tt14364480",
@@ -234,64 +294,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt14364480"
-    },
-    {
-      "id": "tt42863533",
-      "type": "movie",
-      "name": "Maternal Instinct",
-      "poster": "https://image.tmdb.org/t/p/w500/dOWWCLSwXS1MBtGEFeItbloiUEN.jpg",
-      "posterShape": "poster",
-      "description": "Police pull over a woman who claims she just gave birth. But the baby — and the blood — aren't hers. Twisted lies unravel in this true-crime documentary.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt42863533"
-    },
-    {
-      "id": "tt5727208",
-      "type": "movie",
-      "name": "Uncut Gems",
-      "poster": "https://image.tmdb.org/t/p/w500/6XN1vxHc7kUSqNWtaQKN45J5x2v.jpg",
-      "posterShape": "poster",
-      "description": "A charismatic New York City jeweler always on the lookout for the next big score makes a series of high-stakes bets that could lead to the windfall of a lifetime. Howard must perform a precarious high-wire act, balancing business, family, and encroaching adversaries on all sides in his relentless pursuit of the ultimate win.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt5727208"
-    },
-    {
-      "id": "tt20215234",
-      "type": "movie",
-      "name": "Conclave",
-      "poster": "https://image.tmdb.org/t/p/w500/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg",
-      "posterShape": "poster",
-      "description": "After the unexpected death of the Pope, Cardinal Lawrence is tasked with managing the covert and ancient ritual of electing a new one. Sequestered in the Vatican with the Catholic Church’s most powerful leaders until the process is complete, Lawrence finds himself at the center of a conspiracy that could lead to its downfall.",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt20215234"
-    },
-    {
-      "id": "tt4627382",
-      "type": "movie",
-      "name": "Roofman",
-      "poster": "https://image.tmdb.org/t/p/w500/wXDFtcnYtevleGzCmAD2ReQnJ4l.jpg",
-      "posterShape": "poster",
-      "description": "A former Army Ranger and struggling father turns to robbing McDonald’s restaurants by cutting holes in their roofs, earning him the nickname \"Roofman.\" After escaping prison, he secretly lives inside a Toys “R” Us for six months, surviving undetected while planning his next move. But when he falls for a divorced mom drawn to his undeniable charm, his double life begins to unravel, setting off a compelling and suspenseful game of cat and mouse as his past closes in.",
-      "genres": [
-        "Crime",
-        "Comedy",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt4627382"
     }
   ]
 }

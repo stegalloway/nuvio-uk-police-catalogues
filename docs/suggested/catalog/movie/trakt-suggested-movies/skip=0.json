@@ -75,6 +75,20 @@
       "imdb_id": "tt4873118"
     },
     {
+      "id": "tt1670345",
+      "type": "movie",
+      "name": "Now You See Me",
+      "poster": "https://image.tmdb.org/t/p/w500/tWsNYbrqy1p1w6K9zRk0mSchztT.jpg",
+      "posterShape": "poster",
+      "description": "An FBI agent and an Interpol detective track a team of illusionists who pull off bank heists during their performances and reward their audiences with the money.",
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt1670345"
+    },
+    {
       "id": "tt31195136",
       "type": "movie",
       "name": "Normal",
@@ -88,20 +102,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt31195136"
-    },
-    {
-      "id": "tt16368898",
-      "type": "movie",
-      "name": "Lights Out",
-      "poster": "https://image.tmdb.org/t/p/w500/gCOSDDyN0qA8rGoVwsZc72v3RuZ.jpg",
-      "posterShape": "poster",
-      "description": "A drifting ex-soldier turns underground fighter with the help of a just-released ex-con, pitting him against corrupt cops and hired killers now gunning for him and all those he cares about.",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt16368898"
     },
     {
       "id": "tt32338669",
@@ -118,31 +118,18 @@
       "imdb_id": "tt32338669"
     },
     {
-      "id": "tt0112864",
+      "id": "tt32430579",
       "type": "movie",
-      "name": "Die Hard: With a Vengeance",
-      "poster": "https://image.tmdb.org/t/p/w500/buqmCdFQEWwEpL3agGgg2GVjN2d.jpg",
+      "name": "Crime 101",
+      "poster": "https://image.tmdb.org/t/p/w500/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg",
       "posterShape": "poster",
-      "description": "New York detective John McClane is back and kicking bad-guy butt in the third installment of this action-packed series, which finds him teaming with civilian Zeus Carver to prevent the loss of innocent lives. McClane thought he'd seen it all, until a genius named Simon engages McClane, his new \"partner\" -- and his beloved city -- in a deadly game that demands their concentration.",
+      "description": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
       "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "1995",
-      "imdb_id": "tt0112864"
-    },
-    {
-      "id": "tt33303521",
-      "type": "movie",
-      "name": "The Gates",
-      "poster": "https://image.tmdb.org/t/p/w500/dWMiHlKz0OsbVXEEZR3hYyWHcdq.jpg",
-      "posterShape": "poster",
-      "description": "Three friends' road trip turns terrifying when they witness a murder in a gated community. Trapped inside, hunted by residents who blame them, their bond fractures as a charismatic yet sinister patriarch closes in.",
-      "genres": [
+        "Crime",
         "Thriller"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt33303521"
+      "imdb_id": "tt32430579"
     },
     {
       "id": "tt36042156",
@@ -160,32 +147,46 @@
       "imdb_id": "tt36042156"
     },
     {
-      "id": "tt32430579",
+      "id": "tt33303521",
       "type": "movie",
-      "name": "Crime 101",
-      "poster": "https://image.tmdb.org/t/p/w500/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg",
+      "name": "The Gates",
+      "poster": "https://image.tmdb.org/t/p/w500/dWMiHlKz0OsbVXEEZR3hYyWHcdq.jpg",
       "posterShape": "poster",
-      "description": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
+      "description": "Three friends' road trip turns terrifying when they witness a murder in a gated community. Trapped inside, hunted by residents who blame them, their bond fractures as a charismatic yet sinister patriarch closes in.",
       "genres": [
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33303521"
+    },
+    {
+      "id": "tt5095076",
+      "type": "movie",
+      "name": "Wardriver",
+      "poster": "https://image.tmdb.org/t/p/w500/rBZA12Hf4yZZgud6iPuFU49L7zk.jpg",
+      "posterShape": "poster",
+      "description": "He’s a Wardriver: a hacker who steals from banks, not people—until he’s noticed. Now the money turns violent, and the woman caught in it could save him or kill them both.",
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt5095076"
+    },
+    {
+      "id": "tt15314262",
+      "type": "movie",
+      "name": "The Beekeeper",
+      "poster": "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+      "posterShape": "poster",
+      "description": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+      "genres": [
+        "Action",
         "Crime",
         "Thriller"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32430579"
-    },
-    {
-      "id": "tt7526136",
-      "type": "movie",
-      "name": "Heart of the Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
-      "posterShape": "poster",
-      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "genres": [
-        "Adventure",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt7526136"
+      "releaseInfo": "2024",
+      "imdb_id": "tt15314262"
     },
     {
       "id": "tt31192372",
@@ -216,78 +217,78 @@
       "imdb_id": "tt32357218"
     },
     {
-      "id": "tt5095076",
+      "id": "tt2872718",
       "type": "movie",
-      "name": "Wardriver",
-      "poster": "https://image.tmdb.org/t/p/w500/rBZA12Hf4yZZgud6iPuFU49L7zk.jpg",
+      "name": "Nightcrawler",
+      "poster": "https://image.tmdb.org/t/p/w500/j9HrX8f7GbZQm1BrBiR40uFQZSb.jpg",
       "posterShape": "poster",
-      "description": "He’s a Wardriver: a hacker who steals from banks, not people—until he’s noticed. Now the money turns violent, and the woman caught in it could save him or kill them both.",
+      "description": "When Lou Bloom, desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story. Aiding him in his effort is Nina, a TV-news veteran.",
       "genres": [
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt5095076"
-    },
-    {
-      "id": "tt2820852",
-      "type": "movie",
-      "name": "Furious 7",
-      "poster": "https://image.tmdb.org/t/p/w500/wurKlC3VKUgcfsn0K51MJYEleS2.jpg",
-      "posterShape": "poster",
-      "description": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
-      "genres": [
-        "Action",
         "Crime",
+        "Drama",
         "Thriller"
       ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt2820852"
+      "releaseInfo": "2014",
+      "imdb_id": "tt2872718"
     },
     {
-      "id": "tt15314262",
+      "id": "tt7526136",
       "type": "movie",
-      "name": "The Beekeeper",
-      "poster": "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+      "name": "Heart of the Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
       "posterShape": "poster",
-      "description": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
       "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15314262"
-    },
-    {
-      "id": "tt1345836",
-      "type": "movie",
-      "name": "The Dark Knight Rises",
-      "poster": "https://image.tmdb.org/t/p/w500/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg",
-      "posterShape": "poster",
-      "description": "Following the death of District Attorney Harvey Dent, Batman assumes responsibility for Dent's crimes to protect the late attorney's reputation and is subsequently hunted by the Gotham City Police Department. Eight years later, Batman encounters the mysterious Selina Kyle and the villainous Bane, a new terrorist leader who overwhelms Gotham's finest. The Dark Knight resurfaces to protect a city that has branded him an enemy.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1345836"
-    },
-    {
-      "id": "tt9603212",
-      "type": "movie",
-      "name": "Mission: Impossible - Dead Reckoning Part One",
-      "poster": "https://image.tmdb.org/t/p/w500/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
-      "posterShape": "poster",
-      "description": "Ethan Hunt and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands. With control of the future and the world's fate at stake and dark forces from Ethan's past closing in, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan must consider that nothing can matter more than his mission—not even the lives of those he cares about most.",
-      "genres": [
-        "Action",
         "Adventure",
         "Thriller"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt9603212"
+      "releaseInfo": "2026",
+      "imdb_id": "tt7526136"
+    },
+    {
+      "id": "tt32537226",
+      "type": "movie",
+      "name": "Hunting Season",
+      "poster": "https://image.tmdb.org/t/p/w500/cbryTyaWdqrKpQCw6K7zm2jrB5v.jpg",
+      "posterShape": "poster",
+      "description": "When a reclusive survivalist and his daughter rescue a mysterious, wounded woman from a river, they become entangled in a deadly web of violence and revenge, forcing them to confront a brutal criminal to survive.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt32537226"
+    },
+    {
+      "id": "tt31189814",
+      "type": "movie",
+      "name": "Fuze",
+      "poster": "https://image.tmdb.org/t/p/w500/oMFdQE5hMJ9JjhNORegwTo0GKmh.jpg",
+      "posterShape": "poster",
+      "description": "An unexploded WWII bomb is discovered on a busy construction site in the centre of London. Chaos ensues as the military and police begin a mass evacuation against a ticking clock.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31189814"
+    },
+    {
+      "id": "tt9603208",
+      "type": "movie",
+      "name": "Mission: Impossible - The Final Reckoning",
+      "poster": "https://image.tmdb.org/t/p/w500/iKPsC9EFUafRP9SrUznI61getVP.jpg",
+      "posterShape": "poster",
+      "description": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt9603208"
     }
   ]
 }

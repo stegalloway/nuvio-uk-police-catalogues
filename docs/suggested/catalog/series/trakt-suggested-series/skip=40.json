@@ -1,18 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt11816814",
+      "id": "tt4276618",
       "type": "series",
-      "name": "Painkiller",
-      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
+      "name": "Strike",
+      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
       "posterShape": "poster",
-      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
+      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
       "genres": [
+        "Crime",
         "Drama",
-        "Crime"
+        "Mystery"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt11816814"
+      "releaseInfo": "2017",
+      "imdb_id": "tt4276618"
     },
     {
       "id": "tt35707374",
@@ -29,18 +30,18 @@
       "imdb_id": "tt35707374"
     },
     {
-      "id": "tt11110622",
+      "id": "tt11816814",
       "type": "series",
-      "name": "White House Farm",
-      "poster": "https://image.tmdb.org/t/p/w500/nZRFhpDUlGM37BBBYAWhznNxUH7.jpg",
+      "name": "Painkiller",
+      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
       "posterShape": "poster",
-      "description": "Factual drama based on the notorious White House Farm murders, and the ensuing police investigation and court case.",
+      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11110622"
+      "releaseInfo": "2023",
+      "imdb_id": "tt11816814"
     },
     {
       "id": "tt2304589",
@@ -72,21 +73,6 @@
       "imdb_id": "tt32559610"
     },
     {
-      "id": "tt32252772",
-      "type": "series",
-      "name": "Dexter: Original Sin",
-      "poster": "https://image.tmdb.org/t/p/w500/j5bP7spdfS0NpDLKDlqJYyJPi1j.jpg",
-      "posterShape": "poster",
-      "description": "In 1991 Miami, Dexter Morgan transitions from student to avenging serial killer. When his bloodthirsty urges can't be ignored any longer, Dexter must learn to channel his inner darkness. With the guidance of his father, Harry, he adopts a Code designed to help him find and kill people who deserve to be eliminated from society without getting on law enforcements' radar. This is a particular challenge for young Dexter as he begins a forensics internship at the Miami Metro Police Department.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt32252772"
-    },
-    {
       "id": "tt26862142",
       "type": "series",
       "name": "The Last Frontier",
@@ -101,48 +87,18 @@
       "imdb_id": "tt26862142"
     },
     {
-      "id": "tt1475582",
+      "id": "tt15568702",
       "type": "series",
-      "name": "Sherlock",
-      "poster": "https://image.tmdb.org/t/p/w500/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg",
+      "name": "Litvinenko",
+      "poster": "https://image.tmdb.org/t/p/w500/ojaSBvv1EZqcf4qvgHBhjWcm3Lb.jpg",
       "posterShape": "poster",
-      "description": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1475582"
-    },
-    {
-      "id": "tt35826715",
-      "type": "series",
-      "name": "Boston Blue",
-      "poster": "https://image.tmdb.org/t/p/w500/81IhL3ckAgJ9J8vHazlUA5BNs8G.jpg",
-      "posterShape": "poster",
-      "description": "NYPD Detective Danny Reagan takes a job with the Boston PD and is paired with Detective Lena Silver, part of a law enforcement family comprised of District Attorney Mae Silver, Police Superintendent Sarah Silver, rookie cop Jonah Silver and Rev. Edwin Peters. Reagan hopes to reconnect with his son, Sean, in Boston.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35826715"
-    },
-    {
-      "id": "tt36849871",
-      "type": "series",
-      "name": "Marshals",
-      "poster": "https://image.tmdb.org/t/p/w500/zV1MRb6eqx6Uj3NSXquZFfz75pa.jpg",
-      "posterShape": "poster",
-      "description": "With the Yellowstone Ranch behind him, Kayce Dutton joins an elite unit of U.S. Marshals, combining his skills as a cowboy and Navy SEAL to bring range justice to Montana, where he and his teammates must balance family, duty and the high psychological cost that comes with serving as the last line of defense in the region's war on violence.",
+      "description": "The story of the determined Scotland Yard Officers who worked to prove who was responsible for the death of Alexander Litvinenko, in one of the most complex and dangerous investigations in the history of the Metropolitan Police.",
       "genres": [
         "Drama",
-        "Crime",
-        "Action & Adventure"
+        "Crime"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36849871"
+      "releaseInfo": "2022",
+      "imdb_id": "tt15568702"
     },
     {
       "id": "tt32499731",
@@ -160,18 +116,48 @@
       "imdb_id": "tt32499731"
     },
     {
-      "id": "tt18115928",
+      "id": "tt36849871",
       "type": "series",
-      "name": "East New York",
-      "poster": "https://image.tmdb.org/t/p/w500/vOos5pwq3tzPCwFohG80i2SXAgR.jpg",
+      "name": "Marshals",
+      "poster": "https://image.tmdb.org/t/p/w500/zV1MRb6eqx6Uj3NSXquZFfz75pa.jpg",
       "posterShape": "poster",
-      "description": "Regina Haywood is the newly promoted deputy inspector of East New York, a working-class neighborhood at the edge of Brooklyn. She leads a diverse group of officers and detectives, some of whom are reluctant to deploy her creative methods of serving and protecting in the midst of social upheaval and the early seeds of gentrification.",
+      "description": "With the Yellowstone Ranch behind him, Kayce Dutton joins an elite unit of U.S. Marshals, combining his skills as a cowboy and Navy SEAL to bring range justice to Montana, where he and his teammates must balance family, duty and the high psychological cost that comes with serving as the last line of defense in the region's war on violence.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt36849871"
+    },
+    {
+      "id": "tt35826715",
+      "type": "series",
+      "name": "Boston Blue",
+      "poster": "https://image.tmdb.org/t/p/w500/81IhL3ckAgJ9J8vHazlUA5BNs8G.jpg",
+      "posterShape": "poster",
+      "description": "NYPD Detective Danny Reagan takes a job with the Boston PD and is paired with Detective Lena Silver, part of a law enforcement family comprised of District Attorney Mae Silver, Police Superintendent Sarah Silver, rookie cop Jonah Silver and Rev. Edwin Peters. Reagan hopes to reconnect with his son, Sean, in Boston.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt18115928"
+      "releaseInfo": "2025",
+      "imdb_id": "tt35826715"
+    },
+    {
+      "id": "tt10155688",
+      "type": "series",
+      "name": "Mare of Easttown",
+      "poster": "https://image.tmdb.org/t/p/w500/78aK4Msbr22A5PGa6PZV0pAvdwf.jpg",
+      "posterShape": "poster",
+      "description": "A detective in a small Pennsylvania town investigates a local murder while trying to keep her life from falling apart.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt10155688"
     },
     {
       "id": "tt36022742",
@@ -189,18 +175,18 @@
       "imdb_id": "tt36022742"
     },
     {
-      "id": "tt15568702",
+      "id": "tt18115928",
       "type": "series",
-      "name": "Litvinenko",
-      "poster": "https://image.tmdb.org/t/p/w500/ojaSBvv1EZqcf4qvgHBhjWcm3Lb.jpg",
+      "name": "East New York",
+      "poster": "https://image.tmdb.org/t/p/w500/vOos5pwq3tzPCwFohG80i2SXAgR.jpg",
       "posterShape": "poster",
-      "description": "The story of the determined Scotland Yard Officers who worked to prove who was responsible for the death of Alexander Litvinenko, in one of the most complex and dangerous investigations in the history of the Metropolitan Police.",
+      "description": "Regina Haywood is the newly promoted deputy inspector of East New York, a working-class neighborhood at the edge of Brooklyn. She leads a diverse group of officers and detectives, some of whom are reluctant to deploy her creative methods of serving and protecting in the midst of social upheaval and the early seeds of gentrification.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt15568702"
+      "imdb_id": "tt18115928"
     },
     {
       "id": "tt31314754",
@@ -215,21 +201,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt31314754"
-    },
-    {
-      "id": "tt10155688",
-      "type": "series",
-      "name": "Mare of Easttown",
-      "poster": "https://image.tmdb.org/t/p/w500/78aK4Msbr22A5PGa6PZV0pAvdwf.jpg",
-      "posterShape": "poster",
-      "description": "A detective in a small Pennsylvania town investigates a local murder while trying to keep her life from falling apart.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt10155688"
     },
     {
       "id": "tt27954448",
@@ -260,6 +231,21 @@
       "imdb_id": "tt14063678"
     },
     {
+      "id": "tt1475582",
+      "type": "series",
+      "name": "Sherlock",
+      "poster": "https://image.tmdb.org/t/p/w500/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg",
+      "posterShape": "poster",
+      "description": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1475582"
+    },
+    {
       "id": "tt33035373",
       "type": "series",
       "name": "HIS & HERS",
@@ -288,6 +274,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt14582876"
+    },
+    {
+      "id": "tt0429087",
+      "type": "series",
+      "name": "Shantaram",
+      "poster": "https://image.tmdb.org/t/p/w500/6FZCmmAdszkEFLAoibEuJPDhW40.jpg",
+      "posterShape": "poster",
+      "description": "Escaped convict Lin Ford flees to the teeming streets of 1980s Bombay, looking to disappear. Working as a medic for the city's poor and neglected, Lin finds unexpected love, connection, and courage on the long road to redemption.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt0429087"
     }
   ]
 }

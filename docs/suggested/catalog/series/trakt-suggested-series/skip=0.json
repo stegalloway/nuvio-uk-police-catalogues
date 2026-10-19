@@ -73,20 +73,6 @@
       "imdb_id": "tt7661390"
     },
     {
-      "id": "tt15837600",
-      "type": "series",
-      "name": "Griselda",
-      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
-      "posterShape": "poster",
-      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15837600"
-    },
-    {
       "id": "tt15435876",
       "type": "series",
       "name": "The Penguin",
@@ -99,6 +85,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt15435876"
+    },
+    {
+      "id": "tt15837600",
+      "type": "series",
+      "name": "Griselda",
+      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
+      "posterShape": "poster",
+      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15837600"
     },
     {
       "id": "tt26676904",
@@ -130,18 +130,18 @@
       "imdb_id": "tt30460310"
     },
     {
-      "id": "tt0979432",
+      "id": "tt11761194",
       "type": "series",
-      "name": "Boardwalk Empire",
-      "poster": "https://image.tmdb.org/t/p/w500/zyHLWVmqS8m7bxABJjcDFMYLdF8.jpg",
+      "name": "Power Book IV: Force",
+      "poster": "https://image.tmdb.org/t/p/w500/yzL4Tqbw2JA9MCsHJWFC4xV1IYU.jpg",
       "posterShape": "poster",
-      "description": "Atlantic City at the dawn of Prohibition is a place where the rules don't apply. And the man who runs things -- legally and otherwise -- is the town's treasurer, Enoch \"Nucky\" Thompson, who is equal parts politician and gangster.",
+      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt0979432"
+      "releaseInfo": "2022",
+      "imdb_id": "tt11761194"
     },
     {
       "id": "tt14192504",
@@ -158,18 +158,18 @@
       "imdb_id": "tt14192504"
     },
     {
-      "id": "tt11761194",
+      "id": "tt0979432",
       "type": "series",
-      "name": "Power Book IV: Force",
-      "poster": "https://image.tmdb.org/t/p/w500/yzL4Tqbw2JA9MCsHJWFC4xV1IYU.jpg",
+      "name": "Boardwalk Empire",
+      "poster": "https://image.tmdb.org/t/p/w500/zyHLWVmqS8m7bxABJjcDFMYLdF8.jpg",
       "posterShape": "poster",
-      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
+      "description": "Atlantic City at the dawn of Prohibition is a place where the rules don't apply. And the man who runs things -- legally and otherwise -- is the town's treasurer, Enoch \"Nucky\" Thompson, who is equal parts politician and gangster.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11761194"
+      "releaseInfo": "2010",
+      "imdb_id": "tt0979432"
     },
     {
       "id": "tt3281796",
@@ -214,18 +214,18 @@
       "imdb_id": "tt2707408"
     },
     {
-      "id": "tt5715524",
+      "id": "tt8714904",
       "type": "series",
-      "name": "Mayans M.C.",
-      "poster": "https://image.tmdb.org/t/p/w500/510A0upV9WRAynEgs1E2B3eBxi5.jpg",
+      "name": "Narcos: Mexico",
+      "poster": "https://image.tmdb.org/t/p/w500/aXwMx8OvRFMfI1RmkbJm6Bq1jVg.jpg",
       "posterShape": "poster",
-      "description": "Set in the aftermath of Jax Teller’s death, Ezekiel \"EZ\" Reyes is fresh out of prison and a prospect in the Mayans M.C. charter on the Cali/Mexi border. Now, EZ must carve out his new identity in a town where he was once the golden boy with the American Dream in his grasp.",
+      "description": "See the rise of the Guadalajara Cartel as an American DEA agent learns the danger of targeting narcos in 1980s Mexico.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
       "releaseInfo": "2018",
-      "imdb_id": "tt5715524"
+      "imdb_id": "tt8714904"
     },
     {
       "id": "tt13875494",
@@ -242,18 +242,18 @@
       "imdb_id": "tt13875494"
     },
     {
-      "id": "tt8714904",
+      "id": "tt5715524",
       "type": "series",
-      "name": "Narcos: Mexico",
-      "poster": "https://image.tmdb.org/t/p/w500/aXwMx8OvRFMfI1RmkbJm6Bq1jVg.jpg",
+      "name": "Mayans M.C.",
+      "poster": "https://image.tmdb.org/t/p/w500/510A0upV9WRAynEgs1E2B3eBxi5.jpg",
       "posterShape": "poster",
-      "description": "See the rise of the Guadalajara Cartel as an American DEA agent learns the danger of targeting narcos in 1980s Mexico.",
+      "description": "Set in the aftermath of Jax Teller’s death, Ezekiel \"EZ\" Reyes is fresh out of prison and a prospect in the Mayans M.C. charter on the Cali/Mexi border. Now, EZ must carve out his new identity in a town where he was once the golden boy with the American Dream in his grasp.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
       "releaseInfo": "2018",
-      "imdb_id": "tt8714904"
+      "imdb_id": "tt5715524"
     },
     {
       "id": "tt8080122",

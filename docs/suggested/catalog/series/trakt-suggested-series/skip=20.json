@@ -57,18 +57,19 @@
       "imdb_id": "tt1489428"
     },
     {
-      "id": "tt6517320",
+      "id": "tt20285780",
       "type": "series",
-      "name": "Too Old to Die Young",
-      "poster": "https://image.tmdb.org/t/p/w500/xGBwXf02Mu2zzqxh6TomLC7xfk7.jpg",
+      "name": "The Artful Dodger",
+      "poster": "https://image.tmdb.org/t/p/w500/lcyax0pIH6vZWbho2hxsMTt9KpN.jpg",
       "posterShape": "poster",
-      "description": "In one tragic night, Los Angeles County Sheriff's Deputy Martin Jones's life is blown apart, and he is forced into a deadly underground of Cartel soldiers, Yakuza assassins, and mysterious vigilantes. Soon he finds himself lost on a surreal odyssey of murder, mysticism and vengeance, as his past sins close in on him.",
+      "description": "It's a tale of reinvention, betrayal, redemption, and love with a twist. Jack Dawkins is The Artful Dodger, whose pickpocketing fingers have become the skilled hands of a surgeon. He is torn between an impossible love and the criminal underworld he secretly craves. This will require Artfulness.",
       "genres": [
+        "Drama",
         "Crime",
-        "Drama"
+        "Action & Adventure"
       ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt6517320"
+      "releaseInfo": "2023",
+      "imdb_id": "tt20285780"
     },
     {
       "id": "tt10732104",
@@ -85,19 +86,18 @@
       "imdb_id": "tt10732104"
     },
     {
-      "id": "tt20285780",
+      "id": "tt6517320",
       "type": "series",
-      "name": "The Artful Dodger",
-      "poster": "https://image.tmdb.org/t/p/w500/lcyax0pIH6vZWbho2hxsMTt9KpN.jpg",
+      "name": "Too Old to Die Young",
+      "poster": "https://image.tmdb.org/t/p/w500/xGBwXf02Mu2zzqxh6TomLC7xfk7.jpg",
       "posterShape": "poster",
-      "description": "It's a tale of reinvention, betrayal, redemption, and love with a twist. Jack Dawkins is The Artful Dodger, whose pickpocketing fingers have become the skilled hands of a surgeon. He is torn between an impossible love and the criminal underworld he secretly craves. This will require Artfulness.",
+      "description": "In one tragic night, Los Angeles County Sheriff's Deputy Martin Jones's life is blown apart, and he is forced into a deadly underground of Cartel soldiers, Yakuza assassins, and mysterious vigilantes. Soon he finds himself lost on a surreal odyssey of murder, mysticism and vengeance, as his past sins close in on him.",
       "genres": [
-        "Drama",
         "Crime",
-        "Action & Adventure"
+        "Drama"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt20285780"
+      "releaseInfo": "2019",
+      "imdb_id": "tt6517320"
     },
     {
       "id": "tt3032476",
@@ -114,18 +114,19 @@
       "imdb_id": "tt3032476"
     },
     {
-      "id": "tt33253070",
+      "id": "tt34771210",
       "type": "series",
-      "name": "M.I.A.",
-      "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+      "name": "I Will Find You",
+      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
       "posterShape": "poster",
-      "description": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
+      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
       "genres": [
         "Drama",
+        "Mystery",
         "Crime"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt33253070"
+      "imdb_id": "tt34771210"
     },
     {
       "id": "tt5011816",
@@ -156,19 +157,18 @@
       "imdb_id": "tt1124373"
     },
     {
-      "id": "tt34771210",
+      "id": "tt33253070",
       "type": "series",
-      "name": "I Will Find You",
-      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
+      "name": "M.I.A.",
+      "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
       "posterShape": "poster",
-      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
+      "description": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
       "genres": [
         "Drama",
-        "Mystery",
         "Crime"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt34771210"
+      "imdb_id": "tt33253070"
     },
     {
       "id": "tt0903747",
@@ -185,35 +185,6 @@
       "imdb_id": "tt0903747"
     },
     {
-      "id": "tt1625724",
-      "type": "series",
-      "name": "Love/Hate",
-      "poster": "https://image.tmdb.org/t/p/w500/oLnOU5wYp7I6egnI6lzAIWOqS1D.jpg",
-      "posterShape": "poster",
-      "description": "Modern-day underworld characters Nidge and John Boy wrestle for control of Dublin's illicit drug trade in this forceful crime drama.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1625724"
-    },
-    {
-      "id": "tt5611024",
-      "type": "series",
-      "name": "Fool Me Once",
-      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
-      "posterShape": "poster",
-      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5611024"
-    },
-    {
       "id": "tt0141842",
       "type": "series",
       "name": "The Sopranos",
@@ -226,35 +197,6 @@
       ],
       "releaseInfo": "1999",
       "imdb_id": "tt0141842"
-    },
-    {
-      "id": "tt1958961",
-      "type": "series",
-      "name": "Lilyhammer",
-      "poster": "https://image.tmdb.org/t/p/w500/o5I2D5oeIEafpyFw30v11AwkhnB.jpg",
-      "posterShape": "poster",
-      "description": "After Frank The Fixer Tagliano testifies against his Mafia boss in New York, he enters the Witness Protection Program and makes an unusual demand: he wants to be set up with a new life in the Norwegian small town of Lillehammer or as he calls it, Lilyhammer.",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Crime"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1958961"
-    },
-    {
-      "id": "tt34675596",
-      "type": "series",
-      "name": "Cape Fear",
-      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
-      "posterShape": "poster",
-      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34675596"
     },
     {
       "id": "tt6037988",
@@ -272,19 +214,76 @@
       "imdb_id": "tt6037988"
     },
     {
-      "id": "tt4276618",
+      "id": "tt1625724",
       "type": "series",
-      "name": "Strike",
-      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
+      "name": "Love/Hate",
+      "poster": "https://image.tmdb.org/t/p/w500/oLnOU5wYp7I6egnI6lzAIWOqS1D.jpg",
       "posterShape": "poster",
-      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
+      "description": "Modern-day underworld characters Nidge and John Boy wrestle for control of Dublin's illicit drug trade in this forceful crime drama.",
       "genres": [
         "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1625724"
+    },
+    {
+      "id": "tt1958961",
+      "type": "series",
+      "name": "Lilyhammer",
+      "poster": "https://image.tmdb.org/t/p/w500/o5I2D5oeIEafpyFw30v11AwkhnB.jpg",
+      "posterShape": "poster",
+      "description": "After Frank The Fixer Tagliano testifies against his Mafia boss in New York, he enters the Witness Protection Program and makes an unusual demand: he wants to be set up with a new life in the Norwegian small town of Lillehammer or as he calls it, Lilyhammer.",
+      "genres": [
         "Drama",
+        "Comedy",
+        "Crime"
+      ],
+      "releaseInfo": "2012",
+      "imdb_id": "tt1958961"
+    },
+    {
+      "id": "tt5611024",
+      "type": "series",
+      "name": "Fool Me Once",
+      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "posterShape": "poster",
+      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "genres": [
+        "Drama",
+        "Crime",
         "Mystery"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt4276618"
+      "releaseInfo": "2024",
+      "imdb_id": "tt5611024"
+    },
+    {
+      "id": "tt34675596",
+      "type": "series",
+      "name": "Cape Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
+      "posterShape": "poster",
+      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34675596"
+    },
+    {
+      "id": "tt11110622",
+      "type": "series",
+      "name": "White House Farm",
+      "poster": "https://image.tmdb.org/t/p/w500/nZRFhpDUlGM37BBBYAWhznNxUH7.jpg",
+      "posterShape": "poster",
+      "description": "Factual drama based on the notorious White House Farm murders, and the ensuing police investigation and court case.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11110622"
     }
   ]
 }

@@ -1,63 +1,137 @@
 {
   "metas": [
     {
-      "id": "tt0113277",
+      "id": "tt0117665",
       "type": "movie",
-      "name": "Heat",
-      "poster": "https://image.tmdb.org/t/p/w500/umSVjVdbVwtx5ryCA2QXL44Durm.jpg",
+      "name": "Sleepers",
+      "poster": "https://image.tmdb.org/t/p/w500/yUpiEk2EojS9ZEXb3nIQonQCYYF.jpg",
       "posterShape": "poster",
-      "description": "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence.",
+      "description": "Two gangsters seek revenge on the state jail worker who during their stay at a youth prison sexually abused them. A sensational court hearing takes place to charge him for the crimes.",
       "genres": [
         "Crime",
         "Drama",
-        "Action"
+        "Thriller"
       ],
-      "releaseInfo": "1995",
-      "imdb_id": "tt0113277"
+      "releaseInfo": "1996",
+      "imdb_id": "tt0117665"
     },
     {
-      "id": "tt0114369",
+      "id": "tt5027774",
       "type": "movie",
-      "name": "Se7en",
-      "poster": "https://image.tmdb.org/t/p/w500/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg",
+      "name": "Three Billboards Outside Ebbing, Missouri",
+      "poster": "https://image.tmdb.org/t/p/w500/bRYLt8fV82tdVoDppSFTZIcJiLN.jpg",
       "posterShape": "poster",
-      "description": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Somerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+      "description": "After seven months have passed without a culprit in her daughter's murder case, Mildred Hayes makes a bold move, painting three signs leading into her town with a controversial message directed at Bill Willoughby, the town's revered chief of police. When his second-in-command Officer Jason Dixon, an immature mother's boy with a penchant for violence, gets involved, the battle between Mildred and Ebbing's law enforcement is only exacerbated.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5027774"
+    },
+    {
+      "id": "tt0119488",
+      "type": "movie",
+      "name": "L.A. Confidential",
+      "poster": "https://image.tmdb.org/t/p/w500/lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
+      "posterShape": "poster",
+      "description": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
       "genres": [
         "Crime",
         "Mystery",
         "Thriller"
       ],
-      "releaseInfo": "1995",
-      "imdb_id": "tt0114369"
+      "releaseInfo": "1997",
+      "imdb_id": "tt0119488"
     },
     {
-      "id": "tt15574124",
+      "id": "tt1212450",
       "type": "movie",
-      "name": "Peaky Blinders: The Immortal Man",
-      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+      "name": "Lawless",
+      "poster": "https://image.tmdb.org/t/p/w500/Ahtzwts22ayviD3LEVslfL4nRWB.jpg",
       "posterShape": "poster",
-      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+      "description": "In 1931, the Bondurant brothers of Franklin County, Virginia, run a multipurpose backwoods establishment that hides their true business — bootlegging. Middle brother Forrest is the brain of the operation; older Howard is the brawn, and younger Jack, the lookout. Though the local police have taken bribes and left the brothers alone, a violent war erupts when a sadistic lawman from Chicago arrives and tries to shut down the Bondurants operation.",
       "genres": [
         "Crime",
-        "Drama"
+        "Drama",
+        "Western"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt15574124"
+      "releaseInfo": "2012",
+      "imdb_id": "tt1212450"
     },
     {
-      "id": "tt0093409",
+      "id": "tt5537002",
       "type": "movie",
-      "name": "Lethal Weapon",
-      "poster": "https://image.tmdb.org/t/p/w500/6gt44oqb4nE8vflPElffeGwsHVl.jpg",
+      "name": "Killers of the Flower Moon",
+      "poster": "https://image.tmdb.org/t/p/w500/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
       "posterShape": "poster",
-      "description": "A veteran cop and an unstable detective become partners who must put their differences aside in order to bring down a heroin-smuggling ring run by ex-Special Forces.",
+      "description": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
       "genres": [
-        "Action",
-        "Thriller",
+        "Crime",
+        "History",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt5537002"
+    },
+    {
+      "id": "tt42863533",
+      "type": "movie",
+      "name": "Maternal Instinct",
+      "poster": "https://image.tmdb.org/t/p/w500/dOWWCLSwXS1MBtGEFeItbloiUEN.jpg",
+      "posterShape": "poster",
+      "description": "Police pull over a woman who claims she just gave birth. But the baby — and the blood — aren't hers. Twisted lies unravel in this true-crime documentary.",
+      "genres": [
+        "Documentary",
         "Crime"
       ],
-      "releaseInfo": "1987",
-      "imdb_id": "tt0093409"
+      "releaseInfo": "2026",
+      "imdb_id": "tt42863533"
+    },
+    {
+      "id": "tt2582802",
+      "type": "movie",
+      "name": "Whiplash",
+      "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+      "posterShape": "poster",
+      "description": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
+      "genres": [
+        "Drama",
+        "Music",
+        "Thriller"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2582802"
+    },
+    {
+      "id": "tt1131748",
+      "type": "movie",
+      "name": "Prison Break: The Final Break",
+      "poster": "https://image.tmdb.org/t/p/w500/h1QRyGuWVXM4Cr3FyPISSjMCBkA.jpg",
+      "posterShape": "poster",
+      "description": "Michael and Sara wed, but the happiness is short-lived when the Feds apprehend her for the murder of Michael's mother, Christina. Once a hit is ordered on Sara, the team reunite to break out the increasingly vulnerable target.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2009",
+      "imdb_id": "tt1131748"
+    },
+    {
+      "id": "tt4627382",
+      "type": "movie",
+      "name": "Roofman",
+      "poster": "https://image.tmdb.org/t/p/w500/wXDFtcnYtevleGzCmAD2ReQnJ4l.jpg",
+      "posterShape": "poster",
+      "description": "A former Army Ranger and struggling father turns to robbing McDonald’s restaurants by cutting holes in their roofs, earning him the nickname \"Roofman.\" After escaping prison, he secretly lives inside a Toys “R” Us for six months, surviving undetected while planning his next move. But when he falls for a divorced mom drawn to his undeniable charm, his double life begins to unravel, setting off a compelling and suspenseful game of cat and mouse as his past closes in.",
+      "genres": [
+        "Crime",
+        "Comedy",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt4627382"
     },
     {
       "id": "tt0090180",
@@ -75,106 +149,61 @@
       "imdb_id": "tt0090180"
     },
     {
-      "id": "tt0074156",
+      "id": "tt20215234",
       "type": "movie",
-      "name": "Assault on Precinct 13",
-      "poster": "https://image.tmdb.org/t/p/w500/RtGDEmXbSxE8NThCCY1SXFXLLw.jpg",
+      "name": "Conclave",
+      "poster": "https://image.tmdb.org/t/p/w500/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg",
       "posterShape": "poster",
-      "description": "A highway patrol officer, two criminals, and a station secretary form an unlikely alliance to defend a defunct Los Angeles precinct against a siege by a bloodthirsty street gang.",
+      "description": "After the unexpected death of the Pope, Cardinal Lawrence is tasked with managing the covert and ancient ritual of electing a new one. Sequestered in the Vatican with the Catholic Church’s most powerful leaders until the process is complete, Lawrence finds himself at the center of a conspiracy that could lead to its downfall.",
       "genres": [
-        "Thriller",
-        "Action",
-        "Crime"
-      ],
-      "releaseInfo": "1976",
-      "imdb_id": "tt0074156"
-    },
-    {
-      "id": "tt0099674",
-      "type": "movie",
-      "name": "The Godfather Part III",
-      "poster": "https://image.tmdb.org/t/p/w500/lm3pQ2QoQ16pextRsmnUbG2onES.jpg",
-      "posterShape": "poster",
-      "description": "In the midst of trying to legitimize his business dealings in 1979 New York and Italy, aging mafia don, Michael Corleone seeks forgiveness for his sins while taking a young protege under his wing.",
-      "genres": [
-        "Crime",
         "Drama",
         "Thriller"
       ],
-      "releaseInfo": "1990",
-      "imdb_id": "tt0099674"
+      "releaseInfo": "2024",
+      "imdb_id": "tt20215234"
     },
     {
-      "id": "tt33100314",
+      "id": "tt0108399",
       "type": "movie",
-      "name": "Remarkably Bright Creatures",
-      "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+      "name": "True Romance",
+      "poster": "https://image.tmdb.org/t/p/w500/39lXk6ud6KiJgGbbWI2PUKS7y2.jpg",
       "posterShape": "poster",
-      "description": "Through unlikely bonds formed during night shifts at a local aquarium, Tova, an elderly widow, learns of a life-changing discovery that may bring her joy and wonder once again.",
+      "description": "Clarence marries hooker Alabama, steals cocaine from her pimp, and tries to sell it in Hollywood, while the owners of the coke try to reclaim it.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Romance"
+      ],
+      "releaseInfo": "1993",
+      "imdb_id": "tt0108399"
+    },
+    {
+      "id": "tt11233960",
+      "type": "movie",
+      "name": "The Unforgivable",
+      "poster": "https://image.tmdb.org/t/p/w500/1b3dNFDuE7i05TJlXrIC571yR01.jpg",
+      "posterShape": "poster",
+      "description": "A woman is released from prison after serving a sentence for a violent crime and re-enters a society that refuses to forgive her past.",
       "genres": [
         "Drama",
-        "Mystery"
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11233960"
+    },
+    {
+      "id": "tt15574124",
+      "type": "movie",
+      "name": "Peaky Blinders: The Immortal Man",
+      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+      "posterShape": "poster",
+      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+      "genres": [
+        "Crime",
+        "Drama"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt33100314"
-    },
-    {
-      "id": "tt0041268",
-      "type": "movie",
-      "name": "Criss Cross",
-      "poster": "https://image.tmdb.org/t/p/w500/AwmyVw6h3nZWvkZUuNpZYDA2Dly.jpg",
-      "posterShape": "poster",
-      "description": "An armored-car guard must join a robbery after being caught with his ex-wife by her gangster husband.",
-      "genres": [
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "1949",
-      "imdb_id": "tt0041268"
-    },
-    {
-      "id": "tt0381061",
-      "type": "movie",
-      "name": "Casino Royale",
-      "poster": "https://image.tmdb.org/t/p/w500/lMrxYKKhd4lqRzwUHAy5gcx9PSO.jpg",
-      "posterShape": "poster",
-      "description": "Le Chiffre, a banker to the world's terrorists, is scheduled to participate in a high-stakes poker game in Montenegro, where he intends to use his winnings to establish his financial grip on the terrorist market. M sends Bond—on his maiden mission as a 00 Agent—to attend this game and prevent Le Chiffre from winning. With the help of Vesper Lynd and Felix Leiter, Bond enters the most important poker game in his already dangerous career.",
-      "genres": [
-        "Adventure",
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2006",
-      "imdb_id": "tt0381061"
-    },
-    {
-      "id": "tt0111161",
-      "type": "movie",
-      "name": "The Shawshank Redemption",
-      "poster": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
-      "posterShape": "poster",
-      "description": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "1994",
-      "imdb_id": "tt0111161"
-    },
-    {
-      "id": "tt0988045",
-      "type": "movie",
-      "name": "Sherlock Holmes",
-      "poster": "https://image.tmdb.org/t/p/w500/momkKuWburNTqKBF6ez7rvhYVhE.jpg",
-      "posterShape": "poster",
-      "description": "Eccentric consulting detective Sherlock Holmes and Doctor John Watson battle to bring down a new nemesis and unravel a deadly plot that could destroy England.",
-      "genres": [
-        "Action",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2009",
-      "imdb_id": "tt0988045"
+      "imdb_id": "tt15574124"
     },
     {
       "id": "tt0109035",
@@ -192,110 +221,79 @@
       "imdb_id": "tt0109035"
     },
     {
-      "id": "tt0765429",
+      "id": "tt0407887",
       "type": "movie",
-      "name": "American Gangster",
-      "poster": "https://image.tmdb.org/t/p/w500/sX9idXDqRUxE5ffww3n3RV5gL55.jpg",
+      "name": "The Departed",
+      "poster": "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Qblg61T.jpg",
       "posterShape": "poster",
-      "description": "Loosely based on the criminal career of Frank Lucas, a gangster from La Grange, North Carolina, who smuggled heroin into the United States on American service planes returning from the Vietnam War, before being detained by a task force led by Newark Detective Richie Roberts.",
+      "description": "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them.",
       "genres": [
         "Drama",
+        "Thriller",
         "Crime"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0765429"
+      "releaseInfo": "2006",
+      "imdb_id": "tt0407887"
     },
     {
-      "id": "tt0086960",
+      "id": "tt3460252",
       "type": "movie",
-      "name": "Beverly Hills Cop",
-      "poster": "https://image.tmdb.org/t/p/w500/eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg",
+      "name": "The Hateful Eight",
+      "poster": "https://image.tmdb.org/t/p/w500/jIywvdPjia2t3eKYbjVTcwBQlG8.jpg",
       "posterShape": "poster",
-      "description": "Fast-talking, quick-thinking Detroit street cop Axel Foley has bent more than a few rules and regs in his time, but when his best friend is murdered, he heads to sunny Beverly Hills to work the case like only he can.",
+      "description": "Bounty hunters seek shelter from a raging blizzard and get caught up in a plot of betrayal and deception.",
       "genres": [
-        "Comedy",
-        "Crime",
-        "Action"
-      ],
-      "releaseInfo": "1984",
-      "imdb_id": "tt0086960"
-    },
-    {
-      "id": "tt0106856",
-      "type": "movie",
-      "name": "Falling Down",
-      "poster": "https://image.tmdb.org/t/p/w500/7ujqyF96Zg3rfrsh9M0cEF0Yzqj.jpg",
-      "posterShape": "poster",
-      "description": "An ordinary man frustrated with the various flaws he sees in society begins to psychotically and violently lash out against them.",
-      "genres": [
-        "Crime",
         "Drama",
-        "Thriller"
+        "Mystery",
+        "Western"
       ],
-      "releaseInfo": "1993",
-      "imdb_id": "tt0106856"
+      "releaseInfo": "2015",
+      "imdb_id": "tt3460252"
     },
     {
-      "id": "tt32547691",
+      "id": "tt0086250",
       "type": "movie",
-      "name": "Pressure",
-      "poster": "https://image.tmdb.org/t/p/w500/gFjEggtrejCN79r6SXRjM269OtG.jpg",
+      "name": "Scarface",
+      "poster": "https://image.tmdb.org/t/p/w500/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
       "posterShape": "poster",
-      "description": "In the tense 72 hours before D-Day, and the fate of the free world hanging in the balance, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice—launch the largest and most dangerous seaborne invasion in history or risk losing the war altogether.",
-      "genres": [
-        "Thriller",
-        "History",
-        "War"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32547691"
-    },
-    {
-      "id": "tt0440963",
-      "type": "movie",
-      "name": "The Bourne Ultimatum",
-      "poster": "https://image.tmdb.org/t/p/w500/15rMz5MRXFp7CP4VxhjYw4y0FUn.jpg",
-      "posterShape": "poster",
-      "description": "Bourne is brought out of hiding once again by reporter Simon Ross who is trying to unveil Operation Blackbriar, an upgrade to Project Treadstone, in a series of newspaper columns. Information from the reporter stirs a new set of memories, and Bourne must finally uncover his dark past while dodging The Company's best efforts to eradicate him.",
+      "description": "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall.",
       "genres": [
         "Action",
-        "Drama",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "1983",
+      "imdb_id": "tt0086250"
+    },
+    {
+      "id": "tt0209144",
+      "type": "movie",
+      "name": "Memento",
+      "poster": "https://image.tmdb.org/t/p/w500/nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
+      "posterShape": "poster",
+      "description": "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
+      "genres": [
         "Mystery",
         "Thriller"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0440963"
+      "releaseInfo": "2000",
+      "imdb_id": "tt0209144"
     },
     {
-      "id": "tt0049406",
+      "id": "tt0068638",
       "type": "movie",
-      "name": "The Killing",
-      "poster": "https://image.tmdb.org/t/p/w500/A6VzUPcADZGYdGHlVdWvpMNDF5d.jpg",
+      "name": "The Getaway",
+      "poster": "https://image.tmdb.org/t/p/w500/8SvnGUJsr16zUJ2CN7ONX1ZWtZ8.jpg",
       "posterShape": "poster",
-      "description": "Career criminal Johnny Clay recruits a sharpshooter, a crooked police officer, a bartender and a betting teller named George, among others, for one last job before he goes straight and gets married. But when George tells his restless wife about the scheme to steal millions from the racetrack where he works, she hatches a plot of her own.",
+      "description": "A recently released ex-convict and his loyal wife go on the run after a heist goes wrong.",
       "genres": [
+        "Action",
         "Crime",
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "1956",
-      "imdb_id": "tt0049406"
-    },
-    {
-      "id": "tt2084970",
-      "type": "movie",
-      "name": "The Imitation Game",
-      "poster": "https://image.tmdb.org/t/p/w500/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg",
-      "posterShape": "poster",
-      "description": "Based on the real life story of legendary cryptanalyst Alan Turing, the film portrays the nail-biting race against time by Turing and his brilliant team of code-breakers at Britain's top-secret Government Code and Cypher School at Bletchley Park, during the darkest days of World War II.",
-      "genres": [
-        "History",
         "Drama",
-        "Thriller",
-        "War"
+        "Thriller"
       ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2084970"
+      "releaseInfo": "1972",
+      "imdb_id": "tt0068638"
     }
   ]
 }
