@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt23729238",
-      "type": "series",
-      "name": "Boat Story",
-      "poster": "https://image.tmdb.org/t/p/w500/gaSiJDRPSgVAUHcP8GRz0Tsw0HS.jpg",
-      "posterShape": "poster",
-      "description": "Two hard-up strangers stumble across a haul of cocaine on a shipwrecked boat. After agreeing to sell it and split the cash, they become entangled with police, masked hitmen, and a sharp-suited gangster known as 'The Tailor'.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt23729238"
-    },
-    {
       "id": "tt13444408",
       "type": "series",
       "name": "Kin",
@@ -57,6 +43,21 @@
       "imdb_id": "tt3956604"
     },
     {
+      "id": "tt11646832",
+      "type": "series",
+      "name": "The Outlaws",
+      "poster": "https://image.tmdb.org/t/p/w500/s8vp0S0iz2nPb7TpOpV0rHbm1er.jpg",
+      "posterShape": "poster",
+      "description": "Seven strangers from different walks of life - people who would never normally interact - are forced to work together to renovate a derelict community centre. They resent the menial physical labour and they resent each other. But when one of their number gets dragged into a dangerous world of organised crime, they unite in ways none of them thought possible.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11646832"
+    },
+    {
       "id": "tt7661390",
       "type": "series",
       "name": "Gangs of London",
@@ -70,48 +71,6 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt7661390"
-    },
-    {
-      "id": "tt31849235",
-      "type": "series",
-      "name": "The Westies",
-      "poster": "https://image.tmdb.org/t/p/w500/6nNxw6SsbEtSpktVEGdoYDqPH7C.jpg",
-      "posterShape": "poster",
-      "description": "As the Javits Center construction project ignites a battle for profit in early 1980s Hell's Kitchen, a generational rift threatens the uneasy peace between violent Irish gang the Westies and the Mafia, and draws FBI heat.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31849235"
-    },
-    {
-      "id": "tt3850598",
-      "type": "series",
-      "name": "BMF",
-      "poster": "https://image.tmdb.org/t/p/w500/5gUlUufL3fom30qxKawwlWuD7kC.jpg",
-      "posterShape": "poster",
-      "description": "The drug trafficking drama is inspired by the true story of two brothers who rose from the decaying streets of southwest Detroit in the late 1980s and gave birth to one of the most influential crime families in the country. It revolves around brothers Demetrius \"Big Meech\" Flenory and Terry \"Southwest T\" Flenory, who together took their vision beyond the drug trade and into the world of hip-hop. The drama, per Starz, will tell a story about love, family and capitalism in the pursuit of the American dream.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt3850598"
-    },
-    {
-      "id": "tt36303968",
-      "type": "series",
-      "name": "Furious",
-      "poster": "https://image.tmdb.org/t/p/w500/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg",
-      "posterShape": "poster",
-      "description": "FBI agent Alice Black is on the hunt for a mysterious and calculating female serial killer. Both walk their own paths toward justice, and as their lives start to intertwine, the line between right and wrong begins to blur.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36303968"
     },
     {
       "id": "tt15837600",
@@ -142,18 +101,18 @@
       "imdb_id": "tt15435876"
     },
     {
-      "id": "tt34866681",
+      "id": "tt26676904",
       "type": "series",
-      "name": "Lucky",
-      "poster": "https://image.tmdb.org/t/p/w500/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
+      "name": "Ballard",
+      "poster": "https://image.tmdb.org/t/p/w500/vHQGu6ducKC7JcDU6lqWyx7tWW5.jpg",
       "posterShape": "poster",
-      "description": "When a multi-million-dollar heist goes sideways, con artist Lucky is forced to go on the run. Pursued by both the FBI and a ruthless crime boss, Lucky must fight for her life—and a way out.",
+      "description": "Detective Renée Ballard plunges into a web of murder and corruption as she hunts a ruthless serial killer and uncovers a sinister police conspiracy that threatens everything she stands for. With her own demons nipping at her heels, Ballard must outwit both criminals and colleagues to bring long-overdue justice to the victims and their families.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34866681"
+      "releaseInfo": "2025",
+      "imdb_id": "tt26676904"
     },
     {
       "id": "tt30460310",
@@ -185,18 +144,18 @@
       "imdb_id": "tt0979432"
     },
     {
-      "id": "tt26676904",
+      "id": "tt14192504",
       "type": "series",
-      "name": "Ballard",
-      "poster": "https://image.tmdb.org/t/p/w500/vHQGu6ducKC7JcDU6lqWyx7tWW5.jpg",
+      "name": "We Own This City",
+      "poster": "https://image.tmdb.org/t/p/w500/qNOYmU6JYMeu2I0xOX9pgCBOBXi.jpg",
       "posterShape": "poster",
-      "description": "Detective Renée Ballard plunges into a web of murder and corruption as she hunts a ruthless serial killer and uncovers a sinister police conspiracy that threatens everything she stands for. With her own demons nipping at her heels, Ballard must outwit both criminals and colleagues to bring long-overdue justice to the victims and their families.",
+      "description": "The story of the rise and fall of the Baltimore Police Department's Gun Trace Task Force — and the corruption and moral collapse that befell an American city in which the policies of drug prohibition and mass arrest were championed at the expense of actual police work.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt26676904"
+      "releaseInfo": "2022",
+      "imdb_id": "tt14192504"
     },
     {
       "id": "tt11761194",
@@ -227,18 +186,18 @@
       "imdb_id": "tt3281796"
     },
     {
-      "id": "tt14192504",
+      "id": "tt11846996",
       "type": "series",
-      "name": "We Own This City",
-      "poster": "https://image.tmdb.org/t/p/w500/qNOYmU6JYMeu2I0xOX9pgCBOBXi.jpg",
+      "name": "Vigil",
+      "poster": "https://image.tmdb.org/t/p/w500/5zAheY0Upi2MwU3edGtEgb7Ldh3.jpg",
       "posterShape": "poster",
-      "description": "The story of the rise and fall of the Baltimore Police Department's Gun Trace Task Force — and the corruption and moral collapse that befell an American city in which the policies of drug prohibition and mass arrest were championed at the expense of actual police work.",
+      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14192504"
+      "releaseInfo": "2021",
+      "imdb_id": "tt11846996"
     },
     {
       "id": "tt2707408",
@@ -269,18 +228,60 @@
       "imdb_id": "tt5715524"
     },
     {
-      "id": "tt12677870",
+      "id": "tt13875494",
       "type": "series",
-      "name": "Law & Order: Organized Crime",
-      "poster": "https://image.tmdb.org/t/p/w500/4AvB6Dg8eAbfWv5WOqzCCv2zS90.jpg",
+      "name": "Tracker",
+      "poster": "https://image.tmdb.org/t/p/w500/otula4h1ITZ0eV84eg7Lb8u614C.jpg",
       "posterShape": "poster",
-      "description": "The detectives of the Organized Crime Control Bureau work to dismantle New York City's most vicious and violent illegal enterprises.",
+      "description": "Lone-wolf survivalist Colter Shaw roams the country as a “reward seeker,” using his expert tracking skills to help private citizens and law enforcement solve all manner of mysteries while contending with his own fractured family.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt13875494"
+    },
+    {
+      "id": "tt8714904",
+      "type": "series",
+      "name": "Narcos: Mexico",
+      "poster": "https://image.tmdb.org/t/p/w500/aXwMx8OvRFMfI1RmkbJm6Bq1jVg.jpg",
+      "posterShape": "poster",
+      "description": "See the rise of the Guadalajara Cartel as an American DEA agent learns the danger of targeting narcos in 1980s Mexico.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt8714904"
+    },
+    {
+      "id": "tt8080122",
+      "type": "series",
+      "name": "Godfather of Harlem",
+      "poster": "https://image.tmdb.org/t/p/w500/avhyzJycLNi3nXov2lREhDkP3ik.jpg",
+      "posterShape": "poster",
+      "description": "Loosely based on infamous crime boss Bumpy Johnson, who in the early 1960s returned from ten years in prison to find the neighborhood he once ruled in shambles. With the streets controlled by the Italian mob, Bumpy attempts to regain his piece of Harlem.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt8080122"
+    },
+    {
+      "id": "tt35515227",
+      "type": "series",
+      "name": "CIA",
+      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
+      "posterShape": "poster",
+      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt12677870"
+      "releaseInfo": "2026",
+      "imdb_id": "tt35515227"
     }
   ]
 }

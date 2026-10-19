@@ -46,21 +46,6 @@
       "imdb_id": "tt11083552"
     },
     {
-      "id": "tt4873118",
-      "type": "movie",
-      "name": "Guy Ritchie's The Covenant",
-      "poster": "https://image.tmdb.org/t/p/w500/kVG8zFFYrpyYLoHChuEeOGAd6Ru.jpg",
-      "posterShape": "poster",
-      "description": "After an ambush, Afghan interpreter Ahmed goes to Herculean lengths to save US Army Sergeant John Kinley's life. When Kinley learns that Ahmed and his family were not given safe passage to America as promised, he must return to the war zone and repay his debt.",
-      "genres": [
-        "War",
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt4873118"
-    },
-    {
       "id": "tt37971717",
       "type": "movie",
       "name": "One Last Shot",
@@ -75,33 +60,19 @@
       "imdb_id": "tt37971717"
     },
     {
-      "id": "tt34471850",
+      "id": "tt4873118",
       "type": "movie",
-      "name": "Protector",
-      "poster": "https://image.tmdb.org/t/p/w500/icOZpnGuH9YrEaW3wrw5GJaXGih.jpg",
+      "name": "Guy Ritchie's The Covenant",
+      "poster": "https://image.tmdb.org/t/p/w500/kVG8zFFYrpyYLoHChuEeOGAd6Ru.jpg",
       "posterShape": "poster",
-      "description": "Nikki's life is shattered when her daughter is kidnapped. Thrust into the criminal underworld while hunted by cops and military, she must fight to rescue her child.",
+      "description": "After an ambush, Afghan interpreter Ahmed goes to Herculean lengths to save US Army Sergeant John Kinley's life. When Kinley learns that Ahmed and his family were not given safe passage to America as promised, he must return to the war zone and repay his debt.",
       "genres": [
+        "War",
         "Action",
         "Thriller"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34471850"
-    },
-    {
-      "id": "tt12263384",
-      "type": "movie",
-      "name": "Extraction 2",
-      "poster": "https://image.tmdb.org/t/p/w500/7gKI9hpEMcZUQpNgKrkDzJpbnNS.jpg",
-      "posterShape": "poster",
-      "description": "Back from the brink of death, highly skilled commando Tyler Rake takes on another dangerous mission: saving the imprisoned family of a ruthless gangster.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
       "releaseInfo": "2023",
-      "imdb_id": "tt12263384"
+      "imdb_id": "tt4873118"
     },
     {
       "id": "tt31195136",
@@ -147,19 +118,31 @@
       "imdb_id": "tt32338669"
     },
     {
-      "id": "tt27986457",
+      "id": "tt0112864",
       "type": "movie",
-      "name": "She Rides Shotgun",
-      "poster": "https://image.tmdb.org/t/p/w500/nvqW8mOm818QDio3GKKmPLK8kXj.jpg",
+      "name": "Die Hard: With a Vengeance",
+      "poster": "https://image.tmdb.org/t/p/w500/buqmCdFQEWwEpL3agGgg2GVjN2d.jpg",
       "posterShape": "poster",
-      "description": "Newly released from prison and marked for death by unrelenting enemies, Nate must now protect his estranged 11-year-old daughter, Polly, at all costs. With scant resources and no one to trust, Nate and Polly forge a bond under fire as he shows her how to fight and survive—and she teaches him the true meaning of unconditional love.",
+      "description": "New York detective John McClane is back and kicking bad-guy butt in the third installment of this action-packed series, which finds him teaming with civilian Zeus Carver to prevent the loss of innocent lives. McClane thought he'd seen it all, until a genius named Simon engages McClane, his new \"partner\" -- and his beloved city -- in a deadly game that demands their concentration.",
       "genres": [
         "Action",
-        "Thriller",
-        "Crime"
+        "Thriller"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt27986457"
+      "releaseInfo": "1995",
+      "imdb_id": "tt0112864"
+    },
+    {
+      "id": "tt33303521",
+      "type": "movie",
+      "name": "The Gates",
+      "poster": "https://image.tmdb.org/t/p/w500/dWMiHlKz0OsbVXEEZR3hYyWHcdq.jpg",
+      "posterShape": "poster",
+      "description": "Three friends' road trip turns terrifying when they witness a murder in a gated community. Trapped inside, hunted by residents who blame them, their bond fractures as a charismatic yet sinister patriarch closes in.",
+      "genres": [
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33303521"
     },
     {
       "id": "tt36042156",
@@ -177,6 +160,47 @@
       "imdb_id": "tt36042156"
     },
     {
+      "id": "tt32430579",
+      "type": "movie",
+      "name": "Crime 101",
+      "poster": "https://image.tmdb.org/t/p/w500/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg",
+      "posterShape": "poster",
+      "description": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32430579"
+    },
+    {
+      "id": "tt7526136",
+      "type": "movie",
+      "name": "Heart of the Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+      "posterShape": "poster",
+      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "genres": [
+        "Adventure",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt7526136"
+    },
+    {
+      "id": "tt31192372",
+      "type": "movie",
+      "name": "Fall 2: Deadpoint",
+      "poster": "https://image.tmdb.org/t/p/w500/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
+      "posterShape": "poster",
+      "description": "On a perilous climb across Thailand's Mount Kwan, two climbers become trapped thousands of feet above the ground, where vertigo-inducing heights, sheer exposure, and impossible odds turn every moment into a fight for survival.",
+      "genres": [
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31192372"
+    },
+    {
       "id": "tt32357218",
       "type": "movie",
       "name": "Shelter",
@@ -192,18 +216,33 @@
       "imdb_id": "tt32357218"
     },
     {
-      "id": "tt7526136",
+      "id": "tt5095076",
       "type": "movie",
-      "name": "Heart of the Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+      "name": "Wardriver",
+      "poster": "https://image.tmdb.org/t/p/w500/rBZA12Hf4yZZgud6iPuFU49L7zk.jpg",
       "posterShape": "poster",
-      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "description": "He’s a Wardriver: a hacker who steals from banks, not people—until he’s noticed. Now the money turns violent, and the woman caught in it could save him or kill them both.",
       "genres": [
-        "Adventure",
-        "Thriller"
+        "Thriller",
+        "Crime"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt7526136"
+      "imdb_id": "tt5095076"
+    },
+    {
+      "id": "tt2820852",
+      "type": "movie",
+      "name": "Furious 7",
+      "poster": "https://image.tmdb.org/t/p/w500/wurKlC3VKUgcfsn0K51MJYEleS2.jpg",
+      "posterShape": "poster",
+      "description": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt2820852"
     },
     {
       "id": "tt15314262",
@@ -221,6 +260,21 @@
       "imdb_id": "tt15314262"
     },
     {
+      "id": "tt1345836",
+      "type": "movie",
+      "name": "The Dark Knight Rises",
+      "poster": "https://image.tmdb.org/t/p/w500/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg",
+      "posterShape": "poster",
+      "description": "Following the death of District Attorney Harvey Dent, Batman assumes responsibility for Dent's crimes to protect the late attorney's reputation and is subsequently hunted by the Gotham City Police Department. Eight years later, Batman encounters the mysterious Selina Kyle and the villainous Bane, a new terrorist leader who overwhelms Gotham's finest. The Dark Knight resurfaces to protect a city that has branded him an enemy.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2012",
+      "imdb_id": "tt1345836"
+    },
+    {
       "id": "tt9603212",
       "type": "movie",
       "name": "Mission: Impossible - Dead Reckoning Part One",
@@ -234,62 +288,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt9603212"
-    },
-    {
-      "id": "tt33303521",
-      "type": "movie",
-      "name": "The Gates",
-      "poster": "https://image.tmdb.org/t/p/w500/dWMiHlKz0OsbVXEEZR3hYyWHcdq.jpg",
-      "posterShape": "poster",
-      "description": "Three friends' road trip turns terrifying when they witness a murder in a gated community. Trapped inside, hunted by residents who blame them, their bond fractures as a charismatic yet sinister patriarch closes in.",
-      "genres": [
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33303521"
-    },
-    {
-      "id": "tt5095076",
-      "type": "movie",
-      "name": "Wardriver",
-      "poster": "https://image.tmdb.org/t/p/w500/rBZA12Hf4yZZgud6iPuFU49L7zk.jpg",
-      "posterShape": "poster",
-      "description": "He’s a Wardriver: a hacker who steals from banks, not people—until he’s noticed. Now the money turns violent, and the woman caught in it could save him or kill them both.",
-      "genres": [
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt5095076"
-    },
-    {
-      "id": "tt32430579",
-      "type": "movie",
-      "name": "Crime 101",
-      "poster": "https://image.tmdb.org/t/p/w500/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg",
-      "posterShape": "poster",
-      "description": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
-      "genres": [
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32430579"
-    },
-    {
-      "id": "tt9603208",
-      "type": "movie",
-      "name": "Mission: Impossible - The Final Reckoning",
-      "poster": "https://image.tmdb.org/t/p/w500/iKPsC9EFUafRP9SrUznI61getVP.jpg",
-      "posterShape": "poster",
-      "description": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Adventure"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt9603208"
     }
   ]
 }
