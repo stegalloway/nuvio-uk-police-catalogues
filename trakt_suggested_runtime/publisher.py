@@ -67,6 +67,10 @@ class MissingSource(LookupError):
     """An optional source does not exist or is not public. Not a failure."""
 
 
+class PaginationChanged(Exception):
+    """A list's totals moved between pages; it is read again from page 1."""
+
+
 class SourceFailures:
     """Latch failures even when recommendation code catches callback exceptions."""
 
@@ -260,8 +264,9 @@ class TmdbClient:
 class TraktClient:
     """Read public snapshots and fully paginated public ratings/episode history."""
 
-    def __init__(self, http: JsonHttpClient) -> None:
+    def __init__(self, http: JsonHttpClient, sleeper: Callable = time.sleep) -> None:
         self.http = http
+        self.sleeper = sleeper
 
     def _list(self, response: JsonResponse) -> list[dict]:
         if not isinstance(response.data, list) or any(not isinstance(item, dict) for item in response.data):
@@ -277,7 +282,21 @@ class TraktClient:
         return self._list(first)
 
     def paginated(self, path: str, params: Mapping | None = None, *, limit: int = 100,
-                  missing_ok: bool = False) -> list[dict]:
+                  missing_ok: bool = False, attempts: int = 3) -> list[dict]:
+        # A list that changes while it is read (a new play or rating, or a
+        # cached first page) reports different totals on later pages. Read it
+        # again from page 1; only totals that keep moving fail the refresh.
+        for attempt in range(attempts):
+            try:
+                return self._paginated_once(path, params, limit, missing_ok)
+            except PaginationChanged as change:
+                detail = str(change)
+                if attempt + 1 < attempts:
+                    self.sleeper(2 * (attempt + 1))
+        # The label names the endpoint without the username, plus page totals.
+        self.http.fail("pagination_changed_during_fetch(" + re.sub(r"^/users/[^/]+", "", path) + ": " + detail + ")")
+
+    def _paginated_once(self, path: str, params: Mapping | None, limit: int, missing_ok: bool) -> list[dict]:
         result: list[dict] = []
         expected_pages = expected_items = None
         fingerprints: set[str] = set()
@@ -299,7 +318,8 @@ class TraktClient:
             if page == 1:
                 expected_pages, expected_items = page_count, item_count
             elif page_count != expected_pages or item_count != expected_items:
-                self.http.fail("pagination_changed_during_fetch")
+                raise PaginationChanged(f"page {page}, items {expected_items}->{item_count}, "
+                                        f"pages {expected_pages}->{page_count}")
             if items:
                 fingerprint = hashlib.sha256(json.dumps(items, sort_keys=True).encode()).hexdigest()
                 if fingerprint in fingerprints:

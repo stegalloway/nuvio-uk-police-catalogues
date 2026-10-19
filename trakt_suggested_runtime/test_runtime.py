@@ -284,15 +284,38 @@ class TraktSourceContracts(unittest.TestCase):
             http.failures.require_success()
 
     def test_repeated_pages_and_changing_counts_fail(self):
+        moving = [JsonResponse([{"id": 1}], {"x-pagination-page-count": "2", "x-pagination-item-count": "2"}),
+                  JsonResponse([{"id": 2}], {"x-pagination-page-count": "2", "x-pagination-item-count": "3"})]
         cases = [
             [JsonResponse([{"id": 1}], {}), JsonResponse([{"id": 1}], {})],
-            [JsonResponse([{"id": 1}], {"x-pagination-page-count": "2", "x-pagination-item-count": "2"}),
-             JsonResponse([{"id": 2}], {"x-pagination-page-count": "2", "x-pagination-item-count": "3"})],
+            moving * 3,  # totals still moving on every one of the three reads
             [JsonResponse([{"id": 1}], {"x-pagination-page-count": "1", "x-pagination-item-count": "2"})],
         ]
         for responses in cases:
             with self.subTest(responses=responses), self.assertRaises(SourceError):
-                TraktClient(FixtureHTTP(responses)).paginated("/users/example/history/shows", limit=1)
+                TraktClient(FixtureHTTP(responses), sleeper=lambda _: None).paginated(
+                    "/users/example/history/shows", limit=1)
+
+    def test_list_that_changes_mid_read_is_read_again(self):
+        def page(ids, count):
+            return JsonResponse([{"id": i} for i in ids], {"x-pagination-page-count": "2",
+                                                            "x-pagination-item-count": str(count)})
+        # A play lands between pages 1 and 2 of the first read.
+        http = FixtureHTTP([page([1, 2], 3), page([3, 4], 4), page([0, 1], 4), page([2, 3], 4)])
+        sleeps = []
+        rows = TraktClient(http, sleeper=sleeps.append).paginated("/users/example/history/shows", limit=2)
+        self.assertEqual([r["id"] for r in rows], [0, 1, 2, 3])
+        self.assertEqual(sleeps, [2])
+        http.failures.require_success()
+
+    def test_moving_totals_name_the_list_without_the_username(self):
+        moving = [JsonResponse([{"id": 1}], {"x-pagination-page-count": "2", "x-pagination-item-count": "2"}),
+                  JsonResponse([{"id": 2}], {"x-pagination-page-count": "2", "x-pagination-item-count": "3"})]
+        http = FixtureHTTP(moving * 3)
+        with self.assertRaises(SourceError):
+            TraktClient(http, sleeper=lambda _: None).paginated("/users/PRIVATE-USER/history/shows", limit=1)
+        self.assertEqual(http.failures.labels(), [
+            "fixture:pagination_changed_during_fetch(/history/shows: page 2, items 2->3, pages 2->2)"])
 
     def test_error_object_never_counts_as_an_empty_watched_snapshot(self):
         with self.assertRaises(SourceError):
