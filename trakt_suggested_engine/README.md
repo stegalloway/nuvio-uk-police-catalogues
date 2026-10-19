@@ -222,9 +222,12 @@ whose next episode has a confirmed date within `upcoming_horizon_days`
   caught-up show qualifies. Adult titles, missing posters, invalid IMDb IDs and
   Not Interested shows are excluded.
 - The line under each poster (`releaseInfo`, which Nuvio shows as given) is the
-  day and episode, e.g. `Fri 14 Nov · S3 E1`, in place of the year.
+  day and episode, e.g. `Fri 14 Nov · S3 E1`, in place of the year. It never
+  carries a four-digit year: Nuvio's Hide Unreleased hides any card whose
+  `releaseInfo` holds a year later than the current one.
 - Each description starts with the episode and day, e.g. `S3 E1 · Fri 14 Nov`
   (`Today`, `Tomorrow`; a real episode name is included; specials say `Special`).
+  A date in next year adds the year here, e.g. `S9 E1 · Wed 6 Jan 2027`.
 - The row may be empty. It is built from Trakt history, so removing items from
   Nuvio's Continue Watching does not affect it.
 
