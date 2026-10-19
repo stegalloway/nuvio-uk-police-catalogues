@@ -454,15 +454,21 @@ def _out_now_text(episode: Mapping, today: date) -> tuple[str, str]:
 
 
 def _upcoming_text(episode: Mapping, today: date) -> tuple[str, str]:
-    """(card line, description line), e.g. ("Wed 21 Oct · S6 E6", "S6 E6 · Name · Wed 21 Oct")."""
+    """(card line, description line), e.g. ("Wed 21 Oct · S6 E6", "S6 E6 · Name · Wed 21 Oct").
+
+    The card line never carries a four-digit year: Nuvio's Hide Unreleased reads any year
+    in releaseInfo later than this one as an unreleased title and drops the card. The
+    horizon is 90 days, so the description is the only place that needs the year.
+    """
     airs = date.fromisoformat(episode["air_date"])
     when = "Today" if airs == today else "Tomorrow" if airs == today + timedelta(days=1) else \
-        f"{airs:%a} {airs.day} {airs:%b}" + ("" if airs.year == today.year else f" {airs.year}")
+        f"{airs:%a} {airs.day} {airs:%b}"
+    dated = when if airs.year == today.year or when in ("Today", "Tomorrow") else f"{when} {airs.year}"
     season, number = episode.get("season_number"), episode.get("episode_number")
     label = ("Special" if season == 0 else f"S{season} E{number}") if season is not None and number else "Next episode"
     name = episode.get("episode_name") or ""
     named = label + " · " + name if name and not re.fullmatch(r"Episode \d+", name) else label
-    return when + " · " + label, named + " · " + when
+    return when + " · " + label, named + " · " + dated
 
 
 def thematic_signals(detail: Mapping) -> dict[str, Any]:

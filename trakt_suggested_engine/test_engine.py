@@ -465,6 +465,14 @@ class UpcomingContracts(unittest.TestCase):
         self.assertTrue(metas[1]["description"].startswith("S2 E1 · Tomorrow\n\n"))
         self.assertEqual([m["releaseInfo"] for m in metas], ["Today · S4 E1", "Tomorrow · S2 E1"])
 
+    def test_next_year_date_keeps_the_year_out_of_the_card_line(self):
+        # Nuvio's Hide Unreleased treats any year after this one in releaseInfo as unreleased.
+        self.schedule(days=80, season_number=9)
+        meta = self.upcoming()[1][0]
+        self.assertEqual(meta["releaseInfo"], "Wed 6 Jan · S9 E1")
+        self.assertNotRegex(meta["releaseInfo"], r"\b(19|20)\d{2}\b")
+        self.assertTrue(meta["description"].startswith("S9 E1 · Wed 6 Jan 2027\n\n"))
+
     # "Out now": the viewer was caught up before a release and hasn't watched it yet.
     def release(self, aired, latest, upcoming_days=None):
         """Trakt seasons for show 10 from {season: [days ago per episode]} (negative = future)."""
