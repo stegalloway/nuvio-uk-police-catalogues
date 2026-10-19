@@ -61,7 +61,11 @@ manual step. See `trakt_suggested_engine/README.md` for ranking and recency.
 Each scheduled generation retrieves full public watched-movie and watched-show
 snapshots, fully paginated movie/show ratings, and fully paginated episode
 history. A failed list or failed later page is never treated as an empty result.
-Pagination headers are checked for changing totals and missing records. The
+Pagination headers are checked for changing totals and missing records. Episode
+history is read up to a fixed `end_at` instant, so each run requests its own page
+URLs and Trakt cannot mix pages cached at different times. A list whose totals
+still change between pages is re-read from page 1, up to three times, before the
+refresh fails; the failure names the endpoint and the page totals. The
 engine can also request full season/episode release metadata through a read-only
 Trakt callback.
 

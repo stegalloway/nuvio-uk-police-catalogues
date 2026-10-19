@@ -308,6 +308,21 @@ class TraktSourceContracts(unittest.TestCase):
         self.assertEqual(sleeps, [2])
         http.failures.require_success()
 
+    def test_history_is_read_up_to_a_fixed_instant(self):
+        class RecordingHTTP:
+            def __init__(self):
+                self.calls, self.failures = [], SourceFailures()
+            def get(self, path, params=None, missing_ok=False):
+                self.calls.append((path, dict(params or {})))
+                return JsonResponse([], {})
+        http = RecordingHTTP()
+        when = datetime(2026, 10, 19, 12, 1, 30, tzinfo=timezone.utc)
+        TraktClient(http).histories("example", "not-interested", now=when)
+        history = [params for path, params in http.calls if path.endswith("/history/shows")]
+        self.assertEqual(history, [{"end_at": "2026-10-19T12:01:30.000Z", "limit": 100, "page": 1}])
+        others = [params for path, params in http.calls if not path.endswith("/history/shows")]
+        self.assertTrue(others and all("end_at" not in params for params in others))
+
     def test_moving_totals_name_the_list_without_the_username(self):
         moving = [JsonResponse([{"id": 1}], {"x-pagination-page-count": "2", "x-pagination-item-count": "2"}),
                   JsonResponse([{"id": 2}], {"x-pagination-page-count": "2", "x-pagination-item-count": "3"})]

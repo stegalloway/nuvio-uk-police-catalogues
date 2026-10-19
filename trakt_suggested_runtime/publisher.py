@@ -351,15 +351,20 @@ class TraktClient:
         except MissingSource:
             return None
 
-    def histories(self, username: str, dismiss_list: str | None = None) -> dict[str, list[dict] | None]:
+    def histories(self, username: str, dismiss_list: str | None = None,
+                  now: datetime | None = None) -> dict[str, list[dict] | None]:
         user = urllib.parse.quote(username, safe="")
         base = "/users/" + user
+        # A dated end gives each run's history pages their own URLs. On 19 Oct
+        # Trakt served cached early pages totalling 839 plays while the last
+        # page said 840. Plays after this instant are left for the next run.
+        until = (now or datetime.now(timezone.utc)).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
         jobs = {
             "watched_movies": lambda: self.snapshot(base + "/watched/movies"),
             "watched_shows": lambda: self.snapshot(base + "/watched/shows"),
             "rated_movies": lambda: self.paginated(base + "/ratings/movies"),
             "rated_shows": lambda: self.paginated(base + "/ratings/shows"),
-            "watched_episode_history": lambda: self.paginated(base + "/history/shows"),
+            "watched_episode_history": lambda: self.paginated(base + "/history/shows", {"end_at": until}),
         }
         if dismiss_list:
             # A missing list is None; any other error fails the refresh, so an
