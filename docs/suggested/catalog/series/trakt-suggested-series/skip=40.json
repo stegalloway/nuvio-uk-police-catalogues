@@ -1,46 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt5011816",
+      "id": "tt31121364",
       "type": "series",
-      "name": "Sneaky Pete",
-      "poster": "https://image.tmdb.org/t/p/w500/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
+      "name": "Death by Lightning",
+      "poster": "https://image.tmdb.org/t/p/w500/d9w6mjuFkVTaMyuIc9Y3deNDHvw.jpg",
       "posterShape": "poster",
-      "description": "A con man on the run from a vicious gangster takes cover from his past by assuming the identity of his prison cellmate, Pete, “reuniting” with Pete’s estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he’s trying to escape - and, just maybe, give him a taste of the loving family he’s never had.",
+      "description": "The story of James Garfield, who rose from obscurity to become America's 20th President — and Charles Guiteau, the man who assassinated him.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt5011816"
-    },
-    {
-      "id": "tt0141842",
-      "type": "series",
-      "name": "The Sopranos",
-      "poster": "https://image.tmdb.org/t/p/w500/rTc7ZXdroqjkKivFPvCPX0Ru7uw.jpg",
-      "posterShape": "poster",
-      "description": "The story of New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and protégé Christopher Moltisanti.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "1999",
-      "imdb_id": "tt0141842"
-    },
-    {
-      "id": "tt14466018",
-      "type": "series",
-      "name": "Blue Lights",
-      "poster": "https://image.tmdb.org/t/p/w500/3C3c40DH8M6qdECHLlxk8o5nrC0.jpg",
-      "posterShape": "poster",
-      "description": "Follows rookie police officers working in Belfast, a city in which being a frontline response cop comes with unique pressures and dangers.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14466018"
+      "releaseInfo": "2025",
+      "imdb_id": "tt31121364"
     },
     {
       "id": "tt0118381",
@@ -57,34 +29,6 @@
       "imdb_id": "tt0118381"
     },
     {
-      "id": "tt0052522",
-      "type": "series",
-      "name": "The Untouchables",
-      "poster": "https://image.tmdb.org/t/p/w500/80IDXgaHmcxj6CKRImkpHjnIMcd.jpg",
-      "posterShape": "poster",
-      "description": "Special Agent Eliot Ness and his elite team of incorruptible agents battle organized crime in 1930s Chicago.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "1959",
-      "imdb_id": "tt0052522"
-    },
-    {
-      "id": "tt10732104",
-      "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
-      "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
-    },
-    {
       "id": "tt1958961",
       "type": "series",
       "name": "Lilyhammer",
@@ -98,6 +42,20 @@
       ],
       "releaseInfo": "2012",
       "imdb_id": "tt1958961"
+    },
+    {
+      "id": "tt33253070",
+      "type": "series",
+      "name": "M.I.A.",
+      "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+      "posterShape": "poster",
+      "description": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33253070"
     },
     {
       "id": "tt34771210",
@@ -129,18 +87,19 @@
       "imdb_id": "tt21097264"
     },
     {
-      "id": "tt33253070",
+      "id": "tt5611024",
       "type": "series",
-      "name": "M.I.A.",
-      "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+      "name": "Fool Me Once",
+      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
       "posterShape": "poster",
-      "description": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
+      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
       "genres": [
         "Drama",
-        "Crime"
+        "Crime",
+        "Mystery"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33253070"
+      "releaseInfo": "2024",
+      "imdb_id": "tt5611024"
     },
     {
       "id": "tt34675596",
@@ -155,6 +114,36 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt34675596"
+    },
+    {
+      "id": "tt6037988",
+      "type": "series",
+      "name": "Last Seen",
+      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
+      "posterShape": "poster",
+      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt6037988"
+    },
+    {
+      "id": "tt4276618",
+      "type": "series",
+      "name": "Strike",
+      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
+      "posterShape": "poster",
+      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt4276618"
     },
     {
       "id": "tt2077823",
@@ -172,6 +161,20 @@
       "imdb_id": "tt2077823"
     },
     {
+      "id": "tt11816814",
+      "type": "series",
+      "name": "Painkiller",
+      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
+      "posterShape": "poster",
+      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt11816814"
+    },
+    {
       "id": "tt35707374",
       "type": "series",
       "name": "Memory of a Killer",
@@ -186,18 +189,18 @@
       "imdb_id": "tt35707374"
     },
     {
-      "id": "tt11816814",
+      "id": "tt11110622",
       "type": "series",
-      "name": "Painkiller",
-      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
+      "name": "White House Farm",
+      "poster": "https://image.tmdb.org/t/p/w500/nZRFhpDUlGM37BBBYAWhznNxUH7.jpg",
       "posterShape": "poster",
-      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
+      "description": "Factual drama based on the notorious White House Farm murders, and the ensuing police investigation and court case.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt11816814"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11110622"
     },
     {
       "id": "tt2304589",
@@ -215,47 +218,47 @@
       "imdb_id": "tt2304589"
     },
     {
-      "id": "tt14507354",
+      "id": "tt32559610",
       "type": "series",
-      "name": "The Endgame",
-      "poster": "https://image.tmdb.org/t/p/w500/qH0BuRkZmP6sdi8R6tvlvwdBxmo.jpg",
+      "name": "Countdown",
+      "poster": "https://image.tmdb.org/t/p/w500/gcSNS5cy1iOmYawIdJCzoc873rQ.jpg",
       "posterShape": "poster",
-      "description": "A high-stakes thriller about Elena Federova, a very recently captured international arms dealer and brilliant criminal mastermind who even in captivity orchestrates a number of coordinated bank heists, and Val Turner, the principled, relentless and socially outcast FBI agent who will stop at nothing to foil her ambitious plan.",
+      "description": "When an officer with the Department of Homeland Security is murdered in broad daylight, LAPD detective Mark Meachum is recruited to a secret task force, alongside undercover agents from all branches of law enforcement, to investigate. But the hunt for the killer soon uncovers a plot far more sinister than anyone could have imagined, kicking off a race against time to save a city of millions.",
       "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14507354"
-    },
-    {
-      "id": "tt32499731",
-      "type": "series",
-      "name": "Steal",
-      "poster": "https://image.tmdb.org/t/p/w500/6KmlaPhsohh3Ki9XJUq0jiUYbf3.jpg",
-      "posterShape": "poster",
-      "description": "A typical day at Lochmill Capital is upended when armed thieves burst in and force Zara and her best friend Luke to execute their demands. In the aftermath, conflicted detective Rhys races against time to find out who stole £4 billion pounds of people's pensions and why.",
-      "genres": [
-        "Drama",
         "Crime",
         "Mystery"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32499731"
+      "releaseInfo": "2025",
+      "imdb_id": "tt32559610"
     },
     {
-      "id": "tt15568702",
+      "id": "tt32252772",
       "type": "series",
-      "name": "Litvinenko",
-      "poster": "https://image.tmdb.org/t/p/w500/ojaSBvv1EZqcf4qvgHBhjWcm3Lb.jpg",
+      "name": "Dexter: Original Sin",
+      "poster": "https://image.tmdb.org/t/p/w500/j5bP7spdfS0NpDLKDlqJYyJPi1j.jpg",
       "posterShape": "poster",
-      "description": "The story of the determined Scotland Yard Officers who worked to prove who was responsible for the death of Alexander Litvinenko, in one of the most complex and dangerous investigations in the history of the Metropolitan Police.",
+      "description": "In 1991 Miami, Dexter Morgan transitions from student to avenging serial killer. When his bloodthirsty urges can't be ignored any longer, Dexter must learn to channel his inner darkness. With the guidance of his father, Harry, he adopts a Code designed to help him find and kill people who deserve to be eliminated from society without getting on law enforcements' radar. This is a particular challenge for young Dexter as he begins a forensics internship at the Miami Metro Police Department.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt32252772"
+    },
+    {
+      "id": "tt26862142",
+      "type": "series",
+      "name": "The Last Frontier",
+      "poster": "https://image.tmdb.org/t/p/w500/4S2gS1mECZ5wDRBVAZE6KWmJHI3.jpg",
+      "posterShape": "poster",
+      "description": "When a prison transport plane crashes in the remote Alaskan wilderness—freeing dozens of violent inmates—the region's lone marshal must protect the town he's vowed to keep safe.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15568702"
+      "releaseInfo": "2025",
+      "imdb_id": "tt26862142"
     },
     {
       "id": "tt8270592",
@@ -273,19 +276,19 @@
       "imdb_id": "tt8270592"
     },
     {
-      "id": "tt10155688",
+      "id": "tt9307990",
       "type": "series",
-      "name": "Mare of Easttown",
-      "poster": "https://image.tmdb.org/t/p/w500/78aK4Msbr22A5PGa6PZV0pAvdwf.jpg",
+      "name": "Lincoln Rhyme: Hunt for the Bone Collector",
+      "poster": "https://image.tmdb.org/t/p/w500/vIgxUeQRtnspj0BLm3H7rawSqPK.jpg",
       "posterShape": "poster",
-      "description": "A detective in a small Pennsylvania town investigates a local murder while trying to keep her life from falling apart.",
+      "description": "Former NYPD detective and forensic genius Lincoln Rhyme was at the top of his game until a serious accident at the hands of a notorious serial killer forced him out of the field. When Amelia Sachs, an intuitive young officer who has a gift for profiling, finds herself hot on the killer's trail, Rhyme finds a partner for this new game of cat and mouse.",
       "genres": [
-        "Drama",
         "Crime",
-        "Mystery"
+        "Mystery",
+        "Drama"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt10155688"
+      "releaseInfo": "2020",
+      "imdb_id": "tt9307990"
     }
   ]
 }

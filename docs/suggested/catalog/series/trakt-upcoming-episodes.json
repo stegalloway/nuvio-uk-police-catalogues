@@ -1,0 +1,106 @@
+{
+  "metas": [
+    {
+      "id": "tt5875444",
+      "type": "series",
+      "name": "Slow Horses",
+      "poster": "https://image.tmdb.org/t/p/w500/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg",
+      "posterShape": "poster",
+      "description": "S6 E6 · Judgement Day · Wed 21 Oct\n\nFollow a dysfunctional team of MI5 agents—and their obnoxious boss, the notorious Jackson Lamb—as they navigate the espionage world's smoke and mirrors to defend England from sinister forces.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt5875444"
+    },
+    {
+      "id": "tt11743610",
+      "type": "series",
+      "name": "The Terminal List",
+      "poster": "https://image.tmdb.org/t/p/w500/xyFAzP7RKK8cARCSalIZ9A9T0jV.jpg",
+      "posterShape": "poster",
+      "description": "S2 E1 · ROMULUS S.V. · Wed 21 Oct\n\nNavy SEAL Commander James Reece turns to vengeance as he investigates the mysterious forces behind the murder of his entire platoon. Free from the military's command structure, Reece applies the lessons he's learned from nearly two decades of warfare to hunt down the people responsible.",
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11743610"
+    },
+    {
+      "id": "tt31510819",
+      "type": "series",
+      "name": "MobLand",
+      "poster": "https://image.tmdb.org/t/p/w500/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
+      "posterShape": "poster",
+      "description": "S2 E6 · A Different Corner · Fri 23 Oct\n\nTwo mob families clash in a war that threatens to topple empires and lives.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31510819"
+    },
+    {
+      "id": "tt16358384",
+      "type": "series",
+      "name": "Tulsa King",
+      "poster": "https://image.tmdb.org/t/p/w500/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg",
+      "posterShape": "poster",
+      "description": "S4 E2 · Blind Rooster · Fri 23 Oct\n\nNew York mafia capo Dwight \"The General\" Manfredi is released from prison after 25 years and exiled by his boss to set up shop in Tulsa, Oklahoma. Realizing that his mob family may not have his best interests in mind, Dwight slowly builds a crew.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Comedy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt16358384"
+    },
+    {
+      "id": "tt31438328",
+      "type": "series",
+      "name": "This City Is Ours",
+      "poster": "https://image.tmdb.org/t/p/w500/fQpJFVWX8MCdOkwoutDw7tjhvgp.jpg",
+      "posterShape": "poster",
+      "description": "S2 E1 · Sun 25 Oct\n\nNotorious gang boss Ronnie (Sean Bean) steps back from his criminal empire, triggering a violent power struggle between his volatile son Jamie (Jack McMullen) and trusted lieutenant Michael (James Nelson Joyce), who sees his chance to seize control. As rivalries ignite and loyalties fracture, the family behind the city’s cocaine trade descends into open war.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31438328"
+    },
+    {
+      "id": "tt27995113",
+      "type": "series",
+      "name": "Black Doves",
+      "poster": "https://image.tmdb.org/t/p/w500/uoXtkm2P4HPPL8T3IBJ02G3hCC4.jpg",
+      "posterShape": "poster",
+      "description": "S2 E1 · Thu 5 Nov\n\nWhen a spy posing as a politician's wife learns her lover has been murdered, an old assassin friend joins her on a quest for truth — and vengeance.",
+      "genres": [
+        "Action & Adventure",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt27995113"
+    },
+    {
+      "id": "tt7587890",
+      "type": "series",
+      "name": "The Rookie",
+      "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+      "posterShape": "poster",
+      "description": "S9 E1 · Wed 6 Jan 2027\n\nStarting over isn't easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force's oldest rookie, he's met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Comedy"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt7587890"
+    }
+  ]
+}

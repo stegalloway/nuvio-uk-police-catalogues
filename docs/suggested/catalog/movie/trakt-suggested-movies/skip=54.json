@@ -1,47 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt33100314",
+      "id": "tt0120660",
       "type": "movie",
-      "name": "Remarkably Bright Creatures",
-      "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+      "name": "Enemy of the State",
+      "poster": "https://image.tmdb.org/t/p/w500/x9pXrMKLsBGGOFyyZ0Gwt9YpVub.jpg",
       "posterShape": "poster",
-      "description": "Through unlikely bonds formed during night shifts at a local aquarium, Tova, an elderly widow, learns of a life-changing discovery that may bring her joy and wonder once again.",
+      "description": "When the videotape of the murder of a congressman unknowingly ends up in the hands of labor lawyer and dedicated family man Robert Clayton Dean, he is framed for the murder. With the help of the mysterious Brill, Dean attempts to throw the NSA off his trail and prove his innocence.",
       "genres": [
+        "Action",
         "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33100314"
-    },
-    {
-      "id": "tt27550504",
-      "type": "movie",
-      "name": "Plainclothes",
-      "poster": "https://image.tmdb.org/t/p/w500/bT5QN5QARV5TblAt9jDVQQsnSec.jpg",
-      "posterShape": "poster",
-      "description": "In 1990s New York, an undercover police officer receives an assignment to lure and arrest gay men. However, he's surprised to discover a scintillating connection with one of his targets. As their secret connection deepens and internal pressure to deliver arrests intensifies, he finds himself torn between duty and desire.",
-      "genres": [
-        "Drama",
-        "Romance",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt27550504"
-    },
-    {
-      "id": "tt0105236",
-      "type": "movie",
-      "name": "Reservoir Dogs",
-      "poster": "https://image.tmdb.org/t/p/w500/xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg",
-      "posterShape": "poster",
-      "description": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
-      "genres": [
-        "Crime",
         "Thriller"
       ],
-      "releaseInfo": "1992",
-      "imdb_id": "tt0105236"
+      "releaseInfo": "1998",
+      "imdb_id": "tt0120660"
     },
     {
       "id": "tt0113277",
@@ -59,6 +31,21 @@
       "imdb_id": "tt0113277"
     },
     {
+      "id": "tt0988045",
+      "type": "movie",
+      "name": "Sherlock Holmes",
+      "poster": "https://image.tmdb.org/t/p/w500/momkKuWburNTqKBF6ez7rvhYVhE.jpg",
+      "posterShape": "poster",
+      "description": "Eccentric consulting detective Sherlock Holmes and Doctor John Watson battle to bring down a new nemesis and unravel a deadly plot that could destroy England.",
+      "genres": [
+        "Action",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2009",
+      "imdb_id": "tt0988045"
+    },
+    {
       "id": "tt0765429",
       "type": "movie",
       "name": "American Gangster",
@@ -73,19 +60,34 @@
       "imdb_id": "tt0765429"
     },
     {
-      "id": "tt0988045",
+      "id": "tt0114814",
       "type": "movie",
-      "name": "Sherlock Holmes",
-      "poster": "https://image.tmdb.org/t/p/w500/momkKuWburNTqKBF6ez7rvhYVhE.jpg",
+      "name": "The Usual Suspects",
+      "poster": "https://image.tmdb.org/t/p/w500/99X2SgyFunJFXGAYnDv3sb9pnUD.jpg",
       "posterShape": "poster",
-      "description": "Eccentric consulting detective Sherlock Holmes and Doctor John Watson battle to bring down a new nemesis and unravel a deadly plot that could destroy England.",
+      "description": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "1995",
+      "imdb_id": "tt0114814"
+    },
+    {
+      "id": "tt0086250",
+      "type": "movie",
+      "name": "Scarface",
+      "poster": "https://image.tmdb.org/t/p/w500/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
+      "posterShape": "poster",
+      "description": "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall.",
       "genres": [
         "Action",
-        "Mystery",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2009",
-      "imdb_id": "tt0988045"
+      "releaseInfo": "1983",
+      "imdb_id": "tt0086250"
     }
   ]
 }

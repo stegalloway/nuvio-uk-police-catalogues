@@ -1,8 +1,8 @@
 {
   "id": "org.trakt.suggested.personal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "Trakt Suggested",
-  "description": "Film and series suggestions with watched filtering and returning seasons.",
+  "description": "Film and series suggestions with watched filtering and returning seasons, plus upcoming episodes of caught-up shows.",
   "types": [
     "series",
     "movie"
@@ -26,6 +26,17 @@
       "type": "movie",
       "id": "trakt-suggested-movies",
       "name": "Trakt Suggested Movies",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "trakt-upcoming-episodes",
+      "name": "Upcoming Episodes",
       "extra": [
         {
           "name": "skip",

@@ -1,19 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt4627382",
+      "id": "tt31450182",
       "type": "movie",
-      "name": "Roofman",
-      "poster": "https://image.tmdb.org/t/p/w500/wXDFtcnYtevleGzCmAD2ReQnJ4l.jpg",
+      "name": "Amber Alert",
+      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
       "posterShape": "poster",
-      "description": "A former Army Ranger and struggling father turns to robbing McDonald’s restaurants by cutting holes in their roofs, earning him the nickname \"Roofman.\" After escaping prison, he secretly lives inside a Toys “R” Us for six months, surviving undetected while planning his next move. But when he falls for a divorced mom drawn to his undeniable charm, his double life begins to unravel, setting off a compelling and suspenseful game of cat and mouse as his past closes in.",
+      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
       "genres": [
-        "Crime",
-        "Comedy",
+        "Thriller",
         "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt4627382"
+      "releaseInfo": "2024",
+      "imdb_id": "tt31450182"
     },
     {
       "id": "tt14364480",
@@ -45,18 +44,19 @@
       "imdb_id": "tt42863533"
     },
     {
-      "id": "tt31450182",
+      "id": "tt4627382",
       "type": "movie",
-      "name": "Amber Alert",
-      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
+      "name": "Roofman",
+      "poster": "https://image.tmdb.org/t/p/w500/wXDFtcnYtevleGzCmAD2ReQnJ4l.jpg",
       "posterShape": "poster",
-      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
+      "description": "A former Army Ranger and struggling father turns to robbing McDonald’s restaurants by cutting holes in their roofs, earning him the nickname \"Roofman.\" After escaping prison, he secretly lives inside a Toys “R” Us for six months, surviving undetected while planning his next move. But when he falls for a divorced mom drawn to his undeniable charm, his double life begins to unravel, setting off a compelling and suspenseful game of cat and mouse as his past closes in.",
       "genres": [
-        "Thriller",
+        "Crime",
+        "Comedy",
         "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31450182"
+      "releaseInfo": "2025",
+      "imdb_id": "tt4627382"
     },
     {
       "id": "tt27543632",
@@ -71,20 +71,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt27543632"
-    },
-    {
-      "id": "tt4550098",
-      "type": "movie",
-      "name": "Nocturnal Animals",
-      "poster": "https://image.tmdb.org/t/p/w500/mdLDgQBD0va09npSQX5Zgo2evXM.jpg",
-      "posterShape": "poster",
-      "description": "Susan Morrow receives a book manuscript from her ex-husband – a man she left 20 years earlier – asking for her opinion of his writing. As she reads, she is drawn into the fictional life of Tony Hastings, a mathematics professor whose family vacation turns violent.",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt4550098"
     },
     {
       "id": "tt21825416",
@@ -102,35 +88,6 @@
       "imdb_id": "tt21825416"
     },
     {
-      "id": "tt0111257",
-      "type": "movie",
-      "name": "Speed",
-      "poster": "https://image.tmdb.org/t/p/w500/82PkCE4R95KhHICUDF7G4Ly2z3l.jpg",
-      "posterShape": "poster",
-      "description": "Tensions run high when a crazed bomber rigs a Los Angeles bus with a device that will kill everyone on board if the vehicle's speed dips below fifty miles per hour.",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "1994",
-      "imdb_id": "tt0111257"
-    },
-    {
-      "id": "tt0102685",
-      "type": "movie",
-      "name": "Point Break",
-      "poster": "https://image.tmdb.org/t/p/w500/tlbERIghrQ4oofqlbF7H0K0EYnx.jpg",
-      "posterShape": "poster",
-      "description": "In Los Angeles, a gang of bank robbers who call themselves The Ex-Presidents commit their crimes while wearing masks of Reagan, Carter, Nixon and Johnson. Believing that the members of the gang could be surfers, the F.B.I. sends young agent Johnny Utah to the beach undercover to mix with the surfers and gather information.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "1991",
-      "imdb_id": "tt0102685"
-    },
-    {
       "id": "tt20215234",
       "type": "movie",
       "name": "Conclave",
@@ -143,20 +100,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt20215234"
-    },
-    {
-      "id": "tt15574124",
-      "type": "movie",
-      "name": "Peaky Blinders: The Immortal Man",
-      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
-      "posterShape": "poster",
-      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt15574124"
     },
     {
       "id": "tt0095016",
@@ -173,19 +116,18 @@
       "imdb_id": "tt0095016"
     },
     {
-      "id": "tt0443706",
+      "id": "tt15574124",
       "type": "movie",
-      "name": "Zodiac",
-      "poster": "https://image.tmdb.org/t/p/w500/6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+      "name": "Peaky Blinders: The Immortal Man",
+      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
       "posterShape": "poster",
-      "description": "Police conduct a manhunt for the Zodiac Killer, a serial killer who terrorized the San Francisco Bay Area during the late 1960s and early 1970s, taunting police with letters, bloodstained clothing, and ciphers mailed to newspapers.",
+      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
       "genres": [
         "Crime",
-        "Mystery",
-        "Thriller"
+        "Drama"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0443706"
+      "releaseInfo": "2026",
+      "imdb_id": "tt15574124"
     },
     {
       "id": "tt33057137",
@@ -233,6 +175,21 @@
       "imdb_id": "tt27550504"
     },
     {
+      "id": "tt1131748",
+      "type": "movie",
+      "name": "Prison Break: The Final Break",
+      "poster": "https://image.tmdb.org/t/p/w500/h1QRyGuWVXM4Cr3FyPISSjMCBkA.jpg",
+      "posterShape": "poster",
+      "description": "Michael and Sara wed, but the happiness is short-lived when the Feds apprehend her for the murder of Michael's mother, Christina. Once a hit is ordered on Sara, the team reunite to break out the increasingly vulnerable target.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2009",
+      "imdb_id": "tt1131748"
+    },
+    {
       "id": "tt0105236",
       "type": "movie",
       "name": "Reservoir Dogs",
@@ -245,6 +202,21 @@
       ],
       "releaseInfo": "1992",
       "imdb_id": "tt0105236"
+    },
+    {
+      "id": "tt0120660",
+      "type": "movie",
+      "name": "Enemy of the State",
+      "poster": "https://image.tmdb.org/t/p/w500/x9pXrMKLsBGGOFyyZ0Gwt9YpVub.jpg",
+      "posterShape": "poster",
+      "description": "When the videotape of the murder of a congressman unknowingly ends up in the hands of labor lawyer and dedicated family man Robert Clayton Dean, he is framed for the murder. With the help of the mysterious Brill, Dean attempts to throw the NSA off his trail and prove his innocence.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "1998",
+      "imdb_id": "tt0120660"
     },
     {
       "id": "tt0113277",
@@ -262,6 +234,21 @@
       "imdb_id": "tt0113277"
     },
     {
+      "id": "tt0988045",
+      "type": "movie",
+      "name": "Sherlock Holmes",
+      "poster": "https://image.tmdb.org/t/p/w500/momkKuWburNTqKBF6ez7rvhYVhE.jpg",
+      "posterShape": "poster",
+      "description": "Eccentric consulting detective Sherlock Holmes and Doctor John Watson battle to bring down a new nemesis and unravel a deadly plot that could destroy England.",
+      "genres": [
+        "Action",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2009",
+      "imdb_id": "tt0988045"
+    },
+    {
       "id": "tt0765429",
       "type": "movie",
       "name": "American Gangster",
@@ -276,19 +263,34 @@
       "imdb_id": "tt0765429"
     },
     {
-      "id": "tt0988045",
+      "id": "tt0114814",
       "type": "movie",
-      "name": "Sherlock Holmes",
-      "poster": "https://image.tmdb.org/t/p/w500/momkKuWburNTqKBF6ez7rvhYVhE.jpg",
+      "name": "The Usual Suspects",
+      "poster": "https://image.tmdb.org/t/p/w500/99X2SgyFunJFXGAYnDv3sb9pnUD.jpg",
       "posterShape": "poster",
-      "description": "Eccentric consulting detective Sherlock Holmes and Doctor John Watson battle to bring down a new nemesis and unravel a deadly plot that could destroy England.",
+      "description": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "1995",
+      "imdb_id": "tt0114814"
+    },
+    {
+      "id": "tt0086250",
+      "type": "movie",
+      "name": "Scarface",
+      "poster": "https://image.tmdb.org/t/p/w500/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
+      "posterShape": "poster",
+      "description": "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall.",
       "genres": [
         "Action",
-        "Mystery",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2009",
-      "imdb_id": "tt0988045"
+      "releaseInfo": "1983",
+      "imdb_id": "tt0086250"
     }
   ]
 }

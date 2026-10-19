@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt7661390",
-      "type": "series",
-      "name": "Gangs of London",
-      "poster": "https://image.tmdb.org/t/p/w500/fVgwa6wGw9ddGM5O7mqrrwB6gHK.jpg",
-      "posterShape": "poster",
-      "description": "When the head of a criminal organisation, Finn Wallace is assassinated, the sudden power vacuum his death creates threatens the fragile peace between the intricate web of gangs operating on the streets of the city. Now it’s up to the grieving, volatile and impulsive Sean Wallace to restore control and find those responsible for killing his father.",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt7661390"
-    },
-    {
       "id": "tt23729238",
       "type": "series",
       "name": "Boat Story",
@@ -30,20 +15,6 @@
       "imdb_id": "tt23729238"
     },
     {
-      "id": "tt2442560",
-      "type": "series",
-      "name": "Peaky Blinders",
-      "poster": "https://image.tmdb.org/t/p/w500/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg",
-      "posterShape": "poster",
-      "description": "A gangster family epic set in 1919 Birmingham, England and centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby, who means to move up in the world.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2442560"
-    },
-    {
       "id": "tt13444408",
       "type": "series",
       "name": "Kin",
@@ -56,6 +27,49 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt13444408"
+    },
+    {
+      "id": "tt6271042",
+      "type": "series",
+      "name": "McMafia",
+      "poster": "https://image.tmdb.org/t/p/w500/jdt7RFfVCGWrNnrxeQ0Us9kGhJu.jpg",
+      "posterShape": "poster",
+      "description": "Alex Godman, the English-raised son of Russian mafia exiles, has spent his life trying to escape the shadow of their past, building his own legitimate business and forging a life with his girlfriend Rebecca. But when a murder forces his family's past to return to threaten them, Alex is drawn into the criminal underworld and must confront his values to protect those he loves.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6271042"
+    },
+    {
+      "id": "tt3956604",
+      "type": "series",
+      "name": "The Driver",
+      "poster": "https://image.tmdb.org/t/p/w500/jeveGKPiqqUbWptQLmsGpbDZk4c.jpg",
+      "posterShape": "poster",
+      "description": "The Driver is a three-part British crime drama serial aired on BBC One between 23 September and 7 October 2014. Written by Danny Brocklehurst and directed by Jamie Payne, it stars David Morrissey as despondent cab driver Vince McKee, whose life is turned upside down when he agrees to be the driver for a criminal gang.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt3956604"
+    },
+    {
+      "id": "tt7661390",
+      "type": "series",
+      "name": "Gangs of London",
+      "poster": "https://image.tmdb.org/t/p/w500/fVgwa6wGw9ddGM5O7mqrrwB6gHK.jpg",
+      "posterShape": "poster",
+      "description": "Season 3 has started.\n\nWhen the head of a criminal organisation, Finn Wallace is assassinated, the sudden power vacuum his death creates threatens the fragile peace between the intricate web of gangs operating on the streets of the city. Now it’s up to the grieving, volatile and impulsive Sean Wallace to restore control and find those responsible for killing his father.",
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt7661390"
     },
     {
       "id": "tt31849235",
@@ -100,20 +114,6 @@
       "imdb_id": "tt36303968"
     },
     {
-      "id": "tt15435876",
-      "type": "series",
-      "name": "The Penguin",
-      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
-      "posterShape": "poster",
-      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15435876"
-    },
-    {
       "id": "tt15837600",
       "type": "series",
       "name": "Griselda",
@@ -126,6 +126,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt15837600"
+    },
+    {
+      "id": "tt15435876",
+      "type": "series",
+      "name": "The Penguin",
+      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
+      "posterShape": "poster",
+      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15435876"
     },
     {
       "id": "tt34866681",
@@ -157,34 +171,6 @@
       "imdb_id": "tt30460310"
     },
     {
-      "id": "tt11761194",
-      "type": "series",
-      "name": "Power Book IV: Force",
-      "poster": "https://image.tmdb.org/t/p/w500/yzL4Tqbw2JA9MCsHJWFC4xV1IYU.jpg",
-      "posterShape": "poster",
-      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11761194"
-    },
-    {
-      "id": "tt14192504",
-      "type": "series",
-      "name": "We Own This City",
-      "poster": "https://image.tmdb.org/t/p/w500/qNOYmU6JYMeu2I0xOX9pgCBOBXi.jpg",
-      "posterShape": "poster",
-      "description": "The story of the rise and fall of the Baltimore Police Department's Gun Trace Task Force — and the corruption and moral collapse that befell an American city in which the policies of drug prohibition and mass arrest were championed at the expense of actual police work.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14192504"
-    },
-    {
       "id": "tt0979432",
       "type": "series",
       "name": "Boardwalk Empire",
@@ -197,21 +183,6 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt0979432"
-    },
-    {
-      "id": "tt18923754",
-      "type": "series",
-      "name": "Daredevil: Born Again",
-      "poster": "https://image.tmdb.org/t/p/w500/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-      "posterShape": "poster",
-      "description": "Matt Murdock, a blind lawyer with heightened abilities, is fighting for justice through his bustling law firm, while former mob boss Wilson Fisk pursues his own political endeavors in New York. When their past identities begin to emerge, both men find themselves on an inevitable collision course.",
-      "genres": [
-        "Drama",
-        "Action & Adventure",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt18923754"
     },
     {
       "id": "tt26676904",
@@ -228,18 +199,18 @@
       "imdb_id": "tt26676904"
     },
     {
-      "id": "tt5028002",
+      "id": "tt11761194",
       "type": "series",
-      "name": "StartUp",
-      "poster": "https://image.tmdb.org/t/p/w500/mXiB1e0x3iaRaaPPVhC1c7rgwPr.jpg",
+      "name": "Power Book IV: Force",
+      "poster": "https://image.tmdb.org/t/p/w500/yzL4Tqbw2JA9MCsHJWFC4xV1IYU.jpg",
       "posterShape": "poster",
-      "description": "A desperate banker needs to conceal stolen money. A Haitian-American gang lord wants to go legit. A Cuban-American hacker has an idea that will revolutionize the very future of money itself. Forced to work together, they unwittingly create their version of the American dream - organized crime 2.0.",
+      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt5028002"
+      "releaseInfo": "2022",
+      "imdb_id": "tt11761194"
     },
     {
       "id": "tt3281796",
@@ -256,18 +227,18 @@
       "imdb_id": "tt3281796"
     },
     {
-      "id": "tt11846996",
+      "id": "tt14192504",
       "type": "series",
-      "name": "Vigil",
-      "poster": "https://image.tmdb.org/t/p/w500/5zAheY0Upi2MwU3edGtEgb7Ldh3.jpg",
+      "name": "We Own This City",
+      "poster": "https://image.tmdb.org/t/p/w500/qNOYmU6JYMeu2I0xOX9pgCBOBXi.jpg",
       "posterShape": "poster",
-      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
+      "description": "The story of the rise and fall of the Baltimore Police Department's Gun Trace Task Force — and the corruption and moral collapse that befell an American city in which the policies of drug prohibition and mass arrest were championed at the expense of actual police work.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11846996"
+      "releaseInfo": "2022",
+      "imdb_id": "tt14192504"
     },
     {
       "id": "tt2707408",
@@ -282,6 +253,34 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt2707408"
+    },
+    {
+      "id": "tt5715524",
+      "type": "series",
+      "name": "Mayans M.C.",
+      "poster": "https://image.tmdb.org/t/p/w500/510A0upV9WRAynEgs1E2B3eBxi5.jpg",
+      "posterShape": "poster",
+      "description": "Set in the aftermath of Jax Teller’s death, Ezekiel \"EZ\" Reyes is fresh out of prison and a prospect in the Mayans M.C. charter on the Cali/Mexi border. Now, EZ must carve out his new identity in a town where he was once the golden boy with the American Dream in his grasp.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt5715524"
+    },
+    {
+      "id": "tt12677870",
+      "type": "series",
+      "name": "Law & Order: Organized Crime",
+      "poster": "https://image.tmdb.org/t/p/w500/4AvB6Dg8eAbfWv5WOqzCCv2zS90.jpg",
+      "posterShape": "poster",
+      "description": "The detectives of the Organized Crime Control Bureau work to dismantle New York City's most vicious and violent illegal enterprises.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt12677870"
     }
   ]
 }

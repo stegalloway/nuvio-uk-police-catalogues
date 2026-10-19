@@ -1,34 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt6271042",
-      "type": "series",
-      "name": "McMafia",
-      "poster": "https://image.tmdb.org/t/p/w500/jdt7RFfVCGWrNnrxeQ0Us9kGhJu.jpg",
-      "posterShape": "poster",
-      "description": "Alex Godman, the English-raised son of Russian mafia exiles, has spent his life trying to escape the shadow of their past, building his own legitimate business and forging a life with his girlfriend Rebecca. But when a murder forces his family's past to return to threaten them, Alex is drawn into the criminal underworld and must confront his values to protect those he loves.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6271042"
-    },
-    {
-      "id": "tt12677870",
-      "type": "series",
-      "name": "Law & Order: Organized Crime",
-      "poster": "https://image.tmdb.org/t/p/w500/4AvB6Dg8eAbfWv5WOqzCCv2zS90.jpg",
-      "posterShape": "poster",
-      "description": "The detectives of the Organized Crime Control Bureau work to dismantle New York City's most vicious and violent illegal enterprises.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt12677870"
-    },
-    {
       "id": "tt8714904",
       "type": "series",
       "name": "Narcos: Mexico",
@@ -43,18 +15,60 @@
       "imdb_id": "tt8714904"
     },
     {
-      "id": "tt5715524",
+      "id": "tt8080122",
       "type": "series",
-      "name": "Mayans M.C.",
-      "poster": "https://image.tmdb.org/t/p/w500/510A0upV9WRAynEgs1E2B3eBxi5.jpg",
+      "name": "Godfather of Harlem",
+      "poster": "https://image.tmdb.org/t/p/w500/avhyzJycLNi3nXov2lREhDkP3ik.jpg",
       "posterShape": "poster",
-      "description": "Set in the aftermath of Jax Teller’s death, Ezekiel \"EZ\" Reyes is fresh out of prison and a prospect in the Mayans M.C. charter on the Cali/Mexi border. Now, EZ must carve out his new identity in a town where he was once the golden boy with the American Dream in his grasp.",
+      "description": "Loosely based on infamous crime boss Bumpy Johnson, who in the early 1960s returned from ten years in prison to find the neighborhood he once ruled in shambles. With the streets controlled by the Italian mob, Bumpy attempts to regain his piece of Harlem.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt8080122"
+    },
+    {
+      "id": "tt11846996",
+      "type": "series",
+      "name": "Vigil",
+      "poster": "https://image.tmdb.org/t/p/w500/5zAheY0Upi2MwU3edGtEgb7Ldh3.jpg",
+      "posterShape": "poster",
+      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11846996"
+    },
+    {
+      "id": "tt1064899",
+      "type": "series",
+      "name": "Queen of the South",
+      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
+      "posterShape": "poster",
+      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt5715524"
+      "releaseInfo": "2016",
+      "imdb_id": "tt1064899"
+    },
+    {
+      "id": "tt6423364",
+      "type": "series",
+      "name": "Bad Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/ukrAdTtJHHEaDRUJmi4XYwBUpRu.jpg",
+      "posterShape": "poster",
+      "description": "A dramatization of the life and death of Montreal mob boss Vito Rizzuto.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt6423364"
     },
     {
       "id": "tt13875494",
@@ -71,18 +85,103 @@
       "imdb_id": "tt13875494"
     },
     {
-      "id": "tt6423364",
+      "id": "tt5574490",
       "type": "series",
-      "name": "Bad Blood",
-      "poster": "https://image.tmdb.org/t/p/w500/ukrAdTtJHHEaDRUJmi4XYwBUpRu.jpg",
+      "name": "Animal Kingdom",
+      "poster": "https://image.tmdb.org/t/p/w500/rzvdKrnSRKPFI0pgqMQknDPpRC9.jpg",
       "posterShape": "poster",
-      "description": "A dramatization of the life and death of Montreal mob boss Vito Rizzuto.",
+      "description": "17-year-old Joshua \"J\" Cody moves in with his freewheeling relatives in their Southern California beach town after his mother dies of a heroin overdose. Headed by boot-tough matriarch Janine \"Smurf\" Cody and her right-hand Baz, who runs the business and calls the shots, the clan also consists of Pope, the oldest and most dangerous of the Cody boys; Craig, the tough and fearless middle son; and Deran, the troubled, suspicious \"baby\" of the family.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt6423364"
+      "releaseInfo": "2016",
+      "imdb_id": "tt5574490"
+    },
+    {
+      "id": "tt1489428",
+      "type": "series",
+      "name": "Justified",
+      "poster": "https://image.tmdb.org/t/p/w500/ie1quhMk09lDtvtAyQAHTu09R9Z.jpg",
+      "posterShape": "poster",
+      "description": "A character drama based on the 2001 Elmore Leonard short story \"Fire in the Hole.\" Leonard's tale centers around U.S. Marshal Raylan Givens of Kentucky, a quiet but strong-willed official of the law. The tale covers his high-stakes job, as well as his strained relationships with his ex-wife and father.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1489428"
+    },
+    {
+      "id": "tt35515227",
+      "type": "series",
+      "name": "CIA",
+      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
+      "posterShape": "poster",
+      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35515227"
+    },
+    {
+      "id": "tt6474378",
+      "type": "series",
+      "name": "Good Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/wpgg6G3UHXepH2Zgpt4W60d6gxR.jpg",
+      "posterShape": "poster",
+      "description": "Three \"good girl\" suburban wives and mothers suddenly find themselves in desperate circumstances and decide to stop playing it safe and risk everything to take their power back.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6474378"
+    },
+    {
+      "id": "tt6517320",
+      "type": "series",
+      "name": "Too Old to Die Young",
+      "poster": "https://image.tmdb.org/t/p/w500/xGBwXf02Mu2zzqxh6TomLC7xfk7.jpg",
+      "posterShape": "poster",
+      "description": "In one tragic night, Los Angeles County Sheriff's Deputy Martin Jones's life is blown apart, and he is forced into a deadly underground of Cartel soldiers, Yakuza assassins, and mysterious vigilantes. Soon he finds himself lost on a surreal odyssey of murder, mysticism and vengeance, as his past sins close in on him.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt6517320"
+    },
+    {
+      "id": "tt9742936",
+      "type": "series",
+      "name": "FBI: Most Wanted",
+      "poster": "https://image.tmdb.org/t/p/w500/uwTNBqFrEur3EtK8ofWbtGXMQOP.jpg",
+      "posterShape": "poster",
+      "description": "The Fugitive Task Force relentlessly tracks and captures the notorious criminals on the Bureau's Most Wanted list. Seasoned agents oversee the highly skilled team that functions as a mobile undercover unit that is always out in the field, pursuing those who are most desperate to elude justice.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt9742936"
+    },
+    {
+      "id": "tt20285780",
+      "type": "series",
+      "name": "The Artful Dodger",
+      "poster": "https://image.tmdb.org/t/p/w500/lcyax0pIH6vZWbho2hxsMTt9KpN.jpg",
+      "posterShape": "poster",
+      "description": "It's a tale of reinvention, betrayal, redemption, and love with a twist. Jack Dawkins is The Artful Dodger, whose pickpocketing fingers have become the skilled hands of a surgeon. He is torn between an impossible love and the criminal underworld he secretly craves. This will require Artfulness.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt20285780"
     },
     {
       "id": "tt11646832",
@@ -100,160 +199,18 @@
       "imdb_id": "tt11646832"
     },
     {
-      "id": "tt6037988",
+      "id": "tt11188682",
       "type": "series",
-      "name": "Last Seen",
-      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
+      "name": "The Cleaning Lady",
+      "poster": "https://image.tmdb.org/t/p/w500/aoTQhDKiuKpn599yNxp03wr2ZHu.jpg",
       "posterShape": "poster",
-      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt6037988"
-    },
-    {
-      "id": "tt3956604",
-      "type": "series",
-      "name": "The Driver",
-      "poster": "https://image.tmdb.org/t/p/w500/jeveGKPiqqUbWptQLmsGpbDZk4c.jpg",
-      "posterShape": "poster",
-      "description": "The Driver is a three-part British crime drama serial aired on BBC One between 23 September and 7 October 2014. Written by Danny Brocklehurst and directed by Jamie Payne, it stars David Morrissey as despondent cab driver Vince McKee, whose life is turned upside down when he agrees to be the driver for a criminal gang.",
+      "description": "A whip-smart doctor comes to the U.S. for a medical treatment to save her ailing son. But when the system fails and pushes her into hiding, she refuses to be beaten down and marginalized. Instead, she becomes a cleaning lady for the mob and starts playing the game by her own rules.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt3956604"
-    },
-    {
-      "id": "tt8080122",
-      "type": "series",
-      "name": "Godfather of Harlem",
-      "poster": "https://image.tmdb.org/t/p/w500/avhyzJycLNi3nXov2lREhDkP3ik.jpg",
-      "posterShape": "poster",
-      "description": "Loosely based on infamous crime boss Bumpy Johnson, who in the early 1960s returned from ten years in prison to find the neighborhood he once ruled in shambles. With the streets controlled by the Italian mob, Bumpy attempts to regain his piece of Harlem.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8080122"
-    },
-    {
-      "id": "tt35515227",
-      "type": "series",
-      "name": "CIA",
-      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
-      "posterShape": "poster",
-      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35515227"
-    },
-    {
-      "id": "tt1064899",
-      "type": "series",
-      "name": "Queen of the South",
-      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
-      "posterShape": "poster",
-      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt1064899"
-    },
-    {
-      "id": "tt1489428",
-      "type": "series",
-      "name": "Justified",
-      "poster": "https://image.tmdb.org/t/p/w500/ie1quhMk09lDtvtAyQAHTu09R9Z.jpg",
-      "posterShape": "poster",
-      "description": "A character drama based on the 2001 Elmore Leonard short story \"Fire in the Hole.\" Leonard's tale centers around U.S. Marshal Raylan Givens of Kentucky, a quiet but strong-willed official of the law. The tale covers his high-stakes job, as well as his strained relationships with his ex-wife and father.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1489428"
-    },
-    {
-      "id": "tt9742936",
-      "type": "series",
-      "name": "FBI: Most Wanted",
-      "poster": "https://image.tmdb.org/t/p/w500/uwTNBqFrEur3EtK8ofWbtGXMQOP.jpg",
-      "posterShape": "poster",
-      "description": "The Fugitive Task Force relentlessly tracks and captures the notorious criminals on the Bureau's Most Wanted list. Seasoned agents oversee the highly skilled team that functions as a mobile undercover unit that is always out in the field, pursuing those who are most desperate to elude justice.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9742936"
-    },
-    {
-      "id": "tt6474378",
-      "type": "series",
-      "name": "Good Girls",
-      "poster": "https://image.tmdb.org/t/p/w500/wpgg6G3UHXepH2Zgpt4W60d6gxR.jpg",
-      "posterShape": "poster",
-      "description": "Three \"good girl\" suburban wives and mothers suddenly find themselves in desperate circumstances and decide to stop playing it safe and risk everything to take their power back.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6474378"
-    },
-    {
-      "id": "tt5574490",
-      "type": "series",
-      "name": "Animal Kingdom",
-      "poster": "https://image.tmdb.org/t/p/w500/rzvdKrnSRKPFI0pgqMQknDPpRC9.jpg",
-      "posterShape": "poster",
-      "description": "17-year-old Joshua \"J\" Cody moves in with his freewheeling relatives in their Southern California beach town after his mother dies of a heroin overdose. Headed by boot-tough matriarch Janine \"Smurf\" Cody and her right-hand Baz, who runs the business and calls the shots, the clan also consists of Pope, the oldest and most dangerous of the Cody boys; Craig, the tough and fearless middle son; and Deran, the troubled, suspicious \"baby\" of the family.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt5574490"
-    },
-    {
-      "id": "tt5611024",
-      "type": "series",
-      "name": "Fool Me Once",
-      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
-      "posterShape": "poster",
-      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5611024"
-    },
-    {
-      "id": "tt6517320",
-      "type": "series",
-      "name": "Too Old to Die Young",
-      "poster": "https://image.tmdb.org/t/p/w500/xGBwXf02Mu2zzqxh6TomLC7xfk7.jpg",
-      "posterShape": "poster",
-      "description": "In one tragic night, Los Angeles County Sheriff's Deputy Martin Jones's life is blown apart, and he is forced into a deadly underground of Cartel soldiers, Yakuza assassins, and mysterious vigilantes. Soon he finds himself lost on a surreal odyssey of murder, mysticism and vengeance, as his past sins close in on him.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt6517320"
+      "releaseInfo": "2022",
+      "imdb_id": "tt11188682"
     },
     {
       "id": "tt3032476",
@@ -270,18 +227,60 @@
       "imdb_id": "tt3032476"
     },
     {
-      "id": "tt31121364",
+      "id": "tt5011816",
       "type": "series",
-      "name": "Death by Lightning",
-      "poster": "https://image.tmdb.org/t/p/w500/d9w6mjuFkVTaMyuIc9Y3deNDHvw.jpg",
+      "name": "Sneaky Pete",
+      "poster": "https://image.tmdb.org/t/p/w500/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
       "posterShape": "poster",
-      "description": "The story of James Garfield, who rose from obscurity to become America's 20th President — and Charles Guiteau, the man who assassinated him.",
+      "description": "A con man on the run from a vicious gangster takes cover from his past by assuming the identity of his prison cellmate, Pete, “reuniting” with Pete’s estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he’s trying to escape - and, just maybe, give him a taste of the loving family he’s never had.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31121364"
+      "releaseInfo": "2015",
+      "imdb_id": "tt5011816"
+    },
+    {
+      "id": "tt10732104",
+      "type": "series",
+      "name": "Power Book II: Ghost",
+      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "posterShape": "poster",
+      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10732104"
+    },
+    {
+      "id": "tt1625724",
+      "type": "series",
+      "name": "Love/Hate",
+      "poster": "https://image.tmdb.org/t/p/w500/oLnOU5wYp7I6egnI6lzAIWOqS1D.jpg",
+      "posterShape": "poster",
+      "description": "Modern-day underworld characters Nidge and John Boy wrestle for control of Dublin's illicit drug trade in this forceful crime drama.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1625724"
+    },
+    {
+      "id": "tt0141842",
+      "type": "series",
+      "name": "The Sopranos",
+      "poster": "https://image.tmdb.org/t/p/w500/rTc7ZXdroqjkKivFPvCPX0Ru7uw.jpg",
+      "posterShape": "poster",
+      "description": "The story of New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and protégé Christopher Moltisanti.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "1999",
+      "imdb_id": "tt0141842"
     }
   ]
 }
