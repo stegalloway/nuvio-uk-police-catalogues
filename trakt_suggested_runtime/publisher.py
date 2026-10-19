@@ -80,6 +80,10 @@ class SourceFailures:
         if failed:
             raise SourceError("A source failed; previous catalogues must be retained")
 
+    def labels(self) -> list[str]:
+        with self._lock:
+            return sorted({source + ":" + reason for source, reason in self._failures})
+
     def summary(self) -> dict[str, int]:
         result: dict[str, int] = {}
         with self._lock:
@@ -582,6 +586,9 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--timeout-minutes", type=float, default=25)
     parser.add_argument("--validate-only", action="store_true")
     args = parser.parse_args(argv)
+    failures = SourceFailures()
+    # Workflow commands become annotations, which GitHub shows without sign-in.
+    in_actions = os.environ.get("GITHUB_ACTIONS") == "true"
     try:
         if args.validate_only:
             counts = validate_output(args.output, addon_id=args.addon_id)
@@ -600,7 +607,6 @@ def main(argv: list[str] | None = None) -> int:
             if private_path and (private_path.resolve() == public_root or
                                  public_root in private_path.resolve().parents):
                 raise RefreshError("Private files cannot be stored in public output")
-        failures = SourceFailures()
         deadline = time.monotonic() + args.timeout_minutes * 60
         trakt = TraktClient(JsonHttpClient(
             "https://api.trakt.tv", {"trakt-api-version": "2", "trakt-api-key": trakt_key},
@@ -622,11 +628,23 @@ def main(argv: list[str] | None = None) -> int:
                           "no public list named " + dismiss_list if dismiss_list and not args.history_dir
                           else "not used")
         print(json.dumps({"published": True, "counts": counts, "not_interested": not_interested}))
+        if in_actions:
+            print("::notice title=Trakt Suggested published::series " + str(counts.get("series")) +
+                  ", movie " + str(counts.get("movie")) + ", not interested " + str(not_interested))
         return 0
     except Exception as error:
         # Errors can carry credential-bearing request URLs or private titles.
-        # Print only the exception class; do not dump engine diagnostics or traces.
-        print("Refresh aborted (" + type(error).__name__ + "); no new catalogue generation was published.", file=sys.stderr)
+        # Report only the exception class, the controlled source:reason labels
+        # and the engine's fixed messages; never diagnostics, URLs or traces.
+        detail = type(error).__name__
+        if detail == "GenerationError" and error.args and isinstance(error.args[0], str):
+            detail += ": " + error.args[0]
+        labels = failures.labels()
+        if labels:
+            detail += " [" + ", ".join(labels) + "]"
+        print("Refresh aborted (" + detail + "); no new catalogue generation was published.", file=sys.stderr)
+        if in_actions:
+            print("::error title=Trakt Suggested refresh aborted::" + detail)
         return 1
 
 

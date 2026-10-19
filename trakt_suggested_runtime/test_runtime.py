@@ -382,6 +382,23 @@ class CacheAndTransportContracts(unittest.TestCase):
             self.assertEqual(bytes_snapshot(target), before)
             self.assertIn("RefreshError", output.getvalue())
 
+    def test_aborted_refresh_reports_only_controlled_labels(self):
+        def histories(trakt, username, dismiss_list=None):
+            trakt.http.failures.record("trakt", "incomplete_pagination")
+            raise SourceError("https://api.trakt.tv/users/PRIVATE-USER?key=PRIVATE-SECRET")
+        env = {"TRAKT_USERNAME": "PRIVATE-USER", "TRAKT_CLIENT_ID": "PRIVATE-SECRET",
+               "TMDB_ACCESS_TOKEN": "PRIVATE-SECRET", "GITHUB_ACTIONS": "true"}
+        with tempfile.TemporaryDirectory() as directory:
+            stderr, stdout = io.StringIO(), io.StringIO()
+            with patch.dict(os.environ, env, clear=True), patch("sys.stderr", stderr), \
+                    patch("sys.stdout", stdout), patch.object(TraktClient, "histories", histories):
+                self.assertEqual(main(["--output", str(Path(directory) / "suggested")]), 1)
+        self.assertIn("SourceError [trakt:incomplete_pagination]", stderr.getvalue())
+        self.assertIn("::error title=Trakt Suggested refresh aborted::SourceError [trakt:incomplete_pagination]",
+                      stdout.getvalue())
+        for text in (stderr.getvalue(), stdout.getvalue()):
+            self.assertNotIn("PRIVATE", text)
+
 
 if __name__ == "__main__":
     unittest.main()
