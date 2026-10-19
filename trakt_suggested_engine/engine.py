@@ -152,6 +152,62 @@ def dismissed_ids(items: Iterable[Mapping], kind: str) -> tuple[set[str], set[in
     return imdb, tmdb
 
 
+# A Not Interested title counts as a mild dislike, as strong as a title dropped
+# early in Watchly's evidence weighting.
+DISMISS_EVIDENCE = -0.2
+
+
+def dismissed_titles(items: Iterable[Mapping], kind: str) -> list[tuple[dict, Any]]:
+    """(ids, listed_at) per Not Interested entry of one kind, for the taste profile."""
+    titles = []
+    for item in items:
+        if isinstance(item, Mapping):
+            ids = ((item.get("movie") if kind == "movie" else item.get("show")) or {}).get("ids") or {}
+            if ids.get("tmdb") or ids.get("imdb"):
+                titles.append((dict(ids), item.get("listed_at")))
+    return titles
+
+
+def apply_dismissal_signal(scores: Mapping, details: Sequence[tuple[Mapping, Any]],
+                           now: datetime) -> tuple[dict, dict]:
+    """Add Not Interested titles to the profile as a mild dislike.
+
+    Each title adds DISMISS_EVIDENCE, decayed from when it was listed as a
+    watch decays, to its keywords, top three cast and directors/creators only,
+    mirroring Watchly's profile factors. Genres, countries and eras are never
+    touched, so dismissing one crime show does not push down crime as a whole.
+    Returns the adjusted scores and their per-category normalisation.
+    """
+    adjusted = {category: dict(values) for category, values in scores.items()}
+    for detail, listed_at in details:
+        when = _aware(listed_at)
+        decay = max(.1, math.exp(-max(0, (now - when).days) / 30.)) if when else .5
+        evidence = DISMISS_EVIDENCE * decay
+        def add(category, key, factor):
+            if key:
+                values = adjusted.setdefault(category, {})
+                values[key] = values.get(key, 0.) + evidence * factor
+        for keyword in w._keywords(detail, profile=True):
+            add("keywords", keyword, .7)
+        credits = detail.get("credits") or {}
+        for position, actor in enumerate(credits.get("cast", [])[:3]):
+            if isinstance(actor, Mapping):
+                add("cast", actor.get("id"), .9 * .7 ** position)
+        crew = ([dict(c, job="Creator") for c in detail.get("created_by", []) if isinstance(c, Mapping)]
+                + list(credits.get("crew", [])))
+        for person in crew:
+            if isinstance(person, Mapping) and str(person.get("job", "")).lower() in ("director", "creator"):
+                add("directors", person.get("id"), .9)
+    normalised = {}
+    for category, values in adjusted.items():
+        cap = w.CAPS.get(category)
+        if cap:
+            values.update({key: max(-cap, min(cap, value)) for key, value in values.items()})
+        maximum = max(values.values(), default=0.)
+        normalised[category] = {key: value / maximum if maximum > 0 else value for key, value in values.items()}
+    return adjusted, normalised
+
+
 def _regular_episode(episode: Mapping) -> bool:
     number = w._int(episode.get("number"))
     kind = str(episode.get("episode_type") or "").lower().replace(" ", "_")
@@ -496,7 +552,8 @@ def generate_catalogues(
     episodes,full. Caller-provided caches may serve metadata; watched payloads
     must be refreshed for every published generation.
     dismissed holds the items of the "Not Interested" Trakt list. Those titles
-    are hidden exactly like watched ones, and never feed the taste profile.
+    are hidden exactly like watched ones, and count as a mild dislike of their
+    keywords, cast and creators (never genres) in the taste profile.
 
     Raises GenerationError for missing/insufficient input profile or output.
     Never catch that error by publishing {"metas": []}; retain the old files.
@@ -546,6 +603,14 @@ def generate_catalogues(
         coverage = len(audit["processed"]) / len(items)
         if coverage < config.minimum_profile_coverage:
             raise GenerationError("Insufficient " + kind + " metadata profile coverage", result["diagnostics"])
+        dislike_details = []
+        for ids, listed_at in dismissed_titles(dismissed, kind):
+            tid = w._int(ids.get("tmdb")) or (w._int(runner._call("resolve", ids["imdb"], media)) if ids.get("imdb") else None)
+            detail = runner._details(tid, media) if tid else {}
+            if detail:
+                dislike_details.append((detail, listed_at))
+        if dislike_details:
+            profile, normalised = apply_dismissal_signal(profile, dislike_details, moment)
         watched_imdb, watched_tmdb = set(), set()
         for entry in watch_rows:
             ids = (entry.get("movie") or entry.get("show") or {}).get("ids") or {}
@@ -764,7 +829,8 @@ def generate_catalogues(
                                    "eligible_card_count": sum("for_you_rank" in c for c in cards),
                                    "positions": [{"id": c["id"], "position": i + 1, "for_you_rank": c["for_you_rank"]}
                                                  for i, c in enumerate(ordered) if "for_you_rank" in c]},
-                       "not_interested": {"suppressed_count": len(dismissed_hits)},
+                       "not_interested": {"suppressed_count": len(dismissed_hits),
+                                          "disliked_profile_titles": len(dislike_details)},
                        "returning_decisions": returning_diagnostics,
                        "callback_counts": dict(runner.calls), "warnings": runner.warnings,
                        "selected_cards": ordered}

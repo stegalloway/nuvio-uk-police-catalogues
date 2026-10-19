@@ -4,8 +4,8 @@ from datetime import datetime, timedelta, timezone
 import unittest
 
 from .engine import (
-    FOR_YOU_SOURCE, EngineConfig, GenerationError, derive_episode_progress, evaluate_returning,
-    for_you_queries, freshness, generate_catalogues, rank_and_mix_series, thematic_signals,
+    FOR_YOU_SOURCE, EngineConfig, GenerationError, apply_dismissal_signal, derive_episode_progress,
+    evaluate_returning, for_you_queries, freshness, generate_catalogues, rank_and_mix_series, thematic_signals,
 )
 
 
@@ -351,12 +351,51 @@ class EndToEndContracts(unittest.TestCase):
         with self.assertRaises(GenerationError):
             self.run_engine(dismissed="not a list")
 
+    def test_not_interested_is_a_mild_dislike_of_similar_titles_only(self):
+        # A dismissed film, never a candidate: police keyword (2), its own cast.
+        self.api.details[("movie", 900)] = dict(self.api.detail(900), credits={"cast": [{"id": 777}], "crew": []})
+        self.api.for_you_only.add(("movie", 900))
+        def scores(result):
+            return {c["id"]: c["profile_score"] for c in result["diagnostics"]["media"]["movie"]["selected_cards"]}
+        before = scores(self.run_engine())
+        result = self.run_engine(dismissed=[{"type": "movie", "listed_at": "2026-10-18T05:00:00.000Z",
+                                             "movie": {"ids": {"tmdb": 900, "imdb": "tt900"}}}])
+        after = scores(result)
+        self.assertEqual(result["diagnostics"]["media"]["movie"]["not_interested"]["disliked_profile_titles"], 1)
+        self.assertEqual(result["diagnostics"]["media"]["series"]["not_interested"]["disliked_profile_titles"], 0)
+        police = [i for i in ("tt105", "tt108") if i in before and i in after]
+        organised = [i for i in ("tt100", "tt104", "tt106", "tt107") if i in before and i in after]
+        self.assertTrue(police and organised)
+        for card in police:
+            self.assertLess(after[card], before[card], card + " shares the dismissed keyword")
+        for card in organised:
+            self.assertEqual(after[card], before[card], card + " shares nothing but genre and country")
+
     def test_not_interested_show_gets_no_returning_season(self):
         result = self.run_engine(trakt_fetch=lambda path, params: [season(1), season(2, premiered=NOW)],
                                  dismissed=[{"type": "season", "season": {"number": 2}, "show": show()}])
         self.assertNotIn("tt10", {m["id"] for m in result["catalogues"]["series"]["payload"]["metas"]})
         reasons = {d.get("reason") for d in result["diagnostics"]["media"]["series"]["returning_decisions"]}
         self.assertIn("not_interested", reasons)
+
+
+class DislikeSignalContracts(unittest.TestCase):
+    def test_touches_keywords_cast_and_creators_but_never_genres(self):
+        scores = {"genres": {80: 10.}, "keywords": {1: 4., 2: 2.}, "cast": {123: 3.},
+                  "directors": {}, "eras": {"2020s": 2.}, "countries": {"GB": 1.}}
+        detail = dict(FixtureAPI.detail(900), created_by=[{"id": 55}])  # police keyword 2, cast 123
+        adjusted, normalised = apply_dismissal_signal(scores, [(detail, NOW.isoformat())], NOW)
+        for untouched in ("genres", "eras", "countries"):
+            self.assertEqual(adjusted[untouched], scores[untouched])
+        self.assertAlmostEqual(adjusted["keywords"][2], 2. - .2 * .7)
+        self.assertAlmostEqual(adjusted["cast"][123], 3. - .2 * .9)
+        self.assertAlmostEqual(adjusted["directors"][55], -.2 * .9)
+        self.assertLess(normalised["directors"][55], 0)  # an otherwise unknown creator turns negative
+        self.assertEqual(normalised["keywords"][1], 1.)
+        self.assertEqual(scores["keywords"][2], 2.)  # the input is not changed
+        # An old listing fades like an old watch, to a tenth.
+        old, _ = apply_dismissal_signal(scores, [(detail, (NOW - timedelta(days=400)).isoformat())], NOW)
+        self.assertAlmostEqual(old["keywords"][2], 2. - .2 * .1 * .7)
 
 
 class UpcomingContracts(unittest.TestCase):
