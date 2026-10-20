@@ -1,6 +1,19 @@
 {
   "metas": [
     {
+      "id": "tt3948836",
+      "type": "series",
+      "name": "Major Crimes Unit",
+      "poster": "https://image.tmdb.org/t/p/w500/33x5tDTyUWM4kvqn7D9NaI2AhNq.jpg",
+      "posterShape": "poster",
+      "description": "With unprecedented access to West Midlands Police’s elite crime-fighting unit, this series follows investigators as they race against time to track suspects, uncover the truth, and deliver justice for victims and their families.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/uRUioWgXuTQMw19dE0Cw6ThUC1R.jpg"
+    },
+    {
       "id": "tt48388084",
       "type": "series",
       "name": "The Incident Room",
@@ -69,19 +82,6 @@
         "Crime"
       ],
       "background": "https://image.tmdb.org/t/p/w1280/lxL38Yq8mmxt6QIvXUGfMdA7kAn.jpg"
-    },
-    {
-      "id": "tt3948836",
-      "type": "series",
-      "name": "Major Crimes Unit",
-      "poster": "https://image.tmdb.org/t/p/w500/33x5tDTyUWM4kvqn7D9NaI2AhNq.jpg",
-      "posterShape": "poster",
-      "description": "With unprecedented access to West Midlands Police’s elite crime-fighting unit, this series follows investigators as they race against time to track suspects, uncover the truth, and deliver justice for victims and their families.",
-      "releaseInfo": "2026",
-      "genres": [
-        "Documentary"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/uRUioWgXuTQMw19dE0Cw6ThUC1R.jpg"
     },
     {
       "id": "tmdb:245753",
