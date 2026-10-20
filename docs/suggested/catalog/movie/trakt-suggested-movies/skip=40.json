@@ -75,21 +75,6 @@
       "imdb_id": "tt32537226"
     },
     {
-      "id": "tt12593682",
-      "type": "movie",
-      "name": "Bullet Train",
-      "poster": "https://image.tmdb.org/t/p/w500/j8szC8OgrejDQjjMKSVXyaAjw3V.jpg",
-      "posterShape": "poster",
-      "description": "Unlucky assassin Ladybug is determined to do his job peacefully after one too many gigs gone off the rails. Fate, however, may have other plans, as Ladybug's latest mission puts him on a collision course with lethal adversaries from around the globe—all with connected, yet conflicting, objectives—on the world's fastest train.",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt12593682"
-    },
-    {
       "id": "tt31189814",
       "type": "movie",
       "name": "Fuze",
@@ -103,6 +88,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt31189814"
+    },
+    {
+      "id": "tt12593682",
+      "type": "movie",
+      "name": "Bullet Train",
+      "poster": "https://image.tmdb.org/t/p/w500/j8szC8OgrejDQjjMKSVXyaAjw3V.jpg",
+      "posterShape": "poster",
+      "description": "Unlucky assassin Ladybug is determined to do his job peacefully after one too many gigs gone off the rails. Fate, however, may have other plans, as Ladybug's latest mission puts him on a collision course with lethal adversaries from around the globe—all with connected, yet conflicting, objectives—on the world's fastest train.",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Thriller"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt12593682"
     },
     {
       "id": "tt0361748",

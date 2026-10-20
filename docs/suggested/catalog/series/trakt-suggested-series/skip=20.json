@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt8080122",
-      "type": "series",
-      "name": "Godfather of Harlem",
-      "poster": "https://image.tmdb.org/t/p/w500/avhyzJycLNi3nXov2lREhDkP3ik.jpg",
-      "posterShape": "poster",
-      "description": "Loosely based on infamous crime boss Bumpy Johnson, who in the early 1960s returned from ten years in prison to find the neighborhood he once ruled in shambles. With the streets controlled by the Italian mob, Bumpy attempts to regain his piece of Harlem.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8080122"
-    },
-    {
       "id": "tt5574490",
       "type": "series",
       "name": "Animal Kingdom",
@@ -29,20 +15,6 @@
       "imdb_id": "tt5574490"
     },
     {
-      "id": "tt10732104",
-      "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
-      "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
-    },
-    {
       "id": "tt1489428",
       "type": "series",
       "name": "Justified",
@@ -55,6 +27,20 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1489428"
+    },
+    {
+      "id": "tt10732104",
+      "type": "series",
+      "name": "Power Book II: Ghost",
+      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "posterShape": "poster",
+      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10732104"
     },
     {
       "id": "tt20285780",
@@ -72,6 +58,20 @@
       "imdb_id": "tt20285780"
     },
     {
+      "id": "tt6517320",
+      "type": "series",
+      "name": "Too Old to Die Young",
+      "poster": "https://image.tmdb.org/t/p/w500/xGBwXf02Mu2zzqxh6TomLC7xfk7.jpg",
+      "posterShape": "poster",
+      "description": "In one tragic night, Los Angeles County Sheriff's Deputy Martin Jones's life is blown apart, and he is forced into a deadly underground of Cartel soldiers, Yakuza assassins, and mysterious vigilantes. Soon he finds himself lost on a surreal odyssey of murder, mysticism and vengeance, as his past sins close in on him.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt6517320"
+    },
+    {
       "id": "tt34771210",
       "type": "series",
       "name": "I Will Find You",
@@ -85,20 +85,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt34771210"
-    },
-    {
-      "id": "tt6517320",
-      "type": "series",
-      "name": "Too Old to Die Young",
-      "poster": "https://image.tmdb.org/t/p/w500/xGBwXf02Mu2zzqxh6TomLC7xfk7.jpg",
-      "posterShape": "poster",
-      "description": "In one tragic night, Los Angeles County Sheriff's Deputy Martin Jones's life is blown apart, and he is forced into a deadly underground of Cartel soldiers, Yakuza assassins, and mysterious vigilantes. Soon he finds himself lost on a surreal odyssey of murder, mysticism and vengeance, as his past sins close in on him.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt6517320"
     },
     {
       "id": "tt3032476",
@@ -115,20 +101,6 @@
       "imdb_id": "tt3032476"
     },
     {
-      "id": "tt33253070",
-      "type": "series",
-      "name": "M.I.A.",
-      "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
-      "posterShape": "poster",
-      "description": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33253070"
-    },
-    {
       "id": "tt0903747",
       "type": "series",
       "name": "Breaking Bad",
@@ -143,6 +115,20 @@
       "imdb_id": "tt0903747"
     },
     {
+      "id": "tt33253070",
+      "type": "series",
+      "name": "M.I.A.",
+      "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+      "posterShape": "poster",
+      "description": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33253070"
+    },
+    {
       "id": "tt5011816",
       "type": "series",
       "name": "Sneaky Pete",
@@ -155,6 +141,20 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt5011816"
+    },
+    {
+      "id": "tt1124373",
+      "type": "series",
+      "name": "Sons of Anarchy",
+      "poster": "https://image.tmdb.org/t/p/w500/yPLkf4EiCkR0NOvMfmpHMA2zfN3.jpg",
+      "posterShape": "poster",
+      "description": "The Sons of Anarchy (SOA) are an outlaw motorcycle club with many charters in the United States and overseas. The show focused on the original and founding charter, Sons of Anarchy Motorcycle Club, Redwood Original, often referred to by the acronym SAMCRO, Sam Crow, or simply Redwood Charter. The charter operates both legal and illegal businesses in the small town of Charming, California. They combine gun-running and a garage, and involvement in porn film industry. Clay, the charter president, likes it old school and violent; while Jax, his stepson and the club's VP, has thoughts about changing the way things are done. Their conflict has effects on both the club and their personal relationship, especially when Jax goes on a personal quest to cleanse the SAMCRO name and image.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2008",
+      "imdb_id": "tt1124373"
     },
     {
       "id": "tt6037988",
@@ -172,20 +172,6 @@
       "imdb_id": "tt6037988"
     },
     {
-      "id": "tt1124373",
-      "type": "series",
-      "name": "Sons of Anarchy",
-      "poster": "https://image.tmdb.org/t/p/w500/yPLkf4EiCkR0NOvMfmpHMA2zfN3.jpg",
-      "posterShape": "poster",
-      "description": "The Sons of Anarchy (SOA) are an outlaw motorcycle club with many charters in the United States and overseas. The show focused on the original and founding charter, Sons of Anarchy Motorcycle Club, Redwood Original, often referred to by the acronym SAMCRO, Sam Crow, or simply Redwood Charter. The charter operates both legal and illegal businesses in the small town of Charming, California. They combine gun-running and a garage, and involvement in porn film industry. Clay, the charter president, likes it old school and violent; while Jax, his stepson and the club's VP, has thoughts about changing the way things are done. Their conflict has effects on both the club and their personal relationship, especially when Jax goes on a personal quest to cleanse the SAMCRO name and image.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt1124373"
-    },
-    {
       "id": "tt0141842",
       "type": "series",
       "name": "The Sopranos",
@@ -198,6 +184,20 @@
       ],
       "releaseInfo": "1999",
       "imdb_id": "tt0141842"
+    },
+    {
+      "id": "tt1625724",
+      "type": "series",
+      "name": "Love/Hate",
+      "poster": "https://image.tmdb.org/t/p/w500/oLnOU5wYp7I6egnI6lzAIWOqS1D.jpg",
+      "posterShape": "poster",
+      "description": "Modern-day underworld characters Nidge and John Boy wrestle for control of Dublin's illicit drug trade in this forceful crime drama.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1625724"
     },
     {
       "id": "tt5611024",
@@ -215,32 +215,19 @@
       "imdb_id": "tt5611024"
     },
     {
-      "id": "tt1625724",
+      "id": "tt1958961",
       "type": "series",
-      "name": "Love/Hate",
-      "poster": "https://image.tmdb.org/t/p/w500/oLnOU5wYp7I6egnI6lzAIWOqS1D.jpg",
+      "name": "Lilyhammer",
+      "poster": "https://image.tmdb.org/t/p/w500/o5I2D5oeIEafpyFw30v11AwkhnB.jpg",
       "posterShape": "poster",
-      "description": "Modern-day underworld characters Nidge and John Boy wrestle for control of Dublin's illicit drug trade in this forceful crime drama.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1625724"
-    },
-    {
-      "id": "tt0805661",
-      "type": "series",
-      "name": "The Black Donnellys",
-      "poster": "https://image.tmdb.org/t/p/w500/hRKjeP8laTHS9q5cJA046DJa5kA.jpg",
-      "posterShape": "poster",
-      "description": "Meet the Donnelly brothers: Tommy, Jimmy, Kevin and Sean. There is nothing these four Irish brothers wouldn't do to protect each other, and for them that means lying, cheating, stealing and, occasionally, calling the cops. Narrated by wannabe gangster Joey \"Ice Cream,\" this gritty series bears witness to the Donnelly brothers' sudden involvement in organized crime, focusing on how they go from boys to mobsters, and showing how their new life affects their relationships with friends, family and lovers.",
+      "description": "After Frank The Fixer Tagliano testifies against his Mafia boss in New York, he enters the Witness Protection Program and makes an unusual demand: he wants to be set up with a new life in the Norwegian small town of Lillehammer or as he calls it, Lilyhammer.",
       "genres": [
         "Drama",
+        "Comedy",
         "Crime"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0805661"
+      "releaseInfo": "2012",
+      "imdb_id": "tt1958961"
     },
     {
       "id": "tt34675596",
@@ -257,21 +244,6 @@
       "imdb_id": "tt34675596"
     },
     {
-      "id": "tt1958961",
-      "type": "series",
-      "name": "Lilyhammer",
-      "poster": "https://image.tmdb.org/t/p/w500/o5I2D5oeIEafpyFw30v11AwkhnB.jpg",
-      "posterShape": "poster",
-      "description": "After Frank The Fixer Tagliano testifies against his Mafia boss in New York, he enters the Witness Protection Program and makes an unusual demand: he wants to be set up with a new life in the Norwegian small town of Lillehammer or as he calls it, Lilyhammer.",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Crime"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1958961"
-    },
-    {
       "id": "tt14466018",
       "type": "series",
       "name": "Blue Lights",
@@ -284,6 +256,35 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt14466018"
+    },
+    {
+      "id": "tt11110622",
+      "type": "series",
+      "name": "White House Farm",
+      "poster": "https://image.tmdb.org/t/p/w500/nZRFhpDUlGM37BBBYAWhznNxUH7.jpg",
+      "posterShape": "poster",
+      "description": "Factual drama based on the notorious White House Farm murders, and the ensuing police investigation and court case.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11110622"
+    },
+    {
+      "id": "tt4276618",
+      "type": "series",
+      "name": "Strike",
+      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
+      "posterShape": "poster",
+      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt4276618"
     }
   ]
 }

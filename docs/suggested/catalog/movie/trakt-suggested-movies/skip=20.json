@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt31049299",
+      "type": "movie",
+      "name": "Animals",
+      "poster": "https://image.tmdb.org/t/p/w500/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
+      "posterShape": "poster",
+      "description": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day.",
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31049299"
+    },
+    {
       "id": "tt31195136",
       "type": "movie",
       "name": "Normal",
@@ -14,20 +28,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt31195136"
-    },
-    {
-      "id": "tt31049299",
-      "type": "movie",
-      "name": "Animals",
-      "poster": "https://image.tmdb.org/t/p/w500/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
-      "posterShape": "poster",
-      "description": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day.",
-      "genres": [
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31049299"
     },
     {
       "id": "tt32338669",
@@ -132,6 +132,20 @@
       "imdb_id": "tt0369339"
     },
     {
+      "id": "tt38672588",
+      "type": "movie",
+      "name": "Masterplan",
+      "poster": "https://image.tmdb.org/t/p/w500/5xmXVd7nCK3tAo34XkO58SxUCip.jpg",
+      "posterShape": "poster",
+      "description": "When a legendary thief sets his sights on the Mona Lisa, he recruits two young strangers to help him before revealing they are long-lost siblings… and oh yes, by the way, he is their father. Thrown into a chaotic reunion they never asked for, this new family must learn to work together — and try not to kill each other — if they want any chance at pulling off the heist of the century.",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt38672588"
+    },
+    {
       "id": "tt17024450",
       "type": "movie",
       "name": "The Equalizer 3",
@@ -145,20 +159,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt17024450"
-    },
-    {
-      "id": "tt38672588",
-      "type": "movie",
-      "name": "Masterplan",
-      "poster": "https://image.tmdb.org/t/p/w500/5xmXVd7nCK3tAo34XkO58SxUCip.jpg",
-      "posterShape": "poster",
-      "description": "When a legendary thief sets his sights on the Mona Lisa, he recruits two young strangers to help him before revealing they are long-lost siblings… and oh yes, by the way, he is their father. Thrown into a chaotic reunion they never asked for, this new family must learn to work together — and try not to kill each other — if they want any chance at pulling off the heist of the century.",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt38672588"
     },
     {
       "id": "tt0209144",
