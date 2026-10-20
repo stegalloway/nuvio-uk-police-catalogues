@@ -176,20 +176,6 @@
       "imdb_id": "tt2481498"
     },
     {
-      "id": "tt0401792",
-      "type": "movie",
-      "name": "Sin City",
-      "poster": "https://image.tmdb.org/t/p/w500/i66G50wATMmPrvpP95f0XP6ZdVS.jpg",
-      "posterShape": "poster",
-      "description": "Welcome to Sin City. This town beckons to the tough, the corrupt, the brokenhearted. Some call it dark… Hard-boiled. Then there are those who call it home — Crooked cops, sexy dames, desperate vigilantes. Some are seeking revenge, others lust after redemption, and then there are those hoping for a little of both. A universe of unlikely and reluctant heroes still trying to do the right thing in a city that refuses to care.",
-      "genres": [
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0401792"
-    },
-    {
       "id": "tt37971717",
       "type": "movie",
       "name": "One Last Shot",
@@ -219,21 +205,6 @@
       "imdb_id": "tt0117381"
     },
     {
-      "id": "tt0144117",
-      "type": "movie",
-      "name": "The Boondock Saints",
-      "poster": "https://image.tmdb.org/t/p/w500/wtLUmkWg41xFLpvmUWAN1mm65f6.jpg",
-      "posterShape": "poster",
-      "description": "Tired of the crime overrunning the streets of Boston, Irish Catholic twin brothers Conner and Murphy are inspired by their faith to cleanse their hometown of evil with their own brand of zealous vigilante justice. As they hunt down and kill one notorious gangster after another, they become controversial folk heroes in the community. But Paul Smecker, an eccentric FBI agent, is fast closing in on their blood-soaked trail.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "1999",
-      "imdb_id": "tt0144117"
-    },
-    {
       "id": "tt1130884",
       "type": "movie",
       "name": "Shutter Island",
@@ -247,6 +218,21 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1130884"
+    },
+    {
+      "id": "tt0144117",
+      "type": "movie",
+      "name": "The Boondock Saints",
+      "poster": "https://image.tmdb.org/t/p/w500/wtLUmkWg41xFLpvmUWAN1mm65f6.jpg",
+      "posterShape": "poster",
+      "description": "Tired of the crime overrunning the streets of Boston, Irish Catholic twin brothers Conner and Murphy are inspired by their faith to cleanse their hometown of evil with their own brand of zealous vigilante justice. As they hunt down and kill one notorious gangster after another, they become controversial folk heroes in the community. But Paul Smecker, an eccentric FBI agent, is fast closing in on their blood-soaked trail.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "1999",
+      "imdb_id": "tt0144117"
     },
     {
       "id": "tt7131622",
@@ -293,6 +279,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt36042156"
+    },
+    {
+      "id": "tt32430579",
+      "type": "movie",
+      "name": "Crime 101",
+      "poster": "https://image.tmdb.org/t/p/w500/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg",
+      "posterShape": "poster",
+      "description": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32430579"
     }
   ]
 }
