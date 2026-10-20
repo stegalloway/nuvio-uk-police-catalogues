@@ -144,21 +144,6 @@
       "imdb_id": "tt32499731"
     },
     {
-      "id": "tt36849871",
-      "type": "series",
-      "name": "Marshals",
-      "poster": "https://image.tmdb.org/t/p/w500/zV1MRb6eqx6Uj3NSXquZFfz75pa.jpg",
-      "posterShape": "poster",
-      "description": "With the Yellowstone Ranch behind him, Kayce Dutton joins an elite unit of U.S. Marshals, combining his skills as a cowboy and Navy SEAL to bring range justice to Montana, where he and his teammates must balance family, duty and the high psychological cost that comes with serving as the last line of defense in the region's war on violence.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36849871"
-    },
-    {
       "id": "tt10155688",
       "type": "series",
       "name": "Mare of Easttown",
@@ -287,6 +272,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33035373"
+    },
+    {
+      "id": "tt14582876",
+      "type": "series",
+      "name": "On Call",
+      "poster": "https://image.tmdb.org/t/p/w500/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
+      "posterShape": "poster",
+      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt14582876"
     }
   ]
 }
