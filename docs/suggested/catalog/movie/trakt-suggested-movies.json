@@ -118,21 +118,6 @@
       "imdb_id": "tt0112641"
     },
     {
-      "id": "tt11083552",
-      "type": "movie",
-      "name": "Wrath of Man",
-      "poster": "https://image.tmdb.org/t/p/w500/M7SUK85sKjaStg4TKhlAVyGlz3.jpg",
-      "posterShape": "poster",
-      "description": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
-      "genres": [
-        "Thriller",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11083552"
-    },
-    {
       "id": "tt0372183",
       "type": "movie",
       "name": "The Bourne Supremacy",
@@ -146,6 +131,21 @@
       ],
       "releaseInfo": "2004",
       "imdb_id": "tt0372183"
+    },
+    {
+      "id": "tt11083552",
+      "type": "movie",
+      "name": "Wrath of Man",
+      "poster": "https://image.tmdb.org/t/p/w500/M7SUK85sKjaStg4TKhlAVyGlz3.jpg",
+      "posterShape": "poster",
+      "description": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11083552"
     },
     {
       "id": "tt0102926",
