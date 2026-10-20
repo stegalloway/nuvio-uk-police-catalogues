@@ -229,18 +229,18 @@
       "imdb_id": "tt0141842"
     },
     {
-      "id": "tt0805661",
+      "id": "tt1625724",
       "type": "series",
-      "name": "The Black Donnellys",
-      "poster": "https://image.tmdb.org/t/p/w500/hRKjeP8laTHS9q5cJA046DJa5kA.jpg",
+      "name": "Love/Hate",
+      "poster": "https://image.tmdb.org/t/p/w500/oLnOU5wYp7I6egnI6lzAIWOqS1D.jpg",
       "posterShape": "poster",
-      "description": "Meet the Donnelly brothers: Tommy, Jimmy, Kevin and Sean. There is nothing these four Irish brothers wouldn't do to protect each other, and for them that means lying, cheating, stealing and, occasionally, calling the cops. Narrated by wannabe gangster Joey \"Ice Cream,\" this gritty series bears witness to the Donnelly brothers' sudden involvement in organized crime, focusing on how they go from boys to mobsters, and showing how their new life affects their relationships with friends, family and lovers.",
+      "description": "Modern-day underworld characters Nidge and John Boy wrestle for control of Dublin's illicit drug trade in this forceful crime drama.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0805661"
+      "releaseInfo": "2010",
+      "imdb_id": "tt1625724"
     },
     {
       "id": "tt34675596",
@@ -257,6 +257,20 @@
       "imdb_id": "tt34675596"
     },
     {
+      "id": "tt0805661",
+      "type": "series",
+      "name": "The Black Donnellys",
+      "poster": "https://image.tmdb.org/t/p/w500/hRKjeP8laTHS9q5cJA046DJa5kA.jpg",
+      "posterShape": "poster",
+      "description": "Meet the Donnelly brothers: Tommy, Jimmy, Kevin and Sean. There is nothing these four Irish brothers wouldn't do to protect each other, and for them that means lying, cheating, stealing and, occasionally, calling the cops. Narrated by wannabe gangster Joey \"Ice Cream,\" this gritty series bears witness to the Donnelly brothers' sudden involvement in organized crime, focusing on how they go from boys to mobsters, and showing how their new life affects their relationships with friends, family and lovers.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0805661"
+    },
+    {
       "id": "tt1958961",
       "type": "series",
       "name": "Lilyhammer",
@@ -270,20 +284,6 @@
       ],
       "releaseInfo": "2012",
       "imdb_id": "tt1958961"
-    },
-    {
-      "id": "tt14466018",
-      "type": "series",
-      "name": "Blue Lights",
-      "poster": "https://image.tmdb.org/t/p/w500/3C3c40DH8M6qdECHLlxk8o5nrC0.jpg",
-      "posterShape": "poster",
-      "description": "Follows rookie police officers working in Belfast, a city in which being a frontline response cop comes with unique pressures and dangers.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14466018"
     }
   ]
 }
