@@ -218,20 +218,6 @@
       "imdb_id": "tt1229238"
     },
     {
-      "id": "tt7526136",
-      "type": "movie",
-      "name": "Heart of the Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
-      "posterShape": "poster",
-      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "genres": [
-        "Adventure",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt7526136"
-    },
-    {
       "id": "tt0144084",
       "type": "movie",
       "name": "American Psycho",
@@ -245,6 +231,20 @@
       ],
       "releaseInfo": "2000",
       "imdb_id": "tt0144084"
+    },
+    {
+      "id": "tt7526136",
+      "type": "movie",
+      "name": "Heart of the Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+      "posterShape": "poster",
+      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "genres": [
+        "Adventure",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt7526136"
     },
     {
       "id": "tt30144839",
