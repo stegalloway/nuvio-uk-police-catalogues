@@ -1,6 +1,50 @@
 {
   "metas": [
     {
+      "id": "tt0070379",
+      "type": "movie",
+      "name": "Mean Streets",
+      "poster": "https://image.tmdb.org/t/p/w500/9msfwOeGc9uL1iRRTBdEf15XonC.jpg",
+      "posterShape": "poster",
+      "description": "A small-time hood must choose from among love, friendship and the chance to rise within the mob.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "1973",
+      "imdb_id": "tt0070379"
+    },
+    {
+      "id": "tt33296751",
+      "type": "movie",
+      "name": "Tuner",
+      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
+      "posterShape": "poster",
+      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33296751"
+    },
+    {
+      "id": "tt2582802",
+      "type": "movie",
+      "name": "Whiplash",
+      "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+      "posterShape": "poster",
+      "description": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
+      "genres": [
+        "Drama",
+        "Music",
+        "Thriller"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2582802"
+    },
+    {
       "id": "tt0258463",
       "type": "movie",
       "name": "The Bourne Identity",
@@ -59,51 +103,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt2382320"
-    },
-    {
-      "id": "tt0203119",
-      "type": "movie",
-      "name": "Sexy Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/xTfCZTzhgHNAR1pf5D49WH4buI5.jpg",
-      "posterShape": "poster",
-      "description": "Ex-safecracker Gal Dove has served his time behind bars and is blissfully retired to a Spanish villa paradise with a wife he adores. The idyll is shattered by the arrival of his nemesis Don Logan, intent on persuading Gal to return to London for one last big job.",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "2001",
-      "imdb_id": "tt0203119"
-    },
-    {
-      "id": "tt0425210",
-      "type": "movie",
-      "name": "Lucky Number Slevin",
-      "poster": "https://image.tmdb.org/t/p/w500/x21s3p5wPww534nYj1cWakTcqz4.jpg",
-      "posterShape": "poster",
-      "description": "Slevin is mistakenly put in the middle of a personal war between the city’s biggest criminal bosses. Under constant watch, Slevin must try not to get killed by an infamous assassin and come up with an idea of how to get out of his current dilemma.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2006",
-      "imdb_id": "tt0425210"
-    },
-    {
-      "id": "tt31450182",
-      "type": "movie",
-      "name": "Amber Alert",
-      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
-      "posterShape": "poster",
-      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
-      "genres": [
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31450182"
     }
   ]
 }

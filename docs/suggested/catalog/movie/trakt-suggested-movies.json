@@ -46,6 +46,20 @@
       "imdb_id": "tt0101540"
     },
     {
+      "id": "tt0150742",
+      "type": "movie",
+      "name": "The Godfather Trilogy: 1901-1980",
+      "poster": "https://image.tmdb.org/t/p/w500/w9KSuRoUPyWOIoybwW7zyYoHhsF.jpg",
+      "posterShape": "poster",
+      "description": "Following the release of Part III in 1990, Coppola, Barry Malkin, and Walter Murch edited the three films into chronological order to create this nearly ten-hour epic, incorporating scenes not part of the theatrical releases.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "1992",
+      "imdb_id": "tt0150742"
+    },
+    {
       "id": "tt0266697",
       "type": "movie",
       "name": "Kill Bill: Vol. 1",
@@ -278,20 +292,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt36042156"
-    },
-    {
-      "id": "tt32430579",
-      "type": "movie",
-      "name": "Crime 101",
-      "poster": "https://image.tmdb.org/t/p/w500/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg",
-      "posterShape": "poster",
-      "description": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
-      "genres": [
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32430579"
     }
   ]
 }
