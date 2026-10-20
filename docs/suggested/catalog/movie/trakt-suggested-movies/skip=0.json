@@ -89,6 +89,20 @@
       "imdb_id": "tt7181546"
     },
     {
+      "id": "tt0112641",
+      "type": "movie",
+      "name": "Casino",
+      "poster": "https://image.tmdb.org/t/p/w500/gziIkUSnYuj9ChCi8qOu2ZunpSC.jpg",
+      "posterShape": "poster",
+      "description": "In Las Vegas, two best friends-a casino executive and a Mafia enforcer--compete for a gambling empire and a fast-living, fast-loving socialite.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "1995",
+      "imdb_id": "tt0112641"
+    },
+    {
       "id": "tt0106519",
       "type": "movie",
       "name": "Carlito's Way",
@@ -102,20 +116,6 @@
       ],
       "releaseInfo": "1993",
       "imdb_id": "tt0106519"
-    },
-    {
-      "id": "tt0112641",
-      "type": "movie",
-      "name": "Casino",
-      "poster": "https://image.tmdb.org/t/p/w500/gziIkUSnYuj9ChCi8qOu2ZunpSC.jpg",
-      "posterShape": "poster",
-      "description": "In Las Vegas, two best friends-a casino executive and a Mafia enforcer--compete for a gambling empire and a fast-living, fast-loving socialite.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "1995",
-      "imdb_id": "tt0112641"
     },
     {
       "id": "tt11083552",
@@ -190,21 +190,6 @@
       "imdb_id": "tt37971717"
     },
     {
-      "id": "tt0117381",
-      "type": "movie",
-      "name": "Primal Fear",
-      "poster": "https://image.tmdb.org/t/p/w500/qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
-      "posterShape": "poster",
-      "description": "Defense attorney Martin Vail takes on jobs for money and prestige rather than any sense of the greater good. His latest case involves an altar boy, accused of brutally murdering the archbishop of Chicago. Vail finds himself up against his ex-pupil and ex-lover, but as the case progresses and the Church's dark secrets are revealed, Vail finds that what appeared a simple case takes on a darker, more dangerous aspect.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "1996",
-      "imdb_id": "tt0117381"
-    },
-    {
       "id": "tt1130884",
       "type": "movie",
       "name": "Shutter Island",
@@ -218,6 +203,21 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1130884"
+    },
+    {
+      "id": "tt0117381",
+      "type": "movie",
+      "name": "Primal Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+      "posterShape": "poster",
+      "description": "Defense attorney Martin Vail takes on jobs for money and prestige rather than any sense of the greater good. His latest case involves an altar boy, accused of brutally murdering the archbishop of Chicago. Vail finds himself up against his ex-pupil and ex-lover, but as the case progresses and the Church's dark secrets are revealed, Vail finds that what appeared a simple case takes on a darker, more dangerous aspect.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "1996",
+      "imdb_id": "tt0117381"
     },
     {
       "id": "tt0144117",
