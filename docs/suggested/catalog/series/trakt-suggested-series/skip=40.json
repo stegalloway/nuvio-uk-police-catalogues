@@ -1,34 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt34675596",
-      "type": "series",
-      "name": "Cape Fear",
-      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
-      "posterShape": "poster",
-      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34675596"
-    },
-    {
-      "id": "tt11110622",
-      "type": "series",
-      "name": "White House Farm",
-      "poster": "https://image.tmdb.org/t/p/w500/nZRFhpDUlGM37BBBYAWhznNxUH7.jpg",
-      "posterShape": "poster",
-      "description": "Factual drama based on the notorious White House Farm murders, and the ensuing police investigation and court case.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11110622"
-    },
-    {
       "id": "tt4276618",
       "type": "series",
       "name": "Strike",
@@ -113,6 +85,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt30459041"
+    },
+    {
+      "id": "tt13875494",
+      "type": "series",
+      "name": "Tracker",
+      "poster": "https://image.tmdb.org/t/p/w500/otula4h1ITZ0eV84eg7Lb8u614C.jpg",
+      "posterShape": "poster",
+      "description": "Lone-wolf survivalist Colter Shaw roams the country as a “reward seeker,” using his expert tracking skills to help private citizens and law enforcement solve all manner of mysteries while contending with his own fractured family.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt13875494"
     },
     {
       "id": "tt26862142",
@@ -286,6 +272,21 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1475582"
+    },
+    {
+      "id": "tt33035373",
+      "type": "series",
+      "name": "HIS & HERS",
+      "poster": "https://image.tmdb.org/t/p/w500/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
+      "posterShape": "poster",
+      "description": "Two estranged spouses — one a detective, the other a news reporter — vie to solve a murder in which each believes the other is a prime suspect.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33035373"
     }
   ]
 }

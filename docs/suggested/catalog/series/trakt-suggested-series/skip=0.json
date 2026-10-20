@@ -29,20 +29,6 @@
       "imdb_id": "tt6271042"
     },
     {
-      "id": "tt3956604",
-      "type": "series",
-      "name": "The Driver",
-      "poster": "https://image.tmdb.org/t/p/w500/jeveGKPiqqUbWptQLmsGpbDZk4c.jpg",
-      "posterShape": "poster",
-      "description": "The Driver is a three-part British crime drama serial aired on BBC One between 23 September and 7 October 2014. Written by Danny Brocklehurst and directed by Jamie Payne, it stars David Morrissey as despondent cab driver Vince McKee, whose life is turned upside down when he agrees to be the driver for a criminal gang.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt3956604"
-    },
-    {
       "id": "tt11646832",
       "type": "series",
       "name": "The Outlaws",
@@ -56,6 +42,20 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11646832"
+    },
+    {
+      "id": "tt1625724",
+      "type": "series",
+      "name": "Love/Hate",
+      "poster": "https://image.tmdb.org/t/p/w500/oLnOU5wYp7I6egnI6lzAIWOqS1D.jpg",
+      "posterShape": "poster",
+      "description": "Modern-day underworld characters Nidge and John Boy wrestle for control of Dublin's illicit drug trade in this forceful crime drama.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1625724"
     },
     {
       "id": "tt7661390",
@@ -229,18 +229,18 @@
       "imdb_id": "tt2707408"
     },
     {
-      "id": "tt13875494",
+      "id": "tt35515227",
       "type": "series",
-      "name": "Tracker",
-      "poster": "https://image.tmdb.org/t/p/w500/otula4h1ITZ0eV84eg7Lb8u614C.jpg",
+      "name": "CIA",
+      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
       "posterShape": "poster",
-      "description": "Lone-wolf survivalist Colter Shaw roams the country as a “reward seeker,” using his expert tracking skills to help private citizens and law enforcement solve all manner of mysteries while contending with his own fractured family.",
+      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt13875494"
+      "releaseInfo": "2026",
+      "imdb_id": "tt35515227"
     },
     {
       "id": "tt8714904",
@@ -271,18 +271,18 @@
       "imdb_id": "tt5715524"
     },
     {
-      "id": "tt35515227",
+      "id": "tt9742936",
       "type": "series",
-      "name": "CIA",
-      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
+      "name": "FBI: Most Wanted",
+      "poster": "https://image.tmdb.org/t/p/w500/uwTNBqFrEur3EtK8ofWbtGXMQOP.jpg",
       "posterShape": "poster",
-      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
+      "description": "The Fugitive Task Force relentlessly tracks and captures the notorious criminals on the Bureau's Most Wanted list. Seasoned agents oversee the highly skilled team that functions as a mobile undercover unit that is always out in the field, pursuing those who are most desperate to elude justice.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35515227"
+      "releaseInfo": "2020",
+      "imdb_id": "tt9742936"
     }
   ]
 }

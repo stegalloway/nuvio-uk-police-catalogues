@@ -29,18 +29,18 @@
       "imdb_id": "tt1064899"
     },
     {
-      "id": "tt9742936",
+      "id": "tt10732104",
       "type": "series",
-      "name": "FBI: Most Wanted",
-      "poster": "https://image.tmdb.org/t/p/w500/uwTNBqFrEur3EtK8ofWbtGXMQOP.jpg",
+      "name": "Power Book II: Ghost",
+      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
       "posterShape": "poster",
-      "description": "The Fugitive Task Force relentlessly tracks and captures the notorious criminals on the Bureau's Most Wanted list. Seasoned agents oversee the highly skilled team that functions as a mobile undercover unit that is always out in the field, pursuing those who are most desperate to elude justice.",
+      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
       "genres": [
         "Crime",
         "Drama"
       ],
       "releaseInfo": "2020",
-      "imdb_id": "tt9742936"
+      "imdb_id": "tt10732104"
     },
     {
       "id": "tt5574490",
@@ -71,18 +71,19 @@
       "imdb_id": "tt1489428"
     },
     {
-      "id": "tt10732104",
+      "id": "tt34771210",
       "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "name": "I Will Find You",
+      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
       "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Mystery",
+        "Crime"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
+      "releaseInfo": "2026",
+      "imdb_id": "tt34771210"
     },
     {
       "id": "tt20285780",
@@ -114,19 +115,18 @@
       "imdb_id": "tt6517320"
     },
     {
-      "id": "tt34771210",
+      "id": "tt33253070",
       "type": "series",
-      "name": "I Will Find You",
-      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
+      "name": "M.I.A.",
+      "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
       "posterShape": "poster",
-      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
+      "description": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
       "genres": [
         "Drama",
-        "Mystery",
         "Crime"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt34771210"
+      "imdb_id": "tt33253070"
     },
     {
       "id": "tt3032476",
@@ -157,18 +157,19 @@
       "imdb_id": "tt5011816"
     },
     {
-      "id": "tt33253070",
+      "id": "tt5611024",
       "type": "series",
-      "name": "M.I.A.",
-      "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+      "name": "Fool Me Once",
+      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
       "posterShape": "poster",
-      "description": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
+      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
       "genres": [
         "Drama",
-        "Crime"
+        "Crime",
+        "Mystery"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33253070"
+      "releaseInfo": "2024",
+      "imdb_id": "tt5611024"
     },
     {
       "id": "tt1124373",
@@ -199,19 +200,19 @@
       "imdb_id": "tt0903747"
     },
     {
-      "id": "tt5611024",
+      "id": "tt6037988",
       "type": "series",
-      "name": "Fool Me Once",
-      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "name": "Last Seen",
+      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
       "posterShape": "poster",
-      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
       "genres": [
-        "Drama",
         "Crime",
+        "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5611024"
+      "releaseInfo": "2026",
+      "imdb_id": "tt6037988"
     },
     {
       "id": "tt0141842",
@@ -228,35 +229,6 @@
       "imdb_id": "tt0141842"
     },
     {
-      "id": "tt1625724",
-      "type": "series",
-      "name": "Love/Hate",
-      "poster": "https://image.tmdb.org/t/p/w500/oLnOU5wYp7I6egnI6lzAIWOqS1D.jpg",
-      "posterShape": "poster",
-      "description": "Modern-day underworld characters Nidge and John Boy wrestle for control of Dublin's illicit drug trade in this forceful crime drama.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1625724"
-    },
-    {
-      "id": "tt6037988",
-      "type": "series",
-      "name": "Last Seen",
-      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
-      "posterShape": "poster",
-      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt6037988"
-    },
-    {
       "id": "tt0805661",
       "type": "series",
       "name": "The Black Donnellys",
@@ -269,6 +241,20 @@
       ],
       "releaseInfo": "2007",
       "imdb_id": "tt0805661"
+    },
+    {
+      "id": "tt34675596",
+      "type": "series",
+      "name": "Cape Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
+      "posterShape": "poster",
+      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34675596"
     },
     {
       "id": "tt1958961",
@@ -284,6 +270,20 @@
       ],
       "releaseInfo": "2012",
       "imdb_id": "tt1958961"
+    },
+    {
+      "id": "tt11110622",
+      "type": "series",
+      "name": "White House Farm",
+      "poster": "https://image.tmdb.org/t/p/w500/nZRFhpDUlGM37BBBYAWhznNxUH7.jpg",
+      "posterShape": "poster",
+      "description": "Factual drama based on the notorious White House Farm murders, and the ensuing police investigation and court case.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11110622"
     }
   ]
 }
