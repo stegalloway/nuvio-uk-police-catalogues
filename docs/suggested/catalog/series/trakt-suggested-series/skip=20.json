@@ -1,6 +1,48 @@
 {
   "metas": [
     {
+      "id": "tt8080122",
+      "type": "series",
+      "name": "Godfather of Harlem",
+      "poster": "https://image.tmdb.org/t/p/w500/avhyzJycLNi3nXov2lREhDkP3ik.jpg",
+      "posterShape": "poster",
+      "description": "Loosely based on infamous crime boss Bumpy Johnson, who in the early 1960s returned from ten years in prison to find the neighborhood he once ruled in shambles. With the streets controlled by the Italian mob, Bumpy attempts to regain his piece of Harlem.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt8080122"
+    },
+    {
+      "id": "tt1064899",
+      "type": "series",
+      "name": "Queen of the South",
+      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
+      "posterShape": "poster",
+      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt1064899"
+    },
+    {
+      "id": "tt10732104",
+      "type": "series",
+      "name": "Power Book II: Ghost",
+      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "posterShape": "poster",
+      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10732104"
+    },
+    {
       "id": "tt5574490",
       "type": "series",
       "name": "Animal Kingdom",
@@ -29,18 +71,19 @@
       "imdb_id": "tt1489428"
     },
     {
-      "id": "tt10732104",
+      "id": "tt34771210",
       "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "name": "I Will Find You",
+      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
       "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Mystery",
+        "Crime"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
+      "releaseInfo": "2026",
+      "imdb_id": "tt34771210"
     },
     {
       "id": "tt20285780",
@@ -72,19 +115,18 @@
       "imdb_id": "tt6517320"
     },
     {
-      "id": "tt34771210",
+      "id": "tt33253070",
       "type": "series",
-      "name": "I Will Find You",
-      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
+      "name": "M.I.A.",
+      "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
       "posterShape": "poster",
-      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
+      "description": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
       "genres": [
         "Drama",
-        "Mystery",
         "Crime"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt34771210"
+      "imdb_id": "tt33253070"
     },
     {
       "id": "tt3032476",
@@ -115,18 +157,19 @@
       "imdb_id": "tt0903747"
     },
     {
-      "id": "tt33253070",
+      "id": "tt5611024",
       "type": "series",
-      "name": "M.I.A.",
-      "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+      "name": "Fool Me Once",
+      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
       "posterShape": "poster",
-      "description": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
+      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
       "genres": [
         "Drama",
-        "Crime"
+        "Crime",
+        "Mystery"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33253070"
+      "releaseInfo": "2024",
+      "imdb_id": "tt5611024"
     },
     {
       "id": "tt5011816",
@@ -157,19 +200,19 @@
       "imdb_id": "tt1124373"
     },
     {
-      "id": "tt5611024",
+      "id": "tt6037988",
       "type": "series",
-      "name": "Fool Me Once",
-      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "name": "Last Seen",
+      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
       "posterShape": "poster",
-      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
       "genres": [
-        "Drama",
         "Crime",
+        "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5611024"
+      "releaseInfo": "2026",
+      "imdb_id": "tt6037988"
     },
     {
       "id": "tt0141842",
@@ -184,6 +227,34 @@
       ],
       "releaseInfo": "1999",
       "imdb_id": "tt0141842"
+    },
+    {
+      "id": "tt0805661",
+      "type": "series",
+      "name": "The Black Donnellys",
+      "poster": "https://image.tmdb.org/t/p/w500/hRKjeP8laTHS9q5cJA046DJa5kA.jpg",
+      "posterShape": "poster",
+      "description": "Meet the Donnelly brothers: Tommy, Jimmy, Kevin and Sean. There is nothing these four Irish brothers wouldn't do to protect each other, and for them that means lying, cheating, stealing and, occasionally, calling the cops. Narrated by wannabe gangster Joey \"Ice Cream,\" this gritty series bears witness to the Donnelly brothers' sudden involvement in organized crime, focusing on how they go from boys to mobsters, and showing how their new life affects their relationships with friends, family and lovers.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0805661"
+    },
+    {
+      "id": "tt34675596",
+      "type": "series",
+      "name": "Cape Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
+      "posterShape": "poster",
+      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34675596"
     },
     {
       "id": "tt1958961",
@@ -201,35 +272,6 @@
       "imdb_id": "tt1958961"
     },
     {
-      "id": "tt6037988",
-      "type": "series",
-      "name": "Last Seen",
-      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
-      "posterShape": "poster",
-      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt6037988"
-    },
-    {
-      "id": "tt34675596",
-      "type": "series",
-      "name": "Cape Fear",
-      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
-      "posterShape": "poster",
-      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34675596"
-    },
-    {
       "id": "tt14466018",
       "type": "series",
       "name": "Blue Lights",
@@ -242,49 +284,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt14466018"
-    },
-    {
-      "id": "tt11110622",
-      "type": "series",
-      "name": "White House Farm",
-      "poster": "https://image.tmdb.org/t/p/w500/nZRFhpDUlGM37BBBYAWhznNxUH7.jpg",
-      "posterShape": "poster",
-      "description": "Factual drama based on the notorious White House Farm murders, and the ensuing police investigation and court case.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11110622"
-    },
-    {
-      "id": "tt4276618",
-      "type": "series",
-      "name": "Strike",
-      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
-      "posterShape": "poster",
-      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt4276618"
-    },
-    {
-      "id": "tt11816814",
-      "type": "series",
-      "name": "Painkiller",
-      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
-      "posterShape": "poster",
-      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt11816814"
     }
   ]
 }
