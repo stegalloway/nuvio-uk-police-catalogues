@@ -187,18 +187,19 @@
       "imdb_id": "tt10155688"
     },
     {
-      "id": "tt14063678",
+      "id": "tt36022742",
       "type": "series",
-      "name": "The Gold",
-      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
+      "name": "Nemesis",
+      "poster": "https://image.tmdb.org/t/p/w500/NY7ZwSMw5PjoJdK2CObqiTj7Bm.jpg",
       "posterShape": "poster",
-      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
+      "description": "A relentless LAPD cop becomes obsessed with taking down the master thief behind a string of daring heists — and only one can come out on top.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Action & Adventure",
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14063678"
+      "releaseInfo": "2026",
+      "imdb_id": "tt36022742"
     },
     {
       "id": "tt18115928",
@@ -215,19 +216,18 @@
       "imdb_id": "tt18115928"
     },
     {
-      "id": "tt36022742",
+      "id": "tt14063678",
       "type": "series",
-      "name": "Nemesis",
-      "poster": "https://image.tmdb.org/t/p/w500/NY7ZwSMw5PjoJdK2CObqiTj7Bm.jpg",
+      "name": "The Gold",
+      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
       "posterShape": "poster",
-      "description": "A relentless LAPD cop becomes obsessed with taking down the master thief behind a string of daring heists — and only one can come out on top.",
+      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
       "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36022742"
+      "releaseInfo": "2023",
+      "imdb_id": "tt14063678"
     },
     {
       "id": "tt31314754",
