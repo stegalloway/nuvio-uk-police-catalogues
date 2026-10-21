@@ -29,20 +29,6 @@
       "imdb_id": "tt6271042"
     },
     {
-      "id": "tt3956604",
-      "type": "series",
-      "name": "The Driver",
-      "poster": "https://image.tmdb.org/t/p/w500/jeveGKPiqqUbWptQLmsGpbDZk4c.jpg",
-      "posterShape": "poster",
-      "description": "The Driver is a three-part British crime drama serial aired on BBC One between 23 September and 7 October 2014. Written by Danny Brocklehurst and directed by Jamie Payne, it stars David Morrissey as despondent cab driver Vince McKee, whose life is turned upside down when he agrees to be the driver for a criminal gang.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt3956604"
-    },
-    {
       "id": "tt11646832",
       "type": "series",
       "name": "The Outlaws",
@@ -56,6 +42,20 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11646832"
+    },
+    {
+      "id": "tt1625724",
+      "type": "series",
+      "name": "Love/Hate",
+      "poster": "https://image.tmdb.org/t/p/w500/oLnOU5wYp7I6egnI6lzAIWOqS1D.jpg",
+      "posterShape": "poster",
+      "description": "Modern-day underworld characters Nidge and John Boy wrestle for control of Dublin's illicit drug trade in this forceful crime drama.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1625724"
     },
     {
       "id": "tt7661390",

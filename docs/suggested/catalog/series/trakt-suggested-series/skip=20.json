@@ -186,18 +186,19 @@
       "imdb_id": "tt0141842"
     },
     {
-      "id": "tt1625724",
+      "id": "tt1958961",
       "type": "series",
-      "name": "Love/Hate",
-      "poster": "https://image.tmdb.org/t/p/w500/oLnOU5wYp7I6egnI6lzAIWOqS1D.jpg",
+      "name": "Lilyhammer",
+      "poster": "https://image.tmdb.org/t/p/w500/o5I2D5oeIEafpyFw30v11AwkhnB.jpg",
       "posterShape": "poster",
-      "description": "Modern-day underworld characters Nidge and John Boy wrestle for control of Dublin's illicit drug trade in this forceful crime drama.",
+      "description": "After Frank The Fixer Tagliano testifies against his Mafia boss in New York, he enters the Witness Protection Program and makes an unusual demand: he wants to be set up with a new life in the Norwegian small town of Lillehammer or as he calls it, Lilyhammer.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Comedy",
+        "Crime"
       ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1625724"
+      "releaseInfo": "2012",
+      "imdb_id": "tt1958961"
     },
     {
       "id": "tt6037988",
@@ -213,21 +214,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt6037988"
-    },
-    {
-      "id": "tt1958961",
-      "type": "series",
-      "name": "Lilyhammer",
-      "poster": "https://image.tmdb.org/t/p/w500/o5I2D5oeIEafpyFw30v11AwkhnB.jpg",
-      "posterShape": "poster",
-      "description": "After Frank The Fixer Tagliano testifies against his Mafia boss in New York, he enters the Witness Protection Program and makes an unusual demand: he wants to be set up with a new life in the Norwegian small town of Lillehammer or as he calls it, Lilyhammer.",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Crime"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1958961"
     },
     {
       "id": "tt34675596",
@@ -285,6 +271,20 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt4276618"
+    },
+    {
+      "id": "tt11816814",
+      "type": "series",
+      "name": "Painkiller",
+      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
+      "posterShape": "poster",
+      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt11816814"
     }
   ]
 }
