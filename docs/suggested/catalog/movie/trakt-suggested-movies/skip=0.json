@@ -205,21 +205,6 @@
       "imdb_id": "tt1130884"
     },
     {
-      "id": "tt0117381",
-      "type": "movie",
-      "name": "Primal Fear",
-      "poster": "https://image.tmdb.org/t/p/w500/qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
-      "posterShape": "poster",
-      "description": "Defense attorney Martin Vail takes on jobs for money and prestige rather than any sense of the greater good. His latest case involves an altar boy, accused of brutally murdering the archbishop of Chicago. Vail finds himself up against his ex-pupil and ex-lover, but as the case progresses and the Church's dark secrets are revealed, Vail finds that what appeared a simple case takes on a darker, more dangerous aspect.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "1996",
-      "imdb_id": "tt0117381"
-    },
-    {
       "id": "tt0144117",
       "type": "movie",
       "name": "The Boondock Saints",
@@ -233,6 +218,21 @@
       ],
       "releaseInfo": "1999",
       "imdb_id": "tt0144117"
+    },
+    {
+      "id": "tt0117381",
+      "type": "movie",
+      "name": "Primal Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+      "posterShape": "poster",
+      "description": "Defense attorney Martin Vail takes on jobs for money and prestige rather than any sense of the greater good. His latest case involves an altar boy, accused of brutally murdering the archbishop of Chicago. Vail finds himself up against his ex-pupil and ex-lover, but as the case progresses and the Church's dark secrets are revealed, Vail finds that what appeared a simple case takes on a darker, more dangerous aspect.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "1996",
+      "imdb_id": "tt0117381"
     },
     {
       "id": "tt7131622",
