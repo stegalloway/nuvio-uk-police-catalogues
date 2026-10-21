@@ -147,35 +147,6 @@
       "imdb_id": "tt0209144"
     },
     {
-      "id": "tt31049299",
-      "type": "movie",
-      "name": "Animals",
-      "poster": "https://image.tmdb.org/t/p/w500/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
-      "posterShape": "poster",
-      "description": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day.",
-      "genres": [
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31049299"
-    },
-    {
-      "id": "tt15314262",
-      "type": "movie",
-      "name": "The Beekeeper",
-      "poster": "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
-      "posterShape": "poster",
-      "description": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15314262"
-    },
-    {
       "id": "tt1212450",
       "type": "movie",
       "name": "Lawless",
@@ -289,6 +260,36 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt38672588"
+    },
+    {
+      "id": "tt32550101",
+      "type": "movie",
+      "name": "STRAW",
+      "poster": "https://image.tmdb.org/t/p/w500/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg",
+      "posterShape": "poster",
+      "description": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt32550101"
+    },
+    {
+      "id": "tt0167404",
+      "type": "movie",
+      "name": "The Sixth Sense",
+      "poster": "https://image.tmdb.org/t/p/w500/vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg",
+      "posterShape": "poster",
+      "description": "Following an unexpected tragedy, child psychologist Malcolm Crowe meets a nine year old boy named Cole Sear, who is hiding a dark secret.",
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "1999",
+      "imdb_id": "tt0167404"
     }
   ]
 }
