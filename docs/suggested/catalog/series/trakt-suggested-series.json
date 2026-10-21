@@ -73,6 +73,20 @@
       "imdb_id": "tt7661390"
     },
     {
+      "id": "tt15837600",
+      "type": "series",
+      "name": "Griselda",
+      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
+      "posterShape": "poster",
+      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15837600"
+    },
+    {
       "id": "tt15435876",
       "type": "series",
       "name": "The Penguin",
@@ -85,6 +99,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt15435876"
+    },
+    {
+      "id": "tt26676904",
+      "type": "series",
+      "name": "Ballard",
+      "poster": "https://image.tmdb.org/t/p/w500/vHQGu6ducKC7JcDU6lqWyx7tWW5.jpg",
+      "posterShape": "poster",
+      "description": "Detective Renée Ballard plunges into a web of murder and corruption as she hunts a ruthless serial killer and uncovers a sinister police conspiracy that threatens everything she stands for. With her own demons nipping at her heels, Ballard must outwit both criminals and colleagues to bring long-overdue justice to the victims and their families.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt26676904"
     },
     {
       "id": "tt30460310",
@@ -102,20 +130,6 @@
       "imdb_id": "tt30460310"
     },
     {
-      "id": "tt26676904",
-      "type": "series",
-      "name": "Ballard",
-      "poster": "https://image.tmdb.org/t/p/w500/vHQGu6ducKC7JcDU6lqWyx7tWW5.jpg",
-      "posterShape": "poster",
-      "description": "Detective Renée Ballard plunges into a web of murder and corruption as she hunts a ruthless serial killer and uncovers a sinister police conspiracy that threatens everything she stands for. With her own demons nipping at her heels, Ballard must outwit both criminals and colleagues to bring long-overdue justice to the victims and their families.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt26676904"
-    },
-    {
       "id": "tt11761194",
       "type": "series",
       "name": "Power Book IV: Force",
@@ -128,20 +142,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11761194"
-    },
-    {
-      "id": "tt0979432",
-      "type": "series",
-      "name": "Boardwalk Empire",
-      "poster": "https://image.tmdb.org/t/p/w500/zyHLWVmqS8m7bxABJjcDFMYLdF8.jpg",
-      "posterShape": "poster",
-      "description": "Atlantic City at the dawn of Prohibition is a place where the rules don't apply. And the man who runs things -- legally and otherwise -- is the town's treasurer, Enoch \"Nucky\" Thompson, who is equal parts politician and gangster.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt0979432"
     },
     {
       "id": "tt14192504",
@@ -158,6 +158,20 @@
       "imdb_id": "tt14192504"
     },
     {
+      "id": "tt0979432",
+      "type": "series",
+      "name": "Boardwalk Empire",
+      "poster": "https://image.tmdb.org/t/p/w500/zyHLWVmqS8m7bxABJjcDFMYLdF8.jpg",
+      "posterShape": "poster",
+      "description": "Atlantic City at the dawn of Prohibition is a place where the rules don't apply. And the man who runs things -- legally and otherwise -- is the town's treasurer, Enoch \"Nucky\" Thompson, who is equal parts politician and gangster.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt0979432"
+    },
+    {
       "id": "tt3281796",
       "type": "series",
       "name": "Power",
@@ -170,6 +184,20 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt3281796"
+    },
+    {
+      "id": "tt11846996",
+      "type": "series",
+      "name": "Vigil",
+      "poster": "https://image.tmdb.org/t/p/w500/5zAheY0Upi2MwU3edGtEgb7Ldh3.jpg",
+      "posterShape": "poster",
+      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11846996"
     },
     {
       "id": "tt10399902",
@@ -187,20 +215,6 @@
       "imdb_id": "tt10399902"
     },
     {
-      "id": "tt11846996",
-      "type": "series",
-      "name": "Vigil",
-      "poster": "https://image.tmdb.org/t/p/w500/5zAheY0Upi2MwU3edGtEgb7Ldh3.jpg",
-      "posterShape": "poster",
-      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11846996"
-    },
-    {
       "id": "tt2707408",
       "type": "series",
       "name": "Narcos",
@@ -213,20 +227,6 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt2707408"
-    },
-    {
-      "id": "tt8714904",
-      "type": "series",
-      "name": "Narcos: Mexico",
-      "poster": "https://image.tmdb.org/t/p/w500/aXwMx8OvRFMfI1RmkbJm6Bq1jVg.jpg",
-      "posterShape": "poster",
-      "description": "See the rise of the Guadalajara Cartel as an American DEA agent learns the danger of targeting narcos in 1980s Mexico.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt8714904"
     },
     {
       "id": "tt35515227",
@@ -243,6 +243,20 @@
       "imdb_id": "tt35515227"
     },
     {
+      "id": "tt8714904",
+      "type": "series",
+      "name": "Narcos: Mexico",
+      "poster": "https://image.tmdb.org/t/p/w500/aXwMx8OvRFMfI1RmkbJm6Bq1jVg.jpg",
+      "posterShape": "poster",
+      "description": "See the rise of the Guadalajara Cartel as an American DEA agent learns the danger of targeting narcos in 1980s Mexico.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt8714904"
+    },
+    {
       "id": "tt5715524",
       "type": "series",
       "name": "Mayans M.C.",
@@ -255,20 +269,6 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt5715524"
-    },
-    {
-      "id": "tt8080122",
-      "type": "series",
-      "name": "Godfather of Harlem",
-      "poster": "https://image.tmdb.org/t/p/w500/avhyzJycLNi3nXov2lREhDkP3ik.jpg",
-      "posterShape": "poster",
-      "description": "Loosely based on infamous crime boss Bumpy Johnson, who in the early 1960s returned from ten years in prison to find the neighborhood he once ruled in shambles. With the streets controlled by the Italian mob, Bumpy attempts to regain his piece of Harlem.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8080122"
     },
     {
       "id": "tt9742936",
