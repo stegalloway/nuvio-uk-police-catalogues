@@ -29,21 +29,6 @@
       "imdb_id": "tt6271042"
     },
     {
-      "id": "tt11646832",
-      "type": "series",
-      "name": "The Outlaws",
-      "poster": "https://image.tmdb.org/t/p/w500/s8vp0S0iz2nPb7TpOpV0rHbm1er.jpg",
-      "posterShape": "poster",
-      "description": "Seven strangers from different walks of life - people who would never normally interact - are forced to work together to renovate a derelict community centre. They resent the menial physical labour and they resent each other. But when one of their number gets dragged into a dangerous world of organised crime, they unite in ways none of them thought possible.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11646832"
-    },
-    {
       "id": "tt1625724",
       "type": "series",
       "name": "Love/Hate",
@@ -283,6 +268,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt9742936"
+    },
+    {
+      "id": "tt8080122",
+      "type": "series",
+      "name": "Godfather of Harlem",
+      "poster": "https://image.tmdb.org/t/p/w500/avhyzJycLNi3nXov2lREhDkP3ik.jpg",
+      "posterShape": "poster",
+      "description": "Loosely based on infamous crime boss Bumpy Johnson, who in the early 1960s returned from ten years in prison to find the neighborhood he once ruled in shambles. With the streets controlled by the Italian mob, Bumpy attempts to regain his piece of Harlem.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt8080122"
     }
   ]
 }
