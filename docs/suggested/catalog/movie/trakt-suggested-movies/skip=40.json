@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt0167404",
+      "type": "movie",
+      "name": "The Sixth Sense",
+      "poster": "https://image.tmdb.org/t/p/w500/vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg",
+      "posterShape": "poster",
+      "description": "Following an unexpected tragedy, child psychologist Malcolm Crowe meets a nine year old boy named Cole Sear, who is hiding a dark secret.",
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "1999",
+      "imdb_id": "tt0167404"
+    },
+    {
       "id": "tt0181865",
       "type": "movie",
       "name": "Traffic",
@@ -284,21 +299,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt2382320"
-    },
-    {
-      "id": "tt0090180",
-      "type": "movie",
-      "name": "To Live and Die in L.A.",
-      "poster": "https://image.tmdb.org/t/p/w500/2iW3pSihBIhXjnBQmUJ0mAiZbB5.jpg",
-      "posterShape": "poster",
-      "description": "When his longtime partner on the force is killed, reckless U.S. Secret Service agent Richard Chance vows revenge, setting out to nab dangerous counterfeit artist Eric Masters.",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Action"
-      ],
-      "releaseInfo": "1985",
-      "imdb_id": "tt0090180"
     }
   ]
 }
