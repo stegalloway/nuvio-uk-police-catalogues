@@ -73,20 +73,6 @@
       "imdb_id": "tt2304589"
     },
     {
-      "id": "tt32559610",
-      "type": "series",
-      "name": "Countdown",
-      "poster": "https://image.tmdb.org/t/p/w500/gcSNS5cy1iOmYawIdJCzoc873rQ.jpg",
-      "posterShape": "poster",
-      "description": "When an officer with the Department of Homeland Security is murdered in broad daylight, LAPD detective Mark Meachum is recruited to a secret task force, alongside undercover agents from all branches of law enforcement, to investigate. But the hunt for the killer soon uncovers a plot far more sinister than anyone could have imagined, kicking off a race against time to save a city of millions.",
-      "genres": [
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32559610"
-    },
-    {
       "id": "tt30459041",
       "type": "series",
       "name": "Your Friends & Neighbors",
@@ -99,6 +85,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt30459041"
+    },
+    {
+      "id": "tt32559610",
+      "type": "series",
+      "name": "Countdown",
+      "poster": "https://image.tmdb.org/t/p/w500/gcSNS5cy1iOmYawIdJCzoc873rQ.jpg",
+      "posterShape": "poster",
+      "description": "When an officer with the Department of Homeland Security is murdered in broad daylight, LAPD detective Mark Meachum is recruited to a secret task force, alongside undercover agents from all branches of law enforcement, to investigate. But the hunt for the killer soon uncovers a plot far more sinister than anyone could have imagined, kicking off a race against time to save a city of millions.",
+      "genres": [
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt32559610"
     },
     {
       "id": "tt13875494",
@@ -158,6 +158,20 @@
       "imdb_id": "tt32499731"
     },
     {
+      "id": "tt35826715",
+      "type": "series",
+      "name": "Boston Blue",
+      "poster": "https://image.tmdb.org/t/p/w500/81IhL3ckAgJ9J8vHazlUA5BNs8G.jpg",
+      "posterShape": "poster",
+      "description": "NYPD Detective Danny Reagan takes a job with the Boston PD and is paired with Detective Lena Silver, part of a law enforcement family comprised of District Attorney Mae Silver, Police Superintendent Sarah Silver, rookie cop Jonah Silver and Rev. Edwin Peters. Reagan hopes to reconnect with his son, Sean, in Boston.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt35826715"
+    },
+    {
       "id": "tt10155688",
       "type": "series",
       "name": "Mare of Easttown",
@@ -173,18 +187,18 @@
       "imdb_id": "tt10155688"
     },
     {
-      "id": "tt35826715",
+      "id": "tt14063678",
       "type": "series",
-      "name": "Boston Blue",
-      "poster": "https://image.tmdb.org/t/p/w500/81IhL3ckAgJ9J8vHazlUA5BNs8G.jpg",
+      "name": "The Gold",
+      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
       "posterShape": "poster",
-      "description": "NYPD Detective Danny Reagan takes a job with the Boston PD and is paired with Detective Lena Silver, part of a law enforcement family comprised of District Attorney Mae Silver, Police Superintendent Sarah Silver, rookie cop Jonah Silver and Rev. Edwin Peters. Reagan hopes to reconnect with his son, Sean, in Boston.",
+      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35826715"
+      "releaseInfo": "2023",
+      "imdb_id": "tt14063678"
     },
     {
       "id": "tt36022742",
@@ -214,20 +228,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt18115928"
-    },
-    {
-      "id": "tt14063678",
-      "type": "series",
-      "name": "The Gold",
-      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
-      "posterShape": "poster",
-      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14063678"
     },
     {
       "id": "tt31314754",
@@ -273,19 +273,19 @@
       "imdb_id": "tt1475582"
     },
     {
-      "id": "tt33035373",
+      "id": "tt14582876",
       "type": "series",
-      "name": "HIS & HERS",
-      "poster": "https://image.tmdb.org/t/p/w500/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
+      "name": "On Call",
+      "poster": "https://image.tmdb.org/t/p/w500/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
       "posterShape": "poster",
-      "description": "Two estranged spouses — one a detective, the other a news reporter — vie to solve a murder in which each believes the other is a prime suspect.",
+      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
       "genres": [
-        "Drama",
         "Crime",
-        "Mystery"
+        "Drama",
+        "Action & Adventure"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33035373"
+      "releaseInfo": "2025",
+      "imdb_id": "tt14582876"
     }
   ]
 }
