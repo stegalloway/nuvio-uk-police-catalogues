@@ -17,18 +17,18 @@
       "imdb_id": "tt0117774"
     },
     {
-      "id": "tt32430579",
+      "id": "tt37971717",
       "type": "movie",
-      "name": "Crime 101",
-      "poster": "https://image.tmdb.org/t/p/w500/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg",
+      "name": "One Last Shot",
+      "poster": "https://image.tmdb.org/t/p/w500/niQ4NBh2jqAf1hDZP5m6ReWFAb7.jpg",
       "posterShape": "poster",
-      "description": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
+      "description": "Navy Seal Jake Harris must stop a team of mercenaries, led by his disillusioned former comrade, from disabling the US missile defense network.",
       "genres": [
-        "Crime",
+        "Action",
         "Thriller"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt32430579"
+      "imdb_id": "tt37971717"
     },
     {
       "id": "tt36042156",
@@ -46,18 +46,18 @@
       "imdb_id": "tt36042156"
     },
     {
-      "id": "tt37971717",
+      "id": "tt32430579",
       "type": "movie",
-      "name": "One Last Shot",
-      "poster": "https://image.tmdb.org/t/p/w500/niQ4NBh2jqAf1hDZP5m6ReWFAb7.jpg",
+      "name": "Crime 101",
+      "poster": "https://image.tmdb.org/t/p/w500/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg",
       "posterShape": "poster",
-      "description": "Navy Seal Jake Harris must stop a team of mercenaries, led by his disillusioned former comrade, from disabling the US missile defense network.",
+      "description": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
       "genres": [
-        "Action",
+        "Crime",
         "Thriller"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt37971717"
+      "imdb_id": "tt32430579"
     },
     {
       "id": "tt31195136",
@@ -88,6 +88,21 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt5537002"
+    },
+    {
+      "id": "tt0097733",
+      "type": "movie",
+      "name": "Lethal Weapon 2",
+      "poster": "https://image.tmdb.org/t/p/w500/1EEIUw0tkX7AJZ1ikZrtKZZKlC6.jpg",
+      "posterShape": "poster",
+      "description": "Riggs and Murtaugh are on the trail of South African diplomats using their immunity to engage in criminal activities.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "1989",
+      "imdb_id": "tt0097733"
     },
     {
       "id": "tt0109035",
@@ -163,6 +178,21 @@
       "imdb_id": "tt0369339"
     },
     {
+      "id": "tt17024450",
+      "type": "movie",
+      "name": "The Equalizer 3",
+      "poster": "https://image.tmdb.org/t/p/w500/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg",
+      "posterShape": "poster",
+      "description": "Robert McCall finds himself at home in Southern Italy but he discovers his friends are under the control of local crime bosses. As events turn deadly, McCall knows what he has to do: become his friends' protector by taking on the mafia.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt17024450"
+    },
+    {
       "id": "tt0209144",
       "type": "movie",
       "name": "Memento",
@@ -205,6 +235,21 @@
       "imdb_id": "tt33303521"
     },
     {
+      "id": "tt15314262",
+      "type": "movie",
+      "name": "The Beekeeper",
+      "poster": "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+      "posterShape": "poster",
+      "description": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15314262"
+    },
+    {
       "id": "tt32357218",
       "type": "movie",
       "name": "Shelter",
@@ -220,51 +265,6 @@
       "imdb_id": "tt32357218"
     },
     {
-      "id": "tt1229238",
-      "type": "movie",
-      "name": "Mission: Impossible - Ghost Protocol",
-      "poster": "https://image.tmdb.org/t/p/w500/eRZTGx7GsiKqPch96k27LK005ZL.jpg",
-      "posterShape": "poster",
-      "description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks, who has gained access to Russian nuclear launch codes and is planning a strike on the United States. An attempt to stop him ends in an explosion causing severe destruction to the Kremlin and the IMF to be implicated in the bombing, forcing the President to disavow them. No longer being aided by the government, Ethan and his team chase Hendricks around the globe, although they might still be too late to stop a disaster.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Adventure"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1229238"
-    },
-    {
-      "id": "tt30144839",
-      "type": "movie",
-      "name": "One Battle After Another",
-      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
-      "posterShape": "poster",
-      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
-      "genres": [
-        "Thriller",
-        "Crime",
-        "Comedy"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30144839"
-    },
-    {
-      "id": "tt0144084",
-      "type": "movie",
-      "name": "American Psycho",
-      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
-      "posterShape": "poster",
-      "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
-      "genres": [
-        "Thriller",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2000",
-      "imdb_id": "tt0144084"
-    },
-    {
       "id": "tt31192372",
       "type": "movie",
       "name": "Fall 2: Deadpoint",
@@ -278,19 +278,19 @@
       "imdb_id": "tt31192372"
     },
     {
-      "id": "tt32550101",
+      "id": "tt1229238",
       "type": "movie",
-      "name": "STRAW",
-      "poster": "https://image.tmdb.org/t/p/w500/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg",
+      "name": "Mission: Impossible - Ghost Protocol",
+      "poster": "https://image.tmdb.org/t/p/w500/eRZTGx7GsiKqPch96k27LK005ZL.jpg",
       "posterShape": "poster",
-      "description": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
+      "description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks, who has gained access to Russian nuclear launch codes and is planning a strike on the United States. An attempt to stop him ends in an explosion causing severe destruction to the Kremlin and the IMF to be implicated in the bombing, forcing the President to disavow them. No longer being aided by the government, Ethan and his team chase Hendricks around the globe, although they might still be too late to stop a disaster.",
       "genres": [
+        "Action",
         "Thriller",
-        "Drama",
-        "Crime"
+        "Adventure"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32550101"
+      "releaseInfo": "2011",
+      "imdb_id": "tt1229238"
     }
   ]
 }

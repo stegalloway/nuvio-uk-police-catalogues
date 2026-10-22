@@ -185,21 +185,6 @@
       "imdb_id": "tt11846996"
     },
     {
-      "id": "tt10399902",
-      "type": "series",
-      "name": "Boy Swallows Universe",
-      "poster": "https://image.tmdb.org/t/p/w500/nb0ek7qonE0YkyaB4dsAw5J9NoH.jpg",
-      "posterShape": "poster",
-      "description": "A young boy growing up in the suburbs of 1980s Brisbane faces the harsh realities of life — and the looming dangers that threaten his family.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt10399902"
-    },
-    {
       "id": "tt2707408",
       "type": "series",
       "name": "Narcos",
@@ -212,20 +197,6 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt2707408"
-    },
-    {
-      "id": "tt35515227",
-      "type": "series",
-      "name": "CIA",
-      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
-      "posterShape": "poster",
-      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35515227"
     },
     {
       "id": "tt8714904",
@@ -242,6 +213,20 @@
       "imdb_id": "tt8714904"
     },
     {
+      "id": "tt35515227",
+      "type": "series",
+      "name": "CIA",
+      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
+      "posterShape": "poster",
+      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35515227"
+    },
+    {
       "id": "tt5715524",
       "type": "series",
       "name": "Mayans M.C.",
@@ -254,6 +239,20 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt5715524"
+    },
+    {
+      "id": "tt8080122",
+      "type": "series",
+      "name": "Godfather of Harlem",
+      "poster": "https://image.tmdb.org/t/p/w500/avhyzJycLNi3nXov2lREhDkP3ik.jpg",
+      "posterShape": "poster",
+      "description": "Loosely based on infamous crime boss Bumpy Johnson, who in the early 1960s returned from ten years in prison to find the neighborhood he once ruled in shambles. With the streets controlled by the Italian mob, Bumpy attempts to regain his piece of Harlem.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt8080122"
     },
     {
       "id": "tt9742936",
@@ -270,18 +269,18 @@
       "imdb_id": "tt9742936"
     },
     {
-      "id": "tt8080122",
+      "id": "tt1064899",
       "type": "series",
-      "name": "Godfather of Harlem",
-      "poster": "https://image.tmdb.org/t/p/w500/avhyzJycLNi3nXov2lREhDkP3ik.jpg",
+      "name": "Queen of the South",
+      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
       "posterShape": "poster",
-      "description": "Loosely based on infamous crime boss Bumpy Johnson, who in the early 1960s returned from ten years in prison to find the neighborhood he once ruled in shambles. With the streets controlled by the Italian mob, Bumpy attempts to regain his piece of Harlem.",
+      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8080122"
+      "releaseInfo": "2016",
+      "imdb_id": "tt1064899"
     }
   ]
 }

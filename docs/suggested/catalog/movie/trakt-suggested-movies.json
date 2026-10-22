@@ -162,21 +162,6 @@
       "imdb_id": "tt0154506"
     },
     {
-      "id": "tt0122690",
-      "type": "movie",
-      "name": "Ronin",
-      "poster": "https://image.tmdb.org/t/p/w500/AirrhRJjHwytOV0pdLu7YZ4DEyr.jpg",
-      "posterShape": "poster",
-      "description": "A briefcase with undisclosed contents – sought by Irish terrorists and the Russian mob – makes its way into criminals' hands. An Irish liaison assembles a squad of mercenaries, or 'ronin', and gives them the thorny task of recovering the case.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "1998",
-      "imdb_id": "tt0122690"
-    },
-    {
       "id": "tt0102926",
       "type": "movie",
       "name": "The Silence of the Lambs",
@@ -206,6 +191,34 @@
       "imdb_id": "tt0106489"
     },
     {
+      "id": "tt32338669",
+      "type": "movie",
+      "name": "Mutiny",
+      "poster": "https://image.tmdb.org/t/p/w500/pu2VxGlpGwffOx292w18b1tv96j.jpg",
+      "posterShape": "poster",
+      "description": "After witnessing his billionaire boss' murder and being framed for the crime, Cole Reed boards a cargo ship on a one-man crusade to avenge his boss' death only to discover an international conspiracy.",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32338669"
+    },
+    {
+      "id": "tt2481498",
+      "type": "movie",
+      "name": "Extremely Wicked, Shockingly Evil and Vile",
+      "poster": "https://image.tmdb.org/t/p/w500/a7dVwEBU3vupg3hZQMeyL6ksz0F.jpg",
+      "posterShape": "poster",
+      "description": "A chronicle of the crimes of Ted Bundy, from the perspective of his longtime girlfriend, Elizabeth Kloepfer, who refused to believe the truth about him for years.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt2481498"
+    },
+    {
       "id": "tt2872718",
       "type": "movie",
       "name": "Nightcrawler",
@@ -219,20 +232,6 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt2872718"
-    },
-    {
-      "id": "tt32338669",
-      "type": "movie",
-      "name": "Mutiny",
-      "poster": "https://image.tmdb.org/t/p/w500/pu2VxGlpGwffOx292w18b1tv96j.jpg",
-      "posterShape": "poster",
-      "description": "After witnessing his billionaire boss' murder and being framed for the crime, Cole Reed boards a cargo ship on a one-man crusade to avenge his boss' death only to discover an international conspiracy.",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32338669"
     },
     {
       "id": "tt1130884",
