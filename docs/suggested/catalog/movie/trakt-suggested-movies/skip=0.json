@@ -162,19 +162,19 @@
       "imdb_id": "tt0154506"
     },
     {
-      "id": "tt0102926",
+      "id": "tt0117913",
       "type": "movie",
-      "name": "The Silence of the Lambs",
-      "poster": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+      "name": "A Time to Kill",
+      "poster": "https://image.tmdb.org/t/p/w500/w8UCke112E9jrhjKcwG32kyhTx5.jpg",
       "posterShape": "poster",
-      "description": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
+      "description": "A young lawyer defends a black man accused of murdering two white men who raped his 10-year-old daughter, sparking a rebirth of the KKK.",
       "genres": [
         "Crime",
-        "Thriller",
-        "Drama"
+        "Drama",
+        "Thriller"
       ],
-      "releaseInfo": "1991",
-      "imdb_id": "tt0102926"
+      "releaseInfo": "1996",
+      "imdb_id": "tt0117913"
     },
     {
       "id": "tt0106489",
@@ -191,18 +191,19 @@
       "imdb_id": "tt0106489"
     },
     {
-      "id": "tt32338669",
+      "id": "tt0102926",
       "type": "movie",
-      "name": "Mutiny",
-      "poster": "https://image.tmdb.org/t/p/w500/pu2VxGlpGwffOx292w18b1tv96j.jpg",
+      "name": "The Silence of the Lambs",
+      "poster": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
       "posterShape": "poster",
-      "description": "After witnessing his billionaire boss' murder and being framed for the crime, Cole Reed boards a cargo ship on a one-man crusade to avenge his boss' death only to discover an international conspiracy.",
+      "description": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
       "genres": [
-        "Action",
-        "Thriller"
+        "Crime",
+        "Thriller",
+        "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32338669"
+      "releaseInfo": "1991",
+      "imdb_id": "tt0102926"
     },
     {
       "id": "tt2481498",
@@ -217,6 +218,20 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt2481498"
+    },
+    {
+      "id": "tt32338669",
+      "type": "movie",
+      "name": "Mutiny",
+      "poster": "https://image.tmdb.org/t/p/w500/pu2VxGlpGwffOx292w18b1tv96j.jpg",
+      "posterShape": "poster",
+      "description": "After witnessing his billionaire boss' murder and being framed for the crime, Cole Reed boards a cargo ship on a one-man crusade to avenge his boss' death only to discover an international conspiracy.",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32338669"
     },
     {
       "id": "tt2872718",
@@ -262,21 +277,6 @@
       ],
       "releaseInfo": "1996",
       "imdb_id": "tt0117381"
-    },
-    {
-      "id": "tt0144117",
-      "type": "movie",
-      "name": "The Boondock Saints",
-      "poster": "https://image.tmdb.org/t/p/w500/wtLUmkWg41xFLpvmUWAN1mm65f6.jpg",
-      "posterShape": "poster",
-      "description": "Tired of the crime overrunning the streets of Boston, Irish Catholic twin brothers Conner and Murphy are inspired by their faith to cleanse their hometown of evil with their own brand of zealous vigilante justice. As they hunt down and kill one notorious gangster after another, they become controversial folk heroes in the community. But Paul Smecker, an eccentric FBI agent, is fast closing in on their blood-soaked trail.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "1999",
-      "imdb_id": "tt0144117"
     },
     {
       "id": "tt7131622",

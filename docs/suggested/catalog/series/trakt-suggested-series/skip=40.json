@@ -144,20 +144,6 @@
       "imdb_id": "tt10155688"
     },
     {
-      "id": "tt18115928",
-      "type": "series",
-      "name": "East New York",
-      "poster": "https://image.tmdb.org/t/p/w500/vOos5pwq3tzPCwFohG80i2SXAgR.jpg",
-      "posterShape": "poster",
-      "description": "Regina Haywood is the newly promoted deputy inspector of East New York, a working-class neighborhood at the edge of Brooklyn. She leads a diverse group of officers and detectives, some of whom are reluctant to deploy her creative methods of serving and protecting in the midst of social upheaval and the early seeds of gentrification.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt18115928"
-    },
-    {
       "id": "tt36022742",
       "type": "series",
       "name": "Nemesis",
@@ -171,6 +157,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt36022742"
+    },
+    {
+      "id": "tt18115928",
+      "type": "series",
+      "name": "East New York",
+      "poster": "https://image.tmdb.org/t/p/w500/vOos5pwq3tzPCwFohG80i2SXAgR.jpg",
+      "posterShape": "poster",
+      "description": "Regina Haywood is the newly promoted deputy inspector of East New York, a working-class neighborhood at the edge of Brooklyn. She leads a diverse group of officers and detectives, some of whom are reluctant to deploy her creative methods of serving and protecting in the midst of social upheaval and the early seeds of gentrification.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt18115928"
     },
     {
       "id": "tt14063678",
@@ -230,18 +230,19 @@
       "imdb_id": "tt1475582"
     },
     {
-      "id": "tt22175166",
+      "id": "tt14582876",
       "type": "series",
-      "name": "The Walk-In",
-      "poster": "https://image.tmdb.org/t/p/w500/67lqoQrhvby2iNfNQnFGZgXemfB.jpg",
+      "name": "On Call",
+      "poster": "https://image.tmdb.org/t/p/w500/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
       "posterShape": "poster",
-      "description": "Forced to flee the UK and go into hiding in the 1990s, when he became a mole from within the BNP, Matthew Collins returned to Britain to make a new life for himself,  working with young white men in the fight against radicalisation.",
+      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
       "genres": [
+        "Crime",
         "Drama",
-        "Crime"
+        "Action & Adventure"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt22175166"
+      "releaseInfo": "2025",
+      "imdb_id": "tt14582876"
     },
     {
       "id": "tt33035373",
@@ -259,19 +260,18 @@
       "imdb_id": "tt33035373"
     },
     {
-      "id": "tt14582876",
+      "id": "tt22175166",
       "type": "series",
-      "name": "On Call",
-      "poster": "https://image.tmdb.org/t/p/w500/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
+      "name": "The Walk-In",
+      "poster": "https://image.tmdb.org/t/p/w500/67lqoQrhvby2iNfNQnFGZgXemfB.jpg",
       "posterShape": "poster",
-      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
+      "description": "Forced to flee the UK and go into hiding in the 1990s, when he became a mole from within the BNP, Matthew Collins returned to Britain to make a new life for himself,  working with young white men in the fight against radicalisation.",
       "genres": [
-        "Crime",
         "Drama",
-        "Action & Adventure"
+        "Crime"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt14582876"
+      "releaseInfo": "2022",
+      "imdb_id": "tt22175166"
     },
     {
       "id": "tt0429087",
