@@ -5,6 +5,11 @@ GitHub delays and sometimes drops scheduled runs. Each watched workflow's own cr
 lines define its due times; after a short grace period the watchdog dispatches a
 missed slot once, retries one failure, and alerts after a second failure or when
 no refresh has succeeded for longer than the schedule allows.
+
+GitHub's per-workflow run list can also come back without recent runs (22 Oct 2026:
+"last success never" for three hours while every hourly refresh succeeded). Before
+treating a refresh as missed, the watchdog looks for a success in two other places:
+the repository-wide run list and the refresh's own commit on the branch.
 """
 import argparse
 import dataclasses
@@ -28,6 +33,10 @@ ACTIVE = {"queued", "in_progress", "waiting", "pending", "requested"}
 FAILED = {"failure", "timed_out", "startup_failure"}
 ISSUE_PREFIX = "Catalogue refresh alert: "
 KEY_MARK = re.compile(r"<!-- watchdog-key: (.*?) -->")
+# Each refresh commits under its own message when its output changed; the police refresh
+# always does (its status file records the run time). A matching commit is proof of a success.
+COMMIT_MESSAGES = {"daily-refresh.yml": "Daily UK police catalogue refresh",
+                   "trakt-suggested-refresh.yml": "Refresh Trakt Suggested catalogues"}
 
 
 def utc(raw):
@@ -79,10 +88,13 @@ class Result:
     alert: tuple = None  # (key, message)
 
 
-def decide(now, schedule, runs, state="active"):
-    """Choose what to do for one workflow from its recent runs (newest first)."""
+def decide(now, schedule, runs, state="active", other_successes=()):
+    """Choose what to do for one workflow from its recent runs (newest first).
+
+    `other_successes` are success times found outside the workflow's own run list.
+    """
     slot = schedule.last_slot(now)
-    successes = [utc(r["created_at"]) for r in runs if r.get("conclusion") == "success"]
+    successes = [utc(r["created_at"]) for r in runs if r.get("conclusion") == "success"] + list(other_successes)
     result = Result("ok", slot, max(successes, default=None), runs[0] if runs else None)
     if state == "disabled_manually":
         result.status = "disabled by hand"
@@ -93,7 +105,7 @@ def decide(now, schedule, runs, state="active"):
     if any(r["status"] in ACTIVE for r in recent):
         result.status = "running"
         return result
-    if any(r.get("conclusion") == "success" for r in recent):
+    if any(r.get("conclusion") == "success" for r in recent) or any(t >= slot for t in other_successes):
         return result
     failures = [r for r in recent if r.get("conclusion") in FAILED]
     if len(failures) >= 2:
@@ -135,6 +147,26 @@ class GitHub:
         return json.loads(body) if body else None
 
 
+def other_successes(api, name):
+    """Success times for one workflow from the repo-wide run list and its commits on the branch."""
+    found = []
+    try:
+        runs = api.call("GET", "/actions/runs", {"branch": BRANCH, "status": "success", "per_page": 100})
+        found += [utc(r["created_at"]) for r in (runs or {}).get("workflow_runs", [])
+                  if r.get("path", "").split("@")[0].endswith("/" + name) and r.get("conclusion") == "success"]
+    except (urllib.error.URLError, ValueError, KeyError):
+        pass
+    message = COMMIT_MESSAGES.get(name)
+    if message:
+        try:
+            commits = api.call("GET", "/commits", {"sha": BRANCH, "per_page": 100})
+            found += [utc(c["commit"]["committer"]["date"]) for c in commits or []
+                      if c["commit"]["message"].split("\n", 1)[0] == message]
+        except (urllib.error.URLError, ValueError, KeyError):
+            pass
+    return found
+
+
 def issue_body(owner, workflow, result, message, key):
     latest = result.latest
     latest_line = f"[{latest['conclusion'] or latest['status']}]({latest['html_url']})" if latest else "none"
@@ -153,9 +185,10 @@ def sync_issue(api, issues, workflow, result, owner):
     issue = next((i for i in issues if i["title"] == title), None)
     if result.status == "ok":
         if issue:
-            api.call("POST", f"/issues/{issue['number']}/comments",
-                     payload={"body": f"Recovered: a refresh succeeded at {stamp(result.last_success)}."})
-            api.call("PATCH", f"/issues/{issue['number']}", payload={"state": "closed", "state_reason": "completed"})
+            # One edit closes it with the recovery noted: a comment would be one more email.
+            body = (issue.get("body") or "") + f"\n\nRecovered: a refresh succeeded at {stamp(result.last_success)}.\n"
+            api.call("PATCH", f"/issues/{issue['number']}",
+                     payload={"state": "closed", "state_reason": "completed", "body": body})
         return "closed alert" if issue else None
     if not result.alert:
         return None
@@ -188,6 +221,10 @@ def run():
         workflow = api.call("GET", f"/actions/workflows/{name}")
         runs = api.call("GET", f"/actions/workflows/{name}/runs", {"branch": BRANCH, "per_page": 30})["workflow_runs"]
         result = decide(now, schedule, runs, workflow["state"])
+        if result.status in ("missed", "retrying", "failing"):
+            found = other_successes(api, name)
+            if found:
+                result = decide(now, schedule, runs, workflow["state"], found)
         done = []
         if not args.dry_run:
             for action in result.actions:

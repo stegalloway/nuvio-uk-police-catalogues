@@ -7,7 +7,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import watchdog
-from watchdog import Schedule, decide, sync_issue
+from watchdog import Schedule, decide, other_successes, sync_issue
 
 UTC = dt.timezone.utc
 POLICE = Schedule((ROOT / ".github" / "workflows" / "daily-refresh.yml").read_text(encoding="utf-8"))
@@ -27,11 +27,13 @@ def run(created, status="completed", conclusion="success", number=1):
 
 
 class FakeAPI:
-    def __init__(self):
+    def __init__(self, responses=None):
         self.calls = []
+        self.responses = responses or {}
 
     def call(self, method, path, params=None, payload=None):
         self.calls.append((method, path, payload))
+        return self.responses.get(path)
 
 
 class ScheduleTests(unittest.TestCase):
@@ -113,12 +115,52 @@ class DecisionTests(unittest.TestCase):
         result = decide(at("2026-10-19T08:52"), POLICE, [])
         self.assertEqual(result.alert[0], "overdue:never")
 
+    def test_a_success_found_elsewhere_counts_when_the_run_list_is_empty(self):
+        # 22 Oct 16:52: GitHub listed no Trakt runs, but the 15:52 refresh had committed.
+        commit = [at("2026-10-22T15:52:54")]
+        result = decide(at("2026-10-22T16:52"), TRAKT, [], other_successes=commit)
+        self.assertEqual((result.status, result.actions, result.alert), ("missed", ["dispatch"], None))
+        self.assertEqual(result.last_success, commit[0])
+        # Evidence from after the due time means the slot was served: nothing to do.
+        result = decide(at("2026-10-22T16:52"), TRAKT, [], other_successes=[at("2026-10-22T16:20:10")])
+        self.assertEqual((result.status, result.actions, result.alert), ("ok", [], None))
+        # With no evidence anywhere, it still alerts.
+        self.assertEqual(decide(at("2026-10-22T16:52"), TRAKT, []).alert[0], "overdue:never")
+
     def test_inactivity_disable_is_healed_but_manual_disable_is_respected(self):
         runs = [run("2026-10-17T10:53:52")]
         result = decide(at("2026-10-18T06:52"), POLICE, runs, "disabled_inactivity")
         self.assertEqual(result.actions, ["enable", "dispatch"])
         result = decide(at("2026-10-18T06:52"), POLICE, runs, "disabled_manually")
         self.assertEqual((result.status, result.actions, result.alert), ("disabled by hand", [], None))
+
+
+class EvidenceTests(unittest.TestCase):
+    def test_reads_successes_from_the_repo_run_list_and_refresh_commits(self):
+        def commit(message, date):
+            return {"commit": {"message": message, "committer": {"date": date + "Z"}}}
+        api = FakeAPI({
+            "/actions/runs": {"workflow_runs": [
+                dict(run("2026-10-22T15:52:13"), path=".github/workflows/trakt-suggested-refresh.yml"),
+                dict(run("2026-10-22T15:41:47"), path=".github/workflows/daily-refresh.yml"),
+                dict(run("2026-10-22T14:52:00", conclusion="failure"), path=".github/workflows/trakt-suggested-refresh.yml"),
+            ]},
+            "/commits": [commit("Refresh Trakt Suggested catalogues", "2026-10-22T15:52:54"),
+                         commit("Daily UK police catalogue refresh", "2026-10-22T15:42:10"),
+                         commit("Refresh Trakt Suggested catalogues\n\nbody", "2026-10-22T14:53:00"),
+                         commit("Keep the year out of upcoming card lines", "2026-10-22T14:00:00")],
+        })
+        self.assertEqual(sorted(other_successes(api, "trakt-suggested-refresh.yml")),
+                         [at("2026-10-22T14:53:00"), at("2026-10-22T15:52:13"), at("2026-10-22T15:52:54")])
+        self.assertEqual(sorted(other_successes(api, "daily-refresh.yml")),
+                         [at("2026-10-22T15:41:47"), at("2026-10-22T15:42:10")])
+        self.assertTrue(all(method == "GET" for method, _, _ in api.calls))
+
+    def test_an_unreachable_source_is_skipped(self):
+        class Down(FakeAPI):
+            def call(self, method, path, params=None, payload=None):
+                raise watchdog.urllib.error.URLError("down")
+        self.assertEqual(other_successes(Down(), "daily-refresh.yml"), [])
 
 
 class IssueTests(unittest.TestCase):
@@ -148,7 +190,12 @@ class IssueTests(unittest.TestCase):
         api.calls.clear()
         ok = decide(at("2026-10-19T07:52"), POLICE, [run("2026-10-19T06:30:00")])
         self.assertEqual(sync_issue(api, [issue], WORKFLOW, ok, "stegalloway"), "closed alert")
-        self.assertEqual(api.calls[-1][1:], ("/issues/5", {"state": "closed", "state_reason": "completed"}))
+        # One edit, no comment: the recovery note goes in the body as the issue closes.
+        self.assertEqual(len(api.calls), 1)
+        method, path, payload = api.calls[0]
+        self.assertEqual((method, path, payload["state"], payload["state_reason"]), ("PATCH", "/issues/5", "closed", "completed"))
+        self.assertTrue(payload["body"].startswith(issue["body"]))
+        self.assertIn("Recovered: a refresh succeeded at Mon 19 Oct 06:30 UTC.", payload["body"])
 
     def test_quiet_when_nothing_is_wrong(self):
         api = FakeAPI()
