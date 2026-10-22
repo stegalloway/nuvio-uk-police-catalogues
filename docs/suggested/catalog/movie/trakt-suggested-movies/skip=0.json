@@ -177,20 +177,6 @@
       "imdb_id": "tt0102926"
     },
     {
-      "id": "tt2481498",
-      "type": "movie",
-      "name": "Extremely Wicked, Shockingly Evil and Vile",
-      "poster": "https://image.tmdb.org/t/p/w500/a7dVwEBU3vupg3hZQMeyL6ksz0F.jpg",
-      "posterShape": "poster",
-      "description": "A chronicle of the crimes of Ted Bundy, from the perspective of his longtime girlfriend, Elizabeth Kloepfer, who refused to believe the truth about him for years.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt2481498"
-    },
-    {
       "id": "tt2872718",
       "type": "movie",
       "name": "Nightcrawler",
@@ -292,6 +278,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32430579"
+    },
+    {
+      "id": "tt36042156",
+      "type": "movie",
+      "name": "The Punisher: One Last Kill",
+      "poster": "https://image.tmdb.org/t/p/w500/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
+      "posterShape": "poster",
+      "description": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt36042156"
     }
   ]
 }
