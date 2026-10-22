@@ -1,6 +1,22 @@
 {
   "metas": [
     {
+      "id": "tt0117774",
+      "type": "movie",
+      "name": "The Substitute",
+      "poster": "https://image.tmdb.org/t/p/w500/7vfzvhPMNauUXrVxVOPEfpOsful.jpg",
+      "posterShape": "poster",
+      "description": "When an inner-city Miami schoolteacher gets her knee broken after standing up to the school's gang leader, her mercenary combat specialist boyfriend goes undercover as a substitute teacher to take down the punk. Soon he discovers a conspiracy of criminals at work, and must reassemble his team from his last jungle raid to stop them.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "1996",
+      "imdb_id": "tt0117774"
+    },
+    {
       "id": "tt32430579",
       "type": "movie",
       "name": "Crime 101",
@@ -275,20 +291,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt32550101"
-    },
-    {
-      "id": "tt38672588",
-      "type": "movie",
-      "name": "Masterplan",
-      "poster": "https://image.tmdb.org/t/p/w500/5xmXVd7nCK3tAo34XkO58SxUCip.jpg",
-      "posterShape": "poster",
-      "description": "When a legendary thief sets his sights on the Mona Lisa, he recruits two young strangers to help him before revealing they are long-lost siblings… and oh yes, by the way, he is their father. Thrown into a chaotic reunion they never asked for, this new family must learn to work together — and try not to kill each other — if they want any chance at pulling off the heist of the century.",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt38672588"
     }
   ]
 }
