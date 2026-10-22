@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt7587890",
+      "type": "series",
+      "name": "The Rookie",
+      "poster": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+      "posterShape": "poster",
+      "description": "S9 E1 · Wed 6 Jan 2027\n\nStarting over isn't easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force's oldest rookie, he's met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Comedy"
+      ],
+      "releaseInfo": "Wed 6 Jan · S9 E1",
+      "imdb_id": "tt7587890"
+    },
+    {
       "id": "tt11712058",
       "type": "series",
       "name": "Mayor of Kingstown",

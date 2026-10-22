@@ -266,6 +266,22 @@
       "imdb_id": "tt0144117"
     },
     {
+      "id": "tt0117774",
+      "type": "movie",
+      "name": "The Substitute",
+      "poster": "https://image.tmdb.org/t/p/w500/7vfzvhPMNauUXrVxVOPEfpOsful.jpg",
+      "posterShape": "poster",
+      "description": "When an inner-city Miami schoolteacher gets her knee broken after standing up to the school's gang leader, her mercenary combat specialist boyfriend goes undercover as a substitute teacher to take down the punk. Soon he discovers a conspiracy of criminals at work, and must reassemble his team from his last jungle raid to stop them.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "1996",
+      "imdb_id": "tt0117774"
+    },
+    {
       "id": "tt32430579",
       "type": "movie",
       "name": "Crime 101",
@@ -278,21 +294,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32430579"
-    },
-    {
-      "id": "tt36042156",
-      "type": "movie",
-      "name": "The Punisher: One Last Kill",
-      "poster": "https://image.tmdb.org/t/p/w500/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
-      "posterShape": "poster",
-      "description": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
-      "genres": [
-        "Action",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36042156"
     }
   ]
 }

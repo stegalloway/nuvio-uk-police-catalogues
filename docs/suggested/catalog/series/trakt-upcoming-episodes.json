@@ -15,6 +15,21 @@
       "imdb_id": "tt11743610"
     },
     {
+      "id": "tt5875444",
+      "type": "series",
+      "name": "Slow Horses",
+      "poster": "https://image.tmdb.org/t/p/w500/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg",
+      "posterShape": "poster",
+      "description": "S6 E6 · Judgement Day · out yesterday\n\nFollow a dysfunctional team of MI5 agents—and their obnoxious boss, the notorious Jackson Lamb—as they navigate the espionage world's smoke and mirrors to defend England from sinister forces.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "Out now · S6 E6",
+      "imdb_id": "tt5875444"
+    },
+    {
       "id": "tt31510819",
       "type": "series",
       "name": "MobLand",
