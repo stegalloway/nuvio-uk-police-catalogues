@@ -44,20 +44,6 @@
       "imdb_id": "tt32559610"
     },
     {
-      "id": "tt30459041",
-      "type": "series",
-      "name": "Your Friends & Neighbors",
-      "poster": "https://image.tmdb.org/t/p/w500/lcp63INKEsVHUly9eayx7gEEOcG.jpg",
-      "posterShape": "poster",
-      "description": "When a financial titan suddenly finds himself divorced and jobless, he starts robbing his wealthy neighbors to stay afloat. Stealing from his own social circle strangely exhilarates him—but he gradually gets tangled in a deadly web.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30459041"
-    },
-    {
       "id": "tt13875494",
       "type": "series",
       "name": "Tracker",
@@ -70,6 +56,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt13875494"
+    },
+    {
+      "id": "tt30459041",
+      "type": "series",
+      "name": "Your Friends & Neighbors",
+      "poster": "https://image.tmdb.org/t/p/w500/lcp63INKEsVHUly9eayx7gEEOcG.jpg",
+      "posterShape": "poster",
+      "description": "When a financial titan suddenly finds himself divorced and jobless, he starts robbing his wealthy neighbors to stay afloat. Stealing from his own social circle strangely exhilarates him—but he gradually gets tangled in a deadly web.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt30459041"
     },
     {
       "id": "tt26862142",
@@ -144,20 +144,6 @@
       "imdb_id": "tt10155688"
     },
     {
-      "id": "tt18115928",
-      "type": "series",
-      "name": "East New York",
-      "poster": "https://image.tmdb.org/t/p/w500/vOos5pwq3tzPCwFohG80i2SXAgR.jpg",
-      "posterShape": "poster",
-      "description": "Regina Haywood is the newly promoted deputy inspector of East New York, a working-class neighborhood at the edge of Brooklyn. She leads a diverse group of officers and detectives, some of whom are reluctant to deploy her creative methods of serving and protecting in the midst of social upheaval and the early seeds of gentrification.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt18115928"
-    },
-    {
       "id": "tt36022742",
       "type": "series",
       "name": "Nemesis",
@@ -171,6 +157,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt36022742"
+    },
+    {
+      "id": "tt18115928",
+      "type": "series",
+      "name": "East New York",
+      "poster": "https://image.tmdb.org/t/p/w500/vOos5pwq3tzPCwFohG80i2SXAgR.jpg",
+      "posterShape": "poster",
+      "description": "Regina Haywood is the newly promoted deputy inspector of East New York, a working-class neighborhood at the edge of Brooklyn. She leads a diverse group of officers and detectives, some of whom are reluctant to deploy her creative methods of serving and protecting in the midst of social upheaval and the early seeds of gentrification.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt18115928"
     },
     {
       "id": "tt14063678",
