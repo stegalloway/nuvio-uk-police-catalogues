@@ -144,20 +144,6 @@
       "imdb_id": "tt10155688"
     },
     {
-      "id": "tt14063678",
-      "type": "series",
-      "name": "The Gold",
-      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
-      "posterShape": "poster",
-      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14063678"
-    },
-    {
       "id": "tt18115928",
       "type": "series",
       "name": "East New York",
@@ -170,6 +156,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt18115928"
+    },
+    {
+      "id": "tt14063678",
+      "type": "series",
+      "name": "The Gold",
+      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
+      "posterShape": "poster",
+      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt14063678"
     },
     {
       "id": "tt36022742",
@@ -230,21 +230,6 @@
       "imdb_id": "tt1475582"
     },
     {
-      "id": "tt14582876",
-      "type": "series",
-      "name": "On Call",
-      "poster": "https://image.tmdb.org/t/p/w500/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
-      "posterShape": "poster",
-      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt14582876"
-    },
-    {
       "id": "tt33035373",
       "type": "series",
       "name": "HIS & HERS",
@@ -258,6 +243,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33035373"
+    },
+    {
+      "id": "tt14582876",
+      "type": "series",
+      "name": "On Call",
+      "poster": "https://image.tmdb.org/t/p/w500/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
+      "posterShape": "poster",
+      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt14582876"
     },
     {
       "id": "tt0429087",

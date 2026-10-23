@@ -1,36 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt31189814",
-      "type": "movie",
-      "name": "Fuze",
-      "poster": "https://image.tmdb.org/t/p/w500/oMFdQE5hMJ9JjhNORegwTo0GKmh.jpg",
-      "posterShape": "poster",
-      "description": "An unexploded WWII bomb is discovered on a busy construction site in the centre of London. Chaos ensues as the military and police begin a mass evacuation against a ticking clock.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31189814"
-    },
-    {
-      "id": "tt2582802",
-      "type": "movie",
-      "name": "Whiplash",
-      "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
-      "posterShape": "poster",
-      "description": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
-      "genres": [
-        "Drama",
-        "Music",
-        "Thriller"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2582802"
-    },
-    {
       "id": "tt0258463",
       "type": "movie",
       "name": "The Bourne Identity",
@@ -44,6 +14,21 @@
       ],
       "releaseInfo": "2002",
       "imdb_id": "tt0258463"
+    },
+    {
+      "id": "tt33296751",
+      "type": "movie",
+      "name": "Tuner",
+      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
+      "posterShape": "poster",
+      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33296751"
     },
     {
       "id": "tt0477348",
@@ -61,19 +46,19 @@
       "imdb_id": "tt0477348"
     },
     {
-      "id": "tt33296751",
+      "id": "tt9603208",
       "type": "movie",
-      "name": "Tuner",
-      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
+      "name": "Mission: Impossible - The Final Reckoning",
+      "poster": "https://image.tmdb.org/t/p/w500/iKPsC9EFUafRP9SrUznI61getVP.jpg",
       "posterShape": "poster",
-      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
+      "description": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
       "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
+        "Action",
+        "Thriller",
+        "Adventure"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33296751"
+      "releaseInfo": "2025",
+      "imdb_id": "tt9603208"
     },
     {
       "id": "tt0425210",
@@ -105,6 +90,21 @@
       ],
       "releaseInfo": "2001",
       "imdb_id": "tt0203119"
+    },
+    {
+      "id": "tt0100935",
+      "type": "movie",
+      "name": "Wild at Heart",
+      "poster": "https://image.tmdb.org/t/p/w500/uLUFI5sJIfWrBUWB2Y1dEuyvvVy.jpg",
+      "posterShape": "poster",
+      "description": "Young lovers Sailor and Lula hit the road to start a new life together away from the wrath of Lula’s deranged, disapproving mother, who has hired a team of hitmen to cut the lovers’ surreal honeymoon short.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Romance"
+      ],
+      "releaseInfo": "1990",
+      "imdb_id": "tt0100935"
     }
   ]
 }
