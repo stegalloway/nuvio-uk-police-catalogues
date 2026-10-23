@@ -58,18 +58,18 @@
       "imdb_id": "tt2304589"
     },
     {
-      "id": "tt13875494",
+      "id": "tt32559610",
       "type": "series",
-      "name": "Tracker",
-      "poster": "https://image.tmdb.org/t/p/w500/otula4h1ITZ0eV84eg7Lb8u614C.jpg",
+      "name": "Countdown",
+      "poster": "https://image.tmdb.org/t/p/w500/gcSNS5cy1iOmYawIdJCzoc873rQ.jpg",
       "posterShape": "poster",
-      "description": "Lone-wolf survivalist Colter Shaw roams the country as a “reward seeker,” using his expert tracking skills to help private citizens and law enforcement solve all manner of mysteries while contending with his own fractured family.",
+      "description": "When an officer with the Department of Homeland Security is murdered in broad daylight, LAPD detective Mark Meachum is recruited to a secret task force, alongside undercover agents from all branches of law enforcement, to investigate. But the hunt for the killer soon uncovers a plot far more sinister than anyone could have imagined, kicking off a race against time to save a city of millions.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Mystery"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt13875494"
+      "releaseInfo": "2025",
+      "imdb_id": "tt32559610"
     },
     {
       "id": "tt30459041",
@@ -86,18 +86,18 @@
       "imdb_id": "tt30459041"
     },
     {
-      "id": "tt32559610",
+      "id": "tt13875494",
       "type": "series",
-      "name": "Countdown",
-      "poster": "https://image.tmdb.org/t/p/w500/gcSNS5cy1iOmYawIdJCzoc873rQ.jpg",
+      "name": "Tracker",
+      "poster": "https://image.tmdb.org/t/p/w500/otula4h1ITZ0eV84eg7Lb8u614C.jpg",
       "posterShape": "poster",
-      "description": "When an officer with the Department of Homeland Security is murdered in broad daylight, LAPD detective Mark Meachum is recruited to a secret task force, alongside undercover agents from all branches of law enforcement, to investigate. But the hunt for the killer soon uncovers a plot far more sinister than anyone could have imagined, kicking off a race against time to save a city of millions.",
+      "description": "Lone-wolf survivalist Colter Shaw roams the country as a “reward seeker,” using his expert tracking skills to help private citizens and law enforcement solve all manner of mysteries while contending with his own fractured family.",
       "genres": [
-        "Crime",
-        "Mystery"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32559610"
+      "releaseInfo": "2024",
+      "imdb_id": "tt13875494"
     },
     {
       "id": "tt26862142",
@@ -186,6 +186,20 @@
       "imdb_id": "tt14063678"
     },
     {
+      "id": "tt18115928",
+      "type": "series",
+      "name": "East New York",
+      "poster": "https://image.tmdb.org/t/p/w500/vOos5pwq3tzPCwFohG80i2SXAgR.jpg",
+      "posterShape": "poster",
+      "description": "Regina Haywood is the newly promoted deputy inspector of East New York, a working-class neighborhood at the edge of Brooklyn. She leads a diverse group of officers and detectives, some of whom are reluctant to deploy her creative methods of serving and protecting in the midst of social upheaval and the early seeds of gentrification.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt18115928"
+    },
+    {
       "id": "tt36022742",
       "type": "series",
       "name": "Nemesis",
@@ -199,20 +213,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt36022742"
-    },
-    {
-      "id": "tt18115928",
-      "type": "series",
-      "name": "East New York",
-      "poster": "https://image.tmdb.org/t/p/w500/vOos5pwq3tzPCwFohG80i2SXAgR.jpg",
-      "posterShape": "poster",
-      "description": "Regina Haywood is the newly promoted deputy inspector of East New York, a working-class neighborhood at the edge of Brooklyn. She leads a diverse group of officers and detectives, some of whom are reluctant to deploy her creative methods of serving and protecting in the midst of social upheaval and the early seeds of gentrification.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt18115928"
     },
     {
       "id": "tt31314754",

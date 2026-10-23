@@ -164,20 +164,6 @@
       "imdb_id": "tt0369339"
     },
     {
-      "id": "tt5095076",
-      "type": "movie",
-      "name": "Wardriver",
-      "poster": "https://image.tmdb.org/t/p/w500/rBZA12Hf4yZZgud6iPuFU49L7zk.jpg",
-      "posterShape": "poster",
-      "description": "He’s a Wardriver: a hacker who steals from banks, not people—until he’s noticed. Now the money turns violent, and the woman caught in it could save him or kill them both.",
-      "genres": [
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt5095076"
-    },
-    {
       "id": "tt0117060",
       "type": "movie",
       "name": "Mission: Impossible",
@@ -193,19 +179,18 @@
       "imdb_id": "tt0117060"
     },
     {
-      "id": "tt17024450",
+      "id": "tt5095076",
       "type": "movie",
-      "name": "The Equalizer 3",
-      "poster": "https://image.tmdb.org/t/p/w500/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg",
+      "name": "Wardriver",
+      "poster": "https://image.tmdb.org/t/p/w500/rBZA12Hf4yZZgud6iPuFU49L7zk.jpg",
       "posterShape": "poster",
-      "description": "Robert McCall finds himself at home in Southern Italy but he discovers his friends are under the control of local crime bosses. As events turn deadly, McCall knows what he has to do: become his friends' protector by taking on the mafia.",
+      "description": "He’s a Wardriver: a hacker who steals from banks, not people—until he’s noticed. Now the money turns violent, and the woman caught in it could save him or kill them both.",
       "genres": [
-        "Action",
         "Thriller",
         "Crime"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt17024450"
+      "releaseInfo": "2026",
+      "imdb_id": "tt5095076"
     },
     {
       "id": "tt0209144",
@@ -220,6 +205,21 @@
       ],
       "releaseInfo": "2000",
       "imdb_id": "tt0209144"
+    },
+    {
+      "id": "tt17024450",
+      "type": "movie",
+      "name": "The Equalizer 3",
+      "poster": "https://image.tmdb.org/t/p/w500/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg",
+      "posterShape": "poster",
+      "description": "Robert McCall finds himself at home in Southern Italy but he discovers his friends are under the control of local crime bosses. As events turn deadly, McCall knows what he has to do: become his friends' protector by taking on the mafia.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt17024450"
     },
     {
       "id": "tt1212450",
@@ -265,19 +265,19 @@
       "imdb_id": "tt33303521"
     },
     {
-      "id": "tt32357218",
+      "id": "tt0144084",
       "type": "movie",
-      "name": "Shelter",
-      "poster": "https://image.tmdb.org/t/p/w500/cv7DeQQ7TOozPoTCBdNJIvWKhU1.jpg",
+      "name": "American Psycho",
+      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
       "posterShape": "poster",
-      "description": "A man living in self-imposed exile on a remote island rescues a young girl from a violent storm, setting off a chain of events that forces him out of seclusion to protect her from enemies tied to his past.",
+      "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
       "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
+        "Thriller",
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32357218"
+      "releaseInfo": "2000",
+      "imdb_id": "tt0144084"
     },
     {
       "id": "tt1229238",
