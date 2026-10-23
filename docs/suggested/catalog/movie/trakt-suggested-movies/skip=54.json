@@ -1,22 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt0327056",
-      "type": "movie",
-      "name": "Mystic River",
-      "poster": "https://image.tmdb.org/t/p/w500/hCHVDbo6XJGj3r2i4hVjKhE0GKF.jpg",
-      "posterShape": "poster",
-      "description": "The lives of three men who were childhood friends are shattered when one of them suffers a family tragedy.",
-      "genres": [
-        "Thriller",
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2003",
-      "imdb_id": "tt0327056"
-    },
-    {
       "id": "tt0070379",
       "type": "movie",
       "name": "Mean Streets",
@@ -29,6 +13,21 @@
       ],
       "releaseInfo": "1973",
       "imdb_id": "tt0070379"
+    },
+    {
+      "id": "tt31189814",
+      "type": "movie",
+      "name": "Fuze",
+      "poster": "https://image.tmdb.org/t/p/w500/oMFdQE5hMJ9JjhNORegwTo0GKmh.jpg",
+      "posterShape": "poster",
+      "description": "An unexploded WWII bomb is discovered on a busy construction site in the centre of London. Chaos ensues as the military and police begin a mass evacuation against a ticking clock.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31189814"
     },
     {
       "id": "tt2582802",
@@ -61,21 +60,6 @@
       "imdb_id": "tt0258463"
     },
     {
-      "id": "tt33296751",
-      "type": "movie",
-      "name": "Tuner",
-      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
-      "posterShape": "poster",
-      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33296751"
-    },
-    {
       "id": "tt0477348",
       "type": "movie",
       "name": "No Country for Old Men",
@@ -89,6 +73,21 @@
       ],
       "releaseInfo": "2007",
       "imdb_id": "tt0477348"
+    },
+    {
+      "id": "tt33296751",
+      "type": "movie",
+      "name": "Tuner",
+      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
+      "posterShape": "poster",
+      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33296751"
     }
   ]
 }
