@@ -86,20 +86,6 @@
       "imdb_id": "tt26862142"
     },
     {
-      "id": "tt15568702",
-      "type": "series",
-      "name": "Litvinenko",
-      "poster": "https://image.tmdb.org/t/p/w500/ojaSBvv1EZqcf4qvgHBhjWcm3Lb.jpg",
-      "posterShape": "poster",
-      "description": "The story of the determined Scotland Yard Officers who worked to prove who was responsible for the death of Alexander Litvinenko, in one of the most complex and dangerous investigations in the history of the Metropolitan Police.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15568702"
-    },
-    {
       "id": "tt32499731",
       "type": "series",
       "name": "Steal",
@@ -158,6 +144,20 @@
       "imdb_id": "tt18115928"
     },
     {
+      "id": "tt31314754",
+      "type": "series",
+      "name": "Devil in Disguise: John Wayne Gacy",
+      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
+      "posterShape": "poster",
+      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31314754"
+    },
+    {
       "id": "tt36022742",
       "type": "series",
       "name": "Nemesis",
@@ -185,20 +185,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt14063678"
-    },
-    {
-      "id": "tt31314754",
-      "type": "series",
-      "name": "Devil in Disguise: John Wayne Gacy",
-      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
-      "posterShape": "poster",
-      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31314754"
     },
     {
       "id": "tt27954448",
@@ -287,6 +273,21 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt18699118"
+    },
+    {
+      "id": "tt11794812",
+      "type": "series",
+      "name": "Cross",
+      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
+      "posterShape": "poster",
+      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt11794812"
     }
   ]
 }

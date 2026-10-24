@@ -1,18 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt5574490",
+      "id": "tt6439752",
       "type": "series",
-      "name": "Animal Kingdom",
-      "poster": "https://image.tmdb.org/t/p/w500/rzvdKrnSRKPFI0pgqMQknDPpRC9.jpg",
+      "name": "Snowfall",
+      "poster": "https://image.tmdb.org/t/p/w500/y7ntzl7msiaS6o7dvDbNG7XFYcR.jpg",
       "posterShape": "poster",
-      "description": "17-year-old Joshua \"J\" Cody moves in with his freewheeling relatives in their Southern California beach town after his mother dies of a heroin overdose. Headed by boot-tough matriarch Janine \"Smurf\" Cody and her right-hand Baz, who runs the business and calls the shots, the clan also consists of Pope, the oldest and most dangerous of the Cody boys; Craig, the tough and fearless middle son; and Deran, the troubled, suspicious \"baby\" of the family.",
+      "description": "Los Angeles. 1983. A storm is coming and its name is crack. Set against the infancy of the crack cocaine epidemic and its ultimate radical impact on the culture as we know it, the story follows numerous characters on a violent collision course.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt5574490"
+      "releaseInfo": "2017",
+      "imdb_id": "tt6439752"
     },
     {
       "id": "tt10732104",
@@ -29,6 +29,20 @@
       "imdb_id": "tt10732104"
     },
     {
+      "id": "tt5574490",
+      "type": "series",
+      "name": "Animal Kingdom",
+      "poster": "https://image.tmdb.org/t/p/w500/rzvdKrnSRKPFI0pgqMQknDPpRC9.jpg",
+      "posterShape": "poster",
+      "description": "17-year-old Joshua \"J\" Cody moves in with his freewheeling relatives in their Southern California beach town after his mother dies of a heroin overdose. Headed by boot-tough matriarch Janine \"Smurf\" Cody and her right-hand Baz, who runs the business and calls the shots, the clan also consists of Pope, the oldest and most dangerous of the Cody boys; Craig, the tough and fearless middle son; and Deran, the troubled, suspicious \"baby\" of the family.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt5574490"
+    },
+    {
       "id": "tt1489428",
       "type": "series",
       "name": "Justified",
@@ -41,21 +55,6 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1489428"
-    },
-    {
-      "id": "tt20285780",
-      "type": "series",
-      "name": "The Artful Dodger",
-      "poster": "https://image.tmdb.org/t/p/w500/lcyax0pIH6vZWbho2hxsMTt9KpN.jpg",
-      "posterShape": "poster",
-      "description": "It's a tale of reinvention, betrayal, redemption, and love with a twist. Jack Dawkins is The Artful Dodger, whose pickpocketing fingers have become the skilled hands of a surgeon. He is torn between an impossible love and the criminal underworld he secretly craves. This will require Artfulness.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt20285780"
     },
     {
       "id": "tt34771210",
@@ -73,6 +72,21 @@
       "imdb_id": "tt34771210"
     },
     {
+      "id": "tt20285780",
+      "type": "series",
+      "name": "The Artful Dodger",
+      "poster": "https://image.tmdb.org/t/p/w500/lcyax0pIH6vZWbho2hxsMTt9KpN.jpg",
+      "posterShape": "poster",
+      "description": "It's a tale of reinvention, betrayal, redemption, and love with a twist. Jack Dawkins is The Artful Dodger, whose pickpocketing fingers have become the skilled hands of a surgeon. He is torn between an impossible love and the criminal underworld he secretly craves. This will require Artfulness.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt20285780"
+    },
+    {
       "id": "tt6517320",
       "type": "series",
       "name": "Too Old to Die Young",
@@ -85,20 +99,6 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt6517320"
-    },
-    {
-      "id": "tt3032476",
-      "type": "series",
-      "name": "Better Call Saul",
-      "poster": "https://image.tmdb.org/t/p/w500/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
-      "posterShape": "poster",
-      "description": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is “fixer” Mike Ehrmantraut. The series tracks Jimmy’s transformation into Saul Goodman, the man who puts “criminal” in “criminal lawyer\".",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt3032476"
     },
     {
       "id": "tt33253070",
@@ -115,6 +115,20 @@
       "imdb_id": "tt33253070"
     },
     {
+      "id": "tt3032476",
+      "type": "series",
+      "name": "Better Call Saul",
+      "poster": "https://image.tmdb.org/t/p/w500/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
+      "posterShape": "poster",
+      "description": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is “fixer” Mike Ehrmantraut. The series tracks Jimmy’s transformation into Saul Goodman, the man who puts “criminal” in “criminal lawyer\".",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt3032476"
+    },
+    {
       "id": "tt0903747",
       "type": "series",
       "name": "Breaking Bad",
@@ -127,20 +141,6 @@
       ],
       "releaseInfo": "2008",
       "imdb_id": "tt0903747"
-    },
-    {
-      "id": "tt5011816",
-      "type": "series",
-      "name": "Sneaky Pete",
-      "poster": "https://image.tmdb.org/t/p/w500/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
-      "posterShape": "poster",
-      "description": "A con man on the run from a vicious gangster takes cover from his past by assuming the identity of his prison cellmate, Pete, “reuniting” with Pete’s estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he’s trying to escape - and, just maybe, give him a taste of the loving family he’s never had.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt5011816"
     },
     {
       "id": "tt5611024",
@@ -158,6 +158,20 @@
       "imdb_id": "tt5611024"
     },
     {
+      "id": "tt5011816",
+      "type": "series",
+      "name": "Sneaky Pete",
+      "poster": "https://image.tmdb.org/t/p/w500/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
+      "posterShape": "poster",
+      "description": "A con man on the run from a vicious gangster takes cover from his past by assuming the identity of his prison cellmate, Pete, “reuniting” with Pete’s estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he’s trying to escape - and, just maybe, give him a taste of the loving family he’s never had.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt5011816"
+    },
+    {
       "id": "tt1124373",
       "type": "series",
       "name": "Sons of Anarchy",
@@ -170,20 +184,6 @@
       ],
       "releaseInfo": "2008",
       "imdb_id": "tt1124373"
-    },
-    {
-      "id": "tt0141842",
-      "type": "series",
-      "name": "The Sopranos",
-      "poster": "https://image.tmdb.org/t/p/w500/rTc7ZXdroqjkKivFPvCPX0Ru7uw.jpg",
-      "posterShape": "poster",
-      "description": "The story of New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and protégé Christopher Moltisanti.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "1999",
-      "imdb_id": "tt0141842"
     },
     {
       "id": "tt6037988",
@@ -199,6 +199,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt6037988"
+    },
+    {
+      "id": "tt0141842",
+      "type": "series",
+      "name": "The Sopranos",
+      "poster": "https://image.tmdb.org/t/p/w500/rTc7ZXdroqjkKivFPvCPX0Ru7uw.jpg",
+      "posterShape": "poster",
+      "description": "The story of New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and protégé Christopher Moltisanti.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "1999",
+      "imdb_id": "tt0141842"
     },
     {
       "id": "tt1958961",
@@ -230,18 +244,18 @@
       "imdb_id": "tt34675596"
     },
     {
-      "id": "tt14466018",
+      "id": "tt11110622",
       "type": "series",
-      "name": "Blue Lights",
-      "poster": "https://image.tmdb.org/t/p/w500/3C3c40DH8M6qdECHLlxk8o5nrC0.jpg",
+      "name": "White House Farm",
+      "poster": "https://image.tmdb.org/t/p/w500/xviAtCeJXRDxl4ClzIo1qyBhTLc.jpg",
       "posterShape": "poster",
-      "description": "Follows rookie police officers working in Belfast, a city in which being a frontline response cop comes with unique pressures and dangers.",
+      "description": "Factual drama based on the notorious White House Farm murders, and the ensuing police investigation and court case.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14466018"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11110622"
     },
     {
       "id": "tt4276618",
@@ -257,20 +271,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt4276618"
-    },
-    {
-      "id": "tt11110622",
-      "type": "series",
-      "name": "White House Farm",
-      "poster": "https://image.tmdb.org/t/p/w500/xviAtCeJXRDxl4ClzIo1qyBhTLc.jpg",
-      "posterShape": "poster",
-      "description": "Factual drama based on the notorious White House Farm murders, and the ensuing police investigation and court case.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11110622"
     },
     {
       "id": "tt11816814",

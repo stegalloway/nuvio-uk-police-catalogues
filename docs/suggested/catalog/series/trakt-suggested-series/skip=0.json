@@ -58,20 +58,6 @@
       "imdb_id": "tt7661390"
     },
     {
-      "id": "tt15837600",
-      "type": "series",
-      "name": "Griselda",
-      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
-      "posterShape": "poster",
-      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15837600"
-    },
-    {
       "id": "tt15435876",
       "type": "series",
       "name": "The Penguin",
@@ -84,6 +70,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt15435876"
+    },
+    {
+      "id": "tt15837600",
+      "type": "series",
+      "name": "Griselda",
+      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
+      "posterShape": "poster",
+      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15837600"
     },
     {
       "id": "tt26676904",
