@@ -1,0 +1,292 @@
+{
+  "metas": [
+    {
+      "id": "tt10893694",
+      "type": "series",
+      "name": "The Irregulars",
+      "poster": "https://image.tmdb.org/t/p/w500/qN6HCKR3ZRqbpGBWFctVlSTKR2k.jpg",
+      "posterShape": "poster",
+      "description": "In Victorian London, a gang of troubled street teens are manipulated into solving crimes for the sinister Doctor Watson and his mysterious business partner, the elusive Sherlock Holmes. As the crimes take on a horrifying supernatural edge and a dark power emerges, it'll be up to the Irregulars to come together to save not only London but the entire world.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt10893694"
+    },
+    {
+      "id": "tt32252772",
+      "type": "series",
+      "name": "Dexter: Original Sin",
+      "poster": "https://image.tmdb.org/t/p/w500/j5bP7spdfS0NpDLKDlqJYyJPi1j.jpg",
+      "posterShape": "poster",
+      "description": "In 1991 Miami, Dexter Morgan transitions from student to avenging serial killer. When his bloodthirsty urges can't be ignored any longer, Dexter must learn to channel his inner darkness. With the guidance of his father, Harry, he adopts a Code designed to help him find and kill people who deserve to be eliminated from society without getting on law enforcements' radar. This is a particular challenge for young Dexter as he begins a forensics internship at the Miami Metro Police Department.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt32252772"
+    },
+    {
+      "id": "tt2953250",
+      "type": "series",
+      "name": "Shining Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/qmN97JxhZHgCThRqgzaiSF7C2mj.jpg",
+      "posterShape": "poster",
+      "description": "Years after a brutal attack left her in a constantly shifting reality, Kirby Mazrachi learns that a recent murder is linked to her assault. She teams with veteran reporter Dan Velazquez to understand her ever-changing present—and confront her past.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt2953250"
+    },
+    {
+      "id": "tt13186264",
+      "type": "series",
+      "name": "Magpie Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/79L8AHJdoDtxtwyBNqNM1HRJ8q5.jpg",
+      "posterShape": "poster",
+      "description": "An editor gets drawn into a web of intrigue and murder when she receives an unfinished manuscript.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13186264"
+    },
+    {
+      "id": "tt10720914",
+      "type": "series",
+      "name": "McDonald & Dodds",
+      "poster": "https://image.tmdb.org/t/p/w500/yR9oUsGFsGOBcygzjF0cA2c45bx.jpg",
+      "posterShape": "poster",
+      "description": "Two detectives, DCI McDonald and DS Dodds, who seemingly have nothing in common, are thrown together and forge a rumbustious friendship and entertaining partnership.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime",
+        "Comedy"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10720914"
+    },
+    {
+      "id": "tt9064858",
+      "type": "series",
+      "name": "Them",
+      "poster": "https://image.tmdb.org/t/p/w500/2JIrVunDSjldv7Jv2uNKrrqwfej.jpg",
+      "posterShape": "poster",
+      "description": "A limited anthology series that explores terror in America.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt9064858"
+    },
+    {
+      "id": "tt31458276",
+      "type": "series",
+      "name": "Grotesquerie",
+      "poster": "https://image.tmdb.org/t/p/w500/oskgLp7inXPU9NgfL2NWRW0KK2e.jpg",
+      "posterShape": "poster",
+      "description": "A series of heinous crimes have unsettled a small community, and Detective Lois Tryon feels they are eerily personal, as if someone—or something—is taunting her.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt31458276"
+    },
+    {
+      "id": "tt35309276",
+      "type": "series",
+      "name": "Devil in the Family: The Fall of Ruby Franke",
+      "poster": "https://image.tmdb.org/t/p/w500/mPE2Urjd1ut4fdOioyPj1CdRTnN.jpg",
+      "posterShape": "poster",
+      "description": "When popular vlogger Ruby Franke is arrested for child abuse in August 2023, it quickly becomes one of the biggest trending stories in America. For years, the Frankes' YouTube channel had documented a wholesome, happy family life, with nearly 3 million subscribers tuning in at its peak. But as the cracks began to show, the family turned to counselor Jodi Hildebrandt for guidance – and rapidly found themselves trapped in a nightmare.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt35309276"
+    },
+    {
+      "id": "tt19244304",
+      "type": "series",
+      "name": "IT: Welcome to Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/nyy3BITeIjviv6PFIXtqvc8i6xi.jpg",
+      "posterShape": "poster",
+      "description": "In 1962, amid a spate of unexplained disappearances of local children, a group of misfit friends begin to suspect a long-buried ancient evil lurking. As the kids set out to determine what's really going on, a rising unease prompts several townspeople to work together to restore peace – all while a U.S. military operation seeks to exploit Derry for its own objectives.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt19244304"
+    },
+    {
+      "id": "tt21867596",
+      "type": "series",
+      "name": "Sins of Our Mother",
+      "poster": "https://image.tmdb.org/t/p/w500/uoShYiUZU1KSlsnV1CvnkHWT5ao.jpg",
+      "posterShape": "poster",
+      "description": "When Lori Vallow's kids vanished, the search for them unearthed a trail of suspicious deaths, a new husband who shared her doomsday views — and murder.",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt21867596"
+    },
+    {
+      "id": "tt29333646",
+      "type": "series",
+      "name": "Get Gotti",
+      "poster": "https://image.tmdb.org/t/p/w500/sfhxVG05LeWqwyMPxPJnQRfDgL5.jpg",
+      "posterShape": "poster",
+      "description": "Murder. Extortion. Drug smuggling. Racketeering. The charges are mounting against John Gotti — but will any of them stick to the \"Teflon Don\"? Told from both sides of the law, this docuseries from the makers of \"Fear City\" follows the FBI's battle to bring down infamous mob boss.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt29333646"
+    },
+    {
+      "id": "tt34384091",
+      "type": "series",
+      "name": "The Many Deaths of Nora Dalmasso",
+      "poster": "https://image.tmdb.org/t/p/w500/ja6BP5xleodB50Gv8sl59TRHAC1.jpg",
+      "posterShape": "poster",
+      "description": "Who killed Nora Dalmasso? In this true-crime series, family and journalists share the untold story of her murder and the media storm that followed.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt34384091"
+    },
+    {
+      "id": "tt34579520",
+      "type": "series",
+      "name": "Murder Before Evensong",
+      "poster": "https://image.tmdb.org/t/p/w500/xn7TFZnR9U2KpJovIg5F1WZ1qs2.jpg",
+      "posterShape": "poster",
+      "description": "In 1980s England, Canon Daniel Clement, the Rector of Champton, finds himself unexpectedly entangled in a murder case when a dead body turns up in the church. When Daniel announces a plan to modernize the church, the parish is suddenly divided. And then a body is found dead at the back of the church. As the police move in and the bodies start piling up, Daniel is the only one who can try and keep his fractured community together... and catch a killer.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt34579520"
+    },
+    {
+      "id": "tt10970552",
+      "type": "series",
+      "name": "The Haunting of Bly Manor",
+      "poster": "https://image.tmdb.org/t/p/w500/vIXQ8UymmQ7zJEPrKJP3s3fSbhR.jpg",
+      "posterShape": "poster",
+      "description": "After an au pair's tragic death, Henry Wingrave hires a young American nanny to care for his orphaned niece and nephew who reside at Bly Manor with the estate's chef Owen, groundskeeper Jamie and housekeeper, Mrs. Grose. But all is not as it seems at the manor, and centuries of dark secrets of love and loss are waiting to be unearthed in this chilling tale.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10970552"
+    },
+    {
+      "id": "tt44113382",
+      "type": "series",
+      "name": "Death of the Pastor's Wife",
+      "poster": "https://image.tmdb.org/t/p/w500/o8H6HmQNt2qx5bIfmvuI6VJn13A.jpg",
+      "posterShape": "poster",
+      "description": "What happened to Mica Miller? This documentary series retraces her promising life, toxic marriage and the mysterious circumstances of her death.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt44113382"
+    },
+    {
+      "id": "tt3960394",
+      "type": "series",
+      "name": "Interview with the Vampire",
+      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
+      "posterShape": "poster",
+      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt3960394"
+    },
+    {
+      "id": "tt10574558",
+      "type": "series",
+      "name": "Midnight Mass",
+      "poster": "https://image.tmdb.org/t/p/w500/iYoMZYVD775MtBYJfv6OGY1FsnL.jpg",
+      "posterShape": "poster",
+      "description": "The arrival of a charismatic young priest brings glorious miracles, ominous mysteries and renewed religious fervor to a dying town desperate to believe.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt10574558"
+    },
+    {
+      "id": "tt15567174",
+      "type": "series",
+      "name": "The Fall of the House of Usher",
+      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
+      "posterShape": "poster",
+      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15567174"
+    },
+    {
+      "id": "tt11041332",
+      "type": "series",
+      "name": "Yellowjackets",
+      "poster": "https://image.tmdb.org/t/p/w500/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
+      "posterShape": "poster",
+      "description": "This equal parts survival epic, psychological horror story and coming-of-age drama tells the saga of a team of wildly talented high school girls soccer players who become the (un)lucky survivors of a plane crash deep in the remote northern wilderness. The series chronicles their descent from a complicated but thriving team to savage clans, while also tracking the lives they’ve attempted to piece back together nearly 25 years later.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11041332"
+    },
+    {
+      "id": "tt6053512",
+      "type": "series",
+      "name": "Home Before Dark",
+      "poster": "https://image.tmdb.org/t/p/w500/mt4P2epJrSaqrlkMP9fTUKLP9OE.jpg",
+      "posterShape": "poster",
+      "description": "Young investigative journalist Hilde Lisko moves with her family to the small town her father left behind, only to unearth shocking secrets in her pursuit of the truth.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt6053512"
+    }
+  ]
+}
