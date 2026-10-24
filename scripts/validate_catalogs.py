@@ -11,7 +11,7 @@ status=read(ROOT/"docs"/"status.json")
 assert manifest["id"]=="uk.curated.policedocumentaries"
 assert manifest["types"]==["series"]
 assert manifest["resources"]==["catalog"]
-assert {c["id"] for c in manifest["catalogs"]}=={"on-duty","police-investigations"}
+assert {c["id"] for c in manifest["catalogs"]}==set(editor["categories"])
 total_ids=set()
 for slug,cfg in editor["categories"].items():
     expected=status["counts"][slug]
@@ -45,6 +45,6 @@ for slug,cfg in editor["categories"].items():
     total_ids.update(m["id"] for m in meta)
     print("VALID",slug,expected,"OFFSETS",requested,"EMPTY_TERMINAL",skip)
 assert len(total_ids)==sum(status["counts"].values())
-assert all(count >= 25 for count in status["counts"].values()),"Unexpected large reduction in a catalogue"
+assert all(count >= editor["categories"][slug].get("minimum",25) for slug,count in status["counts"].items()),"Unexpected large reduction in a catalogue"
 assert status["source"]=="TMDB"
 print("TOTAL",len(total_ids),"REVIEW_QUEUE",status["reviewCandidates"])

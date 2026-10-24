@@ -1,0 +1,44 @@
+name: Preview True Crime row
+
+# Preview only, on its own branch: builds the proposed True Crime row and its review finds
+# without publishing. The report is committed to this branch under preview/; docs/ and data/
+# are never committed here, so GitHub Pages and the live rows are untouched.
+on:
+  push:
+    branches: [preview/true-crime]
+    paths-ignore: ['preview/**']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: preview-true-crime
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Check catalogue rules
+        run: python -m unittest discover -s tests
+      - name: Build the True Crime preview
+        env:
+          TMDB_ACCESS_TOKEN: ${{ secrets.TMDB_ACCESS_TOKEN }}
+        run: python scripts/preview_true_crime.py
+      - name: Save the report on this branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add preview/
+          if ! git diff --cached --quiet; then
+            git commit -m "True Crime preview report"
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          fi
