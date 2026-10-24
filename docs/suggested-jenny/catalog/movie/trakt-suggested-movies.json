@@ -85,20 +85,6 @@
       "imdb_id": "tt33763941"
     },
     {
-      "id": "tt15474916",
-      "type": "movie",
-      "name": "Smile",
-      "poster": "https://image.tmdb.org/t/p/w500/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
-      "posterShape": "poster",
-      "description": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15474916"
-    },
-    {
       "id": "tt22796890",
       "type": "movie",
       "name": "Hell House LLC Origins: The Carmichael Manor",
@@ -126,6 +112,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32654916"
+    },
+    {
+      "id": "tt15474916",
+      "type": "movie",
+      "name": "Smile",
+      "poster": "https://image.tmdb.org/t/p/w500/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
+      "posterShape": "poster",
+      "description": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15474916"
     },
     {
       "id": "tt11245972",
