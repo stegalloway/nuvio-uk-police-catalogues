@@ -1,14 +1,17 @@
 # UK Police Documentaries for Nuvio
 
-Two hand-audited UK police documentary catalogues, hosted on **GitHub Pages**. No Trakt account, monthly connected-app quota, home PC, or running server is required.
+Three hand-audited UK factual crime catalogues, hosted on **GitHub Pages**. No Trakt account, monthly connected-app quota, home PC, or running server is required.
 
 | Nuvio tab | Approved programmes (October 2026) |
 |---|---:|
 | On Duty | 28 |
 | Police Investigations | 33 |
-| **Total** | **61** |
+| True Crime | 27 |
+| **Total** | **88** |
 
-The 56-programme launch list was approved on 15 October 2026; five review-queue programmes were approved on 24 October 2026.
+The 56-programme launch list was approved on 15 October 2026; five review-queue programmes and the 27-programme True Crime row were approved on 24 October 2026.
+
+True Crime holds UK documentary series about real cases where the police are not the centre of the story. Police-led programmes stay in On Duty or Police Investigations. True Crime has its own minimum of 10 programmes; the police rows keep 25.
 
 ## Install in Nuvio
 
@@ -16,7 +19,7 @@ Once GitHub Pages is active, add this Stremio-compatible manifest URL to Nuvio:
 
 `https://stegalloway.github.io/nuvio-uk-police-catalogues/manifest.json`
 
-In **British TV → Police on Duty**, set the two source tabs to the catalogues `On Duty` and `Police Investigations`. Your existing AIOStreams addon remains responsible for playback and other content; this addon only supplies catalogue posters and IDs.
+In **British TV → Police on Duty**, set the source tabs to the catalogues `On Duty`, `Police Investigations` and `True Crime`. Your existing AIOStreams addon remains responsible for playback and other content; this addon only supplies catalogue posters and IDs.
 
 ## Daily automatic refresh
 
@@ -25,12 +28,12 @@ GitHub Actions runs `.github/workflows/daily-refresh.yml` every day at **06:23 U
 1. TMDB is scanned for British-origin documentary/reality TV programmes from the last five years, including Channel 5.
 2. Existing shows stay eligible if their first broadcast is within five years, or they have a new original episode within the preceding 24 months. Approved manual exceptions are preserved.
 3. Programmes are separated into operational policing and police investigations, deduplicated, and sorted by most recent original episode. Manually retained historical specials/repeats are placed last.
-4. New programmes with clear UK police-documentary metadata are automatically added **only after two different-day sightings**. Less-clear results go to `data/review-queue.json` rather than changing the live lists.
+4. New programmes with clear UK police-documentary metadata are automatically added **only after two different-day sightings**. Less-clear results go to `data/review-queue.json` rather than changing the live lists. UK true-crime series that are not police-led are matched separately for the True Crime row under the same rules.
 5. The workflow validates and commits the refreshed public `docs/` catalogues and `data/` audit to the repository. If an API or validation step fails, the previous published catalogue stays intact.
 
 ### Configuration and credentials
 
-The 61 approved TMDB IDs, age exceptions, and exclusions are in `config/editorial.json`. Newly discovered IDs are tracked in `data/discovered.json` and ambiguous suggestions in `data/review-queue.json`.
+The 88 approved TMDB IDs, age exceptions, and exclusions are in `config/editorial.json`. Newly discovered IDs are tracked in `data/discovered.json` and ambiguous suggestions in `data/review-queue.json`.
 
 A private repository **Actions secret** named `TMDB_ACCESS_TOKEN` grants read-only TMDB API access to GitHub Actions. Never add this value to source code, `docs/`, README, or commit history.
 

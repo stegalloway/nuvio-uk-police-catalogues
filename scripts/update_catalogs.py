@@ -27,6 +27,9 @@ STRONG_TITLE = re.compile(r"\b(police|cops?|coppers|detectives?|interceptors?|co
 INVESTIGATIONS = re.compile(r"detectiv|major crime|murder|cold case|forensic|suspect|corruption|undercover|investigat|manhunt|sex trafficking|hunting|case", re.I)
 POLICE_CONTEXT = re.compile(r"\b(police|constabl|officers?|detectives?|policing|traffic\s+cop|metropolitan|criminal\s+investigation|crime\s+squad|police\s+force)\b", re.I)
 NEGATIVE = re.compile(r"\b(fictional|scripted drama|crime drama|police procedural drama|mockumentary|satirical)\b", re.I)
+# True crime: real cases told without police at the centre. Police-led shows keep their rows.
+TRUE_CRIME_TITLE = re.compile(r"\b(murders?|murderers?|killers?|killings?|crimes?|criminals?|cold\s+case|trial|manhunt|missing|serial|ripper|forensics?|evil|vanish(?:ed|ing)?|disappear(?:ed|ance)?|abduct(?:ed|ion)|kidnap(?:ped|ping)?|stalk(?:er|ing)|poison(?:er|ing)?|con\s?man|heist|gangsters?)\b", re.I)
+TRUE_CRIME_CONTEXT = re.compile(r"\b(murder(?:ed|er|s)?|killed|killers?|killing|convicted|trial|jury|verdict|victims?|investigation|disappearance|justice|sentenced|prison|crimes?)\b", re.I)
 
 def load_json(path, default=None):
     return json.loads(path.read_text(encoding="utf-8-sig")) if path.exists() else default
@@ -108,7 +111,7 @@ def category_from_text(tv):
     desc=tv.get("overview") or ""
     return "police-investigations" if INVESTIGATIONS.search(title) or (INVESTIGATIONS.search(desc) and not STRONG_TITLE.search(title)) else "on-duty"
 
-def confidence(tv):
+def confidence(tv, true_crime=False):
     title=(tv.get("name") or "").lower()
     desc=(tv.get("overview") or "").lower()
     full=title+" "+desc
@@ -121,12 +124,18 @@ def confidence(tv):
         return None
     specific=bool(STRONG_TITLE.search(title))
     context=bool(POLICE_CONTEXT.search(desc))
+    category=category_from_text(tv)
     # A title with no policing context is only a review candidate.
-    if not specific and not context:return None
+    if not specific and not context:
+        if not true_crime:return None
+        specific=bool(TRUE_CRIME_TITLE.search(title))
+        context=bool(TRUE_CRIME_CONTEXT.search(desc))
+        if not specific or not context:return None
+        category="true-crime"
     score=2 + 4*int(specific) + 2*int(context)
     if any(x in full for x in ("britain","british","london","england","scotland","wales","west midlands","merseyside","geordie","manchester","county police")):
         score+=1
-    return {"score":score,"category":category_from_text(tv),
+    return {"score":score,"category":category,
             "autoEligible":specific and context and score>=8 and first>=months_ago(6)}
 
 def review_details(tv):
@@ -172,13 +181,15 @@ def discover(tmdb, editorial, previous, seeded, already):
     if count>1:
         with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
             pages.extend(pool.map(lambda n:tmdb.get("/discover/tv",{**query,"page":n}),range(2,count+1)))
+    true_crime="true-crime" in editorial["categories"]
     matches={}
     for page in pages:
         for item in page.get("results",[]):
             name=item.get("name") or ""
             overview=item.get("overview") or ""
             potential=(STRONG_TITLE.search(name) or
-                (POLICE_CONTEXT.search(overview) and re.search(r"detectiv|crime|murder|999|police|interceptor|custody|forensic|manhunt",name,re.I)))
+                (POLICE_CONTEXT.search(overview) and re.search(r"detectiv|crime|murder|999|police|interceptor|custody|forensic|manhunt",name,re.I)) or
+                (true_crime and TRUE_CRIME_TITLE.search(name) and TRUE_CRIME_CONTEXT.search(overview)))
             if potential and isinstance(item.get("id"),int):
                 matches[item["id"]]=item
     previous_by_id={int(x["tmdbId"]):x for x in previous.get("candidates",[]) if isinstance(x.get("tmdbId"),int)}
@@ -192,7 +203,7 @@ def discover(tmdb, editorial, previous, seeded, already):
     for id in already:
         if id in tmdb.cache:name_seen.add(title_key(tmdb.cache[id].get("name")))
     review=[]
-    new={"on-duty":[],"police-investigations":[]}
+    new={slug:[] for slug in editorial["categories"]}
     error_count=0
     def check(tid):
         try:
@@ -205,7 +216,7 @@ def discover(tmdb, editorial, previous, seeded, already):
         if error:
             error_count+=1
             continue
-        signals=confidence(show)
+        signals=confidence(show,true_crime)
         if not signals or not eligible(show): continue
         normalized=title_key(show.get("name"))
         if normalized in name_seen: continue
@@ -261,11 +272,11 @@ def render_outputs(tmdb, editorial, discovered, fresh, review, scan_pages, scan_
             metas.append(meta)
         current[slug]=(final_ids,metas)
     original=[(slug,len(ids)) for slug,(ids,_) in current.items()]
-    if any(len(ids)<25 for ids,_ in current.values()):
+    if any(len(ids)<editorial["categories"][slug].get("minimum",25) for slug,(ids,_) in current.items()):
         raise RuntimeError("Unexpected catalogue shrinkage: "+str(original)+". Refusing to publish.")
     if not write:
         print("DRY_RUN_COUNTS",original,"NEW",fresh,"REVIEW",len(review["candidates"]))
-        return
+        return current
     docs=DOCS
     manifest={"id":"uk.curated.policedocumentaries","name":"UK Police Documentaries",
               "description":"Hand-curated UK police factual series, refreshed daily using TMDB.",
@@ -295,7 +306,7 @@ def run():
     arg.add_argument("--dry-run",action="store_true")
     options=arg.parse_args()
     editorial=load_json(EDITORIAL)
-    discovered=load_json(DISCOVERED,{"schema":1,"on-duty":[],"police-investigations":[]})
+    discovered=load_json(DISCOVERED,{"schema":1})
     previous_review=load_json(REVIEW,{"schema":1,"candidates":[]})
     tmdb=TMDB(os.environ.get("TMDB_ACCESS_TOKEN"))
     ids=list(dict.fromkeys([i for c in editorial["categories"].values() for i in c["tmdbIds"]]+
@@ -304,7 +315,7 @@ def run():
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for show in pool.map(get_detail,ids):pass
     original_ids={i:tmdb.cache[i] for i in ids}
-    fresh={"on-duty":[],"police-investigations":[]}
+    fresh={slug:[] for slug in editorial["categories"]}
     review=previous_review
     scan_pages=scan_candidates=0
     if not options.bootstrap:

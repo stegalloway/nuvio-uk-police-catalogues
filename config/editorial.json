@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "description": "61 hand-audited, user-approved UK police documentaries: 56 on 15 October 2026, plus 5 from the review queue on 24 October 2026.",
+  "description": "Hand-audited, user-approved UK factual crime series: 56 police documentaries on 15 October 2026, 5 more on 24 October 2026, and a 27-show True Crime row on 24 October 2026.",
   "categories": {
     "on-duty": {
       "name": "On Duty",
@@ -71,6 +71,39 @@
         237238,
         273233,
         298943
+      ]
+    },
+    "true-crime": {
+      "name": "True Crime",
+      "minimum": 10,
+      "tmdbIds": [
+        259105,
+        212463,
+        316297,
+        255054,
+        157275,
+        306658,
+        296320,
+        291351,
+        255972,
+        232258,
+        158423,
+        215455,
+        295705,
+        247623,
+        245329,
+        239566,
+        225811,
+        155302,
+        312068,
+        308989,
+        292286,
+        289315,
+        282986,
+        246789,
+        196851,
+        153645,
+        138845
       ]
     }
   },
