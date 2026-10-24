@@ -3,8 +3,9 @@
 from datetime import datetime, timedelta, timezone
 import unittest
 
+from . import watchly_base as w
 from .engine import (
-    FOR_YOU_SOURCE, EngineConfig, GenerationError, apply_dismissal_signal, derive_episode_progress,
+    FOR_YOU_SOURCE, PROFILES, EngineConfig, GenerationError, apply_dismissal_signal, derive_episode_progress,
     evaluate_returning, for_you_queries, freshness, generate_catalogues, jenny_for_you_queries, jenny_theme,
     rank_and_mix_series, thematic_signals,
 )
@@ -768,6 +769,22 @@ class JennyProfileContracts(unittest.TestCase):
         self.assertNotEqual(self.run_engine()["catalogues"]["movie"], default["catalogues"]["movie"])
         with self.assertRaises(ValueError):
             generate_catalogues(*self.inputs, FixtureAPI(), now=NOW, config=EngineConfig(profile="nobody"))
+
+
+class FilmAgeContracts(unittest.TestCase):
+    FILM = {"release_date": "1999-12-31", "genre_ids": [80], "original_language": "en",
+            "vote_average": 8.0, "vote_count": 5000}
+
+    def test_ste_films_start_in_2000(self):
+        policy = PROFILES["ste"].policy("movie")
+        self.assertEqual(policy.year_min, 2000)
+        self.assertFalse(w.passes_filters(self.FILM, policy, NOW))
+        self.assertTrue(w.passes_filters(dict(self.FILM, release_date="2000-01-01"), policy, NOW))
+
+    def test_series_and_jenny_keep_their_floors(self):
+        self.assertIsNone(PROFILES["ste"].policy("series").year_min)
+        self.assertIsNone(PROFILES["jenny"].policy("movie").year_min)
+        self.assertIsNone(PROFILES["jenny"].policy("series").year_min)
 
 
 if __name__ == "__main__":

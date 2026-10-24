@@ -68,7 +68,7 @@ the basis. This generator deliberately makes the following custom adaptations:
 - Exact recovered personal-catalogue filters: English originals; released films
   with any crime/thriller/mystery genre, at least 7/10 and 100 votes; released
   crime/mystery series, at least 7/10 and 30 votes. Existing genre exclusions and
-  the no-adult rule stay in force. No minimum release year is imposed.
+  the no-adult rule stay in force. No minimum release year is imposed by these gates; Ste's profile adds a 2000 floor for films (see Taste profiles).
 - Actual Trakt watched IDs determine suppression. Ratings inform the profile
   but do not silently mark a rated-only title watched.
 - Titles on the "Not Interested" list (`dismissed`) are suppressed at the same
@@ -163,7 +163,7 @@ returning seasons, New & Upcoming, poster and IMDb rules, and pagination.
 
 | | `ste` (default) | `jenny` |
 | --- | --- | --- |
-| Gates | English originals; films must be crime/thriller/mystery, no horror; series crime/mystery, no documentary; at least 7/10 with 100 (films) or 30 (series) votes | English originals, as Ste's; no genre whitelist; no animation or family (films), nor animation, family, kids, news, reality, soap or talk (series); at least 6.0/10 and 30 votes (films), 6.5/10 and 20 votes (series), her For You floors |
+| Gates | English originals; films must be crime/thriller/mystery, no horror, released 2000 or later (since 24 October 2026); series crime/mystery, no documentary; at least 7/10 with 100 (films) or 30 (series) votes | English originals, as Ste's; no genre whitelist; no animation or family (films), nor animation, family, kids, news, reality, soap or talk (series); at least 6.0/10 and 30 votes (films), 6.5/10 and 20 votes (series), her For You floors |
 | For You queries | 2 "For Ste" queries (`for_you_queries`) | Her 6 Discover+ catalogues (`jenny_for_you_queries`): True Crime (keyword 33722), Murder Mysteries (keywords 207046 or 10714 with genre 9648 or 80) and Horror (genre 27 for films, keyword 315058 for TV), with her own rating and vote floors, plus `with_original_language=en` |
 | Theme | Organised crime, investigation, British/Irish (`thematic_signals`) | True crime, murder mystery, horror from TMDB IDs (`jenny_theme`): a theme keyword or the horror genre counts 1, a crime documentary or the mystery genre counts 0.5 |
 | Score | Series 65/25/8/2 (above); films history only | Both types: 75% history similarity plus 25% theme strength. A themed title is boosted, an unthemed one still qualifies |

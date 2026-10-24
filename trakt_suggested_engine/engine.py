@@ -25,7 +25,7 @@ retrieval, caching, atomic publication and retention of the last good result.
 from __future__ import annotations
 
 from collections import defaultdict
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, replace
 from datetime import date, datetime, timedelta, timezone
 import math
 import re
@@ -647,16 +647,20 @@ def jenny_theme(detail: Mapping) -> dict[str, float]:
 class SteProfile:
     """Ste's gates, "For Ste" queries and organised-crime weighting (the default).
 
-    Each hook is the code that predates profiles, unchanged.
+    Each hook is the code that predates profiles, unchanged, except that films
+    released before film_year_min are left out (Ste, 24 October 2026).
     """
 
     name = "ste"
+    # Ste found older films too old to interest him; series keep no lower limit.
+    film_year_min = 2000
     # Kinds whose seeds gain themed history titles and their extra pages.
     themed_kinds = frozenset({"series"})
     themed_source = "organised_crime_history_recommendation"
 
     def policy(self, kind: str) -> w.FilterPolicy:
-        return w.ste_policy(kind, newest_first=False)
+        policy = w.ste_policy(kind, newest_first=False)
+        return replace(policy, year_min=self.film_year_min) if kind == "movie" else policy
 
     def for_you_queries(self, kind: str, now: datetime, pages: int) -> list[dict]:
         return for_you_queries(kind, now, pages)
