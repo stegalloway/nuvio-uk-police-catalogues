@@ -272,19 +272,18 @@
       "imdb_id": "tt11110622"
     },
     {
-      "id": "tt4276618",
+      "id": "tt11816814",
       "type": "series",
-      "name": "Strike",
-      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
+      "name": "Painkiller",
+      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
       "posterShape": "poster",
-      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
+      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
       "genres": [
-        "Crime",
         "Drama",
-        "Mystery"
+        "Crime"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt4276618"
+      "releaseInfo": "2023",
+      "imdb_id": "tt11816814"
     }
   ]
 }
