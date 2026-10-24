@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt1064899",
+      "type": "series",
+      "name": "Queen of the South",
+      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
+      "posterShape": "poster",
+      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt1064899"
+    },
+    {
       "id": "tt6439752",
       "type": "series",
       "name": "Snowfall",
@@ -215,19 +229,18 @@
       "imdb_id": "tt0141842"
     },
     {
-      "id": "tt1958961",
+      "id": "tt0805661",
       "type": "series",
-      "name": "Lilyhammer",
-      "poster": "https://image.tmdb.org/t/p/w500/o5I2D5oeIEafpyFw30v11AwkhnB.jpg",
+      "name": "The Black Donnellys",
+      "poster": "https://image.tmdb.org/t/p/w500/hRKjeP8laTHS9q5cJA046DJa5kA.jpg",
       "posterShape": "poster",
-      "description": "After Frank The Fixer Tagliano testifies against his Mafia boss in New York, he enters the Witness Protection Program and makes an unusual demand: he wants to be set up with a new life in the Norwegian small town of Lillehammer or as he calls it, Lilyhammer.",
+      "description": "Meet the Donnelly brothers: Tommy, Jimmy, Kevin and Sean. There is nothing these four Irish brothers wouldn't do to protect each other, and for them that means lying, cheating, stealing and, occasionally, calling the cops. Narrated by wannabe gangster Joey \"Ice Cream,\" this gritty series bears witness to the Donnelly brothers' sudden involvement in organized crime, focusing on how they go from boys to mobsters, and showing how their new life affects their relationships with friends, family and lovers.",
       "genres": [
         "Drama",
-        "Comedy",
         "Crime"
       ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1958961"
+      "releaseInfo": "2007",
+      "imdb_id": "tt0805661"
     },
     {
       "id": "tt34675596",
@@ -244,6 +257,21 @@
       "imdb_id": "tt34675596"
     },
     {
+      "id": "tt1958961",
+      "type": "series",
+      "name": "Lilyhammer",
+      "poster": "https://image.tmdb.org/t/p/w500/o5I2D5oeIEafpyFw30v11AwkhnB.jpg",
+      "posterShape": "poster",
+      "description": "After Frank The Fixer Tagliano testifies against his Mafia boss in New York, he enters the Witness Protection Program and makes an unusual demand: he wants to be set up with a new life in the Norwegian small town of Lillehammer or as he calls it, Lilyhammer.",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Crime"
+      ],
+      "releaseInfo": "2012",
+      "imdb_id": "tt1958961"
+    },
+    {
       "id": "tt11110622",
       "type": "series",
       "name": "White House Farm",
@@ -256,35 +284,6 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt11110622"
-    },
-    {
-      "id": "tt4276618",
-      "type": "series",
-      "name": "Strike",
-      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
-      "posterShape": "poster",
-      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt4276618"
-    },
-    {
-      "id": "tt11816814",
-      "type": "series",
-      "name": "Painkiller",
-      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
-      "posterShape": "poster",
-      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt11816814"
     }
   ]
 }

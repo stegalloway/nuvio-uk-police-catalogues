@@ -120,6 +120,21 @@
       "imdb_id": "tt7526136"
     },
     {
+      "id": "tt31189814",
+      "type": "movie",
+      "name": "Fuze",
+      "poster": "https://image.tmdb.org/t/p/w500/oMFdQE5hMJ9JjhNORegwTo0GKmh.jpg",
+      "posterShape": "poster",
+      "description": "An unexploded WWII bomb is discovered on a busy construction site in the centre of London. Chaos ensues as the military and police begin a mass evacuation against a ticking clock.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31189814"
+    },
+    {
       "id": "tt0327056",
       "type": "movie",
       "name": "Mystic River",
@@ -134,21 +149,6 @@
       ],
       "releaseInfo": "2003",
       "imdb_id": "tt0327056"
-    },
-    {
-      "id": "tt31189814",
-      "type": "movie",
-      "name": "Fuze",
-      "poster": "https://image.tmdb.org/t/p/w500/oMFdQE5hMJ9JjhNORegwTo0GKmh.jpg",
-      "posterShape": "poster",
-      "description": "An unexploded WWII bomb is discovered on a busy construction site in the centre of London. Chaos ensues as the military and police begin a mass evacuation against a ticking clock.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31189814"
     },
     {
       "id": "tt0070379",
