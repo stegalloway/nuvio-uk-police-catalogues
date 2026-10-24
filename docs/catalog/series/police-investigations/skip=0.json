@@ -27,6 +27,20 @@
       "background": "https://image.tmdb.org/t/p/w1280/uRUioWgXuTQMw19dE0Cw6ThUC1R.jpg"
     },
     {
+      "id": "tmdb:333609",
+      "type": "series",
+      "name": "Crime Scene Raw",
+      "poster": "https://image.tmdb.org/t/p/w500/jp8W79BgEdts3tPjn12rsFm2zVn.jpg",
+      "posterShape": "poster",
+      "description": "Crime Scene Raw focuses on a different high-profile case each episode, utilizing police bodycam footage and forensic evidence.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/l9ECGuJxfZLOaLvrGOiYwfhFpeF.jpg"
+    },
+    {
       "id": "tt41017478",
       "type": "series",
       "name": "999: What Happened Next",
@@ -82,6 +96,19 @@
         "Crime"
       ],
       "background": "https://image.tmdb.org/t/p/w1280/lxL38Yq8mmxt6QIvXUGfMdA7kAn.jpg"
+    },
+    {
+      "id": "tmdb:328843",
+      "type": "series",
+      "name": "Murder in Suburbia",
+      "poster": "https://image.tmdb.org/t/p/w500/swrY9tfzTMUpKqj8FkpagT908wZ.jpg",
+      "posterShape": "poster",
+      "description": "December 2007, a quiet Surrey town is shaken by a horrific murder. But who killed Sharon Birchwood? Detectives follow a trail to Thailand in one of the most bizarre murder cases in recent memory.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/enEEpD7AcZTcfSDLaG6Y2MuzDWb.jpg"
     },
     {
       "id": "tmdb:245753",
@@ -167,6 +194,34 @@
       "background": "https://image.tmdb.org/t/p/w1280/AnsgEm0mkcZFvpfADtPamMX2HuO.jpg"
     },
     {
+      "id": "tt31108835",
+      "type": "series",
+      "name": "TikTok: Murder Gone Viral",
+      "poster": "https://image.tmdb.org/t/p/w500/fgaOFLbBtmFgYkStkqixHmDNmHZ.jpg",
+      "posterShape": "poster",
+      "description": "Explores tragic murders that went viral on the social media app, TikTok, with exclusive access to the victim’s families and the police investigation.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/i14zqii0nLXl4iWtTObRGDfgovb.jpg"
+    },
+    {
+      "id": "tmdb:273233",
+      "type": "series",
+      "name": "Crimewatch Caught",
+      "poster": "https://image.tmdb.org/t/p/w500/pL6oQunbzxvX9T15CsGbXwy4q9Z.jpg",
+      "posterShape": "poster",
+      "description": "From the team behind Crimewatch, this brand new series tells the most dramatic and heartbreaking stories of how detectives have solved their most complex cases.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/5tLwcTtYiRLBIh69iQdPghcwRkJ.jpg"
+    },
+    {
       "id": "tt35665832",
       "type": "series",
       "name": "Special Ops: To Catch A Criminal",
@@ -219,60 +274,6 @@
         "Documentary"
       ],
       "background": "https://image.tmdb.org/t/p/w1280/f2r2zXMPUOHFSrWRjgwnbVJ4hEW.jpg"
-    },
-    {
-      "id": "tt36334448",
-      "type": "series",
-      "name": "The Undercover Police Scandal: Love and Lies Exposed",
-      "poster": "https://image.tmdb.org/t/p/w500/n93FVA8zLTVZoBBVpqMvCrpTWT.jpg",
-      "posterShape": "poster",
-      "description": "The chilling true story of scores of officers who posed as loving partners - and the women who became detectives to expose the infamous Spycops scandal.",
-      "releaseInfo": "2025",
-      "genres": [
-        "Documentary"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/mZgI0XPWl9B3Gg4yrwoPAoUQOM4.jpg"
-    },
-    {
-      "id": "tmdb:285276",
-      "type": "series",
-      "name": "Prime Suspect: Hunting the Predators",
-      "poster": "https://image.tmdb.org/t/p/w500/8bGypiFPY7icRteC5ELM9L7IaGL.jpg",
-      "posterShape": "poster",
-      "description": "Revealing the dark world of online predators investigated by the NCA.",
-      "releaseInfo": "2025",
-      "genres": [
-        "Documentary"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/7OLVtHuOtXlweVBVGWsNgbUF0kJ.jpg"
-    },
-    {
-      "id": "tt14406672",
-      "type": "series",
-      "name": "The Real Manhunter",
-      "poster": "https://image.tmdb.org/t/p/w500/tcv6BJa9bUUgWs1z6fTIexNKRMq.jpg",
-      "posterShape": "poster",
-      "description": "Former Detective Chief Inspector Colin Sutton spent 30 years in the police force, a career that saw him lead many of the most high profile and successful murder investigations of his generation. In this true crime docuseries, Sutton revisits cases he led and explores everything from the crime itself through to the breakthrough moment when the suspect was identified and arrested.",
-      "releaseInfo": "2021",
-      "genres": [
-        "Crime",
-        "Documentary"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/mO2JSkouIqDRzTLNM8G3PjJk4Fm.jpg"
-    },
-    {
-      "id": "tt11165808",
-      "type": "series",
-      "name": "When Missing Turns to Murder",
-      "poster": "https://image.tmdb.org/t/p/w500/x3E6tlZUA4qTQACjwkK1CHKpVzL.jpg",
-      "posterShape": "poster",
-      "description": "British true crime documentary series using powerful and emotional testimony from families and friends when a missing persons enquiry turns into a murder investigation.",
-      "releaseInfo": "2019",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/arSxfELkMW4grBiBDhyTAT1CTXm.jpg"
     }
   ]
 }

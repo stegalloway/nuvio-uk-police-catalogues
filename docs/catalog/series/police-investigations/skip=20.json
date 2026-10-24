@@ -1,6 +1,74 @@
 {
   "metas": [
     {
+      "id": "tt36334448",
+      "type": "series",
+      "name": "The Undercover Police Scandal: Love and Lies Exposed",
+      "poster": "https://image.tmdb.org/t/p/w500/n93FVA8zLTVZoBBVpqMvCrpTWT.jpg",
+      "posterShape": "poster",
+      "description": "The chilling true story of scores of officers who posed as loving partners - and the women who became detectives to expose the infamous Spycops scandal.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/mZgI0XPWl9B3Gg4yrwoPAoUQOM4.jpg"
+    },
+    {
+      "id": "tmdb:285276",
+      "type": "series",
+      "name": "Prime Suspect: Hunting the Predators",
+      "poster": "https://image.tmdb.org/t/p/w500/8bGypiFPY7icRteC5ELM9L7IaGL.jpg",
+      "posterShape": "poster",
+      "description": "Revealing the dark world of online predators investigated by the NCA.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/7OLVtHuOtXlweVBVGWsNgbUF0kJ.jpg"
+    },
+    {
+      "id": "tt14406672",
+      "type": "series",
+      "name": "The Real Manhunter",
+      "poster": "https://image.tmdb.org/t/p/w500/tcv6BJa9bUUgWs1z6fTIexNKRMq.jpg",
+      "posterShape": "poster",
+      "description": "Former Detective Chief Inspector Colin Sutton spent 30 years in the police force, a career that saw him lead many of the most high profile and successful murder investigations of his generation. In this true crime docuseries, Sutton revisits cases he led and explores everything from the crime itself through to the breakthrough moment when the suspect was identified and arrested.",
+      "releaseInfo": "2021",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/mO2JSkouIqDRzTLNM8G3PjJk4Fm.jpg"
+    },
+    {
+      "id": "tt11165808",
+      "type": "series",
+      "name": "When Missing Turns to Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/x3E6tlZUA4qTQACjwkK1CHKpVzL.jpg",
+      "posterShape": "poster",
+      "description": "British true crime documentary series using powerful and emotional testimony from families and friends when a missing persons enquiry turns into a murder investigation.",
+      "releaseInfo": "2019",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/arSxfELkMW4grBiBDhyTAT1CTXm.jpg"
+    },
+    {
+      "id": "tmdb:298943",
+      "type": "series",
+      "name": "Detectives: Case Closed",
+      "poster": "https://image.tmdb.org/t/p/w500/TEJbd3VPqjhnqEw0xkvbikcQVQ.jpg",
+      "posterShape": "poster",
+      "description": "Murders, kidnappings, blackmail, people smuggling. They’re some of the worst crimes that Britain has ever endured. Now the detectives who solved these complex cases are revealing, for the first time, how they hunted down the perpetrators and explain the methods they used to put them behind bars. This true crime documentary series features exclusive interviews and forensic evidence.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/365RTN3WnJrmjWnKO50PXpdARpU.jpg"
+    },
+    {
       "id": "tt34581163",
       "type": "series",
       "name": "Merseyside Detectives: The Murders of Ashley and Olivia",
