@@ -1,0 +1,278 @@
+{
+  "metas": [
+    {
+      "id": "tt28615598",
+      "type": "series",
+      "name": "The Jury: Murder Trial",
+      "poster": "https://image.tmdb.org/t/p/w500/sa2OUap18dfnHoyIkWePtHuD0v7.jpg",
+      "posterShape": "poster",
+      "description": "How much can we trust our justice system? This landmark experiment follows the restaging of a real-life murder trial in front of two juries of ordinary people. Will they reach the same verdict?",
+      "releaseInfo": "2024",
+      "genres": [
+        "Reality"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/c4YfgFz5txId00JZkIPqMEX6LAb.jpg"
+    },
+    {
+      "id": "tt35653040",
+      "type": "series",
+      "name": "True Crime Presents",
+      "poster": "https://image.tmdb.org/t/p/w500/zF7hMWdbAEvePsYgk0ygNNQW73Z.jpg",
+      "posterShape": "poster",
+      "description": "A collection of true crime documentaries that cover a range of real-life offences and notorious offenders.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/dkutzGyV58DIPfSSdOudMMCmSSp.jpg"
+    },
+    {
+      "id": "tt44111393",
+      "type": "series",
+      "name": "Britain's Murder Map with Vicky McClure and Jonny Owen",
+      "poster": "https://image.tmdb.org/t/p/w500/lfkIWToKwv9vyxyzYVKoxS2plnP.jpg",
+      "posterShape": "poster",
+      "description": "Vicky McClure, and her historian husband, Jonny Owen, travel the UK exploring historic, culturally significant crimes that have changed the face of modern Britain. From unsolved murders, to miscarriages of justice that have changed the law; each episode features Vicky and Jonny doing a deep dive into each case. Speaking to experts, historians, police officers and victims’ families, they investigate the lasting impact each murder has left on the community and why these cases still resonate today.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/lVIdAKXFG0krW3SWDZ5r5pJl9sl.jpg"
+    },
+    {
+      "id": "tmdb:312068",
+      "type": "series",
+      "name": "Killer in the House",
+      "poster": "https://image.tmdb.org/t/p/w500/7PEwbxzo0WaHOpTuGYt6ISS1pDe.jpg",
+      "posterShape": "poster",
+      "description": "This chilling true crime series delves into the UK’s most extraordinary cases, including a passionate affair that led to a double murder and a body buried in a teacher’s garden.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/p3ZYfuay019kcZvEW7QyQy8WAWZ.jpg"
+    },
+    {
+      "id": "tt16984340",
+      "type": "series",
+      "name": "Forensics: Catching the Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/dFZ7TfhB7mAHHuJaK0YNQenIi4L.jpg",
+      "posterShape": "poster",
+      "description": "Explores horrific murder cases through the various twists and turns and unpacks in detail how the forensic work helped catch a killer. Telling these true crime stories are those closest to the case – from the forensic officers and experts, police officers, journalists, and family and friends.",
+      "releaseInfo": "2021",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/n971v6gFEHWBy4h3OkecfP4OCAA.jpg"
+    },
+    {
+      "id": "tt39286902",
+      "type": "series",
+      "name": "Murder at the Post Office",
+      "poster": "https://image.tmdb.org/t/p/w500/hIhW7L0rc5Vancr0HvFLu0M7AUH.jpg",
+      "posterShape": "poster",
+      "description": "When postmistress Diana Garbutt was found murdered in her Yorkshire post office in 2010, suspicion quickly turned to her husband, Robin. Convicted in 2011, he has always maintained his innocence. Now, with the Horizon system - the tech at the heart of the Post Office Scandal - under fire, could his case be reopened?",
+      "releaseInfo": "2025",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/f8CQHKlJf9qQ7PgRHSZBw2v0YDu.jpg"
+    },
+    {
+      "id": "tmdb:306658",
+      "type": "series",
+      "name": "The Man in the Mask: An Orkney Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/kuEpj1OLseqJtxCFqiU8FQMY12L.jpg",
+      "posterShape": "poster",
+      "description": "Full of jaw-dropping twists, this is the extraordinary story of the first murder in Orkney for 25 years as the police suspect a schoolboy of shooting dead a waiter in a restaurant.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/ewrpL8oDRGCZf6jW3TCol4zmEgR.jpg"
+    },
+    {
+      "id": "tmdb:296320",
+      "type": "series",
+      "name": "Forensics: Murder Case",
+      "poster": "https://image.tmdb.org/t/p/w500/noHTxS0qexBrzQhEzZsuxhIWHlz.jpg",
+      "posterShape": "poster",
+      "description": "A DNA breakthrough offers new hope in solving George Murdoch's 1983 murder as detectives trace possible relatives across the UK, hoping one lead will take them to the man who killed George.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/66bKVAX32277wIPyeJGbmaeiMzF.jpg"
+    },
+    {
+      "id": "tmdb:295705",
+      "type": "series",
+      "name": "Poisoned: Killer in the Post",
+      "poster": "https://image.tmdb.org/t/p/w500/g0ekRBMqykuetu1QY3WhBtdLrij.jpg",
+      "posterShape": "poster",
+      "description": "A British man’s death prompts an investigation into online suicide sites. The gripping pursuit of a mystery man mailing lethal poison packs to young people turns global.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/1rr9pCIMzfLxTaJ5qHUOP3K1MjB.jpg"
+    },
+    {
+      "id": "tt37089006",
+      "type": "series",
+      "name": "The Girl Who Caught a Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/lAMC5EogUAvdBLxPDwehDNrCUC6.jpg",
+      "posterShape": "poster",
+      "description": "Telling the story of Rachael Watts, who breaks her thirty-year silence to share her story for the first time on camera revealing how she survived a brutal abduction and assault, leading to the revelation of a devastating miscarriage of justice.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Crime",
+        "Documentary",
+        "Mystery"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/dfrSM7ghe1c25DmsNEjgPoRJFmK.jpg"
+    },
+    {
+      "id": "tt37542405",
+      "type": "series",
+      "name": "Bibaa & Nicole: Murder in the Park",
+      "poster": "https://image.tmdb.org/t/p/w500/o99EiksGCxyznzHJCLiKWulqJTR.jpg",
+      "posterShape": "poster",
+      "description": "A documentary exposing the police misconduct which compounded a double murder in 2020. Plus, a harrowing but ultimately uplifting commemoration of the Bradford City fire and the 2025 TV Baftas",
+      "releaseInfo": "2025",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/pRA47YI52Jj6QTv0hPKS2xYTtGQ.jpg"
+    },
+    {
+      "id": "tt36804701",
+      "type": "series",
+      "name": "The Essex Millionaire Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/A6Pk9neca6KHqoXdexiXnHHVPF1.jpg",
+      "posterShape": "poster",
+      "description": "Control, manipulation, murder. The stranger-than-fiction true story of Carol & Stephen Baxter, a wealthy couple who fell prey to a callous killer with a string of online identities.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/zQUV9yeZ1R8Xc07wgz4rMcPxKxK.jpg"
+    },
+    {
+      "id": "tt32970821",
+      "type": "series",
+      "name": "The Body Detectives",
+      "poster": "https://image.tmdb.org/t/p/w500/7q62Ed19WAUS6Scbm0lSXyUCrsQ.jpg",
+      "posterShape": "poster",
+      "description": "Ex-detective Dave Grimstead, from Locate International, revisits cases of unidentified bodies around the UK using cutting-edge forensics.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/1HId22bNi2lranz1gkFGm7W14ml.jpg"
+    },
+    {
+      "id": "tt26438974",
+      "type": "series",
+      "name": "Social Media Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/PzAJIE8ND8R2UwHwWWvgVlvGUA.jpg",
+      "posterShape": "poster",
+      "description": "A compelling yet cautionary insight into the experiences of young people affected by disturbing 21st century crime, focusing on shocking real crimes that resulted in the deaths of young people, and the unsettling role social media played in bringing together the culprit and the victim.",
+      "releaseInfo": "2021",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/buVdmCzxHpowiUS5eWHkgxozWXK.jpg"
+    },
+    {
+      "id": "tt32598408",
+      "type": "series",
+      "name": "The Fall: Skydive Murder Plot",
+      "poster": "https://image.tmdb.org/t/p/w500/7N9hGrDMo8MKD0CRYTeyKbJwjAj.jpg",
+      "posterShape": "poster",
+      "description": "An in-depth look at Victoria Cilliers' apparent skydiving 'accident' during which both her main and reserve parachutes failed, sending her hurtling straight to the ground. The incident set in motion an investigation by a pair of dogged detectives, DC Maddy Hennah and DI Paul Franklin, who spent two years pulling at the threads of Emile's life - revealing affairs, debts, sex clubs, escorts and murderous intent.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/gymeluq6IXRcrZnyYOSjkMy8UcC.jpg"
+    },
+    {
+      "id": "tmdb:255054",
+      "type": "series",
+      "name": "Cold Case Investigators: Solving Britain’s Sex Crimes",
+      "poster": "https://image.tmdb.org/t/p/w500/tDiDOJVBSqdEOY4eNOUAUhZoPPS.jpg",
+      "posterShape": "poster",
+      "description": "Every contact leaves a trace. How the latest forensic science is helping detectives catch criminals who have evaded the law for decades. Can their victims finally get justice?",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/ygA4yHIswraZWJmj7QcieXo0CBB.jpg"
+    },
+    {
+      "id": "tt31494137",
+      "type": "series",
+      "name": "The British Airways Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/mergqmTNw8lPAJjIIXnuMG3G3y7.jpg",
+      "posterShape": "poster",
+      "description": "Docuseries exploring the death of Joanna Simpson, a wealthy heiress who was killed by her husband, a British Airways pilot. The series tracks the case from that first phone call to the tragic discovery of her remains in a shallow grave in Windsor Great Park, to his conviction and the consequences - taking in an acrimonious divorce and the pre-nuptial agreement of a wealthy heiress that was to change British legal history.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/34DZDFbrJgwDiPzELVSB7z8QsXo.jpg"
+    },
+    {
+      "id": "tt31110159",
+      "type": "series",
+      "name": "Nicola Bulley: The Disappearance That Gripped Britain",
+      "poster": "https://image.tmdb.org/t/p/w500/fHi40n7rhU9oXJBo87FYZEqznce.jpg",
+      "posterShape": "poster",
+      "description": "One year after her vanishing, why are there still so many unanswered questions about Nicola Bulley's disappearance? This documentary looks at the notorious case, delving into questions that never got answered, with testimony from those who lived through the tragedy.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/id4wOJdTFMS8wZYn47QMuiaRbn1.jpg"
+    },
+    {
+      "id": "tt30701310",
+      "type": "series",
+      "name": "The Playboy Bunny Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/2eOgYNQ0pTcMdW0cFFXgC82KAYM.jpg",
+      "posterShape": "poster",
+      "description": "The Playboy Bunny Murder will see Marcel Theroux investigate a set of disturbing murders of young women that have remained unsolved since the 1970s and reveal a dark and violent side hidden beneath the wealth and glamour of exclusive corners of London’s nightlife at that time.\n\nThe journalist and filmmaker’s long-standing interest in the brutal murders, which shocked the London he grew up in, led him to return to the killings of Eve Stratford, a Playboy Bunny who aspired to be a famous model, Lynda Farrow, a croupier with years of experience working in nighttime London, and Lynne Weedon, a schoolgirl whose whole life lay ahead of her.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/67HsOMrMnTHdSDJZwEXAGhj6Qep.jpg"
+    },
+    {
+      "id": "tt31418052",
+      "type": "series",
+      "name": "Sleeping with My Murderer",
+      "poster": "https://image.tmdb.org/t/p/w500/krYUEjaLGaQDUrhxaB0R9RJOUVl.jpg",
+      "posterShape": "poster",
+      "description": "British true crime documentary series revealing ten tragically, ill-fated love stories.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/bBywY6tLjm76oGURA9E87wZDBVj.jpg"
+    }
+  ]
+}

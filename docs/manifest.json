@@ -31,6 +31,17 @@
           "isRequired": false
         }
       ]
+    },
+    {
+      "type": "series",
+      "id": "true-crime",
+      "name": "True Crime",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
     }
   ]
 }

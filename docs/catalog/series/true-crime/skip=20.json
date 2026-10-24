@@ -1,0 +1,101 @@
+{
+  "metas": [
+    {
+      "id": "tt34319348",
+      "type": "series",
+      "name": "The Child Snatcher: Manhunt",
+      "poster": "https://image.tmdb.org/t/p/w500/wnAp48Fhibw2oWL0YKQyoVwwB6x.jpg",
+      "posterShape": "poster",
+      "description": "First-hand testimonies tell the story of one of the UK's largest murder investigations. Left in the killer's wake are devastated families and a huge police inquiry piecing together the disturbing puzzle of an unknown serial killer.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/a5Agsh7HrvXUVHmPsucYzjBpIHN.jpg"
+    },
+    {
+      "id": "tt23858830",
+      "type": "series",
+      "name": "Police, Camera, Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/6V5k2a7rNEVMXrJXCn3ij5F2qVU.jpg",
+      "posterShape": "poster",
+      "description": "Unprecedented access reveals the critical role of digital forensics in modern murder investigations.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/rKWa85nM1YP4703XXSgUZcpOIID.jpg"
+    },
+    {
+      "id": "tt21442032",
+      "type": "series",
+      "name": "Murder in the Badlands",
+      "poster": "https://image.tmdb.org/t/p/w500/gtKl4nrmpA0y7LsPTI2hVv2KhGr.jpg",
+      "posterShape": "poster",
+      "description": "Examines the stories behind the unsolved murders of four women across four decades in Northern Ireland.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/qRcOxMwnGOUlZx3S9k3kJyPpfkV.jpg"
+    },
+    {
+      "id": "tt16889372",
+      "type": "series",
+      "name": "Yorkshire Ripper: The Secret Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/yef1dzdVfPBJCCHLT15HwJWSltG.jpg",
+      "posterShape": "poster",
+      "description": "Series examining the police investigation into the crimes of serial killer Peter Sutcliffe, known as the Yorkshire Ripper, and the missed opportunities to charge him for his earlier, unacknowledged crimes.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/7vwb5gRXudQPXLrAS7DHHAZkaFj.jpg"
+    },
+    {
+      "id": "tt18083512",
+      "type": "series",
+      "name": "Murder in the Valleys",
+      "poster": "https://image.tmdb.org/t/p/w500/bxExewvLCrO0PnBtPR3dCyb3Equ.jpg",
+      "posterShape": "poster",
+      "description": "Filmed over a period of twelve months, Murder in The Valleys tells the story behind the largest and most exhaustive criminal investigation in Welsh history and its enduring repercussions. One night in June 1999, three generations of one family were brutally killed in the small village of Clydach, South Wales. For more than twenty years – and despite the conviction of a local builder - the case has deeply divided the community",
+      "releaseInfo": "2022",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/e3E6o9dSpC7scd3PkKJUPPEfLjF.jpg"
+    },
+    {
+      "id": "tt16988408",
+      "type": "series",
+      "name": "The Killer Nanny: Did She Do It?",
+      "poster": "https://image.tmdb.org/t/p/w500/exX1NaYFPq5X3KuW27g83MIljyD.jpg",
+      "posterShape": "poster",
+      "description": "Series re-examining the evidence from British au pair Louise Woodward's murder trial 25 years ago. Includes unprecedented access to witnesses, the defence team, the prosecution and members of the jury who decided her fate.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/i16tVXqK6OSuDnVUpZTdH5K22a6.jpg"
+    },
+    {
+      "id": "tt16442836",
+      "type": "series",
+      "name": "The Lie Murder in Suburbia",
+      "poster": "https://image.tmdb.org/t/p/w500/qK4MWoriDczydTEo7HOOiV4oshl.jpg",
+      "posterShape": "poster",
+      "description": "The dramatic twists and turns of the investigation into Rachel O’Reilly’s murder in 2004, and the devastating impact it had on her loved ones, featuring testimony from those who were closest to the case.",
+      "releaseInfo": "2021",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/cVIzC28Jg1GSGwos9tmFvCIxa0n.jpg"
+    }
+  ]
+}
