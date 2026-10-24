@@ -12,6 +12,7 @@ from watchdog import Schedule, decide, other_successes, sync_issue
 UTC = dt.timezone.utc
 POLICE = Schedule((ROOT / ".github" / "workflows" / "daily-refresh.yml").read_text(encoding="utf-8"))
 TRAKT = Schedule((ROOT / ".github" / "workflows" / "trakt-suggested-refresh.yml").read_text(encoding="utf-8"))
+JENNY = Schedule((ROOT / ".github" / "workflows" / "trakt-suggested-refresh-jenny.yml").read_text(encoding="utf-8"))
 # The decision tests reason about a fixed six-hourly example, independent of the live file.
 SIX_HOURLY = Schedule("    - cron: '41 1,7,13,19 * * *'\n")
 WORKFLOW = {"name": "Daily UK police documentary refresh", "html_url": "https://example.test/wf"}
@@ -58,6 +59,14 @@ class ScheduleTests(unittest.TestCase):
         self.assertEqual((result.status, result.actions, result.alert), ("missed", ["dispatch"], None))
         result = decide(at("2026-10-18T14:52"), TRAKT, [run("2026-10-18T14:20:00")])
         self.assertEqual((result.status, result.actions), ("ok", []))
+
+    def test_jennys_hourly_slot_is_due_by_the_same_watchdog_tick(self):
+        self.assertIn("trakt-suggested-refresh-jenny.yml", watchdog.WATCHED)
+        self.assertEqual(JENNY.times, [dt.time(h, 22) for h in range(24)])
+        # :22 plus the 25-minute grace has passed at :52, so both rows are topped up together.
+        self.assertEqual(JENNY.last_slot(at("2026-10-18T14:52")), at("2026-10-18T14:22"))
+        result = decide(at("2026-10-18T14:52"), JENNY, [run("2026-10-18T13:52:40")])
+        self.assertEqual((result.status, result.actions, result.alert), ("missed", ["dispatch"], None))
         # 1 h gap + 25 min grace + 3 h margin before an overdue alert.
         result = decide(at("2026-10-18T18:52"), TRAKT, [run("2026-10-18T14:20:00")])
         self.assertEqual(result.alert[0], "overdue:Sun 18 Oct 14:20 UTC")
@@ -155,6 +164,22 @@ class EvidenceTests(unittest.TestCase):
         self.assertEqual(sorted(other_successes(api, "daily-refresh.yml")),
                          [at("2026-10-22T15:41:47"), at("2026-10-22T15:42:10")])
         self.assertTrue(all(method == "GET" for method, _, _ in api.calls))
+
+    def test_jennys_runs_and_commits_never_count_as_stes_or_the_reverse(self):
+        def commit(message, date):
+            return {"commit": {"message": message, "committer": {"date": date + "Z"}}}
+        api = FakeAPI({
+            "/actions/runs": {"workflow_runs": [
+                dict(run("2026-10-22T15:52:20"), path=".github/workflows/trakt-suggested-refresh-jenny.yml"),
+                dict(run("2026-10-22T15:52:13"), path=".github/workflows/trakt-suggested-refresh.yml"),
+            ]},
+            "/commits": [commit("Refresh Jenny's Trakt Suggested catalogues", "2026-10-22T15:53:01"),
+                         commit("Refresh Trakt Suggested catalogues", "2026-10-22T15:52:54")],
+        })
+        self.assertEqual(sorted(other_successes(api, "trakt-suggested-refresh-jenny.yml")),
+                         [at("2026-10-22T15:52:20"), at("2026-10-22T15:53:01")])
+        self.assertEqual(sorted(other_successes(api, "trakt-suggested-refresh.yml")),
+                         [at("2026-10-22T15:52:13"), at("2026-10-22T15:52:54")])
 
     def test_an_unreachable_source_is_skipped(self):
         class Down(FakeAPI):

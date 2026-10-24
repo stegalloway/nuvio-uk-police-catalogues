@@ -152,6 +152,36 @@ but a weak match cannot overtake a strong history match. Returning seasons keep
 their own 30-day recency term. Series recency uses the premiere date, so a new
 season of an old show is handled only by the returning-season rule.
 
+## Taste profiles (Ste and Jenny)
+
+Everything above that names Ste's taste is the `"ste"` profile, the default:
+`ste_policy()` gates, the two "For Ste" queries, organised-crime theme signals,
+the British/Irish prefix and the 2:1 mix. `EngineConfig(profile="jenny")`
+swaps in a second viewer's profile. All of the rest is shared: Watchly history
+weighting, watched and Not Interested suppression, the mild dislike, recency,
+returning seasons, New & Upcoming, poster and IMDb rules, and pagination.
+
+| | `ste` (default) | `jenny` |
+| --- | --- | --- |
+| Gates | English originals; films must be crime/thriller/mystery, no horror; series crime/mystery, no documentary; at least 7/10 with 100 (films) or 30 (series) votes | English originals, as Ste's; no genre whitelist; no animation or family (films), nor animation, family, kids, news, reality, soap or talk (series); at least 6.0/10 and 30 votes (films), 6.5/10 and 20 votes (series), her For You floors |
+| For You queries | 2 "For Ste" queries (`for_you_queries`) | Her 6 Discover+ catalogues (`jenny_for_you_queries`): True Crime (keyword 33722), Murder Mysteries (keywords 207046 or 10714 with genre 9648 or 80) and Horror (genre 27 for films, keyword 315058 for TV), with her own rating and vote floors, plus `with_original_language=en` |
+| Theme | Organised crime, investigation, British/Irish (`thematic_signals`) | True crime, murder mystery, horror from TMDB IDs (`jenny_theme`): a theme keyword or the horror genre counts 1, a crime documentary or the mystery genre counts 0.5 |
+| Score | Series 65/25/8/2 (above); films history only | Both types: 75% history similarity plus 25% theme strength. A themed title is boosted, an unthemed one still qualifies |
+| Order | British/Irish prefix, then 2:1 mix | Score order, with no prefix. Returning seasons from 3rd place, every 4th |
+| Themed seeds | Series: up to 4 organised-crime history titles with extra pages | Films and series: up to 4 themed history titles with extra pages |
+
+Jenny's queries reproduce `tmdb-catalogues-jenny.json` as Discover+
+`discover()` translates it: genres and keywords join with `|` (its default
+`any` mode). `imdbOnly` needs no parameter, because every card needs an IMDb ID.
+At Ste's request (24 October 2026) she has his language preference. Each query
+adds `with_original_language=en`, which her Discover+ rows don't have, and the
+gate keeps English originals only.
+
+The A/B on 24 October 2026 used Ste's live snapshots: 85 films, 45 shows, 864
+episode plays and 24 Not Interested items, with one shared TMDB cache. The new
+code's default profile reproduced the pre-profile engine's 18 public files byte
+for byte, with identical cards, scores and TMDB call counts.
+
 ## Upstream attribution and licence
 
 Watchly is Copyright (c) 2025 Bimal Timilsina and is provided under the MIT
@@ -252,7 +282,7 @@ Run from the package's parent directory:
 python3 -m unittest trakt_suggested_engine.test_engine -v
 ```
 
-The 54 focused tests cover public/nested history adapters, stable-ID joins,
+The 62 focused tests cover public/nested history adapters, stable-ID joins,
 episode release boundaries, announced/future/special content, incomplete
 seasons, reset boundaries, started-season exclusion, title-blind theme scoring,
 series mixing and British/Irish criminal-led priority, police-led versus criminal-led organised crime, watched-vs-rated
@@ -268,4 +298,12 @@ episode entries) vanish, a show never hides a film with the same TMDB number,
 an empty list changes nothing, and a listed show gets no returning season. Every
 end-to-end contract is re-run with For You rows present. The Upcoming tests check
 caught-up-only selection, the 90-day horizon, ended shows, Not Interested,
-suggestion filters not applying, soonest-first order and an empty row.
+suggestion filters not applying, soonest-first order and an empty row. The Jenny
+profile tests check:
+- her six exact Discover parameters, and that Ste's query is never sent;
+- her gates: horror, documentary series and her rating floors in; non-English originals, animation and adult titles out;
+- that theme strengths come from IDs, not titles;
+- the 0.25 theme boost, with unthemed titles still eligible;
+- score order with no prefix, and returning seasons from 3rd place;
+- unchanged Not Interested and upcoming behaviour;
+- that the default profile is `ste` and unknown names fail.

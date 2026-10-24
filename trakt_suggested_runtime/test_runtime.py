@@ -243,6 +243,56 @@ class PublicationContracts(unittest.TestCase):
                                      failures=SourceFailures(), generator=generator)
         self.assertEqual(seen, [items, "absent"])
 
+    def test_taste_profile_reaches_the_engine_only_when_set(self):
+        from trakt_suggested_engine import EngineConfig
+        seen = []
+        def generator(*args, **kwargs):
+            seen.append(kwargs.get("config", "absent"))
+            return generated()
+        with tempfile.TemporaryDirectory() as directory:
+            target = Path(directory) / "suggested"
+            for profile in (None, "jenny"):
+                generate_and_publish({key: [] for key in INPUT_FILES}, None, None, target,
+                                     failures=SourceFailures(), generator=generator, profile=profile)
+            before = bytes_snapshot(target)
+            with self.assertRaises(RefreshError):
+                generate_and_publish({key: [] for key in INPUT_FILES}, None, None, target,
+                                     failures=SourceFailures(), generator=generator, profile="nobody")
+            self.assertEqual(bytes_snapshot(target), before)
+        self.assertEqual(seen, ["absent", EngineConfig(profile="jenny")])
+
+    def test_real_engine_publishes_a_second_viewer_under_its_own_addon(self):
+        from trakt_suggested_engine.test_engine import NOW, fixture_inputs, for_you_fixture_api
+        histories = dict(zip(INPUT_FILES, fixture_inputs()))
+        with tempfile.TemporaryDirectory() as directory:
+            ste, jenny = Path(directory) / "docs/suggested", Path(directory) / "docs/suggested-jenny"
+            generate_and_publish(histories, for_you_fixture_api(), None, ste, failures=SourceFailures(), now=NOW)
+            counts = generate_and_publish(histories, for_you_fixture_api(), None, jenny, failures=SourceFailures(),
+                                          now=NOW, addon_id="org.trakt.suggested.jenny", profile="jenny")
+            self.assertEqual(validate_output(jenny, addon_id="org.trakt.suggested.jenny"), counts)
+            validate_output(ste)  # Ste's tree keeps the default addon ID
+            with self.assertRaises(RefreshError):
+                validate_output(jenny)
+            public = b"".join(bytes_snapshot(jenny).values())
+            self.assertIn(b'"tt102"', public, "Her gates admit the horror film Ste's exclude")
+            self.assertNotIn(b'"tt102"', b"".join(bytes_snapshot(ste).values()))
+            for private in (b"for_you", b"freshness", b"strength", b"suggested_score"):
+                self.assertNotIn(private, public)
+
+    def test_profile_comes_from_the_environment(self):
+        calls = []
+        def publish(*args, **kwargs):
+            calls.append(kwargs.get("profile"))
+            return {"series": 5, "movie": 5, "upcoming": 0}
+        base = {"TRAKT_USERNAME": "user", "TRAKT_CLIENT_ID": "id", "TMDB_API_KEY": "key"}
+        with tempfile.TemporaryDirectory() as directory:
+            for extra in ({}, {"TRAKT_SUGGESTED_PROFILE": " jenny "}, {"TRAKT_SUGGESTED_PROFILE": ""}):
+                with patch.dict(os.environ, dict(base, **extra), clear=True), patch("sys.stdout", io.StringIO()), \
+                        patch.object(TraktClient, "histories", lambda *args, **kwargs: {}), \
+                        patch("trakt_suggested_runtime.publisher.generate_and_publish", publish):
+                    self.assertEqual(main(["--output", str(Path(directory) / "suggested")]), 0)
+        self.assertEqual(calls, [None, "jenny", None])
+
     def test_real_engine_hides_not_interested_titles(self):
         from trakt_suggested_engine.test_engine import NOW, fixture_inputs, for_you_fixture_api
         histories = dict(zip(INPUT_FILES, fixture_inputs()))

@@ -1,0 +1,64 @@
+name: Refresh Jenny's Trakt Suggested catalogues
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Hourly at :22. The watchdog runs at :52, after this slot's 25-minute
+    # grace, so it re-runs any hour GitHub skips, as for Ste's refresh at :17.
+    - cron: '22 * * * *'
+
+permissions:
+  contents: write
+
+# Its own group: sharing Ste's would let a third queued run cancel a pending one.
+# It stages only docs/suggested-jenny/, and the push below retries on a race.
+concurrency:
+  group: trakt-suggested-jenny
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out catalogues
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+      - name: Install Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Check history, returning-season and publication contracts
+        run: |
+          python -m unittest trakt_suggested_engine.test_engine trakt_suggested_runtime.test_runtime
+      - name: Generate Jenny's rows from fresh Trakt history
+        env:
+          # Her Trakt slug (the username with '-' for '_'); the API answers 404 to the username.
+          TRAKT_USERNAME: ${{ secrets.JENNY_TRAKT_USERNAME || vars.JENNY_TRAKT_USERNAME }}
+          # Ste's Trakt API app: public reads need only its client ID.
+          TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
+          TMDB_API_KEY: ${{ secrets.JENNY_TMDB_API_KEY }}
+          TRAKT_SUGGESTED_PROFILE: jenny
+        run: >-
+          python -m trakt_suggested_runtime --output docs/suggested-jenny --addon-id org.trakt.suggested.jenny
+          --cache-dir "$RUNNER_TEMP/trakt-suggested-tmdb" --timeout-minutes 25
+      - name: Validate every published route
+        run: python -m trakt_suggested_runtime --validate-only --output docs/suggested-jenny --addon-id org.trakt.suggested.jenny
+      - name: Commit only Jenny's final catalogue metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- docs/suggested-jenny/
+          if ! git diff --cached --quiet -- docs/suggested-jenny/; then
+            git commit -m "Refresh Jenny's Trakt Suggested catalogues"
+            # Ste's and the police refresh push to the same branch from another group.
+            for attempt in 1 2 3; do
+              git pull --rebase origin "$GITHUB_REF_NAME" && git push && exit 0
+              sleep $((attempt * 5))
+            done
+            exit 1
+          else
+            echo "No catalogue changes."
+          fi

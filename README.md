@@ -43,7 +43,9 @@ No Trakt token is used. The daily scan reads TMDB only and writes public catalog
 
 GitHub runs scheduled jobs late and sometimes drops them. In October 2026 the 06:23 police
 refresh started around 10:50–11:35 UTC, and the first 07:41 Trakt Suggested slot never ran.
-`.github/workflows/catalogue-watchdog.yml` runs `scripts/watchdog.py` every hour at :52:
+`.github/workflows/catalogue-watchdog.yml` runs `scripts/watchdog.py` every hour at :52. It watches
+the police refresh, Ste's Trakt Suggested refresh and Jenny's (`trakt-suggested-refresh-jenny.yml`,
+hourly at :22; see `trakt_suggested_runtime/README.md`):
 
 - It reads each refresh workflow's own `cron` lines, so changing a schedule needs no watchdog edit.
 - If a due time has passed by 25 minutes with no successful or running refresh, it dispatches one.

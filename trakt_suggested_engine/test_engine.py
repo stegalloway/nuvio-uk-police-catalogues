@@ -5,7 +5,8 @@ import unittest
 
 from .engine import (
     FOR_YOU_SOURCE, EngineConfig, GenerationError, apply_dismissal_signal, derive_episode_progress,
-    evaluate_returning, for_you_queries, freshness, generate_catalogues, rank_and_mix_series, thematic_signals,
+    evaluate_returning, for_you_queries, freshness, generate_catalogues, jenny_for_you_queries, jenny_theme,
+    rank_and_mix_series, thematic_signals,
 )
 
 
@@ -651,6 +652,122 @@ class ForYouContracts(EndToEndContracts):
         self.assertEqual(freshness((NOW + timedelta(days=1)).date().isoformat(), NOW, 60), 0.)
         self.assertEqual(freshness("", NOW, 60), 0.)
         self.assertEqual(freshness("not a date", NOW, 60), 0.)
+
+
+def keywords(*ids):
+    return {"keywords": {"results": [{"id": number, "name": "fixture"} for number in ids]}}
+
+
+class JennyProfileContracts(unittest.TestCase):
+    """Jenny's profile: her For You queries, broader gates and a theme boost."""
+
+    def setUp(self):
+        self.api = FixtureAPI()
+        self.inputs = fixture_inputs()
+        self.config = EngineConfig(catalogue_limit=20, candidate_enrichment_limit=40, minimum_items=3,
+                                   max_workers=2, profile="jenny")
+
+    def run_engine(self, **kwargs):
+        return generate_catalogues(*self.inputs, self.api, now=NOW, config=self.config, **kwargs)
+
+    def ids(self, result, kind):
+        return [m["id"] for m in result["catalogues"][kind]["payload"]["metas"]]
+
+    def test_queries_reproduce_her_discover_plus_for_you_catalogues(self):
+        movie = {"sort_by": "primary_release_date.desc", "include_adult": "false", "include_video": "false",
+                 "with_original_language": "en", "include_image_language": "en-GB,null",
+                 "with_release_type": "4", "primary_release_date.lte": "2026-10-18"}
+        self.assertEqual(jenny_for_you_queries("movie", NOW, 1), [
+            dict(movie, page=1, **{"vote_count.gte": 30, "vote_average.gte": 6.5, "with_keywords": "33722"}),
+            dict(movie, page=1, **{"vote_count.gte": 30, "vote_average.gte": 6.5, "with_genres": "9648|80",
+                                   "with_keywords": "207046|10714"}),
+            dict(movie, page=1, **{"vote_count.gte": 50, "vote_average.gte": 6, "with_genres": "27"})])
+        series = {"sort_by": "first_air_date.desc", "include_adult": "false",
+                  "with_original_language": "en", "include_image_language": "en-GB,null",
+                  "with_status": "0|3|4|5", "first_air_date.lte": "2026-10-18"}
+        self.assertEqual(jenny_for_you_queries("series", NOW, 1), [
+            dict(series, page=1, **{"vote_count.gte": 20, "vote_average.gte": 7, "with_keywords": "33722"}),
+            dict(series, page=1, **{"vote_count.gte": 20, "vote_average.gte": 7, "with_genres": "9648|80",
+                                    "with_keywords": "207046|10714"}),
+            dict(series, page=1, **{"vote_count.gte": 20, "vote_average.gte": 6.5, "with_keywords": "315058"})])
+        self.assertEqual([q["page"] for q in jenny_for_you_queries("movie", NOW, 2)], [1, 2, 1, 2, 1, 2])
+        self.run_engine()
+        sent = [(path, params) for path, params in self.api.calls if self.api.is_for_you(params)]
+        self.assertEqual(sorted(path for path, _ in sent), ["/discover/movie"] * 6 + ["/discover/tv"] * 6)
+        self.assertTrue(all(q["language"] == "en-GB" and q["with_original_language"] == "en" for _, q in sent))
+        self.assertFalse(any(q.get("with_genres") == "80|53|9648" for _, q in sent), "Ste's query must not be sent")
+
+    def test_her_gates_admit_horror_documentaries_and_her_floors_in_english_only(self):
+        self.api.details[("movie", 109)] = dict(self.api.detail(109), genres=[{"id": 16, "name": "Animation"}])
+        self.api.details[("tv", 209)] = dict(self.api.detail(209), genres=[{"id": 99, "name": "Documentary"},
+                                                                         {"id": 80, "name": "Crime"}])
+        result = self.run_engine()
+        movies, series = self.ids(result, "movie"), self.ids(result, "series")
+        self.assertIn("tt102", movies, "Horror is one of her themes; Ste's gates exclude it")
+        self.assertNotIn("tt101", movies, "Spanish original: Ste's English-original rule applies to her too")
+        self.assertIn("tt202", series, "6.9 clears her 6.5 series floor")
+        self.assertIn("tt209", series, "True-crime documentary series stay eligible")
+        self.assertNotIn("tt109", movies, "Animation stays out")
+        self.assertNotIn("tt103", movies, "Adult titles stay out")
+        self.assertNotIn("tt1", movies)
+        self.assertNotIn("tt10", series)
+        self.assertNotIn("tt201", series, "No missing-poster filler cards")
+
+    def test_theme_strengths_come_from_ids_not_titles(self):
+        self.assertEqual(jenny_theme(keywords(33722))["true_crime"], 1.)
+        self.assertEqual(jenny_theme({"genres": [{"id": 80}, {"id": 99}]})["true_crime"], .5)
+        self.assertEqual(jenny_theme(keywords(207046))["murder_mystery"], 1.)
+        self.assertEqual(jenny_theme(keywords(10714))["murder_mystery"], 1.)
+        self.assertEqual(jenny_theme({"genres": [{"id": 9648}]})["murder_mystery"], .5)
+        self.assertEqual(jenny_theme({"genre_ids": [27]})["horror"], 1.)
+        # Film details nest keywords under "keywords", TV details under "results".
+        self.assertEqual(jenny_theme({"keywords": {"keywords": [{"id": 315058}]}})["horror"], 1.)
+        self.assertEqual(jenny_theme(dict(keywords(1), name="True Crime Horror Murder Mystery",
+                                          genres=[{"id": 80}]))["strength"], 0.)
+        self.assertEqual(jenny_theme(dict(keywords(33722), genre_ids=[9648]))["strength"], 1.)
+
+    def test_her_themes_are_boosted_not_required(self):
+        # Identical films except one unknown keyword: 999 on 150, "true crime" on 151.
+        self.api.details[("movie", 150)] = dict(self.api.detail(150), **keywords(2, 999))
+        self.api.details[("movie", 151)] = dict(self.api.detail(151), **keywords(2, 33722))
+        cards = self.run_engine()["diagnostics"]["media"]["movie"]["selected_cards"]
+        ids = [c["id"] for c in cards]
+        self.assertLess(ids.index("tt151"), ids.index("tt150"))
+        by_id = {c["id"]: c for c in cards}
+        self.assertEqual(by_id["tt150"]["profile_score"], by_id["tt151"]["profile_score"])
+        self.assertEqual(by_id["tt150"]["theme"]["strength"], 0.)
+        self.assertAlmostEqual(by_id["tt151"]["suggested_score"] - by_id["tt150"]["suggested_score"], .25)
+
+    def test_series_follow_score_with_no_prefix_and_returners_from_third_place(self):
+        result = self.run_engine()
+        media = result["diagnostics"]["media"]["series"]
+        scores = [c["suggested_score"] for c in media["selected_cards"]]
+        self.assertEqual(scores, sorted(scores, reverse=True))
+        self.assertEqual(media["primary_crime_prefix_count"], 0)
+        metas = self.run_engine(trakt_fetch=lambda path, params: [season(1), season(2, premiered=NOW)])[
+            "catalogues"]["series"]["payload"]["metas"]
+        self.assertEqual(metas[2]["id"], "tt10")
+        self.assertTrue(metas[2]["description"].startswith("Season 2 has started."))
+
+    def test_not_interested_and_upcoming_work_unchanged(self):
+        first = self.ids(self.run_engine(), "movie")[0]
+        result = self.run_engine(dismissed=[{"type": "movie", "movie": {"ids": {"imdb": first, "tmdb": int(first[2:])}}}])
+        self.assertNotIn(first, self.ids(result, "movie"))
+        detail = self.api.details[("tv", 10)]
+        detail["last_episode_to_air"] = {"season_number": 1, "episode_number": 2}
+        detail["next_episode_to_air"] = {"air_date": (NOW + timedelta(days=10)).date().isoformat(),
+                                         "season_number": 2, "episode_number": 1}
+        self.assertEqual(self.ids(self.run_engine(), "upcoming"), ["tt10"])
+
+    def test_profile_defaults_to_ste_and_unknown_names_fail(self):
+        self.assertEqual(EngineConfig().profile, "ste")
+        base = dict(catalogue_limit=10, candidate_enrichment_limit=20, minimum_items=3, max_workers=2)
+        default = generate_catalogues(*self.inputs, FixtureAPI(), now=NOW, config=EngineConfig(**base))
+        explicit = generate_catalogues(*self.inputs, FixtureAPI(), now=NOW, config=EngineConfig(profile="ste", **base))
+        self.assertEqual(default["catalogues"], explicit["catalogues"])
+        self.assertNotEqual(self.run_engine()["catalogues"]["movie"], default["catalogues"]["movie"])
+        with self.assertRaises(ValueError):
+            generate_catalogues(*self.inputs, FixtureAPI(), now=NOW, config=EngineConfig(profile="nobody"))
 
 
 if __name__ == "__main__":

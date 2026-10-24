@@ -16,6 +16,33 @@ Environment variables:
   updater; alternatively `TMDB_API_KEY` is supported.
 - `TRAKT_DISMISS_LIST` (optional): slug of the public Trakt list whose titles are
   never suggested. Default `not-interested`; an empty value turns it off.
+- `TRAKT_SUGGESTED_PROFILE` (optional): the engine's taste profile, `ste` or
+  `jenny`. Unset or empty keeps the engine default (`ste`); an unknown name
+  fails the refresh and keeps the previous catalogues.
+
+## A second viewer (Jenny)
+
+`.github/workflows/trakt-suggested-refresh-jenny.yml` runs the same code for
+Jenny with `TRAKT_SUGGESTED_PROFILE=jenny`, `--output docs/suggested-jenny`
+and `--addon-id org.trakt.suggested.jenny`. Her manifest is
+`/suggested-jenny/manifest.json` on the same Pages site.
+
+- **Secrets:**
+  - `JENNY_TRAKT_USERNAME` holds her Trakt **slug**, the username with `-` in place of `_`. The API answers 404 to the username itself.
+  - `JENNY_TMDB_API_KEY` holds her TMDB v3 key.
+  - `TRAKT_CLIENT_ID` is Ste's Trakt app, shared: public reads need only the client ID.
+- **Her Trakt account:**
+  - The profile must be public.
+  - Her own public list named "Not Interested" works exactly as Ste's does.
+  - Nuvio on her device must be connected to her Trakt account, so that it scrobbles and can tick that list.
+- **Schedule:**
+  - Hourly at :22, in its own concurrency group `trakt-suggested-jenny`.
+  - The watchdog checks it at :52 together with Ste's.
+  - All three refresh workflows retry `git pull --rebase` and `git push` up to three times, because two groups now push to the branch.
+- **Publishing:**
+  - It stages only `docs/suggested-jenny/`.
+  - Its commits are titled "Refresh Jenny's Trakt Suggested catalogues".
+  - Like Ste's, her rows, their commit history and each run's notice (including her Not Interested titles) are public.
 
 ## Not Interested list
 

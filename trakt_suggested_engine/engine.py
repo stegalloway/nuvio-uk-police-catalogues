@@ -11,6 +11,12 @@ also reproduces the TMDB Discover queries behind the "For Ste" (For You) rows
 as one more candidate source, ranked by the same weighting plus a small,
 title-blind release-recency term.
 
+The viewer-specific parts (gates, For You queries, theme weighting and series
+mix) form a taste profile chosen by EngineConfig.profile. "ste" is the
+default and reproduces the behaviour above exactly. "jenny" uses her own For
+You queries, broader gates and a boost for true crime, murder mystery and
+horror in place of the organised-crime priority.
+
 No title or title ID is pinned, blocked or treated as a special case. No account
 data, keys, files or network are read or written by this module. The caller owns
 retrieval, caching, atomic publication and retention of the last good result.
@@ -59,6 +65,8 @@ class EngineConfig:
     # A show stays on that row this many days after a new episode is out, as
     # "Out now", while the viewer was caught up before it and hasn't watched it.
     out_now_days: int = 7
+    # Taste profile (gates, For You queries, theme weighting): a PROFILES key.
+    profile: str = "ste"
 
 
 def for_you_queries(kind: str, now: datetime, pages: int) -> list[dict]:
@@ -89,6 +97,42 @@ def for_you_queries(kind: str, now: datetime, pages: int) -> list[dict]:
     else:
         raise ValueError("kind must be movie or series")
     return [dict(base, page=page) for page in range(1, max(0, pages) + 1)]
+
+
+def jenny_for_you_queries(kind: str, now: datetime, pages: int) -> list[dict]:
+    """TMDB Discover parameters behind Jenny's For You rows, one dict per query page.
+
+    Her For You rows merge three TMDB Discover+ catalogues per type (Jenny
+    Catalogue Extras): "True Crime", "Murder Mysteries" and "Horror". They are
+    translated as Discover+ discover() does: genres join with '|' (its default
+    'any' mode), keywords with '|', releasedOnly as for Ste's queries.
+    imdbOnly needs no parameter: every card already requires an IMDb ID. TMDB
+    TV has no horror genre, so that row uses keyword 315058 "horror". Ste asked
+    for his language preference, so each query also keeps English originals
+    (with_original_language=en, as his For You rows do); her Discover+ rows
+    themselves have no language filter.
+    """
+    today = now.date().isoformat()
+    if kind == "movie":
+        base = {"sort_by": "primary_release_date.desc", "include_adult": "false",
+                "include_video": "false", "with_original_language": "en",
+                "include_image_language": "en-GB,null",
+                "with_release_type": "4", "primary_release_date.lte": today}
+        rows = ({"vote_count.gte": 30, "vote_average.gte": 6.5, "with_keywords": "33722"},
+                {"vote_count.gte": 30, "vote_average.gte": 6.5, "with_genres": "9648|80",
+                 "with_keywords": "207046|10714"},
+                {"vote_count.gte": 50, "vote_average.gte": 6, "with_genres": "27"})
+    elif kind == "series":
+        base = {"sort_by": "first_air_date.desc", "include_adult": "false",
+                "with_original_language": "en", "include_image_language": "en-GB,null",
+                "with_status": "0|3|4|5", "first_air_date.lte": today}
+        rows = ({"vote_count.gte": 20, "vote_average.gte": 7, "with_keywords": "33722"},
+                {"vote_count.gte": 20, "vote_average.gte": 7, "with_genres": "9648|80",
+                 "with_keywords": "207046|10714"},
+                {"vote_count.gte": 20, "vote_average.gte": 6.5, "with_keywords": "315058"})
+    else:
+        raise ValueError("kind must be movie or series")
+    return [dict(base, **row, page=page) for row in rows for page in range(1, max(0, pages) + 1)]
 
 
 def freshness(release: Any, now: datetime, half_life_days: float) -> float:
@@ -559,6 +603,131 @@ def rank_and_mix_series(cards: Sequence[Mapping], *, limit: int) -> list[dict]:
     return result
 
 
+# Jenny's theme IDs, from her For You catalogues.
+JENNY_TRUE_CRIME_KEYWORD = 33722            # "true crime"
+JENNY_MURDER_KEYWORDS = frozenset({207046, 10714})  # "murder mystery", "serial killer"
+JENNY_HORROR_KEYWORD = 315058               # "horror"; TMDB TV has no horror genre
+
+
+def jenny_policy(kind: str) -> w.FilterPolicy:
+    """Jenny's gates: her For You quality floors and Ste's English-original rule.
+
+    No genre whitelist. Horror, documentary, fantasy and sci-fi stay eligible:
+    TMDB also files horror films under fantasy or sci-fi, and TV horror under
+    Sci-Fi & Fantasy. Animation, family, kids, news, reality, soap and talk
+    stay out. Like ste_policy, 'en' means the ORIGINAL language.
+    """
+    if kind not in ("movie", "series"):
+        raise ValueError("kind must be movie or series")
+    movie = kind == "movie"
+    return w.FilterPolicy(
+        year_min=None, discovery_style=None,
+        excluded_genres=(16, 10751) if movie else (16, 10751, 10762, 10763, 10764, 10766, 10767),
+        original_language="en", min_rating=6.0 if movie else 6.5, min_votes=30 if movie else 20,
+        released_only=True,
+    )
+
+
+def jenny_theme(detail: Mapping) -> dict[str, float]:
+    """Title-blind true crime, murder mystery and horror strengths from TMDB IDs.
+
+    A theme's own keyword (or the horror genre) counts 1. A genre-only hint
+    counts .5: a crime documentary for true crime, the mystery genre for murder
+    mystery. Raw discover rows carry genres but no keywords, so they only ever
+    show the genre part.
+    """
+    keywords, genres = set(w._keywords(detail, profile=True)), set(w._genres(detail))
+    true_crime = 1. if JENNY_TRUE_CRIME_KEYWORD in keywords else .5 if {80, 99} <= genres else 0.
+    murder_mystery = 1. if keywords & JENNY_MURDER_KEYWORDS else .5 if 9648 in genres else 0.
+    horror = 1. if 27 in genres or JENNY_HORROR_KEYWORD in keywords else 0.
+    return {"true_crime": true_crime, "murder_mystery": murder_mystery, "horror": horror,
+            "strength": max(true_crime, murder_mystery, horror)}
+
+
+class SteProfile:
+    """Ste's gates, "For Ste" queries and organised-crime weighting (the default).
+
+    Each hook is the code that predates profiles, unchanged.
+    """
+
+    name = "ste"
+    # Kinds whose seeds gain themed history titles and their extra pages.
+    themed_kinds = frozenset({"series"})
+    themed_source = "organised_crime_history_recommendation"
+
+    def policy(self, kind: str) -> w.FilterPolicy:
+        return w.ste_policy(kind, newest_first=False)
+
+    def for_you_queries(self, kind: str, now: datetime, pages: int) -> list[dict]:
+        return for_you_queries(kind, now, pages)
+
+    def theme(self, detail: Mapping) -> dict:
+        return thematic_signals(detail)
+
+    def seed_strength(self, theme: Mapping) -> float | None:
+        """Sort key for a themed history seed; None when the title is not themed."""
+        return theme["organised_crime"] if theme["gangster_priority"] else None
+
+    def raw_bonus(self, theme: Mapping, kind: str) -> float:
+        return .25 * theme["priority_organised_crime"] + .08 * theme["investigation"] if kind == "series" else 0.
+
+    def score(self, normalised: float, theme: Mapping, kind: str) -> float:
+        if kind != "series":
+            return normalised
+        # 65% actual-history similarity, 25% stated organised-crime
+        # preference, 8% investigation, 2% British/Irish tie-break.
+        return (.65 * normalised + .25 * theme["priority_organised_crime"]
+                + .08 * theme["investigation"] + .02 * int(theme["british_or_irish"]))
+
+    def returner_bonus(self, theme: Mapping) -> float:
+        return .25 * theme["priority_organised_crime"]
+
+    def order_series(self, cards: Sequence[Mapping], limit: int) -> tuple[list[dict], int]:
+        """Series cards in row order, and the primary prefix length returners sit below."""
+        return rank_and_mix_series(cards, limit=limit), _primary_prefix_count(cards)
+
+
+class JennyProfile(SteProfile):
+    """Jenny's broad gates and For You queries, with her three themes boosted.
+
+    Anything her history points to can appear. A true crime, murder mystery or
+    horror title gains up to theme_weight; there is no prefix or forced mix.
+    """
+
+    name = "jenny"
+    themed_kinds = frozenset({"series", "movie"})
+    themed_source = "themed_history_recommendation"
+    # Share of a card's score from her themes; the rest is history similarity.
+    theme_weight = .25
+
+    def policy(self, kind: str) -> w.FilterPolicy:
+        return jenny_policy(kind)
+
+    def for_you_queries(self, kind: str, now: datetime, pages: int) -> list[dict]:
+        return jenny_for_you_queries(kind, now, pages)
+
+    def theme(self, detail: Mapping) -> dict:
+        return jenny_theme(detail)
+
+    def seed_strength(self, theme: Mapping) -> float | None:
+        return theme["strength"] or None
+
+    def raw_bonus(self, theme: Mapping, kind: str) -> float:
+        return self.theme_weight * theme["strength"]
+
+    def score(self, normalised: float, theme: Mapping, kind: str) -> float:
+        return (1 - self.theme_weight) * normalised + self.theme_weight * theme["strength"]
+
+    def returner_bonus(self, theme: Mapping) -> float:
+        return self.theme_weight * theme["strength"]
+
+    def order_series(self, cards: Sequence[Mapping], limit: int) -> tuple[list[dict], int]:
+        return sorted((dict(c) for c in cards), key=lambda c: (-c["suggested_score"], c["id"]))[:limit], 0
+
+
+PROFILES = {profile.name: profile for profile in (SteProfile(), JennyProfile())}
+
+
 def _canonical_detail(raw: Mapping, detail: Mapping) -> dict:
     merged = dict(raw, **detail)
     merged["genre_ids"] = w._genres(detail) or w._genres(raw)
@@ -646,6 +815,9 @@ def generate_catalogues(
         raise ValueError("Invalid For You page count or freshness weighting")
     if config.upcoming_horizon_days < 0:
         raise ValueError("Invalid upcoming horizon")
+    taste = PROFILES.get(config.profile)
+    if taste is None:
+        raise ValueError("Unknown taste profile")
     for name, value in (("watched_movies", watched_movies), ("watched_shows", watched_shows),
                         ("rated_movies", rated_movies), ("rated_shows", rated_shows),
                         ("watched_episode_history", watched_episode_history)):
@@ -668,7 +840,7 @@ def generate_catalogues(
     upcoming_cards: dict[str, dict] = {}
     for kind, watch_rows in (("series", watched_shows), ("movie", watched_movies)):
         media = "tv" if kind == "series" else "movie"
-        policy = w.ste_policy(kind, newest_first=False)
+        policy = taste.policy(kind)
         runner = w.WatchlyPreview(api, policy, moment, config.max_workers)
         items = [dict(i) for i in history if i["type"] == kind]
         if not items:
@@ -697,11 +869,13 @@ def generate_catalogues(
         detail_for_history = {item["imdb_id"]: runner._detail_cache.get((media, audit["resolved"].get(item["imdb_id"])), {})
                               for item in items}
         seeds = w.sample_seeds(items, moment, config.top_seed_count)
-        if kind == "series":
-            themed = [i for i in items if thematic_signals(detail_for_history[i["imdb_id"]])["gangster_priority"]
+        themed_kind = kind in taste.themed_kinds
+        strength = ({i["imdb_id"]: taste.seed_strength(taste.theme(detail_for_history[i["imdb_id"]]))
+                     for i in items} if themed_kind else {})
+        if themed_kind:
+            themed = [i for i in items if strength[i["imdb_id"]] is not None
                       and not (i.get("rating") is not None and i["rating"] < 5)]
-            themed.sort(key=lambda i: (thematic_signals(detail_for_history[i["imdb_id"]])["organised_crime"],
-                                       w.interest_score(i, moment)), reverse=True)
+            themed.sort(key=lambda i: (strength[i["imdb_id"]], w.interest_score(i, moment)), reverse=True)
             seed_ids = {i["imdb_id"] for i in seeds}
             seeds.extend(i for i in themed[:config.thematic_seed_count] if i["imdb_id"] not in seed_ids)
         dismissed_imdb, dismissed_tmdb = dismissed_ids(dismissed, kind)
@@ -720,17 +894,16 @@ def generate_catalogues(
             return seed, w._rows(runner._call("recommendations", tid, media, 1)) if tid else []
         for seed, rows in runner._map(recommend, seeds):
             merge(rows, "history_recommendation")
-        # Extra pages for metadata-selected organised-crime seeds prevent a
-        # generic popular-TV discovery pool from drowning out that preference.
-        if kind == "series":
-            thematic_seeds = [i for i in seeds if thematic_signals(detail_for_history[i["imdb_id"]])["gangster_priority"]]
-            thematic_seeds.sort(key=lambda i: (thematic_signals(detail_for_history[i["imdb_id"]])["organised_crime"],
-                                               w.interest_score(i, moment)), reverse=True)
+        # Extra pages for metadata-selected themed seeds (Ste: organised crime)
+        # prevent a generic popular discovery pool from drowning out that preference.
+        if themed_kind:
+            thematic_seeds = [i for i in seeds if strength[i["imdb_id"]] is not None]
+            thematic_seeds.sort(key=lambda i: (strength[i["imdb_id"]], w.interest_score(i, moment)), reverse=True)
             for seed in thematic_seeds[:config.thematic_seed_count]:
                 tid = audit["resolved"].get(seed["imdb_id"])
                 if tid:
                     for name, page in (("recommendations", 2), ("recommendations", 3), ("similar", 1)):
-                        merge(w._rows(runner._call(name, tid, media, page)), "organised_crime_history_recommendation")
+                        merge(w._rows(runner._call(name, tid, media, page)), taste.themed_source)
         queries = runner._discover_queries(profile, media)
         queries = [dict(query, include_adult="false") for query in queries]
         for rows in runner._map(lambda q: w._rows(runner._call("discover", media, q)), queries):
@@ -739,7 +912,7 @@ def generate_catalogues(
         # order is kept for diagnostics, never used as a position.
         for_you_rank = {}
         for rows in runner._map(lambda q: w._rows(runner._call("discover", media, q)),
-                                for_you_queries(kind, moment, config.for_you_pages)):
+                                taste.for_you_queries(kind, moment, config.for_you_pages)):
             for raw in rows:
                 tid = w._int(raw.get("id"))
                 if tid and tid not in for_you_rank:
@@ -748,15 +921,13 @@ def generate_catalogues(
         preliminary = []
         for raw in candidates.values():
             score, _ = w.score_candidate(raw, normalised, media)
-            theme = thematic_signals(raw)
-            if kind == "series":
-                score += .25 * theme["priority_organised_crime"] + .08 * theme["investigation"]
+            score += taste.raw_bonus(taste.theme(raw), kind)
             preliminary.append((score, raw))
         preliminary.sort(key=lambda p: (-p[0], p[1]["id"]))
         # Reserve enrichment slots for candidates found through thematic seeds,
         # because basic discover rows generally lack keyword metadata.
         selected, selected_ids = [], set()
-        thematic_candidates = [r for _, r in preliminary if "organised_crime_history_recommendation" in origins[r["id"]]]
+        thematic_candidates = [r for _, r in preliminary if taste.themed_source in origins[r["id"]]]
         for raw in thematic_candidates[:config.candidate_enrichment_limit // 3] + [r for _, r in preliminary]:
             # For You-only titles are enriched below, outside this budget, so
             # they never displace a history candidate from enrichment.
@@ -765,7 +936,7 @@ def generate_catalogues(
                 selected_ids.add(raw["id"])
             if len(selected) >= config.candidate_enrichment_limit:
                 break
-        # For You adds at most 20 * for_you_pages titles. Enrich all of them on
+        # For You adds at most 20 titles per query page. Enrich all of them on
         # top of the unchanged history pool, so sparse raw discover rows are not
         # dropped before the custom weighting sees their keywords and credits.
         for raw in (r for _, r in preliminary if FOR_YOU_SOURCE in origins[r["id"]]):
@@ -796,20 +967,13 @@ def generate_catalogues(
                 continue
             score, parts = w.score_candidate(combined, normalised, media)
             card.update(poster=poster, profile_score=score, profile_score_parts=parts,
-                        theme=thematic_signals(detail), candidate_sources=sorted(origins[raw["id"]]))
+                        theme=taste.theme(detail), candidate_sources=sorted(origins[raw["id"]]))
             if raw["id"] in for_you_rank:
                 card["for_you_rank"] = for_you_rank[raw["id"]]
             cards.append(card)
         profile_values = _normalise([c["profile_score"] for c in cards])
         for card, normalised_score in zip(cards, profile_values):
-            theme = card["theme"]
-            if kind == "series":
-                # 65% actual-history similarity, 25% stated organised-crime
-                # preference, 8% investigation, 2% British/Irish tie-break.
-                card["suggested_score"] = (.65 * normalised_score + .25 * theme["priority_organised_crime"]
-                    + .08 * theme["investigation"] + .02 * int(theme["british_or_irish"]))
-            else:
-                card["suggested_score"] = normalised_score
+            card["suggested_score"] = taste.score(normalised_score, card["theme"], kind)
             # Recency replaces For You's pure date order. It depends only on the
             # release date, so every source's titles are treated alike.
             card["freshness"] = round(freshness(card.get("release_date"), moment,
@@ -854,19 +1018,18 @@ def generate_catalogues(
                 if not isinstance(card.get("imdb_id"), str) or not re.fullmatch(r"tt[0-9]+", card["imdb_id"]):
                     continue
                 score, _ = w.score_candidate(_canonical_detail(detail, detail), normalised, media)
-                theme = thematic_signals(detail)
+                theme = taste.theme(detail)
                 age_days = max(0, (moment - _aware(decision["first_episode_released_at"])).days)
                 card.update(poster=poster, returning_season=decision, theme=theme,
-                            suggested_score=score + .25 * theme["priority_organised_crime"] + .15 * math.exp(-age_days / 30))
+                            suggested_score=score + taste.returner_bonus(theme) + .15 * math.exp(-age_days / 30))
                 returners.append(card)
-            mixed = rank_and_mix_series(cards, limit=config.catalogue_limit)
-            primary_prefix_count = _primary_prefix_count(cards)
+            mixed, primary_prefix_count = taste.order_series(cards, config.catalogue_limit)
             returners.sort(key=lambda c: (-c["suggested_score"], c["id"]))
             for index, card in enumerate(returners[:config.max_returning_items]):
                 mixed.insert(min(max(2, primary_prefix_count) + 4 * index, len(mixed)), card)
             ordered = mixed[:config.catalogue_limit]
-            # Upcoming Episodes: every caught-up show, outside Ste's suggestion
-            # filters, from TMDB details the profile has already fetched.
+            # Upcoming Episodes: every caught-up show, outside the taste profile's
+            # suggestion filters, from TMDB details the profile has already fetched.
             today = moment.date()
             for key, state in episodes.items():
                 ids = state["show"].get("ids") or {}

@@ -25,7 +25,7 @@ import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 WORKFLOWS = ROOT / ".github" / "workflows"
-WATCHED = ("daily-refresh.yml", "trakt-suggested-refresh.yml")
+WATCHED = ("daily-refresh.yml", "trakt-suggested-refresh.yml", "trakt-suggested-refresh-jenny.yml")
 BRANCH = "main"
 GRACE = dt.timedelta(minutes=25)
 OVERDUE_MARGIN = dt.timedelta(hours=3)
@@ -36,7 +36,8 @@ KEY_MARK = re.compile(r"<!-- watchdog-key: (.*?) -->")
 # Each refresh commits under its own message when its output changed; the police refresh
 # always does (its status file records the run time). A matching commit is proof of a success.
 COMMIT_MESSAGES = {"daily-refresh.yml": "Daily UK police catalogue refresh",
-                   "trakt-suggested-refresh.yml": "Refresh Trakt Suggested catalogues"}
+                   "trakt-suggested-refresh.yml": "Refresh Trakt Suggested catalogues",
+                   "trakt-suggested-refresh-jenny.yml": "Refresh Jenny's Trakt Suggested catalogues"}
 
 
 def utc(raw):
@@ -218,7 +219,14 @@ def run():
     lines, errors = [], 0
     for name in WATCHED:
         schedule = Schedule((WORKFLOWS / name).read_text(encoding="utf-8"))
-        workflow = api.call("GET", f"/actions/workflows/{name}")
+        try:
+            workflow = api.call("GET", f"/actions/workflows/{name}")
+        except urllib.error.HTTPError as exc:
+            if exc.code != 404:
+                raise
+            # A watched workflow not yet on GitHub must not stop the others.
+            lines.append(f"{name}: not on GitHub yet; skipped")
+            continue
         runs = api.call("GET", f"/actions/workflows/{name}/runs", {"branch": BRANCH, "per_page": 30})["workflow_runs"]
         result = decide(now, schedule, runs, workflow["state"])
         if result.status in ("missed", "retrying", "failing"):

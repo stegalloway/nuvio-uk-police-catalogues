@@ -589,11 +589,15 @@ def generate_and_publish(
     histories: Mapping[str, list[dict]], tmdb_fetch: Callable, trakt_fetch: Callable,
     output: Path, *, failures: SourceFailures, generator: Callable | None = None,
     now: datetime | None = None, addon_id: str = DEFAULT_ADDON_ID,
-    private_diagnostics: Path | None = None,
+    private_diagnostics: Path | None = None, profile: str | None = None,
 ) -> dict[str, int]:
     if generator is None:
         from trakt_suggested_engine import generate_catalogues
         generator = generate_catalogues
+    if profile is not None:
+        from trakt_suggested_engine import PROFILES, EngineConfig
+        if profile not in PROFILES:
+            raise RefreshError("Unknown taste profile")
     failures.require_success()
     for name in INPUT_FILES:
         if name not in histories or not isinstance(histories[name], list):
@@ -602,6 +606,8 @@ def generate_and_publish(
     extra = {"dismissed": histories["dismissed"]} if histories.get("dismissed") is not None else {}
     if extra and not isinstance(extra["dismissed"], list):
         raise SourceError("The Not Interested list is invalid")
+    if profile is not None:
+        extra["config"] = EngineConfig(profile=profile)
     result = generator(
         histories["watched_movies"], histories["watched_shows"],
         histories["rated_movies"], histories["rated_shows"], histories["watched_episode_history"],
@@ -667,11 +673,14 @@ def main(argv: list[str] | None = None) -> int:
             "tmdb", failures, extra_query={} if tmdb_token else {"api_key": tmdb_key}, deadline=deadline,
         ), args.cache_dir, args.cache_ttl_hours)
         dismiss_list = os.environ.get("TRAKT_DISMISS_LIST", DEFAULT_DISMISS_LIST).strip()
+        # Unset means the engine's default profile ("ste").
+        profile = os.environ.get("TRAKT_SUGGESTED_PROFILE", "").strip() or None
         histories = (load_history_snapshots(args.history_dir) if args.history_dir
                      else trakt.histories(username, dismiss_list))
         counts = generate_and_publish(
             histories, tmdb, trakt.seasons, args.output, failures=failures,
             now=datetime.now(timezone.utc), addon_id=args.addon_id, private_diagnostics=args.private_diagnostics,
+            profile=profile,
         )
         dismissed = histories.get("dismissed")
         not_interested = (len(dismissed) if isinstance(dismissed, list) else

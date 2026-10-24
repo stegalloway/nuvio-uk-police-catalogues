@@ -42,8 +42,12 @@ jobs:
           git add docs/ data/
           if ! git diff --cached --quiet; then
             git commit -m "Daily UK police catalogue refresh"
-            git pull --rebase origin "$GITHUB_REF_NAME"
-            git push
+            # Jenny's refresh pushes to this branch from its own group.
+            for attempt in 1 2 3; do
+              git pull --rebase origin "$GITHUB_REF_NAME" && git push && exit 0
+              sleep $((attempt * 5))
+            done
+            exit 1
           else
             echo "No catalogue changes."
           fi
