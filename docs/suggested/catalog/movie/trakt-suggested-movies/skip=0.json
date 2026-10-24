@@ -149,6 +149,20 @@
       "imdb_id": "tt0117913"
     },
     {
+      "id": "tt0106489",
+      "type": "movie",
+      "name": "A Bronx Tale",
+      "poster": "https://image.tmdb.org/t/p/w500/7Obzc6svsHSR1za0LqzkpwFsEhw.jpg",
+      "posterShape": "poster",
+      "description": "Set in the Bronx during the tumultuous 1960s, an adolescent boy is torn between his honest, working-class father and a violent yet charismatic crime boss. Complicating matters is the youngster's growing attraction - forbidden in his neighborhood - for a beautiful black girl.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "1993",
+      "imdb_id": "tt0106489"
+    },
+    {
       "id": "tt0102926",
       "type": "movie",
       "name": "The Silence of the Lambs",
@@ -162,20 +176,6 @@
       ],
       "releaseInfo": "1991",
       "imdb_id": "tt0102926"
-    },
-    {
-      "id": "tt0106489",
-      "type": "movie",
-      "name": "A Bronx Tale",
-      "poster": "https://image.tmdb.org/t/p/w500/7Obzc6svsHSR1za0LqzkpwFsEhw.jpg",
-      "posterShape": "poster",
-      "description": "Set in the Bronx during the tumultuous 1960s, an adolescent boy is torn between his honest, working-class father and a violent yet charismatic crime boss. Complicating matters is the youngster's growing attraction - forbidden in his neighborhood - for a beautiful black girl.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "1993",
-      "imdb_id": "tt0106489"
     },
     {
       "id": "tt2481498",
@@ -281,19 +281,18 @@
       "imdb_id": "tt0144117"
     },
     {
-      "id": "tt36042156",
+      "id": "tt32430579",
       "type": "movie",
-      "name": "The Punisher: One Last Kill",
-      "poster": "https://image.tmdb.org/t/p/w500/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
+      "name": "Crime 101",
+      "poster": "https://image.tmdb.org/t/p/w500/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg",
       "posterShape": "poster",
-      "description": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
+      "description": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
       "genres": [
-        "Action",
-        "Drama",
-        "Crime"
+        "Crime",
+        "Thriller"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt36042156"
+      "imdb_id": "tt32430579"
     }
   ]
 }
