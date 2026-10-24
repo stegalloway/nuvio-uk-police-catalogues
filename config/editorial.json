@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "description": "56 hand-audited, user-approved UK police documentaries, 15 October 2026.",
+  "description": "61 hand-audited, user-approved UK police documentaries: 56 on 15 October 2026, plus 5 from the review queue on 24 October 2026.",
   "categories": {
     "on-duty": {
       "name": "On Duty",
@@ -65,7 +65,12 @@
         285276,
         240613,
         299992,
-        285949
+        285949,
+        333609,
+        328843,
+        237238,
+        273233,
+        298943
       ]
     }
   },

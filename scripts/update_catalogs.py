@@ -129,6 +129,14 @@ def confidence(tv):
     return {"score":score,"category":category_from_text(tv),
             "autoEligible":specific and context and score>=8 and first>=months_ago(6)}
 
+def review_details(tv):
+    """What a person needs to judge a review candidate without opening TMDB."""
+    overview=" ".join((tv.get("overview") or "").split())
+    if len(overview)>240:overview=overview[:240].rsplit(" ",1)[0]+"…"
+    return {"network":", ".join(x.get("name") or "" for x in tv.get("networks") or []),
+            "episodes":tv.get("number_of_episodes"),"seasons":tv.get("number_of_seasons"),
+            "overview":overview}
+
 def title_key(name):
     return re.sub(r"[^a-z0-9]","",(name or "").casefold())
 
@@ -216,7 +224,7 @@ def discover(tmdb, editorial, previous, seeded, already):
                        "lastAir":(air_date(show) or TODAY).isoformat(),"firstSeen":first_seen,
                        "lastSeen":TODAY.isoformat(),"observations":observed,
                        "status":"pending","eligibleForAuto":signals["autoEligible"],
-                       "needsArtwork":not poster_ok})
+                       "needsArtwork":not poster_ok,**review_details(show)})
     if error_count:raise RuntimeError(f"TMDB candidate lookups failed for {error_count} titles; keeping last published catalogues intact")
     review.sort(key=lambda x:(x["score"],x["firstAir"] or "",x["name"] or ""),reverse=True)
     return new,{"schema":1,"candidates":review[:250]},len(pages),len(matches)
@@ -283,7 +291,7 @@ def render_outputs(tmdb, editorial, discovered, fresh, review, scan_pages, scan_
 
 def run():
     arg=argparse.ArgumentParser(description="Refresh the UK Police Documentaries addon.")
-    arg.add_argument("--bootstrap",action="store_true",help="Publish the approved 56 titles only; no new discovery.")
+    arg.add_argument("--bootstrap",action="store_true",help="Publish the approved titles only; no new discovery.")
     arg.add_argument("--dry-run",action="store_true")
     options=arg.parse_args()
     editorial=load_json(EDITORIAL)

@@ -2,11 +2,13 @@
 
 Two hand-audited UK police documentary catalogues, hosted on **GitHub Pages**. No Trakt account, monthly connected-app quota, home PC, or running server is required.
 
-| Nuvio tab | Approved October 2026 launch list |
+| Nuvio tab | Approved programmes (October 2026) |
 |---|---:|
 | On Duty | 28 |
-| Police Investigations | 28 |
-| **Total** | **56** |
+| Police Investigations | 33 |
+| **Total** | **61** |
+
+The 56-programme launch list was approved on 15 October 2026; five review-queue programmes were approved on 24 October 2026.
 
 ## Install in Nuvio
 
@@ -28,7 +30,7 @@ GitHub Actions runs `.github/workflows/daily-refresh.yml` every day at **06:23 U
 
 ### Configuration and credentials
 
-The 56 approved TMDB IDs, age exceptions, and exclusions are in `config/editorial.json`. Newly discovered IDs are tracked in `data/discovered.json` and ambiguous suggestions in `data/review-queue.json`.
+The 61 approved TMDB IDs, age exceptions, and exclusions are in `config/editorial.json`. Newly discovered IDs are tracked in `data/discovered.json` and ambiguous suggestions in `data/review-queue.json`.
 
 A private repository **Actions secret** named `TMDB_ACCESS_TOKEN` grants read-only TMDB API access to GitHub Actions. Never add this value to source code, `docs/`, README, or commit history.
 

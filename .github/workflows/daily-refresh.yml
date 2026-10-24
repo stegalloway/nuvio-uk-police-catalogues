@@ -33,7 +33,7 @@ jobs:
         env:
           TMDB_ACCESS_TOKEN: ${{ secrets.TMDB_ACCESS_TOKEN }}
         run: python scripts/update_catalogs.py
-      - name: Validate output and preserve the 56 approved programmes
+      - name: Validate output and preserve the approved programmes
         run: python scripts/validate_catalogs.py
       - name: Commit any catalogue or audit changes
         run: |
