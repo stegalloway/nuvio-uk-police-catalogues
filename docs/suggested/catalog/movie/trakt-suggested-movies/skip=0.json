@@ -1,77 +1,20 @@
 {
   "metas": [
     {
-      "id": "tt0378194",
+      "id": "tt6019206",
       "type": "movie",
-      "name": "Kill Bill: Vol. 2",
-      "poster": "https://image.tmdb.org/t/p/w500/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg",
+      "name": "Kill Bill: The Whole Bloody Affair",
+      "poster": "https://image.tmdb.org/t/p/w500/nSOJfWJCdVFZQwXQA7RXn7FIIiY.jpg",
       "posterShape": "poster",
-      "description": "The Bride unwaveringly continues on her roaring rampage of revenge against the band of assassins who had tried to kill her and her unborn child. She visits each of her former associates one-by-one, checking off the victims on her Death List Five until there's nothing left to do … but kill Bill.",
+      "description": "A former assassin, known simply as The Bride, wakes from a coma four years after her jealous ex-lover Bill attempts to murder her on her wedding day. Fueled by an insatiable desire for revenge, she vows to get even with every person who contributed to the loss of her unborn child, her entire wedding party, and four years of her life.  After devising a hit list, The Bride sets off on her quest, enduring unspeakable injury and unscrupulous enemies.",
       "genres": [
         "Action",
         "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2004",
-      "imdb_id": "tt0378194"
-    },
-    {
-      "id": "tt10366206",
-      "type": "movie",
-      "name": "John Wick: Chapter 4",
-      "poster": "https://image.tmdb.org/t/p/w500/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
-      "posterShape": "poster",
-      "description": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt10366206"
-    },
-    {
-      "id": "tt0101540",
-      "type": "movie",
-      "name": "Cape Fear",
-      "poster": "https://image.tmdb.org/t/p/w500/meJZAAuVcjic2ipvbOPz5UlE4P9.jpg",
-      "posterShape": "poster",
-      "description": "Sam Bowden is a small-town corporate attorney. Max Cady is a tattooed, cigar-smoking, Bible-quoting, psychotic rapist. What do they have in common? 14 years ago, Sam was a public defender assigned to Max Cady's rape trial, and he made a serious error: he hid a document from his illiterate client that could have gotten him acquitted. Now, the cagey Cady has been released, and he intends to teach Sam Bowden and his family a thing or two about loss.",
-      "genres": [
         "Drama",
-        "Crime",
         "Thriller"
       ],
-      "releaseInfo": "1991",
-      "imdb_id": "tt0101540"
-    },
-    {
-      "id": "tt0150742",
-      "type": "movie",
-      "name": "The Godfather Trilogy: 1901-1980",
-      "poster": "https://image.tmdb.org/t/p/w500/w9KSuRoUPyWOIoybwW7zyYoHhsF.jpg",
-      "posterShape": "poster",
-      "description": "Following the release of Part III in 1990, Coppola, Barry Malkin, and Walter Murch edited the three films into chronological order to create this nearly ten-hour epic, incorporating scenes not part of the theatrical releases.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "1992",
-      "imdb_id": "tt0150742"
-    },
-    {
-      "id": "tt0266697",
-      "type": "movie",
-      "name": "Kill Bill: Vol. 1",
-      "poster": "https://image.tmdb.org/t/p/w500/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
-      "posterShape": "poster",
-      "description": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle – but she lives to plot her vengeance.",
-      "genres": [
-        "Action",
-        "Crime"
-      ],
-      "releaseInfo": "2003",
-      "imdb_id": "tt0266697"
+      "releaseInfo": "2011",
+      "imdb_id": "tt6019206"
     },
     {
       "id": "tt7181546",
@@ -89,35 +32,6 @@
       "imdb_id": "tt7181546"
     },
     {
-      "id": "tt0112641",
-      "type": "movie",
-      "name": "Casino",
-      "poster": "https://image.tmdb.org/t/p/w500/gziIkUSnYuj9ChCi8qOu2ZunpSC.jpg",
-      "posterShape": "poster",
-      "description": "In Las Vegas, two best friends-a casino executive and a Mafia enforcer--compete for a gambling empire and a fast-living, fast-loving socialite.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "1995",
-      "imdb_id": "tt0112641"
-    },
-    {
-      "id": "tt0106519",
-      "type": "movie",
-      "name": "Carlito's Way",
-      "poster": "https://image.tmdb.org/t/p/w500/g6D7mjQtndu768cusGmoEQY9fTB.jpg",
-      "posterShape": "poster",
-      "description": "Free after years in prison, Carlito Brigante intends to give up his criminal ways, but it's not long before the ex-con is sucked back into the New York City underworld.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "1993",
-      "imdb_id": "tt0106519"
-    },
-    {
       "id": "tt11083552",
       "type": "movie",
       "name": "Wrath of Man",
@@ -131,94 +45,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11083552"
-    },
-    {
-      "id": "tt0372183",
-      "type": "movie",
-      "name": "The Bourne Supremacy",
-      "poster": "https://image.tmdb.org/t/p/w500/jupG9sFT64YwM8PSkwkUD2wHcYD.jpg",
-      "posterShape": "poster",
-      "description": "A CIA operation to purchase classified Russian documents is blown by a rival agent, who then shows up in the sleepy seaside village where Bourne and Marie have been living. The pair run for their lives and Bourne, who promised retaliation should anyone from his former life attempt contact, is forced to once again take up his life as a trained assassin to survive.",
-      "genres": [
-        "Action",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2004",
-      "imdb_id": "tt0372183"
-    },
-    {
-      "id": "tt0117913",
-      "type": "movie",
-      "name": "A Time to Kill",
-      "poster": "https://image.tmdb.org/t/p/w500/w8UCke112E9jrhjKcwG32kyhTx5.jpg",
-      "posterShape": "poster",
-      "description": "A young lawyer defends a black man accused of murdering two white men who raped his 10-year-old daughter, sparking a rebirth of the KKK.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "1996",
-      "imdb_id": "tt0117913"
-    },
-    {
-      "id": "tt0102926",
-      "type": "movie",
-      "name": "The Silence of the Lambs",
-      "poster": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
-      "posterShape": "poster",
-      "description": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "1991",
-      "imdb_id": "tt0102926"
-    },
-    {
-      "id": "tt2481498",
-      "type": "movie",
-      "name": "Extremely Wicked, Shockingly Evil and Vile",
-      "poster": "https://image.tmdb.org/t/p/w500/a7dVwEBU3vupg3hZQMeyL6ksz0F.jpg",
-      "posterShape": "poster",
-      "description": "A chronicle of the crimes of Ted Bundy, from the perspective of his longtime girlfriend, Elizabeth Kloepfer, who refused to believe the truth about him for years.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt2481498"
-    },
-    {
-      "id": "tt0106489",
-      "type": "movie",
-      "name": "A Bronx Tale",
-      "poster": "https://image.tmdb.org/t/p/w500/7Obzc6svsHSR1za0LqzkpwFsEhw.jpg",
-      "posterShape": "poster",
-      "description": "Set in the Bronx during the tumultuous 1960s, an adolescent boy is torn between his honest, working-class father and a violent yet charismatic crime boss. Complicating matters is the youngster's growing attraction - forbidden in his neighborhood - for a beautiful black girl.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "1993",
-      "imdb_id": "tt0106489"
-    },
-    {
-      "id": "tt2872718",
-      "type": "movie",
-      "name": "Nightcrawler",
-      "poster": "https://image.tmdb.org/t/p/w500/j9HrX8f7GbZQm1BrBiR40uFQZSb.jpg",
-      "posterShape": "poster",
-      "description": "When Lou Bloom, desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story. Aiding him in his effort is Nina, a TV-news veteran.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2872718"
     },
     {
       "id": "tt32338669",
@@ -235,19 +61,19 @@
       "imdb_id": "tt32338669"
     },
     {
-      "id": "tt1130884",
+      "id": "tt1392214",
       "type": "movie",
-      "name": "Shutter Island",
-      "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+      "name": "Prisoners",
+      "poster": "https://image.tmdb.org/t/p/w500/uhviyknTT5cEQXbn6vWIqfM4vGm.jpg",
       "posterShape": "poster",
-      "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
+      "description": "After his six-year-old daughter is abducted, a desperate father takes justice into his own hands when he loses faith in the detective leading the investigation, setting both men on a collision course as the search descends into obsession and moral compromise.",
       "genres": [
         "Drama",
         "Thriller",
-        "Mystery"
+        "Crime"
       ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1130884"
+      "releaseInfo": "2013",
+      "imdb_id": "tt1392214"
     },
     {
       "id": "tt7131622",
@@ -265,34 +91,209 @@
       "imdb_id": "tt7131622"
     },
     {
-      "id": "tt0117381",
+      "id": "tt37971717",
       "type": "movie",
-      "name": "Primal Fear",
-      "poster": "https://image.tmdb.org/t/p/w500/qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg",
+      "name": "One Last Shot",
+      "poster": "https://image.tmdb.org/t/p/w500/niQ4NBh2jqAf1hDZP5m6ReWFAb7.jpg",
       "posterShape": "poster",
-      "description": "Defense attorney Martin Vail takes on jobs for money and prestige rather than any sense of the greater good. His latest case involves an altar boy, accused of brutally murdering the archbishop of Chicago. Vail finds himself up against his ex-pupil and ex-lover, but as the case progresses and the Church's dark secrets are revealed, Vail finds that what appeared a simple case takes on a darker, more dangerous aspect.",
+      "description": "Navy Seal Jake Harris must stop a team of mercenaries, led by his disillusioned former comrade, from disabling the US missile defense network.",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt37971717"
+    },
+    {
+      "id": "tt2481498",
+      "type": "movie",
+      "name": "Extremely Wicked, Shockingly Evil and Vile",
+      "poster": "https://image.tmdb.org/t/p/w500/a7dVwEBU3vupg3hZQMeyL6ksz0F.jpg",
+      "posterShape": "poster",
+      "description": "A chronicle of the crimes of Ted Bundy, from the perspective of his longtime girlfriend, Elizabeth Kloepfer, who refused to believe the truth about him for years.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt2481498"
+    },
+    {
+      "id": "tt2872718",
+      "type": "movie",
+      "name": "Nightcrawler",
+      "poster": "https://image.tmdb.org/t/p/w500/j9HrX8f7GbZQm1BrBiR40uFQZSb.jpg",
+      "posterShape": "poster",
+      "description": "When Lou Bloom, desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story. Aiding him in his effort is Nina, a TV-news veteran.",
       "genres": [
         "Crime",
         "Drama",
         "Thriller"
       ],
-      "releaseInfo": "1996",
-      "imdb_id": "tt0117381"
+      "releaseInfo": "2014",
+      "imdb_id": "tt2872718"
     },
     {
-      "id": "tt0144117",
+      "id": "tt36042156",
       "type": "movie",
-      "name": "The Boondock Saints",
-      "poster": "https://image.tmdb.org/t/p/w500/wtLUmkWg41xFLpvmUWAN1mm65f6.jpg",
+      "name": "The Punisher: One Last Kill",
+      "poster": "https://image.tmdb.org/t/p/w500/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
       "posterShape": "poster",
-      "description": "Tired of the crime overrunning the streets of Boston, Irish Catholic twin brothers Conner and Murphy are inspired by their faith to cleanse their hometown of evil with their own brand of zealous vigilante justice. As they hunt down and kill one notorious gangster after another, they become controversial folk heroes in the community. But Paul Smecker, an eccentric FBI agent, is fast closing in on their blood-soaked trail.",
+      "description": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt36042156"
+    },
+    {
+      "id": "tt32430579",
+      "type": "movie",
+      "name": "Crime 101",
+      "poster": "https://image.tmdb.org/t/p/w500/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg",
+      "posterShape": "poster",
+      "description": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32430579"
+    },
+    {
+      "id": "tt31195136",
+      "type": "movie",
+      "name": "Normal",
+      "poster": "https://image.tmdb.org/t/p/w500/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg",
+      "posterShape": "poster",
+      "description": "An unassuming substitute sheriff with a troubled past responds to a bank robbery in a small, sleepy town and unknowingly uncovers something far more explosive.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31195136"
+    },
+    {
+      "id": "tt1130884",
+      "type": "movie",
+      "name": "Shutter Island",
+      "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+      "posterShape": "poster",
+      "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1130884"
+    },
+    {
+      "id": "tt0361748",
+      "type": "movie",
+      "name": "Inglourious Basterds",
+      "poster": "https://image.tmdb.org/t/p/w500/aupnPtagH9JVBuMrGEanf4iqXEQ.jpg",
+      "posterShape": "poster",
+      "description": "In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as \"The Basterds\" are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "releaseInfo": "2009",
+      "imdb_id": "tt0361748"
+    },
+    {
+      "id": "tt5095076",
+      "type": "movie",
+      "name": "Wardriver",
+      "poster": "https://image.tmdb.org/t/p/w500/rBZA12Hf4yZZgud6iPuFU49L7zk.jpg",
+      "posterShape": "poster",
+      "description": "He’s a Wardriver: a hacker who steals from banks, not people—until he’s noticed. Now the money turns violent, and the woman caught in it could save him or kill them both.",
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt5095076"
+    },
+    {
+      "id": "tt17024450",
+      "type": "movie",
+      "name": "The Equalizer 3",
+      "poster": "https://image.tmdb.org/t/p/w500/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg",
+      "posterShape": "poster",
+      "description": "Robert McCall finds himself at home in Southern Italy but he discovers his friends are under the control of local crime bosses. As events turn deadly, McCall knows what he has to do: become his friends' protector by taking on the mafia.",
       "genres": [
         "Action",
         "Thriller",
         "Crime"
       ],
-      "releaseInfo": "1999",
-      "imdb_id": "tt0144117"
+      "releaseInfo": "2023",
+      "imdb_id": "tt17024450"
+    },
+    {
+      "id": "tt0209144",
+      "type": "movie",
+      "name": "Memento",
+      "poster": "https://image.tmdb.org/t/p/w500/nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
+      "posterShape": "poster",
+      "description": "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2000",
+      "imdb_id": "tt0209144"
+    },
+    {
+      "id": "tt0822854",
+      "type": "movie",
+      "name": "Shooter",
+      "poster": "https://image.tmdb.org/t/p/w500/2aWGxo1E5polpBjPvtBRkWp7qaS.jpg",
+      "posterShape": "poster",
+      "description": "A top Marine sniper, Bob Lee Swagger, leaves the military after a mission goes horribly awry and disappears, living in seclusion. He is coaxed back into service after a high-profile government official convinces him to help thwart a plot to kill the President of the United States. Ultimately double-crossed and framed for the attempt, Swagger becomes the target of a nationwide manhunt. He goes on the run to track the real killer and find out who exactly set him up, and why, eventually seeking revenge against some of the most powerful and corrupt leaders in the free world.",
+      "genres": [
+        "Drama",
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0822854"
+    },
+    {
+      "id": "tt0144084",
+      "type": "movie",
+      "name": "American Psycho",
+      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
+      "posterShape": "poster",
+      "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2000",
+      "imdb_id": "tt0144084"
+    },
+    {
+      "id": "tt15314262",
+      "type": "movie",
+      "name": "The Beekeeper",
+      "poster": "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+      "posterShape": "poster",
+      "description": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15314262"
     }
   ]
 }

@@ -1,227 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt0117774",
-      "type": "movie",
-      "name": "The Substitute",
-      "poster": "https://image.tmdb.org/t/p/w500/7vfzvhPMNauUXrVxVOPEfpOsful.jpg",
-      "posterShape": "poster",
-      "description": "When an inner-city Miami schoolteacher gets her knee broken after standing up to the school's gang leader, her mercenary combat specialist boyfriend goes undercover as a substitute teacher to take down the punk. Soon he discovers a conspiracy of criminals at work, and must reassemble his team from his last jungle raid to stop them.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "1996",
-      "imdb_id": "tt0117774"
-    },
-    {
-      "id": "tt36042156",
-      "type": "movie",
-      "name": "The Punisher: One Last Kill",
-      "poster": "https://image.tmdb.org/t/p/w500/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
-      "posterShape": "poster",
-      "description": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
-      "genres": [
-        "Action",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36042156"
-    },
-    {
-      "id": "tt32430579",
-      "type": "movie",
-      "name": "Crime 101",
-      "poster": "https://image.tmdb.org/t/p/w500/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg",
-      "posterShape": "poster",
-      "description": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
-      "genres": [
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32430579"
-    },
-    {
-      "id": "tt37971717",
-      "type": "movie",
-      "name": "One Last Shot",
-      "poster": "https://image.tmdb.org/t/p/w500/niQ4NBh2jqAf1hDZP5m6ReWFAb7.jpg",
-      "posterShape": "poster",
-      "description": "Navy Seal Jake Harris must stop a team of mercenaries, led by his disillusioned former comrade, from disabling the US missile defense network.",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt37971717"
-    },
-    {
-      "id": "tt31195136",
-      "type": "movie",
-      "name": "Normal",
-      "poster": "https://image.tmdb.org/t/p/w500/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg",
-      "posterShape": "poster",
-      "description": "An unassuming substitute sheriff with a troubled past responds to a bank robbery in a small, sleepy town and unknowingly uncovers something far more explosive.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31195136"
-    },
-    {
-      "id": "tt5537002",
-      "type": "movie",
-      "name": "Killers of the Flower Moon",
-      "poster": "https://image.tmdb.org/t/p/w500/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
-      "posterShape": "poster",
-      "description": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
-      "genres": [
-        "Crime",
-        "History",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt5537002"
-    },
-    {
-      "id": "tt0097733",
-      "type": "movie",
-      "name": "Lethal Weapon 2",
-      "poster": "https://image.tmdb.org/t/p/w500/1EEIUw0tkX7AJZ1ikZrtKZZKlC6.jpg",
-      "posterShape": "poster",
-      "description": "Riggs and Murtaugh are on the trail of South African diplomats using their immunity to engage in criminal activities.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "1989",
-      "imdb_id": "tt0097733"
-    },
-    {
-      "id": "tt0109035",
-      "type": "movie",
-      "name": "Above the Rim",
-      "poster": "https://image.tmdb.org/t/p/w500/u23m3ILOMFRj0J7fKbmkioZPSqt.jpg",
-      "posterShape": "poster",
-      "description": "Story of a promising high school basketball star and his relationships with two brothers, one a drug dealer and the other a former basketball star fallen on hard times and now employed as a security guard.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "1994",
-      "imdb_id": "tt0109035"
-    },
-    {
-      "id": "tt5095076",
-      "type": "movie",
-      "name": "Wardriver",
-      "poster": "https://image.tmdb.org/t/p/w500/rBZA12Hf4yZZgud6iPuFU49L7zk.jpg",
-      "posterShape": "poster",
-      "description": "He’s a Wardriver: a hacker who steals from banks, not people—until he’s noticed. Now the money turns violent, and the woman caught in it could save him or kill them both.",
-      "genres": [
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt5095076"
-    },
-    {
-      "id": "tt4873118",
-      "type": "movie",
-      "name": "Guy Ritchie's The Covenant",
-      "poster": "https://image.tmdb.org/t/p/w500/kVG8zFFYrpyYLoHChuEeOGAd6Ru.jpg",
-      "posterShape": "poster",
-      "description": "After an ambush, Afghan interpreter Ahmed goes to Herculean lengths to save US Army Sergeant John Kinley's life. When Kinley learns that Ahmed and his family were not given safe passage to America as promised, he must return to the war zone and repay his debt.",
-      "genres": [
-        "War",
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt4873118"
-    },
-    {
-      "id": "tt17024450",
-      "type": "movie",
-      "name": "The Equalizer 3",
-      "poster": "https://image.tmdb.org/t/p/w500/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg",
-      "posterShape": "poster",
-      "description": "Robert McCall finds himself at home in Southern Italy but he discovers his friends are under the control of local crime bosses. As events turn deadly, McCall knows what he has to do: become his friends' protector by taking on the mafia.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt17024450"
-    },
-    {
-      "id": "tt0071562",
-      "type": "movie",
-      "name": "The Godfather Part II",
-      "poster": "https://image.tmdb.org/t/p/w500/8a1lJs7mFyGhGhZZDT1azJUoQiZ.jpg",
-      "posterShape": "poster",
-      "description": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "1974",
-      "imdb_id": "tt0071562"
-    },
-    {
-      "id": "tt0117060",
-      "type": "movie",
-      "name": "Mission: Impossible",
-      "poster": "https://image.tmdb.org/t/p/w500/l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
-      "posterShape": "poster",
-      "description": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no explanation, discovers that a mole has penetrated the CIA, he's surprised to learn that he's the prime suspect. To clear his name, Hunt now must ferret out the real double agent and, in the process, even the score.",
-      "genres": [
-        "Adventure",
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "1996",
-      "imdb_id": "tt0117060"
-    },
-    {
-      "id": "tt0209144",
-      "type": "movie",
-      "name": "Memento",
-      "poster": "https://image.tmdb.org/t/p/w500/nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
-      "posterShape": "poster",
-      "description": "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
-      "genres": [
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2000",
-      "imdb_id": "tt0209144"
-    },
-    {
-      "id": "tt1212450",
-      "type": "movie",
-      "name": "Lawless",
-      "poster": "https://image.tmdb.org/t/p/w500/Ahtzwts22ayviD3LEVslfL4nRWB.jpg",
-      "posterShape": "poster",
-      "description": "In 1931, the Bondurant brothers of Franklin County, Virginia, run a multipurpose backwoods establishment that hides their true business — bootlegging. Middle brother Forrest is the brain of the operation; older Howard is the brawn, and younger Jack, the lookout. Though the local police have taken bribes and left the brothers alone, a violent war erupts when a sadistic lawman from Chicago arrives and tries to shut down the Bondurants operation.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Western"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1212450"
-    },
-    {
       "id": "tt33303521",
       "type": "movie",
       "name": "The Gates",
@@ -233,21 +12,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33303521"
-    },
-    {
-      "id": "tt1229238",
-      "type": "movie",
-      "name": "Mission: Impossible - Ghost Protocol",
-      "poster": "https://image.tmdb.org/t/p/w500/eRZTGx7GsiKqPch96k27LK005ZL.jpg",
-      "posterShape": "poster",
-      "description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks, who has gained access to Russian nuclear launch codes and is planning a strike on the United States. An attempt to stop him ends in an explosion causing severe destruction to the Kremlin and the IMF to be implicated in the bombing, forcing the President to disavow them. No longer being aided by the government, Ethan and his team chase Hendricks around the globe, although they might still be too late to stop a disaster.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Adventure"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1229238"
     },
     {
       "id": "tt32357218",
@@ -265,6 +29,64 @@
       "imdb_id": "tt32357218"
     },
     {
+      "id": "tt4873118",
+      "type": "movie",
+      "name": "Guy Ritchie's The Covenant",
+      "poster": "https://image.tmdb.org/t/p/w500/kVG8zFFYrpyYLoHChuEeOGAd6Ru.jpg",
+      "posterShape": "poster",
+      "description": "After an ambush, Afghan interpreter Ahmed goes to Herculean lengths to save US Army Sergeant John Kinley's life. When Kinley learns that Ahmed and his family were not given safe passage to America as promised, he must return to the war zone and repay his debt.",
+      "genres": [
+        "War",
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt4873118"
+    },
+    {
+      "id": "tt5537002",
+      "type": "movie",
+      "name": "Killers of the Flower Moon",
+      "poster": "https://image.tmdb.org/t/p/w500/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
+      "posterShape": "poster",
+      "description": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
+      "genres": [
+        "Crime",
+        "History",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt5537002"
+    },
+    {
+      "id": "tt31192372",
+      "type": "movie",
+      "name": "Fall 2: Deadpoint",
+      "poster": "https://image.tmdb.org/t/p/w500/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
+      "posterShape": "poster",
+      "description": "On a perilous climb across Thailand's Mount Kwan, two climbers become trapped thousands of feet above the ground, where vertigo-inducing heights, sheer exposure, and impossible odds turn every moment into a fight for survival.",
+      "genres": [
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31192372"
+    },
+    {
+      "id": "tt0258463",
+      "type": "movie",
+      "name": "The Bourne Identity",
+      "poster": "https://image.tmdb.org/t/p/w500/aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
+      "posterShape": "poster",
+      "description": "Wounded to the brink of death and suffering from amnesia, Jason Bourne is rescued at sea by a fisherman. With nothing to go on but a Swiss bank account number, he starts to reconstruct his life, but finds that many people he encounters want him dead. However, Bourne realizes that he has the combat and mental skills of a world-class spy—but who does he work for?",
+      "genres": [
+        "Action",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2002",
+      "imdb_id": "tt0258463"
+    },
+    {
       "id": "tt30144839",
       "type": "movie",
       "name": "One Battle After Another",
@@ -280,19 +102,198 @@
       "imdb_id": "tt30144839"
     },
     {
-      "id": "tt0144084",
+      "id": "tt1229238",
       "type": "movie",
-      "name": "American Psycho",
-      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
+      "name": "Mission: Impossible - Ghost Protocol",
+      "poster": "https://image.tmdb.org/t/p/w500/eRZTGx7GsiKqPch96k27LK005ZL.jpg",
       "posterShape": "poster",
-      "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
+      "description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks, who has gained access to Russian nuclear launch codes and is planning a strike on the United States. An attempt to stop him ends in an explosion causing severe destruction to the Kremlin and the IMF to be implicated in the bombing, forcing the President to disavow them. No longer being aided by the government, Ethan and his team chase Hendricks around the globe, although they might still be too late to stop a disaster.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "releaseInfo": "2011",
+      "imdb_id": "tt1229238"
+    },
+    {
+      "id": "tt0452623",
+      "type": "movie",
+      "name": "Gone Baby Gone",
+      "poster": "https://image.tmdb.org/t/p/w500/w98tAPUjNPxGAMCipNDWDt8PJo.jpg",
+      "posterShape": "poster",
+      "description": "When 4 year old Amanda McCready disappears from her home and the police make little headway in solving the case, the girl's aunt, Beatrice McCready hires two private detectives, Patrick Kenzie and Angie Gennaro. The detectives freely admit that they have little experience with this type of case, but the family wants them for two reasons—they're not cops and they know the tough neighborhood in which they all live.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0452623"
+    },
+    {
+      "id": "tt32550101",
+      "type": "movie",
+      "name": "STRAW",
+      "poster": "https://image.tmdb.org/t/p/w500/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg",
+      "posterShape": "poster",
+      "description": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
       "genres": [
         "Thriller",
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2000",
-      "imdb_id": "tt0144084"
+      "releaseInfo": "2025",
+      "imdb_id": "tt32550101"
+    },
+    {
+      "id": "tt1212450",
+      "type": "movie",
+      "name": "Lawless",
+      "poster": "https://image.tmdb.org/t/p/w500/Ahtzwts22ayviD3LEVslfL4nRWB.jpg",
+      "posterShape": "poster",
+      "description": "In 1931, the Bondurant brothers of Franklin County, Virginia, run a multipurpose backwoods establishment that hides their true business — bootlegging. Middle brother Forrest is the brain of the operation; older Howard is the brawn, and younger Jack, the lookout. Though the local police have taken bribes and left the brothers alone, a violent war erupts when a sadistic lawman from Chicago arrives and tries to shut down the Bondurants operation.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Western"
+      ],
+      "releaseInfo": "2012",
+      "imdb_id": "tt1212450"
+    },
+    {
+      "id": "tt21103218",
+      "type": "movie",
+      "name": "The Lost Bus",
+      "poster": "https://image.tmdb.org/t/p/w500/4IPxzGlE17fJAwUTMul4opMeutA.jpg",
+      "posterShape": "poster",
+      "description": "A determined father risks everything to rescue a dedicated teacher and her students from a raging wildfire.",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt21103218"
+    },
+    {
+      "id": "tt12593682",
+      "type": "movie",
+      "name": "Bullet Train",
+      "poster": "https://image.tmdb.org/t/p/w500/j8szC8OgrejDQjjMKSVXyaAjw3V.jpg",
+      "posterShape": "poster",
+      "description": "Unlucky assassin Ladybug is determined to do his job peacefully after one too many gigs gone off the rails. Fate, however, may have other plans, as Ladybug's latest mission puts him on a collision course with lethal adversaries from around the globe—all with connected, yet conflicting, objectives—on the world's fastest train.",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Thriller"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt12593682"
+    },
+    {
+      "id": "tt32537226",
+      "type": "movie",
+      "name": "Hunting Season",
+      "poster": "https://image.tmdb.org/t/p/w500/cbryTyaWdqrKpQCw6K7zm2jrB5v.jpg",
+      "posterShape": "poster",
+      "description": "When a reclusive survivalist and his daughter rescue a mysterious, wounded woman from a river, they become entangled in a deadly web of violence and revenge, forcing them to confront a brutal criminal to survive.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt32537226"
+    },
+    {
+      "id": "tt7526136",
+      "type": "movie",
+      "name": "Heart of the Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+      "posterShape": "poster",
+      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "genres": [
+        "Adventure",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt7526136"
+    },
+    {
+      "id": "tt31189814",
+      "type": "movie",
+      "name": "Fuze",
+      "poster": "https://image.tmdb.org/t/p/w500/oMFdQE5hMJ9JjhNORegwTo0GKmh.jpg",
+      "posterShape": "poster",
+      "description": "An unexploded WWII bomb is discovered on a busy construction site in the centre of London. Chaos ensues as the military and police begin a mass evacuation against a ticking clock.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31189814"
+    },
+    {
+      "id": "tt0477348",
+      "type": "movie",
+      "name": "No Country for Old Men",
+      "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+      "posterShape": "poster",
+      "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Western"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0477348"
+    },
+    {
+      "id": "tt1074638",
+      "type": "movie",
+      "name": "Skyfall",
+      "poster": "https://image.tmdb.org/t/p/w500/d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg",
+      "posterShape": "poster",
+      "description": "When Bond's latest assignment goes gravely wrong, agents around the world are exposed and MI6 headquarters is attacked. While M faces challenges to her authority and position from Gareth Mallory, the new Chairman of the Intelligence and Security Committee, it's up to Bond, aided only by field agent Eve, to locate the mastermind behind the attack.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "releaseInfo": "2012",
+      "imdb_id": "tt1074638"
+    },
+    {
+      "id": "tt0425210",
+      "type": "movie",
+      "name": "Lucky Number Slevin",
+      "poster": "https://image.tmdb.org/t/p/w500/x21s3p5wPww534nYj1cWakTcqz4.jpg",
+      "posterShape": "poster",
+      "description": "Slevin is mistakenly put in the middle of a personal war between the city’s biggest criminal bosses. Under constant watch, Slevin must try not to get killed by an infamous assassin and come up with an idea of how to get out of his current dilemma.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2006",
+      "imdb_id": "tt0425210"
+    },
+    {
+      "id": "tt9603212",
+      "type": "movie",
+      "name": "Mission: Impossible - Dead Reckoning Part One",
+      "poster": "https://image.tmdb.org/t/p/w500/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+      "posterShape": "poster",
+      "description": "Ethan Hunt and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands. With control of the future and the world's fate at stake and dark forces from Ethan's past closing in, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan must consider that nothing can matter more than his mission—not even the lives of those he cares about most.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt9603212"
     }
   ]
 }

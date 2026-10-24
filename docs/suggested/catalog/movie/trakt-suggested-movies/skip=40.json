@@ -1,256 +1,47 @@
 {
   "metas": [
     {
-      "id": "tt0822854",
+      "id": "tt0203119",
       "type": "movie",
-      "name": "Shooter",
-      "poster": "https://image.tmdb.org/t/p/w500/2aWGxo1E5polpBjPvtBRkWp7qaS.jpg",
+      "name": "Sexy Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/xTfCZTzhgHNAR1pf5D49WH4buI5.jpg",
       "posterShape": "poster",
-      "description": "A top Marine sniper, Bob Lee Swagger, leaves the military after a mission goes horribly awry and disappears, living in seclusion. He is coaxed back into service after a high-profile government official convinces him to help thwart a plot to kill the President of the United States. Ultimately double-crossed and framed for the attempt, Swagger becomes the target of a nationwide manhunt. He goes on the run to track the real killer and find out who exactly set him up, and why, eventually seeking revenge against some of the most powerful and corrupt leaders in the free world.",
+      "description": "Ex-safecracker Gal Dove has served his time behind bars and is blissfully retired to a Spanish villa paradise with a wife he adores. The idyll is shattered by the arrival of his nemesis Don Logan, intent on persuading Gal to return to London for one last big job.",
       "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2001",
+      "imdb_id": "tt0203119"
+    },
+    {
+      "id": "tt15325794",
+      "type": "movie",
+      "name": "Fall",
+      "poster": "https://image.tmdb.org/t/p/w500/spCAxD99U1A6jsiePFoqdEcY0dG.jpg",
+      "posterShape": "poster",
+      "description": "For best friends Becky and Hunter, life is all about conquering fears and pushing limits. But after they climb 2,000 feet to the top of a remote, abandoned radio tower, they find themselves stranded with no way down. Now Becky and Hunter's expert climbing skills will be put to the ultimate test as they desperately fight to survive the elements, a lack of supplies, and vertigo-inducing heights.",
+      "genres": [
+        "Thriller"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15325794"
+    },
+    {
+      "id": "tt0292963",
+      "type": "movie",
+      "name": "Before the Devil Knows You're Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/h4QXi4Ysuc3zICiK9jHxjCAK9Oh.jpg",
+      "posterShape": "poster",
+      "description": "When two brothers organize the robbery of their parents' jewelry store, the job goes horribly wrong, triggering a series of events that send them and their family hurtling towards a shattering climax.",
+      "genres": [
+        "Crime",
         "Drama",
-        "Action",
         "Thriller"
       ],
       "releaseInfo": "2007",
-      "imdb_id": "tt0822854"
-    },
-    {
-      "id": "tt31192372",
-      "type": "movie",
-      "name": "Fall 2: Deadpoint",
-      "poster": "https://image.tmdb.org/t/p/w500/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
-      "posterShape": "poster",
-      "description": "On a perilous climb across Thailand's Mount Kwan, two climbers become trapped thousands of feet above the ground, where vertigo-inducing heights, sheer exposure, and impossible odds turn every moment into a fight for survival.",
-      "genres": [
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31192372"
-    },
-    {
-      "id": "tt32550101",
-      "type": "movie",
-      "name": "STRAW",
-      "poster": "https://image.tmdb.org/t/p/w500/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg",
-      "posterShape": "poster",
-      "description": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
-      "genres": [
-        "Thriller",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32550101"
-    },
-    {
-      "id": "tt21103218",
-      "type": "movie",
-      "name": "The Lost Bus",
-      "poster": "https://image.tmdb.org/t/p/w500/4IPxzGlE17fJAwUTMul4opMeutA.jpg",
-      "posterShape": "poster",
-      "description": "A determined father risks everything to rescue a dedicated teacher and her students from a raging wildfire.",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt21103218"
-    },
-    {
-      "id": "tt32537226",
-      "type": "movie",
-      "name": "Hunting Season",
-      "poster": "https://image.tmdb.org/t/p/w500/cbryTyaWdqrKpQCw6K7zm2jrB5v.jpg",
-      "posterShape": "poster",
-      "description": "When a reclusive survivalist and his daughter rescue a mysterious, wounded woman from a river, they become entangled in a deadly web of violence and revenge, forcing them to confront a brutal criminal to survive.",
-      "genres": [
-        "Action",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32537226"
-    },
-    {
-      "id": "tt0452623",
-      "type": "movie",
-      "name": "Gone Baby Gone",
-      "poster": "https://image.tmdb.org/t/p/w500/w98tAPUjNPxGAMCipNDWDt8PJo.jpg",
-      "posterShape": "poster",
-      "description": "When 4 year old Amanda McCready disappears from her home and the police make little headway in solving the case, the girl's aunt, Beatrice McCready hires two private detectives, Patrick Kenzie and Angie Gennaro. The detectives freely admit that they have little experience with this type of case, but the family wants them for two reasons—they're not cops and they know the tough neighborhood in which they all live.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0452623"
-    },
-    {
-      "id": "tt0373469",
-      "type": "movie",
-      "name": "Kiss Kiss Bang Bang",
-      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
-      "posterShape": "poster",
-      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0373469"
-    },
-    {
-      "id": "tt1074638",
-      "type": "movie",
-      "name": "Skyfall",
-      "poster": "https://image.tmdb.org/t/p/w500/d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg",
-      "posterShape": "poster",
-      "description": "When Bond's latest assignment goes gravely wrong, agents around the world are exposed and MI6 headquarters is attacked. While M faces challenges to her authority and position from Gareth Mallory, the new Chairman of the Intelligence and Security Committee, it's up to Bond, aided only by field agent Eve, to locate the mastermind behind the attack.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Thriller"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1074638"
-    },
-    {
-      "id": "tt0361748",
-      "type": "movie",
-      "name": "Inglourious Basterds",
-      "poster": "https://image.tmdb.org/t/p/w500/aupnPtagH9JVBuMrGEanf4iqXEQ.jpg",
-      "posterShape": "poster",
-      "description": "In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as \"The Basterds\" are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "War"
-      ],
-      "releaseInfo": "2009",
-      "imdb_id": "tt0361748"
-    },
-    {
-      "id": "tt7526136",
-      "type": "movie",
-      "name": "Heart of the Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
-      "posterShape": "poster",
-      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "genres": [
-        "Adventure",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt7526136"
-    },
-    {
-      "id": "tt31189814",
-      "type": "movie",
-      "name": "Fuze",
-      "poster": "https://image.tmdb.org/t/p/w500/oMFdQE5hMJ9JjhNORegwTo0GKmh.jpg",
-      "posterShape": "poster",
-      "description": "An unexploded WWII bomb is discovered on a busy construction site in the centre of London. Chaos ensues as the military and police begin a mass evacuation against a ticking clock.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31189814"
-    },
-    {
-      "id": "tt0327056",
-      "type": "movie",
-      "name": "Mystic River",
-      "poster": "https://image.tmdb.org/t/p/w500/hCHVDbo6XJGj3r2i4hVjKhE0GKF.jpg",
-      "posterShape": "poster",
-      "description": "The lives of three men who were childhood friends are shattered when one of them suffers a family tragedy.",
-      "genres": [
-        "Thriller",
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2003",
-      "imdb_id": "tt0327056"
-    },
-    {
-      "id": "tt0070379",
-      "type": "movie",
-      "name": "Mean Streets",
-      "poster": "https://image.tmdb.org/t/p/w500/9msfwOeGc9uL1iRRTBdEf15XonC.jpg",
-      "posterShape": "poster",
-      "description": "A small-time hood must choose from among love, friendship and the chance to rise within the mob.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "1973",
-      "imdb_id": "tt0070379"
-    },
-    {
-      "id": "tt2582802",
-      "type": "movie",
-      "name": "Whiplash",
-      "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
-      "posterShape": "poster",
-      "description": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
-      "genres": [
-        "Drama",
-        "Music",
-        "Thriller"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2582802"
-    },
-    {
-      "id": "tt9603212",
-      "type": "movie",
-      "name": "Mission: Impossible - Dead Reckoning Part One",
-      "poster": "https://image.tmdb.org/t/p/w500/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
-      "posterShape": "poster",
-      "description": "Ethan Hunt and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands. With control of the future and the world's fate at stake and dark forces from Ethan's past closing in, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan must consider that nothing can matter more than his mission—not even the lives of those he cares about most.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt9603212"
-    },
-    {
-      "id": "tt0258463",
-      "type": "movie",
-      "name": "The Bourne Identity",
-      "poster": "https://image.tmdb.org/t/p/w500/aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
-      "posterShape": "poster",
-      "description": "Wounded to the brink of death and suffering from amnesia, Jason Bourne is rescued at sea by a fisherman. With nothing to go on but a Swiss bank account number, he starts to reconstruct his life, but finds that many people he encounters want him dead. However, Bourne realizes that he has the combat and mental skills of a world-class spy—but who does he work for?",
-      "genres": [
-        "Action",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0258463"
-    },
-    {
-      "id": "tt0477348",
-      "type": "movie",
-      "name": "No Country for Old Men",
-      "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
-      "posterShape": "poster",
-      "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Western"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0477348"
+      "imdb_id": "tt0292963"
     },
     {
       "id": "tt33296751",
@@ -283,20 +74,222 @@
       "imdb_id": "tt9603208"
     },
     {
-      "id": "tt0425210",
+      "id": "tt2582802",
       "type": "movie",
-      "name": "Lucky Number Slevin",
-      "poster": "https://image.tmdb.org/t/p/w500/x21s3p5wPww534nYj1cWakTcqz4.jpg",
+      "name": "Whiplash",
+      "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
       "posterShape": "poster",
-      "description": "Slevin is mistakenly put in the middle of a personal war between the city’s biggest criminal bosses. Under constant watch, Slevin must try not to get killed by an infamous assassin and come up with an idea of how to get out of his current dilemma.",
+      "description": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
       "genres": [
         "Drama",
+        "Music",
+        "Thriller"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2582802"
+    },
+    {
+      "id": "tt2382320",
+      "type": "movie",
+      "name": "No Time to Die",
+      "poster": "https://image.tmdb.org/t/p/w500/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
+      "posterShape": "poster",
+      "description": "Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt2382320"
+    },
+    {
+      "id": "tt27757546",
+      "type": "movie",
+      "name": "Diablo",
+      "poster": "https://image.tmdb.org/t/p/w500/uFQduVyYIinJy3eLjozgfl6Xtcn.jpg",
+      "posterShape": "poster",
+      "description": "Ex-con Kris Chaney seizes the daughter of a Colombian gangster to fulfill a noble promise to the young girl's mother. When her father enlists both the criminal underworld and a psychotic killer to exact his revenge, Kris relies on everything he's ever learned to stay alive and keep his word.",
+      "genres": [
+        "Action",
         "Thriller",
         "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt27757546"
+    },
+    {
+      "id": "tt31450182",
+      "type": "movie",
+      "name": "Amber Alert",
+      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
+      "posterShape": "poster",
+      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt31450182"
+    },
+    {
+      "id": "tt11233960",
+      "type": "movie",
+      "name": "The Unforgivable",
+      "poster": "https://image.tmdb.org/t/p/w500/1b3dNFDuE7i05TJlXrIC571yR01.jpg",
+      "posterShape": "poster",
+      "description": "A woman is released from prison after serving a sentence for a violent crime and re-enters a society that refuses to forgive her past.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11233960"
+    },
+    {
+      "id": "tt15574124",
+      "type": "movie",
+      "name": "Peaky Blinders: The Immortal Man",
+      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+      "posterShape": "poster",
+      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt15574124"
+    },
+    {
+      "id": "tt20215234",
+      "type": "movie",
+      "name": "Conclave",
+      "poster": "https://image.tmdb.org/t/p/w500/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg",
+      "posterShape": "poster",
+      "description": "After the unexpected death of the Pope, Cardinal Lawrence is tasked with managing the covert and ancient ritual of electing a new one. Sequestered in the Vatican with the Catholic Church’s most powerful leaders until the process is complete, Lawrence finds himself at the center of a conspiracy that could lead to its downfall.",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt20215234"
+    },
+    {
+      "id": "tt27543632",
+      "type": "movie",
+      "name": "The Housemaid",
+      "poster": "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
+      "posterShape": "poster",
+      "description": "Trying to escape her past, Millie Calloway accepts a job as a live-in housemaid for the wealthy Nina and Andrew Winchester. But what begins as a dream job quickly unravels into something far more dangerous—a sexy, seductive game of secrets, scandal, and power.",
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt27543632"
+    },
+    {
+      "id": "tt42863533",
+      "type": "movie",
+      "name": "Maternal Instinct",
+      "poster": "https://image.tmdb.org/t/p/w500/dOWWCLSwXS1MBtGEFeItbloiUEN.jpg",
+      "posterShape": "poster",
+      "description": "Police pull over a woman who claims she just gave birth. But the baby — and the blood — aren't hers. Twisted lies unravel in this true-crime documentary.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt42863533"
+    },
+    {
+      "id": "tt14364480",
+      "type": "movie",
+      "name": "Wake Up Dead Man: A Knives Out Mystery",
+      "poster": "https://image.tmdb.org/t/p/w500/iV9LM8aUb83BjCCx2RUnKE5sSQg.jpg",
+      "posterShape": "poster",
+      "description": "When young priest Jud Duplenticy is sent to assist charismatic firebrand Monsignor Jefferson Wicks, it’s clear that all is not well in the pews. After a sudden and seemingly impossible murder rocks the town, the lack of an obvious suspect prompts local police chief Geraldine Scott to join forces with renowned detective Benoit Blanc to unravel a mystery that defies all logic.",
+      "genres": [
+        "Thriller",
+        "Mystery",
+        "Comedy"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt14364480"
+    },
+    {
+      "id": "tt4627382",
+      "type": "movie",
+      "name": "Roofman",
+      "poster": "https://image.tmdb.org/t/p/w500/wXDFtcnYtevleGzCmAD2ReQnJ4l.jpg",
+      "posterShape": "poster",
+      "description": "A former Army Ranger and struggling father turns to robbing McDonald’s restaurants by cutting holes in their roofs, earning him the nickname \"Roofman.\" After escaping prison, he secretly lives inside a Toys “R” Us for six months, surviving undetected while planning his next move. But when he falls for a divorced mom drawn to his undeniable charm, his double life begins to unravel, setting off a compelling and suspenseful game of cat and mouse as his past closes in.",
+      "genres": [
+        "Crime",
+        "Comedy",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt4627382"
+    },
+    {
+      "id": "tt26674818",
+      "type": "movie",
+      "name": "Tatami",
+      "poster": "https://image.tmdb.org/t/p/w500/A9SUL6wPDGfjX6cCBal0SmUcT47.jpg",
+      "posterShape": "poster",
+      "description": "Iranian female judokas Leila and her coach Maryam, travel to the Judo World Championship, intent on bringing home Iran’s first gold medal. Midway through the Judo World Championships, they receive an ultimatum from the Islamic Republic ordering Leila to fake an injury and lose, or she will be branded a traitor of the state. With her own and her family’s freedom at stake, Leila is faced with an impossible choice: comply with the Iranian regime as her coach Maryam implores her to do, or fight on, for the gold.",
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt26674818"
+    },
+    {
+      "id": "tt5093026",
+      "type": "movie",
+      "name": "Papillon",
+      "poster": "https://image.tmdb.org/t/p/w500/ahF5c6vyP8HWMqIwlhecbRALkjq.jpg",
+      "posterShape": "poster",
+      "description": "Henri “Papillon” Charrière, a safecracker from the Parisian underworld, is wrongfully convicted and sentenced to life imprisonment in the penal colony of French Guiana, where he forges a strong friendship with Louis Dega, a counterfeiter who needs his protection.",
+      "genres": [
+        "Adventure",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5093026"
+    },
+    {
+      "id": "tt33100314",
+      "type": "movie",
+      "name": "Remarkably Bright Creatures",
+      "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+      "posterShape": "poster",
+      "description": "Through unlikely bonds formed during night shifts at a local aquarium, Tova, an elderly widow, learns of a life-changing discovery that may bring her joy and wonder once again.",
+      "genres": [
+        "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2006",
-      "imdb_id": "tt0425210"
+      "releaseInfo": "2026",
+      "imdb_id": "tt33100314"
+    },
+    {
+      "id": "tt8368512",
+      "type": "movie",
+      "name": "The Courier",
+      "poster": "https://image.tmdb.org/t/p/w500/zFIjKtZrzhmc7HecdFXXjsLR2Ig.jpg",
+      "posterShape": "poster",
+      "description": "Cold War spy Greville Wynne and his Russian source try to put an end to the Cuban Missile Crisis.",
+      "genres": [
+        "Thriller",
+        "History",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt8368512"
     }
   ]
 }
