@@ -73,6 +73,33 @@
       "imdb_id": "tt10732104"
     },
     {
+      "id": "tt8740790",
+      "type": "series",
+      "name": "Bridgerton",
+      "poster": "https://image.tmdb.org/t/p/w500/uXTg565ahu9RwonCX1V2Hex1NU6.jpg",
+      "posterShape": "poster",
+      "description": "Wealth, lust, and betrayal set in the backdrop of Regency era England, seen through the eyes of the powerful Bridgerton family.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt8740790"
+    },
+    {
+      "id": "tt15435876",
+      "type": "series",
+      "name": "The Penguin",
+      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
+      "posterShape": "poster",
+      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15435876"
+    },
+    {
       "id": "tt13018148",
       "type": "series",
       "name": "Tell Me Lies",
@@ -101,31 +128,18 @@
       "imdb_id": "tt9174718"
     },
     {
-      "id": "tt8740790",
+      "id": "tt12677870",
       "type": "series",
-      "name": "Bridgerton",
-      "poster": "https://image.tmdb.org/t/p/w500/uXTg565ahu9RwonCX1V2Hex1NU6.jpg",
+      "name": "Law & Order: Organized Crime",
+      "poster": "https://image.tmdb.org/t/p/w500/4AvB6Dg8eAbfWv5WOqzCCv2zS90.jpg",
       "posterShape": "poster",
-      "description": "Wealth, lust, and betrayal set in the backdrop of Regency era England, seen through the eyes of the powerful Bridgerton family.",
+      "description": "The detectives of the Organized Crime Control Bureau work to dismantle New York City's most vicious and violent illegal enterprises.",
       "genres": [
+        "Crime",
         "Drama"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt8740790"
-    },
-    {
-      "id": "tt15435876",
-      "type": "series",
-      "name": "The Penguin",
-      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
-      "posterShape": "poster",
-      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15435876"
+      "releaseInfo": "2021",
+      "imdb_id": "tt12677870"
     },
     {
       "id": "tt7801964",
@@ -140,20 +154,6 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt7801964"
-    },
-    {
-      "id": "tt12677870",
-      "type": "series",
-      "name": "Law & Order: Organized Crime",
-      "poster": "https://image.tmdb.org/t/p/w500/4AvB6Dg8eAbfWv5WOqzCCv2zS90.jpg",
-      "posterShape": "poster",
-      "description": "The detectives of the Organized Crime Control Bureau work to dismantle New York City's most vicious and violent illegal enterprises.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt12677870"
     },
     {
       "id": "tt21946032",
@@ -254,6 +254,20 @@
       "imdb_id": "tt32937780"
     },
     {
+      "id": "tt1831804",
+      "type": "series",
+      "name": "The Stand",
+      "poster": "https://image.tmdb.org/t/p/w500/w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
+      "posterShape": "poster",
+      "description": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt1831804"
+    },
+    {
       "id": "tt15351648",
       "type": "series",
       "name": "Three Pines",
@@ -267,20 +281,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15351648"
-    },
-    {
-      "id": "tt1831804",
-      "type": "series",
-      "name": "The Stand",
-      "poster": "https://image.tmdb.org/t/p/w500/w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
-      "posterShape": "poster",
-      "description": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt1831804"
     }
   ]
 }
