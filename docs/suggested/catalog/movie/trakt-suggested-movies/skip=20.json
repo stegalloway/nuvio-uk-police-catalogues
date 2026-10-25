@@ -1,6 +1,19 @@
 {
   "metas": [
     {
+      "id": "tt33303521",
+      "type": "movie",
+      "name": "The Gates",
+      "poster": "https://image.tmdb.org/t/p/w500/dWMiHlKz0OsbVXEEZR3hYyWHcdq.jpg",
+      "posterShape": "poster",
+      "description": "Three friends' road trip turns terrifying when they witness a murder in a gated community. Trapped inside, hunted by residents who blame them, their bond fractures as a charismatic yet sinister patriarch closes in.",
+      "genres": [
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33303521"
+    },
+    {
       "id": "tt32357218",
       "type": "movie",
       "name": "Shelter",
@@ -222,6 +235,21 @@
       "imdb_id": "tt31189814"
     },
     {
+      "id": "tt8946378",
+      "type": "movie",
+      "name": "Knives Out",
+      "poster": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
+      "posterShape": "poster",
+      "description": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt8946378"
+    },
+    {
       "id": "tt0477348",
       "type": "movie",
       "name": "No Country for Old Men",
@@ -266,38 +294,6 @@
       ],
       "releaseInfo": "2006",
       "imdb_id": "tt0425210"
-    },
-    {
-      "id": "tt9603212",
-      "type": "movie",
-      "name": "Mission: Impossible - Dead Reckoning Part One",
-      "poster": "https://image.tmdb.org/t/p/w500/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
-      "posterShape": "poster",
-      "description": "Ethan Hunt and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands. With control of the future and the world's fate at stake and dark forces from Ethan's past closing in, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan must consider that nothing can matter more than his mission—not even the lives of those he cares about most.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt9603212"
-    },
-    {
-      "id": "tt4572514",
-      "type": "movie",
-      "name": "Patriots Day",
-      "poster": "https://image.tmdb.org/t/p/w500/mIDxsJTrOC7NhgOo3GziiHyKfsQ.jpg",
-      "posterShape": "poster",
-      "description": "In the aftermath of an unspeakable act of terror, Police Sergeant Tommy Saunders joins courageous survivors, first responders and investigators in a race against the clock to hunt down the Boston Marathon bombers before they strike again.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "History",
-        "Thriller"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt4572514"
     }
   ]
 }
