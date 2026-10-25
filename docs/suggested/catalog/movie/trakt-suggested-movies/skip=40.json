@@ -1,23 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt4572514",
-      "type": "movie",
-      "name": "Patriots Day",
-      "poster": "https://image.tmdb.org/t/p/w500/mIDxsJTrOC7NhgOo3GziiHyKfsQ.jpg",
-      "posterShape": "poster",
-      "description": "In the aftermath of an unspeakable act of terror, Police Sergeant Tommy Saunders joins courageous survivors, first responders and investigators in a race against the clock to hunt down the Boston Marathon bombers before they strike again.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "History",
-        "Thriller"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt4572514"
-    },
-    {
       "id": "tt0203119",
       "type": "movie",
       "name": "Sexy Beast",
