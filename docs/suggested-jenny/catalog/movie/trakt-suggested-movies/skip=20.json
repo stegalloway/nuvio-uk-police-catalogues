@@ -15,6 +15,19 @@
       "imdb_id": "tt13778486"
     },
     {
+      "id": "tt32881442",
+      "type": "movie",
+      "name": "Monkey’s Magic Merry Go Round",
+      "poster": "https://image.tmdb.org/t/p/w500/g1v1ogfa8PCvcYJ1JSmrqbcHMAP.jpg",
+      "posterShape": "poster",
+      "description": "After a mysterious bout of amnesia, a beloved children’s television host struggles to piece together his fractured memories, only to find his once-cheerful puppet co-stars behaving with sinister intent. As reality unravels, the line between performance and nightmare begins to blur.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32881442"
+    },
+    {
       "id": "tt27564844",
       "type": "movie",
       "name": "Iron Lung",
@@ -275,21 +288,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt37281055"
-    },
-    {
-      "id": "tt11976532",
-      "type": "movie",
-      "name": "Vengeance",
-      "poster": "https://image.tmdb.org/t/p/w500/n1SlTeEv3dNJB3gF9AHAVElQ6LO.jpg",
-      "posterShape": "poster",
-      "description": "Ben, a journalist from New York City, travels to West Texas in order to investigate the death of a girl he was hooking up with while recording a murder mystery podcast along the way.",
-      "genres": [
-        "Comedy",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11976532"
     }
   ]
 }

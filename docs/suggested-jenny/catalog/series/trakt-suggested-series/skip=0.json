@@ -55,6 +55,19 @@
       "imdb_id": "tt9174718"
     },
     {
+      "id": "tt6483832",
+      "type": "series",
+      "name": "The Resident",
+      "poster": "https://image.tmdb.org/t/p/w500/2IkYQJlT26yXef2iot7dhRtavSC.jpg",
+      "posterShape": "poster",
+      "description": "A tough, brilliant senior resident guides an idealistic young doctor through his first day, pulling back the curtain on what really happens, both good and bad, in modern-day medicine.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6483832"
+    },
+    {
       "id": "tt36303968",
       "type": "series",
       "name": "Furious",
@@ -67,19 +80,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt36303968"
-    },
-    {
-      "id": "tt6483832",
-      "type": "series",
-      "name": "The Resident",
-      "poster": "https://image.tmdb.org/t/p/w500/2IkYQJlT26yXef2iot7dhRtavSC.jpg",
-      "posterShape": "poster",
-      "description": "A tough, brilliant senior resident guides an idealistic young doctor through his first day, pulling back the curtain on what really happens, both good and bad, in modern-day medicine.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6483832"
     },
     {
       "id": "tt23148340",
@@ -109,20 +109,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt2953250"
-    },
-    {
-      "id": "tt14164730",
-      "type": "series",
-      "name": "Dexter: New Blood",
-      "poster": "https://image.tmdb.org/t/p/w500/9EBKgrFIsCFSV1RZKWhYUdbtGiv.jpg",
-      "posterShape": "poster",
-      "description": "10 years after Dexter went missing in the eye of Hurricane Laura, we find him living under an assumed name in the small town of Iron Lake, New York.  Dexter may be embracing his new life, but in the wake of unexpected events in this close-knit community, his Dark Passenger beckons.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt14164730"
     },
     {
       "id": "tt4301160",
@@ -236,20 +222,6 @@
       "imdb_id": "tt13623632"
     },
     {
-      "id": "tt11656892",
-      "type": "series",
-      "name": "Des",
-      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
-      "posterShape": "poster",
-      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11656892"
-    },
-    {
       "id": "tt11540908",
       "type": "series",
       "name": "Carrie",
@@ -265,6 +237,19 @@
       "imdb_id": "tt11540908"
     },
     {
+      "id": "tt0972412",
+      "type": "series",
+      "name": "Private Practice",
+      "poster": "https://image.tmdb.org/t/p/w500/pW20ANAGdrgreYJExduUVaWos6H.jpg",
+      "posterShape": "poster",
+      "description": "Having left behind Seattle Grace Hospital, renowned surgeon Addison Forbes Montgomery moves to Los Angeles for sunnier weather and happier possibilities. She reunites with her friends from medical school, joining them at their chic, co-op, Oceanside Wellness Center in Santa Monica.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0972412"
+    },
+    {
       "id": "tt7817340",
       "type": "series",
       "name": "New Amsterdam",
@@ -276,6 +261,20 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt7817340"
+    },
+    {
+      "id": "tt11656892",
+      "type": "series",
+      "name": "Des",
+      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
+      "posterShape": "poster",
+      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11656892"
     }
   ]
 }

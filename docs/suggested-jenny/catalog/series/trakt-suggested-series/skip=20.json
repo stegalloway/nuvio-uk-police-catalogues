@@ -1,19 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt0972412",
-      "type": "series",
-      "name": "Private Practice",
-      "poster": "https://image.tmdb.org/t/p/w500/pW20ANAGdrgreYJExduUVaWos6H.jpg",
-      "posterShape": "poster",
-      "description": "Having left behind Seattle Grace Hospital, renowned surgeon Addison Forbes Montgomery moves to Los Angeles for sunnier weather and happier possibilities. She reunites with her friends from medical school, joining them at their chic, co-op, Oceanside Wellness Center in Santa Monica.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0972412"
-    },
-    {
       "id": "tt19244304",
       "type": "series",
       "name": "IT: Welcome to Derry",
@@ -69,19 +56,6 @@
       "imdb_id": "tt0804503"
     },
     {
-      "id": "tt11173006",
-      "type": "series",
-      "name": "Super Pumped: The Battle for Uber",
-      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
-      "posterShape": "poster",
-      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11173006"
-    },
-    {
       "id": "tt4452630",
       "type": "series",
       "name": "Code Black",
@@ -93,6 +67,19 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt4452630"
+    },
+    {
+      "id": "tt11173006",
+      "type": "series",
+      "name": "Super Pumped: The Battle for Uber",
+      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
+      "posterShape": "poster",
+      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11173006"
     },
     {
       "id": "tt10574558",
@@ -109,21 +96,6 @@
       "imdb_id": "tt10574558"
     },
     {
-      "id": "tt32252772",
-      "type": "series",
-      "name": "Dexter: Original Sin",
-      "poster": "https://image.tmdb.org/t/p/w500/jmbtI8hhNkw5Hpksr34x3gCCmjS.jpg",
-      "posterShape": "poster",
-      "description": "In 1991 Miami, Dexter Morgan transitions from student to avenging serial killer. When his bloodthirsty urges can't be ignored any longer, Dexter must learn to channel his inner darkness. With the guidance of his father, Harry, he adopts a Code designed to help him find and kill people who deserve to be eliminated from society without getting on law enforcements' radar. This is a particular challenge for young Dexter as he begins a forensics internship at the Miami Metro Police Department.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt32252772"
-    },
-    {
       "id": "tt7985576",
       "type": "series",
       "name": "The Serpent",
@@ -138,34 +110,19 @@
       "imdb_id": "tt7985576"
     },
     {
-      "id": "tt4354880",
+      "id": "tt32252772",
       "type": "series",
-      "name": "Mr. Mercedes",
-      "poster": "https://image.tmdb.org/t/p/w500/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
+      "name": "Dexter: Original Sin",
+      "poster": "https://image.tmdb.org/t/p/w500/jmbtI8hhNkw5Hpksr34x3gCCmjS.jpg",
       "posterShape": "poster",
-      "description": "A demented serial killer taunts a retired police detective with a series of lurid letters and emails, forcing the ex-cop to undertake a private, and potentially felonious, crusade to bring the killer to justice before he can strike again.",
-      "genres": [
-        "Mystery",
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt4354880"
-    },
-    {
-      "id": "tt33043892",
-      "type": "series",
-      "name": "Dexter: Resurrection",
-      "poster": "https://image.tmdb.org/t/p/w500/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
-      "posterShape": "poster",
-      "description": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
+      "description": "In 1991 Miami, Dexter Morgan transitions from student to avenging serial killer. When his bloodthirsty urges can't be ignored any longer, Dexter must learn to channel his inner darkness. With the guidance of his father, Harry, he adopts a Code designed to help him find and kill people who deserve to be eliminated from society without getting on law enforcements' radar. This is a particular challenge for young Dexter as he begins a forensics internship at the Miami Metro Police Department.",
       "genres": [
         "Crime",
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt33043892"
+      "releaseInfo": "2024",
+      "imdb_id": "tt32252772"
     },
     {
       "id": "tt15567174",
@@ -196,6 +153,21 @@
       "imdb_id": "tt6053512"
     },
     {
+      "id": "tt4354880",
+      "type": "series",
+      "name": "Mr. Mercedes",
+      "poster": "https://image.tmdb.org/t/p/w500/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
+      "posterShape": "poster",
+      "description": "A demented serial killer taunts a retired police detective with a series of lurid letters and emails, forcing the ex-cop to undertake a private, and potentially felonious, crusade to bring the killer to justice before he can strike again.",
+      "genres": [
+        "Mystery",
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt4354880"
+    },
+    {
       "id": "tt1831804",
       "type": "series",
       "name": "The Stand",
@@ -223,19 +195,6 @@
       "imdb_id": "tt10936342"
     },
     {
-      "id": "tt2937900",
-      "type": "series",
-      "name": "The Knick",
-      "poster": "https://image.tmdb.org/t/p/w500/oeEqDSIVOi6q0GcZj8L9Q6G7fGC.jpg",
-      "posterShape": "poster",
-      "description": "Set in downtown New York in 1900, 'The Knick' is centered on the Knickerbocker Hospital and its staff, notably Dr. John Thackery, the hospital's brilliant chief surgeon who pushes medicine's boundaries, pioneering new procedures despite a severe drug addiction.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2937900"
-    },
-    {
       "id": "tt8354062",
       "type": "series",
       "name": "One of Us Is Lying",
@@ -250,6 +209,19 @@
       "imdb_id": "tt8354062"
     },
     {
+      "id": "tt2937900",
+      "type": "series",
+      "name": "The Knick",
+      "poster": "https://image.tmdb.org/t/p/w500/oeEqDSIVOi6q0GcZj8L9Q6G7fGC.jpg",
+      "posterShape": "poster",
+      "description": "Set in downtown New York in 1900, 'The Knick' is centered on the Knickerbocker Hospital and its staff, notably Dr. John Thackery, the hospital's brilliant chief surgeon who pushes medicine's boundaries, pioneering new procedures despite a severe drug addiction.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2937900"
+    },
+    {
       "id": "tt11055882",
       "type": "series",
       "name": "Good Sam",
@@ -261,6 +233,36 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11055882"
+    },
+    {
+      "id": "tt33043892",
+      "type": "series",
+      "name": "Dexter: Resurrection",
+      "poster": "https://image.tmdb.org/t/p/w500/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
+      "posterShape": "poster",
+      "description": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt33043892"
+    },
+    {
+      "id": "tt27031263",
+      "type": "series",
+      "name": "Teacup",
+      "poster": "https://image.tmdb.org/t/p/w500/cP5zuQvWAFrgWptS0iXvDI3iND.jpg",
+      "posterShape": "poster",
+      "description": "A mysterious event traps people on a rural Georgia farm, forcing them to unite against an unknown, deadly force. A young boy named Arlo becomes central to uncovering the truth.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt27031263"
     },
     {
       "id": "tt31314754",
