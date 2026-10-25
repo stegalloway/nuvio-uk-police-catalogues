@@ -59,19 +59,6 @@
       "imdb_id": "tt5537002"
     },
     {
-      "id": "tt31192372",
-      "type": "movie",
-      "name": "Fall 2: Deadpoint",
-      "poster": "https://image.tmdb.org/t/p/w500/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
-      "posterShape": "poster",
-      "description": "On a perilous climb across Thailand's Mount Kwan, two climbers become trapped thousands of feet above the ground, where vertigo-inducing heights, sheer exposure, and impossible odds turn every moment into a fight for survival.",
-      "genres": [
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31192372"
-    },
-    {
       "id": "tt4873118",
       "type": "movie",
       "name": "Guy Ritchie's The Covenant",
@@ -85,6 +72,19 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt4873118"
+    },
+    {
+      "id": "tt31192372",
+      "type": "movie",
+      "name": "Fall 2: Deadpoint",
+      "poster": "https://image.tmdb.org/t/p/w500/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
+      "posterShape": "poster",
+      "description": "On a perilous climb across Thailand's Mount Kwan, two climbers become trapped thousands of feet above the ground, where vertigo-inducing heights, sheer exposure, and impossible odds turn every moment into a fight for survival.",
+      "genres": [
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31192372"
     },
     {
       "id": "tt0258463",
