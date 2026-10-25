@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt1064899",
-      "type": "series",
-      "name": "Queen of the South",
-      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
-      "posterShape": "poster",
-      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt1064899"
-    },
-    {
       "id": "tt6439752",
       "type": "series",
       "name": "Snowfall",
@@ -143,18 +129,18 @@
       "imdb_id": "tt1124373"
     },
     {
-      "id": "tt3032476",
+      "id": "tt0903747",
       "type": "series",
-      "name": "Better Call Saul",
-      "poster": "https://image.tmdb.org/t/p/w500/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
+      "name": "Breaking Bad",
+      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
       "posterShape": "poster",
-      "description": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is “fixer” Mike Ehrmantraut. The series tracks Jimmy’s transformation into Saul Goodman, the man who puts “criminal” in “criminal lawyer\".",
+      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt3032476"
+      "releaseInfo": "2008",
+      "imdb_id": "tt0903747"
     },
     {
       "id": "tt5611024",
@@ -172,18 +158,18 @@
       "imdb_id": "tt5611024"
     },
     {
-      "id": "tt0903747",
+      "id": "tt3032476",
       "type": "series",
-      "name": "Breaking Bad",
-      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+      "name": "Better Call Saul",
+      "poster": "https://image.tmdb.org/t/p/w500/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
       "posterShape": "poster",
-      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+      "description": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is “fixer” Mike Ehrmantraut. The series tracks Jimmy’s transformation into Saul Goodman, the man who puts “criminal” in “criminal lawyer\".",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0903747"
+      "releaseInfo": "2015",
+      "imdb_id": "tt3032476"
     },
     {
       "id": "tt5011816",
@@ -258,6 +244,20 @@
       "imdb_id": "tt6037988"
     },
     {
+      "id": "tt11816814",
+      "type": "series",
+      "name": "Painkiller",
+      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
+      "posterShape": "poster",
+      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt11816814"
+    },
+    {
       "id": "tt11110622",
       "type": "series",
       "name": "White House Farm",
@@ -272,18 +272,18 @@
       "imdb_id": "tt11110622"
     },
     {
-      "id": "tt11816814",
+      "id": "tt35707374",
       "type": "series",
-      "name": "Painkiller",
-      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
+      "name": "Memory of a Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/3kpXrWW6gmlngwgSa52IhBpjPuz.jpg",
       "posterShape": "poster",
-      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
+      "description": "Angelo Doyle lives two totally separate lives — fearsome NYC hitman and sleepy upstate Cooperstown photocopier salesman and father. Both of them are threatened when he is diagnosed with Alzheimer's, a disease he already lost his older brother to.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt11816814"
+      "releaseInfo": "2026",
+      "imdb_id": "tt35707374"
     }
   ]
 }

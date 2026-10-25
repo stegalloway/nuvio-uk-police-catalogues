@@ -43,20 +43,6 @@
       "imdb_id": "tt3956604"
     },
     {
-      "id": "tt1625724",
-      "type": "series",
-      "name": "Love/Hate",
-      "poster": "https://image.tmdb.org/t/p/w500/oLnOU5wYp7I6egnI6lzAIWOqS1D.jpg",
-      "posterShape": "poster",
-      "description": "Modern-day underworld characters Nidge and John Boy wrestle for control of Dublin's illicit drug trade in this forceful crime drama.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1625724"
-    },
-    {
       "id": "tt7661390",
       "type": "series",
       "name": "Gangs of London",
@@ -72,20 +58,6 @@
       "imdb_id": "tt7661390"
     },
     {
-      "id": "tt15435876",
-      "type": "series",
-      "name": "The Penguin",
-      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
-      "posterShape": "poster",
-      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15435876"
-    },
-    {
       "id": "tt15837600",
       "type": "series",
       "name": "Griselda",
@@ -98,6 +70,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt15837600"
+    },
+    {
+      "id": "tt15435876",
+      "type": "series",
+      "name": "The Penguin",
+      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
+      "posterShape": "poster",
+      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15435876"
     },
     {
       "id": "tt26676904",
@@ -281,6 +267,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt9742936"
+    },
+    {
+      "id": "tt1064899",
+      "type": "series",
+      "name": "Queen of the South",
+      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
+      "posterShape": "poster",
+      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt1064899"
     }
   ]
 }
