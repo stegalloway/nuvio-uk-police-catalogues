@@ -103,20 +103,6 @@
       "imdb_id": "tt11561116"
     },
     {
-      "id": "tt30274401",
-      "type": "movie",
-      "name": "Five Nights at Freddy's 2",
-      "poster": "https://image.tmdb.org/t/p/w500/udAxQEORq2I5wxI97N2TEqdhzBE.jpg",
-      "posterShape": "poster",
-      "description": "One year since the supernatural nightmare at Freddy Fazbear's Pizza, the stories about what transpired there have been twisted into a campy local legend, inspiring the town's first ever Fazfest. With the truth kept from her, Abby sneaks out to reconnect with Freddy, Bonnie, Chica, and Foxy, setting into motion a terrifying series of events that will reveal dark secrets about the real origin of Freddy's, and unleash a decades-hidden horror.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30274401"
-    },
-    {
       "id": "tt10954984",
       "type": "movie",
       "name": "Nope",
@@ -292,6 +278,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt5867314"
+    },
+    {
+      "id": "tt4196566",
+      "type": "movie",
+      "name": "The Deliverance",
+      "poster": "https://image.tmdb.org/t/p/w500/og1FteMFRInoQnlZeWqEn8XpXHh.jpg",
+      "posterShape": "poster",
+      "description": "Ebony Jackson, a struggling single mother fighting her personal demons, moves her family into a new home for a fresh start. But when strange occurrences inside the home raise the suspicions of Child Protective Services and threaten to tear the family apart, Ebony soon finds herself locked in a battle for her life and the souls of her children.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt4196566"
     }
   ]
 }
