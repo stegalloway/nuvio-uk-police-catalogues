@@ -1,60 +1,106 @@
 {
   "metas": [
     {
-      "id": "tt13623632",
+      "id": "tt27031263",
       "type": "series",
-      "name": "Alien: Earth",
-      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
+      "name": "Teacup",
+      "poster": "https://image.tmdb.org/t/p/w500/cP5zuQvWAFrgWptS0iXvDI3iND.jpg",
       "posterShape": "poster",
-      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
+      "description": "A mysterious event traps people on a rural Georgia farm, forcing them to unite against an unknown, deadly force. A young boy named Arlo becomes central to uncovering the truth.",
       "genres": [
         "Sci-Fi & Fantasy",
+        "Mystery",
         "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt13623632"
+      "releaseInfo": "2024",
+      "imdb_id": "tt27031263"
     },
     {
-      "id": "tt8354062",
+      "id": "tt19853270",
       "type": "series",
-      "name": "One of Us Is Lying",
-      "poster": "https://image.tmdb.org/t/p/w500/hKMpbHY7xqFKaBR8W7jE61JlQB6.jpg",
+      "name": "Murdaugh: Death in the Family",
+      "poster": "https://image.tmdb.org/t/p/w500/fqNT4hsPdA0999NEMuLVeja4Cm2.jpg",
       "posterShape": "poster",
-      "description": "The story of what happens when five high schoolers walk into detention and only four make it out alive. Everyone is a suspect, and everyone has something to hide.",
+      "description": "Maggie and Alex enjoy a lavish life of privilege as members of one of South Carolina's most powerful legal dynasties. But when their son Paul is involved in a deadly boat crash, the family is faced with a test unlike any they've ever encountered. As details come to light and new challenges emerge, the family's connections to several mysterious deaths raise questions which threaten everything Maggie and Alex hold dear.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt19853270"
+    },
+    {
+      "id": "tt13729648",
+      "type": "series",
+      "name": "Candy",
+      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
+      "posterShape": "poster",
+      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13729648"
+    },
+    {
+      "id": "tt9064858",
+      "type": "series",
+      "name": "Them",
+      "poster": "https://image.tmdb.org/t/p/w500/2JIrVunDSjldv7Jv2uNKrrqwfej.jpg",
+      "posterShape": "poster",
+      "description": "A limited anthology series that explores terror in America.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt9064858"
+    },
+    {
+      "id": "tt31458276",
+      "type": "series",
+      "name": "Grotesquerie",
+      "poster": "https://image.tmdb.org/t/p/w500/oskgLp7inXPU9NgfL2NWRW0KK2e.jpg",
+      "posterShape": "poster",
+      "description": "A series of heinous crimes have unsettled a small community, and Detective Lois Tryon feels they are eerily personal, as if someone—or something—is taunting her.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt31458276"
+    },
+    {
+      "id": "tt12306692",
+      "type": "series",
+      "name": "American Horror Stories",
+      "poster": "https://image.tmdb.org/t/p/w500/8b9FGJ9WhpkeGFOHYgKjPT5AXS6.jpg",
+      "posterShape": "poster",
+      "description": "An anthology series of stand alone episodes delving into horror myths, legends and lore.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt12306692"
+    },
+    {
+      "id": "tt11041332",
+      "type": "series",
+      "name": "Yellowjackets",
+      "poster": "https://image.tmdb.org/t/p/w500/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
+      "posterShape": "poster",
+      "description": "This equal parts survival epic, psychological horror story and coming-of-age drama tells the saga of a team of wildly talented high school girls soccer players who become the (un)lucky survivors of a plane crash deep in the remote northern wilderness. The series chronicles their descent from a complicated but thriving team to savage clans, while also tracking the lives they’ve attempted to piece back together nearly 25 years later.",
       "genres": [
         "Drama",
         "Mystery"
       ],
       "releaseInfo": "2021",
-      "imdb_id": "tt8354062"
-    },
-    {
-      "id": "tt11794812",
-      "type": "series",
-      "name": "Cross",
-      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
-      "posterShape": "poster",
-      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt11794812"
-    },
-    {
-      "id": "tt31938062",
-      "type": "series",
-      "name": "The Pitt",
-      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
-      "posterShape": "poster",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31938062"
+      "imdb_id": "tt11041332"
     },
     {
       "id": "tt33332385",
@@ -72,214 +118,175 @@
       "imdb_id": "tt33332385"
     },
     {
-      "id": "tt10732104",
+      "id": "tt26576161",
       "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "name": "The Terminal List: Dark Wolf",
+      "poster": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg",
       "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "description": "Before The Terminal List, Navy SEAL Ben Edwards finds himself entangled in the black operations side of the CIA. The deeper Ben goes into the 'gray', the harder it will become to not give himself over to his darker impulses. Every man has two wolves inside him – light and dark – fighting for control. Which wolf will Ben Edwards feed?",
       "genres": [
-        "Crime",
+        "Action & Adventure",
         "Drama"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
+      "releaseInfo": "2025",
+      "imdb_id": "tt26576161"
     },
     {
-      "id": "tt13018148",
+      "id": "tt8415836",
       "type": "series",
-      "name": "Tell Me Lies",
-      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
+      "name": "Guillermo del Toro's Cabinet of Curiosities",
+      "poster": "https://image.tmdb.org/t/p/w500/a91e9hpWwfCqxJI4xM9Q2RhuxgI.jpg",
       "posterShape": "poster",
-      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
+      "description": "Bizarre nightmares unfold in eight tales of terror in this visually stunning, spine-tingling horror collection curated by Guillermo del Toro.",
       "genres": [
         "Drama",
-        "Mystery"
+        "Mystery",
+        "Sci-Fi & Fantasy"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt13018148"
+      "imdb_id": "tt8415836"
     },
     {
-      "id": "tt9174718",
+      "id": "tt34579520",
       "type": "series",
-      "name": "The Lost Flowers of Alice Hart",
-      "poster": "https://image.tmdb.org/t/p/w500/sNeGAamuke1a2I4ndcaE0bnukh4.jpg",
+      "name": "Murder Before Evensong",
+      "poster": "https://image.tmdb.org/t/p/w500/xn7TFZnR9U2KpJovIg5F1WZ1qs2.jpg",
       "posterShape": "poster",
-      "description": "After losing her parents in a mysterious fire, nine-year-old Alice Hart is raised by her grandmother June on a flower farm where she learns there are secrets within secrets. But years on, an unearthed betrayal sees Alice forced to face her past.",
+      "description": "In 1980s England, Canon Daniel Clement, the Rector of Champton, finds himself unexpectedly entangled in a murder case when a dead body turns up in the church. When Daniel announces a plan to modernize the church, the parish is suddenly divided. And then a body is found dead at the back of the church. As the police move in and the bodies start piling up, Daniel is the only one who can try and keep his fractured community together... and catch a killer.",
       "genres": [
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt9174718"
+      "releaseInfo": "2025",
+      "imdb_id": "tt34579520"
     },
     {
-      "id": "tt8740790",
+      "id": "tt13365348",
       "type": "series",
-      "name": "Bridgerton",
-      "poster": "https://image.tmdb.org/t/p/w500/uXTg565ahu9RwonCX1V2Hex1NU6.jpg",
+      "name": "Archive 81",
+      "poster": "https://image.tmdb.org/t/p/w500/l1jeSEm6a88GFcLzlHQr60D0dOi.jpg",
       "posterShape": "poster",
-      "description": "Wealth, lust, and betrayal set in the backdrop of Regency era England, seen through the eyes of the powerful Bridgerton family.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt8740790"
-    },
-    {
-      "id": "tt15435876",
-      "type": "series",
-      "name": "The Penguin",
-      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
-      "posterShape": "poster",
-      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
+      "description": "An archivist takes a job restoring damaged videotapes and gets pulled into the vortex of a mystery involving the missing director and a demonic cult.",
       "genres": [
         "Drama",
-        "Crime"
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13365348"
+    },
+    {
+      "id": "tt11794812",
+      "type": "series",
+      "name": "Cross",
+      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
+      "posterShape": "poster",
+      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
       ],
       "releaseInfo": "2024",
-      "imdb_id": "tt15435876"
+      "imdb_id": "tt11794812"
     },
     {
-      "id": "tt7801964",
+      "id": "tt4655480",
       "type": "series",
-      "name": "Manhunt",
-      "poster": "https://image.tmdb.org/t/p/w500/nLjUC3ze3WxCFhg4GDbcwLRSgvJ.jpg",
+      "name": "Chicago Med",
+      "poster": "https://image.tmdb.org/t/p/w500/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
       "posterShape": "poster",
-      "description": "The true story of London Metropolitan police detective Colin Sutton's manhunt for serial criminals.",
+      "description": "An emotional thrill ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors who hold it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room.",
       "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt7801964"
-    },
-    {
-      "id": "tt12677870",
-      "type": "series",
-      "name": "Law & Order: Organized Crime",
-      "poster": "https://image.tmdb.org/t/p/w500/4AvB6Dg8eAbfWv5WOqzCCv2zS90.jpg",
-      "posterShape": "poster",
-      "description": "The detectives of the Organized Crime Control Bureau work to dismantle New York City's most vicious and violent illegal enterprises.",
-      "genres": [
-        "Crime",
         "Drama"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt12677870"
+      "releaseInfo": "2015",
+      "imdb_id": "tt4655480"
     },
     {
-      "id": "tt21946032",
+      "id": "tt0397442",
       "type": "series",
-      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
+      "name": "Gossip Girl",
+      "poster": "https://image.tmdb.org/t/p/w500/ep03M6KKZGeljOizPEbt3Geja5n.jpg",
       "posterShape": "poster",
-      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
+      "description": "An exclusive group of privileged teens from a posh prep school on Manhattan's Upper East Side whose lives revolve around the blog of the all-knowing albeit ultra-secretive Gossip Girl.",
       "genres": [
-        "Documentary",
-        "Crime"
+        "Drama"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0397442"
+    },
+    {
+      "id": "tt13444912",
+      "type": "series",
+      "name": "The Midnight Club",
+      "poster": "https://image.tmdb.org/t/p/w500/2Y4F9BHkacKIMnDBZI3GGKpG1If.jpg",
+      "posterShape": "poster",
+      "description": "Inside a hospice for terminally ill teens, members of an exclusive club make a chilling pact: The first to die must send a sign from beyond the grave.",
+      "genres": [
+        "Mystery",
+        "Drama"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt21946032"
+      "imdb_id": "tt13444912"
     },
     {
-      "id": "tt26314987",
+      "id": "tt0489974",
       "type": "series",
-      "name": "Moonflower Murders",
-      "poster": "https://image.tmdb.org/t/p/w500/9Nvf4U5dba5Un1RlYemhD2sxZBN.jpg",
+      "name": "Carnival Row",
+      "poster": "https://image.tmdb.org/t/p/w500/jyhxT10e2z9IDsKoIQDKhyxSQJt.jpg",
       "posterShape": "poster",
-      "description": "Susan has left publishing and is living in Crete with her long-time boyfriend, Andreas. But her idyll is disturbed by the shadow of a murder committed at a British country hotel eight years ago. Alan Conway visited the hotel and wrote a novel based on what happened there. Cecily MacNeil, the young woman who helps run the hotel, read the book and believed the wrong man had been arrested. Now she has disappeared. Can Susan uncover the secret hidden in the book and find Cecily before it is too late?",
+      "description": "In a mystical and dark city filled with humans, fairies and other creatures, a police detective investigates a series of gruesome murders leveled against the fairy population. During his investigation, the detective becomes the prime suspect and must find the real killer to clear his name.",
       "genres": [
+        "Crime",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt0489974"
+    },
+    {
+      "id": "tt31849826",
+      "type": "series",
+      "name": "Doctor Odyssey",
+      "poster": "https://image.tmdb.org/t/p/w500/78KamrNZE0ZzPLBjEug16BASJ5M.jpg",
+      "posterShape": "poster",
+      "description": "Max is the new on-board doctor for a luxury cruise ship where the small but mighty medical team navigate unique medical crises and each other, miles from shore.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt31849826"
+    },
+    {
+      "id": "tt2983222",
+      "type": "series",
+      "name": "Dare Me",
+      "poster": "https://image.tmdb.org/t/p/w500/eLmQL6gWgWnhgdv0CxHaVQcnYOX.jpg",
+      "posterShape": "poster",
+      "description": "Dive into the cutthroat world of competitive high school cheerleading, following the fraught relationship between two best friends after a new coach arrives to bring their team to prominence.",
+      "genres": [
+        "Drama",
         "Mystery",
         "Crime"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt26314987"
+      "releaseInfo": "2019",
+      "imdb_id": "tt2983222"
     },
     {
-      "id": "tt20560404",
+      "id": "tt7335184",
       "type": "series",
-      "name": "Keep Sweet: Pray and Obey",
-      "poster": "https://image.tmdb.org/t/p/w500/4Nmb8R9fO9ezzTDZKE5hwkPhu7M.jpg",
+      "name": "You",
+      "poster": "https://image.tmdb.org/t/p/w500/oANi0vEE92nuijiZQgPZ88FSxqQ.jpg",
       "posterShape": "poster",
-      "description": "In interviews and rare home video footage, ex-FLDS members share the truth about their isolated community — and the events that pushed them to leave.",
+      "description": "A dangerously charming, obsessive man goes to extreme measures to insert himself into the lives of women who fascinate him.",
       "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt20560404"
-    },
-    {
-      "id": "tt3850598",
-      "type": "series",
-      "name": "BMF",
-      "poster": "https://image.tmdb.org/t/p/w500/5gUlUufL3fom30qxKawwlWuD7kC.jpg",
-      "posterShape": "poster",
-      "description": "The drug trafficking drama is inspired by the true story of two brothers who rose from the decaying streets of southwest Detroit in the late 1980s and gave birth to one of the most influential crime families in the country. It revolves around brothers Demetrius \"Big Meech\" Flenory and Terry \"Southwest T\" Flenory, who together took their vision beyond the drug trade and into the world of hip-hop. The drama, per Starz, will tell a story about love, family and capitalism in the pursuit of the American dream.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt3850598"
-    },
-    {
-      "id": "tt43476716",
-      "type": "series",
-      "name": "Worst Neighbor Ever",
-      "poster": "https://image.tmdb.org/t/p/w500/1WarGMl1xR0l7ut72putZcgrCJS.jpg",
-      "posterShape": "poster",
-      "description": "This intense documentary series details true stories of neighbors gone bad, from heinous fraud schemes to senseless acts of violent retribution.",
-      "genres": [
+        "Mystery",
         "Crime",
-        "Documentary"
+        "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt43476716"
-    },
-    {
-      "id": "tt11712058",
-      "type": "series",
-      "name": "Mayor of Kingstown",
-      "poster": "https://image.tmdb.org/t/p/w500/6rWIip9MZELAA0SKii5WqsBDCYW.jpg",
-      "posterShape": "poster",
-      "description": "In a small Michigan town where the business of incarceration is the only thriving industry, the McClusky family are the power brokers between the police, criminals, inmates, prison guards and politicians in a city completely dependent on prisons and the prisoners they contain.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11712058"
-    },
-    {
-      "id": "tt32937780",
-      "type": "series",
-      "name": "Something Very Bad Is Going to Happen",
-      "poster": "https://image.tmdb.org/t/p/w500/tuj37DlqEqib8sTO4h3nHJeTAJ2.jpg",
-      "posterShape": "poster",
-      "description": "A bride has a feeling that something horrifying will happen at her wedding — and the closer to the altar she gets, the worse it becomes.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32937780"
-    },
-    {
-      "id": "tt15351648",
-      "type": "series",
-      "name": "Three Pines",
-      "poster": "https://image.tmdb.org/t/p/w500/r5lbLfjfFZYhr2TfuvKpf7b0HpQ.jpg",
-      "posterShape": "poster",
-      "description": "Chief Inspector Armand Gamache and his team investigate a series of perplexing murders, in the seemingly idyllic village of Three Pines and uncover the buried secrets of its eccentric residents. In the process, Gamache is forced to confront buried secrets of his own. Based on the novels by Louise Penny.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15351648"
+      "releaseInfo": "2018",
+      "imdb_id": "tt7335184"
     }
   ]
 }
