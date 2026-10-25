@@ -43,19 +43,18 @@
       "imdb_id": "tt3956604"
     },
     {
-      "id": "tt7661390",
+      "id": "tt31438328",
       "type": "series",
-      "name": "Gangs of London",
-      "poster": "https://image.tmdb.org/t/p/w500/fVgwa6wGw9ddGM5O7mqrrwB6gHK.jpg",
+      "name": "This City Is Ours",
+      "poster": "https://image.tmdb.org/t/p/w500/fQpJFVWX8MCdOkwoutDw7tjhvgp.jpg",
       "posterShape": "poster",
-      "description": "Season 3 has started.\n\nWhen the head of a criminal organisation, Finn Wallace is assassinated, the sudden power vacuum his death creates threatens the fragile peace between the intricate web of gangs operating on the streets of the city. Now it’s up to the grieving, volatile and impulsive Sean Wallace to restore control and find those responsible for killing his father.",
+      "description": "Season 2 has started.\n\nNotorious gang boss Ronnie (Sean Bean) steps back from his criminal empire, triggering a violent power struggle between his volatile son Jamie (Jack McMullen) and trusted lieutenant Michael (James Nelson Joyce), who sees his chance to seize control. As rivalries ignite and loyalties fracture, the family behind the city’s cocaine trade descends into open war.",
       "genres": [
-        "Action & Adventure",
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt7661390"
+      "releaseInfo": "2025",
+      "imdb_id": "tt31438328"
     },
     {
       "id": "tt15837600",
@@ -98,6 +97,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt26676904"
+    },
+    {
+      "id": "tt7661390",
+      "type": "series",
+      "name": "Gangs of London",
+      "poster": "https://image.tmdb.org/t/p/w500/fVgwa6wGw9ddGM5O7mqrrwB6gHK.jpg",
+      "posterShape": "poster",
+      "description": "Season 3 has started.\n\nWhen the head of a criminal organisation, Finn Wallace is assassinated, the sudden power vacuum his death creates threatens the fragile peace between the intricate web of gangs operating on the streets of the city. Now it’s up to the grieving, volatile and impulsive Sean Wallace to restore control and find those responsible for killing his father.",
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt7661390"
     },
     {
       "id": "tt30460310",
@@ -267,20 +281,6 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt9742936"
-    },
-    {
-      "id": "tt1064899",
-      "type": "series",
-      "name": "Queen of the South",
-      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
-      "posterShape": "poster",
-      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt1064899"
     }
   ]
 }
