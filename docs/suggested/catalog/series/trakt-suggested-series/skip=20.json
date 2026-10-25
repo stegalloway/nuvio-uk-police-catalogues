@@ -129,6 +129,20 @@
       "imdb_id": "tt33253070"
     },
     {
+      "id": "tt1124373",
+      "type": "series",
+      "name": "Sons of Anarchy",
+      "poster": "https://image.tmdb.org/t/p/w500/yPLkf4EiCkR0NOvMfmpHMA2zfN3.jpg",
+      "posterShape": "poster",
+      "description": "The Sons of Anarchy (SOA) are an outlaw motorcycle club with many charters in the United States and overseas. The show focused on the original and founding charter, Sons of Anarchy Motorcycle Club, Redwood Original, often referred to by the acronym SAMCRO, Sam Crow, or simply Redwood Charter. The charter operates both legal and illegal businesses in the small town of Charming, California. They combine gun-running and a garage, and involvement in porn film industry. Clay, the charter president, likes it old school and violent; while Jax, his stepson and the club's VP, has thoughts about changing the way things are done. Their conflict has effects on both the club and their personal relationship, especially when Jax goes on a personal quest to cleanse the SAMCRO name and image.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2008",
+      "imdb_id": "tt1124373"
+    },
+    {
       "id": "tt3032476",
       "type": "series",
       "name": "Better Call Saul",
@@ -141,20 +155,6 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt3032476"
-    },
-    {
-      "id": "tt0903747",
-      "type": "series",
-      "name": "Breaking Bad",
-      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
-      "posterShape": "poster",
-      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0903747"
     },
     {
       "id": "tt5611024",
@@ -172,6 +172,20 @@
       "imdb_id": "tt5611024"
     },
     {
+      "id": "tt0903747",
+      "type": "series",
+      "name": "Breaking Bad",
+      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+      "posterShape": "poster",
+      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2008",
+      "imdb_id": "tt0903747"
+    },
+    {
       "id": "tt5011816",
       "type": "series",
       "name": "Sneaky Pete",
@@ -184,20 +198,6 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt5011816"
-    },
-    {
-      "id": "tt1124373",
-      "type": "series",
-      "name": "Sons of Anarchy",
-      "poster": "https://image.tmdb.org/t/p/w500/yPLkf4EiCkR0NOvMfmpHMA2zfN3.jpg",
-      "posterShape": "poster",
-      "description": "The Sons of Anarchy (SOA) are an outlaw motorcycle club with many charters in the United States and overseas. The show focused on the original and founding charter, Sons of Anarchy Motorcycle Club, Redwood Original, often referred to by the acronym SAMCRO, Sam Crow, or simply Redwood Charter. The charter operates both legal and illegal businesses in the small town of Charming, California. They combine gun-running and a garage, and involvement in porn film industry. Clay, the charter president, likes it old school and violent; while Jax, his stepson and the club's VP, has thoughts about changing the way things are done. Their conflict has effects on both the club and their personal relationship, especially when Jax goes on a personal quest to cleanse the SAMCRO name and image.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt1124373"
     },
     {
       "id": "tt34675596",

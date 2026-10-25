@@ -230,6 +230,21 @@
       "imdb_id": "tt27954448"
     },
     {
+      "id": "tt8550800",
+      "type": "series",
+      "name": "The Outsider",
+      "poster": "https://image.tmdb.org/t/p/w500/aMiPwPQjQI1EZN3xP2V0sSU37dc.jpg",
+      "posterShape": "poster",
+      "description": "When an insidious supernatural force edges its way into a seemingly straightforward investigation into the gruesome murder of a young boy, it leads a seasoned cop and an unorthodox investigator to question everything they believe in.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt8550800"
+    },
+    {
       "id": "tt1475582",
       "type": "series",
       "name": "Sherlock",
@@ -273,21 +288,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt14582876"
-    },
-    {
-      "id": "tt0429087",
-      "type": "series",
-      "name": "Shantaram",
-      "poster": "https://image.tmdb.org/t/p/w500/6FZCmmAdszkEFLAoibEuJPDhW40.jpg",
-      "posterShape": "poster",
-      "description": "Escaped convict Lin Ford flees to the teeming streets of 1980s Bombay, looking to disappear. Working as a medic for the city's poor and neglected, Lin finds unexpected love, connection, and courage on the long road to redemption.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt0429087"
     }
   ]
 }
