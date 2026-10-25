@@ -245,21 +245,6 @@
       "imdb_id": "tt27954448"
     },
     {
-      "id": "tt8550800",
-      "type": "series",
-      "name": "The Outsider",
-      "poster": "https://image.tmdb.org/t/p/w500/aMiPwPQjQI1EZN3xP2V0sSU37dc.jpg",
-      "posterShape": "poster",
-      "description": "When an insidious supernatural force edges its way into a seemingly straightforward investigation into the gruesome murder of a young boy, it leads a seasoned cop and an unorthodox investigator to question everything they believe in.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt8550800"
-    },
-    {
       "id": "tt1475582",
       "type": "series",
       "name": "Sherlock",
@@ -288,6 +273,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33035373"
+    },
+    {
+      "id": "tt14582876",
+      "type": "series",
+      "name": "On Call",
+      "poster": "https://image.tmdb.org/t/p/w500/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
+      "posterShape": "poster",
+      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt14582876"
     }
   ]
 }
