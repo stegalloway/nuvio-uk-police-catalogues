@@ -117,21 +117,6 @@
       "imdb_id": "tt30274401"
     },
     {
-      "id": "tt35298123",
-      "type": "movie",
-      "name": "Teenage Sex and Death at Camp Miasma",
-      "poster": "https://image.tmdb.org/t/p/w500/jcGvB76v8p1sqYXXkBetWASV0uM.jpg",
-      "posterShape": "poster",
-      "description": "An ambitious director sets out to revive a faded slasher franchise, but her meeting with the film’s reclusive original star spirals into a terrifying maze of obsession, fear, and blood-soaked delusion.",
-      "genres": [
-        "Comedy",
-        "Horror",
-        "Romance"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35298123"
-    },
-    {
       "id": "tt10954984",
       "type": "movie",
       "name": "Nope",
@@ -145,6 +130,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt10954984"
+    },
+    {
+      "id": "tt35298123",
+      "type": "movie",
+      "name": "Teenage Sex and Death at Camp Miasma",
+      "poster": "https://image.tmdb.org/t/p/w500/jcGvB76v8p1sqYXXkBetWASV0uM.jpg",
+      "posterShape": "poster",
+      "description": "An ambitious director sets out to revive a faded slasher franchise, but her meeting with the film’s reclusive original star spirals into a terrifying maze of obsession, fear, and blood-soaked delusion.",
+      "genres": [
+        "Comedy",
+        "Horror",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35298123"
     },
     {
       "id": "tt33028778",
