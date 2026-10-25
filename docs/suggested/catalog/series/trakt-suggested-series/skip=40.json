@@ -15,21 +15,6 @@
       "imdb_id": "tt35707374"
     },
     {
-      "id": "tt4276618",
-      "type": "series",
-      "name": "Strike",
-      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
-      "posterShape": "poster",
-      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt4276618"
-    },
-    {
       "id": "tt2304589",
       "type": "series",
       "name": "Defending Jacob",
@@ -43,6 +28,21 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt2304589"
+    },
+    {
+      "id": "tt4276618",
+      "type": "series",
+      "name": "Strike",
+      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
+      "posterShape": "poster",
+      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt4276618"
     },
     {
       "id": "tt32559610",
@@ -187,21 +187,6 @@
       "imdb_id": "tt32499731"
     },
     {
-      "id": "tt10155688",
-      "type": "series",
-      "name": "Mare of Easttown",
-      "poster": "https://image.tmdb.org/t/p/w500/78aK4Msbr22A5PGa6PZV0pAvdwf.jpg",
-      "posterShape": "poster",
-      "description": "A detective in a small Pennsylvania town investigates a local murder while trying to keep her life from falling apart.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt10155688"
-    },
-    {
       "id": "tt36022742",
       "type": "series",
       "name": "Nemesis",
@@ -215,6 +200,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt36022742"
+    },
+    {
+      "id": "tt10155688",
+      "type": "series",
+      "name": "Mare of Easttown",
+      "poster": "https://image.tmdb.org/t/p/w500/78aK4Msbr22A5PGa6PZV0pAvdwf.jpg",
+      "posterShape": "poster",
+      "description": "A detective in a small Pennsylvania town investigates a local murder while trying to keep her life from falling apart.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt10155688"
     },
     {
       "id": "tt14063678",
