@@ -115,21 +115,6 @@
       "imdb_id": "tt36958312"
     },
     {
-      "id": "tt14858658",
-      "type": "movie",
-      "name": "Blink Twice",
-      "poster": "https://image.tmdb.org/t/p/w500/lZGOK0I2DJSRlEPNOAFTSNxSjDD.jpg",
-      "posterShape": "poster",
-      "description": "When tech billionaire Slater King meets cocktail waitress Frida at his fundraising gala, he invites her to join him and his friends on a dream vacation on his private island. But despite the epic setting, beautiful people, ever-flowing champagne, and late-night dance parties, Frida can sense that there’s something sinister hiding beneath the island’s lush façade.",
-      "genres": [
-        "Mystery",
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt14858658"
-    },
-    {
       "id": "tt29550683",
       "type": "movie",
       "name": "Whistle",
@@ -290,6 +275,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt37281055"
+    },
+    {
+      "id": "tt11976532",
+      "type": "movie",
+      "name": "Vengeance",
+      "poster": "https://image.tmdb.org/t/p/w500/n1SlTeEv3dNJB3gF9AHAVElQ6LO.jpg",
+      "posterShape": "poster",
+      "description": "Ben, a journalist from New York City, travels to West Texas in order to investigate the death of a girl he was hooking up with while recording a murder mystery podcast along the way.",
+      "genres": [
+        "Comedy",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11976532"
     }
   ]
 }
