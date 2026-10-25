@@ -205,21 +205,6 @@
       "imdb_id": "tt32141377"
     },
     {
-      "id": "tt35538033",
-      "type": "movie",
-      "name": "Resident Evil",
-      "poster": "https://image.tmdb.org/t/p/w500/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-      "posterShape": "poster",
-      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
-      "genres": [
-        "Horror",
-        "Science Fiction",
-        "Adventure"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35538033"
-    },
-    {
       "id": "tt23642744",
       "type": "movie",
       "name": "Night of the Hunted",
@@ -233,6 +218,21 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt23642744"
+    },
+    {
+      "id": "tt35538033",
+      "type": "movie",
+      "name": "Resident Evil",
+      "poster": "https://image.tmdb.org/t/p/w500/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+      "posterShape": "poster",
+      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35538033"
     },
     {
       "id": "tt9000184",
