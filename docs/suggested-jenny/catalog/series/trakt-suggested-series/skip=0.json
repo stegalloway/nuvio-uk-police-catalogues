@@ -222,20 +222,6 @@
       "imdb_id": "tt15837600"
     },
     {
-      "id": "tt13623632",
-      "type": "series",
-      "name": "Alien: Earth",
-      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
-      "posterShape": "poster",
-      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt13623632"
-    },
-    {
       "id": "tt11540908",
       "type": "series",
       "name": "Carrie",
@@ -249,6 +235,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt11540908"
+    },
+    {
+      "id": "tt13623632",
+      "type": "series",
+      "name": "Alien: Earth",
+      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
+      "posterShape": "poster",
+      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt13623632"
     },
     {
       "id": "tt0972412",
