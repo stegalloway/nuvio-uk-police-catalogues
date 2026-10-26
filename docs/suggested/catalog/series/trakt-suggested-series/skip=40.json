@@ -45,20 +45,6 @@
       "imdb_id": "tt2304589"
     },
     {
-      "id": "tt32559610",
-      "type": "series",
-      "name": "Countdown",
-      "poster": "https://image.tmdb.org/t/p/w500/gcSNS5cy1iOmYawIdJCzoc873rQ.jpg",
-      "posterShape": "poster",
-      "description": "When an officer with the Department of Homeland Security is murdered in broad daylight, LAPD detective Mark Meachum is recruited to a secret task force, alongside undercover agents from all branches of law enforcement, to investigate. But the hunt for the killer soon uncovers a plot far more sinister than anyone could have imagined, kicking off a race against time to save a city of millions.",
-      "genres": [
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32559610"
-    },
-    {
       "id": "tt30459041",
       "type": "series",
       "name": "Your Friends & Neighbors",
@@ -71,6 +57,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt30459041"
+    },
+    {
+      "id": "tt32559610",
+      "type": "series",
+      "name": "Countdown",
+      "poster": "https://image.tmdb.org/t/p/w500/gcSNS5cy1iOmYawIdJCzoc873rQ.jpg",
+      "posterShape": "poster",
+      "description": "When an officer with the Department of Homeland Security is murdered in broad daylight, LAPD detective Mark Meachum is recruited to a secret task force, alongside undercover agents from all branches of law enforcement, to investigate. But the hunt for the killer soon uncovers a plot far more sinister than anyone could have imagined, kicking off a race against time to save a city of millions.",
+      "genres": [
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt32559610"
     },
     {
       "id": "tt13875494",
@@ -217,20 +217,6 @@
       "imdb_id": "tt14063678"
     },
     {
-      "id": "tt27954448",
-      "type": "series",
-      "name": "Law & Order Toronto: Criminal Intent",
-      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
-      "posterShape": "poster",
-      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt27954448"
-    },
-    {
       "id": "tt33035373",
       "type": "series",
       "name": "HIS & HERS",
@@ -244,6 +230,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33035373"
+    },
+    {
+      "id": "tt27954448",
+      "type": "series",
+      "name": "Law & Order Toronto: Criminal Intent",
+      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+      "posterShape": "poster",
+      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt27954448"
     },
     {
       "id": "tt14582876",
