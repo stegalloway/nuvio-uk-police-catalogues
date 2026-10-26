@@ -120,6 +120,20 @@
       "imdb_id": "tt2872718"
     },
     {
+      "id": "tt0342258",
+      "type": "movie",
+      "name": "Unleashed",
+      "poster": "https://image.tmdb.org/t/p/w500/gghvmS3UxtOw1UHIgYjpeZNxHil.jpg",
+      "posterShape": "poster",
+      "description": "Raised as a slave, Danny is used to fighting for his survival. In fact, his \"master,\" Bart, thinks of him as a pet and goes as far as leashing him with a collar so they can make money in fight clubs, where Danny is the main contender. When Bart's crew is in a car accident, Danny escapes and meets a blind, kindhearted piano tuner who takes him in and uses music to free the fighter's long-buried heart.",
+      "genres": [
+        "Action",
+        "Crime"
+      ],
+      "releaseInfo": "2005",
+      "imdb_id": "tt0342258"
+    },
+    {
       "id": "tt36042156",
       "type": "movie",
       "name": "The Punisher: One Last Kill",
@@ -279,21 +293,6 @@
       ],
       "releaseInfo": "2007",
       "imdb_id": "tt0822854"
-    },
-    {
-      "id": "tt0144084",
-      "type": "movie",
-      "name": "American Psycho",
-      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
-      "posterShape": "poster",
-      "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
-      "genres": [
-        "Thriller",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2000",
-      "imdb_id": "tt0144084"
     }
   ]
 }
