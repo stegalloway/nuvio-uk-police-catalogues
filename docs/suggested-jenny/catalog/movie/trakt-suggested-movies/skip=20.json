@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt13778486",
-      "type": "movie",
-      "name": "Succubus",
-      "poster": "https://image.tmdb.org/t/p/w500/7AfBMebJS8mEtSV5ymdxEPpgvXb.jpg",
-      "posterShape": "poster",
-      "description": "A new father going through a marital separation joins a dating app and matches with a beautiful but mysterious young woman... whose powers of seduction and manipulation entangle him in a mystery more horrifying than he could have ever imagined.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt13778486"
-    },
-    {
       "id": "tt32881442",
       "type": "movie",
       "name": "Monkey’s Magic Merry Go Round",
@@ -228,6 +214,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt34494076"
+    },
+    {
+      "id": "tt3811906",
+      "type": "movie",
+      "name": "Malignant",
+      "poster": "https://image.tmdb.org/t/p/w500/dGv2BWjzwAz6LB8a8JeRIZL8hSz.jpg",
+      "posterShape": "poster",
+      "description": "Madison is paralyzed by shocking visions of grisly murders, and her torment worsens as she discovers that these waking dreams are in fact terrifying realities with a mysterious tie to her past.",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Action"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt3811906"
     },
     {
       "id": "tt27047903",
