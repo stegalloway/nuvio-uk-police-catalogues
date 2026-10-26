@@ -58,6 +58,19 @@
       "imdb_id": "tt9064858"
     },
     {
+      "id": "tt4655480",
+      "type": "series",
+      "name": "Chicago Med",
+      "poster": "https://image.tmdb.org/t/p/w500/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
+      "posterShape": "poster",
+      "description": "An emotional thrill ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors who hold it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt4655480"
+    },
+    {
       "id": "tt12306692",
       "type": "series",
       "name": "American Horror Stories",
@@ -102,19 +115,6 @@
       "imdb_id": "tt31458276"
     },
     {
-      "id": "tt4655480",
-      "type": "series",
-      "name": "Chicago Med",
-      "poster": "https://image.tmdb.org/t/p/w500/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
-      "posterShape": "poster",
-      "description": "An emotional thrill ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors who hold it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4655480"
-    },
-    {
       "id": "tt33332385",
       "type": "series",
       "name": "Widow's Bay",
@@ -143,6 +143,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt8415836"
+    },
+    {
+      "id": "tt26576161",
+      "type": "series",
+      "name": "The Terminal List: Dark Wolf",
+      "poster": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg",
+      "posterShape": "poster",
+      "description": "Before The Terminal List, Navy SEAL Ben Edwards finds himself entangled in the black operations side of the CIA. The deeper Ben goes into the 'gray', the harder it will become to not give himself over to his darker impulses. Every man has two wolves inside him – light and dark – fighting for control. Which wolf will Ben Edwards feed?",
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt26576161"
     },
     {
       "id": "tt34579520",
@@ -174,6 +188,19 @@
       "imdb_id": "tt13365348"
     },
     {
+      "id": "tt0397442",
+      "type": "series",
+      "name": "Gossip Girl",
+      "poster": "https://image.tmdb.org/t/p/w500/ep03M6KKZGeljOizPEbt3Geja5n.jpg",
+      "posterShape": "poster",
+      "description": "An exclusive group of privileged teens from a posh prep school on Manhattan's Upper East Side whose lives revolve around the blog of the all-knowing albeit ultra-secretive Gossip Girl.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0397442"
+    },
+    {
       "id": "tt0489974",
       "type": "series",
       "name": "Carnival Row",
@@ -187,33 +214,6 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt0489974"
-    },
-    {
-      "id": "tt26576161",
-      "type": "series",
-      "name": "The Terminal List: Dark Wolf",
-      "poster": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg",
-      "posterShape": "poster",
-      "description": "Before The Terminal List, Navy SEAL Ben Edwards finds himself entangled in the black operations side of the CIA. The deeper Ben goes into the 'gray', the harder it will become to not give himself over to his darker impulses. Every man has two wolves inside him – light and dark – fighting for control. Which wolf will Ben Edwards feed?",
-      "genres": [
-        "Action & Adventure",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt26576161"
-    },
-    {
-      "id": "tt0397442",
-      "type": "series",
-      "name": "Gossip Girl",
-      "poster": "https://image.tmdb.org/t/p/w500/ep03M6KKZGeljOizPEbt3Geja5n.jpg",
-      "posterShape": "poster",
-      "description": "An exclusive group of privileged teens from a posh prep school on Manhattan's Upper East Side whose lives revolve around the blog of the all-knowing albeit ultra-secretive Gossip Girl.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0397442"
     },
     {
       "id": "tt11794812",
@@ -231,6 +231,19 @@
       "imdb_id": "tt11794812"
     },
     {
+      "id": "tt31849826",
+      "type": "series",
+      "name": "Doctor Odyssey",
+      "poster": "https://image.tmdb.org/t/p/w500/78KamrNZE0ZzPLBjEug16BASJ5M.jpg",
+      "posterShape": "poster",
+      "description": "Max is the new on-board doctor for a luxury cruise ship where the small but mighty medical team navigate unique medical crises and each other, miles from shore.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt31849826"
+    },
+    {
       "id": "tt13444912",
       "type": "series",
       "name": "The Midnight Club",
@@ -243,19 +256,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt13444912"
-    },
-    {
-      "id": "tt31849826",
-      "type": "series",
-      "name": "Doctor Odyssey",
-      "poster": "https://image.tmdb.org/t/p/w500/78KamrNZE0ZzPLBjEug16BASJ5M.jpg",
-      "posterShape": "poster",
-      "description": "Max is the new on-board doctor for a luxury cruise ship where the small but mighty medical team navigate unique medical crises and each other, miles from shore.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31849826"
     },
     {
       "id": "tt2983222",
