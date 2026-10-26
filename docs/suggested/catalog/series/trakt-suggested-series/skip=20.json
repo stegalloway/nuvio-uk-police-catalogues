@@ -258,6 +258,20 @@
       "imdb_id": "tt1958961"
     },
     {
+      "id": "tt14466018",
+      "type": "series",
+      "name": "Blue Lights",
+      "poster": "https://image.tmdb.org/t/p/w500/3C3c40DH8M6qdECHLlxk8o5nrC0.jpg",
+      "posterShape": "poster",
+      "description": "Follows rookie police officers working in Belfast, a city in which being a frontline response cop comes with unique pressures and dangers.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt14466018"
+    },
+    {
       "id": "tt11816814",
       "type": "series",
       "name": "Painkiller",
@@ -270,20 +284,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt11816814"
-    },
-    {
-      "id": "tt11110622",
-      "type": "series",
-      "name": "White House Farm",
-      "poster": "https://image.tmdb.org/t/p/w500/xviAtCeJXRDxl4ClzIo1qyBhTLc.jpg",
-      "posterShape": "poster",
-      "description": "Factual drama based on the notorious White House Farm murders, and the ensuing police investigation and court case.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11110622"
     }
   ]
 }
