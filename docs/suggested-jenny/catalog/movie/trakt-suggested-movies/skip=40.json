@@ -177,6 +177,21 @@
       "imdb_id": "tt30851137"
     },
     {
+      "id": "tt23642744",
+      "type": "movie",
+      "name": "Night of the Hunted",
+      "poster": "https://image.tmdb.org/t/p/w500/tfNFmBGBVF1biwOTBgFONAeCaDZ.jpg",
+      "posterShape": "poster",
+      "description": "When an unsuspecting woman stops at a remote gas station in the dead of night, she's made the plaything of a sociopath sniper with a secret vendetta. To survive, she must not only dodge his bullets and fight for her life, but also figure out who wants her dead and why.",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt23642744"
+    },
+    {
       "id": "tt35538033",
       "type": "movie",
       "name": "Resident Evil",
@@ -278,23 +293,6 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt5867314"
-    },
-    {
-      "id": "tt22767628",
-      "type": "movie",
-      "name": "Blackwater Lane",
-      "poster": "https://image.tmdb.org/t/p/w500/tdUFd56CFC0o6XoAkn4WRNHwqod.jpg",
-      "posterShape": "poster",
-      "description": "An American school teacher in England drives past an abandoned car late one night, unaware that the driver was the victim of a murder. As she comes to terms with the realization, seemingly supernatural events start to affect the gothic manor she lives in with her husband.",
-      "genres": [
-        "Thriller",
-        "Drama",
-        "Mystery",
-        "Horror",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt22767628"
     }
   ]
 }
