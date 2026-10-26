@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt31438328",
+      "type": "series",
+      "name": "This City Is Ours",
+      "poster": "https://image.tmdb.org/t/p/w500/fQpJFVWX8MCdOkwoutDw7tjhvgp.jpg",
+      "posterShape": "poster",
+      "description": "S2 E1 · out yesterday\n\nNotorious gang boss Ronnie (Sean Bean) steps back from his criminal empire, triggering a violent power struggle between his volatile son Jamie (Jack McMullen) and trusted lieutenant Michael (James Nelson Joyce), who sees his chance to seize control. As rivalries ignite and loyalties fracture, the family behind the city’s cocaine trade descends into open war.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "Out now · S2 E1",
+      "imdb_id": "tt31438328"
+    },
+    {
       "id": "tt16358384",
       "type": "series",
       "name": "Tulsa King",
