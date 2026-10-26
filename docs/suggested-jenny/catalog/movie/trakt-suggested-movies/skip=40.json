@@ -103,21 +103,6 @@
       "imdb_id": "tt11561116"
     },
     {
-      "id": "tt10954984",
-      "type": "movie",
-      "name": "Nope",
-      "poster": "https://image.tmdb.org/t/p/w500/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg",
-      "posterShape": "poster",
-      "description": "Residents in a lonely gulch of inland California bear witness to an uncanny, chilling discovery.",
-      "genres": [
-        "Horror",
-        "Science Fiction",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt10954984"
-    },
-    {
       "id": "tt35298123",
       "type": "movie",
       "name": "Teenage Sex and Death at Camp Miasma",
@@ -294,6 +279,21 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt22767628"
+    },
+    {
+      "id": "tt34381258",
+      "type": "movie",
+      "name": "Good Boy",
+      "poster": "https://image.tmdb.org/t/p/w500/eWb841fMkSNly5gfL9J1N0xzVYI.jpg",
+      "posterShape": "poster",
+      "description": "Tommy, a volatile 19-year-old, revels in drugs, parties and violence. After getting separated from his friends on a drunken bender, he is abducted by a shadowy figure. He wakes to find himself imprisoned in the basement of a remote Yorkshire house, inhabited by a very strange family. But what unfolds is not what he could possibly expect.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34381258"
     }
   ]
 }
