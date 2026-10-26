@@ -1,18 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt33100314",
+      "id": "tt32547691",
       "type": "movie",
-      "name": "Remarkably Bright Creatures",
-      "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+      "name": "Pressure",
+      "poster": "https://image.tmdb.org/t/p/w500/gFjEggtrejCN79r6SXRjM269OtG.jpg",
       "posterShape": "poster",
-      "description": "Through unlikely bonds formed during night shifts at a local aquarium, Tova, an elderly widow, learns of a life-changing discovery that may bring her joy and wonder once again.",
+      "description": "In the tense 72 hours before D-Day, and the fate of the free world hanging in the balance, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice—launch the largest and most dangerous seaborne invasion in history or risk losing the war altogether.",
       "genres": [
-        "Drama",
-        "Mystery"
+        "Thriller",
+        "History",
+        "War"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt33100314"
+      "imdb_id": "tt32547691"
     }
   ]
 }

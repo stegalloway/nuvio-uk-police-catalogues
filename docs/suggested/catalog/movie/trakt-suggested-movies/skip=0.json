@@ -135,21 +135,6 @@
       "imdb_id": "tt36042156"
     },
     {
-      "id": "tt3799694",
-      "type": "movie",
-      "name": "The Nice Guys",
-      "poster": "https://image.tmdb.org/t/p/w500/clq4So9spa9cXk3MZy2iMdqkxP2.jpg",
-      "posterShape": "poster",
-      "description": "A private eye investigates the apparent suicide of a fading porn star in 1970s Los Angeles and uncovers a conspiracy.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Action"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt3799694"
-    },
-    {
       "id": "tt32430579",
       "type": "movie",
       "name": "Crime 101",
@@ -264,6 +249,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt37971717"
+    },
+    {
+      "id": "tt17024450",
+      "type": "movie",
+      "name": "The Equalizer 3",
+      "poster": "https://image.tmdb.org/t/p/w500/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg",
+      "posterShape": "poster",
+      "description": "Robert McCall finds himself at home in Southern Italy but he discovers his friends are under the control of local crime bosses. As events turn deadly, McCall knows what he has to do: become his friends' protector by taking on the mafia.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt17024450"
     },
     {
       "id": "tt0209144",
