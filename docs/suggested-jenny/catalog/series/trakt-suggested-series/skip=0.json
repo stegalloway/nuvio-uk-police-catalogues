@@ -139,20 +139,6 @@
       "imdb_id": "tt4301160"
     },
     {
-      "id": "tt5194792",
-      "type": "series",
-      "name": "NOS4A2",
-      "poster": "https://image.tmdb.org/t/p/w500/gnosVTTRTCqooJuipwU6C0bgOGf.jpg",
-      "posterShape": "poster",
-      "description": "A young Victoria \"Vic\" McQueen discovers she has the power to unlock portals that help her find lost objects. As she delves further into this hidden universe, she encounters many other \"inscape travelers\" - some benevolent, and some who have been corrupted by their power. When Vic encounters Charlie Manx, an immortal who stays that way by feeding off of the souls of children, she makes a sworn enemy of Manx.",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt5194792"
-    },
-    {
       "id": "tt1640719",
       "type": "series",
       "name": "Under the Bridge",
@@ -165,6 +151,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt1640719"
+    },
+    {
+      "id": "tt5194792",
+      "type": "series",
+      "name": "NOS4A2",
+      "poster": "https://image.tmdb.org/t/p/w500/gnosVTTRTCqooJuipwU6C0bgOGf.jpg",
+      "posterShape": "poster",
+      "description": "A young Victoria \"Vic\" McQueen discovers she has the power to unlock portals that help her find lost objects. As she delves further into this hidden universe, she encounters many other \"inscape travelers\" - some benevolent, and some who have been corrupted by their power. When Vic encounters Charlie Manx, an immortal who stays that way by feeding off of the souls of children, she makes a sworn enemy of Manx.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt5194792"
     },
     {
       "id": "tt14586350",

@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt13778486",
+      "type": "movie",
+      "name": "Succubus",
+      "poster": "https://image.tmdb.org/t/p/w500/7AfBMebJS8mEtSV5ymdxEPpgvXb.jpg",
+      "posterShape": "poster",
+      "description": "A new father going through a marital separation joins a dating app and matches with a beautiful but mysterious young woman... whose powers of seduction and manipulation entangle him in a mystery more horrifying than he could have ever imagined.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt13778486"
+    },
+    {
       "id": "tt32881442",
       "type": "movie",
       "name": "Monkey’s Magic Merry Go Round",
@@ -274,21 +288,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt39143902"
-    },
-    {
-      "id": "tt37281055",
-      "type": "movie",
-      "name": "Buddy",
-      "poster": "https://image.tmdb.org/t/p/w500/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
-      "posterShape": "poster",
-      "description": "A magical, singing orange unicorn holds his cast hostage in a surreal TV-show dimension, as he becomes more and more demented.",
-      "genres": [
-        "Horror",
-        "Comedy",
-        "Fantasy"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt37281055"
     }
   ]
 }

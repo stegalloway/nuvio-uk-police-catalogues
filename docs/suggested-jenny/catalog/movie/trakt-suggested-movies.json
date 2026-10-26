@@ -270,18 +270,19 @@
       "imdb_id": "tt9411972"
     },
     {
-      "id": "tt13778486",
+      "id": "tt45368240",
       "type": "movie",
-      "name": "Succubus",
-      "poster": "https://image.tmdb.org/t/p/w500/7AfBMebJS8mEtSV5ymdxEPpgvXb.jpg",
+      "name": "You Can See Everything",
+      "poster": "https://image.tmdb.org/t/p/w500/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
       "posterShape": "poster",
-      "description": "A new father going through a marital separation joins a dating app and matches with a beautiful but mysterious young woman... whose powers of seduction and manipulation entangle him in a mystery more horrifying than he could have ever imagined.",
+      "description": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
       "genres": [
+        "Documentary",
         "Horror",
-        "Thriller"
+        "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt13778486"
+      "releaseInfo": "2026",
+      "imdb_id": "tt45368240"
     }
   ]
 }
