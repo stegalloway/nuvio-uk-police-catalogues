@@ -103,6 +103,21 @@
       "imdb_id": "tt11561116"
     },
     {
+      "id": "tt10954984",
+      "type": "movie",
+      "name": "Nope",
+      "poster": "https://image.tmdb.org/t/p/w500/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg",
+      "posterShape": "poster",
+      "description": "Residents in a lonely gulch of inland California bear witness to an uncanny, chilling discovery.",
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt10954984"
+    },
+    {
       "id": "tt33028778",
       "type": "movie",
       "name": "Primate",
@@ -175,6 +190,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35538033"
+    },
+    {
+      "id": "tt9000184",
+      "type": "movie",
+      "name": "Goodnight Mommy",
+      "poster": "https://image.tmdb.org/t/p/w500/oHhD5jD4S5ElPNNFCDKXJAzMZ5h.jpg",
+      "posterShape": "poster",
+      "description": "When twin brothers arrive home to find their mother’s demeanor altered and face covered in surgical bandages, they begin to suspect the woman beneath the gauze might not be their mother.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt9000184"
     },
     {
       "id": "tt14509110",
@@ -265,34 +295,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt22767628"
-    },
-    {
-      "id": "tt4196566",
-      "type": "movie",
-      "name": "The Deliverance",
-      "poster": "https://image.tmdb.org/t/p/w500/og1FteMFRInoQnlZeWqEn8XpXHh.jpg",
-      "posterShape": "poster",
-      "description": "Ebony Jackson, a struggling single mother fighting her personal demons, moves her family into a new home for a fresh start. But when strange occurrences inside the home raise the suspicions of Child Protective Services and threaten to tear the family apart, Ebony soon finds herself locked in a battle for her life and the souls of her children.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt4196566"
-    },
-    {
-      "id": "tt27444133",
-      "type": "movie",
-      "name": "Shades of Desire",
-      "poster": "https://image.tmdb.org/t/p/w500/3E3TAy3fSksFDJ4TS6maL9xNEgU.jpg",
-      "posterShape": "poster",
-      "description": "After her twin sister Aubrey goes missing, Jennifer uncovers the scandalous, secret double-life that Aubrey leads - and that has put both of them in danger.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt27444133"
     }
   ]
 }
