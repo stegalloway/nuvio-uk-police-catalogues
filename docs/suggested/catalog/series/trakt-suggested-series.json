@@ -29,21 +29,6 @@
       "imdb_id": "tt6271042"
     },
     {
-      "id": "tt1701920",
-      "type": "series",
-      "name": "The Shadow Line",
-      "poster": "https://image.tmdb.org/t/p/w500/dxpOOl38VgzCtC8tlKkgLsug52T.jpg",
-      "posterShape": "poster",
-      "description": "A murder is investigated by both sides of the line, cops and criminals, using opposing methods. But the real line is the morality within each person and how far they will go before they cross it.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1701920"
-    },
-    {
       "id": "tt31438328",
       "type": "series",
       "name": "This City Is Ours",
@@ -282,6 +267,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt9742936"
+    },
+    {
+      "id": "tt1064899",
+      "type": "series",
+      "name": "Queen of the South",
+      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
+      "posterShape": "poster",
+      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt1064899"
     }
   ]
 }

@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt1064899",
-      "type": "series",
-      "name": "Queen of the South",
-      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
-      "posterShape": "poster",
-      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt1064899"
-    },
-    {
       "id": "tt6439752",
       "type": "series",
       "name": "Snowfall",
@@ -284,6 +270,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt11816814"
+    },
+    {
+      "id": "tt11110622",
+      "type": "series",
+      "name": "White House Farm",
+      "poster": "https://image.tmdb.org/t/p/w500/xviAtCeJXRDxl4ClzIo1qyBhTLc.jpg",
+      "posterShape": "poster",
+      "description": "Factual drama based on the notorious White House Farm murders, and the ensuing police investigation and court case.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11110622"
     }
   ]
 }
