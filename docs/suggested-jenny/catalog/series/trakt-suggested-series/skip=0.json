@@ -139,20 +139,6 @@
       "imdb_id": "tt4301160"
     },
     {
-      "id": "tt1640719",
-      "type": "series",
-      "name": "Under the Bridge",
-      "poster": "https://image.tmdb.org/t/p/w500/4YMpCGsAAHXWGScHsK1sbd7wprE.jpg",
-      "posterShape": "poster",
-      "description": "Fourteen-year old Reena Virk went to join friends at a party and never returned home. Through the eyes of Rebecca Godfrey and a local police officer, learn the hidden world of the young girls accused of the murder — revealing startling truths about the unlikely killer.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt1640719"
-    },
-    {
       "id": "tt5194792",
       "type": "series",
       "name": "NOS4A2",
@@ -165,6 +151,20 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt5194792"
+    },
+    {
+      "id": "tt1640719",
+      "type": "series",
+      "name": "Under the Bridge",
+      "poster": "https://image.tmdb.org/t/p/w500/4YMpCGsAAHXWGScHsK1sbd7wprE.jpg",
+      "posterShape": "poster",
+      "description": "Fourteen-year old Reena Virk went to join friends at a party and never returned home. Through the eyes of Rebecca Godfrey and a local police officer, learn the hidden world of the young girls accused of the murder — revealing startling truths about the unlikely killer.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt1640719"
     },
     {
       "id": "tt14586350",
@@ -194,19 +194,6 @@
       "imdb_id": "tt31938062"
     },
     {
-      "id": "tt33022938",
-      "type": "series",
-      "name": "The House of the Spirits",
-      "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
-      "posterShape": "poster",
-      "description": "The epic tale of a proud and passionate family, secret loves, and bloody revolution. The Trueba family's passions, struggles, and secrets span a century of violent social change, culminating in a crisis that hurls the proud, tyrannical patriarch and his beloved granddaughter towards opposite sides of the fence.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33022938"
-    },
-    {
       "id": "tt3960394",
       "type": "series",
       "name": "Interview with the Vampire",
@@ -219,6 +206,19 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt3960394"
+    },
+    {
+      "id": "tt33022938",
+      "type": "series",
+      "name": "The House of the Spirits",
+      "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+      "posterShape": "poster",
+      "description": "The epic tale of a proud and passionate family, secret loves, and bloody revolution. The Trueba family's passions, struggles, and secrets span a century of violent social change, culminating in a crisis that hurls the proud, tyrannical patriarch and his beloved granddaughter towards opposite sides of the fence.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33022938"
     },
     {
       "id": "tt15837600",
@@ -248,6 +248,19 @@
       "imdb_id": "tt0972412"
     },
     {
+      "id": "tt7817340",
+      "type": "series",
+      "name": "New Amsterdam",
+      "poster": "https://image.tmdb.org/t/p/w500/jsH4AeGZn5Q6h314A3OTUHKxHhR.jpg",
+      "posterShape": "poster",
+      "description": "The new medical director breaks the rules to heal the system at America's oldest public hospital. Max Goodwin sets out to tear up the bureaucracy and provide exceptional care, but the doctors and staff are not so sure he can succeed. They've heard this before. Not taking \"no\" for an answer, Dr. Goodwin's instinctive response to problems large and small is four simple words: \"How can I help?\" He has to disrupt the status quo and prove he'll stop at nothing to breathe new life into this underfunded and underappreciated hospital, returning it to the glory that put it on the map.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt7817340"
+    },
+    {
       "id": "tt13623632",
       "type": "series",
       "name": "Alien: Earth",
@@ -260,19 +273,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt13623632"
-    },
-    {
-      "id": "tt7817340",
-      "type": "series",
-      "name": "New Amsterdam",
-      "poster": "https://image.tmdb.org/t/p/w500/jsH4AeGZn5Q6h314A3OTUHKxHhR.jpg",
-      "posterShape": "poster",
-      "description": "The new medical director breaks the rules to heal the system at America's oldest public hospital. Max Goodwin sets out to tear up the bureaucracy and provide exceptional care, but the doctors and staff are not so sure he can succeed. They've heard this before. Not taking \"no\" for an answer, Dr. Goodwin's instinctive response to problems large and small is four simple words: \"How can I help?\" He has to disrupt the status quo and prove he'll stop at nothing to breathe new life into this underfunded and underappreciated hospital, returning it to the glory that put it on the map.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt7817340"
     }
   ]
 }
