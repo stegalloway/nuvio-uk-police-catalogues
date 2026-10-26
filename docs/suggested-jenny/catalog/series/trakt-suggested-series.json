@@ -167,19 +167,6 @@
       "imdb_id": "tt5194792"
     },
     {
-      "id": "tt31938062",
-      "type": "series",
-      "name": "The Pitt",
-      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
-      "posterShape": "poster",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31938062"
-    },
-    {
       "id": "tt14586350",
       "type": "series",
       "name": "Love & Death",
@@ -192,6 +179,19 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt14586350"
+    },
+    {
+      "id": "tt31938062",
+      "type": "series",
+      "name": "The Pitt",
+      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+      "posterShape": "poster",
+      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31938062"
     },
     {
       "id": "tt33022938",
@@ -235,6 +235,19 @@
       "imdb_id": "tt15837600"
     },
     {
+      "id": "tt0972412",
+      "type": "series",
+      "name": "Private Practice",
+      "poster": "https://image.tmdb.org/t/p/w500/pW20ANAGdrgreYJExduUVaWos6H.jpg",
+      "posterShape": "poster",
+      "description": "Having left behind Seattle Grace Hospital, renowned surgeon Addison Forbes Montgomery moves to Los Angeles for sunnier weather and happier possibilities. She reunites with her friends from medical school, joining them at their chic, co-op, Oceanside Wellness Center in Santa Monica.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0972412"
+    },
+    {
       "id": "tt13623632",
       "type": "series",
       "name": "Alien: Earth",
@@ -247,19 +260,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt13623632"
-    },
-    {
-      "id": "tt0972412",
-      "type": "series",
-      "name": "Private Practice",
-      "poster": "https://image.tmdb.org/t/p/w500/pW20ANAGdrgreYJExduUVaWos6H.jpg",
-      "posterShape": "poster",
-      "description": "Having left behind Seattle Grace Hospital, renowned surgeon Addison Forbes Montgomery moves to Los Angeles for sunnier weather and happier possibilities. She reunites with her friends from medical school, joining them at their chic, co-op, Oceanside Wellness Center in Santa Monica.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0972412"
     },
     {
       "id": "tt7817340",

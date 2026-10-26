@@ -73,6 +73,19 @@
       "imdb_id": "tt12306692"
     },
     {
+      "id": "tt4655480",
+      "type": "series",
+      "name": "Chicago Med",
+      "poster": "https://image.tmdb.org/t/p/w500/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
+      "posterShape": "poster",
+      "description": "An emotional thrill ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors who hold it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt4655480"
+    },
+    {
       "id": "tt31458276",
       "type": "series",
       "name": "Grotesquerie",
@@ -88,17 +101,19 @@
       "imdb_id": "tt31458276"
     },
     {
-      "id": "tt4655480",
+      "id": "tt33332385",
       "type": "series",
-      "name": "Chicago Med",
-      "poster": "https://image.tmdb.org/t/p/w500/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
+      "name": "Widow's Bay",
+      "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
       "posterShape": "poster",
-      "description": "An emotional thrill ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors who hold it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room.",
+      "description": "The mayor of a New England town resolves to turn it into the next tourist hot spot, despite local warnings that it's cursed.",
       "genres": [
-        "Drama"
+        "Drama",
+        "Comedy",
+        "Mystery"
       ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4655480"
+      "releaseInfo": "2026",
+      "imdb_id": "tt33332385"
     },
     {
       "id": "tt26576161",
@@ -113,21 +128,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt26576161"
-    },
-    {
-      "id": "tt33332385",
-      "type": "series",
-      "name": "Widow's Bay",
-      "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
-      "posterShape": "poster",
-      "description": "The mayor of a New England town resolves to turn it into the next tourist hot spot, despite local warnings that it's cursed.",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33332385"
     },
     {
       "id": "tt8415836",
@@ -215,20 +215,6 @@
       "imdb_id": "tt11794812"
     },
     {
-      "id": "tt13444912",
-      "type": "series",
-      "name": "The Midnight Club",
-      "poster": "https://image.tmdb.org/t/p/w500/2Y4F9BHkacKIMnDBZI3GGKpG1If.jpg",
-      "posterShape": "poster",
-      "description": "Inside a hospice for terminally ill teens, members of an exclusive club make a chilling pact: The first to die must send a sign from beyond the grave.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13444912"
-    },
-    {
       "id": "tt0489974",
       "type": "series",
       "name": "Carnival Row",
@@ -242,6 +228,20 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt0489974"
+    },
+    {
+      "id": "tt13444912",
+      "type": "series",
+      "name": "The Midnight Club",
+      "poster": "https://image.tmdb.org/t/p/w500/2Y4F9BHkacKIMnDBZI3GGKpG1If.jpg",
+      "posterShape": "poster",
+      "description": "Inside a hospice for terminally ill teens, members of an exclusive club make a chilling pact: The first to die must send a sign from beyond the grave.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13444912"
     },
     {
       "id": "tt2983222",
