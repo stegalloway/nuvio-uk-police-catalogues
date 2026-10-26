@@ -125,19 +125,6 @@
       "imdb_id": "tt10574558"
     },
     {
-      "id": "tt2937900",
-      "type": "series",
-      "name": "The Knick",
-      "poster": "https://image.tmdb.org/t/p/w500/oeEqDSIVOi6q0GcZj8L9Q6G7fGC.jpg",
-      "posterShape": "poster",
-      "description": "Set in downtown New York in 1900, 'The Knick' is centered on the Knickerbocker Hospital and its staff, notably Dr. John Thackery, the hospital's brilliant chief surgeon who pushes medicine's boundaries, pioneering new procedures despite a severe drug addiction.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2937900"
-    },
-    {
       "id": "tt32252772",
       "type": "series",
       "name": "Dexter: Original Sin",
@@ -277,6 +264,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt27031263"
+    },
+    {
+      "id": "tt31314754",
+      "type": "series",
+      "name": "Devil in Disguise: John Wayne Gacy",
+      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
+      "posterShape": "poster",
+      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31314754"
     }
   ]
 }
