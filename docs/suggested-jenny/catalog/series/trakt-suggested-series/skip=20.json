@@ -16,30 +16,18 @@
       "imdb_id": "tt11540908"
     },
     {
-      "id": "tt0804503",
+      "id": "tt11656892",
       "type": "series",
-      "name": "Mad Men",
-      "poster": "https://image.tmdb.org/t/p/w500/5jOedTeytYzlJZwU66MFjmLHhHX.jpg",
+      "name": "Des",
+      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
       "posterShape": "poster",
-      "description": "Set in 1960-1970 New York, this sexy, stylized and provocative drama follows the lives of the ruthlessly competitive men and women of Madison Avenue advertising.",
+      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
       "genres": [
+        "Crime",
         "Drama"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0804503"
-    },
-    {
-      "id": "tt4452630",
-      "type": "series",
-      "name": "Code Black",
-      "poster": "https://image.tmdb.org/t/p/w500/3T1b6YK6vLrZoLZC5hd65ZuRLq8.jpg",
-      "posterShape": "poster",
-      "description": "Inspired by the award-winning documentary, this medical drama is set in the busiest and most notorious ER in the nation where the extraordinary staff confront a challenged system in order to protect their ideals and the patients who need them the most.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4452630"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11656892"
     },
     {
       "id": "tt19244304",
@@ -56,18 +44,17 @@
       "imdb_id": "tt19244304"
     },
     {
-      "id": "tt11656892",
+      "id": "tt0804503",
       "type": "series",
-      "name": "Des",
-      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
+      "name": "Mad Men",
+      "poster": "https://image.tmdb.org/t/p/w500/5jOedTeytYzlJZwU66MFjmLHhHX.jpg",
       "posterShape": "poster",
-      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
+      "description": "Set in 1960-1970 New York, this sexy, stylized and provocative drama follows the lives of the ruthlessly competitive men and women of Madison Avenue advertising.",
       "genres": [
-        "Crime",
         "Drama"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11656892"
+      "releaseInfo": "2007",
+      "imdb_id": "tt0804503"
     },
     {
       "id": "tt10970552",
@@ -82,6 +69,19 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt10970552"
+    },
+    {
+      "id": "tt4452630",
+      "type": "series",
+      "name": "Code Black",
+      "poster": "https://image.tmdb.org/t/p/w500/3T1b6YK6vLrZoLZC5hd65ZuRLq8.jpg",
+      "posterShape": "poster",
+      "description": "Inspired by the award-winning documentary, this medical drama is set in the busiest and most notorious ER in the nation where the extraordinary staff confront a challenged system in order to protect their ideals and the patients who need them the most.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt4452630"
     },
     {
       "id": "tt9859436",
@@ -125,6 +125,20 @@
       "imdb_id": "tt10574558"
     },
     {
+      "id": "tt7985576",
+      "type": "series",
+      "name": "The Serpent",
+      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "posterShape": "poster",
+      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt7985576"
+    },
+    {
       "id": "tt32252772",
       "type": "series",
       "name": "Dexter: Original Sin",
@@ -140,32 +154,17 @@
       "imdb_id": "tt32252772"
     },
     {
-      "id": "tt7985576",
+      "id": "tt10936342",
       "type": "series",
-      "name": "The Serpent",
-      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "name": "Transplant",
+      "poster": "https://image.tmdb.org/t/p/w500/ukvqJZI0XctnLst0CTE2r0AC2eu.jpg",
       "posterShape": "poster",
-      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "description": "Dr. Bashir Hamed, a Syrian doctor with battle-tested skills in emergency medicine, makes the difficult decision to flee his country and build a new life in Canada with his younger sister Amira. Bash works to navigate a new environment after earning a coveted residency in the Emergency Department of one of the best hospitals in Toronto, York Memorial.",
       "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt7985576"
-    },
-    {
-      "id": "tt15567174",
-      "type": "series",
-      "name": "The Fall of the House of Usher",
-      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
-      "posterShape": "poster",
-      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
-      "genres": [
-        "Mystery",
         "Drama"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15567174"
+      "releaseInfo": "2020",
+      "imdb_id": "tt10936342"
     },
     {
       "id": "tt6053512",
@@ -182,6 +181,20 @@
       "imdb_id": "tt6053512"
     },
     {
+      "id": "tt15567174",
+      "type": "series",
+      "name": "The Fall of the House of Usher",
+      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
+      "posterShape": "poster",
+      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15567174"
+    },
+    {
       "id": "tt1831804",
       "type": "series",
       "name": "The Stand",
@@ -196,17 +209,17 @@
       "imdb_id": "tt1831804"
     },
     {
-      "id": "tt10936342",
+      "id": "tt11055882",
       "type": "series",
-      "name": "Transplant",
-      "poster": "https://image.tmdb.org/t/p/w500/ukvqJZI0XctnLst0CTE2r0AC2eu.jpg",
+      "name": "Good Sam",
+      "poster": "https://image.tmdb.org/t/p/w500/3daYD4eYimoQaPyKIgCADKUovcJ.jpg",
       "posterShape": "poster",
-      "description": "Dr. Bashir Hamed, a Syrian doctor with battle-tested skills in emergency medicine, makes the difficult decision to flee his country and build a new life in Canada with his younger sister Amira. Bash works to navigate a new environment after earning a coveted residency in the Emergency Department of one of the best hospitals in Toronto, York Memorial.",
+      "description": "A gifted heart surgeon excels in her new leadership role as Chief of Surgery after her renowned boss falls into a coma. When her former boss wakes up months later demanding to resume his duties, Sam is tasked with supervising this egotistical expert with a scalpel who never acknowledged her stellar talent.",
       "genres": [
         "Drama"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10936342"
+      "releaseInfo": "2022",
+      "imdb_id": "tt11055882"
     },
     {
       "id": "tt8354062",
@@ -221,19 +234,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt8354062"
-    },
-    {
-      "id": "tt11055882",
-      "type": "series",
-      "name": "Good Sam",
-      "poster": "https://image.tmdb.org/t/p/w500/3daYD4eYimoQaPyKIgCADKUovcJ.jpg",
-      "posterShape": "poster",
-      "description": "A gifted heart surgeon excels in her new leadership role as Chief of Surgery after her renowned boss falls into a coma. When her former boss wakes up months later demanding to resume his duties, Sam is tasked with supervising this egotistical expert with a scalpel who never acknowledged her stellar talent.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11055882"
     },
     {
       "id": "tt33043892",
