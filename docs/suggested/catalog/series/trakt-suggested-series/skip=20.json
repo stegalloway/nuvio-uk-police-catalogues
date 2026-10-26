@@ -57,18 +57,19 @@
       "imdb_id": "tt1489428"
     },
     {
-      "id": "tt31806037",
+      "id": "tt34771210",
       "type": "series",
-      "name": "Adolescence",
-      "poster": "https://image.tmdb.org/t/p/w500/20i4nShZZg1g1VFHSB8xpaYM4r7.jpg",
+      "name": "I Will Find You",
+      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
       "posterShape": "poster",
-      "description": "When a 13-year-old is accused of the murder of a classmate, his family, the psychological expert and the detective in charge are all left asking: what really happened?",
+      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
       "genres": [
         "Drama",
+        "Mystery",
         "Crime"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31806037"
+      "releaseInfo": "2026",
+      "imdb_id": "tt34771210"
     },
     {
       "id": "tt20285780",
@@ -100,19 +101,18 @@
       "imdb_id": "tt6517320"
     },
     {
-      "id": "tt34771210",
+      "id": "tt33253070",
       "type": "series",
-      "name": "I Will Find You",
-      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
+      "name": "M.I.A.",
+      "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
       "posterShape": "poster",
-      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
+      "description": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
       "genres": [
         "Drama",
-        "Mystery",
         "Crime"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt34771210"
+      "imdb_id": "tt33253070"
     },
     {
       "id": "tt1124373",
@@ -143,18 +143,19 @@
       "imdb_id": "tt0903747"
     },
     {
-      "id": "tt33253070",
+      "id": "tt5611024",
       "type": "series",
-      "name": "M.I.A.",
-      "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+      "name": "Fool Me Once",
+      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
       "posterShape": "poster",
-      "description": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
+      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
       "genres": [
         "Drama",
-        "Crime"
+        "Crime",
+        "Mystery"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33253070"
+      "releaseInfo": "2024",
+      "imdb_id": "tt5611024"
     },
     {
       "id": "tt3032476",
@@ -185,19 +186,18 @@
       "imdb_id": "tt5011816"
     },
     {
-      "id": "tt5611024",
+      "id": "tt34675596",
       "type": "series",
-      "name": "Fool Me Once",
-      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "name": "Cape Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
       "posterShape": "poster",
-      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
       "genres": [
-        "Drama",
         "Crime",
-        "Mystery"
+        "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5611024"
+      "releaseInfo": "2026",
+      "imdb_id": "tt34675596"
     },
     {
       "id": "tt0141842",
@@ -227,20 +227,6 @@
       ],
       "releaseInfo": "2012",
       "imdb_id": "tt1958961"
-    },
-    {
-      "id": "tt34675596",
-      "type": "series",
-      "name": "Cape Fear",
-      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
-      "posterShape": "poster",
-      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34675596"
     },
     {
       "id": "tt6037988",
@@ -284,6 +270,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt11110622"
+    },
+    {
+      "id": "tt35707374",
+      "type": "series",
+      "name": "Memory of a Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/3kpXrWW6gmlngwgSa52IhBpjPuz.jpg",
+      "posterShape": "poster",
+      "description": "Angelo Doyle lives two totally separate lives — fearsome NYC hitman and sleepy upstate Cooperstown photocopier salesman and father. Both of them are threatened when he is diagnosed with Alzheimer's, a disease he already lost his older brother to.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35707374"
     }
   ]
 }
