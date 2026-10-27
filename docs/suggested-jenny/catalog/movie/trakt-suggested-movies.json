@@ -113,6 +113,20 @@
       "imdb_id": "tt22796890"
     },
     {
+      "id": "tt11245972",
+      "type": "movie",
+      "name": "Scream",
+      "poster": "https://image.tmdb.org/t/p/w500/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
+      "posterShape": "poster",
+      "description": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11245972"
+    },
+    {
       "id": "tt32654916",
       "type": "movie",
       "name": "Soulm8te",
@@ -126,20 +140,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32654916"
-    },
-    {
-      "id": "tt11245972",
-      "type": "movie",
-      "name": "Scream",
-      "poster": "https://image.tmdb.org/t/p/w500/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
-      "posterShape": "poster",
-      "description": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11245972"
     },
     {
       "id": "tt8004664",
@@ -270,19 +270,18 @@
       "imdb_id": "tt11242218"
     },
     {
-      "id": "tt45368240",
+      "id": "tt13778486",
       "type": "movie",
-      "name": "You Can See Everything",
-      "poster": "https://image.tmdb.org/t/p/w500/Ap8QwmKfSjYbWC4XIP8w9pdn72O.jpg",
+      "name": "Succubus",
+      "poster": "https://image.tmdb.org/t/p/w500/7AfBMebJS8mEtSV5ymdxEPpgvXb.jpg",
       "posterShape": "poster",
-      "description": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
+      "description": "A new father going through a marital separation joins a dating app and matches with a beautiful but mysterious young woman... whose powers of seduction and manipulation entangle him in a mystery more horrifying than he could have ever imagined.",
       "genres": [
-        "Documentary",
         "Horror",
-        "Drama"
+        "Thriller"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt45368240"
+      "releaseInfo": "2024",
+      "imdb_id": "tt13778486"
     }
   ]
 }
