@@ -101,48 +101,6 @@
       "imdb_id": "tt0979432"
     },
     {
-      "id": "tt11761194",
-      "type": "series",
-      "name": "Power Book IV: Force",
-      "poster": "https://image.tmdb.org/t/p/w500/yzL4Tqbw2JA9MCsHJWFC4xV1IYU.jpg",
-      "posterShape": "poster",
-      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11761194"
-    },
-    {
-      "id": "tt11846996",
-      "type": "series",
-      "name": "Vigil",
-      "poster": "https://image.tmdb.org/t/p/w500/5zAheY0Upi2MwU3edGtEgb7Ldh3.jpg",
-      "posterShape": "poster",
-      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11846996"
-    },
-    {
-      "id": "tt5071412",
-      "type": "series",
-      "name": "Ozark",
-      "poster": "https://image.tmdb.org/t/p/w500/pCGyPVrI9Fzw6rE1Pvi4BIXF6ET.jpg",
-      "posterShape": "poster",
-      "description": "A financial adviser drags his family from Chicago to the Missouri Ozarks, where he must launder $500 million in five years to appease a drug boss.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt5071412"
-    },
-    {
       "id": "tt3281796",
       "type": "series",
       "name": "Power",
@@ -171,6 +129,20 @@
       "imdb_id": "tt35515227"
     },
     {
+      "id": "tt5071412",
+      "type": "series",
+      "name": "Ozark",
+      "poster": "https://image.tmdb.org/t/p/w500/pCGyPVrI9Fzw6rE1Pvi4BIXF6ET.jpg",
+      "posterShape": "poster",
+      "description": "A financial adviser drags his family from Chicago to the Missouri Ozarks, where he must launder $500 million in five years to appease a drug boss.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5071412"
+    },
+    {
       "id": "tt5715524",
       "type": "series",
       "name": "Mayans M.C.",
@@ -183,6 +155,34 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt5715524"
+    },
+    {
+      "id": "tt11846996",
+      "type": "series",
+      "name": "Vigil",
+      "poster": "https://image.tmdb.org/t/p/w500/5zAheY0Upi2MwU3edGtEgb7Ldh3.jpg",
+      "posterShape": "poster",
+      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11846996"
+    },
+    {
+      "id": "tt11761194",
+      "type": "series",
+      "name": "Power Book IV: Force",
+      "poster": "https://image.tmdb.org/t/p/w500/yzL4Tqbw2JA9MCsHJWFC4xV1IYU.jpg",
+      "posterShape": "poster",
+      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11761194"
     },
     {
       "id": "tt8080122",
@@ -199,33 +199,18 @@
       "imdb_id": "tt8080122"
     },
     {
-      "id": "tt34771210",
+      "id": "tt9742936",
       "type": "series",
-      "name": "I Will Find You",
-      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
+      "name": "FBI: Most Wanted",
+      "poster": "https://image.tmdb.org/t/p/w500/uwTNBqFrEur3EtK8ofWbtGXMQOP.jpg",
       "posterShape": "poster",
-      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34771210"
-    },
-    {
-      "id": "tt1064899",
-      "type": "series",
-      "name": "Queen of the South",
-      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
-      "posterShape": "poster",
-      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
+      "description": "The Fugitive Task Force relentlessly tracks and captures the notorious criminals on the Bureau's Most Wanted list. Seasoned agents oversee the highly skilled team that functions as a mobile undercover unit that is always out in the field, pursuing those who are most desperate to elude justice.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt1064899"
+      "releaseInfo": "2020",
+      "imdb_id": "tt9742936"
     },
     {
       "id": "tt6439752",
@@ -242,33 +227,33 @@
       "imdb_id": "tt6439752"
     },
     {
-      "id": "tt9742936",
+      "id": "tt1064899",
       "type": "series",
-      "name": "FBI: Most Wanted",
-      "poster": "https://image.tmdb.org/t/p/w500/uwTNBqFrEur3EtK8ofWbtGXMQOP.jpg",
+      "name": "Queen of the South",
+      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
       "posterShape": "poster",
-      "description": "The Fugitive Task Force relentlessly tracks and captures the notorious criminals on the Bureau's Most Wanted list. Seasoned agents oversee the highly skilled team that functions as a mobile undercover unit that is always out in the field, pursuing those who are most desperate to elude justice.",
+      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9742936"
+      "releaseInfo": "2016",
+      "imdb_id": "tt1064899"
     },
     {
-      "id": "tt20285780",
+      "id": "tt5611024",
       "type": "series",
-      "name": "The Artful Dodger",
-      "poster": "https://image.tmdb.org/t/p/w500/lcyax0pIH6vZWbho2hxsMTt9KpN.jpg",
+      "name": "Fool Me Once",
+      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
       "posterShape": "poster",
-      "description": "It's a tale of reinvention, betrayal, redemption, and love with a twist. Jack Dawkins is The Artful Dodger, whose pickpocketing fingers have become the skilled hands of a surgeon. He is torn between an impossible love and the criminal underworld he secretly craves. This will require Artfulness.",
+      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
       "genres": [
         "Drama",
         "Crime",
-        "Action & Adventure"
+        "Mystery"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt20285780"
+      "releaseInfo": "2024",
+      "imdb_id": "tt5611024"
     },
     {
       "id": "tt1489428",
@@ -283,6 +268,20 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1489428"
+    },
+    {
+      "id": "tt3032476",
+      "type": "series",
+      "name": "Better Call Saul",
+      "poster": "https://image.tmdb.org/t/p/w500/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
+      "posterShape": "poster",
+      "description": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is “fixer” Mike Ehrmantraut. The series tracks Jimmy’s transformation into Saul Goodman, the man who puts “criminal” in “criminal lawyer\".",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt3032476"
     }
   ]
 }

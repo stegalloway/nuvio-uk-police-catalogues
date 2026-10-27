@@ -1,18 +1,33 @@
 {
   "metas": [
     {
-      "id": "tt13323596",
+      "id": "tt14582876",
       "type": "series",
-      "name": "The Long Shadow",
-      "poster": "https://image.tmdb.org/t/p/w500/oBwzo60yQvK6xdhon4LF6oi6sMi.jpg",
+      "name": "On Call",
+      "poster": "https://image.tmdb.org/t/p/w500/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
       "posterShape": "poster",
-      "description": "Dramatizing  one of the most infamously notorious and shocking serial killer cases in the world, the hunt for Peter Sutcliffe, commonly dubbed the Yorkshire Ripper, between October 1975 and January 1981, South Yorkshire police undertook the biggest manhunt in British criminal history. The search for Sutcliffe lasted five years, involved over a thousand officers and changed the way the British police worked forever.",
+      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt14582876"
+    },
+    {
+      "id": "tt14507354",
+      "type": "series",
+      "name": "The Endgame",
+      "poster": "https://image.tmdb.org/t/p/w500/qH0BuRkZmP6sdi8R6tvlvwdBxmo.jpg",
+      "posterShape": "poster",
+      "description": "A high-stakes thriller about Elena Federova, a very recently captured international arms dealer and brilliant criminal mastermind who even in captivity orchestrates a number of coordinated bank heists, and Val Turner, the principled, relentless and socially outcast FBI agent who will stop at nothing to foil her ambitious plan.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt13323596"
+      "releaseInfo": "2022",
+      "imdb_id": "tt14507354"
     },
     {
       "id": "tt33035373",
@@ -30,34 +45,33 @@
       "imdb_id": "tt33035373"
     },
     {
-      "id": "tt4276618",
+      "id": "tt32252772",
       "type": "series",
-      "name": "Strike",
-      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
+      "name": "Dexter: Original Sin",
+      "poster": "https://image.tmdb.org/t/p/w500/jmbtI8hhNkw5Hpksr34x3gCCmjS.jpg",
       "posterShape": "poster",
-      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
+      "description": "In 1991 Miami, Dexter Morgan transitions from student to avenging serial killer. When his bloodthirsty urges can't be ignored any longer, Dexter must learn to channel his inner darkness. With the guidance of his father, Harry, he adopts a Code designed to help him find and kill people who deserve to be eliminated from society without getting on law enforcements' radar. This is a particular challenge for young Dexter as he begins a forensics internship at the Miami Metro Police Department.",
       "genres": [
         "Crime",
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt4276618"
+      "releaseInfo": "2024",
+      "imdb_id": "tt32252772"
     },
     {
-      "id": "tt14582876",
+      "id": "tt11110622",
       "type": "series",
-      "name": "On Call",
-      "poster": "https://image.tmdb.org/t/p/w500/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
+      "name": "White House Farm",
+      "poster": "https://image.tmdb.org/t/p/w500/xviAtCeJXRDxl4ClzIo1qyBhTLc.jpg",
       "posterShape": "poster",
-      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
+      "description": "Factual drama based on the notorious White House Farm murders, and the ensuing police investigation and court case.",
       "genres": [
         "Crime",
-        "Drama",
-        "Action & Adventure"
+        "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt14582876"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11110622"
     },
     {
       "id": "tt14263564",
@@ -88,19 +102,18 @@
       "imdb_id": "tt18115928"
     },
     {
-      "id": "tt10155688",
+      "id": "tt13323596",
       "type": "series",
-      "name": "Mare of Easttown",
-      "poster": "https://image.tmdb.org/t/p/w500/78aK4Msbr22A5PGa6PZV0pAvdwf.jpg",
+      "name": "The Long Shadow",
+      "poster": "https://image.tmdb.org/t/p/w500/oBwzo60yQvK6xdhon4LF6oi6sMi.jpg",
       "posterShape": "poster",
-      "description": "A detective in a small Pennsylvania town investigates a local murder while trying to keep her life from falling apart.",
+      "description": "Dramatizing  one of the most infamously notorious and shocking serial killer cases in the world, the hunt for Peter Sutcliffe, commonly dubbed the Yorkshire Ripper, between October 1975 and January 1981, South Yorkshire police undertook the biggest manhunt in British criminal history. The search for Sutcliffe lasted five years, involved over a thousand officers and changed the way the British police worked forever.",
       "genres": [
-        "Drama",
         "Crime",
-        "Mystery"
+        "Drama"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt10155688"
+      "releaseInfo": "2023",
+      "imdb_id": "tt13323596"
     },
     {
       "id": "tt26862142",
@@ -115,92 +128,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt26862142"
-    },
-    {
-      "id": "tt14063678",
-      "type": "series",
-      "name": "The Gold",
-      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
-      "posterShape": "poster",
-      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14063678"
-    },
-    {
-      "id": "tt9348692",
-      "type": "series",
-      "name": "Criminal: UK",
-      "poster": "https://image.tmdb.org/t/p/w500/xkfYO8qOqeCdXoHQGIK0aPTXDE9.jpg",
-      "posterShape": "poster",
-      "description": "Within the walls of an interrogation room, London investigators question suspects accused of grievous crimes until the truth comes to light.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt9348692"
-    },
-    {
-      "id": "tt28118211",
-      "type": "series",
-      "name": "A Good Girl's Guide to Murder",
-      "poster": "https://image.tmdb.org/t/p/w500/pVV62HbgLP7JsZv096XmjPZtjdP.jpg",
-      "posterShape": "poster",
-      "description": "Five years after the death of schoolgirl Andie Bell, Pippa Fitz-Amobi sets out to uncover what really happened to her. Sal Singh, Andie's boyfriend, admitted to the murder before taking his own life, but Pip doesn't believe he's responsible and teams up with Sal's brother Ravi to uncover the truth. If Sal Singh isn't a murderer and the real killer is still out there, how far will they go to keep Pip from finding out the truth?",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt28118211"
-    },
-    {
-      "id": "tt35934755",
-      "type": "series",
-      "name": "Below",
-      "poster": "https://image.tmdb.org/t/p/w500/vgLqqhMUbljp585qPp1EFCyJtcz.jpg",
-      "posterShape": "poster",
-      "description": "When a mysterious sea creature terrorizes a small Newfoundland town, a hard-bitten fisherman and his family fight to protect their close-knit community.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35934755"
-    },
-    {
-      "id": "tt30412869",
-      "type": "series",
-      "name": "56 Days",
-      "poster": "https://image.tmdb.org/t/p/w500/sdJLbucggwGj8NdX0UN2zt1Vwmn.jpg",
-      "posterShape": "poster",
-      "description": "When an unidentified body is found in a luxury apartment linked to Oliver Kennedy and his girlfriend Ciara Wyse, Detectives Lee Reardon and Karl Connolly reconstruct the couple's deadly romance across the past 56 days.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt30412869"
-    },
-    {
-      "id": "tt27954448",
-      "type": "series",
-      "name": "Law & Order Toronto: Criminal Intent",
-      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
-      "posterShape": "poster",
-      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt27954448"
     },
     {
       "id": "tt13918776",
@@ -218,46 +145,105 @@
       "imdb_id": "tt13918776"
     },
     {
-      "id": "tt23148340",
+      "id": "tt10155688",
       "type": "series",
-      "name": "Crystal Lake",
-      "poster": "https://image.tmdb.org/t/p/w500/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
+      "name": "Mare of Easttown",
+      "poster": "https://image.tmdb.org/t/p/w500/78aK4Msbr22A5PGa6PZV0pAvdwf.jpg",
       "posterShape": "poster",
-      "description": "Single mother Pam Voorhees has been unable to shake her grief after her young, sickly son Jason tragically drowned in the town lake almost a year before. When two strangers arrive at Pam's door digging into her past, a disturbing chain of events is set into motion, leaving the townspeople of Crystal Lake wondering: just who is Pam Voorhees?",
+      "description": "A detective in a small Pennsylvania town investigates a local murder while trying to keep her life from falling apart.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt10155688"
+    },
+    {
+      "id": "tt31974367",
+      "type": "series",
+      "name": "The Beast in Me",
+      "poster": "https://image.tmdb.org/t/p/w500/jxf7JCfIMvGONWTNUIJ068sFixK.jpg",
+      "posterShape": "poster",
+      "description": "A famous author is pulled into a twisted mind game with her rich, powerful new neighbor — who might be a murderer.",
       "genres": [
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt23148340"
+      "releaseInfo": "2025",
+      "imdb_id": "tt31974367"
     },
     {
-      "id": "tt6048596",
+      "id": "tt30412869",
       "type": "series",
-      "name": "The Sinner",
-      "poster": "https://image.tmdb.org/t/p/w500/rmibFGdqOe0kKKhPls0jVOdZCWw.jpg",
+      "name": "56 Days",
+      "poster": "https://image.tmdb.org/t/p/w500/sdJLbucggwGj8NdX0UN2zt1Vwmn.jpg",
       "posterShape": "poster",
-      "description": "In a small New York town, a haunted detective hunts for answers about perplexing crimes while wrestling with his own demons.",
+      "description": "When an unidentified body is found in a luxury apartment linked to Oliver Kennedy and his girlfriend Ciara Wyse, Detectives Lee Reardon and Karl Connolly reconstruct the couple's deadly romance across the past 56 days.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt30412869"
+    },
+    {
+      "id": "tt14063678",
+      "type": "series",
+      "name": "The Gold",
+      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
+      "posterShape": "poster",
+      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt6048596"
+      "releaseInfo": "2023",
+      "imdb_id": "tt14063678"
     },
     {
-      "id": "tt31314751",
+      "id": "tt27954448",
       "type": "series",
-      "name": "All Her Fault",
-      "poster": "https://image.tmdb.org/t/p/w500/o8vZKZlc8H4OcgpbJuqP0iK4B2.jpg",
+      "name": "Law & Order Toronto: Criminal Intent",
+      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
       "posterShape": "poster",
-      "description": "In Chicago, Marissa Irvine arrives at 14 Arthur Avenue, expecting to pick up her young son Milo from his first playdate with a boy at his new school. But the woman who answers the door isn't a mother she recognizes. She isn't the nanny. She doesn't have Milo. And so begins every parent's worst nightmare.",
+      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
       "genres": [
-        "Mystery",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31314751"
+      "releaseInfo": "2024",
+      "imdb_id": "tt27954448"
+    },
+    {
+      "id": "tt1475582",
+      "type": "series",
+      "name": "Sherlock",
+      "poster": "https://image.tmdb.org/t/p/w500/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg",
+      "posterShape": "poster",
+      "description": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1475582"
+    },
+    {
+      "id": "tt2788432",
+      "type": "series",
+      "name": "American Crime Story",
+      "poster": "https://image.tmdb.org/t/p/w500/dtIS3Qk8ny1FWQLiuJ77MTDX5bZ.jpg",
+      "posterShape": "poster",
+      "description": "An anthology series centered around some of history's most famous criminal investigations.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt2788432"
     },
     {
       "id": "tt16418808",
@@ -274,18 +260,32 @@
       "imdb_id": "tt16418808"
     },
     {
-      "id": "tt32267726",
+      "id": "tt23148340",
       "type": "series",
-      "name": "The Girlfriend",
-      "poster": "https://image.tmdb.org/t/p/w500/ktrp3tdZ5IQpFux4nLy8z70bt3n.jpg",
+      "name": "Crystal Lake",
+      "poster": "https://image.tmdb.org/t/p/w500/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
       "posterShape": "poster",
-      "description": "Laura has it all: a glittering career, a loving husband, and her precious son, Daniel. But her perfect life unravels when Daniel brings home Cherry, a girlfriend who changes everything. After a tense introduction, Laura becomes convinced Cherry is hiding something. Is she a manipulative social climber, or is Laura just paranoid? The truth is a matter of perspective.",
+      "description": "Single mother Pam Voorhees has been unable to shake her grief after her young, sickly son Jason tragically drowned in the town lake almost a year before. When two strangers arrive at Pam's door digging into her past, a disturbing chain of events is set into motion, leaving the townspeople of Crystal Lake wondering: just who is Pam Voorhees?",
       "genres": [
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32267726"
+      "releaseInfo": "2026",
+      "imdb_id": "tt23148340"
+    },
+    {
+      "id": "tt2149175",
+      "type": "series",
+      "name": "The Americans",
+      "poster": "https://image.tmdb.org/t/p/w500/w1UBlxEXhbKe8sp0fxFZh7MqTce.jpg",
+      "posterShape": "poster",
+      "description": "Set during the Cold War period in the 1980s, The Americans is the story of Elizabeth and Philip Jennings, two Soviet KGB officers posing as an American married couple in the suburbs of Washington D.C. and their neighbor, Stan Beeman, an FBI Counterintelligence agent.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt2149175"
     }
   ]
 }
