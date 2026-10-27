@@ -1,19 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt0804503",
-      "type": "series",
-      "name": "Mad Men",
-      "poster": "https://image.tmdb.org/t/p/w500/5jOedTeytYzlJZwU66MFjmLHhHX.jpg",
-      "posterShape": "poster",
-      "description": "Set in 1960-1970 New York, this sexy, stylized and provocative drama follows the lives of the ruthlessly competitive men and women of Madison Avenue advertising.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0804503"
-    },
-    {
       "id": "tt11540908",
       "type": "series",
       "name": "Carrie",
@@ -278,6 +265,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt31314754"
+    },
+    {
+      "id": "tt13729648",
+      "type": "series",
+      "name": "Candy",
+      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
+      "posterShape": "poster",
+      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13729648"
     }
   ]
 }

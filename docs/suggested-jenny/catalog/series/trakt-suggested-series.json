@@ -82,20 +82,6 @@
       "imdb_id": "tt36303968"
     },
     {
-      "id": "tt31438328",
-      "type": "series",
-      "name": "This City Is Ours",
-      "poster": "https://image.tmdb.org/t/p/w500/75BwofwAZbf6GlhP2m6NPpP3bW2.jpg",
-      "posterShape": "poster",
-      "description": "Season 2 has started.\n\nAfter trying to leave a world of crime, Michael is dragged back into the fold to answer questions. Back in Liverpool tensions continue to bubble amongst the remaining members of the gang, and a gangster who's just been let out of prison wants answers.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31438328"
-    },
-    {
       "id": "tt23148340",
       "type": "series",
       "name": "Crystal Lake",
@@ -273,6 +259,19 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt7817340"
+    },
+    {
+      "id": "tt0804503",
+      "type": "series",
+      "name": "Mad Men",
+      "poster": "https://image.tmdb.org/t/p/w500/5jOedTeytYzlJZwU66MFjmLHhHX.jpg",
+      "posterShape": "poster",
+      "description": "Set in 1960-1970 New York, this sexy, stylized and provocative drama follows the lives of the ruthlessly competitive men and women of Madison Avenue advertising.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0804503"
     }
   ]
 }
