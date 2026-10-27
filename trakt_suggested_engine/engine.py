@@ -206,6 +206,163 @@ DISMISS_EVIDENCE = -0.2
 # A watchlisted title counts as a mild like: half a completed watch. It does not
 # fade, because a title stays on the watchlist only while it is still wanted.
 WATCHLIST_EVIDENCE = 0.5
+# A title on the "Loved" Trakt list is the strongest like, and does not fade
+# either: it stays on the list only while it is still loved.
+LOVED_EVIDENCE = 2.0
+
+# Series evidence from how much of a show was watched (Ste, 27 October 2026).
+# Trakt's show "plays" count every episode play, so they cannot tell a show
+# finished from one dropped after two episodes.
+VIEWING_EVIDENCE = {"finished": 1.5, "most": 1.0, "watching": .6, "dropped": -.2, "factual": 0., "unknown": 1.0}
+REWATCH_BONUS = .5
+# Documentary, reality, news and talk (TMDB TV genres, all excluded from Ste's
+# Suggested Series): Police on Duty covers them, so they carry no taste.
+FACTUAL_GENRES = frozenset({99, 10763, 10764, 10767})
+# A repeat play of an episode counts as a rewatch only this long after the last
+# counted play: sooner is a duplicate scrobble or a restart, not a rewatch.
+REWATCH_GAP = timedelta(days=1)
+TRAKT_RELATED_SOURCE = "trakt_related"
+# Candidate sources enriched outside the history budget, so they never
+# displace a history candidate from enrichment.
+EXTRA_SOURCES = frozenset({FOR_YOU_SOURCE, TRAKT_RELATED_SOURCE})
+# A Trakt community score counts only with at least this many votes.
+TRAKT_RATING_VOTES = 100
+
+
+def aired_by_season(detail: Mapping) -> dict[int, int] | None:
+    """Regular episodes aired so far per season, from TMDB details; None when unknown.
+
+    Seasons before the latest aired episode count in full, its own season up to
+    that episode, and later seasons not at all.
+    """
+    seasons = {w._int(s.get("season_number")): w._int(s.get("episode_count")) or 0
+               for s in detail.get("seasons") or []
+               if isinstance(s, Mapping) and (w._int(s.get("season_number")) or 0) > 0}
+    last = detail.get("last_episode_to_air") or {}
+    season, number = w._int(last.get("season_number")), w._int(last.get("episode_number"))
+    if season and season > 0 and number and number > 0:
+        aired = {s: count for s, count in seasons.items() if s < season}
+        aired[season] = number
+        return aired
+    return seasons or None
+
+
+def series_viewing(watched_shows: Iterable[Mapping],
+                   watched_episode_history: Iterable[Mapping] = ()) -> dict[str, dict]:
+    """Per show IMDb ID: distinct regular episodes watched, episode plays, play times.
+
+    Distinct episodes ignore Trakt's reset_at: a show finished and then reset
+    for a rewatch still counts as finished. Times come from the episode history,
+    per episode too, and plays of specials (season 0) are only counted.
+    """
+    viewing, alias_to_imdb = {}, {}
+    for entry in watched_shows:
+        show = entry.get("show") or {}
+        imdb = (show.get("ids") or {}).get("imdb")
+        if not isinstance(imdb, str) or not imdb:
+            continue
+        for alias in _aliases(show.get("ids")):
+            alias_to_imdb[alias] = imdb
+        state = viewing.setdefault(imdb, {"episodes": set(), "plays": 0, "times": [], "episode_times": {},
+                                          "specials": 0, "last": None})
+        state["plays"] += int(w._num(entry.get("plays"), 0))
+        state["last"] = max(filter(None, (state["last"], _aware(entry.get("last_watched_at")))), default=None)
+        for season in entry.get("seasons") or []:
+            number = w._int(season.get("number"))
+            for episode in season.get("episodes") or []:
+                epnum = w._int(episode.get("number"))
+                if number and number > 0 and epnum and epnum > 0 and w._num(episode.get("plays"), 1) > 0:
+                    state["episodes"].add((number, epnum))
+    for event in watched_episode_history:
+        show, episode = event.get("show") or {}, event.get("episode") or {}
+        imdbs = {alias_to_imdb[a] for a in _aliases(show.get("ids")) if a in alias_to_imdb}
+        season, number = w._int(episode.get("season")), w._int(episode.get("number"))
+        if len(imdbs) != 1:
+            continue
+        state = viewing[next(iter(imdbs))]
+        if season == 0:
+            state["specials"] += 1
+            continue
+        if not season or season < 1 or not number or number < 1:
+            continue
+        state["episodes"].add((season, number))
+        when = _aware(event.get("watched_at"))
+        if when:
+            state["times"].append(when)
+            state["episode_times"].setdefault((season, number), []).append(when)
+            state["last"] = max(filter(None, (state["last"], when)))
+    return viewing
+
+
+def repeat_plays(episode_times: Mapping[Any, Sequence[datetime]], gap: timedelta = REWATCH_GAP) -> tuple[int, int]:
+    """Repeat plays of the same episodes: (at least `gap` after the last counted play, sooner)."""
+    later = sooner = 0
+    for times in episode_times.values():
+        counted = None
+        for when in sorted(times):
+            if counted is None or when - counted >= gap:
+                later += counted is not None
+                counted = when
+            else:
+                sooner += 1
+    return later, sooner
+
+
+def binged(times: Iterable[datetime], episodes: int = 3, window: timedelta = timedelta(hours=48),
+           gap: timedelta = timedelta(minutes=10)) -> bool:
+    """At least `episodes` plays inside `window`, as watched rather than marked.
+
+    Plays under `gap` apart count once: marking a season watched in one go
+    stamps every episode with the same moment, which is not a binge.
+    """
+    plays = []
+    for when in sorted(times):
+        if not plays or when - plays[-1] >= gap:
+            plays.append(when)
+    return any(plays[i + episodes - 1] - plays[i] <= window for i in range(len(plays) - episodes + 1))
+
+
+def viewing_pattern(state: Mapping, aired_seasons: Mapping[int, int] | None, now: datetime,
+                    factual: bool = False) -> dict:
+    """How a show was watched: factual, finished, most, watching, dropped or unknown.
+
+    Completion counts against the aired episodes of the seasons started only
+    (Ste, 27 October 2026): a new season not begun yet does not make a show
+    finished so far look less liked, and earlier seasons watched outside Trakt
+    do not make one look dropped.
+    factual: a documentary, reality, news or talk show, whatever was watched.
+    finished: 80% or more of those episodes. most: 40-80%.
+    dropped: nothing for 60+ days after under 40%, or after 3 episodes or
+    fewer of a show not finished (a show loved but watched outside Trakt
+    belongs on the Loved list, which outweighs this). watching: under 40%,
+    watched in the last 60 days. unknown: TMDB has no episode count.
+    Rewatched: repeat plays a day or more apart of at least half the distinct
+    episodes (3 or more); repeats sooner than that are reported, not counted.
+    """
+    distinct = len(state["episodes"])
+    started = sorted({season for season, _ in state["episodes"]})
+    aired = sum(aired_seasons.get(season, 0) for season in started) if aired_seasons else None
+    completion = min(1., distinct / aired) if aired else None
+    idle = max(0, (now - state["last"]).days) if state.get("last") else None
+    later, sooner = repeat_plays(state.get("episode_times") or {})
+    if factual:
+        pattern = "factual"
+    elif completion is None:
+        pattern = "unknown"
+    elif completion >= .8:
+        pattern = "finished"
+    elif idle is not None and idle >= 60 and (completion < .4 or distinct <= 3):
+        pattern = "dropped"
+    elif completion >= .4:
+        pattern = "most"
+    else:
+        pattern = "watching"
+    return {"pattern": pattern, "completion": None if completion is None else round(completion, 3),
+            "episodes_watched": distinct, "episodes_aired": aired or None, "seasons_started": started,
+            "episode_plays": state["plays"],
+            "repeats_day_apart": later, "repeats_same_day": sooner, "specials_plays": state.get("specials", 0),
+            "idle_days": idle, "rewatched": distinct >= 3 and later >= .5 * distinct,
+            "binged": binged(state["times"])}
 
 
 def dismissed_titles(items: Iterable[Mapping], kind: str) -> list[tuple[dict, Any]]:
@@ -699,6 +856,15 @@ class SteProfile:
     film_year_min = 2000
     # The Trakt watchlist hides suggestions and adds premieres (Ste, 27 October 2026).
     uses_watchlist = True
+    # Taste without rating (Ste, 27 October 2026): series evidence from how much
+    # of a show he watched, a bonus for binged shows, the "Loved" Trakt list,
+    # Trakt's related titles as a candidate source (titles per seed, 0 = off) and
+    # Trakt's community score as a second quality floor (None = off).
+    series_viewing = True
+    binge_bonus = .3
+    uses_loved_list = True
+    trakt_related_limit = 10
+    trakt_rating_minimum = 7.0
     # Kinds whose seeds gain themed history titles and their extra pages.
     themed_kinds = frozenset({"series"})
     themed_source = "organised_crime_history_recommendation"
@@ -717,23 +883,44 @@ class SteProfile:
         """Sort key for a themed history seed; None when the title is not themed."""
         return theme["organised_crime"] if theme["gangster_priority"] else None
 
-    @staticmethod
-    def evidence(item: Mapping, now: datetime) -> float:
+    def evidence(self, item: Mapping, now: datetime) -> float:
         """Taste evidence for one history item: watched, then watchlist, then ratings.
 
         Ste rarely rates (27 October 2026), so watching counts most: 1.0 per
-        watched title, 2.5 when rewatched, whatever its rating. The watchlist
-        adds WATCHLIST_EVIDENCE elsewhere. A title rated but not watched counts
-        least: 0.4 loved, 0.3 liked, 0.2 otherwise. Decay is Watchly's.
+        watched title, 2.5 when rewatched, whatever its rating. A series with a
+        viewing pattern counts by it instead (VIEWING_EVIDENCE, plus
+        REWATCH_BONUS and binge_bonus unless dropped). The watchlist adds
+        WATCHLIST_EVIDENCE elsewhere. A title rated but not watched counts
+        least: 0.4 loved, 0.3 liked, 0.2 otherwise. Decay is Watchly's. A title
+        on the Loved list counts LOVED_EVIDENCE and does not fade.
         """
+        if item.get("loved"):
+            return LOVED_EVIDENCE
         plays = w._num(item.get("watch_count"), 1)
-        if plays >= 1 and w._completion(item) >= .7:
+        viewing = item.get("viewing")
+        if viewing:
+            base = VIEWING_EVIDENCE[viewing["pattern"]]
+            if viewing["pattern"] != "dropped":
+                base += REWATCH_BONUS * viewing["rewatched"] + self.binge_bonus * viewing["binged"]
+        elif plays >= 1 and w._completion(item) >= .7:
             base = 2.5 if plays >= 2 else 1.
         else:
             bucket = w._bucket(item)
             base = .4 if bucket == "loved" else .3 if bucket == "liked" else .2
         last = w._dt(item.get("last_watched"))
         return base * (max(.1, math.exp(-max(0, (now - last).days) / 30.)) if last else .5)
+
+    def seed_pool(self, items: Sequence[Mapping], kind: str) -> list[dict]:
+        """History items Watchly samples seeds from.
+
+        With viewing patterns, Ste's series seeds follow viewing, not old
+        ratings: a Loved or rewatched show is "loved", and a dropped or
+        rated-only show is no seed.
+        """
+        if kind != "series" or not self.series_viewing:
+            return list(items)
+        return [dict(i, rating=None) for i in items
+                if i.get("loved") or (i.get("viewing") and i["viewing"]["pattern"] != "dropped")]
 
     def raw_bonus(self, theme: Mapping, kind: str) -> float:
         return .25 * theme["priority_organised_crime"] + .08 * theme["investigation"] if kind == "series" else 0.
@@ -762,8 +949,13 @@ class JennyProfile(SteProfile):
     """
 
     name = "jenny"
-    # Watchlist rules were asked for on Ste's rows only.
+    # Watchlist rules were asked for on Ste's rows only, and so was taste without rating.
     uses_watchlist = False
+    series_viewing = False
+    binge_bonus = 0.
+    uses_loved_list = False
+    trakt_related_limit = 0
+    trakt_rating_minimum = None
     themed_kinds = frozenset({"series", "movie"})
     themed_source = "themed_history_recommendation"
     # Share of a card's score from her themes; the rest is history similarity.
@@ -859,6 +1051,8 @@ def generate_catalogues(
     config: EngineConfig | None = None,
     dismissed: Sequence[Mapping] | None = None,
     watchlist: Sequence[Mapping] | None = None,
+    loved: Sequence[Mapping] | None = None,
+    trakt_lookup: Callable[[str, Mapping | None], Any] | None = None,
 ) -> dict:
     """Generate three catalogues: suggested series, suggested movies, upcoming episodes.
 
@@ -874,6 +1068,11 @@ def generate_catalogues(
     left out of the suggestions (the viewer already has them) without counting
     as a dislike, and season premieres of watchlisted shows the viewer hasn't
     started join the upcoming row.
+    loved holds the items of the viewer's "Loved" Trakt list: the strongest
+    like, which does not fade; unwatched ones are left out of the suggestions.
+    trakt_lookup is read-only and receives /shows|movies/{imdb}/related and
+    /ratings paths: Trakt's related titles join the candidates, and a title
+    Trakt's community scores below the profile's minimum is left out.
 
     Raises GenerationError for missing/insufficient input profile or output.
     Never catch that error by publishing {"metas": []}; retain the old files.
@@ -908,6 +1107,9 @@ def generate_catalogues(
         raise GenerationError("Invalid list input: watchlist")
     if not taste.uses_watchlist:
         watchlist = ()
+    loved = () if loved is None or not taste.uses_loved_list else loved
+    if not isinstance(loved, (list, tuple)):
+        raise GenerationError("Invalid list input: loved")
     if not watched_movies or not watched_shows:
         raise GenerationError("Both movie and series watched histories are required; retain existing catalogues")
     history = w.history_from_trakt(watched_movies, watched_shows, rated_movies, rated_shows)
@@ -918,17 +1120,51 @@ def generate_catalogues(
                   "input_counts": {"watched_movies": len(watched_movies), "watched_series": len(watched_shows),
                       "rated_movies": len(rated_movies), "rated_series": len(rated_shows),
                       "watched_episode_history": len(watched_episode_history),
-                      "not_interested": len(dismissed), "watchlist": len(watchlist)}}}
+                      "not_interested": len(dismissed), "watchlist": len(watchlist), "loved": len(loved)}}}
     upcoming_cards: dict[str, dict] = {}
     watchlist_premieres = 0
+    viewing_states = series_viewing(watched_shows, watched_episode_history) if taste.series_viewing else {}
     for kind, watch_rows in (("series", watched_shows), ("movie", watched_movies)):
         media = "tv" if kind == "series" else "movie"
+        trakt_path = "/shows/" if kind == "series" else "/movies/"
         policy = taste.policy(kind)
         runner = w.WatchlyPreview(api, policy, moment, config.max_workers)
         runner.evidence = taste.evidence
         items = [dict(i) for i in history if i["type"] == kind]
         if not items:
             raise GenerationError("No usable " + kind + " history IDs", result["diagnostics"])
+        loved_imdb, loved_tmdb = dismissed_ids(loved, kind)
+        for item in items:
+            if item["imdb_id"] in loved_imdb or w._int(item.get("tmdb_id")) in loved_tmdb:
+                item["loved"] = True
+        viewing_diagnostics = []
+        if kind == "series" and viewing_states:
+            # The profile reads the same TMDB details from the runner's cache.
+            def show_detail(item):
+                tid = runner._resolve(item, media)
+                return item, tid, runner._details(tid, media) if tid else {}
+            for item, tid, detail in runner._map(show_detail, [i for i in items if i["imdb_id"] in viewing_states]):
+                if tid:
+                    item["tmdb_id"] = tid
+                viewing = viewing_pattern(viewing_states[item["imdb_id"]],
+                                          aired_by_season(detail) if detail else None, moment,
+                                          factual=bool(set(w._genres(detail)) & FACTUAL_GENRES) if detail else False)
+                # A show's "plays" are episode plays; only a real rewatch counts as one.
+                item.update(viewing=viewing, watch_count=2 if viewing["rewatched"] else 1,
+                            completion=viewing["completion"] if viewing["completion"] is not None else 1.)
+                factual = viewing["pattern"] == "factual"
+                viewing_diagnostics.append(dict(viewing, imdb_id=item["imdb_id"], name=item.get("name"),
+                                                loved=bool(item.get("loved")),
+                                                evidence=0. if factual else round(taste.evidence(item, moment), 4)))
+            # Factual shows have their own rows (Police on Duty) and Suggested
+            # never offers them, so they leave the taste profile altogether
+            # (Ste, 27 October 2026). They stay watched, so stay hidden.
+            factual_ids = {v["imdb_id"] for v in viewing_diagnostics if v["pattern"] == "factual"}
+            items = [i for i in items if i["imdb_id"] not in factual_ids]
+            loved = [entry for entry in loved
+                     if ((entry.get("show") or {}).get("ids") or {}).get("imdb") not in factual_ids]
+            if not items:
+                raise GenerationError("No usable " + kind + " history IDs", result["diagnostics"])
         profile, normalised, audit = runner._profile(items, media)
         coverage = len(audit["processed"]) / len(items)
         if coverage < config.minimum_profile_coverage:
@@ -950,6 +1186,21 @@ def generate_catalogues(
         if like_details:
             profile, normalised = apply_dismissal_signal(profile, like_details, moment,
                                                          evidence=WATCHLIST_EVIDENCE, decays=False)
+        # Loved titles in the history count through their evidence above; the
+        # rest count here, as strongly and without fading.
+        history_imdb = {i["imdb_id"] for i in items}
+        history_tmdb = {w._int(i.get("tmdb_id")) for i in items} | set(audit["resolved"].values())
+        loved_details = []
+        for ids, listed_at in dismissed_titles(loved, kind):
+            if ids.get("imdb") in history_imdb or w._int(ids.get("tmdb")) in history_tmdb:
+                continue
+            tid = w._int(ids.get("tmdb")) or (w._int(runner._call("resolve", ids["imdb"], media)) if ids.get("imdb") else None)
+            detail = runner._details(tid, media) if tid and tid not in history_tmdb else {}
+            if detail:
+                loved_details.append((detail, listed_at))
+        if loved_details:
+            profile, normalised = apply_dismissal_signal(profile, loved_details, moment,
+                                                         evidence=LOVED_EVIDENCE, decays=False)
         watched_imdb, watched_tmdb = set(), set()
         for entry in watch_rows:
             ids = (entry.get("movie") or entry.get("show") or {}).get("ids") or {}
@@ -961,12 +1212,14 @@ def generate_catalogues(
                 watched_tmdb.add(audit["resolved"][ids["imdb"]])
         detail_for_history = {item["imdb_id"]: runner._detail_cache.get((media, audit["resolved"].get(item["imdb_id"])), {})
                               for item in items}
-        seeds = w.sample_seeds(items, moment, config.top_seed_count)
+        seed_pool = taste.seed_pool(items, kind)
+        seeds = w.sample_seeds(seed_pool, moment, config.top_seed_count)
+        pool_ids = {i["imdb_id"] for i in seed_pool}
         themed_kind = kind in taste.themed_kinds
         strength = ({i["imdb_id"]: taste.seed_strength(taste.theme(detail_for_history[i["imdb_id"]]))
                      for i in items} if themed_kind else {})
         if themed_kind:
-            themed = [i for i in items if strength[i["imdb_id"]] is not None
+            themed = [i for i in items if strength[i["imdb_id"]] is not None and i["imdb_id"] in pool_ids
                       and not (i.get("rating") is not None and i["rating"] < 5)]
             themed.sort(key=lambda i: (strength[i["imdb_id"]], w.interest_score(i, moment)), reverse=True)
             seed_ids = {i["imdb_id"] for i in seeds}
@@ -974,7 +1227,7 @@ def generate_catalogues(
         dismissed_imdb, dismissed_tmdb = dismissed_ids(dismissed, kind)
         dismissed_hits = set()
         listed_imdb, listed_tmdb = dismissed_ids(watchlist, kind)
-        watchlist_hits = set()
+        watchlist_hits, loved_hits = set(), set()
         candidates, origins = {}, defaultdict(set)
         def merge(rows, origin):
             for raw in rows:
@@ -983,6 +1236,8 @@ def generate_catalogues(
                     dismissed_hits.add(tid)
                 elif tid in listed_tmdb:
                     watchlist_hits.add(tid)
+                elif tid in loved_tmdb:
+                    loved_hits.add(tid)
                 elif tid and tid not in watched_tmdb and _eligible(raw, policy, moment):
                     candidates[tid] = dict(raw)
                     origins[tid].add(origin)
@@ -1001,6 +1256,28 @@ def generate_catalogues(
                 if tid:
                     for name, page in (("recommendations", 2), ("recommendations", 3), ("similar", 1)):
                         merge(w._rows(runner._call(name, tid, media, page)), taste.themed_source)
+        # Trakt's related titles for the same seeds: a second, Trakt-side view
+        # of "more like this". Their TMDB details stand in for a raw row.
+        related_found = set()
+        if trakt_lookup and taste.trakt_related_limit:
+            def trakt_related(seed):
+                try:
+                    rows = trakt_lookup(trakt_path + seed["imdb_id"] + "/related", {"limit": taste.trakt_related_limit})
+                except Exception as error:
+                    runner.warnings.append({"stage": "trakt_related", "exception_type": type(error).__name__})
+                    return []
+                return [r for r in rows if isinstance(r, Mapping)] if isinstance(rows, list) else []
+            for rows in runner._map(trakt_related, seeds):
+                for row in rows:
+                    tid = w._int((row.get("ids") or {}).get("tmdb"))
+                    if tid:
+                        related_found.add(tid)
+            hidden = watched_tmdb | dismissed_tmdb | listed_tmdb | loved_tmdb
+            fresh_ids = sorted(tid for tid in related_found if tid not in candidates and tid not in hidden)
+            known = [candidates[tid] for tid in sorted(related_found) if tid in candidates]
+            fetched = [dict(_canonical_detail(detail, detail), id=tid)
+                       for tid, detail in runner._map(lambda t: (t, runner._details(t, media)), fresh_ids) if detail]
+            merge(known + fetched, TRAKT_RELATED_SOURCE)
         queries = runner._discover_queries(profile, media)
         queries = [dict(query, include_adult="false") for query in queries]
         for rows in runner._map(lambda q: w._rows(runner._call("discover", media, q)), queries):
@@ -1026,9 +1303,9 @@ def generate_catalogues(
         selected, selected_ids = [], set()
         thematic_candidates = [r for _, r in preliminary if taste.themed_source in origins[r["id"]]]
         for raw in thematic_candidates[:config.candidate_enrichment_limit // 3] + [r for _, r in preliminary]:
-            # For You-only titles are enriched below, outside this budget, so
-            # they never displace a history candidate from enrichment.
-            if raw["id"] not in selected_ids and origins[raw["id"]] != {FOR_YOU_SOURCE}:
+            # Titles found only by For You or Trakt related are enriched below,
+            # outside this budget, so they never displace a history candidate.
+            if raw["id"] not in selected_ids and not origins[raw["id"]] <= EXTRA_SOURCES:
                 selected.append(raw)
                 selected_ids.add(raw["id"])
             if len(selected) >= config.candidate_enrichment_limit:
@@ -1036,7 +1313,8 @@ def generate_catalogues(
         # For You adds at most 20 titles per query page. Enrich all of them on
         # top of the unchanged history pool, so sparse raw discover rows are not
         # dropped before the custom weighting sees their keywords and credits.
-        for raw in (r for _, r in preliminary if FOR_YOU_SOURCE in origins[r["id"]]):
+        # Trakt related adds at most trakt_related_limit per seed, already detailed.
+        for raw in (r for _, r in preliminary if origins[r["id"]] & EXTRA_SOURCES):
             if raw["id"] not in selected_ids:
                 selected.append(raw)
                 selected_ids.add(raw["id"])
@@ -1056,6 +1334,9 @@ def generate_catalogues(
                 continue
             if imdb in listed_imdb:
                 watchlist_hits.add(raw["id"])
+                continue
+            if imdb in loved_imdb:
+                loved_hits.add(raw["id"])
                 continue
             if not _eligible(combined, policy, moment):
                 continue
@@ -1184,13 +1465,49 @@ def generate_catalogues(
             upcoming_suppressed = sum(c["id"] in upcoming_cards for c in cards + returners)
             cards = [c for c in cards if c["id"] not in upcoming_cards]
             returners = [c for c in returners if c["id"] not in upcoming_cards]
-            mixed, primary_prefix_count = taste.order_series(cards, config.catalogue_limit)
             returners.sort(key=lambda c: (-c["suggested_score"], c["id"]))
+        def order(cards):
+            if kind != "series":
+                return sorted(cards, key=lambda c: (-c["suggested_score"], c["id"]))[:config.catalogue_limit], 0
+            mixed, prefix = taste.order_series(cards, config.catalogue_limit)
             for index, card in enumerate(returners[:config.max_returning_items]):
-                mixed.insert(min(max(2, primary_prefix_count) + 4 * index, len(mixed)), card)
-            ordered = mixed[:config.catalogue_limit]
-        else:
-            ordered = sorted(cards, key=lambda c: (-c["suggested_score"], c["id"]))[:config.catalogue_limit]
+                mixed.insert(min(max(2, prefix) + 4 * index, len(mixed)), card)
+            return mixed[:config.catalogue_limit], prefix
+        ordered, primary_prefix_count = order(cards)
+        # Trakt's community score as a second quality floor, checked only for
+        # titles the row would show: one it scores below the minimum (with
+        # enough votes) leaves, and the row refills from the next best. Shows
+        # being returned to are not checked.
+        community, community_dropped = {}, []
+        if trakt_lookup and taste.trakt_rating_minimum is not None:
+            def community_score(card):
+                try:
+                    value = trakt_lookup(trakt_path + card["imdb_id"] + "/ratings", None)
+                except Exception as error:
+                    runner.warnings.append({"stage": "trakt_rating", "exception_type": type(error).__name__})
+                    value = None
+                return card, value if isinstance(value, Mapping) else None
+            while True:
+                unchecked = [c for c in ordered if c["id"] not in community and not c.get("returning_season")]
+                if not unchecked:
+                    break
+                low = set()
+                for card, value in runner._map(community_score, unchecked):
+                    community[card["id"]] = value
+                    if value:
+                        card["trakt_community"] = {"rating": round(w._num(value.get("rating")), 2),
+                                                   "votes": int(w._num(value.get("votes")))}
+                        if (card["trakt_community"]["votes"] >= TRAKT_RATING_VOTES
+                                and card["trakt_community"]["rating"] < taste.trakt_rating_minimum):
+                            low.add(card["id"])
+                            community_dropped.append({"id": card["id"], "title": card.get("title"),
+                                                      "vote_average": card.get("vote_average"),
+                                                      "vote_count": card.get("vote_count"),
+                                                      **card["trakt_community"]})
+                if not low:
+                    break
+                cards = [c for c in cards if c["id"] not in low]
+                ordered, primary_prefix_count = order(cards)
         # Stable-ID deduplication after every source merge, including returners.
         unique = {}
         for card in ordered:
@@ -1212,6 +1529,19 @@ def generate_catalogues(
                                           "disliked_profile_titles": len(dislike_details)},
                        "watchlist": {"suppressed_count": len(watchlist_hits),
                                      "liked_profile_titles": len(like_details)},
+                       "loved": {"history_titles": sum(bool(i.get("loved")) for i in items),
+                                 "liked_profile_titles": len(loved_details), "suppressed_count": len(loved_hits)},
+                       "series_viewing": viewing_diagnostics,
+                       "seeds": [{"imdb_id": s["imdb_id"], "name": s.get("name")} for s in seeds],
+                       "trakt_related": {"found_count": len(related_found),
+                                         "candidate_count": sum(TRAKT_RELATED_SOURCE in o for o in origins.values()),
+                                         "positions": [{"id": c["id"], "position": i + 1,
+                                                        "only_trakt_related": c.get("candidate_sources") == [TRAKT_RELATED_SOURCE]}
+                                                       for i, c in enumerate(ordered)
+                                                       if TRAKT_RELATED_SOURCE in (c.get("candidate_sources") or [])]},
+                       "trakt_rating": {"checked_count": len(community),
+                                        "found_count": sum(v is not None for v in community.values()),
+                                        "dropped": community_dropped},
                        "returning_decisions": returning_diagnostics,
                        "callback_counts": dict(runner.calls), "warnings": runner.warnings,
                        "selected_cards": ordered}

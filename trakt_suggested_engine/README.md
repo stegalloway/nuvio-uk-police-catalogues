@@ -27,6 +27,9 @@ result = generate_catalogues(
     now=datetime.now(timezone.utc),
     config=EngineConfig(),
     dismissed=not_interested,   # optional: items of the "Not Interested" Trakt list
+    watchlist=watchlist,        # optional: items of the Trakt watchlist
+    loved=loved,                # optional: items of the "Loved" Trakt list
+    trakt_lookup=trakt_lookup,  # optional: callable(path, params=None), see below
 )
 
 series_payload = result["catalogues"]["series"]["payload"]
@@ -39,7 +42,9 @@ adapter appends `credits,keywords,external_ids` and requests English-GB metadata
 Each run also sends the two For You Discover queries (see below) through the
 same `tmdb_fetch`; no extra credential or URL is needed.
 Trakt callbacks only receive `/shows/{trakt_id-or-slug-or-imdb}/seasons` with
-`{"extended": "episodes,full"}`. Credentials belong in callback request headers
+`{"extended": "episodes,full"}`. `trakt_lookup` only receives
+`/shows|movies/{imdb}/related` with `{"limit": 10}` and `/shows|movies/{imdb}/ratings`
+(see "Taste without rating"). Credentials belong in callback request headers
 or URL construction, never in this package or public catalogue JSON.
 
 The five source payloads must be explicit lists. Watched/history payloads must be
@@ -165,14 +170,78 @@ like the Not Interested list.
 - **Taste:** each watchlisted title is also a mild like (+0.5, half a completed
   watch, not fading), added to its keywords, top three cast and directors or
   creators the way Not Interested adds a dislike. Genres are never touched.
-- **Evidence order (Ste's profile):** watched counts most (1.0, 2.5 rewatched,
-  whatever the rating), then the watchlist, then titles rated but not watched
-  (0.4 loved, 0.3 liked, 0.2 otherwise). Jenny keeps Watchly's weights, where
-  ratings count most.
+- **Evidence order (Ste's profile):** watched counts most (films 1.0, 2.5
+  rewatched, whatever the rating; series by viewing pattern, see "Taste without
+  rating"), then the watchlist, then titles rated but not watched (0.4 loved,
+  0.3 liked, 0.2 otherwise). A title on the Loved list outranks them all. Jenny
+  keeps Watchly's weights, where ratings count most.
 - **New & Upcoming:** for watchlisted shows the viewer hasn't started, a season
   premiere joins the row: dated within `upcoming_horizon_days`, or out in the
   last `out_now_days`. Mid-season episodes are left out, since an unstarted show
   starts at its beginning. Descriptions start "On your watchlist".
+
+## Taste without rating (Ste, since 27 October 2026)
+
+Ste rarely rates on Trakt, so his profile reads taste from what he already does.
+Each part is a `SteProfile` attribute; `JennyProfile` turns every one off, so her
+rows are unchanged.
+
+**Series viewing patterns** (`series_viewing`). Trakt's show `plays` count every
+episode play, so before this almost every show (39 of 47) counted as rewatched
+(2.5). Instead `series_viewing()` collects each show's distinct regular episodes
+from the watched snapshot and the episode history (ignoring `reset_at`), and
+`viewing_pattern()` compares them with TMDB's aired episodes
+(`aired_by_season()`) **of the seasons started only**. A new season not begun
+yet does not lower a show finished so far, and earlier seasons watched outside
+Trakt do not make it look dropped.
+
+| Pattern | Rule | Evidence |
+| --- | --- | --- |
+| Finished or caught up | 80%+ of the started seasons' aired episodes | 1.5 |
+| Most of it | 40-80% | 1.0 |
+| Still watching | under 40%, watched in the last 60 days | 0.6 |
+| Dropped | nothing for 60+ days after under 40%, or after 3 episodes or fewer of a show not finished | -0.2 |
+| Factual | TMDB documentary, reality, news or talk | left out of the profile |
+| Unknown | TMDB has no episode counts | 1.0 |
+
+- **Bonuses, not for dropped shows:** +0.5 for a true rewatch, meaning repeat plays at least a day apart (`REWATCH_GAP`) of at least half the distinct episodes, with 3 or more. +0.3 (`binge_bonus`) for 3 or more plays inside 48 hours, where plays under 10 minutes apart count once, because marking a season watched stamps every episode alike.
+- **Same-day repeats** are duplicate scrobbles or restarts. They and plays of specials are reported, not counted.
+- **Fading:** the evidence fades from the last play as before.
+- **Factual shows** have their own Police on Duty rows, and Suggested Series never offers them, so they carry no taste. They stay watched and hidden.
+- **Ratings and seeds:** a show's `watch_count` becomes 2 only for a true rewatch. Series seeds follow viewing, not old ratings: a Loved or rewatched show is "loved", and a dropped or rated-only show is no seed.
+
+**Loved list** (`uses_loved_list`). The items of the viewer's public Trakt list
+"Loved" (runtime slug `loved`) are the strongest like: 2.0, not fading, whatever
+the title's pattern. Loved overrides "dropped" for a show watched mostly outside
+Trakt: Suits, SEAL Team and Jack Ryan had one episode logged each. Loved titles
+not in the watched history add 2.0 to their keywords, top three cast and
+directors or creators, like the watchlist, and are left out of Suggested,
+because the viewer has seen them.
+
+**Trakt related titles** (`trakt_related_limit`, 10 per seed). For every seed,
+`/shows|movies/{imdb}/related` adds Trakt's related titles as candidates. Their
+TMDB details stand in for a raw row. Like For You titles, they are enriched
+outside the history budget and pass every gate. Diagnostics: `trakt_related`.
+
+**Trakt community floor** (`trakt_rating_minimum`, 7.0). A title the row would
+show leaves when Trakt users score it under 7.0 with at least 100 votes
+(`TRAKT_RATING_VOTES`), and the row refills from the next best. With fewer
+votes, TMDB alone decides. Only shown titles are checked: about 60 calls per
+row, plus refills. Returning-season picks are not checked. Diagnostics:
+`trakt_rating.dropped`.
+
+**Preview, 27 October 2026.** Ste's live history went through the engine as it
+ran that day, then with each part alone and with all of them, publishing
+nothing.
+- **Viewing patterns** across his 47 watched shows: 27 finished, 3 most of it, 1 still watching, 10 dropped and 6 factual.
+- **Rewatches:** 3 true rewatches (The Rookie, Slow Horses, Hijack), and about 68 same-day duplicate plays across all shows.
+- **Ste's checks on the patterns:**
+  - Ted Lasso is a true drop.
+  - Reacher, The Boys, Mayor of Kingstown and The Gentlemen come out finished from their latest season.
+  - Prisoner and the shows he loves go on the Loved list.
+- **Rows:** 16 of 60 series and about 10 films changed. Trakt related added, among others, Ozark, Snowfall, The Americans, Sin City, The Town and Drive. The floor took out mainly 2026 films, whose TMDB scores ran higher than Trakt's.
+- **New & Upcoming** was unchanged.
+- **The floor:** 7.0 was chosen over 6.8, which would have kept Mutiny, Normal, Shelter, Fuze and Shantaram.
 
 ## Taste profiles (Ste and Jenny)
 
@@ -191,6 +260,7 @@ returning seasons, New & Upcoming, poster and IMDb rules, and pagination.
 | Score | Series 65/25/8/2 (above); films history only | Both types: 75% history similarity plus 25% theme strength. A themed title is boosted, an unthemed one still qualifies |
 | Order | British/Irish prefix, then 2:1 mix | Score order, with no prefix. Returning seasons from 3rd place, every 4th |
 | Themed seeds | Series: up to 4 organised-crime history titles with extra pages | Films and series: up to 4 themed history titles with extra pages |
+| Taste without rating | Series viewing patterns, binge bonus, Loved list, Trakt related titles, Trakt 7.0 floor | None: Watchly's weights, no Trakt lookups |
 
 Jenny's queries reproduce `tmdb-catalogues-jenny.json` as Discover+
 `discover()` translates it: genres and keywords join with `|` (its default

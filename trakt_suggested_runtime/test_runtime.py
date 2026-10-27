@@ -243,6 +243,38 @@ class PublicationContracts(unittest.TestCase):
                                      failures=SourceFailures(), generator=generator)
         self.assertEqual(seen, [items, "absent"])
 
+    def test_loved_list_and_trakt_lookup_reach_the_engine_only_when_present(self):
+        seen = []
+        def generator(*args, **kwargs):
+            seen.append((kwargs.get("loved", "absent"), kwargs.get("trakt_lookup", "absent")))
+            return generated()
+        items = [{"type": "show", "show": {"ids": {"imdb": "tt2741602"}}}]
+        lookup = lambda path, params: None
+        with tempfile.TemporaryDirectory() as directory:
+            for value, trakt_lookup in ((items, lookup), (None, None)):
+                histories = {key: [] for key in INPUT_FILES}
+                histories["loved"] = value
+                generate_and_publish(histories, None, None, Path(directory) / "suggested",
+                                     failures=SourceFailures(), generator=generator, trakt_lookup=trakt_lookup)
+        self.assertEqual(seen, [(items, lookup), ("absent", "absent")])
+
+    def test_title_lookup_reads_only_related_and_ratings(self):
+        http = FixtureHTTP([JsonResponse([{"ids": {"tmdb": 1}}], {}), JsonResponse({"rating": 8.1, "votes": 10}, {})])
+        trakt = TraktClient(http)
+        self.assertEqual(trakt.title_lookup("/shows/tt10/related", {"limit": 10}), [{"ids": {"tmdb": 1}}])
+        self.assertEqual(trakt.title_lookup("/movies/tt1/ratings"), {"rating": 8.1, "votes": 10})
+        for path in ("/users/example/history", "/shows/tt10/related/../x", "/shows/tt10/people"):
+            with self.subTest(path=path), self.assertRaises(SourceError):
+                TraktClient(FixtureHTTP([])).title_lookup(path)
+        class Missing(FixtureHTTP):
+            def get(self, path, params=None, missing_ok=False):
+                from trakt_suggested_runtime.publisher import MissingSource
+                self.calls.append((path, missing_ok))
+                raise MissingSource("absent")
+        missing = Missing([])
+        self.assertIsNone(TraktClient(missing).title_lookup("/shows/tt99/ratings"))
+        self.assertEqual(missing.calls, [("/shows/tt99/ratings", True)])
+
     def test_taste_profile_reaches_the_engine_only_when_set(self):
         from trakt_suggested_engine import EngineConfig
         seen = []
@@ -373,8 +405,9 @@ class TraktSourceContracts(unittest.TestCase):
         others = [params for path, params in http.calls if not path.endswith("/history/shows")]
         self.assertTrue(others and all("end_at" not in params for params in others))
         # Every account read carries the per-run parameter past Trakt's CDN cache.
-        self.assertEqual(len(http.calls), 7)
+        self.assertEqual(len(http.calls), 8)
         self.assertIn("/users/example/watchlist", [path for path, _ in http.calls])
+        self.assertIn("/users/example/lists/loved/items", [path for path, _ in http.calls])
         self.assertTrue(all(params.get("_") == "1792411290" for _, params in http.calls))
 
     def test_run_notice_names_the_listed_titles(self):
@@ -504,7 +537,7 @@ class CacheAndTransportContracts(unittest.TestCase):
             self.assertIn("RefreshError", output.getvalue())
 
     def test_aborted_refresh_reports_only_controlled_labels(self):
-        def histories(trakt, username, dismiss_list=None):
+        def histories(trakt, username, dismiss_list=None, loved_list=None):
             trakt.http.failures.record("trakt", "incomplete_pagination")
             raise SourceError("https://api.trakt.tv/users/PRIVATE-USER?key=PRIVATE-SECRET")
         env = {"TRAKT_USERNAME": "PRIVATE-USER", "TRAKT_CLIENT_ID": "PRIVATE-SECRET",

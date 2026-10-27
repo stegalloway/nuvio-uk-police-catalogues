@@ -270,6 +270,9 @@ def history_from_trakt(watched_movies: Iterable[Mapping] = (),
 
 
 def _bucket(item: Mapping) -> str:
+    # Local adaptation: a title on the viewer's "Loved" Trakt list is loved.
+    if item.get("loved"):
+        return "loved"
     rating = item.get("rating")
     if rating is not None and _num(rating) >= 9:
         return "loved"

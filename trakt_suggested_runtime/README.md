@@ -16,6 +16,8 @@ Environment variables:
   updater; alternatively `TMDB_API_KEY` is supported.
 - `TRAKT_DISMISS_LIST` (optional): slug of the public Trakt list whose titles are
   never suggested. Default `not-interested`; an empty value turns it off.
+- `TRAKT_LOVED_LIST` (optional): slug of the public Trakt list read as the
+  strongest like. Default `loved`; an empty value turns it off.
 - `TRAKT_SUGGESTED_PROFILE` (optional): the engine's taste profile, `ste` or
   `jenny`. Unset or empty keeps the engine default (`ste`); an unknown name
   fails the refresh and keeps the previous catalogues.
@@ -59,6 +61,24 @@ count when the list was read. Any other error, including a missing later page,
 fails the refresh like every other source. Each run's GitHub notice
 lists the titles it found on the list. An outage therefore keeps the
 previous catalogues rather than bringing dismissed titles back.
+
+## Loved list
+
+To mark a title as loved without rating it, add it to a **public** Trakt list
+named "Loved" (slug `loved`), created on trakt.tv while signed in as the viewer
+whose rows it should shape. Add titles on trakt.tv, or in Nuvio by long-pressing
+**+** on the details page and ticking the list. It is read like the Not
+Interested list, `/users/{user}/lists/loved/items`, fully paginated. A missing
+or private list counts as empty, and any other error fails the refresh. The run
+log and notice end with `"loved"`: the item count, or "no public list named
+loved". The engine counts each title as the strongest like (see
+`trakt_suggested_engine/README.md`, "Taste without rating"). Only Ste's profile
+uses it.
+
+The same refresh reads Trakt's related titles and community scores through
+`TraktClient.title_lookup`. It allows only `/shows|movies/{id}/related` and
+`/ratings`, and a title Trakt doesn't know is None. These reads need only the
+client ID: about 30 related lists and 120 or more score reads an hour.
 
 Run from the repository root:
 

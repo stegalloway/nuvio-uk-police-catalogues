@@ -46,8 +46,10 @@ INPUT_FILES = {
     "rated_shows": "trakt-ratings-shows.json",
     "watched_episode_history": "trakt-episode-history.json",
 }
-OPTIONAL_INPUT_FILES = {"dismissed": "trakt-not-interested.json", "watchlist": "trakt-watchlist.json"}
+OPTIONAL_INPUT_FILES = {"dismissed": "trakt-not-interested.json", "watchlist": "trakt-watchlist.json",
+                        "loved": "trakt-loved.json"}
 DEFAULT_DISMISS_LIST = "not-interested"
+DEFAULT_LOVED_LIST = "loved"
 META_FIELDS = frozenset({
     "id", "type", "name", "poster", "posterShape", "description", "releaseInfo",
     "genres", "background", "imdbRating", "runtime", "logo", "imdb_id",
@@ -360,8 +362,18 @@ class TraktClient:
         except MissingSource:
             return None
 
+    def title_lookup(self, path: str, params: Mapping | None = None) -> Any:
+        """A title's related titles or community rating; None when Trakt doesn't know it."""
+        if not re.fullmatch(r"/(?:shows|movies)/[A-Za-z0-9._-]+/(?:related|ratings)", path):
+            self.http.fail("unexpected_title_path")
+        try:
+            return self.http.get(path, params, missing_ok=True).data
+        except MissingSource:
+            return None
+
     def histories(self, username: str, dismiss_list: str | None = None,
-                  now: datetime | None = None) -> dict[str, list[dict] | None]:
+                  now: datetime | None = None, loved_list: str | None = DEFAULT_LOVED_LIST,
+                  ) -> dict[str, list[dict] | None]:
         user = urllib.parse.quote(username, safe="")
         base = "/users/" + user
         # A dated end gives each run's history pages their own URLs. On 19 Oct
@@ -385,6 +397,9 @@ class TraktClient:
             jobs["dismissed"] = lambda: self.dismissed(username, dismiss_list, fresh)
         # Like the Not Interested list: private is None, an outage fails the refresh.
         jobs["watchlist"] = lambda: self.watchlist(username, fresh)
+        # The "Loved" list the same way: absent or private is None.
+        if loved_list:
+            jobs["loved"] = lambda: self.dismissed(username, loved_list, fresh)
         with ThreadPoolExecutor(max_workers=3) as pool:
             futures = {key: pool.submit(job) for key, job in jobs.items()}
             # Every required future must succeed. Never interpret an outage as [].
@@ -600,6 +615,7 @@ def generate_and_publish(
     output: Path, *, failures: SourceFailures, generator: Callable | None = None,
     now: datetime | None = None, addon_id: str = DEFAULT_ADDON_ID,
     private_diagnostics: Path | None = None, profile: str | None = None,
+    trakt_lookup: Callable | None = None,
 ) -> dict[str, int]:
     if generator is None:
         from trakt_suggested_engine import generate_catalogues
@@ -621,6 +637,13 @@ def generate_and_publish(
         if not isinstance(histories["watchlist"], list):
             raise SourceError("The watchlist is invalid")
         extra["watchlist"] = histories["watchlist"]
+    # And the Loved list: None (absent or private) loves nothing.
+    if histories.get("loved") is not None:
+        if not isinstance(histories["loved"], list):
+            raise SourceError("The Loved list is invalid")
+        extra["loved"] = histories["loved"]
+    if trakt_lookup is not None:
+        extra["trakt_lookup"] = trakt_lookup
     if profile is not None:
         extra["config"] = EngineConfig(profile=profile)
     result = generator(
@@ -690,22 +713,29 @@ def main(argv: list[str] | None = None) -> int:
         dismiss_list = os.environ.get("TRAKT_DISMISS_LIST", DEFAULT_DISMISS_LIST).strip()
         # Unset means the engine's default profile ("ste").
         profile = os.environ.get("TRAKT_SUGGESTED_PROFILE", "").strip() or None
+        loved_list = os.environ.get("TRAKT_LOVED_LIST", DEFAULT_LOVED_LIST).strip()
         histories = (load_history_snapshots(args.history_dir) if args.history_dir
-                     else trakt.histories(username, dismiss_list))
+                     else trakt.histories(username, dismiss_list, loved_list=loved_list))
         counts = generate_and_publish(
             histories, tmdb, trakt.seasons, args.output, failures=failures,
             now=datetime.now(timezone.utc), addon_id=args.addon_id, private_diagnostics=args.private_diagnostics,
-            profile=profile,
+            profile=profile, trakt_lookup=trakt.title_lookup,
         )
         dismissed = histories.get("dismissed")
         not_interested = (len(dismissed) if isinstance(dismissed, list) else
                           "no public list named " + dismiss_list if dismiss_list and not args.history_dir
                           else "not used")
-        print(json.dumps({"published": True, "counts": counts, "not_interested": not_interested}))
+        loved = histories.get("loved")
+        loved_count = (len(loved) if isinstance(loved, list) else
+                       "no public list named " + loved_list if loved_list and not args.history_dir
+                       else "not used")
+        print(json.dumps({"published": True, "counts": counts, "not_interested": not_interested,
+                          "loved": loved_count}))
         if in_actions:
             print("::notice title=Trakt Suggested published::series " + str(counts.get("series")) +
                   ", movie " + str(counts.get("movie")) + ", upcoming " + str(counts.get("upcoming")) +
-                  ", not interested " + str(not_interested) + listed_titles(dismissed))
+                  ", not interested " + str(not_interested) + listed_titles(dismissed) +
+                  ", loved " + str(loved_count))
         return 0
     except Exception as error:
         # Errors can carry credential-bearing request URLs or private titles.

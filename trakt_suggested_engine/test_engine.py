@@ -5,9 +5,10 @@ import unittest
 
 from . import watchly_base as w
 from .engine import (
-    FOR_YOU_SOURCE, PROFILES, EngineConfig, GenerationError, apply_dismissal_signal, derive_episode_progress,
-    evaluate_returning, for_you_queries, freshness, generate_catalogues, jenny_for_you_queries, jenny_theme,
-    rank_and_mix_series, thematic_signals,
+    FOR_YOU_SOURCE, LOVED_EVIDENCE, PROFILES, EngineConfig, GenerationError, aired_by_season,
+    apply_dismissal_signal, binged, derive_episode_progress, evaluate_returning, for_you_queries, freshness,
+    generate_catalogues, jenny_for_you_queries, jenny_theme, rank_and_mix_series, series_viewing,
+    thematic_signals, viewing_pattern,
 )
 
 
@@ -904,6 +905,208 @@ class EvidenceOrderContracts(unittest.TestCase):
             self.assertGreater(scores["cast"][5], 0)
             self.assertAlmostEqual(scores["directors"][9], WATCHLIST_EVIDENCE * .9)
         self.assertNotIn("genres", scores)
+
+
+class ViewingContracts(unittest.TestCase):
+    """Ste's series evidence comes from how much of a show he watched."""
+
+    def state(self, episodes, plays=None, idle_days=1, times=()):
+        return {"episodes": {(1, n) for n in range(1, episodes + 1)}, "plays": episodes if plays is None else plays,
+                "times": list(times), "last": NOW - timedelta(days=idle_days)}
+
+    def test_patterns_follow_the_share_of_aired_episodes(self):
+        cases = ((self.state(8), 10, "finished"), (self.state(5), 10, "most"),
+                 (self.state(2, idle_days=10), 10, "watching"), (self.state(2, idle_days=90), 10, "dropped"),
+                 (self.state(3, idle_days=90), 6, "dropped"), (self.state(4, idle_days=90), 6, "most"),
+                 (self.state(5, idle_days=400), 5, "finished"), (self.state(5), None, "unknown"))
+        for state, aired, pattern in cases:
+            with self.subTest(pattern=pattern, aired=aired):
+                self.assertEqual(viewing_pattern(state, {1: aired} if aired else None, NOW)["pattern"], pattern)
+        self.assertEqual(viewing_pattern(self.state(1, idle_days=200), {1: 333}, NOW, factual=True)["pattern"], "factual")
+
+    def test_completion_counts_the_seasons_started_only(self):
+        # Season 1 finished, season 2 out but not begun: finished, not half watched.
+        finished = viewing_pattern(self.state(8, idle_days=200), {1: 8, 2: 8}, NOW)
+        self.assertEqual((finished["pattern"], finished["episodes_aired"], finished["seasons_started"]),
+                         ("finished", 8, [1]))
+        # Only season 3 logged (1 and 2 watched outside Trakt): judged on season 3.
+        later = dict(self.state(0, idle_days=5), episodes={(3, n) for n in range(1, 8)})
+        self.assertEqual(viewing_pattern(later, {1: 8, 2: 8, 3: 8}, NOW)["pattern"], "finished")
+        # Part-way through a started season still counts as only part watched.
+        partway = dict(self.state(8), episodes={(1, n) for n in range(1, 9)} | {(2, 1), (2, 2)})
+        self.assertEqual(viewing_pattern(partway, {1: 8, 2: 8}, NOW)["pattern"], "most")
+        self.assertEqual(viewing_pattern(self.state(1, idle_days=90), {1: 12, 2: 12}, NOW)["pattern"], "dropped")
+
+    def test_only_repeats_a_day_apart_count_as_a_rewatch(self):
+        start = NOW - timedelta(days=30)
+        def times(gap):
+            return {(1, n): [start + timedelta(hours=n), start + timedelta(hours=n) + gap] for n in range(1, 11)}
+        rewatched = viewing_pattern(dict(self.state(10, plays=20), episode_times=times(timedelta(days=3))), {1: 10}, NOW)
+        self.assertTrue(rewatched["rewatched"])
+        self.assertEqual((rewatched["repeats_day_apart"], rewatched["repeats_same_day"]), (10, 0))
+        doubled = viewing_pattern(dict(self.state(10, plays=20), episode_times=times(timedelta(minutes=4))), {1: 10}, NOW)
+        self.assertFalse(doubled["rewatched"], "A duplicate scrobble minutes later is not a rewatch")
+        self.assertEqual((doubled["repeats_day_apart"], doubled["repeats_same_day"]), (0, 10))
+        self.assertFalse(viewing_pattern(dict(self.state(10, plays=30)), {1: 10}, NOW)["rewatched"],
+                         "Show plays alone, without dated repeats, are not a rewatch")
+        few = dict(self.state(2, plays=6), episode_times=times(timedelta(days=3)))
+        self.assertFalse(viewing_pattern(few, {1: 10}, NOW)["rewatched"])
+
+    def test_a_binge_is_watched_not_marked(self):
+        start = NOW - timedelta(days=3)
+        self.assertTrue(binged([start + timedelta(minutes=45 * n) for n in range(3)]))
+        self.assertTrue(binged([start, start + timedelta(hours=20), start + timedelta(hours=47)]))
+        self.assertFalse(binged([start] * 10), "Marking a season watched at once is not a binge")
+        self.assertFalse(binged([start + timedelta(days=2 * n) for n in range(5)]))
+        self.assertFalse(binged([start, start + timedelta(hours=1)]))
+
+    def test_aired_episodes_count_regular_seasons_up_to_the_latest_episode(self):
+        detail = {"seasons": [{"season_number": 0, "episode_count": 4}, {"season_number": 1, "episode_count": 10},
+                              {"season_number": 2, "episode_count": 8}, {"season_number": 3, "episode_count": 10}],
+                  "last_episode_to_air": {"season_number": 3, "episode_number": 4}}
+        self.assertEqual(aired_by_season(detail), {1: 10, 2: 8, 3: 4})
+        self.assertEqual(aired_by_season({"seasons": [{"season_number": 1, "episode_count": 6}]}), {1: 6})
+        self.assertIsNone(aired_by_season({"number_of_episodes": 13}))
+        self.assertIsNone(aired_by_season({}))
+
+    def test_history_and_seasons_join_by_show_and_ignore_reset(self):
+        entry = {"show": show(), "plays": 7, "last_watched_at": "2026-10-10T20:00:00Z", "reset_at": "2026-10-01T00:00:00Z",
+                 "seasons": [{"number": 1, "episodes": [{"number": 1, "plays": 2}, {"number": 2, "plays": 1}]},
+                             {"number": 0, "episodes": [{"number": 1, "plays": 1}]}]}
+        trakt_only = {"show": {"ids": {"trakt": 10}}, "episode": {"season": 2, "number": 1},
+                      "watched_at": "2026-10-17T21:00:00Z"}
+        special = {"show": show(), "episode": {"season": 0, "number": 1}, "watched_at": "2026-10-16T21:00:00Z"}
+        state = series_viewing([entry], [event(1, 2), trakt_only, special])["tt10"]
+        self.assertEqual(state["episodes"], {(1, 1), (1, 2), (2, 1)})
+        self.assertEqual(state["plays"], 7)
+        self.assertEqual(state["last"], datetime(2026, 10, 17, 21, 0, tzinfo=timezone.utc))
+        self.assertEqual(len(state["times"]), 2)
+        self.assertEqual(set(state["episode_times"]), {(1, 2), (2, 1)})
+        self.assertEqual(state["specials"], 1)
+
+    def test_ste_evidence_by_pattern_with_bonuses_and_loved(self):
+        ste = PROFILES["ste"]
+        def evidence(pattern, rewatched=False, binged=False, **item):
+            viewing = {"pattern": pattern, "rewatched": rewatched, "binged": binged}
+            return ste.evidence(dict({"last_watched": NOW.isoformat(), "viewing": viewing}, **item), NOW)
+        self.assertEqual(evidence("finished"), 1.5)
+        self.assertAlmostEqual(evidence("finished", binged=True), 1.8)
+        self.assertAlmostEqual(evidence("finished", rewatched=True, binged=True), 2.3)
+        self.assertEqual(evidence("most"), 1.0)
+        self.assertEqual(evidence("watching"), .6)
+        self.assertEqual(evidence("dropped", binged=True), -.2)
+        self.assertEqual(evidence("factual"), 0.)
+        self.assertEqual(evidence("unknown"), 1.0)
+        # Loved is the strongest single signal and does not fade.
+        self.assertEqual(evidence("dropped", loved=True, last_watched="2020-01-01T00:00:00Z"), LOVED_EVIDENCE)
+        self.assertEqual(ste.evidence({"loved": True, "watch_count": 0, "completion": 0.}, NOW), LOVED_EVIDENCE)
+
+    def test_ste_seeds_follow_viewing_not_ratings(self):
+        items = [{"imdb_id": "tt1", "rating": 10, "watch_count": 0},
+                 {"imdb_id": "tt2", "viewing": {"pattern": "dropped"}},
+                 {"imdb_id": "tt3", "viewing": {"pattern": "finished"}, "rating": 3},
+                 {"imdb_id": "tt4", "loved": True, "rating": 2}]
+        pool = PROFILES["ste"].seed_pool(items, "series")
+        self.assertEqual([i["imdb_id"] for i in pool], ["tt3", "tt4"])
+        self.assertTrue(all(i["rating"] is None for i in pool))
+        self.assertEqual(w._bucket(pool[1]), "loved")
+        self.assertEqual(len(PROFILES["ste"].seed_pool(items, "movie")), 4)
+        self.assertEqual(len(PROFILES["jenny"].seed_pool(items, "series")), 4)
+
+
+class TrustedSignalContracts(unittest.TestCase):
+    """The Loved list, Trakt related titles and Trakt's community score."""
+
+    def setUp(self):
+        self.api = FixtureAPI()
+        self.inputs = list(fixture_inputs())
+        self.config = EngineConfig(catalogue_limit=10, candidate_enrichment_limit=20, minimum_items=3, max_workers=2)
+
+    def run_engine(self, **kwargs):
+        return generate_catalogues(*self.inputs, self.api, now=NOW, config=self.config, **kwargs)
+
+    def ids(self, result, kind):
+        return [m["id"] for m in result["catalogues"][kind]["payload"]["metas"]]
+
+    def test_a_watched_loved_show_is_flagged_and_an_unwatched_one_is_hidden_and_liked(self):
+        before = self.ids(self.run_engine(), "movie")
+        loved = [{"type": "show", "show": show()},
+                 {"type": "movie", "movie": {"ids": {"imdb": before[0], "tmdb": int(before[0][2:])}}}]
+        result = self.run_engine(loved=loved)
+        self.assertNotIn(before[0], self.ids(result, "movie"))
+        movie, series = result["diagnostics"]["media"]["movie"], result["diagnostics"]["media"]["series"]
+        self.assertEqual(movie["loved"]["liked_profile_titles"], 1)
+        self.assertGreaterEqual(movie["loved"]["suppressed_count"], 1)
+        self.assertEqual(series["loved"]["history_titles"], 1)
+        self.assertEqual(series["loved"]["liked_profile_titles"], 0)
+        self.assertTrue(series["series_viewing"][0]["loved"])
+        self.assertEqual(series["series_viewing"][0]["evidence"], LOVED_EVIDENCE)
+
+    def test_a_factual_show_leaves_the_taste_profile_but_stays_watched(self):
+        self.api.details[("tv", 11)] = self.api.detail(11, org=True)
+        self.inputs[1] = self.inputs[1] + [{"show": show(11), "plays": 2, "last_watched_at": "2026-10-17T00:00:00Z"}]
+        self.inputs[4] = self.inputs[4] + [event(1, 1, number=11), event(1, 2, number=11)]
+        before = self.run_engine()["diagnostics"]["media"]["series"]
+        self.assertEqual(before["profile_input_count"], 2)
+        self.api.details[("tv", 10)]["genres"] = [{"id": 99, "name": "Documentary"}, {"id": 80, "name": "Crime"}]
+        result = self.run_engine()
+        series = result["diagnostics"]["media"]["series"]
+        self.assertEqual(series["profile_input_count"], 1)
+        factual = [v for v in series["series_viewing"] if v["imdb_id"] == "tt10"]
+        self.assertEqual([(v["pattern"], v["evidence"]) for v in factual], [("factual", 0.)])
+        self.assertNotIn("tt10", self.ids(result, "series"))
+
+    def test_the_jenny_profile_ignores_the_loved_list_and_trakt(self):
+        self.config = EngineConfig(**dict(vars(self.config), profile="jenny"))
+        calls = []
+        result = self.run_engine(loved=[{"type": "show", "show": show()}],
+                                 trakt_lookup=lambda path, params: calls.append(path))
+        self.assertEqual(calls, [])
+        self.assertEqual(result["diagnostics"]["media"]["series"]["loved"]["history_titles"], 0)
+        self.assertEqual(result["diagnostics"]["media"]["series"]["series_viewing"], [])
+
+    def test_trakt_related_titles_join_the_candidates(self):
+        self.api.details[("tv", 500)] = self.api.detail(500, org=True)
+        self.api.for_you_only.add(("tv", 500))
+        self.assertNotIn("tt500", self.ids(self.run_engine(), "series"))
+        paths = []
+        def lookup(path, params):
+            paths.append((path, params))
+            return [{"title": "Show 500", "ids": {"tmdb": 500, "imdb": "tt500"}}] if path.endswith("/related") else None
+        result = self.run_engine(trakt_lookup=lookup)
+        self.assertIn("tt500", self.ids(result, "series"))
+        self.assertIn(("/shows/tt10/related", {"limit": 10}), paths)
+        related = result["diagnostics"]["media"]["series"]["trakt_related"]
+        self.assertIn({"id": "tt500", "position": self.ids(result, "series").index("tt500") + 1,
+                       "only_trakt_related": True}, related["positions"])
+
+    def test_a_title_trakt_scores_low_leaves_and_the_row_refills(self):
+        # A 4-title row over 6 eligible films leaves spares to refill from.
+        self.config = EngineConfig(**dict(vars(self.config), catalogue_limit=4))
+        before = self.ids(self.run_engine(), "movie")
+        self.assertEqual(len(before), 4)
+        def lookup(votes):
+            def answer(path, params):
+                if path == "/movies/" + before[0] + "/ratings":
+                    return {"rating": 6.2, "votes": votes}
+                return {"rating": 7.9, "votes": 900} if path.endswith("/ratings") else []
+            return answer
+        result = self.run_engine(trakt_lookup=lookup(500))
+        after = self.ids(result, "movie")
+        self.assertNotIn(before[0], after)
+        self.assertEqual(len(after), len(before))
+        dropped = result["diagnostics"]["media"]["movie"]["trakt_rating"]["dropped"]
+        self.assertEqual([(d["id"], d["rating"], d["votes"]) for d in dropped], [(before[0], 6.2, 500)])
+        # Too few Trakt votes: TMDB alone decides.
+        self.assertIn(before[0], self.ids(self.run_engine(trakt_lookup=lookup(50)), "movie"))
+
+    def test_a_failing_trakt_lookup_changes_nothing(self):
+        before = self.run_engine()
+        def failing(path, params):
+            raise TimeoutError("fixture")
+        after = self.run_engine(trakt_lookup=failing)
+        for kind in ("series", "movie", "upcoming"):
+            self.assertEqual(self.ids(after, kind), self.ids(before, kind))
 
 
 class FilmAgeContracts(unittest.TestCase):
