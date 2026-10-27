@@ -117,20 +117,6 @@
       "imdb_id": "tt33035373"
     },
     {
-      "id": "tt22175166",
-      "type": "series",
-      "name": "The Walk-In",
-      "poster": "https://image.tmdb.org/t/p/w500/67lqoQrhvby2iNfNQnFGZgXemfB.jpg",
-      "posterShape": "poster",
-      "description": "Forced to flee the UK and go into hiding in the 1990s, when he became a mole from within the BNP, Matthew Collins returned to Britain to make a new life for himself,  working with young white men in the fight against radicalisation.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt22175166"
-    },
-    {
       "id": "tt14063678",
       "type": "series",
       "name": "The Gold",
@@ -287,6 +273,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt19853270"
+    },
+    {
+      "id": "tt22091076",
+      "type": "series",
+      "name": "High Potential",
+      "poster": "https://image.tmdb.org/t/p/w500/xCtaUDBUP1iKqtoqpHfeH1T2pWF.jpg",
+      "posterShape": "poster",
+      "description": "Morgan is a single mom with an exceptional mind, whose unconventional knack for solving crimes leads to an unusual and unstoppable partnership with a by-the-book seasoned detective.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt22091076"
     }
   ]
 }
