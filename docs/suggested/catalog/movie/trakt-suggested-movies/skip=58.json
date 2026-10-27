@@ -1,33 +1,32 @@
 {
   "metas": [
     {
-      "id": "tt15574124",
+      "id": "tt31434639",
       "type": "movie",
-      "name": "Peaky Blinders: The Immortal Man",
-      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+      "name": "Warfare",
+      "poster": "https://image.tmdb.org/t/p/w500/l39TlELomwysfsr37vrvCV6rmaQ.jpg",
       "posterShape": "poster",
-      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+      "description": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
       "genres": [
-        "Crime",
-        "Drama"
+        "War",
+        "Action"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt15574124"
+      "releaseInfo": "2025",
+      "imdb_id": "tt31434639"
     },
     {
-      "id": "tt0425112",
+      "id": "tt31349844",
       "type": "movie",
-      "name": "Hot Fuzz",
-      "poster": "https://image.tmdb.org/t/p/w500/zPib4ukTSdXvHP9pxGkFCe34f3y.jpg",
+      "name": "Runner",
+      "poster": "https://image.tmdb.org/t/p/w500/vJk2TW1QZAmBiD7oj9ZF9EPTYY1.jpg",
       "posterShape": "poster",
-      "description": "Former London constable Nicholas Angel finds it difficult to adapt to his new assignment in the sleepy British village of Sandford. Not only does he miss the excitement of the big city, but he also has a well-meaning oaf for a partner. However, when a series of grisly accidents rocks Sandford, Angel smells something rotten in the idyllic village.",
+      "description": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
       "genres": [
-        "Crime",
         "Action",
         "Comedy"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0425112"
+      "releaseInfo": "2026",
+      "imdb_id": "tt31349844"
     }
   ]
 }

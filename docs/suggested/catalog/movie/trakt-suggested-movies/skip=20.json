@@ -1,47 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt0401792",
+      "id": "tt11539996",
       "type": "movie",
-      "name": "Sin City",
-      "poster": "https://image.tmdb.org/t/p/w500/i66G50wATMmPrvpP95f0XP6ZdVS.jpg",
+      "name": "Relay",
+      "poster": "https://image.tmdb.org/t/p/w500/mpwccO2L8LUVtVTJTdgUVgoQqAo.jpg",
       "posterShape": "poster",
-      "description": "Welcome to Sin City. This town beckons to the tough, the corrupt, the brokenhearted. Some call it dark… Hard-boiled. Then there are those who call it home — Crooked cops, sexy dames, desperate vigilantes. Some are seeking revenge, others lust after redemption, and then there are those hoping for a little of both. A universe of unlikely and reluctant heroes still trying to do the right thing in a city that refuses to care.",
+      "description": "A broker of lucrative payoffs between corrupt corporations and the individuals who threaten them breaks his own rules when a new client seeks his protection to stay alive.",
       "genres": [
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0401792"
-    },
-    {
-      "id": "tt3799694",
-      "type": "movie",
-      "name": "The Nice Guys",
-      "poster": "https://image.tmdb.org/t/p/w500/clq4So9spa9cXk3MZy2iMdqkxP2.jpg",
-      "posterShape": "poster",
-      "description": "A private eye investigates the apparent suicide of a fading porn star in 1970s Los Angeles and uncovers a conspiracy.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Action"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt3799694"
-    },
-    {
-      "id": "tt21103218",
-      "type": "movie",
-      "name": "The Lost Bus",
-      "poster": "https://image.tmdb.org/t/p/w500/4IPxzGlE17fJAwUTMul4opMeutA.jpg",
-      "posterShape": "poster",
-      "description": "A determined father risks everything to rescue a dedicated teacher and her students from a raging wildfire.",
-      "genres": [
+        "Action",
         "Drama",
         "Thriller"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt21103218"
+      "imdb_id": "tt11539996"
     },
     {
       "id": "tt36042156",
@@ -73,6 +45,35 @@
       "imdb_id": "tt7526136"
     },
     {
+      "id": "tt21103218",
+      "type": "movie",
+      "name": "The Lost Bus",
+      "poster": "https://image.tmdb.org/t/p/w500/4IPxzGlE17fJAwUTMul4opMeutA.jpg",
+      "posterShape": "poster",
+      "description": "A determined father risks everything to rescue a dedicated teacher and her students from a raging wildfire.",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt21103218"
+    },
+    {
+      "id": "tt15314262",
+      "type": "movie",
+      "name": "The Beekeeper",
+      "poster": "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+      "posterShape": "poster",
+      "description": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15314262"
+    },
+    {
       "id": "tt1130884",
       "type": "movie",
       "name": "Shutter Island",
@@ -86,21 +87,6 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1130884"
-    },
-    {
-      "id": "tt5537002",
-      "type": "movie",
-      "name": "Killers of the Flower Moon",
-      "poster": "https://image.tmdb.org/t/p/w500/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
-      "posterShape": "poster",
-      "description": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
-      "genres": [
-        "Crime",
-        "History",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt5537002"
     },
     {
       "id": "tt0452623",
@@ -118,19 +104,34 @@
       "imdb_id": "tt0452623"
     },
     {
-      "id": "tt19864802",
+      "id": "tt31050020",
       "type": "movie",
-      "name": "Land of Bad",
-      "poster": "https://image.tmdb.org/t/p/w500/h3jYanWMEJq6JJsCopy1h7cT2Hs.jpg",
+      "name": "Once Upon a Deadpool",
+      "poster": "https://image.tmdb.org/t/p/w500/w6Jk8BHohhoKBUcxGeSyDQGWGWc.jpg",
       "posterShape": "poster",
-      "description": "When a Delta Force special ops mission goes terribly wrong, Air Force drone pilot Reaper has 48 hours to remedy what has devolved into a wild rescue operation. With no weapons and no communication other than the drone above, the ground mission suddenly becomes a full-scale battle when the team is discovered by the enemy.",
+      "description": "A kidnapped Fred Savage is forced to endure Deadpool's PG-13 rendition of Deadpool 2, as a Princess Bride-esque story full of magic, wonder, and zero Fs.",
       "genres": [
         "Action",
-        "War",
-        "Thriller"
+        "Comedy",
+        "Adventure"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt19864802"
+      "releaseInfo": "2018",
+      "imdb_id": "tt31050020"
+    },
+    {
+      "id": "tt5537002",
+      "type": "movie",
+      "name": "Killers of the Flower Moon",
+      "poster": "https://image.tmdb.org/t/p/w500/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
+      "posterShape": "poster",
+      "description": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
+      "genres": [
+        "Crime",
+        "History",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt5537002"
     },
     {
       "id": "tt12593682",
@@ -148,19 +149,19 @@
       "imdb_id": "tt12593682"
     },
     {
-      "id": "tt2582802",
+      "id": "tt0477348",
       "type": "movie",
-      "name": "Whiplash",
-      "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+      "name": "No Country for Old Men",
+      "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
       "posterShape": "poster",
-      "description": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
+      "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
       "genres": [
-        "Drama",
-        "Music",
-        "Thriller"
+        "Crime",
+        "Thriller",
+        "Western"
       ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2582802"
+      "releaseInfo": "2007",
+      "imdb_id": "tt0477348"
     },
     {
       "id": "tt0985699",
@@ -193,76 +194,81 @@
       "imdb_id": "tt1212450"
     },
     {
-      "id": "tt0477348",
+      "id": "tt2582802",
       "type": "movie",
-      "name": "No Country for Old Men",
-      "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+      "name": "Whiplash",
+      "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
       "posterShape": "poster",
-      "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
+      "description": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
       "genres": [
-        "Crime",
-        "Thriller",
-        "Western"
+        "Drama",
+        "Music",
+        "Thriller"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0477348"
+      "releaseInfo": "2014",
+      "imdb_id": "tt2582802"
     },
     {
-      "id": "tt15314262",
+      "id": "tt19864802",
       "type": "movie",
-      "name": "The Beekeeper",
-      "poster": "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+      "name": "Land of Bad",
+      "poster": "https://image.tmdb.org/t/p/w500/h3jYanWMEJq6JJsCopy1h7cT2Hs.jpg",
       "posterShape": "poster",
-      "description": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+      "description": "When a Delta Force special ops mission goes terribly wrong, Air Force drone pilot Reaper has 48 hours to remedy what has devolved into a wild rescue operation. With no weapons and no communication other than the drone above, the ground mission suddenly becomes a full-scale battle when the team is discovered by the enemy.",
       "genres": [
         "Action",
-        "Crime",
+        "War",
         "Thriller"
       ],
       "releaseInfo": "2024",
-      "imdb_id": "tt15314262"
+      "imdb_id": "tt19864802"
     },
     {
-      "id": "tt5390504",
+      "id": "tt8946378",
       "type": "movie",
-      "name": "Detroit",
-      "poster": "https://image.tmdb.org/t/p/w500/r0ldqSFASpqSM5xTrpcZGO6Ef2G.jpg",
+      "name": "Knives Out",
+      "poster": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
       "posterShape": "poster",
-      "description": "A police raid in Detroit in 1967 results in one of the largest citizens' uprisings in the history of the United States.",
+      "description": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
       "genres": [
-        "Drama",
-        "Thriller",
-        "History"
+        "Comedy",
+        "Crime",
+        "Mystery"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt5390504"
+      "releaseInfo": "2019",
+      "imdb_id": "tt8946378"
     },
     {
-      "id": "tt0342258",
+      "id": "tt1156466",
       "type": "movie",
-      "name": "Unleashed",
-      "poster": "https://image.tmdb.org/t/p/w500/gghvmS3UxtOw1UHIgYjpeZNxHil.jpg",
+      "name": "Undisputed III: Redemption",
+      "poster": "https://image.tmdb.org/t/p/w500/g8KB77SPA7SyU8eid6TAEpt9skU.jpg",
       "posterShape": "poster",
-      "description": "Raised as a slave, Danny is used to fighting for his survival. In fact, his \"master,\" Bart, thinks of him as a pet and goes as far as leashing him with a collar so they can make money in fight clubs, where Danny is the main contender. When Bart's crew is in a car accident, Danny escapes and meets a blind, kindhearted piano tuner who takes him in and uses music to free the fighter's long-buried heart.",
+      "description": "Russian inmate Boyka, now severely hobbled by the knee injury suffered at the end of Undisputed 2. No longer the feared prison fighter he was, he has declined so far that he is now good only for cleaning toilets. But when a new prison fight tournament begins - an international affair, matching the best fighters from prisons around the globe, enticing them with the promise of freedom for the winner - Boyka must reclaim his dignity and fight for his position in the tournament.",
       "genres": [
         "Action",
-        "Crime"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0342258"
-    },
-    {
-      "id": "tt0469494",
-      "type": "movie",
-      "name": "There Will Be Blood",
-      "poster": "https://image.tmdb.org/t/p/w500/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
-      "posterShape": "poster",
-      "description": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's motives and intentions, starting a slow-burning feud that threatens both their lives.",
-      "genres": [
+        "Thriller",
+        "Crime",
         "Drama"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0469494"
+      "releaseInfo": "2010",
+      "imdb_id": "tt1156466"
+    },
+    {
+      "id": "tt3501632",
+      "type": "movie",
+      "name": "Thor: Ragnarok",
+      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "posterShape": "poster",
+      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt3501632"
     },
     {
       "id": "tt30144839",
@@ -280,19 +286,20 @@
       "imdb_id": "tt30144839"
     },
     {
-      "id": "tt33296751",
+      "id": "tt3344680",
       "type": "movie",
-      "name": "Tuner",
-      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
+      "name": "Boyka: Undisputed IV",
+      "poster": "https://image.tmdb.org/t/p/w500/7QGdIJWWTkPhVjpQ0zA6z69khod.jpg",
       "posterShape": "poster",
-      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
+      "description": "In the fourth installment of the fighting franchise, Boyka is shooting for the big leagues when an accidental death in the ring makes him question everything he stands for. When he finds out the wife of the man he accidentally killed is in trouble, Boyka offers to fight in a series of impossible battles to free her from a life of servitude.",
       "genres": [
-        "Crime",
+        "Action",
         "Drama",
-        "Thriller"
+        "Thriller",
+        "Crime"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33296751"
+      "releaseInfo": "2016",
+      "imdb_id": "tt3344680"
     }
   ]
 }

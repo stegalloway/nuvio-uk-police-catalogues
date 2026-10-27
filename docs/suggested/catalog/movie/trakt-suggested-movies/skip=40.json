@@ -17,35 +17,61 @@
       "imdb_id": "tt0373469"
     },
     {
-      "id": "tt15398776",
+      "id": "tt0469494",
       "type": "movie",
-      "name": "Oppenheimer",
-      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "name": "There Will Be Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
       "posterShape": "poster",
-      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+      "description": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's motives and intentions, starting a slow-burning feud that threatens both their lives.",
       "genres": [
-        "Drama",
-        "History",
-        "War"
+        "Drama"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15398776"
+      "releaseInfo": "2007",
+      "imdb_id": "tt0469494"
     },
     {
-      "id": "tt3501632",
+      "id": "tt33296751",
       "type": "movie",
-      "name": "Thor: Ragnarok",
-      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "name": "Tuner",
+      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
       "posterShape": "poster",
-      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
       "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Science Fiction"
+        "Crime",
+        "Drama",
+        "Thriller"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt3501632"
+      "releaseInfo": "2026",
+      "imdb_id": "tt33296751"
+    },
+    {
+      "id": "tt0765443",
+      "type": "movie",
+      "name": "Eastern Promises",
+      "poster": "https://image.tmdb.org/t/p/w500/nLwv1pxRCRZucQaqs6oPkq7HH3K.jpg",
+      "posterShape": "poster",
+      "description": "A Russian teenager living in London dies during childbirth but leaves clues in her diary that could tie her child to a rape involving a violent Russian mob family.",
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0765443"
+    },
+    {
+      "id": "tt1190536",
+      "type": "movie",
+      "name": "Black Dynamite",
+      "poster": "https://image.tmdb.org/t/p/w500/u3oWQDz0JggzzsVlsuHY7XVxp5Y.jpg",
+      "posterShape": "poster",
+      "description": "This is the story of 1970s African-American action legend Black Dynamite. The Man killed his brother, pumped heroin into local orphanages, and flooded the ghetto with adulterated malt liquor. Black Dynamite was the one hero willing to fight The Man all the way from the blood-soaked city streets to the hallowed halls of the Honky House.",
+      "genres": [
+        "Comedy",
+        "Action"
+      ],
+      "releaseInfo": "2009",
+      "imdb_id": "tt1190536"
     },
     {
       "id": "tt14114802",
@@ -64,19 +90,50 @@
       "imdb_id": "tt14114802"
     },
     {
-      "id": "tt0765443",
+      "id": "tt0346631",
       "type": "movie",
-      "name": "Eastern Promises",
-      "poster": "https://image.tmdb.org/t/p/w500/nLwv1pxRCRZucQaqs6oPkq7HH3K.jpg",
+      "name": "Blood and Bone",
+      "poster": "https://image.tmdb.org/t/p/w500/4XoqjwKhqN3GlGt0fQtcY2OhkZq.jpg",
       "posterShape": "poster",
-      "description": "A Russian teenager living in London dies during childbirth but leaves clues in her diary that could tie her child to a rape involving a violent Russian mob family.",
+      "description": "In Los Angeles, an ex-con takes the underground fighting world by storm in his quest to fulfill a promise to a dead friend.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2009",
+      "imdb_id": "tt0346631"
+    },
+    {
+      "id": "tt15398776",
+      "type": "movie",
+      "name": "Oppenheimer",
+      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "posterShape": "poster",
+      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15398776"
+    },
+    {
+      "id": "tt14364480",
+      "type": "movie",
+      "name": "Wake Up Dead Man: A Knives Out Mystery",
+      "poster": "https://image.tmdb.org/t/p/w500/iV9LM8aUb83BjCCx2RUnKE5sSQg.jpg",
+      "posterShape": "poster",
+      "description": "When young priest Jud Duplenticy is sent to assist charismatic firebrand Monsignor Jefferson Wicks, it’s clear that all is not well in the pews. After a sudden and seemingly impossible murder rocks the town, the lack of an obvious suspect prompts local police chief Geraldine Scott to join forces with renowned detective Benoit Blanc to unravel a mystery that defies all logic.",
       "genres": [
         "Thriller",
-        "Crime",
-        "Mystery"
+        "Mystery",
+        "Comedy"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0765443"
+      "releaseInfo": "2025",
+      "imdb_id": "tt14364480"
     },
     {
       "id": "tt20215234",
@@ -91,51 +148,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt20215234"
-    },
-    {
-      "id": "tt8946378",
-      "type": "movie",
-      "name": "Knives Out",
-      "poster": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
-      "posterShape": "poster",
-      "description": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8946378"
-    },
-    {
-      "id": "tt0765010",
-      "type": "movie",
-      "name": "Brothers",
-      "poster": "https://image.tmdb.org/t/p/w500/skHqceAFYee0JZuYd9MVk2IQggi.jpg",
-      "posterShape": "poster",
-      "description": "When his helicopter goes down during his fourth tour of duty in Afghanistan, Marine Sam Cahill is presumed dead. Back home, brother Tommy steps in to look over Sam’s wife, Grace, and two children. Sam’s surprise homecoming triggers domestic mayhem.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "War"
-      ],
-      "releaseInfo": "2009",
-      "imdb_id": "tt0765010"
-    },
-    {
-      "id": "tt2802144",
-      "type": "movie",
-      "name": "Kingsman: The Secret Service",
-      "poster": "https://image.tmdb.org/t/p/w500/r6q9wZK5a2K51KFj4LWVID6Ja1r.jpg",
-      "posterShape": "poster",
-      "description": "The story of a super-secret spy organization that recruits an unrefined but promising street kid into the agency's ultra-competitive training program just as a global threat emerges from a twisted tech genius.",
-      "genres": [
-        "Crime",
-        "Comedy",
-        "Action"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt2802144"
     },
     {
       "id": "tt3922798",
@@ -183,34 +195,34 @@
       "imdb_id": "tt32550101"
     },
     {
-      "id": "tt1074638",
+      "id": "tt15574124",
       "type": "movie",
-      "name": "Skyfall",
-      "poster": "https://image.tmdb.org/t/p/w500/d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg",
+      "name": "Peaky Blinders: The Immortal Man",
+      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
       "posterShape": "poster",
-      "description": "When Bond's latest assignment goes gravely wrong, agents around the world are exposed and MI6 headquarters is attacked. While M faces challenges to her authority and position from Gareth Mallory, the new Chairman of the Intelligence and Security Committee, it's up to Bond, aided only by field agent Eve, to locate the mastermind behind the attack.",
+      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
       "genres": [
-        "Action",
-        "Adventure",
-        "Thriller"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1074638"
+      "releaseInfo": "2026",
+      "imdb_id": "tt15574124"
     },
     {
-      "id": "tt14364480",
+      "id": "tt0443676",
       "type": "movie",
-      "name": "Wake Up Dead Man: A Knives Out Mystery",
-      "poster": "https://image.tmdb.org/t/p/w500/iV9LM8aUb83BjCCx2RUnKE5sSQg.jpg",
+      "name": "Undisputed II: Last Man Standing",
+      "poster": "https://image.tmdb.org/t/p/w500/2gMCokqpIJoh6u5o06LlOZWsI3k.jpg",
       "posterShape": "poster",
-      "description": "When young priest Jud Duplenticy is sent to assist charismatic firebrand Monsignor Jefferson Wicks, it’s clear that all is not well in the pews. After a sudden and seemingly impossible murder rocks the town, the lack of an obvious suspect prompts local police chief Geraldine Scott to join forces with renowned detective Benoit Blanc to unravel a mystery that defies all logic.",
+      "description": "Heavyweight Champ George \"Iceman\" Chambers is sent to a Russian jail on trumped-up drug charges. In order to win his freedom he must fight against the jailhouse fighting champ Uri Boyka in a battle to the death. This time he is not fighting for a title, he is fighting for his life!",
       "genres": [
+        "Action",
+        "Crime",
         "Thriller",
-        "Mystery",
-        "Comedy"
+        "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt14364480"
+      "releaseInfo": "2006",
+      "imdb_id": "tt0443676"
     },
     {
       "id": "tt31450182",
@@ -225,21 +237,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt31450182"
-    },
-    {
-      "id": "tt5463162",
-      "type": "movie",
-      "name": "Deadpool 2",
-      "poster": "https://image.tmdb.org/t/p/w500/gyfPKfFYcVW54MoqhYlwwDDIfJR.jpg",
-      "posterShape": "poster",
-      "description": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Adventure"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt5463162"
     },
     {
       "id": "tt0783640",
@@ -257,48 +254,47 @@
       "imdb_id": "tt0783640"
     },
     {
-      "id": "tt0144084",
+      "id": "tt4627382",
       "type": "movie",
-      "name": "American Psycho",
-      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
+      "name": "Roofman",
+      "poster": "https://image.tmdb.org/t/p/w500/wXDFtcnYtevleGzCmAD2ReQnJ4l.jpg",
       "posterShape": "poster",
-      "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
-      "genres": [
-        "Thriller",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2000",
-      "imdb_id": "tt0144084"
-    },
-    {
-      "id": "tt15574124",
-      "type": "movie",
-      "name": "Peaky Blinders: The Immortal Man",
-      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
-      "posterShape": "poster",
-      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+      "description": "A former Army Ranger and struggling father turns to robbing McDonald’s restaurants by cutting holes in their roofs, earning him the nickname \"Roofman.\" After escaping prison, he secretly lives inside a Toys “R” Us for six months, surviving undetected while planning his next move. But when he falls for a divorced mom drawn to his undeniable charm, his double life begins to unravel, setting off a compelling and suspenseful game of cat and mouse as his past closes in.",
       "genres": [
         "Crime",
+        "Comedy",
         "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt15574124"
+      "releaseInfo": "2025",
+      "imdb_id": "tt4627382"
     },
     {
-      "id": "tt0425112",
+      "id": "tt31434639",
       "type": "movie",
-      "name": "Hot Fuzz",
-      "poster": "https://image.tmdb.org/t/p/w500/zPib4ukTSdXvHP9pxGkFCe34f3y.jpg",
+      "name": "Warfare",
+      "poster": "https://image.tmdb.org/t/p/w500/l39TlELomwysfsr37vrvCV6rmaQ.jpg",
       "posterShape": "poster",
-      "description": "Former London constable Nicholas Angel finds it difficult to adapt to his new assignment in the sleepy British village of Sandford. Not only does he miss the excitement of the big city, but he also has a well-meaning oaf for a partner. However, when a series of grisly accidents rocks Sandford, Angel smells something rotten in the idyllic village.",
+      "description": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
       "genres": [
-        "Crime",
+        "War",
+        "Action"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31434639"
+    },
+    {
+      "id": "tt31349844",
+      "type": "movie",
+      "name": "Runner",
+      "poster": "https://image.tmdb.org/t/p/w500/vJk2TW1QZAmBiD7oj9ZF9EPTYY1.jpg",
+      "posterShape": "poster",
+      "description": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
+      "genres": [
         "Action",
         "Comedy"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0425112"
+      "releaseInfo": "2026",
+      "imdb_id": "tt31349844"
     }
   ]
 }

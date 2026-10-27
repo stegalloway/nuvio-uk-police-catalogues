@@ -1,19 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt5463162",
+      "id": "tt31450182",
       "type": "movie",
-      "name": "Deadpool 2",
-      "poster": "https://image.tmdb.org/t/p/w500/gyfPKfFYcVW54MoqhYlwwDDIfJR.jpg",
+      "name": "Amber Alert",
+      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
       "posterShape": "poster",
-      "description": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.",
+      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
       "genres": [
-        "Action",
-        "Comedy",
-        "Adventure"
+        "Thriller",
+        "Drama"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt5463162"
+      "releaseInfo": "2024",
+      "imdb_id": "tt31450182"
     },
     {
       "id": "tt0783640",
@@ -31,48 +30,47 @@
       "imdb_id": "tt0783640"
     },
     {
-      "id": "tt0144084",
+      "id": "tt4627382",
       "type": "movie",
-      "name": "American Psycho",
-      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
+      "name": "Roofman",
+      "poster": "https://image.tmdb.org/t/p/w500/wXDFtcnYtevleGzCmAD2ReQnJ4l.jpg",
       "posterShape": "poster",
-      "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
-      "genres": [
-        "Thriller",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2000",
-      "imdb_id": "tt0144084"
-    },
-    {
-      "id": "tt15574124",
-      "type": "movie",
-      "name": "Peaky Blinders: The Immortal Man",
-      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
-      "posterShape": "poster",
-      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+      "description": "A former Army Ranger and struggling father turns to robbing McDonald’s restaurants by cutting holes in their roofs, earning him the nickname \"Roofman.\" After escaping prison, he secretly lives inside a Toys “R” Us for six months, surviving undetected while planning his next move. But when he falls for a divorced mom drawn to his undeniable charm, his double life begins to unravel, setting off a compelling and suspenseful game of cat and mouse as his past closes in.",
       "genres": [
         "Crime",
+        "Comedy",
         "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt15574124"
+      "releaseInfo": "2025",
+      "imdb_id": "tt4627382"
     },
     {
-      "id": "tt0425112",
+      "id": "tt31434639",
       "type": "movie",
-      "name": "Hot Fuzz",
-      "poster": "https://image.tmdb.org/t/p/w500/zPib4ukTSdXvHP9pxGkFCe34f3y.jpg",
+      "name": "Warfare",
+      "poster": "https://image.tmdb.org/t/p/w500/l39TlELomwysfsr37vrvCV6rmaQ.jpg",
       "posterShape": "poster",
-      "description": "Former London constable Nicholas Angel finds it difficult to adapt to his new assignment in the sleepy British village of Sandford. Not only does he miss the excitement of the big city, but he also has a well-meaning oaf for a partner. However, when a series of grisly accidents rocks Sandford, Angel smells something rotten in the idyllic village.",
+      "description": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
       "genres": [
-        "Crime",
+        "War",
+        "Action"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31434639"
+    },
+    {
+      "id": "tt31349844",
+      "type": "movie",
+      "name": "Runner",
+      "poster": "https://image.tmdb.org/t/p/w500/vJk2TW1QZAmBiD7oj9ZF9EPTYY1.jpg",
+      "posterShape": "poster",
+      "description": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
+      "genres": [
         "Action",
         "Comedy"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0425112"
+      "releaseInfo": "2026",
+      "imdb_id": "tt31349844"
     }
   ]
 }
