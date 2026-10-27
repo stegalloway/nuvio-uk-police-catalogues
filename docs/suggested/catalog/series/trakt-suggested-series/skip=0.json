@@ -255,20 +255,6 @@
       "imdb_id": "tt9742936"
     },
     {
-      "id": "tt5574490",
-      "type": "series",
-      "name": "Animal Kingdom",
-      "poster": "https://image.tmdb.org/t/p/w500/rzvdKrnSRKPFI0pgqMQknDPpRC9.jpg",
-      "posterShape": "poster",
-      "description": "17-year-old Joshua \"J\" Cody moves in with his freewheeling relatives in their Southern California beach town after his mother dies of a heroin overdose. Headed by boot-tough matriarch Janine \"Smurf\" Cody and her right-hand Baz, who runs the business and calls the shots, the clan also consists of Pope, the oldest and most dangerous of the Cody boys; Craig, the tough and fearless middle son; and Deran, the troubled, suspicious \"baby\" of the family.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt5574490"
-    },
-    {
       "id": "tt1489428",
       "type": "series",
       "name": "Justified",
@@ -281,6 +267,21 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1489428"
+    },
+    {
+      "id": "tt20285780",
+      "type": "series",
+      "name": "The Artful Dodger",
+      "poster": "https://image.tmdb.org/t/p/w500/lcyax0pIH6vZWbho2hxsMTt9KpN.jpg",
+      "posterShape": "poster",
+      "description": "It's a tale of reinvention, betrayal, redemption, and love with a twist. Jack Dawkins is The Artful Dodger, whose pickpocketing fingers have become the skilled hands of a surgeon. He is torn between an impossible love and the criminal underworld he secretly craves. This will require Artfulness.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt20285780"
     }
   ]
 }

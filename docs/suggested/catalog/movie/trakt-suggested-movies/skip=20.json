@@ -1,48 +1,79 @@
 {
   "metas": [
     {
-      "id": "tt0209144",
+      "id": "tt37971717",
       "type": "movie",
-      "name": "Memento",
-      "poster": "https://image.tmdb.org/t/p/w500/nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
+      "name": "One Last Shot",
+      "poster": "https://image.tmdb.org/t/p/w500/niQ4NBh2jqAf1hDZP5m6ReWFAb7.jpg",
       "posterShape": "poster",
-      "description": "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
-      "genres": [
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2000",
-      "imdb_id": "tt0209144"
-    },
-    {
-      "id": "tt0258463",
-      "type": "movie",
-      "name": "The Bourne Identity",
-      "poster": "https://image.tmdb.org/t/p/w500/aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
-      "posterShape": "poster",
-      "description": "Wounded to the brink of death and suffering from amnesia, Jason Bourne is rescued at sea by a fisherman. With nothing to go on but a Swiss bank account number, he starts to reconstruct his life, but finds that many people he encounters want him dead. However, Bourne realizes that he has the combat and mental skills of a world-class spy—but who does he work for?",
+      "description": "Navy Seal Jake Harris must stop a team of mercenaries, led by his disillusioned former comrade, from disabling the US missile defense network.",
       "genres": [
         "Action",
-        "Mystery",
         "Thriller"
       ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0258463"
+      "releaseInfo": "2026",
+      "imdb_id": "tt37971717"
     },
     {
-      "id": "tt32550101",
+      "id": "tt5537002",
       "type": "movie",
-      "name": "STRAW",
-      "poster": "https://image.tmdb.org/t/p/w500/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg",
+      "name": "Killers of the Flower Moon",
+      "poster": "https://image.tmdb.org/t/p/w500/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
       "posterShape": "poster",
-      "description": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
+      "description": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
       "genres": [
-        "Thriller",
+        "Crime",
+        "History",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt5537002"
+    },
+    {
+      "id": "tt32537226",
+      "type": "movie",
+      "name": "Hunting Season",
+      "poster": "https://image.tmdb.org/t/p/w500/cbryTyaWdqrKpQCw6K7zm2jrB5v.jpg",
+      "posterShape": "poster",
+      "description": "When a reclusive survivalist and his daughter rescue a mysterious, wounded woman from a river, they become entangled in a deadly web of violence and revenge, forcing them to confront a brutal criminal to survive.",
+      "genres": [
+        "Action",
         "Drama",
-        "Crime"
+        "Thriller"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt32550101"
+      "imdb_id": "tt32537226"
+    },
+    {
+      "id": "tt32357218",
+      "type": "movie",
+      "name": "Shelter",
+      "poster": "https://image.tmdb.org/t/p/w500/cv7DeQQ7TOozPoTCBdNJIvWKhU1.jpg",
+      "posterShape": "poster",
+      "description": "A man living in self-imposed exile on a remote island rescues a young girl from a violent storm, setting off a chain of events that forces him out of seclusion to protect her from enemies tied to his past.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32357218"
+    },
+    {
+      "id": "tt0425210",
+      "type": "movie",
+      "name": "Lucky Number Slevin",
+      "poster": "https://image.tmdb.org/t/p/w500/x21s3p5wPww534nYj1cWakTcqz4.jpg",
+      "posterShape": "poster",
+      "description": "Slevin is mistakenly put in the middle of a personal war between the city’s biggest criminal bosses. Under constant watch, Slevin must try not to get killed by an infamous assassin and come up with an idea of how to get out of his current dilemma.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2006",
+      "imdb_id": "tt0425210"
     },
     {
       "id": "tt1130884",
@@ -60,19 +91,19 @@
       "imdb_id": "tt1130884"
     },
     {
-      "id": "tt30144839",
+      "id": "tt32550101",
       "type": "movie",
-      "name": "One Battle After Another",
-      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
+      "name": "STRAW",
+      "poster": "https://image.tmdb.org/t/p/w500/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg",
       "posterShape": "poster",
-      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+      "description": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
       "genres": [
         "Thriller",
-        "Crime",
-        "Comedy"
+        "Drama",
+        "Crime"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt30144839"
+      "imdb_id": "tt32550101"
     },
     {
       "id": "tt7526136",
@@ -89,33 +120,19 @@
       "imdb_id": "tt7526136"
     },
     {
-      "id": "tt0452623",
+      "id": "tt30144839",
       "type": "movie",
-      "name": "Gone Baby Gone",
-      "poster": "https://image.tmdb.org/t/p/w500/w98tAPUjNPxGAMCipNDWDt8PJo.jpg",
+      "name": "One Battle After Another",
+      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
       "posterShape": "poster",
-      "description": "When 4 year old Amanda McCready disappears from her home and the police make little headway in solving the case, the girl's aunt, Beatrice McCready hires two private detectives, Patrick Kenzie and Angie Gennaro. The detectives freely admit that they have little experience with this type of case, but the family wants them for two reasons—they're not cops and they know the tough neighborhood in which they all live.",
+      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
       "genres": [
+        "Thriller",
         "Crime",
-        "Drama",
-        "Mystery"
+        "Comedy"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0452623"
-    },
-    {
-      "id": "tt38672588",
-      "type": "movie",
-      "name": "Masterplan",
-      "poster": "https://image.tmdb.org/t/p/w500/5xmXVd7nCK3tAo34XkO58SxUCip.jpg",
-      "posterShape": "poster",
-      "description": "When a legendary thief sets his sights on the Mona Lisa, he recruits two young strangers to help him before revealing they are long-lost siblings… and oh yes, by the way, he is their father. Thrown into a chaotic reunion they never asked for, this new family must learn to work together — and try not to kill each other — if they want any chance at pulling off the heist of the century.",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt38672588"
+      "releaseInfo": "2025",
+      "imdb_id": "tt30144839"
     },
     {
       "id": "tt21103218",
@@ -132,6 +149,35 @@
       "imdb_id": "tt21103218"
     },
     {
+      "id": "tt38672588",
+      "type": "movie",
+      "name": "Masterplan",
+      "poster": "https://image.tmdb.org/t/p/w500/5xmXVd7nCK3tAo34XkO58SxUCip.jpg",
+      "posterShape": "poster",
+      "description": "When a legendary thief sets his sights on the Mona Lisa, he recruits two young strangers to help him before revealing they are long-lost siblings… and oh yes, by the way, he is their father. Thrown into a chaotic reunion they never asked for, this new family must learn to work together — and try not to kill each other — if they want any chance at pulling off the heist of the century.",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt38672588"
+    },
+    {
+      "id": "tt0477348",
+      "type": "movie",
+      "name": "No Country for Old Men",
+      "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+      "posterShape": "poster",
+      "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Western"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0477348"
+    },
+    {
       "id": "tt31192372",
       "type": "movie",
       "name": "Fall 2: Deadpoint",
@@ -145,20 +191,19 @@
       "imdb_id": "tt31192372"
     },
     {
-      "id": "tt0425210",
+      "id": "tt4172430",
       "type": "movie",
-      "name": "Lucky Number Slevin",
-      "poster": "https://image.tmdb.org/t/p/w500/x21s3p5wPww534nYj1cWakTcqz4.jpg",
+      "name": "13 Hours: The Secret Soldiers of Benghazi",
+      "poster": "https://image.tmdb.org/t/p/w500/fZlAxZMo6BId1SiqyjLmkd7oUB7.jpg",
       "posterShape": "poster",
-      "description": "Slevin is mistakenly put in the middle of a personal war between the city’s biggest criminal bosses. Under constant watch, Slevin must try not to get killed by an infamous assassin and come up with an idea of how to get out of his current dilemma.",
+      "description": "An American Ambassador is killed during an attack at a U.S. compound in Libya as a security team struggles to make sense out of the chaos.",
       "genres": [
-        "Drama",
-        "Thriller",
-        "Crime",
-        "Mystery"
+        "Action",
+        "War",
+        "Thriller"
       ],
-      "releaseInfo": "2006",
-      "imdb_id": "tt0425210"
+      "releaseInfo": "2016",
+      "imdb_id": "tt4172430"
     },
     {
       "id": "tt31189814",
@@ -191,21 +236,6 @@
       "imdb_id": "tt9603212"
     },
     {
-      "id": "tt0477348",
-      "type": "movie",
-      "name": "No Country for Old Men",
-      "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
-      "posterShape": "poster",
-      "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Western"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0477348"
-    },
-    {
       "id": "tt1229238",
       "type": "movie",
       "name": "Mission: Impossible - Ghost Protocol",
@@ -236,19 +266,19 @@
       "imdb_id": "tt9603208"
     },
     {
-      "id": "tt33296751",
+      "id": "tt0292963",
       "type": "movie",
-      "name": "Tuner",
-      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
+      "name": "Before the Devil Knows You're Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/h4QXi4Ysuc3zICiK9jHxjCAK9Oh.jpg",
       "posterShape": "poster",
-      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
+      "description": "When two brothers organize the robbery of their parents' jewelry store, the job goes horribly wrong, triggering a series of events that send them and their family hurtling towards a shattering climax.",
       "genres": [
         "Crime",
         "Drama",
         "Thriller"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33296751"
+      "releaseInfo": "2007",
+      "imdb_id": "tt0292963"
     },
     {
       "id": "tt11539996",
@@ -264,37 +294,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt11539996"
-    },
-    {
-      "id": "tt1212450",
-      "type": "movie",
-      "name": "Lawless",
-      "poster": "https://image.tmdb.org/t/p/w500/Ahtzwts22ayviD3LEVslfL4nRWB.jpg",
-      "posterShape": "poster",
-      "description": "In 1931, the Bondurant brothers of Franklin County, Virginia, run a multipurpose backwoods establishment that hides their true business — bootlegging. Middle brother Forrest is the brain of the operation; older Howard is the brawn, and younger Jack, the lookout. Though the local police have taken bribes and left the brothers alone, a violent war erupts when a sadistic lawman from Chicago arrives and tries to shut down the Bondurants operation.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Western"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1212450"
-    },
-    {
-      "id": "tt27757546",
-      "type": "movie",
-      "name": "Diablo",
-      "poster": "https://image.tmdb.org/t/p/w500/uFQduVyYIinJy3eLjozgfl6Xtcn.jpg",
-      "posterShape": "poster",
-      "description": "Ex-con Kris Chaney seizes the daughter of a Colombian gangster to fulfill a noble promise to the young girl's mother. When her father enlists both the criminal underworld and a psychotic killer to exact his revenge, Kris relies on everything he's ever learned to stay alive and keep his word.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt27757546"
     }
   ]
 }
