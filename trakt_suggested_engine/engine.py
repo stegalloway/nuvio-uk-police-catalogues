@@ -64,7 +64,8 @@ class EngineConfig:
     upcoming_horizon_days: int = 90
     # A show stays on that row this many days after a new episode is out, as
     # "Out now", while the viewer was caught up before it and hasn't watched it.
-    out_now_days: int = 7
+    # Season premieres of watchlisted shows not started yet use the same window.
+    out_now_days: int = 30
     # Taste profile (gates, For You queries, theme weighting): a PROFILES key.
     profile: str = "ste"
 
@@ -483,6 +484,39 @@ def out_now_episodes(state: Mapping, seasons: Sequence[Mapping], now: datetime, 
             "episode_name": first[3] if len(new) == 1 else "", "out_now": True}
 
 
+def watchlist_premiere(detail: Mapping, today: date, horizon_days: int, out_now_days: int) -> dict | None:
+    """A season premiere of a watchlisted show the viewer hasn't started, or None.
+
+    Due: TMDB's next episode opens a season and is dated from today to today +
+    horizon_days. Out now: a season that premiered in the last out_now_days days.
+    Mid-season episodes are left out: someone who hasn't started a show starts at
+    its beginning, not at next week's episode.
+    """
+    upcoming = detail.get("next_episode_to_air")
+    if isinstance(upcoming, Mapping) and w._int(upcoming.get("episode_number")) == 1:
+        try:
+            airs = date.fromisoformat(str(upcoming.get("air_date") or "")[:10])
+        except ValueError:
+            airs = None
+        if airs and today <= airs <= today + timedelta(days=horizon_days):
+            return {"air_date": airs.isoformat(), "season_number": w._int(upcoming.get("season_number")),
+                    "episode_number": 1, "episode_name": str(upcoming.get("name") or "").strip()}
+    latest = detail.get("last_episode_to_air")
+    for season in detail.get("seasons") or []:
+        number = w._int(season.get("season_number"))
+        try:
+            premiered = date.fromisoformat(str(season.get("air_date") or "")[:10])
+        except ValueError:
+            continue
+        if number and today - timedelta(days=out_now_days) <= premiered <= today:
+            last = (w._int(latest.get("episode_number")) if isinstance(latest, Mapping)
+                    and w._int(latest.get("season_number")) == number else None) or 1
+            return {"air_date": premiered.isoformat(), "season_number": number, "episode_number": 1,
+                    "last_season_number": number, "last_episode_number": last, "count": last,
+                    "episode_name": "", "out_now": True}
+    return None
+
+
 def _out_now_text(episode: Mapping, today: date) -> tuple[str, str]:
     """(card line, description line), e.g. ("Out now · S6 E6", "S6 E6 · Name · out Wed 21 Oct")."""
     out = date.fromisoformat(episode["air_date"])
@@ -654,6 +688,8 @@ class SteProfile:
     name = "ste"
     # Ste found older films too old to interest him; series keep no lower limit.
     film_year_min = 2000
+    # The Trakt watchlist hides suggestions and adds premieres (Ste, 27 October 2026).
+    uses_watchlist = True
     # Kinds whose seeds gain themed history titles and their extra pages.
     themed_kinds = frozenset({"series"})
     themed_source = "organised_crime_history_recommendation"
@@ -699,6 +735,8 @@ class JennyProfile(SteProfile):
     """
 
     name = "jenny"
+    # Watchlist rules were asked for on Ste's rows only.
+    uses_watchlist = False
     themed_kinds = frozenset({"series", "movie"})
     themed_source = "themed_history_recommendation"
     # Share of a card's score from her themes; the rest is history similarity.
@@ -790,6 +828,7 @@ def generate_catalogues(
     now: datetime | str | None = None,
     config: EngineConfig | None = None,
     dismissed: Sequence[Mapping] | None = None,
+    watchlist: Sequence[Mapping] | None = None,
 ) -> dict:
     """Generate three catalogues: suggested series, suggested movies, upcoming episodes.
 
@@ -801,6 +840,10 @@ def generate_catalogues(
     dismissed holds the items of the "Not Interested" Trakt list. Those titles
     are hidden exactly like watched ones, and count as a mild dislike of their
     keywords, cast and creators (never genres) in the taste profile.
+    watchlist holds the items of the viewer's Trakt watchlist. Those titles are
+    left out of the suggestions (the viewer already has them) without counting
+    as a dislike, and season premieres of watchlisted shows the viewer hasn't
+    started join the upcoming row.
 
     Raises GenerationError for missing/insufficient input profile or output.
     Never catch that error by publishing {"metas": []}; retain the old files.
@@ -830,6 +873,11 @@ def generate_catalogues(
     dismissed = () if dismissed is None else dismissed
     if not isinstance(dismissed, (list, tuple)):
         raise GenerationError("Invalid list input: dismissed")
+    watchlist = () if watchlist is None else watchlist
+    if not isinstance(watchlist, (list, tuple)):
+        raise GenerationError("Invalid list input: watchlist")
+    if not taste.uses_watchlist:
+        watchlist = ()
     if not watched_movies or not watched_shows:
         raise GenerationError("Both movie and series watched histories are required; retain existing catalogues")
     history = w.history_from_trakt(watched_movies, watched_shows, rated_movies, rated_shows)
@@ -840,8 +888,9 @@ def generate_catalogues(
                   "input_counts": {"watched_movies": len(watched_movies), "watched_series": len(watched_shows),
                       "rated_movies": len(rated_movies), "rated_series": len(rated_shows),
                       "watched_episode_history": len(watched_episode_history),
-                      "not_interested": len(dismissed)}}}
+                      "not_interested": len(dismissed), "watchlist": len(watchlist)}}}
     upcoming_cards: dict[str, dict] = {}
+    watchlist_premieres = 0
     for kind, watch_rows in (("series", watched_shows), ("movie", watched_movies)):
         media = "tv" if kind == "series" else "movie"
         policy = taste.policy(kind)
@@ -884,12 +933,16 @@ def generate_catalogues(
             seeds.extend(i for i in themed[:config.thematic_seed_count] if i["imdb_id"] not in seed_ids)
         dismissed_imdb, dismissed_tmdb = dismissed_ids(dismissed, kind)
         dismissed_hits = set()
+        listed_imdb, listed_tmdb = dismissed_ids(watchlist, kind)
+        watchlist_hits = set()
         candidates, origins = {}, defaultdict(set)
         def merge(rows, origin):
             for raw in rows:
                 tid = w._int(raw.get("id"))
                 if tid in dismissed_tmdb:
                     dismissed_hits.add(tid)
+                elif tid in listed_tmdb:
+                    watchlist_hits.add(tid)
                 elif tid and tid not in watched_tmdb and _eligible(raw, policy, moment):
                     candidates[tid] = dict(raw)
                     origins[tid].add(origin)
@@ -960,6 +1013,9 @@ def generate_catalogues(
                 continue
             if imdb in dismissed_imdb:
                 dismissed_hits.add(raw["id"])
+                continue
+            if imdb in listed_imdb:
+                watchlist_hits.add(raw["id"])
                 continue
             if not _eligible(combined, policy, moment):
                 continue
@@ -1063,6 +1119,31 @@ def generate_catalogues(
                 short, line = (_out_now_text if episode.get("out_now") else _upcoming_text)(episode, today)
                 card.update(poster=poster, upcoming_episode=episode, upcoming_short=short, upcoming_line=line)
                 upcoming_cards.setdefault(card["id"], card)
+            # Watchlisted shows not started yet: season premieres only.
+            for item in watchlist:
+                ids = ((item.get("show") if isinstance(item, Mapping) else None) or {}).get("ids") or {}
+                imdb = ids.get("imdb")
+                tid = w._int(ids.get("tmdb")) or (w._int(runner._call("resolve", imdb, media)) if imdb else None)
+                if (not tid or tid in watched_tmdb or imdb in watched_imdb
+                        or tid in dismissed_tmdb or imdb in dismissed_imdb):
+                    continue
+                detail = runner._details(tid, media)
+                episode = (watchlist_premiere(detail, today, config.upcoming_horizon_days,
+                                              config.out_now_days) if detail else None)
+                poster = _safe_poster(detail.get("poster_path")) if episode else None
+                if not poster or detail.get("adult"):
+                    continue
+                card = runner._card(detail, detail)
+                if (not isinstance(card.get("imdb_id"), str) or not re.fullmatch(r"tt[0-9]+", card["imdb_id"])
+                        or card["imdb_id"] in dismissed_imdb or card["id"] in upcoming_cards):
+                    continue
+                short, line = (_out_now_text if episode.get("out_now") else _upcoming_text)(episode, today)
+                # A later season is the reminder; someone who hasn't started begins at the start.
+                start = " · start at S1 E1" if (episode.get("season_number") or 1) > 1 else ""
+                card.update(poster=poster, upcoming_episode=dict(episode, watchlist=True), upcoming_short=short,
+                            upcoming_line="On your watchlist · " + line + start)
+                upcoming_cards[card["id"]] = card
+                watchlist_premieres += 1
         else:
             ordered = sorted(cards, key=lambda c: (-c["suggested_score"], c["id"]))[:config.catalogue_limit]
         # Stable-ID deduplication after every source merge, including returners.
@@ -1083,6 +1164,7 @@ def generate_catalogues(
                                                  for i, c in enumerate(ordered) if "for_you_rank" in c]},
                        "not_interested": {"suppressed_count": len(dismissed_hits),
                                           "disliked_profile_titles": len(dislike_details)},
+                       "watchlist": {"suppressed_count": len(watchlist_hits)},
                        "returning_decisions": returning_diagnostics,
                        "callback_counts": dict(runner.calls), "warnings": runner.warnings,
                        "selected_cards": ordered}
@@ -1100,7 +1182,7 @@ def generate_catalogues(
     upcoming = (out_now + due)[:config.catalogue_limit]
     result["diagnostics"]["media"]["upcoming"] = {
         "horizon_days": config.upcoming_horizon_days, "out_now_days": config.out_now_days,
-        "out_now_count": len(out_now), "count": len(upcoming),
+        "out_now_count": len(out_now), "count": len(upcoming), "watchlist_premieres": watchlist_premieres,
         "selected": [{"id": c["id"], **c["upcoming_episode"]} for c in upcoming]}
     result["catalogues"]["upcoming"] = {"id": CATALOGUE_IDS["upcoming"], "name": CATALOGUE_NAMES["upcoming"],
                                         "type": "series", "payload": {"metas": [_meta(c, "series") for c in upcoming]}}

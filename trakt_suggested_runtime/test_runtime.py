@@ -373,7 +373,8 @@ class TraktSourceContracts(unittest.TestCase):
         others = [params for path, params in http.calls if not path.endswith("/history/shows")]
         self.assertTrue(others and all("end_at" not in params for params in others))
         # Every account read carries the per-run parameter past Trakt's CDN cache.
-        self.assertEqual(len(http.calls), 6)
+        self.assertEqual(len(http.calls), 7)
+        self.assertIn("/users/example/watchlist", [path for path, _ in http.calls])
         self.assertTrue(all(params.get("_") == "1792411290" for _, params in http.calls))
 
     def test_run_notice_names_the_listed_titles(self):

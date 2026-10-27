@@ -152,6 +152,21 @@ but a weak match cannot overtake a strong history match. Returning seasons keep
 their own 30-day recency term. Series recency uses the premiere date, so a new
 season of an old show is handled only by the returning-season rule.
 
+## Trakt watchlist
+
+The runtime reads the viewer's public Trakt watchlist (`/users/{user}/watchlist`).
+A private or missing watchlist applies none of this; an outage fails the refresh,
+like the Not Interested list.
+
+- **Suggestions:** watchlisted titles are left out of Trakt Suggested Series and
+  Movies, because the viewer already has them. Unlike Not Interested, they don't
+  count as a dislike in the taste profile. Returning-season picks of watched
+  shows are unaffected.
+- **New & Upcoming:** for watchlisted shows the viewer hasn't started, a season
+  premiere joins the row: dated within `upcoming_horizon_days`, or out in the
+  last `out_now_days`. Mid-season episodes are left out, since an unstarted show
+  starts at its beginning. Descriptions start "On your watchlist".
+
 ## Taste profiles (Ste and Jenny)
 
 Everything above that names Ste's taste is the `"ste"` profile, the default:
@@ -226,7 +241,7 @@ of their own.
 ## New & Upcoming Episodes
 
 A separate row with two parts. First, **Out now**: shows with an episode released
-in the last `out_now_days` (default 7) that the viewer was caught up before and
+in the last `out_now_days` (default 30) that the viewer was caught up before and
 hasn't watched yet, newest release first. Then shows the viewer is caught up on
 whose next episode has a confirmed date within `upcoming_horizon_days`
 (default 90), soonest first.
@@ -238,7 +253,7 @@ whose next episode has a confirmed date within `upcoming_horizon_days`
   up. An unwatched episode older than the window, or none watched, leaves the
   show out. Cards read `Out now · S6 E6`, or `Out now · S2 E1–8` for a season
   dropped at once; descriptions add the episode name and `out <day>`.
-- This keeps a released episode visible for a week even when Nuvio's Continue
+- This keeps a released episode visible for 30 days even when Nuvio's Continue
   Watching would not show it (for example a show removed from it, which Nuvio
   never brings back until an episode is played or marked).
 

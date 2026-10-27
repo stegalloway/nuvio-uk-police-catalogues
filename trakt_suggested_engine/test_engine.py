@@ -489,7 +489,7 @@ class UpcomingContracts(unittest.TestCase):
             for s, days in aired.items()]
         return lambda path, params: seasons
 
-    def test_weekly_episode_stays_as_out_now_for_a_week(self):
+    def test_new_episode_shows_as_out_now(self):
         # Watched S1 E1-E2; E3 came out two days ago, E4 is due in five.
         fetch = self.release({1: [30, 23, 2, -5]}, latest=(1, 3), upcoming_days=5)
         result, metas = self.upcoming(trakt_fetch=fetch)
@@ -503,12 +503,18 @@ class UpcomingContracts(unittest.TestCase):
         self.assertEqual([(m["id"], m["releaseInfo"]) for m in metas], [("tt10", "Out now · S2 E1–3")])
         self.assertTrue(metas[0]["description"].startswith("S2 E1–3 · out yesterday\n\n"))
 
-    def test_not_caught_up_or_past_the_week_is_left_out(self):
-        # E3 has sat unwatched for ten days, so E4 two days ago is not "new to a caught-up viewer".
-        fetch = self.release({1: [30, 23, 10, 2]}, latest=(1, 4))
+    def test_unwatched_episodes_inside_30_days_stay_together(self):
+        # Watched E2; E3 ten days ago and E4 two days ago are both still new.
+        fetch = self.release({1: [60, 40, 10, 2]}, latest=(1, 4))
+        metas = self.upcoming(trakt_fetch=fetch)[1]
+        self.assertEqual([(m["id"], m["releaseInfo"]) for m in metas], [("tt10", "Out now · S1 E3–4")])
+
+    def test_not_caught_up_or_past_30_days_is_left_out(self):
+        # E3 has sat unwatched for 40 days, so E4 two days ago is not "new to a caught-up viewer".
+        fetch = self.release({1: [70, 60, 40, 2]}, latest=(1, 4))
         self.assertEqual(self.upcoming(trakt_fetch=fetch)[1], [])
         self.api = FixtureAPI()
-        fetch = self.release({1: [30, 23, 8]}, latest=(1, 3))  # out eight days ago
+        fetch = self.release({1: [70, 60, 31]}, latest=(1, 3))  # out 31 days ago
         self.assertEqual(self.upcoming(trakt_fetch=fetch)[1], [])
 
     def test_out_now_comes_before_upcoming(self):
@@ -769,6 +775,87 @@ class JennyProfileContracts(unittest.TestCase):
         self.assertNotEqual(self.run_engine()["catalogues"]["movie"], default["catalogues"]["movie"])
         with self.assertRaises(ValueError):
             generate_catalogues(*self.inputs, FixtureAPI(), now=NOW, config=EngineConfig(profile="nobody"))
+
+
+class WatchlistContracts(unittest.TestCase):
+    """The watchlist hides suggestions and adds premieres of shows not started yet."""
+
+    def setUp(self):
+        self.api = FixtureAPI()
+        self.inputs = list(fixture_inputs())
+        self.config = EngineConfig(catalogue_limit=10, candidate_enrichment_limit=20, minimum_items=3, max_workers=2)
+
+    def run_engine(self, watchlist=None):
+        return generate_catalogues(*self.inputs, self.api, now=NOW, config=self.config, watchlist=watchlist)
+
+    def ids(self, result, kind):
+        return [m["id"] for m in result["catalogues"][kind]["payload"]["metas"]]
+
+    def new_show(self, number=300, **fields):
+        detail = dict(self.api.detail(number), **fields)
+        self.api.details[("tv", number)] = detail
+        return [{"type": "show", "show": {"ids": {"tmdb": number, "imdb": "tt" + str(number)}}}]
+
+    def test_watchlisted_titles_leave_the_suggestions_without_counting_as_a_dislike(self):
+        before = self.ids(self.run_engine(), "movie")
+        saved = before[0]
+        result = self.run_engine([{"type": "movie", "movie": {"ids": {"imdb": saved, "tmdb": int(saved[2:])}}}])
+        after = self.ids(result, "movie")
+        self.assertNotIn(saved, after)
+        self.assertTrue(set(before) - {saved} <= set(after))
+        diagnostics = result["diagnostics"]["media"]["movie"]
+        self.assertGreaterEqual(diagnostics["watchlist"]["suppressed_count"], 1)
+        self.assertEqual(diagnostics["not_interested"]["disliked_profile_titles"], 0)
+
+    def test_a_season_premiere_of_an_unstarted_watchlisted_show_joins_upcoming(self):
+        premiere = {"air_date": (NOW + timedelta(days=10)).date().isoformat(),
+                    "season_number": 1, "episode_number": 1, "name": "Pilot"}
+        watchlist = self.new_show(next_episode_to_air=premiere)
+        metas = self.run_engine(watchlist)["catalogues"]["upcoming"]["payload"]["metas"]
+        self.assertEqual([m["id"] for m in metas], ["tt300"])
+        self.assertEqual(metas[0]["releaseInfo"], "Wed 28 Oct · S1 E1")
+        self.assertTrue(metas[0]["description"].startswith("On your watchlist · S1 E1 · Pilot · Wed 28 Oct\n\n"))
+        # Mid-season: someone who hasn't started a show starts at its beginning.
+        self.new_show(next_episode_to_air=dict(premiere, episode_number=5))
+        self.assertEqual(self.ids(self.run_engine(watchlist), "upcoming"), [])
+
+    def test_a_new_watchlisted_show_that_just_premiered_is_out_now(self):
+        aired = (NOW - timedelta(days=2)).date().isoformat()
+        watchlist = self.new_show(seasons=[{"season_number": 1, "air_date": aired}],
+                                  last_episode_to_air={"season_number": 1, "episode_number": 8, "air_date": aired})
+        metas = self.run_engine(watchlist)["catalogues"]["upcoming"]["payload"]["metas"]
+        self.assertEqual([(m["id"], m["releaseInfo"]) for m in metas], [("tt300", "Out now · S1 E1–8")])
+        self.assertTrue(metas[0]["description"].startswith("On your watchlist · S1 E1–8 · out Fri 16 Oct\n\n"))
+
+    def test_a_watchlisted_premiere_stays_out_now_for_30_days(self):
+        for days, listed in ((25, True), (31, False)):
+            with self.subTest(days=days):
+                aired = (NOW - timedelta(days=days)).date().isoformat()
+                watchlist = self.new_show(seasons=[{"season_number": 1, "air_date": aired}],
+                                          last_episode_to_air={"season_number": 1, "episode_number": 6, "air_date": aired})
+                self.assertEqual(self.ids(self.run_engine(watchlist), "upcoming"), ["tt300"] if listed else [])
+
+    def test_a_later_season_of_an_unstarted_show_says_where_to_start(self):
+        premiere = {"air_date": (NOW + timedelta(days=10)).date().isoformat(),
+                    "season_number": 4, "episode_number": 1, "name": "Episode 1"}
+        metas = self.run_engine(self.new_show(next_episode_to_air=premiere))["catalogues"]["upcoming"]["payload"]["metas"]
+        self.assertEqual(metas[0]["releaseInfo"], "Wed 28 Oct · S4 E1")
+        self.assertTrue(metas[0]["description"].startswith("On your watchlist · S4 E1 · Wed 28 Oct · start at S1 E1\n\n"))
+
+    def test_the_jenny_profile_ignores_the_watchlist(self):
+        premiere = {"air_date": (NOW + timedelta(days=10)).date().isoformat(),
+                    "season_number": 1, "episode_number": 1, "name": "Pilot"}
+        self.config = EngineConfig(**dict(vars(self.config), profile="jenny"))
+        self.assertEqual(self.ids(self.run_engine(self.new_show(next_episode_to_air=premiere)), "upcoming"), [])
+
+    def test_started_shows_keep_their_usual_upcoming_card(self):
+        detail = self.api.details[("tv", 10)]
+        detail["last_episode_to_air"] = {"season_number": 1, "episode_number": 2}
+        detail["next_episode_to_air"] = {"air_date": (NOW + timedelta(days=10)).date().isoformat(),
+                                         "season_number": 2, "episode_number": 1, "name": "Episode 1"}
+        metas = self.run_engine([{"type": "show", "show": show()}])["catalogues"]["upcoming"]["payload"]["metas"]
+        self.assertEqual([m["id"] for m in metas], ["tt10"])
+        self.assertTrue(metas[0]["description"].startswith("S2 E1 · Wed 28 Oct"))
 
 
 class FilmAgeContracts(unittest.TestCase):

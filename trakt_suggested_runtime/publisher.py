@@ -46,7 +46,7 @@ INPUT_FILES = {
     "rated_shows": "trakt-ratings-shows.json",
     "watched_episode_history": "trakt-episode-history.json",
 }
-OPTIONAL_INPUT_FILES = {"dismissed": "trakt-not-interested.json"}
+OPTIONAL_INPUT_FILES = {"dismissed": "trakt-not-interested.json", "watchlist": "trakt-watchlist.json"}
 DEFAULT_DISMISS_LIST = "not-interested"
 META_FIELDS = frozenset({
     "id", "type", "name", "poster", "posterShape", "description", "releaseInfo",
@@ -352,6 +352,14 @@ class TraktClient:
         except MissingSource:
             return None
 
+    def watchlist(self, username: str, params: Mapping | None = None) -> list[dict] | None:
+        """Items of the user's public watchlist; None while it is private."""
+        try:
+            return self.paginated("/users/" + urllib.parse.quote(username, safe="") + "/watchlist",
+                                  params, missing_ok=True)
+        except MissingSource:
+            return None
+
     def histories(self, username: str, dismiss_list: str | None = None,
                   now: datetime | None = None) -> dict[str, list[dict] | None]:
         user = urllib.parse.quote(username, safe="")
@@ -375,6 +383,8 @@ class TraktClient:
             # A missing list is None; any other error fails the refresh, so an
             # outage can never bring dismissed titles back.
             jobs["dismissed"] = lambda: self.dismissed(username, dismiss_list, fresh)
+        # Like the Not Interested list: private is None, an outage fails the refresh.
+        jobs["watchlist"] = lambda: self.watchlist(username, fresh)
         with ThreadPoolExecutor(max_workers=3) as pool:
             futures = {key: pool.submit(job) for key, job in jobs.items()}
             # Every required future must succeed. Never interpret an outage as [].
@@ -606,6 +616,11 @@ def generate_and_publish(
     extra = {"dismissed": histories["dismissed"]} if histories.get("dismissed") is not None else {}
     if extra and not isinstance(extra["dismissed"], list):
         raise SourceError("The Not Interested list is invalid")
+    # The watchlist is optional the same way: None (private) applies no watchlist rules.
+    if histories.get("watchlist") is not None:
+        if not isinstance(histories["watchlist"], list):
+            raise SourceError("The watchlist is invalid")
+        extra["watchlist"] = histories["watchlist"]
     if profile is not None:
         extra["config"] = EngineConfig(profile=profile)
     result = generator(
