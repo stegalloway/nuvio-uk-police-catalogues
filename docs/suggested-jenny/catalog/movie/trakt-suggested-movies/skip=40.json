@@ -118,6 +118,20 @@
       "imdb_id": "tt10954984"
     },
     {
+      "id": "tt33028778",
+      "type": "movie",
+      "name": "Primate",
+      "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
+      "posterShape": "poster",
+      "description": "College student Lucy and her friends spend their vacation at her family's home in Hawaii, which includes her pet chimpanzee, Ben. However, when Ben contracts rabies after being bitten by a rabid animal, the group must fight for their lives in order to avoid the now-violent chimp.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33028778"
+    },
+    {
       "id": "tt35298123",
       "type": "movie",
       "name": "Teenage Sex and Death at Camp Miasma",
@@ -131,20 +145,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35298123"
-    },
-    {
-      "id": "tt33028778",
-      "type": "movie",
-      "name": "Primate",
-      "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
-      "posterShape": "poster",
-      "description": "College student Lucy and her friends spend their vacation at her family's home in Hawaii, which includes her pet chimpanzee, Ben. However, when Ben contracts rabies after being bitten by a rabid animal, the group must fight for their lives in order to avoid the now-violent chimp.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33028778"
     },
     {
       "id": "tt8851668",

@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt13729648",
+      "type": "series",
+      "name": "Candy",
+      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
+      "posterShape": "poster",
+      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13729648"
+    },
+    {
       "id": "tt19853270",
       "type": "series",
       "name": "Murdaugh: Death in the Family",
@@ -273,20 +287,6 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt7335184"
-    },
-    {
-      "id": "tt32937780",
-      "type": "series",
-      "name": "Something Very Bad Is Going to Happen",
-      "poster": "https://image.tmdb.org/t/p/w500/tuj37DlqEqib8sTO4h3nHJeTAJ2.jpg",
-      "posterShape": "poster",
-      "description": "A bride has a feeling that something horrifying will happen at her wedding — and the closer to the altar she gets, the worse it becomes.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32937780"
     }
   ]
 }
