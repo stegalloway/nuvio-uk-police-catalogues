@@ -16,18 +16,18 @@
       "imdb_id": "tt7181546"
     },
     {
-      "id": "tt32338669",
+      "id": "tt0401792",
       "type": "movie",
-      "name": "Mutiny",
-      "poster": "https://image.tmdb.org/t/p/w500/pu2VxGlpGwffOx292w18b1tv96j.jpg",
+      "name": "Sin City",
+      "poster": "https://image.tmdb.org/t/p/w500/i66G50wATMmPrvpP95f0XP6ZdVS.jpg",
       "posterShape": "poster",
-      "description": "After witnessing his billionaire boss' murder and being framed for the crime, Cole Reed boards a cargo ship on a one-man crusade to avenge his boss' death only to discover an international conspiracy.",
+      "description": "Welcome to Sin City. This town beckons to the tough, the corrupt, the brokenhearted. Some call it dark… Hard-boiled. Then there are those who call it home — Crooked cops, sexy dames, desperate vigilantes. Some are seeking revenge, others lust after redemption, and then there are those hoping for a little of both. A universe of unlikely and reluctant heroes still trying to do the right thing in a city that refuses to care.",
       "genres": [
-        "Action",
+        "Crime",
         "Thriller"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32338669"
+      "releaseInfo": "2005",
+      "imdb_id": "tt0401792"
     },
     {
       "id": "tt11083552",
@@ -90,6 +90,20 @@
       "imdb_id": "tt7131622"
     },
     {
+      "id": "tt7888964",
+      "type": "movie",
+      "name": "Nobody",
+      "poster": "https://image.tmdb.org/t/p/w500/oBgWY00bEFeZ9N25wWVyuQddbAo.jpg",
+      "posterShape": "poster",
+      "description": "Hutch Mansell, a suburban dad, overlooked husband, nothing neighbor — a \"nobody.\" When two thieves break into his home one night, Hutch's unknown long-simmering rage is ignited and propels him on a brutal path that will uncover dark secrets he fought to leave behind.",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt7888964"
+    },
+    {
       "id": "tt0369339",
       "type": "movie",
       "name": "Collateral",
@@ -120,19 +134,19 @@
       "imdb_id": "tt2872718"
     },
     {
-      "id": "tt31195136",
+      "id": "tt0840361",
       "type": "movie",
-      "name": "Normal",
-      "poster": "https://image.tmdb.org/t/p/w500/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg",
+      "name": "The Town",
+      "poster": "https://image.tmdb.org/t/p/w500/3NIzyXkfylsjflRKSz8Fts3lXzm.jpg",
       "posterShape": "poster",
-      "description": "An unassuming substitute sheriff with a troubled past responds to a bank robbery in a small, sleepy town and unknowingly uncovers something far more explosive.",
+      "description": "A proficient group of thieves rob a bank and hold the manager hostage. Things begin to get complicated when one of the crew members falls in love with her.",
       "genres": [
-        "Action",
         "Crime",
+        "Drama",
         "Thriller"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31195136"
+      "releaseInfo": "2010",
+      "imdb_id": "tt0840361"
     },
     {
       "id": "tt12593682",
@@ -148,6 +162,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt12593682"
+    },
+    {
+      "id": "tt0780504",
+      "type": "movie",
+      "name": "Drive",
+      "poster": "https://image.tmdb.org/t/p/w500/602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
+      "posterShape": "poster",
+      "description": "Driver is a skilled Hollywood stuntman who moonlights as a getaway driver for criminals. Though he projects an icy exterior, lately he's been warming up to a pretty neighbor named Irene and her young son, Benicio. When Irene's husband gets out of jail, he enlists Driver's help in a million-dollar heist. The job goes horribly wrong, and Driver must risk his life to protect Irene and Benicio from the vengeful masterminds behind the robbery.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2011",
+      "imdb_id": "tt0780504"
     },
     {
       "id": "tt2481498",
@@ -195,20 +224,6 @@
       "imdb_id": "tt0443676"
     },
     {
-      "id": "tt5095076",
-      "type": "movie",
-      "name": "Wardriver",
-      "poster": "https://image.tmdb.org/t/p/w500/rBZA12Hf4yZZgud6iPuFU49L7zk.jpg",
-      "posterShape": "poster",
-      "description": "He’s a Wardriver: a hacker who steals from banks, not people—until he’s noticed. Now the money turns violent, and the woman caught in it could save him or kill them both.",
-      "genres": [
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt5095076"
-    },
-    {
       "id": "tt0936501",
       "type": "movie",
       "name": "Taken",
@@ -250,19 +265,6 @@
       ],
       "releaseInfo": "2000",
       "imdb_id": "tt0209144"
-    },
-    {
-      "id": "tt33303521",
-      "type": "movie",
-      "name": "The Gates",
-      "poster": "https://image.tmdb.org/t/p/w500/dWMiHlKz0OsbVXEEZR3hYyWHcdq.jpg",
-      "posterShape": "poster",
-      "description": "Three friends' road trip turns terrifying when they witness a murder in a gated community. Trapped inside, hunted by residents who blame them, their bond fractures as a charismatic yet sinister patriarch closes in.",
-      "genres": [
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33303521"
     },
     {
       "id": "tt15314262",

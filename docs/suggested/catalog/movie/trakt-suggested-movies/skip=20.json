@@ -17,20 +17,6 @@
       "imdb_id": "tt0373469"
     },
     {
-      "id": "tt37971717",
-      "type": "movie",
-      "name": "One Last Shot",
-      "poster": "https://image.tmdb.org/t/p/w500/niQ4NBh2jqAf1hDZP5m6ReWFAb7.jpg",
-      "posterShape": "poster",
-      "description": "Navy Seal Jake Harris must stop a team of mercenaries, led by his disillusioned former comrade, from disabling the US missile defense network.",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt37971717"
-    },
-    {
       "id": "tt5537002",
       "type": "movie",
       "name": "Killers of the Flower Moon",
@@ -44,36 +30,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt5537002"
-    },
-    {
-      "id": "tt32537226",
-      "type": "movie",
-      "name": "Hunting Season",
-      "poster": "https://image.tmdb.org/t/p/w500/cbryTyaWdqrKpQCw6K7zm2jrB5v.jpg",
-      "posterShape": "poster",
-      "description": "When a reclusive survivalist and his daughter rescue a mysterious, wounded woman from a river, they become entangled in a deadly web of violence and revenge, forcing them to confront a brutal criminal to survive.",
-      "genres": [
-        "Action",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32537226"
-    },
-    {
-      "id": "tt32357218",
-      "type": "movie",
-      "name": "Shelter",
-      "poster": "https://image.tmdb.org/t/p/w500/cv7DeQQ7TOozPoTCBdNJIvWKhU1.jpg",
-      "posterShape": "poster",
-      "description": "A man living in self-imposed exile on a remote island rescues a young girl from a violent storm, setting off a chain of events that forces him out of seclusion to protect her from enemies tied to his past.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32357218"
     },
     {
       "id": "tt0425210",
@@ -165,20 +121,6 @@
       "imdb_id": "tt21103218"
     },
     {
-      "id": "tt38672588",
-      "type": "movie",
-      "name": "Masterplan",
-      "poster": "https://image.tmdb.org/t/p/w500/5xmXVd7nCK3tAo34XkO58SxUCip.jpg",
-      "posterShape": "poster",
-      "description": "When a legendary thief sets his sights on the Mona Lisa, he recruits two young strangers to help him before revealing they are long-lost siblings… and oh yes, by the way, he is their father. Thrown into a chaotic reunion they never asked for, this new family must learn to work together — and try not to kill each other — if they want any chance at pulling off the heist of the century.",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt38672588"
-    },
-    {
       "id": "tt0477348",
       "type": "movie",
       "name": "No Country for Old Men",
@@ -194,19 +136,6 @@
       "imdb_id": "tt0477348"
     },
     {
-      "id": "tt31192372",
-      "type": "movie",
-      "name": "Fall 2: Deadpoint",
-      "poster": "https://image.tmdb.org/t/p/w500/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
-      "posterShape": "poster",
-      "description": "On a perilous climb across Thailand's Mount Kwan, two climbers become trapped thousands of feet above the ground, where vertigo-inducing heights, sheer exposure, and impossible odds turn every moment into a fight for survival.",
-      "genres": [
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31192372"
-    },
-    {
       "id": "tt4172430",
       "type": "movie",
       "name": "13 Hours: The Secret Soldiers of Benghazi",
@@ -220,21 +149,6 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt4172430"
-    },
-    {
-      "id": "tt31189814",
-      "type": "movie",
-      "name": "Fuze",
-      "poster": "https://image.tmdb.org/t/p/w500/oMFdQE5hMJ9JjhNORegwTo0GKmh.jpg",
-      "posterShape": "poster",
-      "description": "An unexploded WWII bomb is discovered on a busy construction site in the centre of London. Chaos ensues as the military and police begin a mass evacuation against a ticking clock.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31189814"
     },
     {
       "id": "tt9603212",
@@ -295,6 +209,95 @@
       ],
       "releaseInfo": "2007",
       "imdb_id": "tt0292963"
+    },
+    {
+      "id": "tt0399146",
+      "type": "movie",
+      "name": "A History of Violence",
+      "poster": "https://image.tmdb.org/t/p/w500/ptJKY9WGDUUL064ge3jW78zBX0t.jpg",
+      "posterShape": "poster",
+      "description": "An average family is thrust into the spotlight after the father commits a seemingly self-defense murder at his diner.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2005",
+      "imdb_id": "tt0399146"
+    },
+    {
+      "id": "tt11539996",
+      "type": "movie",
+      "name": "Relay",
+      "poster": "https://image.tmdb.org/t/p/w500/mpwccO2L8LUVtVTJTdgUVgoQqAo.jpg",
+      "posterShape": "poster",
+      "description": "A broker of lucrative payoffs between corrupt corporations and the individuals who threaten them breaks his own rules when a new client seeks his protection to stay alive.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt11539996"
+    },
+    {
+      "id": "tt33296751",
+      "type": "movie",
+      "name": "Tuner",
+      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
+      "posterShape": "poster",
+      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33296751"
+    },
+    {
+      "id": "tt1212450",
+      "type": "movie",
+      "name": "Lawless",
+      "poster": "https://image.tmdb.org/t/p/w500/Ahtzwts22ayviD3LEVslfL4nRWB.jpg",
+      "posterShape": "poster",
+      "description": "In 1931, the Bondurant brothers of Franklin County, Virginia, run a multipurpose backwoods establishment that hides their true business — bootlegging. Middle brother Forrest is the brain of the operation; older Howard is the brawn, and younger Jack, the lookout. Though the local police have taken bribes and left the brothers alone, a violent war erupts when a sadistic lawman from Chicago arrives and tries to shut down the Bondurants operation.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Western"
+      ],
+      "releaseInfo": "2012",
+      "imdb_id": "tt1212450"
+    },
+    {
+      "id": "tt31450182",
+      "type": "movie",
+      "name": "Amber Alert",
+      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
+      "posterShape": "poster",
+      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt31450182"
+    },
+    {
+      "id": "tt2382320",
+      "type": "movie",
+      "name": "No Time to Die",
+      "poster": "https://image.tmdb.org/t/p/w500/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
+      "posterShape": "poster",
+      "description": "Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt2382320"
     }
   ]
 }
