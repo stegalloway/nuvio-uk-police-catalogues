@@ -152,20 +152,6 @@
       "imdb_id": "tt31938062"
     },
     {
-      "id": "tt14586350",
-      "type": "series",
-      "name": "Love & Death",
-      "poster": "https://image.tmdb.org/t/p/w500/8WchbT0UPQeo3PZ6G01fhccYaQB.jpg",
-      "posterShape": "poster",
-      "description": "Candy and Pat Montgomery and Betty and Allan Gore — two churchgoing couples — enjoy their small town Texas life... until an extramarital affair leads somebody to pick up an axe.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14586350"
-    },
-    {
       "id": "tt5194792",
       "type": "series",
       "name": "NOS4A2",
@@ -178,6 +164,20 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt5194792"
+    },
+    {
+      "id": "tt14586350",
+      "type": "series",
+      "name": "Love & Death",
+      "poster": "https://image.tmdb.org/t/p/w500/8WchbT0UPQeo3PZ6G01fhccYaQB.jpg",
+      "posterShape": "poster",
+      "description": "Candy and Pat Montgomery and Betty and Allan Gore — two churchgoing couples — enjoy their small town Texas life... until an extramarital affair leads somebody to pick up an axe.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt14586350"
     },
     {
       "id": "tt3960394",

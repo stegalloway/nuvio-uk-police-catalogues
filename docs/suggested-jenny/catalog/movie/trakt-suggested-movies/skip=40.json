@@ -147,21 +147,6 @@
       "imdb_id": "tt32141377"
     },
     {
-      "id": "tt30851137",
-      "type": "movie",
-      "name": "The Bride!",
-      "poster": "https://image.tmdb.org/t/p/w500/lV8YHwGkYZsm6EfIqnhaSz2avKt.jpg",
-      "posterShape": "poster",
-      "description": "A lonely Frankenstein travels to 1930s Chicago to ask groundbreaking scientist Dr. Euphronious to create a companion for him. The two revive a murdered young woman and The Bride is born. But what ensues is beyond what either of them imagined.",
-      "genres": [
-        "Science Fiction",
-        "Horror",
-        "Fantasy"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt30851137"
-    },
-    {
       "id": "tt35298123",
       "type": "movie",
       "name": "Teenage Sex and Death at Camp Miasma",
@@ -175,6 +160,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35298123"
+    },
+    {
+      "id": "tt30851137",
+      "type": "movie",
+      "name": "The Bride!",
+      "poster": "https://image.tmdb.org/t/p/w500/lV8YHwGkYZsm6EfIqnhaSz2avKt.jpg",
+      "posterShape": "poster",
+      "description": "A lonely Frankenstein travels to 1930s Chicago to ask groundbreaking scientist Dr. Euphronious to create a companion for him. The two revive a murdered young woman and The Bride is born. But what ensues is beyond what either of them imagined.",
+      "genres": [
+        "Science Fiction",
+        "Horror",
+        "Fantasy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt30851137"
     },
     {
       "id": "tt23642744",
