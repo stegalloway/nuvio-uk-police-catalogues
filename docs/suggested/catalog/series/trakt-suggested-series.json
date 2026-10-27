@@ -58,49 +58,6 @@
       "imdb_id": "tt15435876"
     },
     {
-      "id": "tt30460310",
-      "type": "series",
-      "name": "Spider-Noir",
-      "poster": "https://image.tmdb.org/t/p/w500/oD8WSVqz84ZRfelkr7JPeJwR9Iv.jpg",
-      "posterShape": "poster",
-      "description": "Ben Reilly, an aging and down on his luck private investigator in 1930s New York, is forced to grapple with his past life as the city's one and only superhero.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt30460310"
-    },
-    {
-      "id": "tt4301160",
-      "type": "series",
-      "name": "Black Bird",
-      "poster": "https://image.tmdb.org/t/p/w500/qu312pwM61NPTr7nexvovCClDNP.jpg",
-      "posterShape": "poster",
-      "description": "As Jimmy Keene begins a 10-year prison sentence, he gets an incredible offer: If he can elicit a confession from suspected killer Larry Hall, Jimmy will be freed. Completing this mission becomes the challenge of a lifetime.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt4301160"
-    },
-    {
-      "id": "tt0979432",
-      "type": "series",
-      "name": "Boardwalk Empire",
-      "poster": "https://image.tmdb.org/t/p/w500/zyHLWVmqS8m7bxABJjcDFMYLdF8.jpg",
-      "posterShape": "poster",
-      "description": "Atlantic City at the dawn of Prohibition is a place where the rules don't apply. And the man who runs things -- legally and otherwise -- is the town's treasurer, Enoch \"Nucky\" Thompson, who is equal parts politician and gangster.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt0979432"
-    },
-    {
       "id": "tt3281796",
       "type": "series",
       "name": "Power",
@@ -115,32 +72,18 @@
       "imdb_id": "tt3281796"
     },
     {
-      "id": "tt35515227",
+      "id": "tt27444205",
       "type": "series",
-      "name": "CIA",
-      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
+      "name": "Paradise",
+      "poster": "https://image.tmdb.org/t/p/w500/l8RqfhqEk04W5sSOjQ9zeWU1DyM.jpg",
       "posterShape": "poster",
-      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
+      "description": "The tranquility in a serene, wealthy community inhabited by some of the world's most prominent individuals explodes when a shocking murder occurs and a high stakes investigation unfolds.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35515227"
-    },
-    {
-      "id": "tt5071412",
-      "type": "series",
-      "name": "Ozark",
-      "poster": "https://image.tmdb.org/t/p/w500/pCGyPVrI9Fzw6rE1Pvi4BIXF6ET.jpg",
-      "posterShape": "poster",
-      "description": "A financial adviser drags his family from Chicago to the Missouri Ozarks, where he must launder $500 million in five years to appease a drug boss.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt5071412"
+      "releaseInfo": "2025",
+      "imdb_id": "tt27444205"
     },
     {
       "id": "tt5715524",
@@ -157,20 +100,6 @@
       "imdb_id": "tt5715524"
     },
     {
-      "id": "tt9742936",
-      "type": "series",
-      "name": "FBI: Most Wanted",
-      "poster": "https://image.tmdb.org/t/p/w500/uwTNBqFrEur3EtK8ofWbtGXMQOP.jpg",
-      "posterShape": "poster",
-      "description": "The Fugitive Task Force relentlessly tracks and captures the notorious criminals on the Bureau's Most Wanted list. Seasoned agents oversee the highly skilled team that functions as a mobile undercover unit that is always out in the field, pursuing those who are most desperate to elude justice.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9742936"
-    },
-    {
       "id": "tt11761194",
       "type": "series",
       "name": "Power Book IV: Force",
@@ -183,6 +112,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11761194"
+    },
+    {
+      "id": "tt10732104",
+      "type": "series",
+      "name": "Power Book II: Ghost",
+      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "posterShape": "poster",
+      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10732104"
     },
     {
       "id": "tt8080122",
@@ -199,35 +142,6 @@
       "imdb_id": "tt8080122"
     },
     {
-      "id": "tt34771210",
-      "type": "series",
-      "name": "I Will Find You",
-      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
-      "posterShape": "poster",
-      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34771210"
-    },
-    {
-      "id": "tt6439752",
-      "type": "series",
-      "name": "Snowfall",
-      "poster": "https://image.tmdb.org/t/p/w500/y7ntzl7msiaS6o7dvDbNG7XFYcR.jpg",
-      "posterShape": "poster",
-      "description": "Los Angeles. 1983. A storm is coming and its name is crack. Set against the infancy of the crack cocaine epidemic and its ultimate radical impact on the culture as we know it, the story follows numerous characters on a violent collision course.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt6439752"
-    },
-    {
       "id": "tt1064899",
       "type": "series",
       "name": "Queen of the South",
@@ -242,32 +156,75 @@
       "imdb_id": "tt1064899"
     },
     {
-      "id": "tt11846996",
+      "id": "tt34675596",
       "type": "series",
-      "name": "Vigil",
-      "poster": "https://image.tmdb.org/t/p/w500/5zAheY0Upi2MwU3edGtEgb7Ldh3.jpg",
+      "name": "Cape Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
       "posterShape": "poster",
-      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
+      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11846996"
+      "releaseInfo": "2026",
+      "imdb_id": "tt34675596"
     },
     {
-      "id": "tt1489428",
+      "id": "tt0979432",
       "type": "series",
-      "name": "Justified",
-      "poster": "https://image.tmdb.org/t/p/w500/ie1quhMk09lDtvtAyQAHTu09R9Z.jpg",
+      "name": "Boardwalk Empire",
+      "poster": "https://image.tmdb.org/t/p/w500/zyHLWVmqS8m7bxABJjcDFMYLdF8.jpg",
       "posterShape": "poster",
-      "description": "A character drama based on the 2001 Elmore Leonard short story \"Fire in the Hole.\" Leonard's tale centers around U.S. Marshal Raylan Givens of Kentucky, a quiet but strong-willed official of the law. The tale covers his high-stakes job, as well as his strained relationships with his ex-wife and father.",
+      "description": "Atlantic City at the dawn of Prohibition is a place where the rules don't apply. And the man who runs things -- legally and otherwise -- is the town's treasurer, Enoch \"Nucky\" Thompson, who is equal parts politician and gangster.",
       "genres": [
         "Crime",
         "Drama"
       ],
       "releaseInfo": "2010",
-      "imdb_id": "tt1489428"
+      "imdb_id": "tt0979432"
+    },
+    {
+      "id": "tt7440726",
+      "type": "series",
+      "name": "Your Honor",
+      "poster": "https://image.tmdb.org/t/p/w500/1rWWgTEDFdV330aLgCoaq7I56lk.jpg",
+      "posterShape": "poster",
+      "description": "New Orleans judge Michael Desiato is forced to confront his own deepest convictions when his son is involved in a hit and run that embroils an organized crime family.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt7440726"
+    },
+    {
+      "id": "tt4276618",
+      "type": "series",
+      "name": "Strike",
+      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
+      "posterShape": "poster",
+      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt4276618"
+    },
+    {
+      "id": "tt5011816",
+      "type": "series",
+      "name": "Sneaky Pete",
+      "poster": "https://image.tmdb.org/t/p/w500/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
+      "posterShape": "poster",
+      "description": "A con man on the run from a vicious gangster takes cover from his past by assuming the identity of his prison cellmate, Pete, “reuniting” with Pete’s estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he’s trying to escape - and, just maybe, give him a taste of the loving family he’s never had.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt5011816"
     },
     {
       "id": "tt3032476",
@@ -282,6 +239,50 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt3032476"
+    },
+    {
+      "id": "tt36022742",
+      "type": "series",
+      "name": "Nemesis",
+      "poster": "https://image.tmdb.org/t/p/w500/NY7ZwSMw5PjoJdK2CObqiTj7Bm.jpg",
+      "posterShape": "poster",
+      "description": "A relentless LAPD cop becomes obsessed with taking down the master thief behind a string of daring heists — and only one can come out on top.",
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt36022742"
+    },
+    {
+      "id": "tt30460310",
+      "type": "series",
+      "name": "Spider-Noir",
+      "poster": "https://image.tmdb.org/t/p/w500/oD8WSVqz84ZRfelkr7JPeJwR9Iv.jpg",
+      "posterShape": "poster",
+      "description": "Ben Reilly, an aging and down on his luck private investigator in 1930s New York, is forced to grapple with his past life as the city's one and only superhero.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt30460310"
+    },
+    {
+      "id": "tt5071412",
+      "type": "series",
+      "name": "Ozark",
+      "poster": "https://image.tmdb.org/t/p/w500/pCGyPVrI9Fzw6rE1Pvi4BIXF6ET.jpg",
+      "posterShape": "poster",
+      "description": "A financial adviser drags his family from Chicago to the Missouri Ozarks, where he must launder $500 million in five years to appease a drug boss.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5071412"
     }
   ]
 }

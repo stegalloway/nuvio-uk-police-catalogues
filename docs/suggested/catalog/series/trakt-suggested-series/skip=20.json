@@ -1,61 +1,60 @@
 {
   "metas": [
     {
-      "id": "tt5611024",
+      "id": "tt11816814",
       "type": "series",
-      "name": "Fool Me Once",
-      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "name": "Painkiller",
+      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
       "posterShape": "poster",
-      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5611024"
-    },
-    {
-      "id": "tt5011816",
-      "type": "series",
-      "name": "Sneaky Pete",
-      "poster": "https://image.tmdb.org/t/p/w500/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
-      "posterShape": "poster",
-      "description": "A con man on the run from a vicious gangster takes cover from his past by assuming the identity of his prison cellmate, Pete, “reuniting” with Pete’s estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he’s trying to escape - and, just maybe, give him a taste of the loving family he’s never had.",
+      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt5011816"
+      "releaseInfo": "2023",
+      "imdb_id": "tt11816814"
     },
     {
-      "id": "tt0903747",
+      "id": "tt6439752",
       "type": "series",
-      "name": "Breaking Bad",
-      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+      "name": "Snowfall",
+      "poster": "https://image.tmdb.org/t/p/w500/y7ntzl7msiaS6o7dvDbNG7XFYcR.jpg",
       "posterShape": "poster",
-      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+      "description": "Los Angeles. 1983. A storm is coming and its name is crack. Set against the infancy of the crack cocaine epidemic and its ultimate radical impact on the culture as we know it, the story follows numerous characters on a violent collision course.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0903747"
+      "releaseInfo": "2017",
+      "imdb_id": "tt6439752"
     },
     {
-      "id": "tt10732104",
+      "id": "tt1489428",
       "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "name": "Justified",
+      "poster": "https://image.tmdb.org/t/p/w500/ie1quhMk09lDtvtAyQAHTu09R9Z.jpg",
       "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "description": "A character drama based on the 2001 Elmore Leonard short story \"Fire in the Hole.\" Leonard's tale centers around U.S. Marshal Raylan Givens of Kentucky, a quiet but strong-willed official of the law. The tale covers his high-stakes job, as well as his strained relationships with his ex-wife and father.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
+      "releaseInfo": "2010",
+      "imdb_id": "tt1489428"
+    },
+    {
+      "id": "tt35515227",
+      "type": "series",
+      "name": "CIA",
+      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
+      "posterShape": "poster",
+      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35515227"
     },
     {
       "id": "tt0141842",
@@ -70,34 +69,6 @@
       ],
       "releaseInfo": "1999",
       "imdb_id": "tt0141842"
-    },
-    {
-      "id": "tt0805661",
-      "type": "series",
-      "name": "The Black Donnellys",
-      "poster": "https://image.tmdb.org/t/p/w500/hRKjeP8laTHS9q5cJA046DJa5kA.jpg",
-      "posterShape": "poster",
-      "description": "Meet the Donnelly brothers: Tommy, Jimmy, Kevin and Sean. There is nothing these four Irish brothers wouldn't do to protect each other, and for them that means lying, cheating, stealing and, occasionally, calling the cops. Narrated by wannabe gangster Joey \"Ice Cream,\" this gritty series bears witness to the Donnelly brothers' sudden involvement in organized crime, focusing on how they go from boys to mobsters, and showing how their new life affects their relationships with friends, family and lovers.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0805661"
-    },
-    {
-      "id": "tt33253070",
-      "type": "series",
-      "name": "M.I.A.",
-      "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
-      "posterShape": "poster",
-      "description": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33253070"
     },
     {
       "id": "tt0090410",
@@ -116,6 +87,63 @@
       "imdb_id": "tt0090410"
     },
     {
+      "id": "tt13918776",
+      "type": "series",
+      "name": "The Night Agent",
+      "poster": "https://image.tmdb.org/t/p/w500/4c5yUNcaff4W4aPrkXE6zr7papX.jpg",
+      "posterShape": "poster",
+      "description": "Brought together by a midnight phone call, an FBI agent and a cybersecurity expert must unravel an ever-growing web of political conspiracies.",
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt13918776"
+    },
+    {
+      "id": "tt0903747",
+      "type": "series",
+      "name": "Breaking Bad",
+      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+      "posterShape": "poster",
+      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2008",
+      "imdb_id": "tt0903747"
+    },
+    {
+      "id": "tt0805661",
+      "type": "series",
+      "name": "The Black Donnellys",
+      "poster": "https://image.tmdb.org/t/p/w500/hRKjeP8laTHS9q5cJA046DJa5kA.jpg",
+      "posterShape": "poster",
+      "description": "Meet the Donnelly brothers: Tommy, Jimmy, Kevin and Sean. There is nothing these four Irish brothers wouldn't do to protect each other, and for them that means lying, cheating, stealing and, occasionally, calling the cops. Narrated by wannabe gangster Joey \"Ice Cream,\" this gritty series bears witness to the Donnelly brothers' sudden involvement in organized crime, focusing on how they go from boys to mobsters, and showing how their new life affects their relationships with friends, family and lovers.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0805661"
+    },
+    {
+      "id": "tt2149175",
+      "type": "series",
+      "name": "The Americans",
+      "poster": "https://image.tmdb.org/t/p/w500/w1UBlxEXhbKe8sp0fxFZh7MqTce.jpg",
+      "posterShape": "poster",
+      "description": "Set during the Cold War period in the 1980s, The Americans is the story of Elizabeth and Philip Jennings, two Soviet KGB officers posing as an American married couple in the suburbs of Washington D.C. and their neighbor, Stan Beeman, an FBI Counterintelligence agent.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt2149175"
+    },
+    {
       "id": "tt0052522",
       "type": "series",
       "name": "The Untouchables",
@@ -130,120 +158,104 @@
       "imdb_id": "tt0052522"
     },
     {
-      "id": "tt34675596",
+      "id": "tt2243973",
       "type": "series",
-      "name": "Cape Fear",
-      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
+      "name": "Hannibal",
+      "poster": "https://image.tmdb.org/t/p/w500/pbV2eLnKSIm1epSZt473UYfqaeZ.jpg",
       "posterShape": "poster",
-      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
+      "description": "Both a gift and a curse, Graham has the extraordinary ability to think like his prey—he sees what they see, feels what they feel. But while Graham is pursuing an especially troubling, cannibalistic murderer, Special Agent Jack Crawford teams him with a highly respected psychiatrist – a man with a taste for the criminal minded – Dr. Hannibal Lecter.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt2243973"
+    },
+    {
+      "id": "tt5611024",
+      "type": "series",
+      "name": "Fool Me Once",
+      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "posterShape": "poster",
+      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt5611024"
+    },
+    {
+      "id": "tt14063678",
+      "type": "series",
+      "name": "The Gold",
+      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
+      "posterShape": "poster",
+      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34675596"
+      "releaseInfo": "2023",
+      "imdb_id": "tt14063678"
     },
     {
-      "id": "tt4276618",
+      "id": "tt1652216",
       "type": "series",
-      "name": "Strike",
-      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
+      "name": "DCI Banks",
+      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
       "posterShape": "poster",
-      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
+      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
       "genres": [
         "Crime",
-        "Drama",
-        "Mystery"
+        "Drama"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt4276618"
+      "releaseInfo": "2011",
+      "imdb_id": "tt1652216"
     },
     {
-      "id": "tt32559610",
+      "id": "tt16030542",
       "type": "series",
-      "name": "Countdown",
-      "poster": "https://image.tmdb.org/t/p/w500/gcSNS5cy1iOmYawIdJCzoc873rQ.jpg",
+      "name": "The Recruit",
+      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
       "posterShape": "poster",
-      "description": "When an officer with the Department of Homeland Security is murdered in broad daylight, LAPD detective Mark Meachum is recruited to a secret task force, alongside undercover agents from all branches of law enforcement, to investigate. But the hunt for the killer soon uncovers a plot far more sinister than anyone could have imagined, kicking off a race against time to save a city of millions.",
-      "genres": [
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32559610"
-    },
-    {
-      "id": "tt2304589",
-      "type": "series",
-      "name": "Defending Jacob",
-      "poster": "https://image.tmdb.org/t/p/w500/JTmkzwSDRiS9nvSPwpDB9fmZj2.jpg",
-      "posterShape": "poster",
-      "description": "A family's lives are irreparably disrupted when the 14-year-old son is accused of murdering a fellow classmate.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt2304589"
-    },
-    {
-      "id": "tt36022742",
-      "type": "series",
-      "name": "Nemesis",
-      "poster": "https://image.tmdb.org/t/p/w500/NY7ZwSMw5PjoJdK2CObqiTj7Bm.jpg",
-      "posterShape": "poster",
-      "description": "A relentless LAPD cop becomes obsessed with taking down the master thief behind a string of daring heists — and only one can come out on top.",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36022742"
-    },
-    {
-      "id": "tt36849871",
-      "type": "series",
-      "name": "Marshals",
-      "poster": "https://image.tmdb.org/t/p/w500/zV1MRb6eqx6Uj3NSXquZFfz75pa.jpg",
-      "posterShape": "poster",
-      "description": "With the Yellowstone Ranch behind him, Kayce Dutton joins an elite unit of U.S. Marshals, combining his skills as a cowboy and Navy SEAL to bring range justice to Montana, where he and his teammates must balance family, duty and the high psychological cost that comes with serving as the last line of defense in the region's war on violence.",
+      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
       "genres": [
         "Drama",
         "Crime",
         "Action & Adventure"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36849871"
+      "releaseInfo": "2022",
+      "imdb_id": "tt16030542"
     },
     {
-      "id": "tt35707374",
+      "id": "tt4687880",
       "type": "series",
-      "name": "Memory of a Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/3kpXrWW6gmlngwgSa52IhBpjPuz.jpg",
+      "name": "Goliath",
+      "poster": "https://image.tmdb.org/t/p/w500/b7ygC3GRaq4xc0nkWdGnydtMfvD.jpg",
       "posterShape": "poster",
-      "description": "Angelo Doyle lives two totally separate lives — fearsome NYC hitman and sleepy upstate Cooperstown photocopier salesman and father. Both of them are threatened when he is diagnosed with Alzheimer's, a disease he already lost his older brother to.",
+      "description": "Once a powerful lawyer, Billy McBride is now burned out and washed up, spending more time in a bar than a courtroom. When he reluctantly agrees to pursue a wrongful death lawsuit against the biggest client of Cooperman &amp; McBride, the massive law firm he helped create, Billy and his ragtag team uncover a vast and deadly conspiracy, pitting them all in a life or death trial against the ultimate Goliath.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35707374"
+      "releaseInfo": "2016",
+      "imdb_id": "tt4687880"
     },
     {
-      "id": "tt14218674",
+      "id": "tt9348692",
       "type": "series",
-      "name": "NCIS: Hawaiʻi",
-      "poster": "https://image.tmdb.org/t/p/w500/4R8xtDx2ge0GjEOnEwoR8V8X82q.jpg",
+      "name": "Criminal: UK",
+      "poster": "https://image.tmdb.org/t/p/w500/xkfYO8qOqeCdXoHQGIK0aPTXDE9.jpg",
       "posterShape": "poster",
-      "description": "Jane Tennant, the first female Special Agent in Charge of NCIS Pearl Harbor, and her unwavering team of specialists balance duty to family and country while investigating high-stakes crimes involving military personnel, national security and the mysteries of the sun-drenched island paradise itself.",
+      "description": "Within the walls of an interrogation room, London investigators question suspects accused of grievous crimes until the truth comes to light.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt14218674"
+      "releaseInfo": "2019",
+      "imdb_id": "tt9348692"
     },
     {
       "id": "tt14582876",
@@ -261,32 +273,18 @@
       "imdb_id": "tt14582876"
     },
     {
-      "id": "tt11816814",
+      "id": "tt0306414",
       "type": "series",
-      "name": "Painkiller",
-      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
+      "name": "The Wire",
+      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
       "posterShape": "poster",
-      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt11816814"
-    },
-    {
-      "id": "tt31314754",
-      "type": "series",
-      "name": "Devil in Disguise: John Wayne Gacy",
-      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
-      "posterShape": "poster",
-      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
+      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31314754"
+      "releaseInfo": "2002",
+      "imdb_id": "tt0306414"
     }
   ]
 }
