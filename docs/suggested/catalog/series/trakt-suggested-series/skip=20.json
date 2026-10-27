@@ -1,32 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt11816814",
+      "id": "tt0306414",
       "type": "series",
-      "name": "Painkiller",
-      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
+      "name": "The Wire",
+      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
       "posterShape": "poster",
-      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
+      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt11816814"
-    },
-    {
-      "id": "tt6439752",
-      "type": "series",
-      "name": "Snowfall",
-      "poster": "https://image.tmdb.org/t/p/w500/y7ntzl7msiaS6o7dvDbNG7XFYcR.jpg",
-      "posterShape": "poster",
-      "description": "Los Angeles. 1983. A storm is coming and its name is crack. Set against the infancy of the crack cocaine epidemic and its ultimate radical impact on the culture as we know it, the story follows numerous characters on a violent collision course.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt6439752"
+      "releaseInfo": "2002",
+      "imdb_id": "tt0306414"
     },
     {
       "id": "tt1489428",
@@ -43,18 +29,32 @@
       "imdb_id": "tt1489428"
     },
     {
-      "id": "tt35515227",
+      "id": "tt6439752",
       "type": "series",
-      "name": "CIA",
-      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
+      "name": "Snowfall",
+      "poster": "https://image.tmdb.org/t/p/w500/y7ntzl7msiaS6o7dvDbNG7XFYcR.jpg",
       "posterShape": "poster",
-      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
+      "description": "Los Angeles. 1983. A storm is coming and its name is crack. Set against the infancy of the crack cocaine epidemic and its ultimate radical impact on the culture as we know it, the story follows numerous characters on a violent collision course.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt6439752"
+    },
+    {
+      "id": "tt14063678",
+      "type": "series",
+      "name": "The Gold",
+      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
+      "posterShape": "poster",
+      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35515227"
+      "releaseInfo": "2023",
+      "imdb_id": "tt14063678"
     },
     {
       "id": "tt0141842",
@@ -69,6 +69,34 @@
       ],
       "releaseInfo": "1999",
       "imdb_id": "tt0141842"
+    },
+    {
+      "id": "tt0903747",
+      "type": "series",
+      "name": "Breaking Bad",
+      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+      "posterShape": "poster",
+      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2008",
+      "imdb_id": "tt0903747"
+    },
+    {
+      "id": "tt34675596",
+      "type": "series",
+      "name": "Cape Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
+      "posterShape": "poster",
+      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34675596"
     },
     {
       "id": "tt0090410",
@@ -87,35 +115,6 @@
       "imdb_id": "tt0090410"
     },
     {
-      "id": "tt13918776",
-      "type": "series",
-      "name": "The Night Agent",
-      "poster": "https://image.tmdb.org/t/p/w500/4c5yUNcaff4W4aPrkXE6zr7papX.jpg",
-      "posterShape": "poster",
-      "description": "Brought together by a midnight phone call, an FBI agent and a cybersecurity expert must unravel an ever-growing web of political conspiracies.",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt13918776"
-    },
-    {
-      "id": "tt0903747",
-      "type": "series",
-      "name": "Breaking Bad",
-      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
-      "posterShape": "poster",
-      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0903747"
-    },
-    {
       "id": "tt0805661",
       "type": "series",
       "name": "The Black Donnellys",
@@ -130,18 +129,18 @@
       "imdb_id": "tt0805661"
     },
     {
-      "id": "tt2149175",
+      "id": "tt9348692",
       "type": "series",
-      "name": "The Americans",
-      "poster": "https://image.tmdb.org/t/p/w500/w1UBlxEXhbKe8sp0fxFZh7MqTce.jpg",
+      "name": "Criminal: UK",
+      "poster": "https://image.tmdb.org/t/p/w500/xkfYO8qOqeCdXoHQGIK0aPTXDE9.jpg",
       "posterShape": "poster",
-      "description": "Set during the Cold War period in the 1980s, The Americans is the story of Elizabeth and Philip Jennings, two Soviet KGB officers posing as an American married couple in the suburbs of Washington D.C. and their neighbor, Stan Beeman, an FBI Counterintelligence agent.",
+      "description": "Within the walls of an interrogation room, London investigators question suspects accused of grievous crimes until the truth comes to light.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2149175"
+      "releaseInfo": "2019",
+      "imdb_id": "tt9348692"
     },
     {
       "id": "tt0052522",
@@ -158,61 +157,62 @@
       "imdb_id": "tt0052522"
     },
     {
-      "id": "tt2243973",
+      "id": "tt13918776",
       "type": "series",
-      "name": "Hannibal",
-      "poster": "https://image.tmdb.org/t/p/w500/pbV2eLnKSIm1epSZt473UYfqaeZ.jpg",
+      "name": "The Night Agent",
+      "poster": "https://image.tmdb.org/t/p/w500/4c5yUNcaff4W4aPrkXE6zr7papX.jpg",
       "posterShape": "poster",
-      "description": "Both a gift and a curse, Graham has the extraordinary ability to think like his prey—he sees what they see, feels what they feel. But while Graham is pursuing an especially troubling, cannibalistic murderer, Special Agent Jack Crawford teams him with a highly respected psychiatrist – a man with a taste for the criminal minded – Dr. Hannibal Lecter.",
+      "description": "Brought together by a midnight phone call, an FBI agent and a cybersecurity expert must unravel an ever-growing web of political conspiracies.",
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt13918776"
+    },
+    {
+      "id": "tt36022742",
+      "type": "series",
+      "name": "Nemesis",
+      "poster": "https://image.tmdb.org/t/p/w500/NY7ZwSMw5PjoJdK2CObqiTj7Bm.jpg",
+      "posterShape": "poster",
+      "description": "A relentless LAPD cop becomes obsessed with taking down the master thief behind a string of daring heists — and only one can come out on top.",
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt36022742"
+    },
+    {
+      "id": "tt11816814",
+      "type": "series",
+      "name": "Painkiller",
+      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
+      "posterShape": "poster",
+      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2243973"
-    },
-    {
-      "id": "tt5611024",
-      "type": "series",
-      "name": "Fool Me Once",
-      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
-      "posterShape": "poster",
-      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5611024"
-    },
-    {
-      "id": "tt14063678",
-      "type": "series",
-      "name": "The Gold",
-      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
-      "posterShape": "poster",
-      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
       "releaseInfo": "2023",
-      "imdb_id": "tt14063678"
+      "imdb_id": "tt11816814"
     },
     {
-      "id": "tt1652216",
+      "id": "tt35515227",
       "type": "series",
-      "name": "DCI Banks",
-      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
+      "name": "CIA",
+      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
       "posterShape": "poster",
-      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
+      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1652216"
+      "releaseInfo": "2026",
+      "imdb_id": "tt35515227"
     },
     {
       "id": "tt16030542",
@@ -230,34 +230,6 @@
       "imdb_id": "tt16030542"
     },
     {
-      "id": "tt4687880",
-      "type": "series",
-      "name": "Goliath",
-      "poster": "https://image.tmdb.org/t/p/w500/b7ygC3GRaq4xc0nkWdGnydtMfvD.jpg",
-      "posterShape": "poster",
-      "description": "Once a powerful lawyer, Billy McBride is now burned out and washed up, spending more time in a bar than a courtroom. When he reluctantly agrees to pursue a wrongful death lawsuit against the biggest client of Cooperman &amp; McBride, the massive law firm he helped create, Billy and his ragtag team uncover a vast and deadly conspiracy, pitting them all in a life or death trial against the ultimate Goliath.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt4687880"
-    },
-    {
-      "id": "tt9348692",
-      "type": "series",
-      "name": "Criminal: UK",
-      "poster": "https://image.tmdb.org/t/p/w500/xkfYO8qOqeCdXoHQGIK0aPTXDE9.jpg",
-      "posterShape": "poster",
-      "description": "Within the walls of an interrogation room, London investigators question suspects accused of grievous crimes until the truth comes to light.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt9348692"
-    },
-    {
       "id": "tt14582876",
       "type": "series",
       "name": "On Call",
@@ -273,18 +245,46 @@
       "imdb_id": "tt14582876"
     },
     {
-      "id": "tt0306414",
+      "id": "tt4158110",
       "type": "series",
-      "name": "The Wire",
-      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
+      "name": "Mr. Robot",
+      "poster": "https://image.tmdb.org/t/p/w500/kv1nRqgebSsREnd7vdC2pSGjpLo.jpg",
       "posterShape": "poster",
-      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
+      "description": "A young programmer, Elliot, suffers from a debilitating anti-social disorder and decides that he can only connect to people by hacking them. He wields his skills as a weapon to protect the people that he cares about. Elliot finds himself in the intersection between a cybersecurity firm he works for and the underworld organizations that are recruiting him to bring down corporate America.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0306414"
+      "releaseInfo": "2015",
+      "imdb_id": "tt4158110"
+    },
+    {
+      "id": "tt4687880",
+      "type": "series",
+      "name": "Goliath",
+      "poster": "https://image.tmdb.org/t/p/w500/b7ygC3GRaq4xc0nkWdGnydtMfvD.jpg",
+      "posterShape": "poster",
+      "description": "Once a powerful lawyer, Billy McBride is now burned out and washed up, spending more time in a bar than a courtroom. When he reluctantly agrees to pursue a wrongful death lawsuit against the biggest client of Cooperman &amp; McBride, the massive law firm he helped create, Billy and his ragtag team uncover a vast and deadly conspiracy, pitting them all in a life or death trial against the ultimate Goliath.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt4687880"
+    },
+    {
+      "id": "tt4301160",
+      "type": "series",
+      "name": "Black Bird",
+      "poster": "https://image.tmdb.org/t/p/w500/qu312pwM61NPTr7nexvovCClDNP.jpg",
+      "posterShape": "poster",
+      "description": "As Jimmy Keene begins a 10-year prison sentence, he gets an incredible offer: If he can elicit a confession from suspected killer Larry Hall, Jimmy will be freed. Completing this mission becomes the challenge of a lifetime.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt4301160"
     }
   ]
 }
