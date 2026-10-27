@@ -15,18 +15,33 @@
       "imdb_id": "tt6439752"
     },
     {
-      "id": "tt10732104",
+      "id": "tt9742936",
       "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "name": "FBI: Most Wanted",
+      "poster": "https://image.tmdb.org/t/p/w500/uwTNBqFrEur3EtK8ofWbtGXMQOP.jpg",
       "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "description": "The Fugitive Task Force relentlessly tracks and captures the notorious criminals on the Bureau's Most Wanted list. Seasoned agents oversee the highly skilled team that functions as a mobile undercover unit that is always out in the field, pursuing those who are most desperate to elude justice.",
       "genres": [
         "Crime",
         "Drama"
       ],
       "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
+      "imdb_id": "tt9742936"
+    },
+    {
+      "id": "tt20285780",
+      "type": "series",
+      "name": "The Artful Dodger",
+      "poster": "https://image.tmdb.org/t/p/w500/lcyax0pIH6vZWbho2hxsMTt9KpN.jpg",
+      "posterShape": "poster",
+      "description": "It's a tale of reinvention, betrayal, redemption, and love with a twist. Jack Dawkins is The Artful Dodger, whose pickpocketing fingers have become the skilled hands of a surgeon. He is torn between an impossible love and the criminal underworld he secretly craves. This will require Artfulness.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt20285780"
     },
     {
       "id": "tt5574490",
@@ -41,6 +56,35 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt5574490"
+    },
+    {
+      "id": "tt6037988",
+      "type": "series",
+      "name": "Last Seen",
+      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
+      "posterShape": "poster",
+      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt6037988"
+    },
+    {
+      "id": "tt6517320",
+      "type": "series",
+      "name": "Too Old to Die Young",
+      "poster": "https://image.tmdb.org/t/p/w500/xGBwXf02Mu2zzqxh6TomLC7xfk7.jpg",
+      "posterShape": "poster",
+      "description": "In one tragic night, Los Angeles County Sheriff's Deputy Martin Jones's life is blown apart, and he is forced into a deadly underground of Cartel soldiers, Yakuza assassins, and mysterious vigilantes. Soon he finds himself lost on a surreal odyssey of murder, mysticism and vengeance, as his past sins close in on him.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt6517320"
     },
     {
       "id": "tt1489428",
@@ -72,49 +116,6 @@
       "imdb_id": "tt34771210"
     },
     {
-      "id": "tt20285780",
-      "type": "series",
-      "name": "The Artful Dodger",
-      "poster": "https://image.tmdb.org/t/p/w500/lcyax0pIH6vZWbho2hxsMTt9KpN.jpg",
-      "posterShape": "poster",
-      "description": "It's a tale of reinvention, betrayal, redemption, and love with a twist. Jack Dawkins is The Artful Dodger, whose pickpocketing fingers have become the skilled hands of a surgeon. He is torn between an impossible love and the criminal underworld he secretly craves. This will require Artfulness.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt20285780"
-    },
-    {
-      "id": "tt6517320",
-      "type": "series",
-      "name": "Too Old to Die Young",
-      "poster": "https://image.tmdb.org/t/p/w500/xGBwXf02Mu2zzqxh6TomLC7xfk7.jpg",
-      "posterShape": "poster",
-      "description": "In one tragic night, Los Angeles County Sheriff's Deputy Martin Jones's life is blown apart, and he is forced into a deadly underground of Cartel soldiers, Yakuza assassins, and mysterious vigilantes. Soon he finds himself lost on a surreal odyssey of murder, mysticism and vengeance, as his past sins close in on him.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt6517320"
-    },
-    {
-      "id": "tt33253070",
-      "type": "series",
-      "name": "M.I.A.",
-      "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
-      "posterShape": "poster",
-      "description": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33253070"
-    },
-    {
       "id": "tt1124373",
       "type": "series",
       "name": "Sons of Anarchy",
@@ -143,19 +144,18 @@
       "imdb_id": "tt0903747"
     },
     {
-      "id": "tt5611024",
+      "id": "tt10732104",
       "type": "series",
-      "name": "Fool Me Once",
-      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "name": "Power Book II: Ghost",
+      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
       "posterShape": "poster",
-      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
       "genres": [
-        "Drama",
         "Crime",
-        "Mystery"
+        "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5611024"
+      "releaseInfo": "2020",
+      "imdb_id": "tt10732104"
     },
     {
       "id": "tt3032476",
@@ -186,18 +186,18 @@
       "imdb_id": "tt5011816"
     },
     {
-      "id": "tt34675596",
+      "id": "tt33253070",
       "type": "series",
-      "name": "Cape Fear",
-      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
+      "name": "M.I.A.",
+      "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
       "posterShape": "poster",
-      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
+      "description": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt34675596"
+      "imdb_id": "tt33253070"
     },
     {
       "id": "tt0141842",
@@ -212,6 +212,35 @@
       ],
       "releaseInfo": "1999",
       "imdb_id": "tt0141842"
+    },
+    {
+      "id": "tt5761496",
+      "type": "series",
+      "name": "Get Shorty",
+      "poster": "https://image.tmdb.org/t/p/w500/ism3TUNdIl5MpQR6E8ApjE89LQy.jpg",
+      "posterShape": "poster",
+      "description": "Miles Daly works as muscle for a murderous crime ring in Nevada and attempts to change professions and become a movie producer, laundering money through a Hollywood film with the help of washed-up filmmaker Rick Moreweather.  Based on Elmore Leonard’s 1990 New York Times bestselling novel.",
+      "genres": [
+        "Crime",
+        "Comedy"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5761496"
+    },
+    {
+      "id": "tt5611024",
+      "type": "series",
+      "name": "Fool Me Once",
+      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "posterShape": "poster",
+      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt5611024"
     },
     {
       "id": "tt1958961",
@@ -229,61 +258,33 @@
       "imdb_id": "tt1958961"
     },
     {
-      "id": "tt6037988",
+      "id": "tt0439100",
       "type": "series",
-      "name": "Last Seen",
-      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
+      "name": "Weeds",
+      "poster": "https://image.tmdb.org/t/p/w500/gKUsBTa5b0GY7U4iWBseeBalfjO.jpg",
       "posterShape": "poster",
-      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
+      "description": "After the unexpected death of her husband, a suburban mom resorts to selling weed to support her family.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2005",
+      "imdb_id": "tt0439100"
+    },
+    {
+      "id": "tt34675596",
+      "type": "series",
+      "name": "Cape Fear",
+      "poster": "https://image.tmdb.org/t/p/w500/3ZLy3cfQa9prahoRq1teMmr5pvW.jpg",
+      "posterShape": "poster",
+      "description": "When convicted murderer Max Cady is released from prison, he begins infiltrating the family of the married attorneys who helped put him behind bars.",
       "genres": [
         "Crime",
-        "Drama",
-        "Mystery"
+        "Drama"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt6037988"
-    },
-    {
-      "id": "tt14466018",
-      "type": "series",
-      "name": "Blue Lights",
-      "poster": "https://image.tmdb.org/t/p/w500/3C3c40DH8M6qdECHLlxk8o5nrC0.jpg",
-      "posterShape": "poster",
-      "description": "Follows rookie police officers working in Belfast, a city in which being a frontline response cop comes with unique pressures and dangers.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14466018"
-    },
-    {
-      "id": "tt11816814",
-      "type": "series",
-      "name": "Painkiller",
-      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
-      "posterShape": "poster",
-      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt11816814"
-    },
-    {
-      "id": "tt11110622",
-      "type": "series",
-      "name": "White House Farm",
-      "poster": "https://image.tmdb.org/t/p/w500/xviAtCeJXRDxl4ClzIo1qyBhTLc.jpg",
-      "posterShape": "poster",
-      "description": "Factual drama based on the notorious White House Farm murders, and the ensuing police investigation and court case.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11110622"
+      "imdb_id": "tt34675596"
     }
   ]
 }

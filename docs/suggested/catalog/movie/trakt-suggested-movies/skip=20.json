@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt0144084",
-      "type": "movie",
-      "name": "American Psycho",
-      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
-      "posterShape": "poster",
-      "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
-      "genres": [
-        "Thriller",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2000",
-      "imdb_id": "tt0144084"
-    },
-    {
       "id": "tt15314262",
       "type": "movie",
       "name": "The Beekeeper",
@@ -86,21 +71,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32357218"
-    },
-    {
-      "id": "tt4873118",
-      "type": "movie",
-      "name": "Guy Ritchie's The Covenant",
-      "poster": "https://image.tmdb.org/t/p/w500/kVG8zFFYrpyYLoHChuEeOGAd6Ru.jpg",
-      "posterShape": "poster",
-      "description": "After an ambush, Afghan interpreter Ahmed goes to Herculean lengths to save US Army Sergeant John Kinley's life. When Kinley learns that Ahmed and his family were not given safe passage to America as promised, he must return to the war zone and repay his debt.",
-      "genres": [
-        "War",
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt4873118"
     },
     {
       "id": "tt31192372",
@@ -292,6 +262,37 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt31189814"
+    },
+    {
+      "id": "tt0477348",
+      "type": "movie",
+      "name": "No Country for Old Men",
+      "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+      "posterShape": "poster",
+      "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Western"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0477348"
+    },
+    {
+      "id": "tt0425210",
+      "type": "movie",
+      "name": "Lucky Number Slevin",
+      "poster": "https://image.tmdb.org/t/p/w500/x21s3p5wPww534nYj1cWakTcqz4.jpg",
+      "posterShape": "poster",
+      "description": "Slevin is mistakenly put in the middle of a personal war between the city’s biggest criminal bosses. Under constant watch, Slevin must try not to get killed by an infamous assassin and come up with an idea of how to get out of his current dilemma.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2006",
+      "imdb_id": "tt0425210"
     }
   ]
 }
