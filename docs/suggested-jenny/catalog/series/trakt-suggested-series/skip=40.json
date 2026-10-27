@@ -44,6 +44,19 @@
       "imdb_id": "tt9064858"
     },
     {
+      "id": "tt14016500",
+      "type": "series",
+      "name": "The Summer I Turned Pretty",
+      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
+      "posterShape": "poster",
+      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14016500"
+    },
+    {
       "id": "tt12306692",
       "type": "series",
       "name": "American Horror Stories",
@@ -59,6 +72,19 @@
       "imdb_id": "tt12306692"
     },
     {
+      "id": "tt4655480",
+      "type": "series",
+      "name": "Chicago Med",
+      "poster": "https://image.tmdb.org/t/p/w500/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
+      "posterShape": "poster",
+      "description": "An emotional thrill ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors who hold it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt4655480"
+    },
+    {
       "id": "tt11041332",
       "type": "series",
       "name": "Yellowjackets",
@@ -71,19 +97,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11041332"
-    },
-    {
-      "id": "tt4655480",
-      "type": "series",
-      "name": "Chicago Med",
-      "poster": "https://image.tmdb.org/t/p/w500/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
-      "posterShape": "poster",
-      "description": "An emotional thrill ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors who hold it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4655480"
     },
     {
       "id": "tt31458276",
@@ -174,20 +187,6 @@
       "imdb_id": "tt0489974"
     },
     {
-      "id": "tt34579520",
-      "type": "series",
-      "name": "Murder Before Evensong",
-      "poster": "https://image.tmdb.org/t/p/w500/xn7TFZnR9U2KpJovIg5F1WZ1qs2.jpg",
-      "posterShape": "poster",
-      "description": "In 1980s England, Canon Daniel Clement, the Rector of Champton, finds himself unexpectedly entangled in a murder case when a dead body turns up in the church. When Daniel announces a plan to modernize the church, the parish is suddenly divided. And then a body is found dead at the back of the church. As the police move in and the bodies start piling up, Daniel is the only one who can try and keep his fractured community together... and catch a killer.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt34579520"
-    },
-    {
       "id": "tt26576161",
       "type": "series",
       "name": "The Terminal List: Dark Wolf",
@@ -200,6 +199,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt26576161"
+    },
+    {
+      "id": "tt34579520",
+      "type": "series",
+      "name": "Murder Before Evensong",
+      "poster": "https://image.tmdb.org/t/p/w500/xn7TFZnR9U2KpJovIg5F1WZ1qs2.jpg",
+      "posterShape": "poster",
+      "description": "In 1980s England, Canon Daniel Clement, the Rector of Champton, finds himself unexpectedly entangled in a murder case when a dead body turns up in the church. When Daniel announces a plan to modernize the church, the parish is suddenly divided. And then a body is found dead at the back of the church. As the police move in and the bodies start piling up, Daniel is the only one who can try and keep his fractured community together... and catch a killer.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt34579520"
     },
     {
       "id": "tt31849826",
@@ -272,21 +285,6 @@
       ],
       "releaseInfo": "2011",
       "imdb_id": "tt1637727"
-    },
-    {
-      "id": "tt7335184",
-      "type": "series",
-      "name": "You",
-      "poster": "https://image.tmdb.org/t/p/w500/oANi0vEE92nuijiZQgPZ88FSxqQ.jpg",
-      "posterShape": "poster",
-      "description": "A dangerously charming, obsessive man goes to extreme measures to insert himself into the lives of women who fascinate him.",
-      "genres": [
-        "Mystery",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt7335184"
     }
   ]
 }
