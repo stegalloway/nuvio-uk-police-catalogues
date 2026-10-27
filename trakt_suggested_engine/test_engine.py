@@ -1,5 +1,6 @@
 """Focused contracts for watched exclusion, returning seasons and output quality."""
 
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 import unittest
 
@@ -7,8 +8,8 @@ from . import watchly_base as w
 from .engine import (
     FOR_YOU_SOURCE, LOVED_EVIDENCE, PROFILES, EngineConfig, GenerationError, aired_by_season,
     apply_dismissal_signal, binged, derive_episode_progress, evaluate_returning, for_you_queries, freshness,
-    generate_catalogues, jenny_for_you_queries, jenny_theme, rank_and_mix_series, series_viewing,
-    thematic_signals, viewing_pattern,
+    generate_catalogues, jenny_for_you_queries, jenny_theme, place_keyword,
+    rank_and_mix_series, series_viewing, thematic_signals, viewing_pattern, without_place_keywords,
 )
 
 
@@ -1107,6 +1108,122 @@ class TrustedSignalContracts(unittest.TestCase):
         after = self.run_engine(trakt_lookup=failing)
         for kind in ("series", "movie", "upcoming"):
             self.assertEqual(self.ids(after, kind), self.ids(before, kind))
+
+
+class SeriesTasteContracts(unittest.TestCase):
+    """Ste's series: wider gate, no place keywords, lasting Not Interested, Loved seeds and votes."""
+
+    def setUp(self):
+        self.api = FixtureAPI()
+        self.inputs = list(fixture_inputs())
+        self.config = EngineConfig(catalogue_limit=20, candidate_enrichment_limit=20, minimum_items=3, max_workers=2)
+
+    def run_engine(self, **kwargs):
+        return generate_catalogues(*self.inputs, self.api, now=NOW, config=self.config, **kwargs)
+
+    def ids(self, result, kind="series"):
+        return [m["id"] for m in result["catalogues"][kind]["payload"]["metas"]]
+
+    def show_detail(self, number, genres, keywords):
+        detail = dict(self.api.detail(number), genres=[{"id": g, "name": str(g)} for g in genres],
+                      keywords={"results": [{"id": i, "name": n} for i, n in keywords]})
+        self.api.details[("tv", number)] = detail
+        return detail
+
+    def loved(self, *numbers):
+        return [{"type": "show", "show": {"ids": {"tmdb": n, "imdb": "tt" + str(n)}}} for n in numbers]
+
+    def test_place_keywords_never_reach_matching(self):
+        self.assertTrue(place_keyword({"name": "london, england"}))
+        self.assertTrue(place_keyword({"name": "Los Angeles, California"}))
+        self.assertTrue(place_keyword({"name": "new york city"}))
+        self.assertFalse(place_keyword({"name": "lapd"}))
+        self.assertFalse(place_keyword({"name": "british spy"}))
+        dropped = Counter()
+        fetch = without_place_keywords(lambda path, params: {"keywords": {"results": [
+            {"id": 1, "name": "london, england"}, {"id": 2, "name": "espionage"}]}}, dropped)
+        self.assertEqual(fetch("/tv/1", None)["keywords"]["results"], [{"id": 2, "name": "espionage"}])
+        self.assertEqual(dropped, Counter({"london, england": 1}))
+
+    def test_series_may_be_action_war_or_legal_drama_but_not_any_drama(self):
+        ste, jenny = PROFILES["ste"], PROFILES["jenny"]
+        action = {"genres": [{"id": 10759}], "keywords": {"results": []}}
+        legal = {"genres": [{"id": 18}], "keywords": {"results": [{"id": 9, "name": "law firm"}]}}
+        plain = {"genres": [{"id": 18}], "keywords": {"results": [{"id": 8, "name": "hospital"}]}}
+        self.assertTrue(ste.final_gate(action, "series"))
+        self.assertTrue(ste.final_gate(legal, "series"))
+        self.assertFalse(ste.final_gate(plain, "series"))
+        self.assertTrue(ste.final_gate(plain, "movie"))
+        self.assertTrue(jenny.final_gate(plain, "series"))
+        self.assertIn(10768, ste.policy("series").required_any_genres)
+
+    def test_loved_shows_seed_a_legal_drama_and_vote_for_it(self):
+        self.show_detail(600, [10768, 18], [(80, "military"), (81, "special forces")])
+        self.show_detail(601, [18], [(50, "lawyer")])
+        self.show_detail(602, [18], [(51, "hospital")])
+        self.assertNotIn("tt601", self.ids(self.run_engine()), "Without a Loved seed a drama never qualifies")
+        result = self.run_engine(loved=self.loved(600))
+        series = self.ids(result)
+        self.assertIn("tt601", series)
+        self.assertNotIn("tt602", series)
+        seeds = result["diagnostics"]["media"]["series"]["loved_seeds"]
+        self.assertEqual(seeds["titles"], ["Show 600"])
+        legal = [p for p in seeds["positions"] if p["id"] == "tt601"][0]
+        self.assertTrue(legal["legal_drama_only"])
+        self.assertEqual(legal["loved_votes"], ["Show 600"])
+
+    def test_each_loved_show_that_points_to_a_title_adds_a_capped_bonus(self):
+        for number in (600, 606, 607, 608):
+            self.show_detail(number, [80], [(80 + number, "theme " + str(number))])
+        def scores(loved, weight):
+            original = PROFILES["ste"].loved_vote_weight
+            type(PROFILES["ste"]).loved_vote_weight = weight
+            try:
+                diagnostics = self.run_engine(loved=self.loved(*loved))["diagnostics"]["media"]["series"]
+            finally:
+                type(PROFILES["ste"]).loved_vote_weight = original
+            return {c["title"]: c for c in diagnostics["loved_seeds"]["card_scores"]}
+        two, none = scores((600, 606), .05), scores((600, 606), 0.)
+        self.assertEqual(two["Movie 203"]["loved_votes"], 2)
+        self.assertAlmostEqual(two["Movie 203"]["score"] - none["Movie 203"]["score"], .10, places=3)
+        four, none = scores((600, 606, 607, 608), .05), scores((600, 606, 607, 608), 0.)
+        self.assertEqual(four["Movie 203"]["loved_votes"], 4)
+        self.assertAlmostEqual(four["Movie 203"]["score"] - none["Movie 203"]["score"], .15, places=3)
+
+    def test_a_title_only_loved_seeds_found_needs_two_loved_votes(self):
+        for number in (600, 606):
+            self.show_detail(number, [80], [(90 + number, "theme " + str(number))])
+        self.api.details[("tv", 701)] = self.api.detail(701, org=True)
+        self.api.for_you_only.add(("tv", 701))      # no history seed or discover query returns it
+        def fetch(voters):
+            def call(path, params=None):
+                value = self.api(path, params)
+                if any(path.startswith("/tv/" + str(n) + "/recommendations") for n in voters):
+                    value = {"results": value["results"] + [self.api.raw(self.api.details[("tv", 701)])]}
+                return value
+            return call
+        def run(voters):
+            return generate_catalogues(*self.inputs, fetch(voters), now=NOW, config=self.config,
+                                       loved=self.loved(600, 606))
+        one = run((600,))
+        self.assertNotIn("tt701", self.ids(one))
+        self.assertIn("Show 701", one["diagnostics"]["media"]["series"]["loved_seeds"]["loved_only_dropped"])
+        self.assertIn("tt701", self.ids(run((600, 606))))
+
+    def test_not_interested_no_longer_fades(self):
+        detail = {"keywords": {"results": [{"id": 7, "name": "heist"}]}, "credits": {"cast": [], "crew": []}}
+        old = "2025-01-01T00:00:00Z"
+        lasting, _ = apply_dismissal_signal({}, [(detail, old)], NOW, decays=False)
+        faded, _ = apply_dismissal_signal({}, [(detail, old)], NOW)
+        self.assertAlmostEqual(lasting["keywords"][7], -.2 * .7)
+        self.assertGreater(faded["keywords"][7], lasting["keywords"][7])
+
+    def test_the_jenny_profile_keeps_her_series_taste(self):
+        self.show_detail(600, [10768], [(80, "military")])
+        self.config = EngineConfig(**dict(vars(self.config), profile="jenny"))
+        result = self.run_engine(loved=self.loved(600))
+        self.assertEqual(result["diagnostics"]["media"]["series"]["loved_seeds"]["titles"], [])
+        self.assertEqual(result["diagnostics"]["place_keywords_dropped"], [])
 
 
 class FilmAgeContracts(unittest.TestCase):

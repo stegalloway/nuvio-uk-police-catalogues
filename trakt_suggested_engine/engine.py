@@ -24,11 +24,12 @@ retrieval, caching, atomic publication and retention of the last good result.
 
 from __future__ import annotations
 
-from collections import defaultdict
+from collections import Counter, defaultdict
 from dataclasses import asdict, dataclass, replace
 from datetime import date, datetime, timedelta, timezone
 import math
 import re
+import threading
 from typing import Any, Callable, Iterable, Mapping, Sequence
 
 from . import watchly_base as w
@@ -227,6 +228,68 @@ TRAKT_RELATED_SOURCE = "trakt_related"
 EXTRA_SOURCES = frozenset({FOR_YOU_SOURCE, TRAKT_RELATED_SOURCE})
 # A Trakt community score counts only with at least this many votes.
 TRAKT_RATING_VOTES = 100
+
+# Ste's series taste from his Loved list (27 October 2026).
+LOVED_SOURCE = "loved_recommendation"
+EXTRA_SOURCES = EXTRA_SOURCES | {LOVED_SOURCE}
+LOVED_PAGES = (1, 2)
+# Crime, Mystery, Action & Adventure, War & Politics: the series a suggestion
+# may be. A drama with none of these still qualifies as a legal drama.
+CORE_SERIES_GENRES = frozenset({80, 9648, 10759, 10768})
+_LEGAL = re.compile(r"\b(?:lawyer|attorney|courtroom|law firm|legal (?:drama|thriller)|prosecutor|"
+                    r"public defender|defense attorney|district attorney|corporate law)\b", re.I)
+# A TMDB place keyword: "london, england", "los angeles, california", or one of
+# these. Places say where a story is set, not what it is about.
+_PLACES = frozenset("""
+london england scotland wales ireland britain uk usa america europe africa asia australia canada mexico
+russia germany france italy spain japan china india iran iraq afghanistan israel colombia brazil
+paris berlin moscow rome madrid amsterdam dublin belfast glasgow edinburgh manchester liverpool birmingham
+leeds newcastle cornwall yorkshire chicago miami boston philadelphia detroit baltimore atlanta seattle
+texas california florida louisiana montana oklahoma georgia arizona nevada
+""".split()) | {"northern ireland", "united kingdom", "great britain", "united states", "new york",
+                "new york city", "washington d.c.", "washington dc", "los angeles", "las vegas",
+                "new orleans", "san francisco", "new jersey", "middle east", "south africa", "new zealand"}
+
+
+def place_keyword(keyword: Mapping) -> bool:
+    name = str(keyword.get("name") or "").strip().lower()
+    return ", " in name or name in _PLACES
+
+
+def keyword_items(detail: Mapping) -> list[Mapping]:
+    keywords = detail.get("keywords") or {}
+    if isinstance(keywords, Mapping):
+        keywords = keywords.get("results") or keywords.get("keywords") or []
+    return [k for k in keywords if isinstance(k, Mapping)] if isinstance(keywords, list) else []
+
+
+def keyword_names(detail: Mapping) -> list[str]:
+    return [str(k.get("name") or "") for k in keyword_items(detail)]
+
+
+def without_place_keywords(fetch: Callable[[str, Mapping | None], Any],
+                           dropped: Counter | None = None) -> Callable[[str, Mapping | None], Any]:
+    """tmdb_fetch whose details carry no place keywords; dropped counts them by name."""
+    lock = threading.Lock()
+    def call(path, params=None):
+        value = fetch(path, params)
+        keywords = value.get("keywords") if isinstance(value, Mapping) else None
+        if not isinstance(keywords, Mapping):
+            return value
+        kept = {}
+        for key in ("results", "keywords"):
+            if isinstance(keywords.get(key), list):
+                places = [k for k in keywords[key] if isinstance(k, Mapping) and place_keyword(k)]
+                kept[key] = [k for k in keywords[key] if not (isinstance(k, Mapping) and place_keyword(k))]
+                if dropped is not None and places:
+                    with lock:
+                        dropped.update(str(k.get("name")) for k in places)
+        return dict(value, keywords=dict(keywords, **kept))
+    return call
+
+
+def legal_drama(detail: Mapping) -> bool:
+    return any(_LEGAL.search(name) for name in keyword_names(detail))
 
 
 def aired_by_season(detail: Mapping) -> dict[int, int] | None:
@@ -865,13 +928,40 @@ class SteProfile:
     uses_loved_list = True
     trakt_related_limit = 10
     trakt_rating_minimum = 7.0
+    # Series taste from the Loved list, on today's ranking (Ste, 27 October
+    # 2026): series may be action, war and politics or legal dramas as well as
+    # crime and mystery; place keywords ("london, england") never match; a Not
+    # Interested title no longer fades; every Loved show seeds candidates, and a
+    # title gains loved_vote_weight for each Loved show (up to loved_vote_cap)
+    # whose TMDB recommendations or Trakt related titles include it. The
+    # organised-crime weighting, prefix and 2:1 mix stay.
+    wider_series_gate = True
+    drop_place_keywords = True
+    lasting_not_interested = True
+    loved_seeds = True
+    loved_vote_weight = .10
+    loved_vote_cap = 3
+    # One Loved show's recommendation list alone is noisy: a title nothing but
+    # Loved seeds found needs this many Loved votes (Ste, 27 October 2026).
+    loved_only_min_votes = 2
     # Kinds whose seeds gain themed history titles and their extra pages.
     themed_kinds = frozenset({"series"})
     themed_source = "organised_crime_history_recommendation"
 
     def policy(self, kind: str) -> w.FilterPolicy:
         policy = w.ste_policy(kind, newest_first=False)
+        if kind == "series" and self.wider_series_gate:
+            # Dramas pass here for the legal-drama check after enrichment (final_gate).
+            return replace(policy, required_any_genres=tuple(sorted(CORE_SERIES_GENRES | {18})))
         return replace(policy, year_min=self.film_year_min) if kind == "movie" else policy
+
+    def core_candidate(self, raw: Mapping, kind: str) -> bool:
+        """Before enrichment: a series candidate with a core genre, not a drama awaiting the legal check."""
+        return kind != "series" or not self.wider_series_gate or bool(set(w._genres(raw)) & CORE_SERIES_GENRES)
+
+    def final_gate(self, detail: Mapping, kind: str) -> bool:
+        """After enrichment: a core genre, or a drama whose keywords make it a legal drama."""
+        return self.core_candidate(detail, kind) or legal_drama(detail)
 
     def for_you_queries(self, kind: str, now: datetime, pages: int) -> list[dict]:
         return for_you_queries(kind, now, pages)
@@ -956,6 +1046,13 @@ class JennyProfile(SteProfile):
     uses_loved_list = False
     trakt_related_limit = 0
     trakt_rating_minimum = None
+    wider_series_gate = False
+    drop_place_keywords = False
+    lasting_not_interested = False
+    loved_seeds = False
+    loved_vote_weight = 0.
+    loved_vote_cap = 0
+    loved_only_min_votes = 0
     themed_kinds = frozenset({"series", "movie"})
     themed_source = "themed_history_recommendation"
     # Share of a card's score from her themes; the rest is history similarity.
@@ -1113,7 +1210,10 @@ def generate_catalogues(
     if not watched_movies or not watched_shows:
         raise GenerationError("Both movie and series watched histories are required; retain existing catalogues")
     history = w.history_from_trakt(watched_movies, watched_shows, rated_movies, rated_shows)
-    api = w.callbacks_from_fetch(tmdb_fetch, language=config.metadata_language)
+    # Place keywords leave every TMDB detail before profile, matching or themes see it.
+    places_dropped = Counter()
+    fetch = without_place_keywords(tmdb_fetch, places_dropped) if taste.drop_place_keywords else tmdb_fetch
+    api = w.callbacks_from_fetch(fetch, language=config.metadata_language)
     result = {"generated_at": moment.isoformat(), "catalogue_order": ["series", "movie", "upcoming"],
               "catalogues": {}, "diagnostics": {"algorithm": "Watchly-based custom Trakt Suggested generator",
                   "watchly_commit": w.COMMIT, "config": asdict(config), "media": {},
@@ -1176,7 +1276,9 @@ def generate_catalogues(
             if detail:
                 dislike_details.append((detail, listed_at))
         if dislike_details:
-            profile, normalised = apply_dismissal_signal(profile, dislike_details, moment)
+            # A title stays on Not Interested only while it is still not wanted.
+            profile, normalised = apply_dismissal_signal(profile, dislike_details, moment,
+                                                         decays=not taste.lasting_not_interested)
         like_details = []
         for ids, listed_at in dismissed_titles(watchlist, kind):
             tid = w._int(ids.get("tmdb")) or (w._int(runner._call("resolve", ids["imdb"], media)) if ids.get("imdb") else None)
@@ -1201,6 +1303,23 @@ def generate_catalogues(
         if loved_details:
             profile, normalised = apply_dismissal_signal(profile, loved_details, moment,
                                                          evidence=LOVED_EVIDENCE, decays=False)
+        # Every Loved series, watched or not, seeds candidates.
+        loved_tids, loved_seed_imdb, loved_name = [], [], {}
+        if kind == "series" and taste.loved_seeds:
+            for ids, _ in dismissed_titles(loved, kind):
+                tid = w._int(ids.get("tmdb")) or (w._int(runner._call("resolve", ids["imdb"], media)) if ids.get("imdb") else None)
+                detail = runner._details(tid, media) if tid else {}
+                if detail:
+                    name = detail.get("name") or detail.get("title") or str(tid)
+                    loved_tids.append(tid)
+                    loved_name[tid] = name
+                    imdb = ids.get("imdb") or (detail.get("external_ids") or {}).get("imdb_id")
+                    if imdb:
+                        loved_seed_imdb.append(imdb)
+                        loved_name[imdb] = name
+        # Candidate TMDB ID -> the Loved shows whose recommendations or Trakt
+        # related titles include it: "fans of your Loved shows watch this".
+        loved_votes: dict[int, set] = defaultdict(set)
         watched_imdb, watched_tmdb = set(), set()
         for entry in watch_rows:
             ids = (entry.get("movie") or entry.get("show") or {}).get("ids") or {}
@@ -1216,7 +1335,7 @@ def generate_catalogues(
         seeds = w.sample_seeds(seed_pool, moment, config.top_seed_count)
         pool_ids = {i["imdb_id"] for i in seed_pool}
         themed_kind = kind in taste.themed_kinds
-        strength = ({i["imdb_id"]: taste.seed_strength(taste.theme(detail_for_history[i["imdb_id"]]))
+        strength =({i["imdb_id"]: taste.seed_strength(taste.theme(detail_for_history[i["imdb_id"]]))
                      for i in items} if themed_kind else {})
         if themed_kind:
             themed = [i for i in items if strength[i["imdb_id"]] is not None and i["imdb_id"] in pool_ids
@@ -1246,6 +1365,14 @@ def generate_catalogues(
             return seed, w._rows(runner._call("recommendations", tid, media, 1)) if tid else []
         for seed, rows in runner._map(recommend, seeds):
             merge(rows, "history_recommendation")
+        if loved_tids:
+            pages = [(tid, page) for tid in loved_tids for page in LOVED_PAGES]
+            for (tid, _), rows in runner._map(
+                    lambda p: (p, w._rows(runner._call("recommendations", p[0], media, p[1]))), pages):
+                merge(rows, LOVED_SOURCE)
+                for raw in rows:
+                    if w._int(raw.get("id")):
+                        loved_votes[w._int(raw["id"])].add(loved_name[tid])
         # Extra pages for metadata-selected themed seeds (Ste: organised crime)
         # prevent a generic popular discovery pool from drowning out that preference.
         if themed_kind:
@@ -1258,7 +1385,7 @@ def generate_catalogues(
                         merge(w._rows(runner._call(name, tid, media, page)), taste.themed_source)
         # Trakt's related titles for the same seeds: a second, Trakt-side view
         # of "more like this". Their TMDB details stand in for a raw row.
-        related_found = set()
+        related_found, related_from_history = set(), set()
         if trakt_lookup and taste.trakt_related_limit:
             def trakt_related(seed):
                 try:
@@ -1267,11 +1394,17 @@ def generate_catalogues(
                     runner.warnings.append({"stage": "trakt_related", "exception_type": type(error).__name__})
                     return []
                 return [r for r in rows if isinstance(r, Mapping)] if isinstance(rows, list) else []
-            for rows in runner._map(trakt_related, seeds):
+            seed_imdb = {s["imdb_id"] for s in seeds}
+            related_seeds = list(seeds) + [{"imdb_id": imdb} for imdb in loved_seed_imdb if imdb not in seed_imdb]
+            for seed, rows in runner._map(lambda s: (s, trakt_related(s)), related_seeds):
                 for row in rows:
                     tid = w._int((row.get("ids") or {}).get("tmdb"))
                     if tid:
                         related_found.add(tid)
+                        if seed["imdb_id"] in seed_imdb:
+                            related_from_history.add(tid)
+                        if seed["imdb_id"] in loved_name:
+                            loved_votes[tid].add(loved_name[seed["imdb_id"]])
             hidden = watched_tmdb | dismissed_tmdb | listed_tmdb | loved_tmdb
             fresh_ids = sorted(tid for tid in related_found if tid not in candidates and tid not in hidden)
             known = [candidates[tid] for tid in sorted(related_found) if tid in candidates]
@@ -1303,9 +1436,11 @@ def generate_catalogues(
         selected, selected_ids = [], set()
         thematic_candidates = [r for _, r in preliminary if taste.themed_source in origins[r["id"]]]
         for raw in thematic_candidates[:config.candidate_enrichment_limit // 3] + [r for _, r in preliminary]:
-            # Titles found only by For You or Trakt related are enriched below,
-            # outside this budget, so they never displace a history candidate.
-            if raw["id"] not in selected_ids and not origins[raw["id"]] <= EXTRA_SOURCES:
+            # Titles found only by For You, Trakt related or Loved seeds are
+            # enriched below, outside this budget, so they never displace a
+            # history candidate. A drama awaiting the legal check needs a seed.
+            if (raw["id"] not in selected_ids and not origins[raw["id"]] <= EXTRA_SOURCES
+                    and taste.core_candidate(raw, kind)):
                 selected.append(raw)
                 selected_ids.add(raw["id"])
             if len(selected) >= config.candidate_enrichment_limit:
@@ -1314,8 +1449,16 @@ def generate_catalogues(
         # top of the unchanged history pool, so sparse raw discover rows are not
         # dropped before the custom weighting sees their keywords and credits.
         # Trakt related adds at most trakt_related_limit per seed, already detailed.
+        # A title only Loved seeds found needs loved_only_min_votes Loved votes.
+        loved_only_dropped = []
         for raw in (r for _, r in preliminary if origins[r["id"]] & EXTRA_SOURCES):
-            if raw["id"] not in selected_ids:
+            loved_only = (origins[raw["id"]] <= {LOVED_SOURCE, TRAKT_RELATED_SOURCE}
+                          and raw["id"] not in related_from_history)
+            if loved_only and len(loved_votes.get(raw["id"], ())) < taste.loved_only_min_votes:
+                loved_only_dropped.append(raw.get("name") or raw.get("title"))
+                continue
+            if raw["id"] not in selected_ids and (taste.core_candidate(raw, kind)
+                                                  or origins[raw["id"]] & {LOVED_SOURCE, TRAKT_RELATED_SOURCE}):
                 selected.append(raw)
                 selected_ids.add(raw["id"])
         cards, watched_by_imdb = [], set()
@@ -1338,7 +1481,7 @@ def generate_catalogues(
             if imdb in loved_imdb:
                 loved_hits.add(raw["id"])
                 continue
-            if not _eligible(combined, policy, moment):
+            if not _eligible(combined, policy, moment) or not taste.final_gate(combined, kind):
                 continue
             poster = _safe_poster(detail.get("poster_path") or raw.get("poster_path"))
             if not poster:
@@ -1360,6 +1503,9 @@ def generate_catalogues(
             card["freshness"] = round(freshness(card.get("release_date"), moment,
                                                 config.freshness_half_life_days), 4)
             card["suggested_score"] += config.freshness_weight * card["freshness"]
+            # Loved votes: a bounded bonus per Loved show that points to the title.
+            card["loved_votes"] = sorted(loved_votes.get(card.get("tmdb_id"), ()))
+            card["suggested_score"] += taste.loved_vote_weight * min(len(card["loved_votes"]), taste.loved_vote_cap)
         returning_diagnostics, returners, primary_prefix_count = [], [], 0
         if kind == "series":
             episodes = derive_episode_progress(watched_shows, watched_episode_history)
@@ -1371,7 +1517,8 @@ def generate_catalogues(
                     returning_diagnostics.append({"show_id": key, "route": "hidden", "reason": "not_interested"})
                     continue
                 detail = runner._details(tid, media) if tid else {}
-                if not detail or not _eligible(_canonical_detail(detail, detail), policy, moment):
+                if (not detail or not _eligible(_canonical_detail(detail, detail), policy, moment)
+                        or not taste.final_gate(_canonical_detail(detail, detail), kind)):
                     continue
                 if not state["watched_episodes"]:
                     returning_diagnostics.append({"show_id": key, "route": "hidden", "reason": "missing_episode_history"})
@@ -1542,6 +1689,22 @@ def generate_catalogues(
                        "trakt_rating": {"checked_count": len(community),
                                         "found_count": sum(v is not None for v in community.values()),
                                         "dropped": community_dropped},
+                       "loved_seeds": {"titles": sorted(set(loved_name.values())),
+                                       "candidate_count": sum(LOVED_SOURCE in o for o in origins.values()),
+                                       "voted_count": len(loved_votes),
+                                       "loved_only_dropped": sorted(str(t) for t in loved_only_dropped),
+                                       "positions": [{"id": c["id"], "position": i + 1, "title": c.get("title"),
+                                                      "genres": c.get("genres"), "loved_votes": c.get("loved_votes") or [],
+                                                      "organised_crime": (c.get("theme") or {}).get("priority_organised_crime"),
+                                                      "legal_drama_only": not bool(set(c.get("genre_ids") or []) & CORE_SERIES_GENRES),
+                                                      "sources": c.get("candidate_sources"),
+                                                      "returning": bool(c.get("returning_season"))}
+                                                     for i, c in enumerate(ordered)] if kind == "series" else [],
+                                       "card_scores": sorted(({"title": c.get("title"), "score": round(c["suggested_score"], 4),
+                                                               "loved_votes": len(c.get("loved_votes") or []),
+                                                               "voters": c.get("loved_votes") or [],
+                                                               "sources": c.get("candidate_sources")}
+                                                              for c in cards), key=lambda c: -c["score"]) if kind == "series" else []},
                        "returning_decisions": returning_diagnostics,
                        "callback_counts": dict(runner.calls), "warnings": runner.warnings,
                        "selected_cards": ordered}
@@ -1561,6 +1724,7 @@ def generate_catalogues(
         "horizon_days": config.upcoming_horizon_days, "out_now_days": config.out_now_days,
         "out_now_count": len(out_now), "count": len(upcoming), "watchlist_premieres": watchlist_premieres,
         "selected": [{"id": c["id"], **c["upcoming_episode"]} for c in upcoming]}
+    result["diagnostics"]["place_keywords_dropped"] = places_dropped.most_common(60)
     result["catalogues"]["upcoming"] = {"id": CATALOGUE_IDS["upcoming"], "name": CATALOGUE_NAMES["upcoming"],
                                         "type": "series", "payload": {"metas": [_meta(c, "series") for c in upcoming]}}
     return result

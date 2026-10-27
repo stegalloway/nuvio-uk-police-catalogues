@@ -73,7 +73,7 @@ the basis. This generator deliberately makes the following custom adaptations:
 - Exact recovered personal-catalogue filters: English originals; released films
   with any crime/thriller/mystery genre, at least 7/10 and 100 votes; released
   crime/mystery series, at least 7/10 and 30 votes. Existing genre exclusions and
-  the no-adult rule stay in force. No minimum release year is imposed by these gates; Ste's profile adds a 2000 floor for films (see Taste profiles).
+  the no-adult rule stay in force. No minimum release year is imposed by these gates; Ste's profile adds a 2000 floor for films (see Taste profiles), and widens series to action, war and politics and legal dramas (see "Series taste from the Loved list").
 - Actual Trakt watched IDs determine suppression. Ratings inform the profile
   but do not silently mark a rated-only title watched.
 - Titles on the "Not Interested" list (`dismissed`) are suppressed at the same
@@ -82,7 +82,8 @@ the basis. This generator deliberately makes the following custom adaptations:
   episode entries hide the whole series.
 - Not Interested titles also count as a mild dislike in the taste profile:
   each adds -0.2 evidence (the weight of a title dropped early), fading from
-  its `listed_at` date as a watch fades, to its keywords, top three cast and
+  its `listed_at` date as a watch fades (in Ste's profile it does not fade,
+  since 27 October 2026), to its keywords, top three cast and
   directors/creators only. Genres, countries and eras are never touched, so
   dismissing one crime show does not push down crime as a whole. Each row's
   diagnostics report `not_interested.suppressed_count` and
@@ -243,6 +244,35 @@ nothing.
 - **New & Upcoming** was unchanged.
 - **The floor:** 7.0 was chosen over 6.8, which would have kept Mutiny, Normal, Shelter, Fuze and Shantaram.
 
+## Series taste from the Loved list (Ste, since 27 October 2026)
+
+Four of Ste's 16 Loved shows could never have been suggested: Suits,
+Designated Survivor, SEAL Team and Jack Ryan. All four lack TMDB's Crime and
+Mystery genres. Today's ranking stays as it was: the organised-crime weighting
+(65/25/8/2), the British/Irish lead places, the 2:1 gangster mix and the
+organised-crime seed pages. On top of it come four changes, each a `SteProfile`
+attribute. Jenny's profile has none of them.
+
+- **Wider series** (`wider_series_gate`). A series may also be Action & Adventure or War & Politics. A drama with none of the core genres qualifies only as a legal drama, which needs keywords such as lawyer, courtroom, law firm or prosecutor. Before enrichment such a drama needs a Loved-seed or Trakt related source, so it never takes a history candidate's slot.
+- **No place keywords** (`drop_place_keywords`). Keywords that only say where a story is set, such as "los angeles, california", "new york city" or "london, england", leave every TMDB detail before the profile, scoring or Not Interested see it. The rule is "place, region" or a short list of countries, regions and cities. Diagnostics: `place_keywords_dropped`.
+- **Not Interested lasts** (`lasting_not_interested`). The -0.2 dislike stays while a title is on the list, as the watchlist like does, instead of fading to a tenth within about 70 days. The list also keeps the row fresh, because a dismissed title's place refills from the backlog.
+- **Loved seeds and votes** (`loved_seeds`, `loved_vote_weight` 0.10, `loved_vote_cap` 3, `loved_only_min_votes` 2):
+  - **Seeds:** every Loved series, watched or not, seeds candidates through two TMDB recommendation pages and Trakt related.
+  - **Votes:** a candidate gains 0.10 for each Loved show whose lists include it, up to 3 shows, so +0.30 at most. This reads as "fans of your Loved shows watch this", sturdier than keyword guesswork. Kin's votes come from MobLand, Sons of Anarchy and This City Is Ours; Lioness's from Designated Survivor, Homeland, SEAL Team and Jack Ryan.
+  - **Two-vote minimum:** a title that only Loved seeds found needs 2 votes. One Loved show's TMDB list alone is noisy: it brought Tell Me Lies and Disclaimer.
+  - **Outside the budget:** Loved-seed titles are enriched outside the history budget.
+  - **Diagnostics:** `loved_seeds`.
+
+**How this was chosen (27 October 2026).** Each version was checked against Ste's live data, and against eleven shows he named to keep: Ozark, Breaking Bad, The Sopranos, Better Call Saul, Justified, The Americans, MINDHUNTER, McMafia, Mare of Easttown, Condor and The Night Agent. Today's row held 10 of them.
+
+| Version | Must-keep shows in the row | Result |
+| --- | --- | --- |
+| Theme from keyword closeness to the nearest Loved show, replacing the organised-crime structure | 0 of 11 | Generic keywords ("based on novel or book") made 20 titles look like The Lincoln Lawyer or Suits |
+| Same, with generic keywords ignored, 5 titles per Loved show and a stricter Not Interested look-alike rule | 3 of 11 | Tell Me Lies reached #2 on history similarity alone |
+| Built on today's ranking with Loved votes at 0.10 | 9 of 11 | Paradise, Lioness, Shooter and Condor joined; The Night Agent and The Americans rose |
+
+The keyword-closeness code was removed. MINDHUNTER and Mare of Easttown, at the bottom of the old row, now fall just outside the 60 titles. Titles Ste wants to keep for sure belong on his watchlist.
+
 ## Taste profiles (Ste and Jenny)
 
 Everything above that names Ste's taste is the `"ste"` profile, the default:
@@ -261,6 +291,7 @@ returning seasons, New & Upcoming, poster and IMDb rules, and pagination.
 | Order | British/Irish prefix, then 2:1 mix | Score order, with no prefix. Returning seasons from 3rd place, every 4th |
 | Themed seeds | Series: up to 4 organised-crime history titles with extra pages | Films and series: up to 4 themed history titles with extra pages |
 | Taste without rating | Series viewing patterns, binge bonus, Loved list, Trakt related titles, Trakt 7.0 floor | None: Watchly's weights, no Trakt lookups |
+| Series from the Loved list | Wider series, no place keywords, lasting Not Interested, Loved seeds and votes | None |
 
 Jenny's queries reproduce `tmdb-catalogues-jenny.json` as Discover+
 `discover()` translates it: genres and keywords join with `|` (its default

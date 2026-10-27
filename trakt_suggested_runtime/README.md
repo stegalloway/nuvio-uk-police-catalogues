@@ -72,8 +72,10 @@ Interested list, `/users/{user}/lists/loved/items`, fully paginated. A missing
 or private list counts as empty, and any other error fails the refresh. The run
 log and notice end with `"loved"`: the item count, or "no public list named
 loved". The engine counts each title as the strongest like (see
-`trakt_suggested_engine/README.md`, "Taste without rating"). Only Ste's profile
-uses it.
+`trakt_suggested_engine/README.md`, "Taste without rating"). Every Loved series
+also seeds series candidates and gives a vote to each title its
+recommendations include ("Series taste from the Loved list"). Only Ste's
+profile uses it.
 
 The same refresh reads Trakt's related titles and community scores through
 `TraktClient.title_lookup`. It allows only `/shows|movies/{id}/related` and
