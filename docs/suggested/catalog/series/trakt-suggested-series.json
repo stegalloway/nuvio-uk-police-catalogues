@@ -129,20 +129,6 @@
       "imdb_id": "tt11846996"
     },
     {
-      "id": "tt3281796",
-      "type": "series",
-      "name": "Power",
-      "poster": "https://image.tmdb.org/t/p/w500/ctftzvyj8b0odco7EoS9VfJhf7K.jpg",
-      "posterShape": "poster",
-      "description": "A successful New York entrepreneur lives a double life as the head of a drug empire that serves only the rich and influential, all while wanting to escape the underworld and keep his family safe.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt3281796"
-    },
-    {
       "id": "tt11761194",
       "type": "series",
       "name": "Power Book IV: Force",
@@ -155,6 +141,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11761194"
+    },
+    {
+      "id": "tt3281796",
+      "type": "series",
+      "name": "Power",
+      "poster": "https://image.tmdb.org/t/p/w500/ctftzvyj8b0odco7EoS9VfJhf7K.jpg",
+      "posterShape": "poster",
+      "description": "A successful New York entrepreneur lives a double life as the head of a drug empire that serves only the rich and influential, all while wanting to escape the underworld and keep his family safe.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt3281796"
     },
     {
       "id": "tt4301160",
