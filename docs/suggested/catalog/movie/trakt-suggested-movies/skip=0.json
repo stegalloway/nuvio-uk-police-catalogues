@@ -1,34 +1,33 @@
 {
   "metas": [
     {
-      "id": "tt11083552",
+      "id": "tt1855199",
       "type": "movie",
-      "name": "Wrath of Man",
-      "poster": "https://image.tmdb.org/t/p/w500/M7SUK85sKjaStg4TKhlAVyGlz3.jpg",
+      "name": "End of Watch",
+      "poster": "https://image.tmdb.org/t/p/w500/pDeVKQICkcdwwjHxGj0MeS14YJ6.jpg",
       "posterShape": "poster",
-      "description": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
+      "description": "Two young officers are marked for death after confiscating a small cache of money and firearms from the members of a notorious cartel during a routine traffic stop.",
       "genres": [
-        "Thriller",
         "Crime",
-        "Drama"
+        "Drama",
+        "Thriller"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11083552"
+      "releaseInfo": "2012",
+      "imdb_id": "tt1855199"
     },
     {
-      "id": "tt7181546",
+      "id": "tt1024648",
       "type": "movie",
-      "name": "Ballerina",
-      "poster": "https://image.tmdb.org/t/p/w500/2VUmvqsHb6cEtdfscEA6fqqVzLg.jpg",
+      "name": "Argo",
+      "poster": "https://image.tmdb.org/t/p/w500/m5gPWFZFIp4UJFABgWyLkbXv8GX.jpg",
       "posterShape": "poster",
-      "description": "Taking place during the events of John Wick: Chapter 3 – Parabellum, Eve Macarro begins her training in the assassin traditions of the Ruska Roma.",
+      "description": "As the Iranian revolution reaches a boiling point, a CIA 'exfiltration' specialist concocts a risky plan to free six Americans who have found shelter at the home of the Canadian ambassador.",
       "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
+        "Drama",
+        "Thriller"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt7181546"
+      "releaseInfo": "2012",
+      "imdb_id": "tt1024648"
     },
     {
       "id": "tt9603212",
@@ -46,163 +45,49 @@
       "imdb_id": "tt9603212"
     },
     {
-      "id": "tt0840361",
+      "id": "tt11083552",
       "type": "movie",
-      "name": "The Town",
-      "poster": "https://image.tmdb.org/t/p/w500/3NIzyXkfylsjflRKSz8Fts3lXzm.jpg",
+      "name": "Wrath of Man",
+      "poster": "https://image.tmdb.org/t/p/w500/M7SUK85sKjaStg4TKhlAVyGlz3.jpg",
       "posterShape": "poster",
-      "description": "A proficient group of thieves rob a bank and hold the manager hostage. Things begin to get complicated when one of the crew members falls in love with her.",
+      "description": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
       "genres": [
+        "Thriller",
         "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt0840361"
-    },
-    {
-      "id": "tt1745960",
-      "type": "movie",
-      "name": "Top Gun: Maverick",
-      "poster": "https://image.tmdb.org/t/p/w500/n0YuM4f5lvGAP6MAW2kBIzugXnc.jpg",
-      "posterShape": "poster",
-      "description": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
-      "genres": [
-        "Action",
         "Drama"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt1745960"
+      "releaseInfo": "2021",
+      "imdb_id": "tt11083552"
     },
     {
-      "id": "tt36042156",
+      "id": "tt1950186",
       "type": "movie",
-      "name": "The Punisher: One Last Kill",
-      "poster": "https://image.tmdb.org/t/p/w500/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
+      "name": "Ford v Ferrari",
+      "poster": "https://image.tmdb.org/t/p/w500/dR1Ju50iudrOh3YgfwkAU1g2HZe.jpg",
       "posterShape": "poster",
-      "description": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
+      "description": "American car designer Carroll Shelby and the British-born driver Ken Miles work together to battle corporate interference, the laws of physics, and their own personal demons to build a revolutionary race car for Ford Motor Company and take on the dominating race cars of Enzo Ferrari at the 24 Hours of Le Mans in France in 1966.",
       "genres": [
-        "Action",
         "Drama",
-        "Crime"
+        "History",
+        "Action"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36042156"
+      "releaseInfo": "2019",
+      "imdb_id": "tt1950186"
     },
     {
-      "id": "tt11539996",
+      "id": "tt9603208",
       "type": "movie",
-      "name": "Relay",
-      "poster": "https://image.tmdb.org/t/p/w500/mpwccO2L8LUVtVTJTdgUVgoQqAo.jpg",
+      "name": "Mission: Impossible - The Final Reckoning",
+      "poster": "https://image.tmdb.org/t/p/w500/iKPsC9EFUafRP9SrUznI61getVP.jpg",
       "posterShape": "poster",
-      "description": "A broker of lucrative payoffs between corrupt corporations and the individuals who threaten them breaks his own rules when a new client seeks his protection to stay alive.",
+      "description": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
       "genres": [
         "Action",
-        "Drama",
-        "Thriller"
+        "Thriller",
+        "Adventure"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt11539996"
-    },
-    {
-      "id": "tt16311594",
-      "type": "movie",
-      "name": "F1",
-      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
-      "posterShape": "poster",
-      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
-      "genres": [
-        "Action",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt16311594"
-    },
-    {
-      "id": "tt0401792",
-      "type": "movie",
-      "name": "Sin City",
-      "poster": "https://image.tmdb.org/t/p/w500/i66G50wATMmPrvpP95f0XP6ZdVS.jpg",
-      "posterShape": "poster",
-      "description": "Welcome to Sin City. This town beckons to the tough, the corrupt, the brokenhearted. Some call it dark… Hard-boiled. Then there are those who call it home — Crooked cops, sexy dames, desperate vigilantes. Some are seeking revenge, others lust after redemption, and then there are those hoping for a little of both. A universe of unlikely and reluctant heroes still trying to do the right thing in a city that refuses to care.",
-      "genres": [
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0401792"
-    },
-    {
-      "id": "tt1855199",
-      "type": "movie",
-      "name": "End of Watch",
-      "poster": "https://image.tmdb.org/t/p/w500/pDeVKQICkcdwwjHxGj0MeS14YJ6.jpg",
-      "posterShape": "poster",
-      "description": "Two young officers are marked for death after confiscating a small cache of money and firearms from the members of a notorious cartel during a routine traffic stop.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1855199"
-    },
-    {
-      "id": "tt21103218",
-      "type": "movie",
-      "name": "The Lost Bus",
-      "poster": "https://image.tmdb.org/t/p/w500/4IPxzGlE17fJAwUTMul4opMeutA.jpg",
-      "posterShape": "poster",
-      "description": "A determined father risks everything to rescue a dedicated teacher and her students from a raging wildfire.",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt21103218"
-    },
-    {
-      "id": "tt9792884",
-      "type": "movie",
-      "name": "Psych 2: Lassie Come Home",
-      "poster": "https://image.tmdb.org/t/p/w500/2LXQUhkzo27jKotK7poHkNaw59B.jpg",
-      "posterShape": "poster",
-      "description": "After Santa Barbara Police Chief Carlton Lassiter is ambushed and left for dead, Shawn and Gus return to help him and find themselves embroiled in a case involving the personal, the professional – and even the supernatural.",
-      "genres": [
-        "Comedy",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9792884"
-    },
-    {
-      "id": "tt8936646",
-      "type": "movie",
-      "name": "Extraction",
-      "poster": "https://image.tmdb.org/t/p/w500/nygOUcBKPHFTbxsYRFZVePqgPK6.jpg",
-      "posterShape": "poster",
-      "description": "A hardened gun-for-hire's latest mission becomes a soul-searching race to survive when he's sent into Bangladesh to rescue a drug lord's kidnapped son.",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt8936646"
-    },
-    {
-      "id": "tt0258463",
-      "type": "movie",
-      "name": "The Bourne Identity",
-      "poster": "https://image.tmdb.org/t/p/w500/aP8swke3gmowbkfZ6lmNidu0y9p.jpg",
-      "posterShape": "poster",
-      "description": "Wounded to the brink of death and suffering from amnesia, Jason Bourne is rescued at sea by a fisherman. With nothing to go on but a Swiss bank account number, he starts to reconstruct his life, but finds that many people he encounters want him dead. However, Bourne realizes that he has the combat and mental skills of a world-class spy—but who does he work for?",
-      "genres": [
-        "Action",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0258463"
+      "imdb_id": "tt9603208"
     },
     {
       "id": "tt0369339",
@@ -220,18 +105,152 @@
       "imdb_id": "tt0369339"
     },
     {
-      "id": "tt1024648",
+      "id": "tt7131622",
       "type": "movie",
-      "name": "Argo",
-      "poster": "https://image.tmdb.org/t/p/w500/m5gPWFZFIp4UJFABgWyLkbXv8GX.jpg",
+      "name": "Once Upon a Time... in Hollywood",
+      "poster": "https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
       "posterShape": "poster",
-      "description": "As the Iranian revolution reaches a boiling point, a CIA 'exfiltration' specialist concocts a risky plan to free six Americans who have found shelter at the home of the Canadian ambassador.",
+      "description": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
       "genres": [
+        "Comedy",
         "Drama",
         "Thriller"
       ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1024648"
+      "releaseInfo": "2019",
+      "imdb_id": "tt7131622"
+    },
+    {
+      "id": "tt0498380",
+      "type": "movie",
+      "name": "Letters from Iwo Jima",
+      "poster": "https://image.tmdb.org/t/p/w500/kZokxQtzMPURvijWYFuvh1fAvnv.jpg",
+      "posterShape": "poster",
+      "description": "The story of the battle of Iwo Jima between the United States and Imperial Japan during World War II, as told from the perspective of the Japanese who fought it.",
+      "genres": [
+        "Action",
+        "Drama",
+        "War"
+      ],
+      "releaseInfo": "2006",
+      "imdb_id": "tt0498380"
+    },
+    {
+      "id": "tt0780504",
+      "type": "movie",
+      "name": "Drive",
+      "poster": "https://image.tmdb.org/t/p/w500/602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
+      "posterShape": "poster",
+      "description": "Driver is a skilled Hollywood stuntman who moonlights as a getaway driver for criminals. Though he projects an icy exterior, lately he's been warming up to a pretty neighbor named Irene and her young son, Benicio. When Irene's husband gets out of jail, he enlists Driver's help in a million-dollar heist. The job goes horribly wrong, and Driver must risk his life to protect Irene and Benicio from the vengeful masterminds behind the robbery.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2011",
+      "imdb_id": "tt0780504"
+    },
+    {
+      "id": "tt16311594",
+      "type": "movie",
+      "name": "F1",
+      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+      "posterShape": "poster",
+      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt16311594"
+    },
+    {
+      "id": "tt7181546",
+      "type": "movie",
+      "name": "Ballerina",
+      "poster": "https://image.tmdb.org/t/p/w500/2VUmvqsHb6cEtdfscEA6fqqVzLg.jpg",
+      "posterShape": "poster",
+      "description": "Taking place during the events of John Wick: Chapter 3 – Parabellum, Eve Macarro begins her training in the assassin traditions of the Ruska Roma.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt7181546"
+    },
+    {
+      "id": "tt3682448",
+      "type": "movie",
+      "name": "Bridge of Spies",
+      "poster": "https://image.tmdb.org/t/p/w500/fmOOjHAQzxr0c1sfcY4qkiSRBH6.jpg",
+      "posterShape": "poster",
+      "description": "During the Cold War, the Soviet Union captures U.S. pilot Francis Gary Powers after shooting down his U-2 spy plane. Sentenced to 10 years in prison, Powers' only hope is New York lawyer James Donovan, recruited by a CIA operative to negotiate his release. Donovan boards a plane to Berlin, hoping to win the young man's freedom through a prisoner exchange. If all goes well, the Russians would get Rudolf Abel, the convicted spy who Donovan defended in court.",
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt3682448"
+    },
+    {
+      "id": "tt2872718",
+      "type": "movie",
+      "name": "Nightcrawler",
+      "poster": "https://image.tmdb.org/t/p/w500/j9HrX8f7GbZQm1BrBiR40uFQZSb.jpg",
+      "posterShape": "poster",
+      "description": "When Lou Bloom, desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story. Aiding him in his effort is Nina, a TV-news veteran.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2872718"
+    },
+    {
+      "id": "tt1392214",
+      "type": "movie",
+      "name": "Prisoners",
+      "poster": "https://image.tmdb.org/t/p/w500/uhviyknTT5cEQXbn6vWIqfM4vGm.jpg",
+      "posterShape": "poster",
+      "description": "After his six-year-old daughter is abducted, a desperate father takes justice into his own hands when he loses faith in the detective leading the investigation, setting both men on a collision course as the search descends into obsession and moral compromise.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt1392214"
+    },
+    {
+      "id": "tt0399146",
+      "type": "movie",
+      "name": "A History of Violence",
+      "poster": "https://image.tmdb.org/t/p/w500/ptJKY9WGDUUL064ge3jW78zBX0t.jpg",
+      "posterShape": "poster",
+      "description": "An average family is thrust into the spotlight after the father commits a seemingly self-defense murder at his diner.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2005",
+      "imdb_id": "tt0399146"
+    },
+    {
+      "id": "tt11539996",
+      "type": "movie",
+      "name": "Relay",
+      "poster": "https://image.tmdb.org/t/p/w500/mpwccO2L8LUVtVTJTdgUVgoQqAo.jpg",
+      "posterShape": "poster",
+      "description": "A broker of lucrative payoffs between corrupt corporations and the individuals who threaten them breaks his own rules when a new client seeks his protection to stay alive.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt11539996"
     },
     {
       "id": "tt0257044",
@@ -249,48 +268,33 @@
       "imdb_id": "tt0257044"
     },
     {
-      "id": "tt7526136",
+      "id": "tt21103218",
       "type": "movie",
-      "name": "Heart of the Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+      "name": "The Lost Bus",
+      "poster": "https://image.tmdb.org/t/p/w500/4IPxzGlE17fJAwUTMul4opMeutA.jpg",
       "posterShape": "poster",
-      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "description": "A determined father risks everything to rescue a dedicated teacher and her students from a raging wildfire.",
       "genres": [
-        "Adventure",
+        "Drama",
         "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt7526136"
-    },
-    {
-      "id": "tt12593682",
-      "type": "movie",
-      "name": "Bullet Train",
-      "poster": "https://image.tmdb.org/t/p/w500/j8szC8OgrejDQjjMKSVXyaAjw3V.jpg",
-      "posterShape": "poster",
-      "description": "Unlucky assassin Ladybug is determined to do his job peacefully after one too many gigs gone off the rails. Fate, however, may have other plans, as Ladybug's latest mission puts him on a collision course with lethal adversaries from around the globe—all with connected, yet conflicting, objectives—on the world's fastest train.",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt12593682"
-    },
-    {
-      "id": "tt9603208",
-      "type": "movie",
-      "name": "Mission: Impossible - The Final Reckoning",
-      "poster": "https://image.tmdb.org/t/p/w500/iKPsC9EFUafRP9SrUznI61getVP.jpg",
-      "posterShape": "poster",
-      "description": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Adventure"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt9603208"
+      "imdb_id": "tt21103218"
+    },
+    {
+      "id": "tt36042156",
+      "type": "movie",
+      "name": "The Punisher: One Last Kill",
+      "poster": "https://image.tmdb.org/t/p/w500/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
+      "posterShape": "poster",
+      "description": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt36042156"
     }
   ]
 }

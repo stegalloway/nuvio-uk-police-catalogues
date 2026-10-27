@@ -1,80 +1,79 @@
 {
   "metas": [
     {
-      "id": "tt8368512",
+      "id": "tt28014327",
       "type": "movie",
-      "name": "The Courier",
-      "poster": "https://image.tmdb.org/t/p/w500/zFIjKtZrzhmc7HecdFXXjsLR2Ig.jpg",
+      "name": "Mayday",
+      "poster": "https://image.tmdb.org/t/p/w500/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg",
       "posterShape": "poster",
-      "description": "Cold War spy Greville Wynne and his Russian source try to put an end to the Cuban Missile Crisis.",
-      "genres": [
-        "Thriller",
-        "History",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt8368512"
-    },
-    {
-      "id": "tt0452623",
-      "type": "movie",
-      "name": "Gone Baby Gone",
-      "poster": "https://image.tmdb.org/t/p/w500/w98tAPUjNPxGAMCipNDWDt8PJo.jpg",
-      "posterShape": "poster",
-      "description": "When 4 year old Amanda McCready disappears from her home and the police make little headway in solving the case, the girl's aunt, Beatrice McCready hires two private detectives, Patrick Kenzie and Angie Gennaro. The detectives freely admit that they have little experience with this type of case, but the family wants them for two reasons—they're not cops and they know the tough neighborhood in which they all live.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0452623"
-    },
-    {
-      "id": "tt4572514",
-      "type": "movie",
-      "name": "Patriots Day",
-      "poster": "https://image.tmdb.org/t/p/w500/mIDxsJTrOC7NhgOo3GziiHyKfsQ.jpg",
-      "posterShape": "poster",
-      "description": "In the aftermath of an unspeakable act of terror, Police Sergeant Tommy Saunders joins courageous survivors, first responders and investigators in a race against the clock to hunt down the Boston Marathon bombers before they strike again.",
+      "description": "When a U.S. Navy pilot on a top-secret mission during the Cold War gets trapped behind enemy lines, his only chance at survival is to form an alliance with an eccentric ex-KGB agent.",
       "genres": [
         "Action",
-        "Crime",
-        "Drama",
-        "History",
-        "Thriller"
+        "Comedy"
       ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt4572514"
+      "releaseInfo": "2026",
+      "imdb_id": "tt28014327"
     },
     {
-      "id": "tt31450182",
+      "id": "tt0144084",
       "type": "movie",
-      "name": "Amber Alert",
-      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
+      "name": "American Psycho",
+      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
       "posterShape": "poster",
-      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
+      "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
       "genres": [
         "Thriller",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31450182"
+      "releaseInfo": "2000",
+      "imdb_id": "tt0144084"
     },
     {
-      "id": "tt1130884",
+      "id": "tt4154756",
       "type": "movie",
-      "name": "Shutter Island",
-      "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+      "name": "Avengers: Infinity War",
+      "poster": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
       "posterShape": "poster",
-      "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
+      "description": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
       "genres": [
-        "Drama",
-        "Thriller",
-        "Mystery"
+        "Adventure",
+        "Action",
+        "Science Fiction"
       ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1130884"
+      "releaseInfo": "2018",
+      "imdb_id": "tt4154756"
+    },
+    {
+      "id": "tt22084616",
+      "type": "movie",
+      "name": "Spider-Man: Brand New Day",
+      "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "posterShape": "poster",
+      "description": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt22084616"
+    },
+    {
+      "id": "tt3501632",
+      "type": "movie",
+      "name": "Thor: Ragnarok",
+      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "posterShape": "poster",
+      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt3501632"
     }
   ]
 }

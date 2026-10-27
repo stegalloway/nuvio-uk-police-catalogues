@@ -1,63 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt4846232",
+      "id": "tt15398776",
       "type": "movie",
-      "name": "Good Time",
-      "poster": "https://image.tmdb.org/t/p/w500/yE1c9hj5Hf8a9KplAdRdhADqUro.jpg",
+      "name": "Oppenheimer",
+      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
       "posterShape": "poster",
-      "description": "After a botched bank robbery lands his younger brother in prison, Connie Nikas embarks on a twisted odyssey through New York City's underworld to get his brother Nick out of jail.",
+      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
       "genres": [
-        "Crime",
-        "Thriller",
-        "Drama"
+        "Drama",
+        "History",
+        "War"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt4846232"
-    },
-    {
-      "id": "tt0477348",
-      "type": "movie",
-      "name": "No Country for Old Men",
-      "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
-      "posterShape": "poster",
-      "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Western"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0477348"
-    },
-    {
-      "id": "tt0936501",
-      "type": "movie",
-      "name": "Taken",
-      "poster": "https://image.tmdb.org/t/p/w500/ognkaUSNgJe1a2pjB4UNdzEo5jT.jpg",
-      "posterShape": "poster",
-      "description": "Bryan Mills, a former government operative, is trying to reconnect with his teenage daughter Kim. After reluctantly agreeing with his ex-wife to let Kim go to Paris on vacation with a friend, his worst nightmare comes true. While on the phone with his daughter shortly after she arrives in Paris, she and her friend are abducted by a gang of human traffickers. Working against the clock, Bryan relies on his extensive training and skills to track down the ruthless gang that abducted her and launch a one-man war to rescue his daughter.",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0936501"
-    },
-    {
-      "id": "tt6320628",
-      "type": "movie",
-      "name": "Spider-Man: Far From Home",
-      "poster": "https://image.tmdb.org/t/p/w500/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
-      "posterShape": "poster",
-      "description": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt6320628"
+      "releaseInfo": "2023",
+      "imdb_id": "tt15398776"
     },
     {
       "id": "tt8368512",
@@ -75,65 +31,108 @@
       "imdb_id": "tt8368512"
     },
     {
-      "id": "tt0452623",
+      "id": "tt5390504",
       "type": "movie",
-      "name": "Gone Baby Gone",
-      "poster": "https://image.tmdb.org/t/p/w500/w98tAPUjNPxGAMCipNDWDt8PJo.jpg",
+      "name": "Detroit",
+      "poster": "https://image.tmdb.org/t/p/w500/r0ldqSFASpqSM5xTrpcZGO6Ef2G.jpg",
       "posterShape": "poster",
-      "description": "When 4 year old Amanda McCready disappears from her home and the police make little headway in solving the case, the girl's aunt, Beatrice McCready hires two private detectives, Patrick Kenzie and Angie Gennaro. The detectives freely admit that they have little experience with this type of case, but the family wants them for two reasons—they're not cops and they know the tough neighborhood in which they all live.",
+      "description": "A police raid in Detroit in 1967 results in one of the largest citizens' uprisings in the history of the United States.",
       "genres": [
-        "Crime",
         "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0452623"
-    },
-    {
-      "id": "tt4572514",
-      "type": "movie",
-      "name": "Patriots Day",
-      "poster": "https://image.tmdb.org/t/p/w500/mIDxsJTrOC7NhgOo3GziiHyKfsQ.jpg",
-      "posterShape": "poster",
-      "description": "In the aftermath of an unspeakable act of terror, Police Sergeant Tommy Saunders joins courageous survivors, first responders and investigators in a race against the clock to hunt down the Boston Marathon bombers before they strike again.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "History",
-        "Thriller"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt4572514"
-    },
-    {
-      "id": "tt31450182",
-      "type": "movie",
-      "name": "Amber Alert",
-      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
-      "posterShape": "poster",
-      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
-      "genres": [
         "Thriller",
+        "History"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5390504"
+    },
+    {
+      "id": "tt15574124",
+      "type": "movie",
+      "name": "Peaky Blinders: The Immortal Man",
+      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+      "posterShape": "poster",
+      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+      "genres": [
+        "Crime",
         "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31450182"
+      "releaseInfo": "2026",
+      "imdb_id": "tt15574124"
     },
     {
-      "id": "tt1130884",
+      "id": "tt28014327",
       "type": "movie",
-      "name": "Shutter Island",
-      "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+      "name": "Mayday",
+      "poster": "https://image.tmdb.org/t/p/w500/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg",
       "posterShape": "poster",
-      "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
+      "description": "When a U.S. Navy pilot on a top-secret mission during the Cold War gets trapped behind enemy lines, his only chance at survival is to form an alliance with an eccentric ex-KGB agent.",
       "genres": [
-        "Drama",
-        "Thriller",
-        "Mystery"
+        "Action",
+        "Comedy"
       ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1130884"
+      "releaseInfo": "2026",
+      "imdb_id": "tt28014327"
+    },
+    {
+      "id": "tt0144084",
+      "type": "movie",
+      "name": "American Psycho",
+      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
+      "posterShape": "poster",
+      "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2000",
+      "imdb_id": "tt0144084"
+    },
+    {
+      "id": "tt4154756",
+      "type": "movie",
+      "name": "Avengers: Infinity War",
+      "poster": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "posterShape": "poster",
+      "description": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt4154756"
+    },
+    {
+      "id": "tt22084616",
+      "type": "movie",
+      "name": "Spider-Man: Brand New Day",
+      "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "posterShape": "poster",
+      "description": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt22084616"
+    },
+    {
+      "id": "tt3501632",
+      "type": "movie",
+      "name": "Thor: Ragnarok",
+      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "posterShape": "poster",
+      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt3501632"
     }
   ]
 }

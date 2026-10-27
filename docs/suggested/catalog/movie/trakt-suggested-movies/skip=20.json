@@ -1,34 +1,46 @@
 {
   "metas": [
     {
-      "id": "tt1950186",
+      "id": "tt0401792",
       "type": "movie",
-      "name": "Ford v Ferrari",
-      "poster": "https://image.tmdb.org/t/p/w500/dR1Ju50iudrOh3YgfwkAU1g2HZe.jpg",
+      "name": "Sin City",
+      "poster": "https://image.tmdb.org/t/p/w500/i66G50wATMmPrvpP95f0XP6ZdVS.jpg",
       "posterShape": "poster",
-      "description": "American car designer Carroll Shelby and the British-born driver Ken Miles work together to battle corporate interference, the laws of physics, and their own personal demons to build a revolutionary race car for Ford Motor Company and take on the dominating race cars of Enzo Ferrari at the 24 Hours of Le Mans in France in 1966.",
+      "description": "Welcome to Sin City. This town beckons to the tough, the corrupt, the brokenhearted. Some call it dark… Hard-boiled. Then there are those who call it home — Crooked cops, sexy dames, desperate vigilantes. Some are seeking revenge, others lust after redemption, and then there are those hoping for a little of both. A universe of unlikely and reluctant heroes still trying to do the right thing in a city that refuses to care.",
       "genres": [
-        "Drama",
-        "History",
-        "Action"
+        "Crime",
+        "Thriller"
       ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt1950186"
+      "releaseInfo": "2005",
+      "imdb_id": "tt0401792"
     },
     {
-      "id": "tt0498380",
+      "id": "tt7526136",
       "type": "movie",
-      "name": "Letters from Iwo Jima",
-      "poster": "https://image.tmdb.org/t/p/w500/kZokxQtzMPURvijWYFuvh1fAvnv.jpg",
+      "name": "Heart of the Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
       "posterShape": "poster",
-      "description": "The story of the battle of Iwo Jima between the United States and Imperial Japan during World War II, as told from the perspective of the Japanese who fought it.",
+      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
       "genres": [
-        "Action",
-        "Drama",
-        "War"
+        "Adventure",
+        "Thriller"
       ],
-      "releaseInfo": "2006",
-      "imdb_id": "tt0498380"
+      "releaseInfo": "2026",
+      "imdb_id": "tt7526136"
+    },
+    {
+      "id": "tt2179136",
+      "type": "movie",
+      "name": "American Sniper",
+      "poster": "https://image.tmdb.org/t/p/w500/i1U46OwMc6vlm7OoSUKfqUH615e.jpg",
+      "posterShape": "poster",
+      "description": "U.S. Navy SEAL Chris Kyle takes his sole mission—protect his comrades—to heart and becomes one of the most lethal snipers in American history. His pinpoint accuracy not only saves countless lives but also makes him a prime target of insurgents. Despite grave danger and his struggle to be a good husband and father to his family back in the States, Kyle serves four tours of duty in Iraq. However, when he finally returns home, he finds that he cannot leave the war behind.",
+      "genres": [
+        "War",
+        "Action"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2179136"
     },
     {
       "id": "tt5537002",
@@ -46,183 +58,31 @@
       "imdb_id": "tt5537002"
     },
     {
-      "id": "tt30144839",
+      "id": "tt2381249",
       "type": "movie",
-      "name": "One Battle After Another",
-      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
+      "name": "Mission: Impossible - Rogue Nation",
+      "poster": "https://image.tmdb.org/t/p/w500/fRJLXQBHK2wyznK5yZbO7vmsuVK.jpg",
       "posterShape": "poster",
-      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
-      "genres": [
-        "Thriller",
-        "Crime",
-        "Comedy"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30144839"
-    },
-    {
-      "id": "tt1229238",
-      "type": "movie",
-      "name": "Mission: Impossible - Ghost Protocol",
-      "poster": "https://image.tmdb.org/t/p/w500/eRZTGx7GsiKqPch96k27LK005ZL.jpg",
-      "posterShape": "poster",
-      "description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks, who has gained access to Russian nuclear launch codes and is planning a strike on the United States. An attempt to stop him ends in an explosion causing severe destruction to the Kremlin and the IMF to be implicated in the bombing, forcing the President to disavow them. No longer being aided by the government, Ethan and his team chase Hendricks around the globe, although they might still be too late to stop a disaster.",
+      "description": "Ethan and team take on their most impossible mission yet—eradicating 'The Syndicate', an International and highly-skilled rogue organization committed to destroying the IMF.",
       "genres": [
         "Action",
-        "Thriller",
         "Adventure"
       ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1229238"
+      "releaseInfo": "2015",
+      "imdb_id": "tt2381249"
     },
     {
-      "id": "tt1392214",
+      "id": "tt8236336",
       "type": "movie",
-      "name": "Prisoners",
-      "poster": "https://image.tmdb.org/t/p/w500/uhviyknTT5cEQXbn6vWIqfM4vGm.jpg",
+      "name": "The Report",
+      "poster": "https://image.tmdb.org/t/p/w500/sG5NI6TMNR9ftOdTIXmG0hrBYSY.jpg",
       "posterShape": "poster",
-      "description": "After his six-year-old daughter is abducted, a desperate father takes justice into his own hands when he loses faith in the detective leading the investigation, setting both men on a collision course as the search descends into obsession and moral compromise.",
+      "description": "The story of Daniel Jones, lead investigator for the US Senate’s sweeping study into the CIA's Detention and Interrogation Program, which was found to be brutal, immoral and ineffective. With the truth at stake, Jones battled tirelessly to make public what many in power sought to keep hidden.",
       "genres": [
-        "Drama",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt1392214"
-    },
-    {
-      "id": "tt15314262",
-      "type": "movie",
-      "name": "The Beekeeper",
-      "poster": "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
-      "posterShape": "poster",
-      "description": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15314262"
-    },
-    {
-      "id": "tt2872718",
-      "type": "movie",
-      "name": "Nightcrawler",
-      "poster": "https://image.tmdb.org/t/p/w500/j9HrX8f7GbZQm1BrBiR40uFQZSb.jpg",
-      "posterShape": "poster",
-      "description": "When Lou Bloom, desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant to become the star of his own story. Aiding him in his effort is Nina, a TV-news veteran.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2872718"
-    },
-    {
-      "id": "tt0780504",
-      "type": "movie",
-      "name": "Drive",
-      "poster": "https://image.tmdb.org/t/p/w500/602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
-      "posterShape": "poster",
-      "description": "Driver is a skilled Hollywood stuntman who moonlights as a getaway driver for criminals. Though he projects an icy exterior, lately he's been warming up to a pretty neighbor named Irene and her young son, Benicio. When Irene's husband gets out of jail, he enlists Driver's help in a million-dollar heist. The job goes horribly wrong, and Driver must risk his life to protect Irene and Benicio from the vengeful masterminds behind the robbery.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt0780504"
-    },
-    {
-      "id": "tt0443706",
-      "type": "movie",
-      "name": "Zodiac",
-      "poster": "https://image.tmdb.org/t/p/w500/6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
-      "posterShape": "poster",
-      "description": "Police conduct a manhunt for the Zodiac Killer, a serial killer who terrorized the San Francisco Bay Area during the late 1960s and early 1970s, taunting police with letters, bloodstained clothing, and ciphers mailed to newspapers.",
-      "genres": [
-        "Crime",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0443706"
-    },
-    {
-      "id": "tt7131622",
-      "type": "movie",
-      "name": "Once Upon a Time... in Hollywood",
-      "poster": "https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
-      "posterShape": "poster",
-      "description": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt7131622"
-    },
-    {
-      "id": "tt2382320",
-      "type": "movie",
-      "name": "No Time to Die",
-      "poster": "https://image.tmdb.org/t/p/w500/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
-      "posterShape": "poster",
-      "description": "Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Adventure"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt2382320"
-    },
-    {
-      "id": "tt1091191",
-      "type": "movie",
-      "name": "Lone Survivor",
-      "poster": "https://image.tmdb.org/t/p/w500/zaBIrloyhGK7iNTZMb3f9SARsl8.jpg",
-      "posterShape": "poster",
-      "description": "Four Navy SEALs on a covert mission to neutralize a high-level Taliban operative must make an impossible moral decision in the mountains of Afghanistan that leads them into an enemy ambush. As they confront unthinkable odds, the SEALs must find reserves of strength and resilience to fight to the finish.",
-      "genres": [
-        "War",
-        "Action",
         "Drama"
       ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt1091191"
-    },
-    {
-      "id": "tt33764258",
-      "type": "movie",
-      "name": "The Odyssey",
-      "poster": "https://image.tmdb.org/t/p/w500/krVa7rKCQb4OBfsr2LTJv4rTz5q.jpg",
-      "posterShape": "poster",
-      "description": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
-      "genres": [
-        "Adventure",
-        "Action",
-        "Fantasy"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33764258"
-    },
-    {
-      "id": "tt4912910",
-      "type": "movie",
-      "name": "Mission: Impossible - Fallout",
-      "poster": "https://image.tmdb.org/t/p/w500/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
-      "posterShape": "poster",
-      "description": "When an IMF mission ends badly, the world is faced with dire consequences. As Ethan Hunt takes it upon himself to fulfill his original briefing, the CIA begin to question his loyalty and his motives. The IMF team find themselves in a race against time, hunted by assassins while trying to prevent a global catastrophe.",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt4912910"
+      "releaseInfo": "2019",
+      "imdb_id": "tt8236336"
     },
     {
       "id": "tt3799694",
@@ -240,19 +100,141 @@
       "imdb_id": "tt3799694"
     },
     {
-      "id": "tt0399146",
+      "id": "tt0452623",
       "type": "movie",
-      "name": "A History of Violence",
-      "poster": "https://image.tmdb.org/t/p/w500/ptJKY9WGDUUL064ge3jW78zBX0t.jpg",
+      "name": "Gone Baby Gone",
+      "poster": "https://image.tmdb.org/t/p/w500/w98tAPUjNPxGAMCipNDWDt8PJo.jpg",
       "posterShape": "poster",
-      "description": "An average family is thrust into the spotlight after the father commits a seemingly self-defense murder at his diner.",
+      "description": "When 4 year old Amanda McCready disappears from her home and the police make little headway in solving the case, the girl's aunt, Beatrice McCready hires two private detectives, Patrick Kenzie and Angie Gennaro. The detectives freely admit that they have little experience with this type of case, but the family wants them for two reasons—they're not cops and they know the tough neighborhood in which they all live.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0452623"
+    },
+    {
+      "id": "tt4846232",
+      "type": "movie",
+      "name": "Good Time",
+      "poster": "https://image.tmdb.org/t/p/w500/yE1c9hj5Hf8a9KplAdRdhADqUro.jpg",
+      "posterShape": "poster",
+      "description": "After a botched bank robbery lands his younger brother in prison, Connie Nikas embarks on a twisted odyssey through New York City's underworld to get his brother Nick out of jail.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt4846232"
+    },
+    {
+      "id": "tt4572514",
+      "type": "movie",
+      "name": "Patriots Day",
+      "poster": "https://image.tmdb.org/t/p/w500/mIDxsJTrOC7NhgOo3GziiHyKfsQ.jpg",
+      "posterShape": "poster",
+      "description": "In the aftermath of an unspeakable act of terror, Police Sergeant Tommy Saunders joins courageous survivors, first responders and investigators in a race against the clock to hunt down the Boston Marathon bombers before they strike again.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "History",
+        "Thriller"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt4572514"
+    },
+    {
+      "id": "tt19864802",
+      "type": "movie",
+      "name": "Land of Bad",
+      "poster": "https://image.tmdb.org/t/p/w500/h3jYanWMEJq6JJsCopy1h7cT2Hs.jpg",
+      "posterShape": "poster",
+      "description": "When a Delta Force special ops mission goes terribly wrong, Air Force drone pilot Reaper has 48 hours to remedy what has devolved into a wild rescue operation. With no weapons and no communication other than the drone above, the ground mission suddenly becomes a full-scale battle when the team is discovered by the enemy.",
+      "genres": [
+        "Action",
+        "War",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt19864802"
+    },
+    {
+      "id": "tt1130884",
+      "type": "movie",
+      "name": "Shutter Island",
+      "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+      "posterShape": "poster",
+      "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
       "genres": [
         "Drama",
         "Thriller",
-        "Crime"
+        "Mystery"
       ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0399146"
+      "releaseInfo": "2010",
+      "imdb_id": "tt1130884"
+    },
+    {
+      "id": "tt12593682",
+      "type": "movie",
+      "name": "Bullet Train",
+      "poster": "https://image.tmdb.org/t/p/w500/j8szC8OgrejDQjjMKSVXyaAjw3V.jpg",
+      "posterShape": "poster",
+      "description": "Unlucky assassin Ladybug is determined to do his job peacefully after one too many gigs gone off the rails. Fate, however, may have other plans, as Ladybug's latest mission puts him on a collision course with lethal adversaries from around the globe—all with connected, yet conflicting, objectives—on the world's fastest train.",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Thriller"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt12593682"
+    },
+    {
+      "id": "tt15314262",
+      "type": "movie",
+      "name": "The Beekeeper",
+      "poster": "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+      "posterShape": "poster",
+      "description": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15314262"
+    },
+    {
+      "id": "tt30144839",
+      "type": "movie",
+      "name": "One Battle After Another",
+      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
+      "posterShape": "poster",
+      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Comedy"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt30144839"
+    },
+    {
+      "id": "tt0477348",
+      "type": "movie",
+      "name": "No Country for Old Men",
+      "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+      "posterShape": "poster",
+      "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Western"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0477348"
     },
     {
       "id": "tt33296751",
@@ -270,32 +252,47 @@
       "imdb_id": "tt33296751"
     },
     {
-      "id": "tt2713180",
+      "id": "tt0469494",
       "type": "movie",
-      "name": "Fury",
-      "poster": "https://image.tmdb.org/t/p/w500/pfte7wdMobMF4CVHuOxyu6oqeeA.jpg",
+      "name": "There Will Be Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
       "posterShape": "poster",
-      "description": "April, 1945. As the Allies make their final push in the European Theater, a battle-hardened army sergeant commands a Sherman tank with a five-man crew on a deadly mission behind enemy lines.",
-      "genres": [
-        "War",
-        "Drama",
-        "Action"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2713180"
-    },
-    {
-      "id": "tt28479262",
-      "type": "movie",
-      "name": "Sing Sing",
-      "poster": "https://image.tmdb.org/t/p/w500/ig5ju3Tt56UGoBrc6IlkUS6ahfE.jpg",
-      "posterShape": "poster",
-      "description": "Divine G, imprisoned at Sing Sing for a crime he didn't commit, finds purpose by acting in a theatre group alongside other incarcerated men in this story of resilience, humanity, and the transformative power of art.",
+      "description": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's motives and intentions, starting a slow-burning feud that threatens both their lives.",
       "genres": [
         "Drama"
       ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0469494"
+    },
+    {
+      "id": "tt20215234",
+      "type": "movie",
+      "name": "Conclave",
+      "poster": "https://image.tmdb.org/t/p/w500/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg",
+      "posterShape": "poster",
+      "description": "After the unexpected death of the Pope, Cardinal Lawrence is tasked with managing the covert and ancient ritual of electing a new one. Sequestered in the Vatican with the Catholic Church’s most powerful leaders until the process is complete, Lawrence finds himself at the center of a conspiracy that could lead to its downfall.",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
       "releaseInfo": "2024",
-      "imdb_id": "tt28479262"
+      "imdb_id": "tt20215234"
+    },
+    {
+      "id": "tt14114802",
+      "type": "movie",
+      "name": "The Outfit",
+      "poster": "https://image.tmdb.org/t/p/w500/lZa5EB6PVJBT5mxhgZS5ftqdAm6.jpg",
+      "posterShape": "poster",
+      "description": "Leonard is an English tailor who used to craft suits on London’s world-famous Savile Row. After a personal tragedy, he’s ended up in Chicago, operating a small tailor shop in a rough part of town where he makes beautiful clothes for the only people around who can afford them: a family of vicious gangsters.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14114802"
     }
   ]
 }
