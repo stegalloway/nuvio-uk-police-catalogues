@@ -247,6 +247,9 @@ of their own.
 
 ## New & Upcoming Episodes
 
+A show on this row is left out of Trakt Suggested Series, including its returning-season
+card: the news lives here, and Suggested fills that place with the next best pick.
+
 A separate row with two parts. First, **Out now**: shows with an episode released
 in the last `out_now_days` (default 30) that the viewer was caught up before and
 hasn't watched yet, newest release first. Then shows the viewer is caught up on

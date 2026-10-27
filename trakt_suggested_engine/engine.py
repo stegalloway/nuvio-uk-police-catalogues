@@ -1123,11 +1123,6 @@ def generate_catalogues(
                 card.update(poster=poster, returning_season=decision, theme=theme,
                             suggested_score=score + taste.returner_bonus(theme) + .15 * math.exp(-age_days / 30))
                 returners.append(card)
-            mixed, primary_prefix_count = taste.order_series(cards, config.catalogue_limit)
-            returners.sort(key=lambda c: (-c["suggested_score"], c["id"]))
-            for index, card in enumerate(returners[:config.max_returning_items]):
-                mixed.insert(min(max(2, primary_prefix_count) + 4 * index, len(mixed)), card)
-            ordered = mixed[:config.catalogue_limit]
             # Upcoming Episodes: every caught-up show, outside the taste profile's
             # suggestion filters, from TMDB details the profile has already fetched.
             today = moment.date()
@@ -1184,6 +1179,16 @@ def generate_catalogues(
                             upcoming_line="On your watchlist · " + line + start)
                 upcoming_cards[card["id"]] = card
                 watchlist_premieres += 1
+            # A show on New & Upcoming has its news there; Suggested keeps its
+            # places for new picks, so the row is filled from the next best.
+            upcoming_suppressed = sum(c["id"] in upcoming_cards for c in cards + returners)
+            cards = [c for c in cards if c["id"] not in upcoming_cards]
+            returners = [c for c in returners if c["id"] not in upcoming_cards]
+            mixed, primary_prefix_count = taste.order_series(cards, config.catalogue_limit)
+            returners.sort(key=lambda c: (-c["suggested_score"], c["id"]))
+            for index, card in enumerate(returners[:config.max_returning_items]):
+                mixed.insert(min(max(2, primary_prefix_count) + 4 * index, len(mixed)), card)
+            ordered = mixed[:config.catalogue_limit]
         else:
             ordered = sorted(cards, key=lambda c: (-c["suggested_score"], c["id"]))[:config.catalogue_limit]
         # Stable-ID deduplication after every source merge, including returners.
@@ -1195,6 +1200,7 @@ def generate_catalogues(
                        "profile_input_count": len(items), "profile_processed_count": len(audit["processed"]),
                        "candidate_count": len(candidates), "enriched_count": len(selected),
                        "eligible_discovery_count": len(cards), "returning_count": len(returners),
+                       "on_upcoming_suppressed_count": upcoming_suppressed if kind == "series" else 0,
                        "primary_crime_prefix_count": primary_prefix_count,
                        "for_you": {"returned_count": len(for_you_rank),
                                    "watched_suppressed_count": len(set(for_you_rank) & (watched_tmdb | watched_by_imdb)),

@@ -305,6 +305,22 @@ class EndToEndContracts(unittest.TestCase):
         self.assertTrue(all(c["theme"]["gangster_priority"] and c["theme"]["british_or_irish"] for c in first_cards))
         self.assertEqual(result["diagnostics"]["media"]["series"]["primary_crime_prefix_count"], 4)
 
+    def test_a_show_on_new_and_upcoming_is_left_out_of_suggested(self):
+        aired = NOW - timedelta(days=1)
+        fetch = lambda path, params: [season(1), season(2, premiered=aired)]
+        before = self.run_engine(trakt_fetch=fetch)
+        self.assertIn("tt10", [m["id"] for m in before["catalogues"]["series"]["payload"]["metas"]])
+        # Season 2 is out and unwatched, so New & Upcoming now carries the news.
+        self.api.details[("tv", 10)]["last_episode_to_air"] = {"season_number": 2, "episode_number": 2,
+                                                                "air_date": aired.date().isoformat()}
+        result = self.run_engine(trakt_fetch=fetch)
+        upcoming = [m["id"] for m in result["catalogues"]["upcoming"]["payload"]["metas"]]
+        series = [m["id"] for m in result["catalogues"]["series"]["payload"]["metas"]]
+        self.assertEqual(upcoming, ["tt10"])
+        self.assertNotIn("tt10", series)
+        self.assertEqual(set(series), {m["id"] for m in before["catalogues"]["series"]["payload"]["metas"]} - {"tt10"})
+        self.assertEqual(result["diagnostics"]["media"]["series"]["on_upcoming_suppressed_count"], 1)
+
     def test_missing_episode_metadata_does_not_insert_returner(self):
         def failed(path, params):
             raise TimeoutError("fixture timeout")
