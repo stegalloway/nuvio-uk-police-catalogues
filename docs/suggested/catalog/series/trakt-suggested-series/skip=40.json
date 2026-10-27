@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt11816814",
+      "type": "series",
+      "name": "Painkiller",
+      "poster": "https://image.tmdb.org/t/p/w500/7zYtVymTxVEhgAOuMl4l2NoFCrO.jpg",
+      "posterShape": "poster",
+      "description": "The causes and consequences of America's opioid epidemic unfold in this drama following its perpetrators, victims and an investigator seeking the truth.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt11816814"
+    },
+    {
       "id": "tt31314754",
       "type": "series",
       "name": "Devil in Disguise: John Wayne Gacy",
@@ -204,20 +218,6 @@
       "imdb_id": "tt31314751"
     },
     {
-      "id": "tt27331527",
-      "type": "series",
-      "name": "Man on Fire",
-      "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
-      "posterShape": "poster",
-      "description": "Haunted by his past and hunted by his enemies, a Special Forces veteran fights to keep a teenage girl alive on the deadly streets of Rio de Janeiro.",
-      "genres": [
-        "Action & Adventure",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt27331527"
-    },
-    {
       "id": "tt1652216",
       "type": "series",
       "name": "DCI Banks",
@@ -230,6 +230,20 @@
       ],
       "releaseInfo": "2011",
       "imdb_id": "tt1652216"
+    },
+    {
+      "id": "tt27331527",
+      "type": "series",
+      "name": "Man on Fire",
+      "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+      "posterShape": "poster",
+      "description": "Haunted by his past and hunted by his enemies, a Special Forces veteran fights to keep a teenage girl alive on the deadly streets of Rio de Janeiro.",
+      "genres": [
+        "Action & Adventure",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt27331527"
     },
     {
       "id": "tt13918776",
@@ -273,21 +287,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt19853270"
-    },
-    {
-      "id": "tt22091076",
-      "type": "series",
-      "name": "High Potential",
-      "poster": "https://image.tmdb.org/t/p/w500/xCtaUDBUP1iKqtoqpHfeH1T2pWF.jpg",
-      "posterShape": "poster",
-      "description": "Morgan is a single mom with an exceptional mind, whose unconventional knack for solving crimes leads to an unusual and unstoppable partnership with a by-the-book seasoned detective.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt22091076"
     }
   ]
 }
