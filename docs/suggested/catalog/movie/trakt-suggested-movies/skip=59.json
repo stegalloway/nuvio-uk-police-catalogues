@@ -1,18 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt31450182",
+      "id": "tt1130884",
       "type": "movie",
-      "name": "Amber Alert",
-      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
+      "name": "Shutter Island",
+      "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
       "posterShape": "poster",
-      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
+      "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
       "genres": [
+        "Drama",
         "Thriller",
-        "Drama"
+        "Mystery"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31450182"
+      "releaseInfo": "2010",
+      "imdb_id": "tt1130884"
     }
   ]
 }

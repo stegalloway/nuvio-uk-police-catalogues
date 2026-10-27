@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt1950186",
+      "type": "movie",
+      "name": "Ford v Ferrari",
+      "poster": "https://image.tmdb.org/t/p/w500/dR1Ju50iudrOh3YgfwkAU1g2HZe.jpg",
+      "posterShape": "poster",
+      "description": "American car designer Carroll Shelby and the British-born driver Ken Miles work together to battle corporate interference, the laws of physics, and their own personal demons to build a revolutionary race car for Ford Motor Company and take on the dominating race cars of Enzo Ferrari at the 24 Hours of Le Mans in France in 1966.",
+      "genres": [
+        "Drama",
+        "History",
+        "Action"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt1950186"
+    },
+    {
       "id": "tt0498380",
       "type": "movie",
       "name": "Letters from Iwo Jima",
@@ -14,51 +29,6 @@
       ],
       "releaseInfo": "2006",
       "imdb_id": "tt0498380"
-    },
-    {
-      "id": "tt9603208",
-      "type": "movie",
-      "name": "Mission: Impossible - The Final Reckoning",
-      "poster": "https://image.tmdb.org/t/p/w500/iKPsC9EFUafRP9SrUznI61getVP.jpg",
-      "posterShape": "poster",
-      "description": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Adventure"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt9603208"
-    },
-    {
-      "id": "tt1392214",
-      "type": "movie",
-      "name": "Prisoners",
-      "poster": "https://image.tmdb.org/t/p/w500/uhviyknTT5cEQXbn6vWIqfM4vGm.jpg",
-      "posterShape": "poster",
-      "description": "After his six-year-old daughter is abducted, a desperate father takes justice into his own hands when he loses faith in the detective leading the investigation, setting both men on a collision course as the search descends into obsession and moral compromise.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt1392214"
-    },
-    {
-      "id": "tt1229238",
-      "type": "movie",
-      "name": "Mission: Impossible - Ghost Protocol",
-      "poster": "https://image.tmdb.org/t/p/w500/eRZTGx7GsiKqPch96k27LK005ZL.jpg",
-      "posterShape": "poster",
-      "description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks, who has gained access to Russian nuclear launch codes and is planning a strike on the United States. An attempt to stop him ends in an explosion causing severe destruction to the Kremlin and the IMF to be implicated in the bombing, forcing the President to disavow them. No longer being aided by the government, Ethan and his team chase Hendricks around the globe, although they might still be too late to stop a disaster.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Adventure"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1229238"
     },
     {
       "id": "tt5537002",
@@ -89,6 +59,51 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt30144839"
+    },
+    {
+      "id": "tt1229238",
+      "type": "movie",
+      "name": "Mission: Impossible - Ghost Protocol",
+      "poster": "https://image.tmdb.org/t/p/w500/eRZTGx7GsiKqPch96k27LK005ZL.jpg",
+      "posterShape": "poster",
+      "description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks, who has gained access to Russian nuclear launch codes and is planning a strike on the United States. An attempt to stop him ends in an explosion causing severe destruction to the Kremlin and the IMF to be implicated in the bombing, forcing the President to disavow them. No longer being aided by the government, Ethan and his team chase Hendricks around the globe, although they might still be too late to stop a disaster.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "releaseInfo": "2011",
+      "imdb_id": "tt1229238"
+    },
+    {
+      "id": "tt1392214",
+      "type": "movie",
+      "name": "Prisoners",
+      "poster": "https://image.tmdb.org/t/p/w500/uhviyknTT5cEQXbn6vWIqfM4vGm.jpg",
+      "posterShape": "poster",
+      "description": "After his six-year-old daughter is abducted, a desperate father takes justice into his own hands when he loses faith in the detective leading the investigation, setting both men on a collision course as the search descends into obsession and moral compromise.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt1392214"
+    },
+    {
+      "id": "tt15314262",
+      "type": "movie",
+      "name": "The Beekeeper",
+      "poster": "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+      "posterShape": "poster",
+      "description": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15314262"
     },
     {
       "id": "tt2872718",
@@ -151,19 +166,19 @@
       "imdb_id": "tt7131622"
     },
     {
-      "id": "tt15314262",
+      "id": "tt2382320",
       "type": "movie",
-      "name": "The Beekeeper",
-      "poster": "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+      "name": "No Time to Die",
+      "poster": "https://image.tmdb.org/t/p/w500/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
       "posterShape": "poster",
-      "description": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+      "description": "Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
       "genres": [
         "Action",
-        "Crime",
-        "Thriller"
+        "Thriller",
+        "Adventure"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15314262"
+      "releaseInfo": "2021",
+      "imdb_id": "tt2382320"
     },
     {
       "id": "tt1091191",
@@ -181,34 +196,33 @@
       "imdb_id": "tt1091191"
     },
     {
-      "id": "tt2382320",
+      "id": "tt33764258",
       "type": "movie",
-      "name": "No Time to Die",
-      "poster": "https://image.tmdb.org/t/p/w500/iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
+      "name": "The Odyssey",
+      "poster": "https://image.tmdb.org/t/p/w500/krVa7rKCQb4OBfsr2LTJv4rTz5q.jpg",
       "posterShape": "poster",
-      "description": "Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+      "description": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
       "genres": [
+        "Adventure",
         "Action",
-        "Thriller",
-        "Adventure"
+        "Fantasy"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt2382320"
+      "releaseInfo": "2026",
+      "imdb_id": "tt33764258"
     },
     {
-      "id": "tt0399146",
+      "id": "tt4912910",
       "type": "movie",
-      "name": "A History of Violence",
-      "poster": "https://image.tmdb.org/t/p/w500/ptJKY9WGDUUL064ge3jW78zBX0t.jpg",
+      "name": "Mission: Impossible - Fallout",
+      "poster": "https://image.tmdb.org/t/p/w500/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
       "posterShape": "poster",
-      "description": "An average family is thrust into the spotlight after the father commits a seemingly self-defense murder at his diner.",
+      "description": "When an IMF mission ends badly, the world is faced with dire consequences. As Ethan Hunt takes it upon himself to fulfill his original briefing, the CIA begin to question his loyalty and his motives. The IMF team find themselves in a race against time, hunted by assassins while trying to prevent a global catastrophe.",
       "genres": [
-        "Drama",
-        "Thriller",
-        "Crime"
+        "Action",
+        "Adventure"
       ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0399146"
+      "releaseInfo": "2018",
+      "imdb_id": "tt4912910"
     },
     {
       "id": "tt3799694",
@@ -226,18 +240,34 @@
       "imdb_id": "tt3799694"
     },
     {
-      "id": "tt4912910",
+      "id": "tt0399146",
       "type": "movie",
-      "name": "Mission: Impossible - Fallout",
-      "poster": "https://image.tmdb.org/t/p/w500/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+      "name": "A History of Violence",
+      "poster": "https://image.tmdb.org/t/p/w500/ptJKY9WGDUUL064ge3jW78zBX0t.jpg",
       "posterShape": "poster",
-      "description": "When an IMF mission ends badly, the world is faced with dire consequences. As Ethan Hunt takes it upon himself to fulfill his original briefing, the CIA begin to question his loyalty and his motives. The IMF team find themselves in a race against time, hunted by assassins while trying to prevent a global catastrophe.",
+      "description": "An average family is thrust into the spotlight after the father commits a seemingly self-defense murder at his diner.",
       "genres": [
-        "Action",
-        "Adventure"
+        "Drama",
+        "Thriller",
+        "Crime"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt4912910"
+      "releaseInfo": "2005",
+      "imdb_id": "tt0399146"
+    },
+    {
+      "id": "tt33296751",
+      "type": "movie",
+      "name": "Tuner",
+      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
+      "posterShape": "poster",
+      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33296751"
     },
     {
       "id": "tt2713180",
@@ -255,50 +285,17 @@
       "imdb_id": "tt2713180"
     },
     {
-      "id": "tt33764258",
+      "id": "tt28479262",
       "type": "movie",
-      "name": "The Odyssey",
-      "poster": "https://image.tmdb.org/t/p/w500/krVa7rKCQb4OBfsr2LTJv4rTz5q.jpg",
+      "name": "Sing Sing",
+      "poster": "https://image.tmdb.org/t/p/w500/ig5ju3Tt56UGoBrc6IlkUS6ahfE.jpg",
       "posterShape": "poster",
-      "description": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
+      "description": "Divine G, imprisoned at Sing Sing for a crime he didn't commit, finds purpose by acting in a theatre group alongside other incarcerated men in this story of resilience, humanity, and the transformative power of art.",
       "genres": [
-        "Adventure",
-        "Action",
-        "Fantasy"
+        "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33764258"
-    },
-    {
-      "id": "tt0425210",
-      "type": "movie",
-      "name": "Lucky Number Slevin",
-      "poster": "https://image.tmdb.org/t/p/w500/x21s3p5wPww534nYj1cWakTcqz4.jpg",
-      "posterShape": "poster",
-      "description": "Slevin is mistakenly put in the middle of a personal war between the city’s biggest criminal bosses. Under constant watch, Slevin must try not to get killed by an infamous assassin and come up with an idea of how to get out of his current dilemma.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2006",
-      "imdb_id": "tt0425210"
-    },
-    {
-      "id": "tt33296751",
-      "type": "movie",
-      "name": "Tuner",
-      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
-      "posterShape": "poster",
-      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33296751"
+      "releaseInfo": "2024",
+      "imdb_id": "tt28479262"
     }
   ]
 }
