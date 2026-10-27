@@ -1190,6 +1190,38 @@ class SeriesTasteContracts(unittest.TestCase):
         self.assertEqual(four["Movie 203"]["loved_votes"], 4)
         self.assertAlmostEqual(four["Movie 203"]["score"] - none["Movie 203"]["score"], .15, places=3)
 
+    def test_a_loved_film_seeds_films_and_votes_for_them(self):
+        self.api.details[("movie", 109)] = self.api.detail(109)
+        loved = [{"type": "movie", "movie": {"ids": {"tmdb": 109, "imdb": "tt109"}}}]
+        result = self.run_engine(loved=loved)
+        films = result["diagnostics"]["media"]["movie"]["loved_seeds"]
+        self.assertEqual(films["titles"], ["Movie 109"])
+        self.assertTrue(all(c["voters"] == ["Movie 109"] for c in films["card_scores"]))
+        self.assertNotIn("tt109", self.ids(result, "movie"), "A Loved film is not suggested")
+        self.assertEqual(result["diagnostics"]["media"]["series"]["loved_seeds"]["titles"], [])
+
+    def test_a_single_vote_film_needs_a_tomatometer_of_80(self):
+        self.api.details[("movie", 600)] = self.api.detail(600)
+        self.api.details[("movie", 701)] = self.api.detail(701)
+        self.api.for_you_only.add(("movie", 701))      # only the Loved film's recommendations return it
+        def fetch(path, params=None):
+            value = self.api(path, params)
+            if path.startswith("/movie/600/recommendations"):
+                value = {"results": value["results"] + [self.api.raw(self.api.details[("movie", 701)])]}
+            return value
+        loved = [{"type": "movie", "movie": {"ids": {"tmdb": 600, "imdb": "tt600"}}}]
+        def run(critics):
+            lookup = None if critics == "no lookup" else (
+                lambda kind, tmdb_id, imdb_id: {"tomatometer": critics if imdb_id == "tt701" else 90., "popcornmeter": None})
+            return generate_catalogues(*self.inputs, fetch, now=NOW, config=self.config, loved=loved, rt_lookup=lookup)
+        self.assertIn("tt701", self.ids(run(85.), "movie"))
+        low = run(70.)
+        self.assertNotIn("tt701", self.ids(low, "movie"))
+        self.assertEqual([d["title"] for d in low["diagnostics"]["media"]["movie"]["loved_seeds"]["rt_single_vote"]["dropped"]],
+                         ["Movie 701"])
+        self.assertNotIn("tt701", self.ids(run(None), "movie"), "No critics score: it stays out")
+        self.assertNotIn("tt701", self.ids(run("no lookup"), "movie"), "Without MDBList the two-vote rule stands")
+
     def test_a_title_only_loved_seeds_found_needs_two_loved_votes(self):
         for number in (600, 606):
             self.show_detail(number, [80], [(90 + number, "theme " + str(number))])
@@ -1268,13 +1300,13 @@ class RottenTomatoesContracts(unittest.TestCase):
 
     def test_every_series_the_row_shows_is_looked_up_beyond_the_best_scores(self):
         ste = type(PROFILES["ste"])
-        original = ste.rt_candidates
-        ste.rt_candidates = 1
+        original = ste.rt_candidates, ste.rt_film_candidates
+        ste.rt_candidates = ste.rt_film_candidates = 1
         looked = []
         try:
             result = self.run_engine(rt_lookup=lambda kind, tmdb_id, imdb_id: looked.append((kind, imdb_id)) or None)
         finally:
-            ste.rt_candidates = original
+            ste.rt_candidates, ste.rt_film_candidates = original
         shown = set(self.ids(result, "series"))
         self.assertTrue(shown <= {imdb for kind, imdb in looked if kind == "series"})
         self.assertEqual(sum(kind == "movie" for kind, _ in looked), 1, "Films keep the score cut")
@@ -1295,11 +1327,101 @@ class RottenTomatoesContracts(unittest.TestCase):
         self.assertLess(without, margin)
         self.assertGreaterEqual(len(margin), 5)
 
+    def test_the_film_floor_keeps_only_films_looked_up_and_scoring_well(self):
+        ste = type(PROFILES["ste"])
+        before = self.ids(self.run_engine(), "movie")
+        low, unknown = before[0], before[1]
+        def lookup(kind, tmdb_id, imdb_id):
+            if imdb_id == low:
+                return {"tomatometer": 95., "popcornmeter": 60.}
+            if imdb_id == unknown:
+                return {"tomatometer": None, "popcornmeter": None}
+            return {"tomatometer": 90., "popcornmeter": 90.}
+        ste.rt_film_floor = 70.
+        try:
+            result = self.run_engine(rt_lookup=lookup)
+        finally:
+            ste.rt_film_floor = None
+        films = self.ids(result, "movie")
+        self.assertNotIn(low, films, "One score under the floor is enough to leave")
+        self.assertIn(unknown, films, "Unknown scores don't count against a film")
+        dropped = result["diagnostics"]["media"]["movie"]["loved_seeds"]["rt_floor_dropped"]
+        self.assertEqual([(d["tomatometer"], d["popcornmeter"]) for d in dropped], [(95., 60.)])
+
     def test_the_jenny_profile_never_looks_up_rotten_tomatoes(self):
         self.config = EngineConfig(**dict(vars(self.config), profile="jenny"))
         calls = []
         self.run_engine(rt_lookup=lambda *a: calls.append(a))
         self.assertEqual(calls, [])
+
+
+class AcclaimedFilmContracts(unittest.TestCase):
+    """Ste's films: another genre joins only with both Rotten Tomatoes scores at 80 or more."""
+
+    def setUp(self):
+        self.api = FixtureAPI()
+        self.inputs = list(fixture_inputs())
+        self.config = EngineConfig(catalogue_limit=20, candidate_enrichment_limit=20, minimum_items=3, max_workers=2)
+        self.api.details[("movie", 710)] = dict(self.api.detail(710), genres=[{"id": 18, "name": "Drama"}])
+        self.api.details[("movie", 711)] = dict(self.api.detail(711), genres=[{"id": 16, "name": "Animation"},
+                                                                             {"id": 18, "name": "Drama"}])
+
+    def run_engine(self, scores, **kwargs):
+        lookup = None if scores is None else (lambda kind, tmdb_id, imdb_id: scores.get(imdb_id, {"tomatometer": 75.,
+                                                                                                   "popcornmeter": 75.}))
+        return generate_catalogues(*self.inputs, self.api, now=NOW, config=self.config, rt_lookup=lookup, **kwargs)
+
+    @staticmethod
+    def films(result):
+        return [m["id"] for m in result["catalogues"]["movie"]["payload"]["metas"]]
+
+    def test_another_genre_joins_only_when_both_scores_reach_80(self):
+        acclaimed = {"tt710": {"tomatometer": 85., "popcornmeter": 90.}, "tt711": {"tomatometer": 95., "popcornmeter": 95.}}
+        result = self.run_engine(acclaimed)
+        self.assertIn("tt710", self.films(result))
+        self.assertNotIn("tt711", self.films(result), "Animation stays out however acclaimed")
+        report = result["diagnostics"]["media"]["movie"]["acclaimed"]
+        self.assertEqual([k["title"] for k in report["kept"]], ["Movie 710"])
+        self.assertEqual([p["title"] for p in report["positions"]], ["Movie 710"])
+        for scores in ({"tomatometer": 85., "popcornmeter": 70.}, {"tomatometer": 70., "popcornmeter": 95.},
+                       {"tomatometer": 85., "popcornmeter": None}):
+            self.assertNotIn("tt710", self.films(self.run_engine({"tt710": scores})), scores)
+        self.assertNotIn("tt710", self.films(self.run_engine(None)), "Without MDBList only the core genres")
+
+    def test_the_acclaimed_path_never_reorders_the_core_films(self):
+        result = self.run_engine({"tt710": {"tomatometer": 85., "popcornmeter": 90.}})
+        ste = type(PROFILES["ste"])
+        original = ste.acclaimed_kinds
+        try:
+            ste.acclaimed_kinds = frozenset()
+            core = self.run_engine({})
+        finally:
+            ste.acclaimed_kinds = original
+        self.assertEqual([i for i in self.films(result) if i != "tt710"], self.films(core))
+
+    def test_wider_profile_queries_find_acclaimed_science_fiction(self):
+        self.api.details[("movie", 712)] = dict(self.api.detail(712), genres=[{"id": 878, "name": "Science Fiction"},
+                                                                             {"id": 18, "name": "Drama"}])
+        self.api.for_you_only.add(("movie", 712))      # no seed or core query returns it
+        def fetch(path, params=None):
+            value = self.api(path, params)
+            if path.startswith("/discover/movie") and "878" not in str((params or {}).get("without_genres", "")).split("|"):
+                value = {"results": value["results"] + [self.api.raw(self.api.details[("movie", 712)])]}
+            return value
+        def run(scores):
+            return generate_catalogues(*self.inputs, fetch, now=NOW, config=self.config,
+                                       rt_lookup=lambda kind, tmdb_id, imdb_id: scores.get(imdb_id, {}))
+        result = run({"tt712": {"tomatometer": 91., "popcornmeter": 91.}})
+        self.assertIn("tt712", self.films(result))
+        self.assertIn("Movie 712", [r["title"] for r in result["diagnostics"]["media"]["movie"]["acclaimed"]["ranked"]])
+        self.assertNotIn("tt712", self.films(run({"tt712": {"tomatometer": 91., "popcornmeter": 79.}})))
+        core = [i for i in self.films(result) if i != "tt712"]
+        self.assertEqual(core, self.films(run({})), "The wider queries never change the core films")
+
+    def test_jenny_has_no_acclaimed_path(self):
+        self.config = EngineConfig(**dict(vars(self.config), profile="jenny"))
+        report = self.run_engine({"tt710": {"tomatometer": 85., "popcornmeter": 90.}})["diagnostics"]["media"]["movie"]["acclaimed"]
+        self.assertEqual(report["enriched_count"], 0)
 
 
 class FilmAgeContracts(unittest.TestCase):
@@ -1311,6 +1433,23 @@ class FilmAgeContracts(unittest.TestCase):
         self.assertEqual(policy.year_min, 2000)
         self.assertFalse(w.passes_filters(self.FILM, policy, NOW))
         self.assertTrue(w.passes_filters(dict(self.FILM, release_date="2000-01-01"), policy, NOW))
+
+    def test_film_genre_rules_can_be_widened_or_removed(self):
+        ste = type(PROFILES["ste"])
+        war = dict(self.FILM, release_date="2016-01-15", genre_ids=[10752, 18])
+        drama = dict(war, genre_ids=[18])
+        horror = dict(self.FILM, release_date="2016-01-15", genre_ids=[27, 53])
+        self.assertTrue(w.passes_filters(war, PROFILES["ste"].policy("movie"), NOW), "Action and war are core")
+        self.assertFalse(w.passes_filters(drama, PROFILES["ste"].policy("movie"), NOW))
+        original = ste.film_required_genres
+        try:
+            ste.film_required_genres, ste.film_excluded_genres = (), ()
+            policy = PROFILES["ste"].policy("movie")
+            self.assertTrue(w.passes_filters(horror, policy, NOW))
+            self.assertEqual(policy.year_min, 2000)
+        finally:
+            ste.film_required_genres, ste.film_excluded_genres = original, None
+        self.assertFalse(w.passes_filters(horror, PROFILES["ste"].policy("movie"), NOW))
 
     def test_series_and_jenny_keep_their_floors(self):
         self.assertIsNone(PROFILES["ste"].policy("series").year_min)

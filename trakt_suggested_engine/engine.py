@@ -240,6 +240,9 @@ def rt_bonus(score: Any, weight: float, floor: float) -> float:
 
 # Ste's series taste from his Loved list (27 October 2026).
 LOVED_SOURCE = "loved_recommendation"
+# Ste's profile discovery queries rerun with only the acclaimed path's genre
+# exclusions; their rows feed that path alone.
+ACCLAIMED_SOURCE = "acclaimed_discovery"
 EXTRA_SOURCES = EXTRA_SOURCES | {LOVED_SOURCE}
 LOVED_PAGES = (1, 2)
 # Crime, Mystery, Action & Adventure, War & Politics: the series a suggestion
@@ -926,6 +929,13 @@ class SteProfile:
     name = "ste"
     # Ste found older films too old to interest him; series keep no lower limit.
     film_year_min = 2000
+    # Film genre rules (preview): None keeps ste_policy's; a tuple replaces it,
+    # () removes the rule. Required: any one of these; excluded: none of these.
+    # Films are crime, thriller, mystery, action or war (Ste, 27 October 2026).
+    film_required_genres = (80, 53, 9648, 28, 10752)
+    film_excluded_genres = None
+    # Films in the row (None: EngineConfig.catalogue_limit, as for series).
+    film_row_limit = None
     # The Trakt watchlist hides suggestions and adds premieres (Ste, 27 October 2026).
     uses_watchlist = True
     # Taste without rating (Ste, 27 October 2026): series evidence from how much
@@ -943,16 +953,37 @@ class SteProfile:
     # Interested title no longer fades; every Loved show seeds candidates, and a
     # title gains loved_vote_weight for each Loved show (up to loved_vote_cap)
     # whose TMDB recommendations or Trakt related titles include it. The
-    # organised-crime weighting, prefix and 2:1 mix stay.
+    # organised-crime weighting, prefix and 2:1 mix stay. Films get the same
+    # Loved seeds and votes (loved_seed_kinds).
     wider_series_gate = True
     drop_place_keywords = True
     lasting_not_interested = True
-    loved_seeds = True
+    loved_seed_kinds = frozenset({"series", "movie"})
     loved_vote_weight = .10
     loved_vote_cap = 3
     # One Loved show's recommendation list alone is noisy: a title nothing but
     # Loved seeds found needs this many Loved votes (Ste, 27 October 2026).
     loved_only_min_votes = 2
+    # Films (Ste, 27 October 2026): one Loved vote is enough when the critics
+    # score (Tomatometer, or Metacritic when Rotten Tomatoes has none) is at
+    # least rt_single_vote_minimum; with less, or none, the film stays out.
+    rt_single_vote_kinds = frozenset({"movie"})
+    rt_single_vote_minimum = 80.
+    # Films looked up on Rotten Tomatoes, and an optional floor: with it, a film
+    # stays only when it was looked up and neither known score (critics,
+    # audience) is under the floor (preview, 27 October 2026).
+    rt_film_candidates = 90
+    rt_film_floor = None
+    # Films of any other genre, except those in acclaimed_excluded_genres, join
+    # when acclaimed: both Rotten Tomatoes scores (critics, audience) at least
+    # acclaimed_minimum (Ste, 27 October 2026). The best acclaimed_candidates
+    # of them by profile score are enriched and looked up on their own, so they
+    # never take an enrichment or lookup place from a core film, and the core
+    # films' scores are scaled as if they were not there.
+    acclaimed_kinds = frozenset({"movie"})
+    acclaimed_excluded_genres = (16, 10751, 27)
+    acclaimed_minimum = 80.
+    acclaimed_candidates = 40
     # Rotten Tomatoes (Ste, 27 October 2026): the best rt_candidates
     # cards of each kind gain up to rt_critic_weight for the Tomatometer and up
     # to rt_audience_weight for the Popcornmeter, scaled from rt_floor (nothing)
@@ -974,7 +1005,13 @@ class SteProfile:
         if kind == "series" and self.wider_series_gate:
             # Dramas pass here for the legal-drama check after enrichment (final_gate).
             return replace(policy, required_any_genres=tuple(sorted(CORE_SERIES_GENRES | {18})))
-        return replace(policy, year_min=self.film_year_min) if kind == "movie" else policy
+        if kind == "movie":
+            policy = replace(policy, year_min=self.film_year_min)
+            if self.film_required_genres is not None:
+                policy = replace(policy, required_any_genres=tuple(self.film_required_genres))
+            if self.film_excluded_genres is not None:
+                policy = replace(policy, excluded_genres=tuple(self.film_excluded_genres))
+        return policy
 
     def core_candidate(self, raw: Mapping, kind: str) -> bool:
         """Before enrichment: a series candidate with a core genre, not a drama awaiting the legal check."""
@@ -1070,10 +1107,12 @@ class JennyProfile(SteProfile):
     wider_series_gate = False
     drop_place_keywords = False
     lasting_not_interested = False
-    loved_seeds = False
+    loved_seed_kinds = frozenset()
     loved_vote_weight = 0.
     loved_vote_cap = 0
     loved_only_min_votes = 0
+    rt_single_vote_kinds = frozenset()
+    acclaimed_kinds = frozenset()
     rt_kinds = frozenset()
     themed_kinds = frozenset({"series", "movie"})
     themed_source = "themed_history_recommendation"
@@ -1124,11 +1163,12 @@ def _eligible(item: Mapping, policy: w.FilterPolicy, now: datetime) -> bool:
     return not item.get("adult", False) and w.passes_filters(item, policy, now)
 
 
-def _normalise(values: Sequence[float]) -> list[float]:
+def _normalise(values: Sequence[float], reference: Sequence[float] = ()) -> list[float]:
+    """Scale values to 0-1 over the reference's range (default: their own), clamped."""
     if not values:
         return []
-    low, high = min(values), max(values)
-    return [(value - low) / (high - low) if high > low else .5 for value in values]
+    low, high = min(reference or values), max(reference or values)
+    return [min(1., max(0., (value - low) / (high - low))) if high > low else .5 for value in values]
 
 
 def _safe_poster(path: Any) -> str | None:
@@ -1330,14 +1370,15 @@ def generate_catalogues(
         if loved_details:
             profile, normalised = apply_dismissal_signal(profile, loved_details, moment,
                                                          evidence=LOVED_EVIDENCE, decays=False)
-        # Every Loved series, watched or not, seeds candidates.
+        # Every Loved title of this kind, watched or not, seeds candidates.
         loved_tids, loved_seed_imdb, loved_name = [], [], {}
-        if kind == "series" and taste.loved_seeds:
+        if kind in taste.loved_seed_kinds:
             for ids, _ in dismissed_titles(loved, kind):
                 tid = w._int(ids.get("tmdb")) or (w._int(runner._call("resolve", ids["imdb"], media)) if ids.get("imdb") else None)
                 detail = runner._details(tid, media) if tid else {}
                 if detail:
-                    name = detail.get("name") or detail.get("title") or str(tid)
+                    name = ((detail.get("title") if kind == "movie" else detail.get("name"))
+                            or detail.get("name") or detail.get("title") or str(tid))
                     loved_tids.append(tid)
                     loved_name[tid] = name
                     imdb = ids.get("imdb") or (detail.get("external_ids") or {}).get("imdb_id")
@@ -1347,6 +1388,10 @@ def generate_catalogues(
         # Candidate TMDB ID -> the Loved shows whose recommendations or Trakt
         # related titles include it: "fans of your Loved shows watch this".
         loved_votes: dict[int, set] = defaultdict(set)
+        # How each Loved title points to a candidate, and seed-found titles the
+        # filter turns away: diagnostics only.
+        loved_sources: dict[int, list] = defaultdict(list)
+        gate_rejected: dict[int, dict] = {}
         watched_imdb, watched_tmdb = set(), set()
         for entry in watch_rows:
             ids = (entry.get("movie") or entry.get("show") or {}).get("ids") or {}
@@ -1375,6 +1420,11 @@ def generate_catalogues(
         listed_imdb, listed_tmdb = dismissed_ids(watchlist, kind)
         watchlist_hits, loved_hits = set(), set()
         candidates, origins = {}, defaultdict(set)
+        # Films outside the core genres that may join when acclaimed.
+        acclaimed_policy = (replace(policy, required_any_genres=(),
+                                    excluded_genres=tuple(taste.acclaimed_excluded_genres))
+                            if rt_lookup and kind in taste.rt_kinds and kind in taste.acclaimed_kinds else None)
+        acclaimed, acclaimed_origins = {}, defaultdict(set)
         def merge(rows, origin):
             for raw in rows:
                 tid = w._int(raw.get("id"))
@@ -1387,6 +1437,19 @@ def generate_catalogues(
                 elif tid and tid not in watched_tmdb and _eligible(raw, policy, moment):
                     candidates[tid] = dict(raw)
                     origins[tid].add(origin)
+                elif tid and tid not in watched_tmdb:
+                    if acclaimed_policy and origin != FOR_YOU_SOURCE and _eligible(raw, acclaimed_policy, moment):
+                        acclaimed.setdefault(tid, dict(raw))
+                        acclaimed_origins[tid].add(origin)
+                    if origin in ("history_profile_discovery", FOR_YOU_SOURCE):
+                        continue
+                    entry = gate_rejected.setdefault(tid, {
+                        "tmdb_id": tid, "title": raw.get("title") or raw.get("name"), "genre_ids": w._genres(raw),
+                        "release": w._release(raw), "vote_average": raw.get("vote_average"),
+                        "vote_count": raw.get("vote_count"), "original_language": raw.get("original_language"),
+                        "adult": bool(raw.get("adult")), "origins": []})
+                    if origin not in entry["origins"]:
+                        entry["origins"].append(origin)
         def recommend(seed):
             tid = audit["resolved"].get(seed["imdb_id"])
             return seed, w._rows(runner._call("recommendations", tid, media, 1)) if tid else []
@@ -1394,12 +1457,14 @@ def generate_catalogues(
             merge(rows, "history_recommendation")
         if loved_tids:
             pages = [(tid, page) for tid in loved_tids for page in LOVED_PAGES]
-            for (tid, _), rows in runner._map(
+            for (tid, page), rows in runner._map(
                     lambda p: (p, w._rows(runner._call("recommendations", p[0], media, p[1]))), pages):
                 merge(rows, LOVED_SOURCE)
-                for raw in rows:
+                for rank, raw in enumerate(rows, 1):
                     if w._int(raw.get("id")):
                         loved_votes[w._int(raw["id"])].add(loved_name[tid])
+                        loved_sources[w._int(raw["id"])].append(
+                            {"loved": loved_name[tid], "via": "tmdb", "page": page, "rank": rank})
         # Extra pages for metadata-selected themed seeds (Ste: organised crime)
         # prevent a generic popular discovery pool from drowning out that preference.
         if themed_kind:
@@ -1424,7 +1489,7 @@ def generate_catalogues(
             seed_imdb = {s["imdb_id"] for s in seeds}
             related_seeds = list(seeds) + [{"imdb_id": imdb} for imdb in loved_seed_imdb if imdb not in seed_imdb]
             for seed, rows in runner._map(lambda s: (s, trakt_related(s)), related_seeds):
-                for row in rows:
+                for rank, row in enumerate(rows, 1):
                     tid = w._int((row.get("ids") or {}).get("tmdb"))
                     if tid:
                         related_found.add(tid)
@@ -1432,6 +1497,7 @@ def generate_catalogues(
                             related_from_history.add(tid)
                         if seed["imdb_id"] in loved_name:
                             loved_votes[tid].add(loved_name[seed["imdb_id"]])
+                            loved_sources[tid].append({"loved": loved_name[seed["imdb_id"]], "via": "trakt", "rank": rank})
             hidden = watched_tmdb | dismissed_tmdb | listed_tmdb | loved_tmdb
             fresh_ids = sorted(tid for tid in related_found if tid not in candidates and tid not in hidden)
             known = [candidates[tid] for tid in sorted(related_found) if tid in candidates]
@@ -1442,6 +1508,21 @@ def generate_catalogues(
         queries = [dict(query, include_adult="false") for query in queries]
         for rows in runner._map(lambda q: w._rows(runner._call("discover", media, q)), queries):
             merge(rows, "history_profile_discovery")
+        if acclaimed_policy:
+            # The same profile queries, excluding only the acclaimed path's
+            # genres: the core queries above stay as they were, and these rows
+            # never become core candidates.
+            hidden = watched_tmdb | dismissed_tmdb | listed_tmdb | loved_tmdb
+            wide = [dict({k: v for k, v in q.items() if k != "without_genres"},
+                         **({"without_genres": "|".join(map(str, taste.acclaimed_excluded_genres))}
+                            if taste.acclaimed_excluded_genres else {})) for q in queries]
+            for rows in runner._map(lambda q: w._rows(runner._call("discover", media, q)), wide):
+                for raw in rows:
+                    tid = w._int(raw.get("id"))
+                    if (tid and tid not in hidden and not _eligible(raw, policy, moment)
+                            and _eligible(raw, acclaimed_policy, moment)):
+                        acclaimed.setdefault(tid, dict(raw))
+                        acclaimed_origins[tid].add(ACCLAIMED_SOURCE)
         # The For You rows' own query, as a candidate source only: its date
         # order is kept for diagnostics, never used as a position.
         for_you_rank = {}
@@ -1477,17 +1558,36 @@ def generate_catalogues(
         # dropped before the custom weighting sees their keywords and credits.
         # Trakt related adds at most trakt_related_limit per seed, already detailed.
         # A title only Loved seeds found needs loved_only_min_votes Loved votes.
-        loved_only_dropped = []
+        loved_only_dropped, loved_only_dropped_detail = [], []
+        # Single-vote titles that may stay if their critics score is high enough.
+        rt_on_trial = set()
+        single_vote_rule = bool(rt_lookup) and kind in taste.rt_kinds and kind in taste.rt_single_vote_kinds
         for raw in (r for _, r in preliminary if origins[r["id"]] & EXTRA_SOURCES):
             loved_only = (origins[raw["id"]] <= {LOVED_SOURCE, TRAKT_RELATED_SOURCE}
                           and raw["id"] not in related_from_history)
-            if loved_only and len(loved_votes.get(raw["id"], ())) < taste.loved_only_min_votes:
+            votes = len(loved_votes.get(raw["id"], ()))
+            if loved_only and votes < taste.loved_only_min_votes and single_vote_rule and votes >= 1:
+                rt_on_trial.add(raw["id"])
+            elif loved_only and votes < taste.loved_only_min_votes:
                 loved_only_dropped.append(raw.get("name") or raw.get("title"))
+                loved_only_dropped_detail.append({"tmdb_id": raw["id"], "title": raw.get("title") or raw.get("name"),
+                                                  "sources": loved_sources.get(raw["id"], [])})
                 continue
             if raw["id"] not in selected_ids and (taste.core_candidate(raw, kind)
                                                   or origins[raw["id"]] & {LOVED_SOURCE, TRAKT_RELATED_SOURCE}):
                 selected.append(raw)
                 selected_ids.add(raw["id"])
+        # The best acclaimed-path films by profile score, on their own budget.
+        acclaimed_ids, ranked = set(), []
+        if acclaimed_policy:
+            ranked = sorted(((w.score_candidate(raw, normalised, media)[0] + taste.raw_bonus(taste.theme(raw), kind), raw)
+                             for tid, raw in acclaimed.items() if tid not in candidates),
+                            key=lambda p: (-p[0], p[1]["id"]))
+            for _, raw in ranked[:taste.acclaimed_candidates]:
+                selected.append(raw)
+                selected_ids.add(raw["id"])
+                acclaimed_ids.add(raw["id"])
+                origins[raw["id"]] |= acclaimed_origins[raw["id"]]
         cards, watched_by_imdb = [], set()
         for raw, detail in runner._map(lambda r: (r, runner._details(r["id"], media)), selected):
             if not detail:
@@ -1508,7 +1608,9 @@ def generate_catalogues(
             if imdb in loved_imdb:
                 loved_hits.add(raw["id"])
                 continue
-            if not _eligible(combined, policy, moment) or not taste.final_gate(combined, kind):
+            core = _eligible(combined, policy, moment)
+            on_trial = not core and raw["id"] in acclaimed_ids and _eligible(combined, acclaimed_policy, moment)
+            if not (core or on_trial) or not taste.final_gate(combined, kind):
                 continue
             poster = _safe_poster(detail.get("poster_path") or raw.get("poster_path"))
             if not poster:
@@ -1521,8 +1623,11 @@ def generate_catalogues(
                         theme=taste.theme(detail), candidate_sources=sorted(origins[raw["id"]]))
             if raw["id"] in for_you_rank:
                 card["for_you_rank"] = for_you_rank[raw["id"]]
+            if on_trial:
+                card["acclaimed_trial"] = True
             cards.append(card)
-        profile_values = _normalise([c["profile_score"] for c in cards])
+        profile_values = _normalise([c["profile_score"] for c in cards],
+                                    [c["profile_score"] for c in cards if not c.get("acclaimed_trial")])
         for card, normalised_score in zip(cards, profile_values):
             card["suggested_score"] = taste.score(normalised_score, card["theme"], kind)
             # Recency replaces For You's pure date order. It depends only on the
@@ -1545,14 +1650,19 @@ def generate_catalogues(
                     runner.warnings.append({"stage": "rotten_tomatoes", "exception_type": type(error).__name__})
                     value = None
                 return card, value if isinstance(value, Mapping) else {}
-            best = sorted(cards, key=lambda c: (-c["suggested_score"], c["id"]))[:taste.rt_candidates]
+            depth = taste.rt_film_candidates if kind == "movie" else taste.rt_candidates
+            best = sorted((c for c in cards if not c.get("acclaimed_trial")),
+                          key=lambda c: (-c["suggested_score"], c["id"]))[:depth]
             # The series mix gives places to lower-scored gangster titles, so
             # everything the row would show is looked up as well, and a margin
             # beyond it.
+            looked = {c["id"] for c in best}
             if kind == "series":
                 shown = {c["id"] for c in taste.order_series(cards, config.catalogue_limit + taste.rt_row_margin)[0]}
-                looked = {c["id"] for c in best}
                 best += [c for c in cards if c["id"] in shown and c["id"] not in looked]
+                looked = {c["id"] for c in best}
+            best += [c for c in cards if (c.get("tmdb_id") in rt_on_trial or c.get("acclaimed_trial"))
+                     and c["id"] not in looked]
             for card, value in runner._map(rt_scores, best):
                 critics, audience = value.get("tomatometer"), value.get("popcornmeter")
                 bonus = (rt_bonus(critics, taste.rt_critic_weight, taste.rt_floor)
@@ -1562,6 +1672,49 @@ def generate_catalogues(
                                            "audience_source": value.get("audience_source")}
                 card["suggested_score"] += bonus
                 rt_checked.append(card)
+        # The single-vote titles on trial stay only with a high enough critics score.
+        rt_single_vote = {"kept": [], "dropped": []}
+        if rt_on_trial:
+            kept = []
+            for card in cards:
+                if card.get("tmdb_id") in rt_on_trial:
+                    critics = (card.get("rotten_tomatoes") or {}).get("tomatometer")
+                    passed = critics is not None and critics >= taste.rt_single_vote_minimum
+                    rt_single_vote["kept" if passed else "dropped"].append(
+                        {"title": card.get("title"), "critics": critics, "voters": card.get("loved_votes")})
+                    if not passed:
+                        continue
+                kept.append(card)
+            cards = kept
+        # Acclaimed-path films stay only with both scores high enough.
+        acclaimed_result = {"kept": [], "dropped": []}
+        if any(c.get("acclaimed_trial") for c in cards):
+            kept = []
+            for card in cards:
+                if card.get("acclaimed_trial"):
+                    scores = card.get("rotten_tomatoes") or {}
+                    passed = all(scores.get(k) is not None and scores[k] >= taste.acclaimed_minimum
+                                 for k in ("tomatometer", "popcornmeter"))
+                    acclaimed_result["kept" if passed else "dropped"].append(
+                        {"title": card.get("title"), "tomatometer": scores.get("tomatometer"),
+                         "popcornmeter": scores.get("popcornmeter"), "genres": card.get("genres")})
+                    if not passed:
+                        continue
+                kept.append(card)
+            cards = kept
+        rt_floor_dropped = []
+        if kind == "movie" and rt_checked and taste.rt_film_floor is not None:
+            kept = []
+            for card in cards:
+                scores = card.get("rotten_tomatoes")
+                known = [v for v in ((scores or {}).get("tomatometer"), (scores or {}).get("popcornmeter")) if v is not None]
+                if scores is None or any(v < taste.rt_film_floor for v in known):
+                    rt_floor_dropped.append({"title": card.get("title"), "looked_up": scores is not None,
+                                             "tomatometer": (scores or {}).get("tomatometer"),
+                                             "popcornmeter": (scores or {}).get("popcornmeter")})
+                    continue
+                kept.append(card)
+            cards = kept
         returning_diagnostics, returners, primary_prefix_count = [], [], 0
         if kind == "series":
             episodes = derive_episode_progress(watched_shows, watched_episode_history)
@@ -1671,7 +1824,7 @@ def generate_catalogues(
             returners.sort(key=lambda c: (-c["suggested_score"], c["id"]))
         def order(cards):
             if kind != "series":
-                return sorted(cards, key=lambda c: (-c["suggested_score"], c["id"]))[:config.catalogue_limit], 0
+                return sorted(cards, key=lambda c: (-c["suggested_score"], c["id"]))[:taste.film_row_limit or config.catalogue_limit], 0
             mixed, prefix = taste.order_series(cards, config.catalogue_limit)
             for index, card in enumerate(returners[:config.max_returning_items]):
                 mixed.insert(min(max(2, prefix) + 4 * index, len(mixed)), card)
@@ -1749,18 +1902,30 @@ def generate_catalogues(
                                        "candidate_count": sum(LOVED_SOURCE in o for o in origins.values()),
                                        "voted_count": len(loved_votes),
                                        "loved_only_dropped": sorted(str(t) for t in loved_only_dropped),
+                                       "loved_only_dropped_detail": loved_only_dropped_detail,
+                                       "rt_single_vote": rt_single_vote,
+                                       "rt_floor_dropped": rt_floor_dropped,
+                                       "gate_rejected": sorted(({**entry, "loved_votes": sorted(loved_votes.get(tid, ()))}
+                                                                for tid, entry in gate_rejected.items()),
+                                                               key=lambda e: -w._num(e.get("vote_count")))[:300],
                                        "positions": [{"id": c["id"], "position": i + 1, "title": c.get("title"),
                                                       "genres": c.get("genres"), "loved_votes": c.get("loved_votes") or [],
                                                       "organised_crime": (c.get("theme") or {}).get("priority_organised_crime"),
                                                       "legal_drama_only": not bool(set(c.get("genre_ids") or []) & CORE_SERIES_GENRES),
                                                       "sources": c.get("candidate_sources"),
                                                       "returning": bool(c.get("returning_season"))}
-                                                     for i, c in enumerate(ordered)] if kind == "series" else [],
+                                                     for i, c in enumerate(ordered)],
                                        "card_scores": sorted(({"title": c.get("title"), "score": round(c["suggested_score"], 4),
                                                                "loved_votes": len(c.get("loved_votes") or []),
                                                                "voters": c.get("loved_votes") or [],
                                                                "sources": c.get("candidate_sources")}
-                                                              for c in cards), key=lambda c: -c["score"]) if kind == "series" else []},
+                                                              for c in cards), key=lambda c: -c["score"])},
+                       "acclaimed": {"candidate_count": sum(tid not in candidates for tid in acclaimed),
+                                     "enriched_count": len(acclaimed_ids), **acclaimed_result,
+                                     "ranked": [{"rank": i + 1, "title": raw.get("title") or raw.get("name")}
+                                                for i, (_, raw) in enumerate(ranked[:200])],
+                                     "positions": [{"id": c["id"], "position": i + 1, "title": c.get("title")}
+                                                   for i, c in enumerate(ordered) if c.get("acclaimed_trial")]},
                        "rotten_tomatoes": {"checked_count": len(rt_checked),
                                            "tomatometer_count": sum(c["rotten_tomatoes"]["tomatometer"] is not None for c in rt_checked),
                                            "popcornmeter_count": sum(c["rotten_tomatoes"]["popcornmeter"] is not None for c in rt_checked),

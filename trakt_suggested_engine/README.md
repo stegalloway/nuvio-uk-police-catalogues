@@ -73,7 +73,7 @@ the basis. This generator deliberately makes the following custom adaptations:
 - Exact recovered personal-catalogue filters: English originals; released films
   with any crime/thriller/mystery genre, at least 7/10 and 100 votes; released
   crime/mystery series, at least 7/10 and 30 votes. Existing genre exclusions and
-  the no-adult rule stay in force. No minimum release year is imposed by these gates; Ste's profile adds a 2000 floor for films (see Taste profiles), and widens series to action, war and politics and legal dramas (see "Series taste from the Loved list").
+  the no-adult rule stay in force. No minimum release year is imposed by these gates; Ste's profile adds a 2000 floor for films (see Taste profiles), widens series to action, war and politics and legal dramas (see "Series taste from the Loved list"), and widens films to action and war plus acclaimed films of other genres (see "Films from the Loved list").
 - Actual Trakt watched IDs determine suppression. Ratings inform the profile
   but do not silently mark a rated-only title watched.
 - Titles on the "Not Interested" list (`dismissed`) are suppressed at the same
@@ -256,7 +256,7 @@ attribute. Jenny's profile has none of them.
 - **Wider series** (`wider_series_gate`). A series may also be Action & Adventure or War & Politics. A drama with none of the core genres qualifies only as a legal drama, which needs keywords such as lawyer, courtroom, law firm or prosecutor. Before enrichment such a drama needs a Loved-seed or Trakt related source, so it never takes a history candidate's slot.
 - **No place keywords** (`drop_place_keywords`). Keywords that only say where a story is set, such as "los angeles, california", "new york city" or "london, england", leave every TMDB detail before the profile, scoring or Not Interested see it. The rule is "place, region" or a short list of countries, regions and cities. Diagnostics: `place_keywords_dropped`.
 - **Not Interested lasts** (`lasting_not_interested`). The -0.2 dislike stays while a title is on the list, as the watchlist like does, instead of fading to a tenth within about 70 days. The list also keeps the row fresh, because a dismissed title's place refills from the backlog.
-- **Loved seeds and votes** (`loved_seeds`, `loved_vote_weight` 0.10, `loved_vote_cap` 3, `loved_only_min_votes` 2):
+- **Loved seeds and votes** (`loved_seed_kinds` series and films, `loved_vote_weight` 0.10, `loved_vote_cap` 3, `loved_only_min_votes` 2):
   - **Seeds:** every Loved series, watched or not, seeds candidates through two TMDB recommendation pages and Trakt related.
   - **Votes:** a candidate gains 0.10 for each Loved show whose lists include it, up to 3 shows, so +0.30 at most. This reads as "fans of your Loved shows watch this", sturdier than keyword guesswork. Kin's votes come from MobLand, Sons of Anarchy and This City Is Ours; Lioness's from Designated Survivor, Homeland, SEAL Team and Jack Ryan.
   - **Two-vote minimum:** a title that only Loved seeds found needs 2 votes. One Loved show's TMDB list alone is noisy: it brought Tell Me Lies and Disclaimer.
@@ -272,6 +272,38 @@ attribute. Jenny's profile has none of them.
 | Built on today's ranking with Loved votes at 0.10 | 9 of 11 | Paradise, Lioness, Shooter and Condor joined; The Night Agent and The Americans rose |
 
 The keyword-closeness code was removed. MINDHUNTER and Mare of Easttown, at the bottom of the old row, now fall just outside the 60 titles. Titles Ste wants to keep for sure belong on his watchlist.
+
+## Films from the Loved list (Ste, since 27 October 2026)
+
+Ste's film row had none of the films he named as liked: war films, action
+films such as Nobody and Top Gun: Maverick, and Django Unchained, The Martian
+and The Odyssey. The crime, thriller or mystery rule kept them all out. Each
+change below is a `SteProfile` attribute; Jenny's profile has none of them.
+
+- **Core genres** (`film_required_genres`): crime, thriller, mystery, action or war (80, 53, 9648, 28, 10752). Horror, fantasy, science fiction, animation and family stay excluded from the core.
+- **Loved seeds and votes** (`loved_seed_kinds`): Loved films seed and vote for films exactly as Loved shows do for series.
+- **One vote with 80% critics** (`rt_single_vote_kinds`, `rt_single_vote_minimum` 80): a film that only Loved seeds found may stay with one Loved vote when its critics score (Tomatometer, or Metacritic when Rotten Tomatoes has none) is 80% or more. Without a score it stays out. Without MDBList the two-vote rule stands.
+- **Acclaimed other genres** (`acclaimed_kinds`, `acclaimed_excluded_genres` 16/10751/27, `acclaimed_minimum` 80, `acclaimed_candidates` 40):
+  - **The rule:** a film of any other genre, except animation, family or horror, joins only when both its Tomatometer and Popcornmeter are 80% or more.
+  - **Its pool:** films from the history and Loved seeds and Trakt related, plus the profile discovery queries rerun with only those three genres excluded. The core queries exclude science fiction and fantasy at TMDB.
+  - **Its own budget:** the best 40 by profile score are enriched and looked up separately, so they never take a core film's enrichment or lookup place.
+  - **Fair scaling:** core films' profile scores are scaled as if the acclaimed films were not there.
+  - **Diagnostics:** `acclaimed`.
+
+**How this was chosen (27 October 2026).** Each version was checked against Ste's live data, 21 films he named, the 11 crime classics in the old row and 12 titles he would not want. The final check made no MDBList lookups: it used the kept answers and scores fetched earlier that day.
+
+| Version | Named films in the row | Crime classics | Unwanted |
+| --- | --- | --- | --- |
+| Before (crime, thriller, mystery) | 0 of 21 | 11 of 11 | 0 |
+| No genre rules | 16 of 21 | 6 of 11 | 5 |
+| No genre rules, both scores at 70% or more | 17 of 21 | 5 of 11 | 5 |
+| Action and war added, 80% single-vote rule | 15 of 21 | 11 of 11 | 1 |
+| Same, plus acclaimed other genres (live) | 16 of 21 | 11 of 11 | 3 |
+
+Without genre rules, crime classics such as Zodiac and No Country for Old Men
+were crowded out of enrichment. A 70% floor on both scores removed favourites
+such as Wrath of Man (68% critics, 90% audience), and every film never looked
+up. Both were rejected.
 
 ## Rotten Tomatoes (Ste, since 27 October 2026)
 

@@ -93,7 +93,7 @@ client ID: about 30 related lists and 120 or more score reads an hour.
 `tomatoes` (Tomatometer) and `popcorn` (Popcornmeter). Metacritic stands in for
 a missing Tomatometer and IMDb for a missing Popcornmeter; both are 0-100 in
 MDBList.
-- **Free tier:** 1,000 lookups a day. A refresh needs about 150, for the 90 best candidates of each row.
+- **Free tier:** 1,000 lookups a day, reset at 00:00 UTC. A first refresh needs about 150, for the 90 best candidates of each row; Ste's films add their single-vote and acclaimed candidates (about 70 more). Previews share the allowance: a day of previews used it all on 27 October 2026, so a preview can instead run with no MDBList lookups, from kept answers only.
 - **Cache:** answers, missing ones included, are cached for 7 days. The refresh workflow keeps the cache between runs with `actions/cache` v6 (`.mdblist-cache/answers.json`, never committed), so only new titles need a lookup.
 - **Failures:** they go to MDBList's own failure log, so they never fail a refresh. A title keeps its last known scores, or has none.
 - **Run notice:** ends with "rotten tomatoes" and the lookup outcomes: found and missing by provider, cached, stale (a failure answered from the cache), failed, and any errors.

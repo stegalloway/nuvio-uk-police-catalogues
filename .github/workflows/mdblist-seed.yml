@@ -1,0 +1,52 @@
+name: Seed Rotten Tomatoes answers (one-off)
+
+# One-off, 27 October 2026: MDBList's daily allowance was spent on previews,
+# so the films change went live with the scores MDBList gave earlier that day.
+# They are dated to expire at the next reset (00:00 UTC), when the refresh
+# looks every one of them up afresh. Remove this workflow after that.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# The refresh's group: the seed never overlaps a refresh saving the cache.
+concurrency:
+  group: uk-police-catalogue-refresh
+  cancel-in-progress: false
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Restore the Rotten Tomatoes answers kept between runs
+        uses: actions/cache/restore@v6
+        with:
+          path: .mdblist-cache
+          key: mdblist-seed-${{ github.run_id }}
+          restore-keys: mdblist-
+      - name: Add the earlier answers the cache lacks
+        run: |
+          git fetch --depth=1 origin preview/films
+          git show FETCH_HEAD:preview/seed-cache.json > "$RUNNER_TEMP/seed.json"
+          mkdir -p .mdblist-cache
+          python - "$RUNNER_TEMP/seed.json" <<'EOF'
+          import json, sys
+          from pathlib import Path
+          path = Path(".mdblist-cache/answers.json")
+          cache = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+          seed = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
+          added = {key: entry for key, entry in seed.items() if key not in cache}
+          cache.update(added)
+          path.write_text(json.dumps(cache), encoding="utf-8")
+          print(f"kept {len(cache) - len(added)}, added {len(added)} of {len(seed)} seeded answers")
+          EOF
+      - name: Keep the seeded answers for the next refresh
+        uses: actions/cache/save@v6
+        with:
+          path: .mdblist-cache
+          key: mdblist-seed-${{ github.run_id }}
