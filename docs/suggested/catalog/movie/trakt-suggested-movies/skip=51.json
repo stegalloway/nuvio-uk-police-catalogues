@@ -1,19 +1,140 @@
 {
   "metas": [
     {
-      "id": "tt4190530",
+      "id": "tt0452623",
       "type": "movie",
-      "name": "Anthropoid",
-      "poster": "https://image.tmdb.org/t/p/w500/5hUghRVVkBYufftfNQkGevY5AmE.jpg",
+      "name": "Gone Baby Gone",
+      "poster": "https://image.tmdb.org/t/p/w500/w98tAPUjNPxGAMCipNDWDt8PJo.jpg",
       "posterShape": "poster",
-      "description": "In December 1941, Czech soldiers Jozef Gabčík and Jan Kubiš parachute into their occupied homeland to assassinate Nazi officer Reinhard Heydrich.",
+      "description": "When 4 year old Amanda McCready disappears from her home and the police make little headway in solving the case, the girl's aunt, Beatrice McCready hires two private detectives, Patrick Kenzie and Angie Gennaro. The detectives freely admit that they have little experience with this type of case, but the family wants them for two reasons—they're not cops and they know the tough neighborhood in which they all live.",
       "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0452623"
+    },
+    {
+      "id": "tt22084616",
+      "type": "movie",
+      "name": "Spider-Man: Brand New Day",
+      "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "posterShape": "poster",
+      "description": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt22084616"
+    },
+    {
+      "id": "tt6334354",
+      "type": "movie",
+      "name": "The Suicide Squad",
+      "poster": "https://image.tmdb.org/t/p/w500/q61qEyssk2ku3okWICKArlAdhBn.jpg",
+      "posterShape": "poster",
+      "description": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Adventure"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt6334354"
+    },
+    {
+      "id": "tt6320628",
+      "type": "movie",
+      "name": "Spider-Man: Far From Home",
+      "poster": "https://image.tmdb.org/t/p/w500/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+      "posterShape": "poster",
+      "description": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt6320628"
+    },
+    {
+      "id": "tt4572514",
+      "type": "movie",
+      "name": "Patriots Day",
+      "poster": "https://image.tmdb.org/t/p/w500/mIDxsJTrOC7NhgOo3GziiHyKfsQ.jpg",
+      "posterShape": "poster",
+      "description": "In the aftermath of an unspeakable act of terror, Police Sergeant Tommy Saunders joins courageous survivors, first responders and investigators in a race against the clock to hunt down the Boston Marathon bombers before they strike again.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
         "History",
-        "Thriller",
-        "War"
+        "Thriller"
       ],
       "releaseInfo": "2016",
-      "imdb_id": "tt4190530"
+      "imdb_id": "tt4572514"
+    },
+    {
+      "id": "tt1130884",
+      "type": "movie",
+      "name": "Shutter Island",
+      "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+      "posterShape": "poster",
+      "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1130884"
+    },
+    {
+      "id": "tt1638355",
+      "type": "movie",
+      "name": "The Man from U.N.C.L.E.",
+      "poster": "https://image.tmdb.org/t/p/w500/y5yZaForGSJbPD66Cvq9AT5WMAD.jpg",
+      "posterShape": "poster",
+      "description": "At the height of the Cold War, a mysterious criminal organization plans to use nuclear weapons and technology to upset the fragile balance of power between the United States and Soviet Union. CIA agent Napoleon Solo and KGB agent Illya Kuryakin are forced to put aside their hostilities and work together to stop the evildoers in their tracks. The duo's only lead is the daughter of a missing German scientist, whom they must find soon to prevent a global catastrophe.",
+      "genres": [
+        "Comedy",
+        "Action",
+        "Adventure"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt1638355"
+    },
+    {
+      "id": "tt8368512",
+      "type": "movie",
+      "name": "The Courier",
+      "poster": "https://image.tmdb.org/t/p/w500/zFIjKtZrzhmc7HecdFXXjsLR2Ig.jpg",
+      "posterShape": "poster",
+      "description": "Cold War spy Greville Wynne and his Russian source try to put an end to the Cuban Missile Crisis.",
+      "genres": [
+        "Thriller",
+        "History",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt8368512"
+    },
+    {
+      "id": "tt31450182",
+      "type": "movie",
+      "name": "Amber Alert",
+      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
+      "posterShape": "poster",
+      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt31450182"
     }
   ]
 }
