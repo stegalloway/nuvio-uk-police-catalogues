@@ -1,63 +1,67 @@
 {
   "metas": [
     {
-      "id": "tt0985699",
+      "id": "tt0373469",
       "type": "movie",
-      "name": "Valkyrie",
-      "poster": "https://image.tmdb.org/t/p/w500/8eoRtXswC8IQDsqW7iJWO56NhAv.jpg",
+      "name": "Kiss Kiss Bang Bang",
+      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
       "posterShape": "poster",
-      "description": "Wounded in Africa during World War II, Nazi Col. Claus von Stauffenberg returns to his native Germany and joins the Resistance in a daring plan to create a shadow government and assassinate Adolf Hitler. When events unfold so that he becomes a central player, he finds himself tasked with both leading the coup and personally killing the Führer.",
+      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
       "genres": [
-        "Drama",
-        "Thriller",
-        "War"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0985699"
-    },
-    {
-      "id": "tt2582802",
-      "type": "movie",
-      "name": "Whiplash",
-      "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
-      "posterShape": "poster",
-      "description": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
-      "genres": [
-        "Drama",
-        "Music",
+        "Comedy",
+        "Crime",
+        "Mystery",
         "Thriller"
       ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2582802"
+      "releaseInfo": "2005",
+      "imdb_id": "tt0373469"
     },
     {
-      "id": "tt1250777",
+      "id": "tt15398776",
       "type": "movie",
-      "name": "Kick-Ass",
-      "poster": "https://image.tmdb.org/t/p/w500/iHMbrTHJwocsNvo5murCBw0CwTo.jpg",
+      "name": "Oppenheimer",
+      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
       "posterShape": "poster",
-      "description": "Dave Lizewski is an unnoticed high school student and comic book fan who one day decides to become a super-hero, even though he has no powers, training or meaningful reason to do so.",
+      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
       "genres": [
-        "Action",
-        "Crime"
+        "Drama",
+        "History",
+        "War"
       ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1250777"
+      "releaseInfo": "2023",
+      "imdb_id": "tt15398776"
     },
     {
-      "id": "tt0265086",
+      "id": "tt3501632",
       "type": "movie",
-      "name": "Black Hawk Down",
-      "poster": "https://image.tmdb.org/t/p/w500/7fU5dSqKRL4XHeEUz62rCKBfYok.jpg",
+      "name": "Thor: Ragnarok",
+      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
       "posterShape": "poster",
-      "description": "When U.S. Rangers and an elite Delta Force team attempt to kidnap two underlings of a Somali warlord, their Black Hawk helicopters are shot down, and the Americans suffer heavy casualties, facing intense fighting from the militia on the ground.",
+      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
       "genres": [
         "Action",
-        "War",
-        "History"
+        "Adventure",
+        "Comedy",
+        "Science Fiction"
       ],
-      "releaseInfo": "2001",
-      "imdb_id": "tt0265086"
+      "releaseInfo": "2017",
+      "imdb_id": "tt3501632"
+    },
+    {
+      "id": "tt14114802",
+      "type": "movie",
+      "name": "The Outfit",
+      "poster": "https://image.tmdb.org/t/p/w500/lZa5EB6PVJBT5mxhgZS5ftqdAm6.jpg",
+      "posterShape": "poster",
+      "description": "Leonard is an English tailor who used to craft suits on London’s world-famous Savile Row. After a personal tragedy, he’s ended up in Chicago, operating a small tailor shop in a rough part of town where he makes beautiful clothes for the only people around who can afford them: a family of vicious gangsters.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14114802"
     },
     {
       "id": "tt0765443",
@@ -75,6 +79,95 @@
       "imdb_id": "tt0765443"
     },
     {
+      "id": "tt20215234",
+      "type": "movie",
+      "name": "Conclave",
+      "poster": "https://image.tmdb.org/t/p/w500/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg",
+      "posterShape": "poster",
+      "description": "After the unexpected death of the Pope, Cardinal Lawrence is tasked with managing the covert and ancient ritual of electing a new one. Sequestered in the Vatican with the Catholic Church’s most powerful leaders until the process is complete, Lawrence finds himself at the center of a conspiracy that could lead to its downfall.",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt20215234"
+    },
+    {
+      "id": "tt8946378",
+      "type": "movie",
+      "name": "Knives Out",
+      "poster": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
+      "posterShape": "poster",
+      "description": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt8946378"
+    },
+    {
+      "id": "tt0765010",
+      "type": "movie",
+      "name": "Brothers",
+      "poster": "https://image.tmdb.org/t/p/w500/skHqceAFYee0JZuYd9MVk2IQggi.jpg",
+      "posterShape": "poster",
+      "description": "When his helicopter goes down during his fourth tour of duty in Afghanistan, Marine Sam Cahill is presumed dead. Back home, brother Tommy steps in to look over Sam’s wife, Grace, and two children. Sam’s surprise homecoming triggers domestic mayhem.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "releaseInfo": "2009",
+      "imdb_id": "tt0765010"
+    },
+    {
+      "id": "tt2802144",
+      "type": "movie",
+      "name": "Kingsman: The Secret Service",
+      "poster": "https://image.tmdb.org/t/p/w500/r6q9wZK5a2K51KFj4LWVID6Ja1r.jpg",
+      "posterShape": "poster",
+      "description": "The story of a super-secret spy organization that recruits an unrefined but promising street kid into the agency's ultra-competitive training program just as a global threat emerges from a twisted tech genius.",
+      "genres": [
+        "Crime",
+        "Comedy",
+        "Action"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt2802144"
+    },
+    {
+      "id": "tt3922798",
+      "type": "movie",
+      "name": "The Siege of Jadotville",
+      "poster": "https://image.tmdb.org/t/p/w500/adrno1y0mKpMwjSlMQojZEUk82V.jpg",
+      "posterShape": "poster",
+      "description": "Irish Commandant Pat Quinlan leads a stand off with troops against French and Belgian Mercenaries in the Congo during the early 1960s.",
+      "genres": [
+        "War",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt3922798"
+    },
+    {
+      "id": "tt8368512",
+      "type": "movie",
+      "name": "The Courier",
+      "poster": "https://image.tmdb.org/t/p/w500/zFIjKtZrzhmc7HecdFXXjsLR2Ig.jpg",
+      "posterShape": "poster",
+      "description": "Cold War spy Greville Wynne and his Russian source try to put an end to the Cuban Missile Crisis.",
+      "genres": [
+        "Thriller",
+        "History",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt8368512"
+    },
+    {
       "id": "tt32550101",
       "type": "movie",
       "name": "STRAW",
@@ -90,35 +183,19 @@
       "imdb_id": "tt32550101"
     },
     {
-      "id": "tt0373469",
+      "id": "tt1074638",
       "type": "movie",
-      "name": "Kiss Kiss Bang Bang",
-      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
+      "name": "Skyfall",
+      "poster": "https://image.tmdb.org/t/p/w500/d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg",
       "posterShape": "poster",
-      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
+      "description": "When Bond's latest assignment goes gravely wrong, agents around the world are exposed and MI6 headquarters is attacked. While M faces challenges to her authority and position from Gareth Mallory, the new Chairman of the Intelligence and Security Committee, it's up to Bond, aided only by field agent Eve, to locate the mastermind behind the attack.",
       "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery",
+        "Action",
+        "Adventure",
         "Thriller"
       ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0373469"
-    },
-    {
-      "id": "tt1212450",
-      "type": "movie",
-      "name": "Lawless",
-      "poster": "https://image.tmdb.org/t/p/w500/Ahtzwts22ayviD3LEVslfL4nRWB.jpg",
-      "posterShape": "poster",
-      "description": "In 1931, the Bondurant brothers of Franklin County, Virginia, run a multipurpose backwoods establishment that hides their true business — bootlegging. Middle brother Forrest is the brain of the operation; older Howard is the brawn, and younger Jack, the lookout. Though the local police have taken bribes and left the brothers alone, a violent war erupts when a sadistic lawman from Chicago arrives and tries to shut down the Bondurants operation.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Western"
-      ],
       "releaseInfo": "2012",
-      "imdb_id": "tt1212450"
+      "imdb_id": "tt1074638"
     },
     {
       "id": "tt14364480",
@@ -150,92 +227,34 @@
       "imdb_id": "tt31450182"
     },
     {
-      "id": "tt0765010",
+      "id": "tt5463162",
       "type": "movie",
-      "name": "Brothers",
-      "poster": "https://image.tmdb.org/t/p/w500/skHqceAFYee0JZuYd9MVk2IQggi.jpg",
+      "name": "Deadpool 2",
+      "poster": "https://image.tmdb.org/t/p/w500/gyfPKfFYcVW54MoqhYlwwDDIfJR.jpg",
       "posterShape": "poster",
-      "description": "When his helicopter goes down during his fourth tour of duty in Afghanistan, Marine Sam Cahill is presumed dead. Back home, brother Tommy steps in to look over Sam’s wife, Grace, and two children. Sam’s surprise homecoming triggers domestic mayhem.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "War"
-      ],
-      "releaseInfo": "2009",
-      "imdb_id": "tt0765010"
-    },
-    {
-      "id": "tt15398776",
-      "type": "movie",
-      "name": "Oppenheimer",
-      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
-      "posterShape": "poster",
-      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
-      "genres": [
-        "Drama",
-        "History",
-        "War"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15398776"
-    },
-    {
-      "id": "tt8368512",
-      "type": "movie",
-      "name": "The Courier",
-      "poster": "https://image.tmdb.org/t/p/w500/zFIjKtZrzhmc7HecdFXXjsLR2Ig.jpg",
-      "posterShape": "poster",
-      "description": "Cold War spy Greville Wynne and his Russian source try to put an end to the Cuban Missile Crisis.",
-      "genres": [
-        "Thriller",
-        "History",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt8368512"
-    },
-    {
-      "id": "tt5390504",
-      "type": "movie",
-      "name": "Detroit",
-      "poster": "https://image.tmdb.org/t/p/w500/r0ldqSFASpqSM5xTrpcZGO6Ef2G.jpg",
-      "posterShape": "poster",
-      "description": "A police raid in Detroit in 1967 results in one of the largest citizens' uprisings in the history of the United States.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "History"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt5390504"
-    },
-    {
-      "id": "tt15574124",
-      "type": "movie",
-      "name": "Peaky Blinders: The Immortal Man",
-      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
-      "posterShape": "poster",
-      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt15574124"
-    },
-    {
-      "id": "tt28014327",
-      "type": "movie",
-      "name": "Mayday",
-      "poster": "https://image.tmdb.org/t/p/w500/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg",
-      "posterShape": "poster",
-      "description": "When a U.S. Navy pilot on a top-secret mission during the Cold War gets trapped behind enemy lines, his only chance at survival is to form an alliance with an eccentric ex-KGB agent.",
+      "description": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.",
       "genres": [
         "Action",
-        "Comedy"
+        "Comedy",
+        "Adventure"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt28014327"
+      "releaseInfo": "2018",
+      "imdb_id": "tt5463162"
+    },
+    {
+      "id": "tt0783640",
+      "type": "movie",
+      "name": "The Last Full Measure",
+      "poster": "https://image.tmdb.org/t/p/w500/bMG8c80lyEkBXVgyHVqsdQhjgf6.jpg",
+      "posterShape": "poster",
+      "description": "The incredible true story of Vietnam War hero William H. Pitsenbarger, a U.S. Air Force Pararescuemen medic who personally saved over sixty men. Thirty-two years later, Pentagon staffer Scott Huffman investigates a Congressional Medal of Honor request for Pitsenbarger and uncovers a high-level conspiracy behind the decades-long denial of the medal, prompting Huffman to put his own career on the line to seek justice for the fallen airman.",
+      "genres": [
+        "Drama",
+        "Action",
+        "War"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt0783640"
     },
     {
       "id": "tt0144084",
@@ -253,50 +272,33 @@
       "imdb_id": "tt0144084"
     },
     {
-      "id": "tt4154756",
+      "id": "tt15574124",
       "type": "movie",
-      "name": "Avengers: Infinity War",
-      "poster": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "name": "Peaky Blinders: The Immortal Man",
+      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
       "posterShape": "poster",
-      "description": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
       "genres": [
-        "Adventure",
-        "Action",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt4154756"
-    },
-    {
-      "id": "tt22084616",
-      "type": "movie",
-      "name": "Spider-Man: Brand New Day",
-      "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-      "posterShape": "poster",
-      "description": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
-      "genres": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
+        "Crime",
+        "Drama"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt22084616"
+      "imdb_id": "tt15574124"
     },
     {
-      "id": "tt3501632",
+      "id": "tt0425112",
       "type": "movie",
-      "name": "Thor: Ragnarok",
-      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "name": "Hot Fuzz",
+      "poster": "https://image.tmdb.org/t/p/w500/zPib4ukTSdXvHP9pxGkFCe34f3y.jpg",
       "posterShape": "poster",
-      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "description": "Former London constable Nicholas Angel finds it difficult to adapt to his new assignment in the sleepy British village of Sandford. Not only does he miss the excitement of the big city, but he also has a well-meaning oaf for a partner. However, when a series of grisly accidents rocks Sandford, Angel smells something rotten in the idyllic village.",
       "genres": [
+        "Crime",
         "Action",
-        "Adventure",
-        "Comedy",
-        "Science Fiction"
+        "Comedy"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt3501632"
+      "releaseInfo": "2007",
+      "imdb_id": "tt0425112"
     }
   ]
 }

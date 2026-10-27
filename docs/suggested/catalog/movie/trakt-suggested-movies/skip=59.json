@@ -1,20 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt3501632",
+      "id": "tt0425112",
       "type": "movie",
-      "name": "Thor: Ragnarok",
-      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "name": "Hot Fuzz",
+      "poster": "https://image.tmdb.org/t/p/w500/zPib4ukTSdXvHP9pxGkFCe34f3y.jpg",
       "posterShape": "poster",
-      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "description": "Former London constable Nicholas Angel finds it difficult to adapt to his new assignment in the sleepy British village of Sandford. Not only does he miss the excitement of the big city, but he also has a well-meaning oaf for a partner. However, when a series of grisly accidents rocks Sandford, Angel smells something rotten in the idyllic village.",
       "genres": [
+        "Crime",
         "Action",
-        "Adventure",
-        "Comedy",
-        "Science Fiction"
+        "Comedy"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt3501632"
+      "releaseInfo": "2007",
+      "imdb_id": "tt0425112"
     }
   ]
 }
