@@ -15,6 +15,20 @@
       "imdb_id": "tt11110622"
     },
     {
+      "id": "tt35707374",
+      "type": "series",
+      "name": "Memory of a Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/3kpXrWW6gmlngwgSa52IhBpjPuz.jpg",
+      "posterShape": "poster",
+      "description": "Angelo Doyle lives two totally separate lives — fearsome NYC hitman and sleepy upstate Cooperstown photocopier salesman and father. Both of them are threatened when he is diagnosed with Alzheimer's, a disease he already lost his older brother to.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35707374"
+    },
+    {
       "id": "tt4276618",
       "type": "series",
       "name": "Strike",
@@ -28,20 +42,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt4276618"
-    },
-    {
-      "id": "tt35707374",
-      "type": "series",
-      "name": "Memory of a Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/3kpXrWW6gmlngwgSa52IhBpjPuz.jpg",
-      "posterShape": "poster",
-      "description": "Angelo Doyle lives two totally separate lives — fearsome NYC hitman and sleepy upstate Cooperstown photocopier salesman and father. Both of them are threatened when he is diagnosed with Alzheimer's, a disease he already lost his older brother to.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35707374"
     },
     {
       "id": "tt11816814",
@@ -73,33 +73,18 @@
       "imdb_id": "tt36849871"
     },
     {
-      "id": "tt14582876",
+      "id": "tt31314754",
       "type": "series",
-      "name": "On Call",
-      "poster": "https://image.tmdb.org/t/p/w500/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
+      "name": "Devil in Disguise: John Wayne Gacy",
+      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
       "posterShape": "poster",
-      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt14582876"
-    },
-    {
-      "id": "tt14263564",
-      "type": "series",
-      "name": "Justified: City Primeval",
-      "poster": "https://image.tmdb.org/t/p/w500/uTp9cMxFMCk5b7alKb2m5wHaGxb.jpg",
-      "posterShape": "poster",
-      "description": "Having left the hollers of Kentucky 15 years ago, Raylan Givens is now based in Miami, balancing life as a marshal and part-time father of a 15-year-old girl. A chance encounter on a Florida highway sends him to Detroit and he crosses paths with Clement Mansell, aka The Oklahoma Wildman, a violent sociopath who’s already slipped through the fingers of Detroit’s finest once and wants to do so again.",
+      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14263564"
+      "releaseInfo": "2025",
+      "imdb_id": "tt31314754"
     },
     {
       "id": "tt36022742",
@@ -117,18 +102,18 @@
       "imdb_id": "tt36022742"
     },
     {
-      "id": "tt31314754",
+      "id": "tt14263564",
       "type": "series",
-      "name": "Devil in Disguise: John Wayne Gacy",
-      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
+      "name": "Justified: City Primeval",
+      "poster": "https://image.tmdb.org/t/p/w500/uTp9cMxFMCk5b7alKb2m5wHaGxb.jpg",
       "posterShape": "poster",
-      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
+      "description": "Having left the hollers of Kentucky 15 years ago, Raylan Givens is now based in Miami, balancing life as a marshal and part-time father of a 15-year-old girl. A chance encounter on a Florida highway sends him to Detroit and he crosses paths with Clement Mansell, aka The Oklahoma Wildman, a violent sociopath who’s already slipped through the fingers of Detroit’s finest once and wants to do so again.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31314754"
+      "releaseInfo": "2023",
+      "imdb_id": "tt14263564"
     },
     {
       "id": "tt30459041",
@@ -145,32 +130,19 @@
       "imdb_id": "tt30459041"
     },
     {
-      "id": "tt27954448",
+      "id": "tt14582876",
       "type": "series",
-      "name": "Law & Order Toronto: Criminal Intent",
-      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+      "name": "On Call",
+      "poster": "https://image.tmdb.org/t/p/w500/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
       "posterShape": "poster",
-      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
+      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
       "genres": [
         "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt27954448"
-    },
-    {
-      "id": "tt22175166",
-      "type": "series",
-      "name": "The Walk-In",
-      "poster": "https://image.tmdb.org/t/p/w500/67lqoQrhvby2iNfNQnFGZgXemfB.jpg",
-      "posterShape": "poster",
-      "description": "Forced to flee the UK and go into hiding in the 1990s, when he became a mole from within the BNP, Matthew Collins returned to Britain to make a new life for himself,  working with young white men in the fight against radicalisation.",
-      "genres": [
         "Drama",
-        "Crime"
+        "Action & Adventure"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt22175166"
+      "releaseInfo": "2025",
+      "imdb_id": "tt14582876"
     },
     {
       "id": "tt26862142",
@@ -187,6 +159,20 @@
       "imdb_id": "tt26862142"
     },
     {
+      "id": "tt22175166",
+      "type": "series",
+      "name": "The Walk-In",
+      "poster": "https://image.tmdb.org/t/p/w500/67lqoQrhvby2iNfNQnFGZgXemfB.jpg",
+      "posterShape": "poster",
+      "description": "Forced to flee the UK and go into hiding in the 1990s, when he became a mole from within the BNP, Matthew Collins returned to Britain to make a new life for himself,  working with young white men in the fight against radicalisation.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt22175166"
+    },
+    {
       "id": "tt14063678",
       "type": "series",
       "name": "The Gold",
@@ -199,6 +185,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt14063678"
+    },
+    {
+      "id": "tt27954448",
+      "type": "series",
+      "name": "Law & Order Toronto: Criminal Intent",
+      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+      "posterShape": "poster",
+      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt27954448"
     },
     {
       "id": "tt33035373",
@@ -275,18 +275,18 @@
       "imdb_id": "tt31314751"
     },
     {
-      "id": "tt35934755",
+      "id": "tt1652216",
       "type": "series",
-      "name": "Below",
-      "poster": "https://image.tmdb.org/t/p/w500/vgLqqhMUbljp585qPp1EFCyJtcz.jpg",
+      "name": "DCI Banks",
+      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
       "posterShape": "poster",
-      "description": "When a mysterious sea creature terrorizes a small Newfoundland town, a hard-bitten fisherman and his family fight to protect their close-knit community.",
+      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
       "genres": [
-        "Drama",
-        "Mystery"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35934755"
+      "releaseInfo": "2011",
+      "imdb_id": "tt1652216"
     }
   ]
 }

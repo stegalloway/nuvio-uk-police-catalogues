@@ -29,32 +29,19 @@
       "imdb_id": "tt6271042"
     },
     {
-      "id": "tt13138834",
+      "id": "tt7661390",
       "type": "series",
-      "name": "Time",
-      "poster": "https://image.tmdb.org/t/p/w500/mhi7oohUBIufTjF9u41uMXYHsw2.jpg",
+      "name": "Gangs of London",
+      "poster": "https://image.tmdb.org/t/p/w500/fVgwa6wGw9ddGM5O7mqrrwB6gHK.jpg",
       "posterShape": "poster",
-      "description": "Season 3 has started.\n\nGuilt, violence and impossible choices – what does it take to survive? Tense, gritty and heartbreaking – Jimmy McGovern's award-winning prison drama, with an all-star cast.",
+      "description": "Season 3 has started.\n\nWhen the head of a criminal organisation, Finn Wallace is assassinated, the sudden power vacuum his death creates threatens the fragile peace between the intricate web of gangs operating on the streets of the city. Now it’s up to the grieving, volatile and impulsive Sean Wallace to restore control and find those responsible for killing his father.",
       "genres": [
+        "Action & Adventure",
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt13138834"
-    },
-    {
-      "id": "tt15435876",
-      "type": "series",
-      "name": "The Penguin",
-      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
-      "posterShape": "poster",
-      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15435876"
+      "releaseInfo": "2020",
+      "imdb_id": "tt7661390"
     },
     {
       "id": "tt15837600",
@@ -71,6 +58,20 @@
       "imdb_id": "tt15837600"
     },
     {
+      "id": "tt15435876",
+      "type": "series",
+      "name": "The Penguin",
+      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
+      "posterShape": "poster",
+      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15435876"
+    },
+    {
       "id": "tt15568702",
       "type": "series",
       "name": "Litvinenko",
@@ -85,19 +86,18 @@
       "imdb_id": "tt15568702"
     },
     {
-      "id": "tt7661390",
+      "id": "tt13138834",
       "type": "series",
-      "name": "Gangs of London",
-      "poster": "https://image.tmdb.org/t/p/w500/fVgwa6wGw9ddGM5O7mqrrwB6gHK.jpg",
+      "name": "Time",
+      "poster": "https://image.tmdb.org/t/p/w500/mhi7oohUBIufTjF9u41uMXYHsw2.jpg",
       "posterShape": "poster",
-      "description": "Season 3 has started.\n\nWhen the head of a criminal organisation, Finn Wallace is assassinated, the sudden power vacuum his death creates threatens the fragile peace between the intricate web of gangs operating on the streets of the city. Now it’s up to the grieving, volatile and impulsive Sean Wallace to restore control and find those responsible for killing his father.",
+      "description": "Season 3 has started.\n\nGuilt, violence and impossible choices – what does it take to survive? Tense, gritty and heartbreaking – Jimmy McGovern's award-winning prison drama, with an all-star cast.",
       "genres": [
-        "Action & Adventure",
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt7661390"
+      "releaseInfo": "2021",
+      "imdb_id": "tt13138834"
     },
     {
       "id": "tt30460310",
@@ -241,18 +241,18 @@
       "imdb_id": "tt5715524"
     },
     {
-      "id": "tt1064899",
+      "id": "tt8080122",
       "type": "series",
-      "name": "Queen of the South",
-      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
+      "name": "Godfather of Harlem",
+      "poster": "https://image.tmdb.org/t/p/w500/avhyzJycLNi3nXov2lREhDkP3ik.jpg",
       "posterShape": "poster",
-      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
+      "description": "Loosely based on infamous crime boss Bumpy Johnson, who in the early 1960s returned from ten years in prison to find the neighborhood he once ruled in shambles. With the streets controlled by the Italian mob, Bumpy attempts to regain his piece of Harlem.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt1064899"
+      "releaseInfo": "2019",
+      "imdb_id": "tt8080122"
     },
     {
       "id": "tt35515227",
@@ -269,18 +269,18 @@
       "imdb_id": "tt35515227"
     },
     {
-      "id": "tt8080122",
+      "id": "tt1064899",
       "type": "series",
-      "name": "Godfather of Harlem",
-      "poster": "https://image.tmdb.org/t/p/w500/avhyzJycLNi3nXov2lREhDkP3ik.jpg",
+      "name": "Queen of the South",
+      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
       "posterShape": "poster",
-      "description": "Loosely based on infamous crime boss Bumpy Johnson, who in the early 1960s returned from ten years in prison to find the neighborhood he once ruled in shambles. With the streets controlled by the Italian mob, Bumpy attempts to regain his piece of Harlem.",
+      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8080122"
+      "releaseInfo": "2016",
+      "imdb_id": "tt1064899"
     }
   ]
 }
