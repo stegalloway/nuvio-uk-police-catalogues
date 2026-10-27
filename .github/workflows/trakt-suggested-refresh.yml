@@ -42,6 +42,16 @@ jobs:
           path: .mdblist-cache
           key: mdblist-${{ github.run_id }}
           restore-keys: mdblist-
+      # TMDB list answers (recommendations, similar, discover) are kept for 24
+      # hours: TMDB serves different versions from different CloudFront
+      # locations, so fresh lists made titles come and go between runs.
+      # Details are fetched fresh every run.
+      - name: Restore the TMDB list answers kept between runs
+        uses: actions/cache/restore@v6
+        with:
+          path: .tmdb-list-cache
+          key: tmdb-lists-${{ github.run_id }}
+          restore-keys: tmdb-lists-
       - name: Generate both rows from fresh Trakt history
         env:
           TRAKT_USERNAME: ${{ secrets.TRAKT_USERNAME || vars.TRAKT_USERNAME }}
@@ -50,14 +60,20 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           MDBLIST_API_KEY: ${{ secrets.MDBLIST_API_KEY }}
         run: |
-          mkdir -p .mdblist-cache
-          python -m trakt_suggested_runtime --cache-dir "$RUNNER_TEMP/trakt-suggested-tmdb" --timeout-minutes 25 --mdblist-cache .mdblist-cache/answers.json
+          mkdir -p .mdblist-cache .tmdb-list-cache
+          python -m trakt_suggested_runtime --cache-dir "$RUNNER_TEMP/trakt-suggested-tmdb" --timeout-minutes 25 --mdblist-cache .mdblist-cache/answers.json --tmdb-list-cache .tmdb-list-cache
       - name: Keep the Rotten Tomatoes answers for the next run
         if: always() && hashFiles('.mdblist-cache/answers.json') != ''
         uses: actions/cache/save@v6
         with:
           path: .mdblist-cache
           key: mdblist-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Keep the TMDB list answers for the next run
+        if: always() && hashFiles('.tmdb-list-cache/*.json') != ''
+        uses: actions/cache/save@v6
+        with:
+          path: .tmdb-list-cache
+          key: tmdb-lists-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Validate every published route
         run: python -m trakt_suggested_runtime --validate-only
       - name: Commit only final suggested catalogue metadata

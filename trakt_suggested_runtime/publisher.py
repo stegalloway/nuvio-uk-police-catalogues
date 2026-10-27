@@ -204,15 +204,35 @@ def atomic_json(path: Path, payload: Any) -> None:
 
 
 class TmdbClient:
-    """Optional private disk cache compatible with the comparison preview cache."""
+    """Optional private disk cache compatible with the comparison preview cache.
 
-    def __init__(self, http: JsonHttpClient, cache_dir: Path | None = None, ttl_hours: float = 12) -> None:
+    List answers (recommendations, similar, discover) can also be kept in
+    list_cache_dir for list_ttl_hours across runs. TMDB serves different
+    versions of the same list from different CloudFront locations, and each
+    hourly run lands on a different one, so a title found by one list came and
+    went between runs (27 October 2026). Details are never kept there, so
+    episode dates stay fresh.
+    """
+
+    LIST_PATH = re.compile(r"/(?:tv|movie)/[0-9]+/(?:recommendations|similar)|/discover/(?:tv|movie)")
+
+    def __init__(self, http: JsonHttpClient, cache_dir: Path | None = None, ttl_hours: float = 12,
+                 list_cache_dir: Path | None = None, list_ttl_hours: float = 24) -> None:
         self.http = http
         self.cache_dir = cache_dir
         self.ttl = timedelta(hours=ttl_hours)
+        self.list_cache_dir = list_cache_dir
+        self.list_ttl = timedelta(hours=list_ttl_hours)
+        self.list_outcomes = {"kept": 0, "fetched": 0}
         self._guard = threading.Lock()
         self._locks: dict[str, threading.Lock] = {}
         self._memory: dict[str, dict] = {}
+
+    def _store(self, path: str) -> tuple[Path | None, timedelta, bool]:
+        """Where an answer is cached, for how long, and whether it is a kept list."""
+        if self.list_cache_dir is not None and self.LIST_PATH.fullmatch(path):
+            return self.list_cache_dir, self.list_ttl, True
+        return self.cache_dir, self.ttl, False
 
     @staticmethod
     def cache_key(path: str, params: Mapping | None = None) -> str:
@@ -221,14 +241,15 @@ class TmdbClient:
         return hashlib.sha256(material.encode()).hexdigest() + ".json"
 
     def _read_cache(self, path: str, params: dict, key: str) -> dict | None:
-        if self.cache_dir is None:
+        directory, ttl, _ = self._store(path)
+        if directory is None:
             return None
         try:
-            cached = json.loads((self.cache_dir / key).read_text(encoding="utf-8-sig"))
+            cached = json.loads((directory / key).read_text(encoding="utf-8-sig"))
             fetched = utc_datetime(cached.get("fetchedAt", ""))
             age = datetime.now(timezone.utc) - fetched if fetched else None
             if (cached.get("path") == path and cached.get("params") == params and
-                    age is not None and timedelta(0) <= age <= self.ttl and
+                    age is not None and timedelta(0) <= age <= ttl and
                     isinstance(cached.get("data"), dict) and cached["data"].get("success") is not False):
                 return cached["data"]
         except (OSError, ValueError, TypeError, AttributeError):
@@ -245,14 +266,18 @@ class TmdbClient:
         with lock:
             if key in self._memory:
                 return self._memory[key]
+            directory, _, kept_list = self._store(path)
             value = self._read_cache(path, query, key)
+            if kept_list:
+                with self._guard:
+                    self.list_outcomes["kept" if value is not None else "fetched"] += 1
             if value is None:
                 value = self.http.get(path, query).data
                 if not isinstance(value, dict):
                     self.http.fail("unexpected_payload_shape")
-                if self.cache_dir is not None:
+                if directory is not None:
                     try:
-                        atomic_json(self.cache_dir / key, {
+                        atomic_json(directory / key, {
                             "path": path, "params": query,
                             "fetchedAt": datetime.now(timezone.utc).isoformat(), "data": value,
                         })
@@ -261,6 +286,22 @@ class TmdbClient:
                         pass
             self._memory[key] = value
             return value
+
+    def prune(self) -> int:
+        """Delete kept list answers past list_ttl_hours, so the kept cache stays small."""
+        removed = 0
+        if self.list_cache_dir is None or not self.list_cache_dir.exists():
+            return removed
+        now = datetime.now(timezone.utc)
+        for path in self.list_cache_dir.glob("*.json"):
+            try:
+                fetched = utc_datetime(json.loads(path.read_text(encoding="utf-8-sig")).get("fetchedAt", ""))
+            except (OSError, ValueError, AttributeError):
+                fetched = None
+            if fetched is None or now - fetched > self.list_ttl:
+                path.unlink(missing_ok=True)
+                removed += 1
+        return removed
 
 
 class TraktClient:
@@ -783,6 +824,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--history-dir", type=Path, help="Explicit private offline snapshot directory; manual runs only")
     parser.add_argument("--private-diagnostics", type=Path, help="Optional local diagnostics, outside the public output")
     parser.add_argument("--timeout-minutes", type=float, default=25)
+    parser.add_argument("--tmdb-list-cache", type=Path,
+                        help="Optional private folder of TMDB list answers kept between runs; never committed")
     parser.add_argument("--mdblist-cache", type=Path,
                         help="Optional private MDBList answer cache, kept between runs; never committed")
     parser.add_argument("--validate-only", action="store_true")
@@ -804,7 +847,8 @@ def main(argv: list[str] | None = None) -> int:
         if not trakt_key or not (tmdb_token or tmdb_key) or (not args.history_dir and not username):
             raise RefreshError("Required API configuration is missing")
         public_root = public_tree_root(args.output)
-        for private_path in (args.cache_dir, args.history_dir, args.private_diagnostics, args.mdblist_cache):
+        for private_path in (args.cache_dir, args.history_dir, args.private_diagnostics, args.mdblist_cache,
+                             args.tmdb_list_cache):
             if private_path and (private_path.resolve() == public_root or
                                  public_root in private_path.resolve().parents):
                 raise RefreshError("Private files cannot be stored in public output")
@@ -816,7 +860,7 @@ def main(argv: list[str] | None = None) -> int:
         tmdb = TmdbClient(JsonHttpClient(
             "https://api.themoviedb.org/3", {"Authorization": "Bearer " + tmdb_token} if tmdb_token else {},
             "tmdb", failures, extra_query={} if tmdb_token else {"api_key": tmdb_key}, deadline=deadline,
-        ), args.cache_dir, args.cache_ttl_hours)
+        ), args.cache_dir, args.cache_ttl_hours, list_cache_dir=args.tmdb_list_cache)
         dismiss_list = os.environ.get("TRAKT_DISMISS_LIST", DEFAULT_DISMISS_LIST).strip()
         # Unset means the engine's default profile ("ste").
         profile = os.environ.get("TRAKT_SUGGESTED_PROFILE", "").strip() or None
@@ -839,6 +883,7 @@ def main(argv: list[str] | None = None) -> int:
         finally:
             if mdblist:
                 mdblist.save()
+            tmdb.prune()
         rotten_tomatoes = ({**dict(sorted(mdblist.outcomes.items())), "errors": rt_failures.labels()}
                            if mdblist else "not used")
         dismissed = histories.get("dismissed")
@@ -849,8 +894,9 @@ def main(argv: list[str] | None = None) -> int:
         loved_count = (len(loved) if isinstance(loved, list) else
                        "no public list named " + loved_list if loved_list and not args.history_dir
                        else "not used")
+        tmdb_lists = dict(tmdb.list_outcomes) if args.tmdb_list_cache else "not kept"
         print(json.dumps({"published": True, "counts": counts, "not_interested": not_interested,
-                          "loved": loved_count, "rotten_tomatoes": rotten_tomatoes}))
+                          "loved": loved_count, "rotten_tomatoes": rotten_tomatoes, "tmdb_lists": tmdb_lists}))
         if in_actions:
             print("::notice title=Trakt Suggested published::series " + str(counts.get("series")) +
                   ", movie " + str(counts.get("movie")) + ", upcoming " + str(counts.get("upcoming")) +
@@ -858,7 +904,9 @@ def main(argv: list[str] | None = None) -> int:
                   ", loved " + str(loved_count) + ", rotten tomatoes " +
                   (", ".join(k + " " + str(v) for k, v in rotten_tomatoes.items() if k != "errors")
                    + (" (" + ", ".join(rotten_tomatoes["errors"]) + ")" if rotten_tomatoes["errors"] else "")
-                   if isinstance(rotten_tomatoes, dict) else rotten_tomatoes))
+                   if isinstance(rotten_tomatoes, dict) else rotten_tomatoes) +
+                  ", tmdb lists " + (", ".join(k + " " + str(v) for k, v in tmdb_lists.items())
+                                     if isinstance(tmdb_lists, dict) else tmdb_lists))
         return 0
     except Exception as error:
         # Errors can carry credential-bearing request URLs or private titles.

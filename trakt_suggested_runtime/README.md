@@ -170,7 +170,19 @@ envelope = {path, params, fetchedAt, data}
 
 Credentials never form part of cached parameters. Default cache TTL is 12 hours;
 `--cache-ttl-hours` changes it. Concurrent identical lookups share a lock and one
-request; cache files use unique temporary names and atomic replacement.
+request; cache files use unique temporary names and atomic replacement. The
+refresh workflow puts `--cache-dir` in the job's temporary folder, so it lasts
+one run.
+
+`--tmdb-list-cache PATH` keeps TMDB list answers (`/tv|movie/{id}/recommendations`
+and `/similar`, and `/discover/...`) in their own folder for 24 hours. The refresh
+workflow restores and saves that folder between runs with `actions/cache` v6
+(`.tmdb-list-cache`, never committed).
+- **Why:** TMDB serves those lists through CloudFront, and different CloudFront locations hold different versions of the same list. Each hourly run lands on a different machine. On 27 October 2026, This City Is Ours' "similar" list included The Black Donnellys in 28 of 28 calls from GitHub's location and in 0 of 3 from London, so the title came and went between runs.
+- **Effect:** the first answer of the day is reused until it is 24 hours old, and the candidate pool changes only when viewing changes the seeds. Two refreshes on machines in different Azure regions published identical files, the second with 81 of 81 lists from the kept cache.
+- **What is never kept:** details, so episode dates stay fresh.
+- **Pruning:** answers older than 24 hours are deleted after each run.
+- **Run notice:** ends with "tmdb lists kept N, fetched M".
 
 `--private-diagnostics PATH` is an explicit local-only option. Never put that file
 in the repository or include it in a commit. Per row, it reports For You counts

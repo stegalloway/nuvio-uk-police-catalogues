@@ -509,6 +509,41 @@ class CacheAndTransportContracts(unittest.TestCase):
             self.assertEqual(len(http.calls), 1)
             self.assertEqual(json.loads((cache / key).read_text())["data"], {"id": 100})
 
+    def test_list_answers_are_kept_for_the_next_run_and_details_are_not(self):
+        with tempfile.TemporaryDirectory() as directory:
+            run_cache, kept = Path(directory) / "run", Path(directory) / "kept"
+            params = {"page": 1, "language": "en-GB"}
+            first = FixtureHTTP([JsonResponse({"results": [{"id": 625}]}, {}), JsonResponse({"id": 625}, {}),
+                                 JsonResponse({"results": [{"id": 7}]}, {})])
+            client = TmdbClient(first, run_cache, list_cache_dir=kept)
+            client("/tv/255570/similar", params)
+            client("/tv/625", {"language": "en-GB"})
+            client("/discover/tv", {"page": 1, "with_genres": "80"})
+            self.assertEqual(len(list(kept.glob("*.json"))), 2, "Only the two lists are kept")
+            self.assertEqual(client.list_outcomes, {"kept": 0, "fetched": 2})
+            # The next hourly run: a fresh run cache, the kept lists restored.
+            second = FixtureHTTP([JsonResponse({"id": 625}, {})])
+            again = TmdbClient(second, Path(directory) / "run2", list_cache_dir=kept)
+            self.assertEqual(again("/tv/255570/similar", params), {"results": [{"id": 625}]})
+            again("/tv/625", {"language": "en-GB"})
+            self.assertEqual([path for path, _ in second.calls], ["/tv/625"], "Details are fetched fresh")
+            self.assertEqual(again.list_outcomes, {"kept": 1, "fetched": 0})
+
+    def test_kept_lists_expire_after_24_hours_and_are_pruned(self):
+        with tempfile.TemporaryDirectory() as directory:
+            kept = Path(directory)
+            key = TmdbClient.cache_key("/tv/1/recommendations", {"page": 1})
+            atomic_json(kept / key, {"path": "/tv/1/recommendations", "params": {"page": 1},
+                "fetchedAt": (datetime.now(timezone.utc) - timedelta(hours=25)).isoformat(), "data": {"results": []}})
+            old = TmdbClient.cache_key("/tv/2/similar", {"page": 1})
+            atomic_json(kept / old, {"path": "/tv/2/similar", "params": {"page": 1},
+                "fetchedAt": (datetime.now(timezone.utc) - timedelta(hours=30)).isoformat(), "data": {"results": []}})
+            http = FixtureHTTP([JsonResponse({"results": [{"id": 3}]}, {})])
+            client = TmdbClient(http, None, list_cache_dir=kept)
+            self.assertEqual(client("/tv/1/recommendations", {"page": 1}), {"results": [{"id": 3}]})
+            self.assertEqual(client.prune(), 1)
+            self.assertEqual(sorted(p.name for p in kept.glob("*.json")), [key])
+
     def test_api_key_cannot_enter_disk_cache_parameters(self):
         http = FixtureHTTP([])
         with self.assertRaises(SourceError):
