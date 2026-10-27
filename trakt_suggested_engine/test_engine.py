@@ -9,7 +9,7 @@ from .engine import (
     FOR_YOU_SOURCE, LOVED_EVIDENCE, PROFILES, EngineConfig, GenerationError, aired_by_season,
     apply_dismissal_signal, binged, derive_episode_progress, evaluate_returning, for_you_queries, freshness,
     generate_catalogues, jenny_for_you_queries, jenny_theme, place_keyword,
-    rank_and_mix_series, series_viewing, thematic_signals, viewing_pattern, without_place_keywords,
+    rank_and_mix_series, rt_bonus, series_viewing, thematic_signals, viewing_pattern, without_place_keywords,
 )
 
 
@@ -1224,6 +1224,66 @@ class SeriesTasteContracts(unittest.TestCase):
         result = self.run_engine(loved=self.loved(600))
         self.assertEqual(result["diagnostics"]["media"]["series"]["loved_seeds"]["titles"], [])
         self.assertEqual(result["diagnostics"]["place_keywords_dropped"], [])
+
+
+class RottenTomatoesContracts(unittest.TestCase):
+    """High Tomatometer and Popcornmeter scores lift a title; a missing score is neutral."""
+
+    def setUp(self):
+        self.api = FixtureAPI()
+        self.inputs = list(fixture_inputs())
+        self.config = EngineConfig(catalogue_limit=10, candidate_enrichment_limit=20, minimum_items=3, max_workers=2)
+
+    def run_engine(self, **kwargs):
+        return generate_catalogues(*self.inputs, self.api, now=NOW, config=self.config, **kwargs)
+
+    def ids(self, result, kind="movie"):
+        return [m["id"] for m in result["catalogues"][kind]["payload"]["metas"]]
+
+    def test_the_bonus_scales_from_70_to_100(self):
+        self.assertEqual(rt_bonus(None, .1, 70), 0.)
+        self.assertEqual(rt_bonus(60, .1, 70), 0.)
+        self.assertEqual(rt_bonus(70, .1, 70), 0.)
+        self.assertAlmostEqual(rt_bonus(85, .1, 70), .05)
+        self.assertAlmostEqual(rt_bonus(100, .1, 70), .1)
+
+    def test_a_well_reviewed_title_rises_and_a_missing_score_changes_nothing(self):
+        before = self.ids(self.run_engine())
+        last = before[-1]
+        calls = []
+        def lookup(kind, tmdb_id, imdb_id):
+            calls.append((kind, imdb_id))
+            return {"tomatometer": 100., "popcornmeter": 100.} if imdb_id == last else {"tomatometer": None, "popcornmeter": None}
+        result = self.run_engine(rt_lookup=lookup)
+        self.assertLess(self.ids(result).index(last), before.index(last))
+        self.assertEqual(sorted(self.ids(result)), sorted(before))
+        diagnostics = result["diagnostics"]["media"]["movie"]["rotten_tomatoes"]
+        self.assertEqual((diagnostics["tomatometer_count"], diagnostics["popcornmeter_count"]), (1, 1))
+        self.assertEqual([c["bonus"] for c in diagnostics["cards"] if c["id"] == last], [.2])
+        self.assertTrue({kind for kind, _ in calls} == {"series", "movie"})
+        def failing(kind, tmdb_id, imdb_id):
+            raise TimeoutError("fixture")
+        self.assertEqual(self.ids(self.run_engine(rt_lookup=failing)), before)
+        self.assertEqual(self.ids(self.run_engine(rt_lookup=lambda *a: None)), before)
+
+    def test_every_series_the_row_shows_is_looked_up_beyond_the_best_scores(self):
+        ste = type(PROFILES["ste"])
+        original = ste.rt_candidates
+        ste.rt_candidates = 1
+        looked = []
+        try:
+            result = self.run_engine(rt_lookup=lambda kind, tmdb_id, imdb_id: looked.append((kind, imdb_id)) or None)
+        finally:
+            ste.rt_candidates = original
+        shown = set(self.ids(result, "series"))
+        self.assertTrue(shown <= {imdb for kind, imdb in looked if kind == "series"})
+        self.assertEqual(sum(kind == "movie" for kind, _ in looked), 1, "Films keep the score cut")
+
+    def test_the_jenny_profile_never_looks_up_rotten_tomatoes(self):
+        self.config = EngineConfig(**dict(vars(self.config), profile="jenny"))
+        calls = []
+        self.run_engine(rt_lookup=lambda *a: calls.append(a))
+        self.assertEqual(calls, [])
 
 
 class FilmAgeContracts(unittest.TestCase):

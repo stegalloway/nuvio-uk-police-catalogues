@@ -273,6 +273,29 @@ attribute. Jenny's profile has none of them.
 
 The keyword-closeness code was removed. MINDHUNTER and Mare of Easttown, at the bottom of the old row, now fall just outside the 60 titles. Titles Ste wants to keep for sure belong on his watchlist.
 
+## Rotten Tomatoes (Ste, since 27 October 2026)
+
+`rt_lookup(kind, tmdb_id, imdb_id)` returns a title's `tomatometer` (critics)
+and `popcornmeter` (audience), each 0-100 or None. Ste's runtime gets them
+from MDBList, with Metacritic standing in for a missing Tomatometer and IMDb
+for a missing Popcornmeter. After the Loved-vote bonus, the best
+`rt_candidates` (90) cards of each row, and for series every card the row
+would show (the 2:1 mix seats lower-scored gangster titles), gain up to
+`rt_critic_weight` (0.10)
+and up to `rt_audience_weight` (0.10). Each scales linearly from `rt_floor`
+(70, nothing) to 100 (all), so the bonus is +0.20 at most. A missing score,
+or a lookup that fails, adds nothing. Returning-season picks are not looked
+up. Ste's series and films both use it (`rt_kinds`); Jenny's never do.
+Diagnostics: `rotten_tomatoes`.
+
+The preview of 27 October 2026, against Ste's live rows:
+- **Coverage, series:** 48 of 60 had a Tomatometer and 53 a Popcornmeter.
+- **Coverage, films:** 48 of 50 had a Tomatometer and 49 a Popcornmeter.
+- **Gaps:** Whiplash, Line of Duty, American Crime Story and a few others had no RT score in MDBList; Metacritic and IMDb stood in. Breaking Bad first showed no score because it was never looked up: the mix seats it below the best 90. Series now also look up every title the row shows.
+- **Series:** 6 swapped. MINDHUNTER, Mare of Easttown, Line of Duty, River, Black Bird and East New York came in. All 11 of Ste's must-keep shows were then in the row; The Americans rose from #30 to #9.
+- **Films:** the same 50, reordered.
+- **New & Upcoming:** unchanged.
+
 ## Taste profiles (Ste and Jenny)
 
 Everything above that names Ste's taste is the `"ste"` profile, the default:
@@ -292,6 +315,7 @@ returning seasons, New & Upcoming, poster and IMDb rules, and pagination.
 | Themed seeds | Series: up to 4 organised-crime history titles with extra pages | Films and series: up to 4 themed history titles with extra pages |
 | Taste without rating | Series viewing patterns, binge bonus, Loved list, Trakt related titles, Trakt 7.0 floor | None: Watchly's weights, no Trakt lookups |
 | Series from the Loved list | Wider series, no place keywords, lasting Not Interested, Loved seeds and votes | None |
+| Rotten Tomatoes | Up to +0.10 critics and +0.10 audience, series and films | None |
 
 Jenny's queries reproduce `tmdb-catalogues-jenny.json` as Discover+
 `discover()` translates it: genres and keywords join with `|` (its default

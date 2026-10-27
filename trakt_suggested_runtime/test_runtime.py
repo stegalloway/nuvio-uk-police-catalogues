@@ -14,7 +14,7 @@ from unittest.mock import patch
 import urllib.error
 
 from trakt_suggested_runtime.publisher import (
-    CATALOGUES, INPUT_FILES, JsonHttpClient, JsonResponse, RefreshError,
+    CATALOGUES, INPUT_FILES, JsonHttpClient, JsonResponse, MdbListClient, MissingSource, RefreshError,
     SourceError, SourceFailures, TmdbClient, TraktClient, atomic_json,
     generate_and_publish, listed_titles, load_history_snapshots, main, manifest,
     pagination_offsets, publish_result, read_page, validate_output,
@@ -552,6 +552,113 @@ class CacheAndTransportContracts(unittest.TestCase):
                       stdout.getvalue())
         for text in (stderr.getvalue(), stdout.getvalue()):
             self.assertNotIn("PRIVATE", text)
+
+
+class MdbListContracts(unittest.TestCase):
+    """Rotten Tomatoes scores through MDBList: parsed by source, cached, never failing a refresh."""
+
+    class FakeHTTP:
+        def __init__(self, answers):
+            self.answers, self.calls, self.failures = dict(answers), [], SourceFailures()
+        def get(self, path, params=None, missing_ok=False):
+            self.calls.append(path)
+            answer = self.answers.get(path)
+            if answer is None:
+                raise MissingSource("absent")
+            if answer == "outage":
+                self.failures.record("mdblist", "http_503")
+                raise SourceError("mdblist response was unavailable or invalid")
+            return JsonResponse(answer, {})
+
+    RATINGS = {"ratings": [{"source": "imdb", "value": 8.1, "score": 81},
+                           {"source": "tomatoes", "value": 94, "score": 94},
+                           {"source": "popcorn", "value": 88, "score": 88},
+                           {"source": "metacritic", "value": None, "score": None}]}
+
+    def test_scores_come_from_the_tomatoes_and_popcorn_sources(self):
+        http = self.FakeHTTP({"/tmdb/show/46952": self.RATINGS})
+        client = MdbListClient(http)
+        self.assertEqual(client("series", 46952, "tt2741602"), {"tomatometer": 94., "popcornmeter": 88.,
+                                                                 "critics_source": "tomatoes", "audience_source": "popcorn"})
+        self.assertEqual(http.calls, ["/tmdb/show/46952"])
+        self.assertEqual(client.sources_seen["tomatoes"], 1)
+
+    def test_imdb_is_tried_when_tmdb_is_unknown_and_missing_scores_are_none(self):
+        http = self.FakeHTTP({"/imdb/movie/tt1": {"ratings": [{"source": "trakt", "score": 70}]}})
+        client = MdbListClient(http)
+        self.assertEqual(client("movie", 9, "tt1"), {"tomatometer": None, "popcornmeter": None,
+                                                     "critics_source": None, "audience_source": None})
+        self.assertEqual(http.calls, ["/tmdb/movie/9", "/imdb/movie/tt1"])
+        self.assertIsNone(client("movie", None, "not-an-id")["tomatometer"])
+
+    def test_answers_are_cached_and_saved(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "mdblist.json"
+            http = self.FakeHTTP({"/tmdb/show/1": self.RATINGS})
+            client = MdbListClient(http, path)
+            client("series", 1)
+            client("series", 1)
+            self.assertEqual(http.calls, ["/tmdb/show/1"])
+            client.save()
+            again = MdbListClient(self.FakeHTTP({}), path)
+            self.assertEqual(again("series", 1)["tomatometer"], 94.)
+            stale = json.loads(path.read_text(encoding="utf-8"))
+            stale["series:1"]["at"] = "2026-01-01T00:00:00Z"
+            path.write_text(json.dumps(stale), encoding="utf-8")
+            expired = self.FakeHTTP({})
+            MdbListClient(expired, path)("series", 1)
+            self.assertEqual(expired.calls, ["/tmdb/show/1", ], "A week-old answer is fetched again")
+
+    def test_metacritic_and_imdb_stand_in_for_missing_rotten_tomatoes_scores(self):
+        answer = {"ratings": [{"source": "imdb", "value": 9.5, "score": 95}, {"source": "metacritic", "score": 87},
+                              {"source": "tomatoes", "score": None}, {"source": "popcorn", "score": None}]}
+        client = MdbListClient(self.FakeHTTP({"/tmdb/show/1396": answer}))
+        self.assertEqual(client("series", 1396), {"tomatometer": 87., "popcornmeter": 95.,
+                                                  "critics_source": "metacritic", "audience_source": "imdb"})
+        partial = {"ratings": [{"source": "imdb", "score": 95}, {"source": "popcorn", "score": 90}]}
+        scores = MdbListClient(self.FakeHTTP({"/tmdb/show/2": partial}))("series", 2)
+        self.assertEqual((scores["popcornmeter"], scores["audience_source"]), (90., "popcorn"))
+
+    def test_a_failed_lookup_keeps_the_last_known_scores(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "mdblist.json"
+            atomic_json(path, {"series:1": {"at": "2026-01-01T00:00:00Z",
+                                            "scores": {"tomatometer": 91., "popcornmeter": 80.}}})
+            client = MdbListClient(self.FakeHTTP({"/tmdb/show/1": "outage"}), path)
+            self.assertEqual(client("series", 1)["tomatometer"], 91.)
+            self.assertEqual(client.outcomes["stale"], 1)
+
+    def test_an_outage_leaves_no_score_and_keeps_its_own_failure_log(self):
+        http = self.FakeHTTP({"/tmdb/show/1": "outage"})
+        refresh_failures = SourceFailures()
+        client = MdbListClient(http)
+        self.assertIsNone(client("series", 1))
+        refresh_failures.require_success()
+        self.assertEqual(http.failures.labels(), ["mdblist:http_503"])
+        self.assertEqual(client.outcomes["failed"], 1)
+
+    def test_the_answer_cache_cannot_live_in_public_output(self):
+        env = {"TRAKT_USERNAME": "example", "TRAKT_CLIENT_ID": "PRIVATE", "TMDB_ACCESS_TOKEN": "PRIVATE",
+               "MDBLIST_API_KEY": "PRIVATE"}
+        with tempfile.TemporaryDirectory() as directory:
+            target = Path(directory) / "docs" / "suggested"
+            stderr = io.StringIO()
+            with patch.dict(os.environ, env, clear=True), patch("sys.stderr", stderr):
+                self.assertEqual(main(["--output", str(target), "--mdblist-cache", str(target / "answers.json")]), 1)
+        self.assertIn("RefreshError", stderr.getvalue())
+        self.assertNotIn("PRIVATE", stderr.getvalue())
+
+    def test_rotten_tomatoes_lookup_reaches_the_engine_only_when_given(self):
+        seen = []
+        def generator(*args, **kwargs):
+            seen.append(kwargs.get("rt_lookup", "absent"))
+            return generated()
+        lookup = lambda kind, tmdb_id, imdb_id: None
+        with tempfile.TemporaryDirectory() as directory:
+            for value in (lookup, None):
+                generate_and_publish({key: [] for key in INPUT_FILES}, None, None, Path(directory) / "suggested",
+                                     failures=SourceFailures(), generator=generator, rt_lookup=value)
+        self.assertEqual(seen, [lookup, "absent"])
 
 
 if __name__ == "__main__":

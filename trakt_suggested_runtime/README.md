@@ -18,6 +18,10 @@ Environment variables:
   never suggested. Default `not-interested`; an empty value turns it off.
 - `TRAKT_LOVED_LIST` (optional): slug of the public Trakt list read as the
   strongest like. Default `loved`; an empty value turns it off.
+- `MDBLIST_API_KEY` (optional): Ste's MDBList key, an Actions secret, passed to
+  his refresh only. Unset means no Rotten Tomatoes lookups. `--mdblist-cache`
+  names the answer file kept between runs. It is private and may not sit in
+  the public output.
 - `TRAKT_SUGGESTED_PROFILE` (optional): the engine's taste profile, `ste` or
   `jenny`. Unset or empty keeps the engine default (`ste`); an unknown name
   fails the refresh and keeps the previous catalogues.
@@ -81,6 +85,18 @@ The same refresh reads Trakt's related titles and community scores through
 `TraktClient.title_lookup`. It allows only `/shows|movies/{id}/related` and
 `/ratings`, and a title Trakt doesn't know is None. These reads need only the
 client ID: about 30 related lists and 120 or more score reads an hour.
+
+## Rotten Tomatoes through MDBList
+
+`MdbListClient` reads `/tmdb/{show|movie}/{id}` from api.mdblist.com, and
+`/imdb/...` when MDBList doesn't know the TMDB ID. From the `ratings` it takes
+`tomatoes` (Tomatometer) and `popcorn` (Popcornmeter). Metacritic stands in for
+a missing Tomatometer and IMDb for a missing Popcornmeter; both are 0-100 in
+MDBList.
+- **Free tier:** 1,000 lookups a day. A refresh needs about 150, for the 90 best candidates of each row.
+- **Cache:** answers, missing ones included, are cached for 7 days. The refresh workflow keeps the cache between runs with `actions/cache` v6 (`.mdblist-cache/answers.json`, never committed), so only new titles need a lookup.
+- **Failures:** they go to MDBList's own failure log, so they never fail a refresh. A title keeps its last known scores, or has none.
+- **Run notice:** ends with "rotten tomatoes" and the lookup outcomes: found and missing by provider, cached, stale (a failure answered from the cache), failed, and any errors.
 
 Run from the repository root:
 

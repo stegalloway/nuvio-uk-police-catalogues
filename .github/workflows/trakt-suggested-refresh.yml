@@ -34,13 +34,30 @@ jobs:
       - name: Check history, returning-season and publication contracts
         run: |
           python -m unittest trakt_suggested_engine.test_engine trakt_suggested_runtime.test_runtime
+      # Rotten Tomatoes answers from MDBList are kept for 7 days between runs,
+      # so the hourly refresh stays inside MDBList's free 1,000 lookups a day.
+      - name: Restore the Rotten Tomatoes answers kept between runs
+        uses: actions/cache/restore@v6
+        with:
+          path: .mdblist-cache
+          key: mdblist-${{ github.run_id }}
+          restore-keys: mdblist-
       - name: Generate both rows from fresh Trakt history
         env:
           TRAKT_USERNAME: ${{ secrets.TRAKT_USERNAME || vars.TRAKT_USERNAME }}
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
           TMDB_ACCESS_TOKEN: ${{ secrets.TMDB_ACCESS_TOKEN }}
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-        run: python -m trakt_suggested_runtime --cache-dir "$RUNNER_TEMP/trakt-suggested-tmdb" --timeout-minutes 25
+          MDBLIST_API_KEY: ${{ secrets.MDBLIST_API_KEY }}
+        run: |
+          mkdir -p .mdblist-cache
+          python -m trakt_suggested_runtime --cache-dir "$RUNNER_TEMP/trakt-suggested-tmdb" --timeout-minutes 25 --mdblist-cache .mdblist-cache/answers.json
+      - name: Keep the Rotten Tomatoes answers for the next run
+        if: always() && hashFiles('.mdblist-cache/answers.json') != ''
+        uses: actions/cache/save@v6
+        with:
+          path: .mdblist-cache
+          key: mdblist-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Validate every published route
         run: python -m trakt_suggested_runtime --validate-only
       - name: Commit only final suggested catalogue metadata

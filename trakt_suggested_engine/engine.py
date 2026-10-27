@@ -229,6 +229,15 @@ EXTRA_SOURCES = frozenset({FOR_YOU_SOURCE, TRAKT_RELATED_SOURCE})
 # A Trakt community score counts only with at least this many votes.
 TRAKT_RATING_VOTES = 100
 
+
+def rt_bonus(score: Any, weight: float, floor: float) -> float:
+    """weight scaled from floor (0) to 100 (all); a missing score adds nothing."""
+    try:
+        value = float(score)
+    except (TypeError, ValueError):
+        return 0.
+    return weight * min(1., max(0., (value - floor) / (100. - floor)))
+
 # Ste's series taste from his Loved list (27 October 2026).
 LOVED_SOURCE = "loved_recommendation"
 EXTRA_SOURCES = EXTRA_SOURCES | {LOVED_SOURCE}
@@ -944,6 +953,15 @@ class SteProfile:
     # One Loved show's recommendation list alone is noisy: a title nothing but
     # Loved seeds found needs this many Loved votes (Ste, 27 October 2026).
     loved_only_min_votes = 2
+    # Rotten Tomatoes (Ste, 27 October 2026): the best rt_candidates
+    # cards of each kind gain up to rt_critic_weight for the Tomatometer and up
+    # to rt_audience_weight for the Popcornmeter, scaled from rt_floor (nothing)
+    # to 100 (all). A missing score adds nothing.
+    rt_kinds = frozenset({"series", "movie"})
+    rt_critic_weight = .10
+    rt_audience_weight = .10
+    rt_floor = 70.
+    rt_candidates = 90
     # Kinds whose seeds gain themed history titles and their extra pages.
     themed_kinds = frozenset({"series"})
     themed_source = "organised_crime_history_recommendation"
@@ -1053,6 +1071,7 @@ class JennyProfile(SteProfile):
     loved_vote_weight = 0.
     loved_vote_cap = 0
     loved_only_min_votes = 0
+    rt_kinds = frozenset()
     themed_kinds = frozenset({"series", "movie"})
     themed_source = "themed_history_recommendation"
     # Share of a card's score from her themes; the rest is history similarity.
@@ -1150,6 +1169,7 @@ def generate_catalogues(
     watchlist: Sequence[Mapping] | None = None,
     loved: Sequence[Mapping] | None = None,
     trakt_lookup: Callable[[str, Mapping | None], Any] | None = None,
+    rt_lookup: Callable[[str, Any, Any], Mapping | None] | None = None,
 ) -> dict:
     """Generate three catalogues: suggested series, suggested movies, upcoming episodes.
 
@@ -1170,6 +1190,10 @@ def generate_catalogues(
     trakt_lookup is read-only and receives /shows|movies/{imdb}/related and
     /ratings paths: Trakt's related titles join the candidates, and a title
     Trakt's community scores below the profile's minimum is left out.
+    rt_lookup(kind, tmdb_id, imdb_id) returns a title's Rotten Tomatoes
+    {"tomatometer", "popcornmeter"} (0-100, None when missing; a runtime may
+    stand in other critic and audience scores) or None; the best-scoring
+    candidates gain a bounded bonus for high scores.
 
     Raises GenerationError for missing/insufficient input profile or output.
     Never catch that error by publishing {"metas": []}; retain the old files.
@@ -1506,6 +1530,34 @@ def generate_catalogues(
             # Loved votes: a bounded bonus per Loved show that points to the title.
             card["loved_votes"] = sorted(loved_votes.get(card.get("tmdb_id"), ()))
             card["suggested_score"] += taste.loved_vote_weight * min(len(card["loved_votes"]), taste.loved_vote_cap)
+        # Rotten Tomatoes for the best cards and those the row would show only:
+        # lookups are rationed, and a card far below the row cannot climb into
+        # it on this bonus alone.
+        rt_checked = []
+        if rt_lookup and kind in taste.rt_kinds and cards:
+            def rt_scores(card):
+                try:
+                    value = rt_lookup(kind, card.get("tmdb_id"), card.get("imdb_id"))
+                except Exception as error:
+                    runner.warnings.append({"stage": "rotten_tomatoes", "exception_type": type(error).__name__})
+                    value = None
+                return card, value if isinstance(value, Mapping) else {}
+            best = sorted(cards, key=lambda c: (-c["suggested_score"], c["id"]))[:taste.rt_candidates]
+            # The series mix gives places to lower-scored gangster titles, so
+            # everything the row would show is looked up as well.
+            if kind == "series":
+                shown = {c["id"] for c in taste.order_series(cards, config.catalogue_limit)[0]}
+                looked = {c["id"] for c in best}
+                best += [c for c in cards if c["id"] in shown and c["id"] not in looked]
+            for card, value in runner._map(rt_scores, best):
+                critics, audience = value.get("tomatometer"), value.get("popcornmeter")
+                bonus = (rt_bonus(critics, taste.rt_critic_weight, taste.rt_floor)
+                         + rt_bonus(audience, taste.rt_audience_weight, taste.rt_floor))
+                card["rotten_tomatoes"] = {"tomatometer": critics, "popcornmeter": audience, "bonus": round(bonus, 4),
+                                           "critics_source": value.get("critics_source"),
+                                           "audience_source": value.get("audience_source")}
+                card["suggested_score"] += bonus
+                rt_checked.append(card)
         returning_diagnostics, returners, primary_prefix_count = [], [], 0
         if kind == "series":
             episodes = derive_episode_progress(watched_shows, watched_episode_history)
@@ -1705,6 +1757,11 @@ def generate_catalogues(
                                                                "voters": c.get("loved_votes") or [],
                                                                "sources": c.get("candidate_sources")}
                                                               for c in cards), key=lambda c: -c["score"]) if kind == "series" else []},
+                       "rotten_tomatoes": {"checked_count": len(rt_checked),
+                                           "tomatometer_count": sum(c["rotten_tomatoes"]["tomatometer"] is not None for c in rt_checked),
+                                           "popcornmeter_count": sum(c["rotten_tomatoes"]["popcornmeter"] is not None for c in rt_checked),
+                                           "cards": [{"id": c["id"], "title": c.get("title"), **c["rotten_tomatoes"],
+                                                      "score": round(c["suggested_score"], 4)} for c in rt_checked]},
                        "returning_decisions": returning_diagnostics,
                        "callback_counts": dict(runner.calls), "warnings": runner.warnings,
                        "selected_cards": ordered}

@@ -406,6 +406,109 @@ class TraktClient:
             return {key: future.result() for key, future in futures.items()}
 
 
+class MdbListClient:
+    """Rotten Tomatoes critic and audience scores through MDBList, by TMDB or IMDb ID.
+
+    Its HTTP client records failures in its own SourceFailures, so an outage or a
+    used-up daily quota never fails the refresh: a title keeps its last known
+    scores, or has none. Answers, missing ones included, are cached for ttl_days.
+    Where MDBList has no Rotten Tomatoes score, Metacritic stands in for the
+    Tomatometer and IMDb for the Popcornmeter (both 0-100 in MDBList).
+    """
+
+    MEDIA = {"series": "show", "movie": "movie"}
+    CRITICS = frozenset({"tomatoes"})
+    AUDIENCE = frozenset({"popcorn", "tomatoesaudience", "audience"})
+    CRITICS_FALLBACK = "metacritic"
+    AUDIENCE_FALLBACK = "imdb"
+
+    def __init__(self, http: JsonHttpClient, cache_path: Path | None = None, ttl_days: float = 7) -> None:
+        self.http = http
+        self.cache_path = cache_path
+        self.ttl = timedelta(days=ttl_days)
+        self.lock = threading.Lock()
+        self.sources_seen: dict[str, int] = {}
+        self.outcomes: dict[str, int] = {}
+        self.cache: dict[str, dict] = {}
+        if cache_path and cache_path.exists():
+            try:
+                self.cache = json.loads(cache_path.read_text(encoding="utf-8"))
+            except (OSError, ValueError):
+                self.cache = {}
+
+    def _count(self, table: dict, key: str) -> None:
+        with self.lock:
+            table[key] = table.get(key, 0) + 1
+
+    def _fetch(self, kind: str, tmdb_id: Any, imdb_id: Any) -> Any:
+        for provider, value in (("tmdb", tmdb_id), ("imdb", imdb_id)):
+            if not value or not re.fullmatch(r"[0-9]+|tt[0-9]+", str(value)):
+                continue
+            try:
+                data = self.http.get("/" + provider + "/" + self.MEDIA[kind] + "/" + str(value), missing_ok=True).data
+            except MissingSource:
+                self._count(self.outcomes, provider + "_missing")
+                continue
+            self._count(self.outcomes, provider + "_found")
+            return data
+        return None
+
+    def parse(self, data: Any) -> dict:
+        ratings = data.get("ratings") if isinstance(data, Mapping) else None
+        found = {"tomatometer": None, "popcornmeter": None}
+        fallback = {}
+        for rating in ratings if isinstance(ratings, list) else []:
+            if not isinstance(rating, Mapping):
+                continue
+            source = str(rating.get("source") or "").lower()
+            self._count(self.sources_seen, source)
+            score = rating.get("score") if rating.get("score") is not None else rating.get("value")
+            try:
+                score = float(score)
+            except (TypeError, ValueError):
+                continue
+            if not 0 < score <= 100:
+                continue
+            if source in self.CRITICS:
+                found["tomatometer"] = score
+            elif source in self.AUDIENCE:
+                found["popcornmeter"] = score
+            elif source in (self.CRITICS_FALLBACK, self.AUDIENCE_FALLBACK):
+                fallback[source] = score
+        found["critics_source"] = "tomatoes" if found["tomatometer"] is not None else None
+        found["audience_source"] = "popcorn" if found["popcornmeter"] is not None else None
+        if found["tomatometer"] is None and self.CRITICS_FALLBACK in fallback:
+            found["tomatometer"], found["critics_source"] = fallback[self.CRITICS_FALLBACK], self.CRITICS_FALLBACK
+        if found["popcornmeter"] is None and self.AUDIENCE_FALLBACK in fallback:
+            found["popcornmeter"], found["audience_source"] = fallback[self.AUDIENCE_FALLBACK], self.AUDIENCE_FALLBACK
+        return found
+
+    def __call__(self, kind: str, tmdb_id: Any, imdb_id: Any = None) -> dict | None:
+        if kind not in self.MEDIA:
+            return None
+        key = kind + ":" + str(tmdb_id or imdb_id)
+        now = datetime.now(timezone.utc)
+        with self.lock:
+            cached = self.cache.get(key)
+        if cached and (utc_datetime(cached.get("at", "")) or datetime.min.replace(tzinfo=timezone.utc)) > now - self.ttl:
+            self._count(self.outcomes, "cached")
+            return cached.get("scores")
+        try:
+            scores = self.parse(self._fetch(kind, tmdb_id, imdb_id))
+        except SourceError:
+            # The last known scores, however old, beat none: rows don't wobble.
+            self._count(self.outcomes, "stale" if cached else "failed")
+            return cached.get("scores") if cached else None
+        with self.lock:
+            self.cache[key] = {"at": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "scores": scores}
+        return scores
+
+    def save(self) -> None:
+        if self.cache_path:
+            with self.lock:
+                atomic_json(self.cache_path, self.cache)
+
+
 def listed_titles(items: Any, limit: int = 12) -> str:
     """" (A, B, ...)" naming what the public Not Interested list holds, for the run notice."""
     if not isinstance(items, list) or not items:
@@ -615,7 +718,7 @@ def generate_and_publish(
     output: Path, *, failures: SourceFailures, generator: Callable | None = None,
     now: datetime | None = None, addon_id: str = DEFAULT_ADDON_ID,
     private_diagnostics: Path | None = None, profile: str | None = None,
-    trakt_lookup: Callable | None = None,
+    trakt_lookup: Callable | None = None, rt_lookup: Callable | None = None,
 ) -> dict[str, int]:
     if generator is None:
         from trakt_suggested_engine import generate_catalogues
@@ -644,6 +747,8 @@ def generate_and_publish(
         extra["loved"] = histories["loved"]
     if trakt_lookup is not None:
         extra["trakt_lookup"] = trakt_lookup
+    if rt_lookup is not None:
+        extra["rt_lookup"] = rt_lookup
     if profile is not None:
         extra["config"] = EngineConfig(profile=profile)
     result = generator(
@@ -678,6 +783,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--history-dir", type=Path, help="Explicit private offline snapshot directory; manual runs only")
     parser.add_argument("--private-diagnostics", type=Path, help="Optional local diagnostics, outside the public output")
     parser.add_argument("--timeout-minutes", type=float, default=25)
+    parser.add_argument("--mdblist-cache", type=Path,
+                        help="Optional private MDBList answer cache, kept between runs; never committed")
     parser.add_argument("--validate-only", action="store_true")
     args = parser.parse_args(argv)
     failures = SourceFailures()
@@ -697,7 +804,7 @@ def main(argv: list[str] | None = None) -> int:
         if not trakt_key or not (tmdb_token or tmdb_key) or (not args.history_dir and not username):
             raise RefreshError("Required API configuration is missing")
         public_root = public_tree_root(args.output)
-        for private_path in (args.cache_dir, args.history_dir, args.private_diagnostics):
+        for private_path in (args.cache_dir, args.history_dir, args.private_diagnostics, args.mdblist_cache):
             if private_path and (private_path.resolve() == public_root or
                                  public_root in private_path.resolve().parents):
                 raise RefreshError("Private files cannot be stored in public output")
@@ -714,13 +821,26 @@ def main(argv: list[str] | None = None) -> int:
         # Unset means the engine's default profile ("ste").
         profile = os.environ.get("TRAKT_SUGGESTED_PROFILE", "").strip() or None
         loved_list = os.environ.get("TRAKT_LOVED_LIST", DEFAULT_LOVED_LIST).strip()
+        # Rotten Tomatoes through MDBList, only when its key is set. Its failures
+        # stay in their own log: they never stop a refresh.
+        mdblist_key = os.environ.get("MDBLIST_API_KEY", "").strip()
+        rt_failures = SourceFailures()
+        mdblist = (MdbListClient(JsonHttpClient("https://api.mdblist.com", {}, "mdblist", rt_failures,
+                                                extra_query={"apikey": mdblist_key}, deadline=deadline, attempts=2),
+                                 args.mdblist_cache) if mdblist_key else None)
         histories = (load_history_snapshots(args.history_dir) if args.history_dir
                      else trakt.histories(username, dismiss_list, loved_list=loved_list))
-        counts = generate_and_publish(
-            histories, tmdb, trakt.seasons, args.output, failures=failures,
-            now=datetime.now(timezone.utc), addon_id=args.addon_id, private_diagnostics=args.private_diagnostics,
-            profile=profile, trakt_lookup=trakt.title_lookup,
-        )
+        try:
+            counts = generate_and_publish(
+                histories, tmdb, trakt.seasons, args.output, failures=failures,
+                now=datetime.now(timezone.utc), addon_id=args.addon_id, private_diagnostics=args.private_diagnostics,
+                profile=profile, trakt_lookup=trakt.title_lookup, rt_lookup=mdblist,
+            )
+        finally:
+            if mdblist:
+                mdblist.save()
+        rotten_tomatoes = ({**dict(sorted(mdblist.outcomes.items())), "errors": rt_failures.labels()}
+                           if mdblist else "not used")
         dismissed = histories.get("dismissed")
         not_interested = (len(dismissed) if isinstance(dismissed, list) else
                           "no public list named " + dismiss_list if dismiss_list and not args.history_dir
@@ -730,12 +850,15 @@ def main(argv: list[str] | None = None) -> int:
                        "no public list named " + loved_list if loved_list and not args.history_dir
                        else "not used")
         print(json.dumps({"published": True, "counts": counts, "not_interested": not_interested,
-                          "loved": loved_count}))
+                          "loved": loved_count, "rotten_tomatoes": rotten_tomatoes}))
         if in_actions:
             print("::notice title=Trakt Suggested published::series " + str(counts.get("series")) +
                   ", movie " + str(counts.get("movie")) + ", upcoming " + str(counts.get("upcoming")) +
                   ", not interested " + str(not_interested) + listed_titles(dismissed) +
-                  ", loved " + str(loved_count))
+                  ", loved " + str(loved_count) + ", rotten tomatoes " +
+                  (", ".join(k + " " + str(v) for k, v in rotten_tomatoes.items() if k != "errors")
+                   + (" (" + ", ".join(rotten_tomatoes["errors"]) + ")" if rotten_tomatoes["errors"] else "")
+                   if isinstance(rotten_tomatoes, dict) else rotten_tomatoes))
         return 0
     except Exception as error:
         # Errors can carry credential-bearing request URLs or private titles.
