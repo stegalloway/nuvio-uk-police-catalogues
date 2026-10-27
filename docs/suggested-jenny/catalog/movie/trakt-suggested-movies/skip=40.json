@@ -191,21 +191,6 @@
       "imdb_id": "tt14509110"
     },
     {
-      "id": "tt23642744",
-      "type": "movie",
-      "name": "Night of the Hunted",
-      "poster": "https://image.tmdb.org/t/p/w500/tfNFmBGBVF1biwOTBgFONAeCaDZ.jpg",
-      "posterShape": "poster",
-      "description": "When an unsuspecting woman stops at a remote gas station in the dead of night, she's made the plaything of a sociopath sniper with a secret vendetta. To survive, she must not only dodge his bullets and fight for her life, but also figure out who wants her dead and why.",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt23642744"
-    },
-    {
       "id": "tt35538033",
       "type": "movie",
       "name": "Resident Evil",
@@ -219,6 +204,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35538033"
+    },
+    {
+      "id": "tt23642744",
+      "type": "movie",
+      "name": "Night of the Hunted",
+      "poster": "https://image.tmdb.org/t/p/w500/tfNFmBGBVF1biwOTBgFONAeCaDZ.jpg",
+      "posterShape": "poster",
+      "description": "When an unsuspecting woman stops at a remote gas station in the dead of night, she's made the plaything of a sociopath sniper with a secret vendetta. To survive, she must not only dodge his bullets and fight for her life, but also figure out who wants her dead and why.",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt23642744"
     },
     {
       "id": "tt1051906",
