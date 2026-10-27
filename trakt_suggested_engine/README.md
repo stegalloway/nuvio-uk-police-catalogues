@@ -280,7 +280,8 @@ and `popcornmeter` (audience), each 0-100 or None. Ste's runtime gets them
 from MDBList, with Metacritic standing in for a missing Tomatometer and IMDb
 for a missing Popcornmeter. After the Loved-vote bonus, the best
 `rt_candidates` (90) cards of each row, and for series every card the row
-would show (the 2:1 mix seats lower-scored gangster titles), gain up to
+would show plus `rt_row_margin` (20) beyond it (the 2:1 mix seats
+lower-scored gangster titles), gain up to
 `rt_critic_weight` (0.10)
 and up to `rt_audience_weight` (0.10). Each scales linearly from `rt_floor`
 (70, nothing) to 100 (all), so the bonus is +0.20 at most. A missing score,

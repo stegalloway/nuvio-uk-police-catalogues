@@ -962,6 +962,9 @@ class SteProfile:
     rt_audience_weight = .10
     rt_floor = 70.
     rt_candidates = 90
+    # Series also look up rt_row_margin titles beyond the row, so a title on
+    # the edge keeps its bonus when small changes move it (Ste, 27 October 2026).
+    rt_row_margin = 20
     # Kinds whose seeds gain themed history titles and their extra pages.
     themed_kinds = frozenset({"series"})
     themed_source = "organised_crime_history_recommendation"
@@ -1544,9 +1547,10 @@ def generate_catalogues(
                 return card, value if isinstance(value, Mapping) else {}
             best = sorted(cards, key=lambda c: (-c["suggested_score"], c["id"]))[:taste.rt_candidates]
             # The series mix gives places to lower-scored gangster titles, so
-            # everything the row would show is looked up as well.
+            # everything the row would show is looked up as well, and a margin
+            # beyond it.
             if kind == "series":
-                shown = {c["id"] for c in taste.order_series(cards, config.catalogue_limit)[0]}
+                shown = {c["id"] for c in taste.order_series(cards, config.catalogue_limit + taste.rt_row_margin)[0]}
                 looked = {c["id"] for c in best}
                 best += [c for c in cards if c["id"] in shown and c["id"] not in looked]
             for card, value in runner._map(rt_scores, best):

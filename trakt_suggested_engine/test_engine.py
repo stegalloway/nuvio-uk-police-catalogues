@@ -1279,6 +1279,22 @@ class RottenTomatoesContracts(unittest.TestCase):
         self.assertTrue(shown <= {imdb for kind, imdb in looked if kind == "series"})
         self.assertEqual(sum(kind == "movie" for kind, _ in looked), 1, "Films keep the score cut")
 
+    def test_titles_just_beyond_the_series_row_are_looked_up_too(self):
+        ste = type(PROFILES["ste"])
+        saved = ste.rt_candidates, ste.rt_row_margin
+        self.config = EngineConfig(**dict(vars(self.config), catalogue_limit=3))
+        def looked(margin):
+            ste.rt_candidates, ste.rt_row_margin = 1, margin
+            calls = []
+            try:
+                self.run_engine(rt_lookup=lambda kind, tmdb_id, imdb_id: calls.append((kind, imdb_id)) or None)
+            finally:
+                ste.rt_candidates, ste.rt_row_margin = saved
+            return {imdb for kind, imdb in calls if kind == "series"}
+        without, margin = looked(0), looked(2)
+        self.assertLess(without, margin)
+        self.assertGreaterEqual(len(margin), 5)
+
     def test_the_jenny_profile_never_looks_up_rotten_tomatoes(self):
         self.config = EngineConfig(**dict(vars(self.config), profile="jenny"))
         calls = []
