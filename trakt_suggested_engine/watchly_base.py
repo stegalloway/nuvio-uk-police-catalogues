@@ -437,6 +437,9 @@ def score_candidate(item: Mapping, normalised_profile: Mapping, media_type: str)
 
 
 class WatchlyPreview:
+    # Profile evidence per history item; a taste profile may replace it.
+    evidence = staticmethod(evidence_weight)
+
     def __init__(self, api: TMDBCallbacks, policy: FilterPolicy, now: Any = None, max_workers: int = 1):
         self.api, self.policy = api, policy
         self.now = _dt(now) or datetime.now(timezone.utc)
@@ -495,7 +498,7 @@ class WatchlyPreview:
                 self.warnings.append({"stage": "profile", "imdb_id": item["imdb_id"], "reason": "Missing TMDB details"})
                 continue
             processed.append(item["imdb_id"])
-            evidence = evidence_weight(item, self.now)
+            evidence = self.evidence(item, self.now)
             def add(category, key, factor):
                 if key:
                     scores[category][key] = scores[category].get(key, 0.) + evidence * factor

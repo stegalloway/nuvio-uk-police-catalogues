@@ -858,6 +858,38 @@ class WatchlistContracts(unittest.TestCase):
         self.assertTrue(metas[0]["description"].startswith("S2 E1 · Wed 28 Oct"))
 
 
+class EvidenceOrderContracts(unittest.TestCase):
+    """Ste: watched counts most, then the watchlist, then ratings."""
+
+    def evidence(self, profile, **item):
+        return PROFILES[profile].evidence(dict({"last_watched": NOW.isoformat()}, **item), NOW)
+
+    def test_watched_beats_the_watchlist_which_beats_ratings(self):
+        watched = self.evidence("ste", watch_count=1, completion=1.0)
+        loved_watched = self.evidence("ste", watch_count=1, completion=1.0, rating=10)
+        rated_only = self.evidence("ste", watch_count=0, completion=0.0, rating=10)
+        from .engine import WATCHLIST_EVIDENCE
+        self.assertEqual(watched, 1.0)
+        self.assertEqual(loved_watched, watched)
+        self.assertEqual(self.evidence("ste", watch_count=2, completion=1.0), 2.5)
+        self.assertGreater(watched, WATCHLIST_EVIDENCE)
+        self.assertGreater(WATCHLIST_EVIDENCE, rated_only)
+        self.assertEqual(rated_only, 0.4)
+
+    def test_jenny_keeps_watchlys_weighting(self):
+        self.assertEqual(self.evidence("jenny", watch_count=0, completion=0.0, rating=10), 2.5)
+
+    def test_watchlist_titles_count_as_a_like_that_does_not_fade(self):
+        detail = {"keywords": {"results": [{"id": 7, "name": "heist"}]},
+                  "credits": {"cast": [{"id": 5}], "crew": [{"id": 9, "job": "Director"}]}}
+        from .engine import WATCHLIST_EVIDENCE
+        for listed in ("2026-10-17T00:00:00Z", "2025-01-01T00:00:00Z"):
+            scores, _ = apply_dismissal_signal({}, [(detail, listed)], NOW, evidence=WATCHLIST_EVIDENCE, decays=False)
+            self.assertGreater(scores["cast"][5], 0)
+            self.assertAlmostEqual(scores["directors"][9], WATCHLIST_EVIDENCE * .9)
+        self.assertNotIn("genres", scores)
+
+
 class FilmAgeContracts(unittest.TestCase):
     FILM = {"release_date": "1999-12-31", "genre_ids": [80], "original_language": "en",
             "vote_average": 8.0, "vote_count": 5000}

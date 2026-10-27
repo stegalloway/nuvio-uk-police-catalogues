@@ -203,6 +203,9 @@ def dismissed_ids(items: Iterable[Mapping], kind: str) -> tuple[set[str], set[in
 # A Not Interested title counts as a mild dislike, as strong as a title dropped
 # early in Watchly's evidence weighting.
 DISMISS_EVIDENCE = -0.2
+# A watchlisted title counts as a mild like: half a completed watch. It does not
+# fade, because a title stays on the watchlist only while it is still wanted.
+WATCHLIST_EVIDENCE = 0.5
 
 
 def dismissed_titles(items: Iterable[Mapping], kind: str) -> list[tuple[dict, Any]]:
@@ -217,20 +220,23 @@ def dismissed_titles(items: Iterable[Mapping], kind: str) -> list[tuple[dict, An
 
 
 def apply_dismissal_signal(scores: Mapping, details: Sequence[tuple[Mapping, Any]],
-                           now: datetime) -> tuple[dict, dict]:
-    """Add Not Interested titles to the profile as a mild dislike.
+                           now: datetime, evidence: float = DISMISS_EVIDENCE,
+                           decays: bool = True) -> tuple[dict, dict]:
+    """Add listed titles to the profile: Not Interested as a mild dislike by default.
 
-    Each title adds DISMISS_EVIDENCE, decayed from when it was listed as a
-    watch decays, to its keywords, top three cast and directors/creators only,
-    mirroring Watchly's profile factors. Genres, countries and eras are never
-    touched, so dismissing one crime show does not push down crime as a whole.
+    Each title adds `evidence` (decayed from when it was listed as a watch
+    decays, unless decays is False) to its keywords, top three cast and
+    directors/creators only, mirroring Watchly's profile factors. Genres,
+    countries and eras are never touched, so one listed crime show does not
+    move crime as a whole. The watchlist uses WATCHLIST_EVIDENCE, undecayed.
     Returns the adjusted scores and their per-category normalisation.
     """
     adjusted = {category: dict(values) for category, values in scores.items()}
+    base = evidence
     for detail, listed_at in details:
         when = _aware(listed_at)
-        decay = max(.1, math.exp(-max(0, (now - when).days) / 30.)) if when else .5
-        evidence = DISMISS_EVIDENCE * decay
+        decay = (max(.1, math.exp(-max(0, (now - when).days) / 30.)) if when else .5) if decays else 1.
+        evidence = base * decay
         def add(category, key, factor):
             if key:
                 values = adjusted.setdefault(category, {})
@@ -251,7 +257,10 @@ def apply_dismissal_signal(scores: Mapping, details: Sequence[tuple[Mapping, Any
         cap = w.CAPS.get(category)
         if cap:
             values.update({key: max(-cap, min(cap, value)) for key, value in values.items()})
-        maximum = max(values.values(), default=0.)
+        # Scale against the larger of the old and new maximum: lowering the top
+        # keyword must still lower it, not rescale it straight back to 1.
+        before = [min(cap, value) if cap else value for value in (scores.get(category) or {}).values()]
+        maximum = max(max(values.values(), default=0.), max(before, default=0.))
         normalised[category] = {key: value / maximum if maximum > 0 else value for key, value in values.items()}
     return adjusted, normalised
 
@@ -708,6 +717,24 @@ class SteProfile:
         """Sort key for a themed history seed; None when the title is not themed."""
         return theme["organised_crime"] if theme["gangster_priority"] else None
 
+    @staticmethod
+    def evidence(item: Mapping, now: datetime) -> float:
+        """Taste evidence for one history item: watched, then watchlist, then ratings.
+
+        Ste rarely rates (27 October 2026), so watching counts most: 1.0 per
+        watched title, 2.5 when rewatched, whatever its rating. The watchlist
+        adds WATCHLIST_EVIDENCE elsewhere. A title rated but not watched counts
+        least: 0.4 loved, 0.3 liked, 0.2 otherwise. Decay is Watchly's.
+        """
+        plays = w._num(item.get("watch_count"), 1)
+        if plays >= 1 and w._completion(item) >= .7:
+            base = 2.5 if plays >= 2 else 1.
+        else:
+            bucket = w._bucket(item)
+            base = .4 if bucket == "loved" else .3 if bucket == "liked" else .2
+        last = w._dt(item.get("last_watched"))
+        return base * (max(.1, math.exp(-max(0, (now - last).days) / 30.)) if last else .5)
+
     def raw_bonus(self, theme: Mapping, kind: str) -> float:
         return .25 * theme["priority_organised_crime"] + .08 * theme["investigation"] if kind == "series" else 0.
 
@@ -753,6 +780,9 @@ class JennyProfile(SteProfile):
 
     def seed_strength(self, theme: Mapping) -> float | None:
         return theme["strength"] or None
+
+    # Jenny keeps Watchly's own weighting, where ratings count most.
+    evidence = staticmethod(w.evidence_weight)
 
     def raw_bonus(self, theme: Mapping, kind: str) -> float:
         return self.theme_weight * theme["strength"]
@@ -895,6 +925,7 @@ def generate_catalogues(
         media = "tv" if kind == "series" else "movie"
         policy = taste.policy(kind)
         runner = w.WatchlyPreview(api, policy, moment, config.max_workers)
+        runner.evidence = taste.evidence
         items = [dict(i) for i in history if i["type"] == kind]
         if not items:
             raise GenerationError("No usable " + kind + " history IDs", result["diagnostics"])
@@ -910,6 +941,15 @@ def generate_catalogues(
                 dislike_details.append((detail, listed_at))
         if dislike_details:
             profile, normalised = apply_dismissal_signal(profile, dislike_details, moment)
+        like_details = []
+        for ids, listed_at in dismissed_titles(watchlist, kind):
+            tid = w._int(ids.get("tmdb")) or (w._int(runner._call("resolve", ids["imdb"], media)) if ids.get("imdb") else None)
+            detail = runner._details(tid, media) if tid else {}
+            if detail:
+                like_details.append((detail, listed_at))
+        if like_details:
+            profile, normalised = apply_dismissal_signal(profile, like_details, moment,
+                                                         evidence=WATCHLIST_EVIDENCE, decays=False)
         watched_imdb, watched_tmdb = set(), set()
         for entry in watch_rows:
             ids = (entry.get("movie") or entry.get("show") or {}).get("ids") or {}
@@ -1164,7 +1204,8 @@ def generate_catalogues(
                                                  for i, c in enumerate(ordered) if "for_you_rank" in c]},
                        "not_interested": {"suppressed_count": len(dismissed_hits),
                                           "disliked_profile_titles": len(dislike_details)},
-                       "watchlist": {"suppressed_count": len(watchlist_hits)},
+                       "watchlist": {"suppressed_count": len(watchlist_hits),
+                                     "liked_profile_titles": len(like_details)},
                        "returning_decisions": returning_diagnostics,
                        "callback_counts": dict(runner.calls), "warnings": runner.warnings,
                        "selected_cards": ordered}

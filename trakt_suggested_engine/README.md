@@ -162,6 +162,13 @@ like the Not Interested list.
   Movies, because the viewer already has them. Unlike Not Interested, they don't
   count as a dislike in the taste profile. Returning-season picks of watched
   shows are unaffected.
+- **Taste:** each watchlisted title is also a mild like (+0.5, half a completed
+  watch, not fading), added to its keywords, top three cast and directors or
+  creators the way Not Interested adds a dislike. Genres are never touched.
+- **Evidence order (Ste's profile):** watched counts most (1.0, 2.5 rewatched,
+  whatever the rating), then the watchlist, then titles rated but not watched
+  (0.4 loved, 0.3 liked, 0.2 otherwise). Jenny keeps Watchly's weights, where
+  ratings count most.
 - **New & Upcoming:** for watchlisted shows the viewer hasn't started, a season
   premiere joins the row: dated within `upcoming_horizon_days`, or out in the
   last `out_now_days`. Mid-season episodes are left out, since an unstarted show
