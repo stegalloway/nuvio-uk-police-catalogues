@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt11540908",
-      "type": "series",
-      "name": "Carrie",
-      "poster": "https://image.tmdb.org/t/p/w500/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
-      "posterShape": "poster",
-      "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
-      "genres": [
-        "Mystery",
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt11540908"
-    },
-    {
       "id": "tt19244304",
       "type": "series",
       "name": "IT: Welcome to Derry",
@@ -278,6 +263,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt27031263"
+    },
+    {
+      "id": "tt31314754",
+      "type": "series",
+      "name": "Devil in Disguise: John Wayne Gacy",
+      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
+      "posterShape": "poster",
+      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31314754"
     }
   ]
 }
