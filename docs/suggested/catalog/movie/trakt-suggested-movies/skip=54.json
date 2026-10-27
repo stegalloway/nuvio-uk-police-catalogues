@@ -1,19 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt8368512",
+      "id": "tt33100314",
       "type": "movie",
-      "name": "The Courier",
-      "poster": "https://image.tmdb.org/t/p/w500/zFIjKtZrzhmc7HecdFXXjsLR2Ig.jpg",
+      "name": "Remarkably Bright Creatures",
+      "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
       "posterShape": "poster",
-      "description": "Cold War spy Greville Wynne and his Russian source try to put an end to the Cuban Missile Crisis.",
+      "description": "Through unlikely bonds formed during night shifts at a local aquarium, Tova, an elderly widow, learns of a life-changing discovery that may bring her joy and wonder once again.",
       "genres": [
-        "Thriller",
-        "History",
-        "Drama"
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt8368512"
+      "releaseInfo": "2026",
+      "imdb_id": "tt33100314"
     },
     {
       "id": "tt5093026",

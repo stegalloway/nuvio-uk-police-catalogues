@@ -16,20 +16,6 @@
       "imdb_id": "tt34771210"
     },
     {
-      "id": "tt6517320",
-      "type": "series",
-      "name": "Too Old to Die Young",
-      "poster": "https://image.tmdb.org/t/p/w500/xGBwXf02Mu2zzqxh6TomLC7xfk7.jpg",
-      "posterShape": "poster",
-      "description": "In one tragic night, Los Angeles County Sheriff's Deputy Martin Jones's life is blown apart, and he is forced into a deadly underground of Cartel soldiers, Yakuza assassins, and mysterious vigilantes. Soon he finds himself lost on a surreal odyssey of murder, mysticism and vengeance, as his past sins close in on him.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt6517320"
-    },
-    {
       "id": "tt1124373",
       "type": "series",
       "name": "Sons of Anarchy",
@@ -42,20 +28,6 @@
       ],
       "releaseInfo": "2008",
       "imdb_id": "tt1124373"
-    },
-    {
-      "id": "tt10732104",
-      "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
-      "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
     },
     {
       "id": "tt3032476",
@@ -72,6 +44,20 @@
       "imdb_id": "tt3032476"
     },
     {
+      "id": "tt10732104",
+      "type": "series",
+      "name": "Power Book II: Ghost",
+      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "posterShape": "poster",
+      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10732104"
+    },
+    {
       "id": "tt5011816",
       "type": "series",
       "name": "Sneaky Pete",
@@ -84,6 +70,20 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt5011816"
+    },
+    {
+      "id": "tt0903747",
+      "type": "series",
+      "name": "Breaking Bad",
+      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+      "posterShape": "poster",
+      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2008",
+      "imdb_id": "tt0903747"
     },
     {
       "id": "tt5611024",
@@ -101,20 +101,6 @@
       "imdb_id": "tt5611024"
     },
     {
-      "id": "tt0903747",
-      "type": "series",
-      "name": "Breaking Bad",
-      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
-      "posterShape": "poster",
-      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0903747"
-    },
-    {
       "id": "tt0141842",
       "type": "series",
       "name": "The Sopranos",
@@ -127,6 +113,20 @@
       ],
       "releaseInfo": "1999",
       "imdb_id": "tt0141842"
+    },
+    {
+      "id": "tt0805661",
+      "type": "series",
+      "name": "The Black Donnellys",
+      "poster": "https://image.tmdb.org/t/p/w500/hRKjeP8laTHS9q5cJA046DJa5kA.jpg",
+      "posterShape": "poster",
+      "description": "Meet the Donnelly brothers: Tommy, Jimmy, Kevin and Sean. There is nothing these four Irish brothers wouldn't do to protect each other, and for them that means lying, cheating, stealing and, occasionally, calling the cops. Narrated by wannabe gangster Joey \"Ice Cream,\" this gritty series bears witness to the Donnelly brothers' sudden involvement in organized crime, focusing on how they go from boys to mobsters, and showing how their new life affects their relationships with friends, family and lovers.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0805661"
     },
     {
       "id": "tt33253070",
@@ -143,6 +143,22 @@
       "imdb_id": "tt33253070"
     },
     {
+      "id": "tt0090410",
+      "type": "series",
+      "name": "Crime Story",
+      "poster": "https://image.tmdb.org/t/p/w500/he4iKKlgXnT7kPAjvYFeREiHPmj.jpg",
+      "posterShape": "poster",
+      "description": "The hard-boiled saga of hair-trigger cop Lieutenant Mike Torello and his obsessive pursuit of ruthless gangster Ray Luca.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure",
+        "Mystery"
+      ],
+      "releaseInfo": "1986",
+      "imdb_id": "tt0090410"
+    },
+    {
       "id": "tt5761496",
       "type": "series",
       "name": "Get Shorty",
@@ -155,21 +171,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt5761496"
-    },
-    {
-      "id": "tt1958961",
-      "type": "series",
-      "name": "Lilyhammer",
-      "poster": "https://image.tmdb.org/t/p/w500/o5I2D5oeIEafpyFw30v11AwkhnB.jpg",
-      "posterShape": "poster",
-      "description": "After Frank The Fixer Tagliano testifies against his Mafia boss in New York, he enters the Witness Protection Program and makes an unusual demand: he wants to be set up with a new life in the Norwegian small town of Lillehammer or as he calls it, Lilyhammer.",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Crime"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1958961"
     },
     {
       "id": "tt6037988",
@@ -185,6 +186,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt6037988"
+    },
+    {
+      "id": "tt1958961",
+      "type": "series",
+      "name": "Lilyhammer",
+      "poster": "https://image.tmdb.org/t/p/w500/o5I2D5oeIEafpyFw30v11AwkhnB.jpg",
+      "posterShape": "poster",
+      "description": "After Frank The Fixer Tagliano testifies against his Mafia boss in New York, he enters the Witness Protection Program and makes an unusual demand: he wants to be set up with a new life in the Norwegian small town of Lillehammer or as he calls it, Lilyhammer.",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Crime"
+      ],
+      "releaseInfo": "2012",
+      "imdb_id": "tt1958961"
     },
     {
       "id": "tt0439100",
@@ -271,20 +287,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt11816814"
-    },
-    {
-      "id": "tt31314754",
-      "type": "series",
-      "name": "Devil in Disguise: John Wayne Gacy",
-      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
-      "posterShape": "poster",
-      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31314754"
     }
   ]
 }
