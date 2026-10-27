@@ -179,6 +179,22 @@
       "imdb_id": "tt0144084"
     },
     {
+      "id": "tt0443676",
+      "type": "movie",
+      "name": "Undisputed II: Last Man Standing",
+      "poster": "https://image.tmdb.org/t/p/w500/2gMCokqpIJoh6u5o06LlOZWsI3k.jpg",
+      "posterShape": "poster",
+      "description": "Heavyweight Champ George \"Iceman\" Chambers is sent to a Russian jail on trumped-up drug charges. In order to win his freedom he must fight against the jailhouse fighting champ Uri Boyka in a battle to the death. This time he is not fighting for a title, he is fighting for his life!",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2006",
+      "imdb_id": "tt0443676"
+    },
+    {
       "id": "tt5095076",
       "type": "movie",
       "name": "Wardriver",
@@ -277,22 +293,6 @@
       ],
       "releaseInfo": "2007",
       "imdb_id": "tt0452623"
-    },
-    {
-      "id": "tt0373469",
-      "type": "movie",
-      "name": "Kiss Kiss Bang Bang",
-      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
-      "posterShape": "poster",
-      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0373469"
     }
   ]
 }
