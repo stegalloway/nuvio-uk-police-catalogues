@@ -103,21 +103,6 @@
       "imdb_id": "tt11561116"
     },
     {
-      "id": "tt10954984",
-      "type": "movie",
-      "name": "Nope",
-      "poster": "https://image.tmdb.org/t/p/w500/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg",
-      "posterShape": "poster",
-      "description": "Residents in a lonely gulch of inland California bear witness to an uncanny, chilling discovery.",
-      "genres": [
-        "Horror",
-        "Science Fiction",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt10954984"
-    },
-    {
       "id": "tt33028778",
       "type": "movie",
       "name": "Primate",
@@ -293,6 +278,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt5867314"
+    },
+    {
+      "id": "tt4196566",
+      "type": "movie",
+      "name": "The Deliverance",
+      "poster": "https://image.tmdb.org/t/p/w500/og1FteMFRInoQnlZeWqEn8XpXHh.jpg",
+      "posterShape": "poster",
+      "description": "Ebony Jackson, a struggling single mother fighting her personal demons, moves her family into a new home for a fresh start. But when strange occurrences inside the home raise the suspicions of Child Protective Services and threaten to tear the family apart, Ebony soon finds herself locked in a battle for her life and the souls of her children.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt4196566"
     }
   ]
 }
