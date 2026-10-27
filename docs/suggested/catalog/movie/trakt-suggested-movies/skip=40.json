@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt2582802",
+      "type": "movie",
+      "name": "Whiplash",
+      "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+      "posterShape": "poster",
+      "description": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
+      "genres": [
+        "Drama",
+        "Music",
+        "Thriller"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2582802"
+    },
+    {
       "id": "tt33100314",
       "type": "movie",
       "name": "Remarkably Bright Creatures",

@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt5611024",
+      "type": "series",
+      "name": "Fool Me Once",
+      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "posterShape": "poster",
+      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt5611024"
+    },
+    {
       "id": "tt1652216",
       "type": "series",
       "name": "DCI Banks",
@@ -274,21 +289,6 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt2304589"
-    },
-    {
-      "id": "tt1389371",
-      "type": "series",
-      "name": "Rubicon",
-      "poster": "https://image.tmdb.org/t/p/w500/aYvsIIHsHkIz8fv3qbQCJpkgmLO.jpg",
-      "posterShape": "poster",
-      "description": "An intelligence analyst at a national think tank in New York City called the American Policy Institute discovers that he may be working with members of a secret society that manipulates world events on a grand scale.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1389371"
     }
   ]
 }

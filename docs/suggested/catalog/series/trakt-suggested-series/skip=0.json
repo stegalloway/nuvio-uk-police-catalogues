@@ -128,20 +128,6 @@
       "imdb_id": "tt2149175"
     },
     {
-      "id": "tt5715524",
-      "type": "series",
-      "name": "Mayans M.C.",
-      "poster": "https://image.tmdb.org/t/p/w500/510A0upV9WRAynEgs1E2B3eBxi5.jpg",
-      "posterShape": "poster",
-      "description": "Set in the aftermath of Jax Teller’s death, Ezekiel \"EZ\" Reyes is fresh out of prison and a prospect in the Mayans M.C. charter on the Cali/Mexi border. Now, EZ must carve out his new identity in a town where he was once the golden boy with the American Dream in his grasp.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt5715524"
-    },
-    {
       "id": "tt11761194",
       "type": "series",
       "name": "Power Book IV: Force",
@@ -154,6 +140,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11761194"
+    },
+    {
+      "id": "tt5715524",
+      "type": "series",
+      "name": "Mayans M.C.",
+      "poster": "https://image.tmdb.org/t/p/w500/510A0upV9WRAynEgs1E2B3eBxi5.jpg",
+      "posterShape": "poster",
+      "description": "Set in the aftermath of Jax Teller’s death, Ezekiel \"EZ\" Reyes is fresh out of prison and a prospect in the Mayans M.C. charter on the Cali/Mexi border. Now, EZ must carve out his new identity in a town where he was once the golden boy with the American Dream in his grasp.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt5715524"
     },
     {
       "id": "tt4276618",

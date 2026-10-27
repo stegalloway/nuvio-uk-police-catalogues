@@ -163,6 +163,21 @@
       "imdb_id": "tt30144839"
     },
     {
+      "id": "tt0443706",
+      "type": "movie",
+      "name": "Zodiac",
+      "poster": "https://image.tmdb.org/t/p/w500/6YmeO4pB7XTh8P8F960O1uA14JO.jpg",
+      "posterShape": "poster",
+      "description": "Police conduct a manhunt for the Zodiac Killer, a serial killer who terrorized the San Francisco Bay Area during the late 1960s and early 1970s, taunting police with letters, bloodstained clothing, and ciphers mailed to newspapers.",
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0443706"
+    },
+    {
       "id": "tt2872718",
       "type": "movie",
       "name": "Nightcrawler",
@@ -281,21 +296,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt9603208"
-    },
-    {
-      "id": "tt33296751",
-      "type": "movie",
-      "name": "Tuner",
-      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
-      "posterShape": "poster",
-      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33296751"
     }
   ]
 }
