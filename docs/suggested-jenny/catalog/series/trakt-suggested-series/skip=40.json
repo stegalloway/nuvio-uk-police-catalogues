@@ -57,6 +57,19 @@
       "imdb_id": "tt14016500"
     },
     {
+      "id": "tt4655480",
+      "type": "series",
+      "name": "Chicago Med",
+      "poster": "https://image.tmdb.org/t/p/w500/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
+      "posterShape": "poster",
+      "description": "An emotional thrill ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors who hold it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt4655480"
+    },
+    {
       "id": "tt12306692",
       "type": "series",
       "name": "American Horror Stories",
@@ -70,19 +83,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt12306692"
-    },
-    {
-      "id": "tt4655480",
-      "type": "series",
-      "name": "Chicago Med",
-      "poster": "https://image.tmdb.org/t/p/w500/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
-      "posterShape": "poster",
-      "description": "An emotional thrill ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors who hold it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4655480"
     },
     {
       "id": "tt11041332",
@@ -129,6 +129,19 @@
       "imdb_id": "tt33332385"
     },
     {
+      "id": "tt0397442",
+      "type": "series",
+      "name": "Gossip Girl",
+      "poster": "https://image.tmdb.org/t/p/w500/ep03M6KKZGeljOizPEbt3Geja5n.jpg",
+      "posterShape": "poster",
+      "description": "An exclusive group of privileged teens from a posh prep school on Manhattan's Upper East Side whose lives revolve around the blog of the all-knowing albeit ultra-secretive Gossip Girl.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0397442"
+    },
+    {
       "id": "tt8415836",
       "type": "series",
       "name": "Guillermo del Toro's Cabinet of Curiosities",
@@ -142,19 +155,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt8415836"
-    },
-    {
-      "id": "tt0397442",
-      "type": "series",
-      "name": "Gossip Girl",
-      "poster": "https://image.tmdb.org/t/p/w500/ep03M6KKZGeljOizPEbt3Geja5n.jpg",
-      "posterShape": "poster",
-      "description": "An exclusive group of privileged teens from a posh prep school on Manhattan's Upper East Side whose lives revolve around the blog of the all-knowing albeit ultra-secretive Gossip Girl.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0397442"
     },
     {
       "id": "tt13365348",
