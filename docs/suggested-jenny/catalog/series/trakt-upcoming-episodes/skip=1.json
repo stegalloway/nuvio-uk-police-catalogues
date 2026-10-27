@@ -1,3 +1,18 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "tt35726020",
+      "type": "series",
+      "name": "Kill Jackie",
+      "poster": "https://image.tmdb.org/t/p/w500/3tjZspkqquE24iK1rc0nvnJwdEZ.jpg",
+      "posterShape": "poster",
+      "description": "S1 E2–8 · out Thu 1 Oct\n\nJackie Price has been living a wealthy, luxurious life for the past 20 years after escaping a dangerous past as an international cocaine dealer. But just as life begins to feel a little boring, she discovers that The Seven Demons, a group of the world’s most terrifying hitmen, have been hired to kill her.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "Out now · S1 E2–8",
+      "imdb_id": "tt35726020"
+    }
+  ]
 }
