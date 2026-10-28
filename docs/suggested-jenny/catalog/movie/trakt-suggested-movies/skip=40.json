@@ -205,21 +205,6 @@
       "imdb_id": "tt1877830"
     },
     {
-      "id": "tt1051906",
-      "type": "movie",
-      "name": "The Invisible Man",
-      "poster": "https://image.tmdb.org/t/p/w500/5EufsDwXdY2CVttYOk2WtYhgKpa.jpg",
-      "posterShape": "poster",
-      "description": "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
-      "genres": [
-        "Thriller",
-        "Science Fiction",
-        "Horror"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt1051906"
-    },
-    {
       "id": "tt5040012",
       "type": "movie",
       "name": "Nosferatu",
@@ -263,22 +248,6 @@
       "imdb_id": "tt29713093"
     },
     {
-      "id": "tt14138650",
-      "type": "movie",
-      "name": "The Pale Blue Eye",
-      "poster": "https://image.tmdb.org/t/p/w500/9xkGlFRqrN8btTLU0KQvOfn2PHr.jpg",
-      "posterShape": "poster",
-      "description": "West Point, New York, 1830. When a cadet at the burgeoning military academy is found hanged with his heart cut out, the top brass summons former New York City constable Augustus Landor to investigate. While attempting to solve this grisly mystery, the reluctant detective engages the help of one of the cadets: a strange but brilliant young fellow by the name of Edgar Allan Poe.",
-      "genres": [
-        "Thriller",
-        "Crime",
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14138650"
-    },
-    {
       "id": "tt11561116",
       "type": "movie",
       "name": "The Whisper Man",
@@ -292,6 +261,35 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt11561116"
+    },
+    {
+      "id": "tt30887701",
+      "type": "movie",
+      "name": "Pinocchio: Unstrung",
+      "poster": "https://image.tmdb.org/t/p/w500/hJNdizFlxOW89edX3Rzr6OliSFI.jpg",
+      "posterShape": "poster",
+      "description": "Influenced by a sinister Cricket and created by Geppetto, Pinocchio launches a violent crusade to carve himself into a real boy like his brother James, one piece at a time.",
+      "genres": [
+        "Horror",
+        "Fantasy",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt30887701"
+    },
+    {
+      "id": "tt6874690",
+      "type": "movie",
+      "name": "The Rule of Jenny Pen",
+      "poster": "https://image.tmdb.org/t/p/w500/5vqK1wbrgmUvqHn6yPt9b6qT9iL.jpg",
+      "posterShape": "poster",
+      "description": "Confined to a secluded rest home and trapped within his stroke-ridden body, a former Judge must stop an elderly psychopath who employs a child's puppet to abuse the home's residents with deadly consequences.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt6874690"
     }
   ]
 }
