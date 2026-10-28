@@ -165,17 +165,19 @@
       "imdb_id": "tt0257044"
     },
     {
-      "id": "tt2396589",
+      "id": "tt0278504",
       "type": "movie",
-      "name": "Mudbound",
-      "poster": "https://image.tmdb.org/t/p/w500/tf21kSKepMOlnorszWaiFwksKU4.jpg",
+      "name": "Insomnia",
+      "poster": "https://image.tmdb.org/t/p/w500/riVXh3EimGO0y5dgQxEWPRy5Itg.jpg",
       "posterShape": "poster",
-      "description": "In the post–World War II South, two families are pitted against a barbaric social hierarchy and an unrelenting landscape as they simultaneously fight the battle at home and the battle abroad.",
+      "description": "Two Los Angeles homicide detectives are dispatched to a northern town where the sun doesn't set to investigate the methodical murder of a local teen.",
       "genres": [
+        "Thriller",
+        "Crime",
         "Drama"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt2396589"
+      "releaseInfo": "2002",
+      "imdb_id": "tt0278504"
     },
     {
       "id": "tt0399146",
@@ -238,19 +240,19 @@
       "imdb_id": "tt3659388"
     },
     {
-      "id": "tt1403865",
+      "id": "tt22084616",
       "type": "movie",
-      "name": "True Grit",
-      "poster": "https://image.tmdb.org/t/p/w500/tCrB8pcjadZjsDk7rleGJaIv78k.jpg",
+      "name": "Spider-Man: Brand New Day",
+      "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
       "posterShape": "poster",
-      "description": "Following the murder of her father by a hired hand, a 14-year-old farm girl sets out to capture the killer. To aid her, she hires the toughest U.S. Marshal she can find—a man with 'true grit'—Reuben J. 'Rooster' Cogburn.",
+      "description": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
       "genres": [
-        "Drama",
-        "Adventure",
-        "Western"
+        "Science Fiction",
+        "Action",
+        "Adventure"
       ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1403865"
+      "releaseInfo": "2026",
+      "imdb_id": "tt22084616"
     },
     {
       "id": "tt3799694",
@@ -268,33 +270,32 @@
       "imdb_id": "tt3799694"
     },
     {
-      "id": "tt22084616",
+      "id": "tt8236336",
       "type": "movie",
-      "name": "Spider-Man: Brand New Day",
-      "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "name": "The Report",
+      "poster": "https://image.tmdb.org/t/p/w500/sG5NI6TMNR9ftOdTIXmG0hrBYSY.jpg",
       "posterShape": "poster",
-      "description": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+      "description": "The story of Daniel Jones, lead investigator for the US Senate’s sweeping study into the CIA's Detention and Interrogation Program, which was found to be brutal, immoral and ineffective. With the truth at stake, Jones battled tirelessly to make public what many in power sought to keep hidden.",
       "genres": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
+        "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt22084616"
+      "releaseInfo": "2019",
+      "imdb_id": "tt8236336"
     },
     {
-      "id": "tt0401792",
+      "id": "tt4846232",
       "type": "movie",
-      "name": "Sin City",
-      "poster": "https://image.tmdb.org/t/p/w500/i66G50wATMmPrvpP95f0XP6ZdVS.jpg",
+      "name": "Good Time",
+      "poster": "https://image.tmdb.org/t/p/w500/yE1c9hj5Hf8a9KplAdRdhADqUro.jpg",
       "posterShape": "poster",
-      "description": "Welcome to Sin City. This town beckons to the tough, the corrupt, the brokenhearted. Some call it dark… Hard-boiled. Then there are those who call it home — Crooked cops, sexy dames, desperate vigilantes. Some are seeking revenge, others lust after redemption, and then there are those hoping for a little of both. A universe of unlikely and reluctant heroes still trying to do the right thing in a city that refuses to care.",
+      "description": "After a botched bank robbery lands his younger brother in prison, Connie Nikas embarks on a twisted odyssey through New York City's underworld to get his brother Nick out of jail.",
       "genres": [
         "Crime",
-        "Thriller"
+        "Thriller",
+        "Drama"
       ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0401792"
+      "releaseInfo": "2017",
+      "imdb_id": "tt4846232"
     }
   ]
 }

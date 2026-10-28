@@ -1,50 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt30460310",
-      "type": "series",
-      "name": "Spider-Noir",
-      "poster": "https://image.tmdb.org/t/p/w500/oD8WSVqz84ZRfelkr7JPeJwR9Iv.jpg",
-      "posterShape": "poster",
-      "description": "Ben Reilly, an aging and down on his luck private investigator in 1930s New York, is forced to grapple with his past life as the city's one and only superhero.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt30460310"
-    },
-    {
-      "id": "tt1489428",
-      "type": "series",
-      "name": "Justified",
-      "poster": "https://image.tmdb.org/t/p/w500/ie1quhMk09lDtvtAyQAHTu09R9Z.jpg",
-      "posterShape": "poster",
-      "description": "A character drama based on the 2001 Elmore Leonard short story \"Fire in the Hole.\" Leonard's tale centers around U.S. Marshal Raylan Givens of Kentucky, a quiet but strong-willed official of the law. The tale covers his high-stakes job, as well as his strained relationships with his ex-wife and father.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1489428"
-    },
-    {
-      "id": "tt4192812",
-      "type": "series",
-      "name": "Unforgotten",
-      "poster": "https://image.tmdb.org/t/p/w500/bfysfq7JDBWKLpkKPaOU2FpfmB.jpg",
-      "posterShape": "poster",
-      "description": "London police detectives Cassie Stuart and Sunny Khan investigate historic cold cases involving missing persons, murder and long-hidden secrets.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4192812"
-    },
-    {
       "id": "tt7440726",
       "type": "series",
       "name": "Your Honor",
@@ -59,6 +15,20 @@
       "imdb_id": "tt7440726"
     },
     {
+      "id": "tt1652216",
+      "type": "series",
+      "name": "DCI Banks",
+      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
+      "posterShape": "poster",
+      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2011",
+      "imdb_id": "tt1652216"
+    },
+    {
       "id": "tt0903747",
       "type": "series",
       "name": "Breaking Bad",
@@ -71,49 +41,6 @@
       ],
       "releaseInfo": "2008",
       "imdb_id": "tt0903747"
-    },
-    {
-      "id": "tt6037988",
-      "type": "series",
-      "name": "Last Seen",
-      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
-      "posterShape": "poster",
-      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt6037988"
-    },
-    {
-      "id": "tt0805661",
-      "type": "series",
-      "name": "The Black Donnellys",
-      "poster": "https://image.tmdb.org/t/p/w500/hRKjeP8laTHS9q5cJA046DJa5kA.jpg",
-      "posterShape": "poster",
-      "description": "Meet the Donnelly brothers: Tommy, Jimmy, Kevin and Sean. There is nothing these four Irish brothers wouldn't do to protect each other, and for them that means lying, cheating, stealing and, occasionally, calling the cops. Narrated by wannabe gangster Joey \"Ice Cream,\" this gritty series bears witness to the Donnelly brothers' sudden involvement in organized crime, focusing on how they go from boys to mobsters, and showing how their new life affects their relationships with friends, family and lovers.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0805661"
-    },
-    {
-      "id": "tt0224853",
-      "type": "series",
-      "name": "The Corner",
-      "poster": "https://image.tmdb.org/t/p/w500/mdZEDLbtbp9CUOFPTvrYh55G5V2.jpg",
-      "posterShape": "poster",
-      "description": "The Corner presents the world of Fayette Street using real names and real events. The miniseries tells the true story of men, women and children living amid the open-air drug markets of West Baltimore. It chronicles a year in the lives of 15-year-old DeAndre McCullough, his mother Fran Boyd, and his father Gary McCullough, as well as other addicts and low-level drug dealers caught up in the twin-engine economy of heroin and cocaine.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2000",
-      "imdb_id": "tt0224853"
     },
     {
       "id": "tt14063678",
@@ -145,32 +72,18 @@
       "imdb_id": "tt5611024"
     },
     {
-      "id": "tt1652216",
+      "id": "tt2788432",
       "type": "series",
-      "name": "DCI Banks",
-      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
+      "name": "American Crime Story",
+      "poster": "https://image.tmdb.org/t/p/w500/dtIS3Qk8ny1FWQLiuJ77MTDX5bZ.jpg",
       "posterShape": "poster",
-      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1652216"
-    },
-    {
-      "id": "tt4687880",
-      "type": "series",
-      "name": "Goliath",
-      "poster": "https://image.tmdb.org/t/p/w500/b7ygC3GRaq4xc0nkWdGnydtMfvD.jpg",
-      "posterShape": "poster",
-      "description": "Once a powerful lawyer, Billy McBride is now burned out and washed up, spending more time in a bar than a courtroom. When he reluctantly agrees to pursue a wrongful death lawsuit against the biggest client of Cooperman &amp; McBride, the massive law firm he helped create, Billy and his ragtag team uncover a vast and deadly conspiracy, pitting them all in a life or death trial against the ultimate Goliath.",
+      "description": "An anthology series centered around some of history's most famous criminal investigations.",
       "genres": [
         "Crime",
         "Drama"
       ],
       "releaseInfo": "2016",
-      "imdb_id": "tt4687880"
+      "imdb_id": "tt2788432"
     },
     {
       "id": "tt0306414",
@@ -187,50 +100,6 @@
       "imdb_id": "tt0306414"
     },
     {
-      "id": "tt2788432",
-      "type": "series",
-      "name": "American Crime Story",
-      "poster": "https://image.tmdb.org/t/p/w500/dtIS3Qk8ny1FWQLiuJ77MTDX5bZ.jpg",
-      "posterShape": "poster",
-      "description": "An anthology series centered around some of history's most famous criminal investigations.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt2788432"
-    },
-    {
-      "id": "tt2191671",
-      "type": "series",
-      "name": "Elementary",
-      "poster": "https://image.tmdb.org/t/p/w500/q9dObe29W4bDpgzUfOOH3ZnzDbR.jpg",
-      "posterShape": "poster",
-      "description": "A modern-day drama about a crime-solving duo that cracks the NYPD's most impossible cases. Following his fall from grace in London and a stint in rehab, eccentric Sherlock escapes to Manhattan where his wealthy father forces him to live with his worst nightmare - a sober companion, Dr. Watson.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt2191671"
-    },
-    {
-      "id": "tt28118211",
-      "type": "series",
-      "name": "A Good Girl's Guide to Murder",
-      "poster": "https://image.tmdb.org/t/p/w500/pVV62HbgLP7JsZv096XmjPZtjdP.jpg",
-      "posterShape": "poster",
-      "description": "Five years after the death of schoolgirl Andie Bell, Pippa Fitz-Amobi sets out to uncover what really happened to her. Sal Singh, Andie's boyfriend, admitted to the murder before taking his own life, but Pip doesn't believe he's responsible and teams up with Sal's brother Ravi to uncover the truth. If Sal Singh isn't a murderer and the real killer is still out there, how far will they go to keep Pip from finding out the truth?",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt28118211"
-    },
-    {
       "id": "tt6510950",
       "type": "series",
       "name": "Condor",
@@ -243,6 +112,20 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt6510950"
+    },
+    {
+      "id": "tt5290382",
+      "type": "series",
+      "name": "MINDHUNTER",
+      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+      "posterShape": "poster",
+      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5290382"
     },
     {
       "id": "tt36022742",
@@ -260,20 +143,6 @@
       "imdb_id": "tt36022742"
     },
     {
-      "id": "tt5290382",
-      "type": "series",
-      "name": "MINDHUNTER",
-      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
-      "posterShape": "poster",
-      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt5290382"
-    },
-    {
       "id": "tt35515227",
       "type": "series",
       "name": "CIA",
@@ -286,6 +155,139 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35515227"
+    },
+    {
+      "id": "tt3428912",
+      "type": "series",
+      "name": "Happy Valley",
+      "poster": "https://image.tmdb.org/t/p/w500/xZK5iQSrn2mouZEk2PwyLPCwa4u.jpg",
+      "posterShape": "poster",
+      "description": "Happy Valley is a dark, funny, multi-layered thriller revolving around the personal and professional life of Catherine, a dedicated, experienced, hard-working copper. She is also a bereaved mother who looks after her orphaned grandchild.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt3428912"
+    },
+    {
+      "id": "tt14582876",
+      "type": "series",
+      "name": "On Call",
+      "poster": "https://image.tmdb.org/t/p/w500/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
+      "posterShape": "poster",
+      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt14582876"
+    },
+    {
+      "id": "tt4118584",
+      "type": "series",
+      "name": "Shades of Blue",
+      "poster": "https://image.tmdb.org/t/p/w500/wxg8lxFpandLQtOiHRnTEQf7oeL.jpg",
+      "posterShape": "poster",
+      "description": "Sexy New York detective and single mother Harlee Santos fell in with a tight-knit group of dirty cops, taking bribes and protection money that she uses to provide the best life for her honest, talented daughter. But when she's trapped by the FBI and forced to inform on her own \"brothers,\" she'll have to walk the fine line between love, loyalty, honor and betrayal, and try to keep it together for her daughter's future.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt4118584"
+    },
+    {
+      "id": "tt2304589",
+      "type": "series",
+      "name": "Defending Jacob",
+      "poster": "https://image.tmdb.org/t/p/w500/JTmkzwSDRiS9nvSPwpDB9fmZj2.jpg",
+      "posterShape": "poster",
+      "description": "A family's lives are irreparably disrupted when the 14-year-old son is accused of murdering a fellow classmate.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt2304589"
+    },
+    {
+      "id": "tt1595859",
+      "type": "series",
+      "name": "Blue Bloods",
+      "poster": "https://image.tmdb.org/t/p/w500/q1WlrxnCvNhBjJ4N7V0JQXjnIBN.jpg",
+      "posterShape": "poster",
+      "description": "A drama about a multi-generational family of cops dedicated to New York City law enforcement. Frank Reagan is the New York Police Commissioner and heads both the police force and the Reagan brood. He runs his department as diplomatically as he runs his family, even when dealing with the politics that plagued his unapologetically bold father, Henry, during his stint as Chief.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1595859"
+    },
+    {
+      "id": "tt3205802",
+      "type": "series",
+      "name": "How to Get Away with Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/bJs8Y6T88NcgksxA8UaVl4YX8p8.jpg",
+      "posterShape": "poster",
+      "description": "A sexy, suspense-driven legal thriller about a group of ambitious law students and their brilliant, mysterious criminal defense professor. They become entangled in a murder plot and will shake the entire university and change the course of their lives.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt3205802"
+    },
+    {
+      "id": "tt16030542",
+      "type": "series",
+      "name": "The Recruit",
+      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
+      "posterShape": "poster",
+      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt16030542"
+    },
+    {
+      "id": "tt2701582",
+      "type": "series",
+      "name": "Endeavour",
+      "poster": "https://image.tmdb.org/t/p/w500/suX3F5e8XN9emrb52CQSwt2mRwx.jpg",
+      "posterShape": "poster",
+      "description": "The early days of a young Endeavour Morse, whose experiences as a detective constable with the Oxford City Police will ultimately shape his future.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt2701582"
+    },
+    {
+      "id": "tt1493239",
+      "type": "series",
+      "name": "Terriers",
+      "poster": "https://image.tmdb.org/t/p/w500/51T6VEO74kijlt2SDowGiiq0Cti.jpg",
+      "posterShape": "poster",
+      "description": "Ex-cop and recovering alcoholic Hank Dolworth partners with his best friend, former criminal Britt Pollack, in an unlicensed private investigation business. The series is set in Ocean Beach, San Diego, California, although it is portrayed as a distinct town, with Dolworth having once been a member of the fictional Ocean Beach Police Department.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Comedy"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1493239"
     }
   ]
 }
