@@ -190,21 +190,6 @@
       "imdb_id": "tt29516222"
     },
     {
-      "id": "tt10954984",
-      "type": "movie",
-      "name": "Nope",
-      "poster": "https://image.tmdb.org/t/p/w500/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg",
-      "posterShape": "poster",
-      "description": "Residents in a lonely gulch of inland California bear witness to an uncanny, chilling discovery.",
-      "genres": [
-        "Horror",
-        "Science Fiction",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt10954984"
-    },
-    {
       "id": "tt11561116",
       "type": "movie",
       "name": "The Whisper Man",
@@ -291,6 +276,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt23642744"
+    },
+    {
+      "id": "tt26470109",
+      "type": "movie",
+      "name": "Oddity",
+      "poster": "https://image.tmdb.org/t/p/w500/3Z9c1tbUhP0QruRjczPHnbx3U2D.jpg",
+      "posterShape": "poster",
+      "description": "After the brutal murder of her twin sister, Darcy goes after those responsible by using haunted items as her tools for revenge.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt26470109"
     }
   ]
 }

@@ -144,6 +144,19 @@
       "imdb_id": "tt8415836"
     },
     {
+      "id": "tt0397442",
+      "type": "series",
+      "name": "Gossip Girl",
+      "poster": "https://image.tmdb.org/t/p/w500/ep03M6KKZGeljOizPEbt3Geja5n.jpg",
+      "posterShape": "poster",
+      "description": "An exclusive group of privileged teens from a posh prep school on Manhattan's Upper East Side whose lives revolve around the blog of the all-knowing albeit ultra-secretive Gossip Girl.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0397442"
+    },
+    {
       "id": "tt26576161",
       "type": "series",
       "name": "The Terminal List: Dark Wolf",
@@ -156,19 +169,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt26576161"
-    },
-    {
-      "id": "tt0397442",
-      "type": "series",
-      "name": "Gossip Girl",
-      "poster": "https://image.tmdb.org/t/p/w500/ep03M6KKZGeljOizPEbt3Geja5n.jpg",
-      "posterShape": "poster",
-      "description": "An exclusive group of privileged teens from a posh prep school on Manhattan's Upper East Side whose lives revolve around the blog of the all-knowing albeit ultra-secretive Gossip Girl.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0397442"
     },
     {
       "id": "tt13365348",
@@ -213,21 +213,6 @@
       "imdb_id": "tt31849826"
     },
     {
-      "id": "tt11794812",
-      "type": "series",
-      "name": "Cross",
-      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
-      "posterShape": "poster",
-      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt11794812"
-    },
-    {
       "id": "tt0489974",
       "type": "series",
       "name": "Carnival Row",
@@ -241,6 +226,21 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt0489974"
+    },
+    {
+      "id": "tt11794812",
+      "type": "series",
+      "name": "Cross",
+      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
+      "posterShape": "poster",
+      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt11794812"
     },
     {
       "id": "tt13444912",

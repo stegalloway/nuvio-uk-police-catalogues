@@ -140,6 +140,19 @@
       "imdb_id": "tt32252772"
     },
     {
+      "id": "tt2937900",
+      "type": "series",
+      "name": "The Knick",
+      "poster": "https://image.tmdb.org/t/p/w500/oeEqDSIVOi6q0GcZj8L9Q6G7fGC.jpg",
+      "posterShape": "poster",
+      "description": "Set in downtown New York in 1900, 'The Knick' is centered on the Knickerbocker Hospital and its staff, notably Dr. John Thackery, the hospital's brilliant chief surgeon who pushes medicine's boundaries, pioneering new procedures despite a severe drug addiction.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2937900"
+    },
+    {
       "id": "tt6053512",
       "type": "series",
       "name": "Home Before Dark",
@@ -168,19 +181,6 @@
       "imdb_id": "tt15567174"
     },
     {
-      "id": "tt2937900",
-      "type": "series",
-      "name": "The Knick",
-      "poster": "https://image.tmdb.org/t/p/w500/oeEqDSIVOi6q0GcZj8L9Q6G7fGC.jpg",
-      "posterShape": "poster",
-      "description": "Set in downtown New York in 1900, 'The Knick' is centered on the Knickerbocker Hospital and its staff, notably Dr. John Thackery, the hospital's brilliant chief surgeon who pushes medicine's boundaries, pioneering new procedures despite a severe drug addiction.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2937900"
-    },
-    {
       "id": "tt1831804",
       "type": "series",
       "name": "The Stand",
@@ -193,6 +193,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt1831804"
+    },
+    {
+      "id": "tt5290382",
+      "type": "series",
+      "name": "MINDHUNTER",
+      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+      "posterShape": "poster",
+      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5290382"
     },
     {
       "id": "tt8354062",
@@ -220,20 +234,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11055882"
-    },
-    {
-      "id": "tt5290382",
-      "type": "series",
-      "name": "MINDHUNTER",
-      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
-      "posterShape": "poster",
-      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt5290382"
     },
     {
       "id": "tt33043892",
