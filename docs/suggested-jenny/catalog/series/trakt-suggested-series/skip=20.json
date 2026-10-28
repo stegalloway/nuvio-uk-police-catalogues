@@ -1,17 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt4452630",
+      "id": "tt11540908",
       "type": "series",
-      "name": "Code Black",
-      "poster": "https://image.tmdb.org/t/p/w500/3T1b6YK6vLrZoLZC5hd65ZuRLq8.jpg",
+      "name": "Carrie",
+      "poster": "https://image.tmdb.org/t/p/w500/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
       "posterShape": "poster",
-      "description": "Inspired by the award-winning documentary, this medical drama is set in the busiest and most notorious ER in the nation where the extraordinary staff confront a challenged system in order to protect their ideals and the patients who need them the most.",
+      "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
       "genres": [
-        "Drama"
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4452630"
+      "releaseInfo": "2026",
+      "imdb_id": "tt11540908"
     },
     {
       "id": "tt19244304",
