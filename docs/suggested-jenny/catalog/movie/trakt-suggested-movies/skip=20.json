@@ -15,6 +15,20 @@
       "imdb_id": "tt32268156"
     },
     {
+      "id": "tt21201300",
+      "type": "movie",
+      "name": "Bagman",
+      "poster": "https://image.tmdb.org/t/p/w500/53IK9rlZJbwFYbNnJZiLq7UWxkT.jpg",
+      "posterShape": "poster",
+      "description": "For centuries and across cultures, parents have warned their children of the legendary Bagman, who snatches innocent children and stuffs them into his vile, rotting bag—never to be seen again. Patrick McKee narrowly escaped such an encounter as a boy, which left him with lasting scars throughout his adulthood. Now, Patrick’s childhood tormentor has returned, threatening the safety of his wife Karina and son Jake.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt21201300"
+    },
+    {
       "id": "tt15474916",
       "type": "movie",
       "name": "Smile",
@@ -267,20 +281,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt20198774"
-    },
-    {
-      "id": "tt24807110",
-      "type": "movie",
-      "name": "Don't Move",
-      "poster": "https://image.tmdb.org/t/p/w500/cRDJxdnRb7ikKd6fVJTrGeaL34v.jpg",
-      "posterShape": "poster",
-      "description": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt24807110"
     }
   ]
 }
