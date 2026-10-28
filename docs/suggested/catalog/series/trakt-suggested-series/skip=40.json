@@ -189,20 +189,6 @@
       "imdb_id": "tt1595859"
     },
     {
-      "id": "tt35826715",
-      "type": "series",
-      "name": "Boston Blue",
-      "poster": "https://image.tmdb.org/t/p/w500/81IhL3ckAgJ9J8vHazlUA5BNs8G.jpg",
-      "posterShape": "poster",
-      "description": "NYPD Detective Danny Reagan takes a job with the Boston PD and is paired with Detective Lena Silver, part of a law enforcement family comprised of District Attorney Mae Silver, Police Superintendent Sarah Silver, rookie cop Jonah Silver and Rev. Edwin Peters. Reagan hopes to reconnect with his son, Sean, in Boston.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35826715"
-    },
-    {
       "id": "tt7187044",
       "type": "series",
       "name": "City on a Hill",
@@ -287,6 +273,21 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt4604612"
+    },
+    {
+      "id": "tt0286486",
+      "type": "series",
+      "name": "The Shield",
+      "poster": "https://image.tmdb.org/t/p/w500/AfdZXqqlFsPUEfi6kWWWthxw7Nz.jpg",
+      "posterShape": "poster",
+      "description": "The story of an inner-city Los Angeles police precinct where some of the cops aren't above breaking the rules or working against their associates to both keep the streets safe and their self-interests intact.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2002",
+      "imdb_id": "tt0286486"
     }
   ]
 }
