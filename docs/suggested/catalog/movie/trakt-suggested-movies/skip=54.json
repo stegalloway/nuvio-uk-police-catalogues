@@ -1,19 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt30144839",
+      "id": "tt15398776",
       "type": "movie",
-      "name": "One Battle After Another",
-      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
+      "name": "Oppenheimer",
+      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
       "posterShape": "poster",
-      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
       "genres": [
-        "Thriller",
-        "Crime",
-        "Comedy"
+        "Drama",
+        "History",
+        "War"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30144839"
+      "releaseInfo": "2023",
+      "imdb_id": "tt15398776"
     },
     {
       "id": "tt33296751",
