@@ -1,33 +1,32 @@
 {
   "metas": [
     {
-      "id": "tt31050020",
+      "id": "tt8236336",
       "type": "movie",
-      "name": "Once Upon a Deadpool",
-      "poster": "https://image.tmdb.org/t/p/w500/w6Jk8BHohhoKBUcxGeSyDQGWGWc.jpg",
+      "name": "The Report",
+      "poster": "https://image.tmdb.org/t/p/w500/sG5NI6TMNR9ftOdTIXmG0hrBYSY.jpg",
       "posterShape": "poster",
-      "description": "A kidnapped Fred Savage is forced to endure Deadpool's PG-13 rendition of Deadpool 2, as a Princess Bride-esque story full of magic, wonder, and zero Fs.",
+      "description": "The story of Daniel Jones, lead investigator for the US Senate’s sweeping study into the CIA's Detention and Interrogation Program, which was found to be brutal, immoral and ineffective. With the truth at stake, Jones battled tirelessly to make public what many in power sought to keep hidden.",
       "genres": [
-        "Action",
-        "Comedy",
-        "Adventure"
+        "Drama"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt31050020"
+      "releaseInfo": "2019",
+      "imdb_id": "tt8236336"
     },
     {
-      "id": "tt0401792",
+      "id": "tt4846232",
       "type": "movie",
-      "name": "Sin City",
-      "poster": "https://image.tmdb.org/t/p/w500/i66G50wATMmPrvpP95f0XP6ZdVS.jpg",
+      "name": "Good Time",
+      "poster": "https://image.tmdb.org/t/p/w500/yE1c9hj5Hf8a9KplAdRdhADqUro.jpg",
       "posterShape": "poster",
-      "description": "Welcome to Sin City. This town beckons to the tough, the corrupt, the brokenhearted. Some call it dark… Hard-boiled. Then there are those who call it home — Crooked cops, sexy dames, desperate vigilantes. Some are seeking revenge, others lust after redemption, and then there are those hoping for a little of both. A universe of unlikely and reluctant heroes still trying to do the right thing in a city that refuses to care.",
+      "description": "After a botched bank robbery lands his younger brother in prison, Connie Nikas embarks on a twisted odyssey through New York City's underworld to get his brother Nick out of jail.",
       "genres": [
         "Crime",
-        "Thriller"
+        "Thriller",
+        "Drama"
       ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0401792"
+      "releaseInfo": "2017",
+      "imdb_id": "tt4846232"
     },
     {
       "id": "tt4572514",
@@ -47,36 +46,6 @@
       "imdb_id": "tt4572514"
     },
     {
-      "id": "tt3659388",
-      "type": "movie",
-      "name": "The Martian",
-      "poster": "https://image.tmdb.org/t/p/w500/5BHuvQ6p9kfc091Z8RiFNhCwL4b.jpg",
-      "posterShape": "poster",
-      "description": "During a manned mission to Mars, Astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. But Watney has survived and finds himself stranded and alone on the hostile planet. With only meager supplies, he must draw upon his ingenuity, wit and spirit to subsist and find a way to signal to Earth that he is alive.",
-      "genres": [
-        "Science Fiction",
-        "Drama",
-        "Adventure"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt3659388"
-    },
-    {
-      "id": "tt0478970",
-      "type": "movie",
-      "name": "Ant-Man",
-      "poster": "https://image.tmdb.org/t/p/w500/rQRnQfUl3kfp78nCWq8Ks04vnq1.jpg",
-      "posterShape": "poster",
-      "description": "Armed with the astonishing ability to shrink in scale but increase in strength, master thief Scott Lang must embrace his inner-hero and help his mentor, Doctor Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world.",
-      "genres": [
-        "Science Fiction",
-        "Adventure",
-        "Action"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt0478970"
-    },
-    {
       "id": "tt7526136",
       "type": "movie",
       "name": "Heart of the Beast",
@@ -89,6 +58,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt7526136"
+    },
+    {
+      "id": "tt5950044",
+      "type": "movie",
+      "name": "Superman",
+      "poster": "https://image.tmdb.org/t/p/w500/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
+      "posterShape": "poster",
+      "description": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt5950044"
     },
     {
       "id": "tt16311594",
@@ -135,21 +119,6 @@
       "imdb_id": "tt7181546"
     },
     {
-      "id": "tt12263384",
-      "type": "movie",
-      "name": "Extraction 2",
-      "poster": "https://image.tmdb.org/t/p/w500/7gKI9hpEMcZUQpNgKrkDzJpbnNS.jpg",
-      "posterShape": "poster",
-      "description": "Back from the brink of death, highly skilled commando Tyler Rake takes on another dangerous mission: saving the imprisoned family of a ruthless gangster.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt12263384"
-    },
-    {
       "id": "tt36042156",
       "type": "movie",
       "name": "The Punisher: One Last Kill",
@@ -165,6 +134,37 @@
       "imdb_id": "tt36042156"
     },
     {
+      "id": "tt12263384",
+      "type": "movie",
+      "name": "Extraction 2",
+      "poster": "https://image.tmdb.org/t/p/w500/7gKI9hpEMcZUQpNgKrkDzJpbnNS.jpg",
+      "posterShape": "poster",
+      "description": "Back from the brink of death, highly skilled commando Tyler Rake takes on another dangerous mission: saving the imprisoned family of a ruthless gangster.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt12263384"
+    },
+    {
+      "id": "tt3501632",
+      "type": "movie",
+      "name": "Thor: Ragnarok",
+      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "posterShape": "poster",
+      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt3501632"
+    },
+    {
       "id": "tt11539996",
       "type": "movie",
       "name": "Relay",
@@ -178,6 +178,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt11539996"
+    },
+    {
+      "id": "tt0985699",
+      "type": "movie",
+      "name": "Valkyrie",
+      "poster": "https://image.tmdb.org/t/p/w500/8eoRtXswC8IQDsqW7iJWO56NhAv.jpg",
+      "posterShape": "poster",
+      "description": "Wounded in Africa during World War II, Nazi Col. Claus von Stauffenberg returns to his native Germany and joins the Resistance in a daring plan to create a shadow government and assassinate Adolf Hitler. When events unfold so that he becomes a central player, he finds himself tasked with both leading the coup and personally killing the Führer.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "releaseInfo": "2008",
+      "imdb_id": "tt0985699"
     },
     {
       "id": "tt1130884",
@@ -225,6 +240,20 @@
       "imdb_id": "tt0452623"
     },
     {
+      "id": "tt0307901",
+      "type": "movie",
+      "name": "25th Hour",
+      "poster": "https://image.tmdb.org/t/p/w500/uW7tTRElr2tRhmAVESzvHy4ByXg.jpg",
+      "posterShape": "poster",
+      "description": "On the eve of a seven-year prison sentence, a New York drug dealer spends his final day of freedom confronting his past, his relationships, and the choices that led to his downfall in a city still reeling from 9/11.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2002",
+      "imdb_id": "tt0307901"
+    },
+    {
       "id": "tt1596363",
       "type": "movie",
       "name": "The Big Short",
@@ -239,34 +268,18 @@
       "imdb_id": "tt1596363"
     },
     {
-      "id": "tt3501632",
+      "id": "tt1190536",
       "type": "movie",
-      "name": "Thor: Ragnarok",
-      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "name": "Black Dynamite",
+      "poster": "https://image.tmdb.org/t/p/w500/u3oWQDz0JggzzsVlsuHY7XVxp5Y.jpg",
       "posterShape": "poster",
-      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "description": "This is the story of 1970s African-American action legend Black Dynamite. The Man killed his brother, pumped heroin into local orphanages, and flooded the ghetto with adulterated malt liquor. Black Dynamite was the one hero willing to fight The Man all the way from the blood-soaked city streets to the hallowed halls of the Honky House.",
       "genres": [
-        "Action",
-        "Adventure",
         "Comedy",
-        "Science Fiction"
+        "Action"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt3501632"
-    },
-    {
-      "id": "tt0307901",
-      "type": "movie",
-      "name": "25th Hour",
-      "poster": "https://image.tmdb.org/t/p/w500/uW7tTRElr2tRhmAVESzvHy4ByXg.jpg",
-      "posterShape": "poster",
-      "description": "On the eve of a seven-year prison sentence, a New York drug dealer spends his final day of freedom confronting his past, his relationships, and the choices that led to his downfall in a city still reeling from 9/11.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0307901"
+      "releaseInfo": "2009",
+      "imdb_id": "tt1190536"
     },
     {
       "id": "tt15314262",
@@ -282,20 +295,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt15314262"
-    },
-    {
-      "id": "tt21103218",
-      "type": "movie",
-      "name": "The Lost Bus",
-      "poster": "https://image.tmdb.org/t/p/w500/4IPxzGlE17fJAwUTMul4opMeutA.jpg",
-      "posterShape": "poster",
-      "description": "A determined father risks everything to rescue a dedicated teacher and her students from a raging wildfire.",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt21103218"
     }
   ]
 }

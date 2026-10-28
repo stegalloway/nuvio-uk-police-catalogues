@@ -1,18 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt1190536",
+      "id": "tt21103218",
       "type": "movie",
-      "name": "Black Dynamite",
-      "poster": "https://image.tmdb.org/t/p/w500/u3oWQDz0JggzzsVlsuHY7XVxp5Y.jpg",
+      "name": "The Lost Bus",
+      "poster": "https://image.tmdb.org/t/p/w500/4IPxzGlE17fJAwUTMul4opMeutA.jpg",
       "posterShape": "poster",
-      "description": "This is the story of 1970s African-American action legend Black Dynamite. The Man killed his brother, pumped heroin into local orphanages, and flooded the ghetto with adulterated malt liquor. Black Dynamite was the one hero willing to fight The Man all the way from the blood-soaked city streets to the hallowed halls of the Honky House.",
+      "description": "A determined father risks everything to rescue a dedicated teacher and her students from a raging wildfire.",
       "genres": [
-        "Comedy",
-        "Action"
+        "Drama",
+        "Thriller"
       ],
-      "releaseInfo": "2009",
-      "imdb_id": "tt1190536"
+      "releaseInfo": "2025",
+      "imdb_id": "tt21103218"
     },
     {
       "id": "tt8936646",
@@ -29,36 +29,6 @@
       "imdb_id": "tt8936646"
     },
     {
-      "id": "tt0985699",
-      "type": "movie",
-      "name": "Valkyrie",
-      "poster": "https://image.tmdb.org/t/p/w500/8eoRtXswC8IQDsqW7iJWO56NhAv.jpg",
-      "posterShape": "poster",
-      "description": "Wounded in Africa during World War II, Nazi Col. Claus von Stauffenberg returns to his native Germany and joins the Resistance in a daring plan to create a shadow government and assassinate Adolf Hitler. When events unfold so that he becomes a central player, he finds himself tasked with both leading the coup and personally killing the Führer.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "War"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0985699"
-    },
-    {
-      "id": "tt1270798",
-      "type": "movie",
-      "name": "X-Men: First Class",
-      "poster": "https://image.tmdb.org/t/p/w500/hNEokmUke0dazoBhttFN0o3L7Xv.jpg",
-      "posterShape": "poster",
-      "description": "Before Charles Xavier and Erik Lensherr took the names Professor X and Magneto, they were two young men discovering their powers for the first time. Before they were arch-enemies, they were closest of friends, working together with other mutants (some familiar, some new), to stop the greatest threat the world has ever known.",
-      "genres": [
-        "Action",
-        "Science Fiction",
-        "Adventure"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1270798"
-    },
-    {
       "id": "tt5537002",
       "type": "movie",
       "name": "Killers of the Flower Moon",
@@ -72,6 +42,22 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt5537002"
+    },
+    {
+      "id": "tt0373469",
+      "type": "movie",
+      "name": "Kiss Kiss Bang Bang",
+      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
+      "posterShape": "poster",
+      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2005",
+      "imdb_id": "tt0373469"
     },
     {
       "id": "tt8946378",
@@ -104,22 +90,6 @@
       "imdb_id": "tt12593682"
     },
     {
-      "id": "tt0373469",
-      "type": "movie",
-      "name": "Kiss Kiss Bang Bang",
-      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
-      "posterShape": "poster",
-      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0373469"
-    },
-    {
       "id": "tt0477348",
       "type": "movie",
       "name": "No Country for Old Men",
@@ -133,6 +103,21 @@
       ],
       "releaseInfo": "2007",
       "imdb_id": "tt0477348"
+    },
+    {
+      "id": "tt20969586",
+      "type": "movie",
+      "name": "Thunderbolts*",
+      "poster": "https://image.tmdb.org/t/p/w500/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
+      "posterShape": "poster",
+      "description": "After finding themselves ensnared in a death trap, seven disillusioned castoffs must embark on a dangerous mission that will force them to confront the darkest corners of their pasts.",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt20969586"
     },
     {
       "id": "tt5013056",
@@ -150,6 +135,21 @@
       "imdb_id": "tt5013056"
     },
     {
+      "id": "tt1408101",
+      "type": "movie",
+      "name": "Star Trek Into Darkness",
+      "poster": "https://image.tmdb.org/t/p/w500/Aim3kVNh1MPIxPEFeJrl9e9Uf1a.jpg",
+      "posterShape": "poster",
+      "description": "When the crew of the Enterprise is called back home, they find an unstoppable force of terror from within their own organization has detonated the fleet and everything it stands for, leaving our world in a state of crisis.  With a personal score to settle, Captain Kirk leads a manhunt to a war-zone world to capture a one man weapon of mass destruction. As our heroes are propelled into an epic chess game of life and death, love will be challenged, friendships will be torn apart, and sacrifices must be made for the only family Kirk has left: his crew.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt1408101"
+    },
+    {
       "id": "tt2582802",
       "type": "movie",
       "name": "Whiplash",
@@ -165,21 +165,6 @@
       "imdb_id": "tt2582802"
     },
     {
-      "id": "tt2057392",
-      "type": "movie",
-      "name": "Eye in the Sky",
-      "poster": "https://image.tmdb.org/t/p/w500/faRGb9SuyGuZpsNRoIxoVSLLCId.jpg",
-      "posterShape": "poster",
-      "description": "A UK-based military officer in command of a top secret drone operation to capture terrorists in Kenya discovers the targets are planning a suicide bombing and the mission escalates from “capture” to “kill.” As American pilot Steve Watts is about to engage, a nine-year old girl enters the kill zone, triggering an international dispute reaching the highest levels of US and British government over the moral, political, and personal implications of modern warfare.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "War"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt2057392"
-    },
-    {
       "id": "tt19864802",
       "type": "movie",
       "name": "Land of Bad",
@@ -193,36 +178,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt19864802"
-    },
-    {
-      "id": "tt15398776",
-      "type": "movie",
-      "name": "Oppenheimer",
-      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
-      "posterShape": "poster",
-      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
-      "genres": [
-        "Drama",
-        "History",
-        "War"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15398776"
-    },
-    {
-      "id": "tt30144839",
-      "type": "movie",
-      "name": "One Battle After Another",
-      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
-      "posterShape": "poster",
-      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
-      "genres": [
-        "Thriller",
-        "Crime",
-        "Comedy"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30144839"
     },
     {
       "id": "tt0469494",
@@ -253,33 +208,49 @@
       "imdb_id": "tt0765443"
     },
     {
-      "id": "tt2024544",
+      "id": "tt0120903",
       "type": "movie",
-      "name": "12 Years a Slave",
-      "poster": "https://image.tmdb.org/t/p/w500/xdANQijuNrJaw1HA61rDccME4Tm.jpg",
+      "name": "X-Men",
+      "poster": "https://image.tmdb.org/t/p/w500/bRDAc4GogyS9ci3ow7UnInOcriN.jpg",
       "posterShape": "poster",
-      "description": "In the pre-Civil War United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery. Facing cruelty as well as unexpected kindnesses Solomon struggles not only to stay alive, but to retain his dignity. In the twelfth year of his unforgettable odyssey, Solomon’s chance meeting with a Canadian abolitionist will forever alter his life.",
-      "genres": [
-        "Drama",
-        "History"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2024544"
-    },
-    {
-      "id": "tt0290334",
-      "type": "movie",
-      "name": "X2",
-      "poster": "https://image.tmdb.org/t/p/w500/bst4alFUXCxISwdRUKSMhhkrX1M.jpg",
-      "posterShape": "poster",
-      "description": "Professor Charles Xavier and his team of genetically gifted superheroes face a rising tide of anti-mutant sentiment led by Col. William Stryker. Storm, Wolverine and Jean Grey must join Magneto and Mystique to unhinge Stryker's scheme to exterminate all mutants.",
+      "description": "Two mutants, Rogue and Wolverine, come to a private academy for their kind whose resident superhero team, the X-Men, must oppose a terrorist organization with similar powers.",
       "genres": [
         "Adventure",
         "Action",
         "Science Fiction"
       ],
-      "releaseInfo": "2003",
-      "imdb_id": "tt0290334"
+      "releaseInfo": "2000",
+      "imdb_id": "tt0120903"
+    },
+    {
+      "id": "tt30144839",
+      "type": "movie",
+      "name": "One Battle After Another",
+      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
+      "posterShape": "poster",
+      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Comedy"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt30144839"
+    },
+    {
+      "id": "tt15398776",
+      "type": "movie",
+      "name": "Oppenheimer",
+      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "posterShape": "poster",
+      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15398776"
     },
     {
       "id": "tt33296751",
@@ -295,6 +266,36 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33296751"
+    },
+    {
+      "id": "tt31434639",
+      "type": "movie",
+      "name": "Warfare",
+      "poster": "https://image.tmdb.org/t/p/w500/l39TlELomwysfsr37vrvCV6rmaQ.jpg",
+      "posterShape": "poster",
+      "description": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
+      "genres": [
+        "War",
+        "Action"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31434639"
+    },
+    {
+      "id": "tt14114802",
+      "type": "movie",
+      "name": "The Outfit",
+      "poster": "https://image.tmdb.org/t/p/w500/lZa5EB6PVJBT5mxhgZS5ftqdAm6.jpg",
+      "posterShape": "poster",
+      "description": "Leonard is an English tailor who used to craft suits on London’s world-famous Savile Row. After a personal tragedy, he’s ended up in Chicago, operating a small tailor shop in a rough part of town where he makes beautiful clothes for the only people around who can afford them: a family of vicious gangsters.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14114802"
     }
   ]
 }

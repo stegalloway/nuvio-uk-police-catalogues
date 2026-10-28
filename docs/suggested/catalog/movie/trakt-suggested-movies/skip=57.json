@@ -1,35 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt2024544",
-      "type": "movie",
-      "name": "12 Years a Slave",
-      "poster": "https://image.tmdb.org/t/p/w500/xdANQijuNrJaw1HA61rDccME4Tm.jpg",
-      "posterShape": "poster",
-      "description": "In the pre-Civil War United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery. Facing cruelty as well as unexpected kindnesses Solomon struggles not only to stay alive, but to retain his dignity. In the twelfth year of his unforgettable odyssey, Solomon’s chance meeting with a Canadian abolitionist will forever alter his life.",
-      "genres": [
-        "Drama",
-        "History"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2024544"
-    },
-    {
-      "id": "tt0290334",
-      "type": "movie",
-      "name": "X2",
-      "poster": "https://image.tmdb.org/t/p/w500/bst4alFUXCxISwdRUKSMhhkrX1M.jpg",
-      "posterShape": "poster",
-      "description": "Professor Charles Xavier and his team of genetically gifted superheroes face a rising tide of anti-mutant sentiment led by Col. William Stryker. Storm, Wolverine and Jean Grey must join Magneto and Mystique to unhinge Stryker's scheme to exterminate all mutants.",
-      "genres": [
-        "Adventure",
-        "Action",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2003",
-      "imdb_id": "tt0290334"
-    },
-    {
       "id": "tt33296751",
       "type": "movie",
       "name": "Tuner",
@@ -43,6 +14,36 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33296751"
+    },
+    {
+      "id": "tt31434639",
+      "type": "movie",
+      "name": "Warfare",
+      "poster": "https://image.tmdb.org/t/p/w500/l39TlELomwysfsr37vrvCV6rmaQ.jpg",
+      "posterShape": "poster",
+      "description": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
+      "genres": [
+        "War",
+        "Action"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31434639"
+    },
+    {
+      "id": "tt14114802",
+      "type": "movie",
+      "name": "The Outfit",
+      "poster": "https://image.tmdb.org/t/p/w500/lZa5EB6PVJBT5mxhgZS5ftqdAm6.jpg",
+      "posterShape": "poster",
+      "description": "Leonard is an English tailor who used to craft suits on London’s world-famous Savile Row. After a personal tragedy, he’s ended up in Chicago, operating a small tailor shop in a rough part of town where he makes beautiful clothes for the only people around who can afford them: a family of vicious gangsters.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14114802"
     }
   ]
 }

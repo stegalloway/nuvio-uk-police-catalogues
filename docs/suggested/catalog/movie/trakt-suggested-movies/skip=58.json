@@ -1,34 +1,34 @@
 {
   "metas": [
     {
-      "id": "tt0290334",
+      "id": "tt31434639",
       "type": "movie",
-      "name": "X2",
-      "poster": "https://image.tmdb.org/t/p/w500/bst4alFUXCxISwdRUKSMhhkrX1M.jpg",
+      "name": "Warfare",
+      "poster": "https://image.tmdb.org/t/p/w500/l39TlELomwysfsr37vrvCV6rmaQ.jpg",
       "posterShape": "poster",
-      "description": "Professor Charles Xavier and his team of genetically gifted superheroes face a rising tide of anti-mutant sentiment led by Col. William Stryker. Storm, Wolverine and Jean Grey must join Magneto and Mystique to unhinge Stryker's scheme to exterminate all mutants.",
+      "description": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
       "genres": [
-        "Adventure",
-        "Action",
-        "Science Fiction"
+        "War",
+        "Action"
       ],
-      "releaseInfo": "2003",
-      "imdb_id": "tt0290334"
+      "releaseInfo": "2025",
+      "imdb_id": "tt31434639"
     },
     {
-      "id": "tt33296751",
+      "id": "tt14114802",
       "type": "movie",
-      "name": "Tuner",
-      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
+      "name": "The Outfit",
+      "poster": "https://image.tmdb.org/t/p/w500/lZa5EB6PVJBT5mxhgZS5ftqdAm6.jpg",
       "posterShape": "poster",
-      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
+      "description": "Leonard is an English tailor who used to craft suits on London’s world-famous Savile Row. After a personal tragedy, he’s ended up in Chicago, operating a small tailor shop in a rough part of town where he makes beautiful clothes for the only people around who can afford them: a family of vicious gangsters.",
       "genres": [
         "Crime",
         "Drama",
-        "Thriller"
+        "Thriller",
+        "Mystery"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33296751"
+      "releaseInfo": "2022",
+      "imdb_id": "tt14114802"
     }
   ]
 }

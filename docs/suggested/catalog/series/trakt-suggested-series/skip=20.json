@@ -159,20 +159,6 @@
       "imdb_id": "tt1652216"
     },
     {
-      "id": "tt0306414",
-      "type": "series",
-      "name": "The Wire",
-      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
-      "posterShape": "poster",
-      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0306414"
-    },
-    {
       "id": "tt4687880",
       "type": "series",
       "name": "Goliath",
@@ -185,6 +171,20 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt4687880"
+    },
+    {
+      "id": "tt0306414",
+      "type": "series",
+      "name": "The Wire",
+      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
+      "posterShape": "poster",
+      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2002",
+      "imdb_id": "tt0306414"
     },
     {
       "id": "tt2788432",

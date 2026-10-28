@@ -1,61 +1,34 @@
 {
   "metas": [
     {
-      "id": "tt0469494",
+      "id": "tt30144839",
       "type": "movie",
-      "name": "There Will Be Blood",
-      "poster": "https://image.tmdb.org/t/p/w500/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+      "name": "One Battle After Another",
+      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
       "posterShape": "poster",
-      "description": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's motives and intentions, starting a slow-burning feud that threatens both their lives.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0469494"
-    },
-    {
-      "id": "tt0765443",
-      "type": "movie",
-      "name": "Eastern Promises",
-      "poster": "https://image.tmdb.org/t/p/w500/nLwv1pxRCRZucQaqs6oPkq7HH3K.jpg",
-      "posterShape": "poster",
-      "description": "A Russian teenager living in London dies during childbirth but leaves clues in her diary that could tie her child to a rape involving a violent Russian mob family.",
+      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
       "genres": [
         "Thriller",
         "Crime",
-        "Mystery"
+        "Comedy"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0765443"
+      "releaseInfo": "2025",
+      "imdb_id": "tt30144839"
     },
     {
-      "id": "tt2024544",
+      "id": "tt15398776",
       "type": "movie",
-      "name": "12 Years a Slave",
-      "poster": "https://image.tmdb.org/t/p/w500/xdANQijuNrJaw1HA61rDccME4Tm.jpg",
+      "name": "Oppenheimer",
+      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
       "posterShape": "poster",
-      "description": "In the pre-Civil War United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery. Facing cruelty as well as unexpected kindnesses Solomon struggles not only to stay alive, but to retain his dignity. In the twelfth year of his unforgettable odyssey, Solomon’s chance meeting with a Canadian abolitionist will forever alter his life.",
+      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
       "genres": [
         "Drama",
-        "History"
+        "History",
+        "War"
       ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2024544"
-    },
-    {
-      "id": "tt0290334",
-      "type": "movie",
-      "name": "X2",
-      "poster": "https://image.tmdb.org/t/p/w500/bst4alFUXCxISwdRUKSMhhkrX1M.jpg",
-      "posterShape": "poster",
-      "description": "Professor Charles Xavier and his team of genetically gifted superheroes face a rising tide of anti-mutant sentiment led by Col. William Stryker. Storm, Wolverine and Jean Grey must join Magneto and Mystique to unhinge Stryker's scheme to exterminate all mutants.",
-      "genres": [
-        "Adventure",
-        "Action",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2003",
-      "imdb_id": "tt0290334"
+      "releaseInfo": "2023",
+      "imdb_id": "tt15398776"
     },
     {
       "id": "tt33296751",
@@ -71,6 +44,36 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33296751"
+    },
+    {
+      "id": "tt31434639",
+      "type": "movie",
+      "name": "Warfare",
+      "poster": "https://image.tmdb.org/t/p/w500/l39TlELomwysfsr37vrvCV6rmaQ.jpg",
+      "posterShape": "poster",
+      "description": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
+      "genres": [
+        "War",
+        "Action"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31434639"
+    },
+    {
+      "id": "tt14114802",
+      "type": "movie",
+      "name": "The Outfit",
+      "poster": "https://image.tmdb.org/t/p/w500/lZa5EB6PVJBT5mxhgZS5ftqdAm6.jpg",
+      "posterShape": "poster",
+      "description": "Leonard is an English tailor who used to craft suits on London’s world-famous Savile Row. After a personal tragedy, he’s ended up in Chicago, operating a small tailor shop in a rough part of town where he makes beautiful clothes for the only people around who can afford them: a family of vicious gangsters.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14114802"
     }
   ]
 }
