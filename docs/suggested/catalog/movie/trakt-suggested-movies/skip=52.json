@@ -1,121 +1,125 @@
 {
   "metas": [
     {
-      "id": "tt32550101",
+      "id": "tt8946378",
       "type": "movie",
-      "name": "STRAW",
-      "poster": "https://image.tmdb.org/t/p/w500/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg",
+      "name": "Knives Out",
+      "poster": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
       "posterShape": "poster",
-      "description": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
+      "description": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
       "genres": [
-        "Thriller",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32550101"
-    },
-    {
-      "id": "tt15574124",
-      "type": "movie",
-      "name": "Peaky Blinders: The Immortal Man",
-      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
-      "posterShape": "poster",
-      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt15574124"
-    },
-    {
-      "id": "tt31450182",
-      "type": "movie",
-      "name": "Amber Alert",
-      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
-      "posterShape": "poster",
-      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
-      "genres": [
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31450182"
-    },
-    {
-      "id": "tt0443676",
-      "type": "movie",
-      "name": "Undisputed II: Last Man Standing",
-      "poster": "https://image.tmdb.org/t/p/w500/2gMCokqpIJoh6u5o06LlOZWsI3k.jpg",
-      "posterShape": "poster",
-      "description": "Heavyweight Champ George \"Iceman\" Chambers is sent to a Russian jail on trumped-up drug charges. In order to win his freedom he must fight against the jailhouse fighting champ Uri Boyka in a battle to the death. This time he is not fighting for a title, he is fighting for his life!",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "2006",
-      "imdb_id": "tt0443676"
-    },
-    {
-      "id": "tt0783640",
-      "type": "movie",
-      "name": "The Last Full Measure",
-      "poster": "https://image.tmdb.org/t/p/w500/bMG8c80lyEkBXVgyHVqsdQhjgf6.jpg",
-      "posterShape": "poster",
-      "description": "The incredible true story of Vietnam War hero William H. Pitsenbarger, a U.S. Air Force Pararescuemen medic who personally saved over sixty men. Thirty-two years later, Pentagon staffer Scott Huffman investigates a Congressional Medal of Honor request for Pitsenbarger and uncovers a high-level conspiracy behind the decades-long denial of the medal, prompting Huffman to put his own career on the line to seek justice for the fallen airman.",
-      "genres": [
-        "Drama",
-        "Action",
-        "War"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt0783640"
-    },
-    {
-      "id": "tt31434639",
-      "type": "movie",
-      "name": "Warfare",
-      "poster": "https://image.tmdb.org/t/p/w500/l39TlELomwysfsr37vrvCV6rmaQ.jpg",
-      "posterShape": "poster",
-      "description": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
-      "genres": [
-        "War",
-        "Action"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31434639"
-    },
-    {
-      "id": "tt4627382",
-      "type": "movie",
-      "name": "Roofman",
-      "poster": "https://image.tmdb.org/t/p/w500/wXDFtcnYtevleGzCmAD2ReQnJ4l.jpg",
-      "posterShape": "poster",
-      "description": "A former Army Ranger and struggling father turns to robbing McDonald’s restaurants by cutting holes in their roofs, earning him the nickname \"Roofman.\" After escaping prison, he secretly lives inside a Toys “R” Us for six months, surviving undetected while planning his next move. But when he falls for a divorced mom drawn to his undeniable charm, his double life begins to unravel, setting off a compelling and suspenseful game of cat and mouse as his past closes in.",
-      "genres": [
-        "Crime",
         "Comedy",
-        "Drama"
+        "Crime",
+        "Mystery"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt4627382"
+      "releaseInfo": "2019",
+      "imdb_id": "tt8946378"
     },
     {
-      "id": "tt31349844",
+      "id": "tt3501632",
       "type": "movie",
-      "name": "Runner",
-      "poster": "https://image.tmdb.org/t/p/w500/vJk2TW1QZAmBiD7oj9ZF9EPTYY1.jpg",
+      "name": "Thor: Ragnarok",
+      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
       "posterShape": "poster",
-      "description": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
+      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
       "genres": [
         "Action",
+        "Adventure",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt3501632"
+    },
+    {
+      "id": "tt30144839",
+      "type": "movie",
+      "name": "One Battle After Another",
+      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
+      "posterShape": "poster",
+      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+      "genres": [
+        "Thriller",
+        "Crime",
         "Comedy"
       ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt30144839"
+    },
+    {
+      "id": "tt2057392",
+      "type": "movie",
+      "name": "Eye in the Sky",
+      "poster": "https://image.tmdb.org/t/p/w500/faRGb9SuyGuZpsNRoIxoVSLLCId.jpg",
+      "posterShape": "poster",
+      "description": "A UK-based military officer in command of a top secret drone operation to capture terrorists in Kenya discovers the targets are planning a suicide bombing and the mission escalates from “capture” to “kill.” As American pilot Steve Watts is about to engage, a nine-year old girl enters the kill zone, triggering an international dispute reaching the highest levels of US and British government over the moral, political, and personal implications of modern warfare.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt2057392"
+    },
+    {
+      "id": "tt3344680",
+      "type": "movie",
+      "name": "Boyka: Undisputed IV",
+      "poster": "https://image.tmdb.org/t/p/w500/7QGdIJWWTkPhVjpQ0zA6z69khod.jpg",
+      "posterShape": "poster",
+      "description": "In the fourth installment of the fighting franchise, Boyka is shooting for the big leagues when an accidental death in the ring makes him question everything he stands for. When he finds out the wife of the man he accidentally killed is in trouble, Boyka offers to fight in a series of impossible battles to free her from a life of servitude.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt3344680"
+    },
+    {
+      "id": "tt0373469",
+      "type": "movie",
+      "name": "Kiss Kiss Bang Bang",
+      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
+      "posterShape": "poster",
+      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2005",
+      "imdb_id": "tt0373469"
+    },
+    {
+      "id": "tt0469494",
+      "type": "movie",
+      "name": "There Will Be Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+      "posterShape": "poster",
+      "description": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's motives and intentions, starting a slow-burning feud that threatens both their lives.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0469494"
+    },
+    {
+      "id": "tt33296751",
+      "type": "movie",
+      "name": "Tuner",
+      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
+      "posterShape": "poster",
+      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
       "releaseInfo": "2026",
-      "imdb_id": "tt31349844"
+      "imdb_id": "tt33296751"
     }
   ]
 }

@@ -1,6 +1,111 @@
 {
   "metas": [
     {
+      "id": "tt4846232",
+      "type": "movie",
+      "name": "Good Time",
+      "poster": "https://image.tmdb.org/t/p/w500/yE1c9hj5Hf8a9KplAdRdhADqUro.jpg",
+      "posterShape": "poster",
+      "description": "After a botched bank robbery lands his younger brother in prison, Connie Nikas embarks on a twisted odyssey through New York City's underworld to get his brother Nick out of jail.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt4846232"
+    },
+    {
+      "id": "tt0401792",
+      "type": "movie",
+      "name": "Sin City",
+      "poster": "https://image.tmdb.org/t/p/w500/i66G50wATMmPrvpP95f0XP6ZdVS.jpg",
+      "posterShape": "poster",
+      "description": "Welcome to Sin City. This town beckons to the tough, the corrupt, the brokenhearted. Some call it dark… Hard-boiled. Then there are those who call it home — Crooked cops, sexy dames, desperate vigilantes. Some are seeking revenge, others lust after redemption, and then there are those hoping for a little of both. A universe of unlikely and reluctant heroes still trying to do the right thing in a city that refuses to care.",
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2005",
+      "imdb_id": "tt0401792"
+    },
+    {
+      "id": "tt4572514",
+      "type": "movie",
+      "name": "Patriots Day",
+      "poster": "https://image.tmdb.org/t/p/w500/mIDxsJTrOC7NhgOo3GziiHyKfsQ.jpg",
+      "posterShape": "poster",
+      "description": "In the aftermath of an unspeakable act of terror, Police Sergeant Tommy Saunders joins courageous survivors, first responders and investigators in a race against the clock to hunt down the Boston Marathon bombers before they strike again.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama",
+        "History",
+        "Thriller"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt4572514"
+    },
+    {
+      "id": "tt16311594",
+      "type": "movie",
+      "name": "F1",
+      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+      "posterShape": "poster",
+      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt16311594"
+    },
+    {
+      "id": "tt7181546",
+      "type": "movie",
+      "name": "Ballerina",
+      "poster": "https://image.tmdb.org/t/p/w500/2VUmvqsHb6cEtdfscEA6fqqVzLg.jpg",
+      "posterShape": "poster",
+      "description": "Taking place during the events of John Wick: Chapter 3 – Parabellum, Eve Macarro begins her training in the assassin traditions of the Ruska Roma.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt7181546"
+    },
+    {
+      "id": "tt2015381",
+      "type": "movie",
+      "name": "Guardians of the Galaxy",
+      "poster": "https://image.tmdb.org/t/p/w500/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
+      "posterShape": "poster",
+      "description": "Light years from Earth, 26 years after being abducted, Peter Quill finds himself the prime target of a manhunt after discovering an orb wanted by Ronan the Accuser.",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2015381"
+    },
+    {
+      "id": "tt1403865",
+      "type": "movie",
+      "name": "True Grit",
+      "poster": "https://image.tmdb.org/t/p/w500/tCrB8pcjadZjsDk7rleGJaIv78k.jpg",
+      "posterShape": "poster",
+      "description": "Following the murder of her father by a hired hand, a 14-year-old farm girl sets out to capture the killer. To aid her, she hires the toughest U.S. Marshal she can find—a man with 'true grit'—Reuben J. 'Rooster' Cogburn.",
+      "genres": [
+        "Drama",
+        "Adventure",
+        "Western"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1403865"
+    },
+    {
       "id": "tt11539996",
       "type": "movie",
       "name": "Relay",
@@ -14,6 +119,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt11539996"
+    },
+    {
+      "id": "tt7349662",
+      "type": "movie",
+      "name": "BlacKkKlansman",
+      "poster": "https://image.tmdb.org/t/p/w500/8jxqAvSDoneSKRczaK8v9X5gqBp.jpg",
+      "posterShape": "poster",
+      "description": "Colorado Springs, late 1970s. Ron Stallworth, an African American police officer, and Flip Zimmerman, his Jewish colleague, run an undercover operation to infiltrate the Ku Klux Klan.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "History"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt7349662"
     },
     {
       "id": "tt36042156",
@@ -89,6 +209,21 @@
       "imdb_id": "tt1130884"
     },
     {
+      "id": "tt3659388",
+      "type": "movie",
+      "name": "The Martian",
+      "poster": "https://image.tmdb.org/t/p/w500/5BHuvQ6p9kfc091Z8RiFNhCwL4b.jpg",
+      "posterShape": "poster",
+      "description": "During a manned mission to Mars, Astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. But Watney has survived and finds himself stranded and alone on the hostile planet. With only meager supplies, he must draw upon his ingenuity, wit and spirit to subsist and find a way to signal to Earth that he is alive.",
+      "genres": [
+        "Science Fiction",
+        "Drama",
+        "Adventure"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt3659388"
+    },
+    {
       "id": "tt0452623",
       "type": "movie",
       "name": "Gone Baby Gone",
@@ -119,6 +254,20 @@
       "imdb_id": "tt31050020"
     },
     {
+      "id": "tt1596363",
+      "type": "movie",
+      "name": "The Big Short",
+      "poster": "https://image.tmdb.org/t/p/w500/scVEaJEwP8zUix8vgmMoJJ9Nq0w.jpg",
+      "posterShape": "poster",
+      "description": "The men who made millions from a global economic meltdown.",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt1596363"
+    },
+    {
       "id": "tt5537002",
       "type": "movie",
       "name": "Killers of the Flower Moon",
@@ -134,172 +283,18 @@
       "imdb_id": "tt5537002"
     },
     {
-      "id": "tt12593682",
+      "id": "tt0307901",
       "type": "movie",
-      "name": "Bullet Train",
-      "poster": "https://image.tmdb.org/t/p/w500/j8szC8OgrejDQjjMKSVXyaAjw3V.jpg",
+      "name": "25th Hour",
+      "poster": "https://image.tmdb.org/t/p/w500/uW7tTRElr2tRhmAVESzvHy4ByXg.jpg",
       "posterShape": "poster",
-      "description": "Unlucky assassin Ladybug is determined to do his job peacefully after one too many gigs gone off the rails. Fate, however, may have other plans, as Ladybug's latest mission puts him on a collision course with lethal adversaries from around the globe—all with connected, yet conflicting, objectives—on the world's fastest train.",
+      "description": "On the eve of a seven-year prison sentence, a New York drug dealer spends his final day of freedom confronting his past, his relationships, and the choices that led to his downfall in a city still reeling from 9/11.",
       "genres": [
-        "Action",
-        "Comedy",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt12593682"
-    },
-    {
-      "id": "tt0477348",
-      "type": "movie",
-      "name": "No Country for Old Men",
-      "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
-      "posterShape": "poster",
-      "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Western"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0477348"
-    },
-    {
-      "id": "tt0985699",
-      "type": "movie",
-      "name": "Valkyrie",
-      "poster": "https://image.tmdb.org/t/p/w500/8eoRtXswC8IQDsqW7iJWO56NhAv.jpg",
-      "posterShape": "poster",
-      "description": "Wounded in Africa during World War II, Nazi Col. Claus von Stauffenberg returns to his native Germany and joins the Resistance in a daring plan to create a shadow government and assassinate Adolf Hitler. When events unfold so that he becomes a central player, he finds himself tasked with both leading the coup and personally killing the Führer.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "War"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0985699"
-    },
-    {
-      "id": "tt1212450",
-      "type": "movie",
-      "name": "Lawless",
-      "poster": "https://image.tmdb.org/t/p/w500/Ahtzwts22ayviD3LEVslfL4nRWB.jpg",
-      "posterShape": "poster",
-      "description": "In 1931, the Bondurant brothers of Franklin County, Virginia, run a multipurpose backwoods establishment that hides their true business — bootlegging. Middle brother Forrest is the brain of the operation; older Howard is the brawn, and younger Jack, the lookout. Though the local police have taken bribes and left the brothers alone, a violent war erupts when a sadistic lawman from Chicago arrives and tries to shut down the Bondurants operation.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Western"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1212450"
-    },
-    {
-      "id": "tt2582802",
-      "type": "movie",
-      "name": "Whiplash",
-      "poster": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
-      "posterShape": "poster",
-      "description": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
-      "genres": [
-        "Drama",
-        "Music",
-        "Thriller"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2582802"
-    },
-    {
-      "id": "tt19864802",
-      "type": "movie",
-      "name": "Land of Bad",
-      "poster": "https://image.tmdb.org/t/p/w500/h3jYanWMEJq6JJsCopy1h7cT2Hs.jpg",
-      "posterShape": "poster",
-      "description": "When a Delta Force special ops mission goes terribly wrong, Air Force drone pilot Reaper has 48 hours to remedy what has devolved into a wild rescue operation. With no weapons and no communication other than the drone above, the ground mission suddenly becomes a full-scale battle when the team is discovered by the enemy.",
-      "genres": [
-        "Action",
-        "War",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt19864802"
-    },
-    {
-      "id": "tt8946378",
-      "type": "movie",
-      "name": "Knives Out",
-      "poster": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
-      "posterShape": "poster",
-      "description": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8946378"
-    },
-    {
-      "id": "tt1156466",
-      "type": "movie",
-      "name": "Undisputed III: Redemption",
-      "poster": "https://image.tmdb.org/t/p/w500/g8KB77SPA7SyU8eid6TAEpt9skU.jpg",
-      "posterShape": "poster",
-      "description": "Russian inmate Boyka, now severely hobbled by the knee injury suffered at the end of Undisputed 2. No longer the feared prison fighter he was, he has declined so far that he is now good only for cleaning toilets. But when a new prison fight tournament begins - an international affair, matching the best fighters from prisons around the globe, enticing them with the promise of freedom for the winner - Boyka must reclaim his dignity and fight for his position in the tournament.",
-      "genres": [
-        "Action",
-        "Thriller",
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1156466"
-    },
-    {
-      "id": "tt3501632",
-      "type": "movie",
-      "name": "Thor: Ragnarok",
-      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
-      "posterShape": "poster",
-      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt3501632"
-    },
-    {
-      "id": "tt30144839",
-      "type": "movie",
-      "name": "One Battle After Another",
-      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
-      "posterShape": "poster",
-      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
-      "genres": [
-        "Thriller",
-        "Crime",
-        "Comedy"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30144839"
-    },
-    {
-      "id": "tt3344680",
-      "type": "movie",
-      "name": "Boyka: Undisputed IV",
-      "poster": "https://image.tmdb.org/t/p/w500/7QGdIJWWTkPhVjpQ0zA6z69khod.jpg",
-      "posterShape": "poster",
-      "description": "In the fourth installment of the fighting franchise, Boyka is shooting for the big leagues when an accidental death in the ring makes him question everything he stands for. When he finds out the wife of the man he accidentally killed is in trouble, Boyka offers to fight in a series of impossible battles to free her from a life of servitude.",
-      "genres": [
-        "Action",
-        "Drama",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt3344680"
+      "releaseInfo": "2002",
+      "imdb_id": "tt0307901"
     }
   ]
 }

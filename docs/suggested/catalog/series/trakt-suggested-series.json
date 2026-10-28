@@ -114,32 +114,18 @@
       "imdb_id": "tt8080122"
     },
     {
-      "id": "tt2149175",
+      "id": "tt2243973",
       "type": "series",
-      "name": "The Americans",
-      "poster": "https://image.tmdb.org/t/p/w500/w1UBlxEXhbKe8sp0fxFZh7MqTce.jpg",
+      "name": "Hannibal",
+      "poster": "https://image.tmdb.org/t/p/w500/pbV2eLnKSIm1epSZt473UYfqaeZ.jpg",
       "posterShape": "poster",
-      "description": "Set during the Cold War period in the 1980s, The Americans is the story of Elizabeth and Philip Jennings, two Soviet KGB officers posing as an American married couple in the suburbs of Washington D.C. and their neighbor, Stan Beeman, an FBI Counterintelligence agent.",
+      "description": "Both a gift and a curse, Graham has the extraordinary ability to think like his prey—he sees what they see, feels what they feel. But while Graham is pursuing an especially troubling, cannibalistic murderer, Special Agent Jack Crawford teams him with a highly respected psychiatrist – a man with a taste for the criminal minded – Dr. Hannibal Lecter.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
       "releaseInfo": "2013",
-      "imdb_id": "tt2149175"
-    },
-    {
-      "id": "tt11761194",
-      "type": "series",
-      "name": "Power Book IV: Force",
-      "poster": "https://image.tmdb.org/t/p/w500/yzL4Tqbw2JA9MCsHJWFC4xV1IYU.jpg",
-      "posterShape": "poster",
-      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11761194"
+      "imdb_id": "tt2243973"
     },
     {
       "id": "tt5715524",
@@ -154,6 +140,20 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt5715524"
+    },
+    {
+      "id": "tt1064899",
+      "type": "series",
+      "name": "Queen of the South",
+      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
+      "posterShape": "poster",
+      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt1064899"
     },
     {
       "id": "tt4276618",
@@ -171,20 +171,6 @@
       "imdb_id": "tt4276618"
     },
     {
-      "id": "tt1064899",
-      "type": "series",
-      "name": "Queen of the South",
-      "poster": "https://image.tmdb.org/t/p/w500/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
-      "posterShape": "poster",
-      "description": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt1064899"
-    },
-    {
       "id": "tt5011816",
       "type": "series",
       "name": "Sneaky Pete",
@@ -199,18 +185,32 @@
       "imdb_id": "tt5011816"
     },
     {
-      "id": "tt2243973",
+      "id": "tt11761194",
       "type": "series",
-      "name": "Hannibal",
-      "poster": "https://image.tmdb.org/t/p/w500/pbV2eLnKSIm1epSZt473UYfqaeZ.jpg",
+      "name": "Power Book IV: Force",
+      "poster": "https://image.tmdb.org/t/p/w500/yzL4Tqbw2JA9MCsHJWFC4xV1IYU.jpg",
       "posterShape": "poster",
-      "description": "Both a gift and a curse, Graham has the extraordinary ability to think like his prey—he sees what they see, feels what they feel. But while Graham is pursuing an especially troubling, cannibalistic murderer, Special Agent Jack Crawford teams him with a highly respected psychiatrist – a man with a taste for the criminal minded – Dr. Hannibal Lecter.",
+      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2243973"
+      "releaseInfo": "2022",
+      "imdb_id": "tt11761194"
+    },
+    {
+      "id": "tt10732104",
+      "type": "series",
+      "name": "Power Book II: Ghost",
+      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "posterShape": "poster",
+      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10732104"
     },
     {
       "id": "tt3032476",
@@ -242,18 +242,18 @@
       "imdb_id": "tt30460310"
     },
     {
-      "id": "tt10732104",
+      "id": "tt0306414",
       "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "name": "The Wire",
+      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
       "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
+      "releaseInfo": "2002",
+      "imdb_id": "tt0306414"
     },
     {
       "id": "tt7440726",

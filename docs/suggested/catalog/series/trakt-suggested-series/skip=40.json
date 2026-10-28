@@ -1,35 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt1652216",
-      "type": "series",
-      "name": "DCI Banks",
-      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
-      "posterShape": "poster",
-      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1652216"
-    },
-    {
-      "id": "tt0286486",
-      "type": "series",
-      "name": "The Shield",
-      "poster": "https://image.tmdb.org/t/p/w500/AfdZXqqlFsPUEfi6kWWWthxw7Nz.jpg",
-      "posterShape": "poster",
-      "description": "The story of an inner-city Los Angeles police precinct where some of the cops aren't above breaking the rules or working against their associates to both keep the streets safe and their self-interests intact.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0286486"
-    },
-    {
       "id": "tt6510950",
       "type": "series",
       "name": "Condor",
@@ -75,6 +46,78 @@
       "imdb_id": "tt4258440"
     },
     {
+      "id": "tt0286486",
+      "type": "series",
+      "name": "The Shield",
+      "poster": "https://image.tmdb.org/t/p/w500/AfdZXqqlFsPUEfi6kWWWthxw7Nz.jpg",
+      "posterShape": "poster",
+      "description": "The story of an inner-city Los Angeles police precinct where some of the cops aren't above breaking the rules or working against their associates to both keep the streets safe and their self-interests intact.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2002",
+      "imdb_id": "tt0286486"
+    },
+    {
+      "id": "tt5290382",
+      "type": "series",
+      "name": "MINDHUNTER",
+      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+      "posterShape": "poster",
+      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5290382"
+    },
+    {
+      "id": "tt1475582",
+      "type": "series",
+      "name": "Sherlock",
+      "poster": "https://image.tmdb.org/t/p/w500/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg",
+      "posterShape": "poster",
+      "description": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1475582"
+    },
+    {
+      "id": "tt2788432",
+      "type": "series",
+      "name": "American Crime Story",
+      "poster": "https://image.tmdb.org/t/p/w500/dtIS3Qk8ny1FWQLiuJ77MTDX5bZ.jpg",
+      "posterShape": "poster",
+      "description": "An anthology series centered around some of history's most famous criminal investigations.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt2788432"
+    },
+    {
+      "id": "tt18412092",
+      "type": "series",
+      "name": "The Company You Keep",
+      "poster": "https://image.tmdb.org/t/p/w500/rnG8TMftQaMpGQtvsVwmlyhQ0gB.jpg",
+      "posterShape": "poster",
+      "description": "A night of passion leads to love between con man Charlie and undercover CIA officer Emma, who are unknowingly on a collision course professionally. While Charlie ramps up the ‘family business’ so he can get out for good, Emma’s closing in on the vengeful criminal who holds Charlie’s family debts in-hand — forcing them to reckon with the lies they’ve told so they can save themselves and their families from disastrous consequences.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt18412092"
+    },
+    {
       "id": "tt28118211",
       "type": "series",
       "name": "A Good Girl's Guide to Murder",
@@ -105,49 +148,6 @@
       "imdb_id": "tt10155688"
     },
     {
-      "id": "tt1475582",
-      "type": "series",
-      "name": "Sherlock",
-      "poster": "https://image.tmdb.org/t/p/w500/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg",
-      "posterShape": "poster",
-      "description": "A modern update finds the famous sleuth and his doctor partner solving crime in 21st century London.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1475582"
-    },
-    {
-      "id": "tt18412092",
-      "type": "series",
-      "name": "The Company You Keep",
-      "poster": "https://image.tmdb.org/t/p/w500/rnG8TMftQaMpGQtvsVwmlyhQ0gB.jpg",
-      "posterShape": "poster",
-      "description": "A night of passion leads to love between con man Charlie and undercover CIA officer Emma, who are unknowingly on a collision course professionally. While Charlie ramps up the ‘family business’ so he can get out for good, Emma’s closing in on the vengeful criminal who holds Charlie’s family debts in-hand — forcing them to reckon with the lies they’ve told so they can save themselves and their families from disastrous consequences.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt18412092"
-    },
-    {
-      "id": "tt5290382",
-      "type": "series",
-      "name": "MINDHUNTER",
-      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
-      "posterShape": "poster",
-      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt5290382"
-    },
-    {
       "id": "tt35826715",
       "type": "series",
       "name": "Boston Blue",
@@ -160,34 +160,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt35826715"
-    },
-    {
-      "id": "tt2788432",
-      "type": "series",
-      "name": "American Crime Story",
-      "poster": "https://image.tmdb.org/t/p/w500/dtIS3Qk8ny1FWQLiuJ77MTDX5bZ.jpg",
-      "posterShape": "poster",
-      "description": "An anthology series centered around some of history's most famous criminal investigations.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt2788432"
-    },
-    {
-      "id": "tt5645432",
-      "type": "series",
-      "name": "The Old Man",
-      "poster": "https://image.tmdb.org/t/p/w500/8Ec9zCZl2Go8WhDN1JWjjgQRlEi.jpg",
-      "posterShape": "poster",
-      "description": "Dan Chase absconded from the CIA decades ago and now lives off the grid. When an assassin arrives and tries to take Chase out, the old operative learns that to ensure his future he now must reconcile his past.",
-      "genres": [
-        "Action & Adventure",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt5645432"
     },
     {
       "id": "tt2303687",
@@ -203,6 +175,20 @@
       ],
       "releaseInfo": "2012",
       "imdb_id": "tt2303687"
+    },
+    {
+      "id": "tt5645432",
+      "type": "series",
+      "name": "The Old Man",
+      "poster": "https://image.tmdb.org/t/p/w500/8Ec9zCZl2Go8WhDN1JWjjgQRlEi.jpg",
+      "posterShape": "poster",
+      "description": "Dan Chase absconded from the CIA decades ago and now lives off the grid. When an assassin arrives and tries to take Chase out, the old operative learns that to ensure his future he now must reconcile his past.",
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt5645432"
     },
     {
       "id": "tt26591147",
@@ -233,19 +219,19 @@
       "imdb_id": "tt18115928"
     },
     {
-      "id": "tt6037988",
+      "id": "tt1389371",
       "type": "series",
-      "name": "Last Seen",
-      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
+      "name": "Rubicon",
+      "poster": "https://image.tmdb.org/t/p/w500/aYvsIIHsHkIz8fv3qbQCJpkgmLO.jpg",
       "posterShape": "poster",
-      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
+      "description": "An intelligence analyst at a national think tank in New York City called the American Policy Institute discovers that he may be working with members of a secret society that manipulates world events on a grand scale.",
       "genres": [
         "Crime",
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt6037988"
+      "releaseInfo": "2010",
+      "imdb_id": "tt1389371"
     },
     {
       "id": "tt15390524",
@@ -276,19 +262,34 @@
       "imdb_id": "tt2304589"
     },
     {
-      "id": "tt1389371",
+      "id": "tt3205802",
       "type": "series",
-      "name": "Rubicon",
-      "poster": "https://image.tmdb.org/t/p/w500/aYvsIIHsHkIz8fv3qbQCJpkgmLO.jpg",
+      "name": "How to Get Away with Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/bJs8Y6T88NcgksxA8UaVl4YX8p8.jpg",
       "posterShape": "poster",
-      "description": "An intelligence analyst at a national think tank in New York City called the American Policy Institute discovers that he may be working with members of a secret society that manipulates world events on a grand scale.",
+      "description": "A sexy, suspense-driven legal thriller about a group of ambitious law students and their brilliant, mysterious criminal defense professor. They become entangled in a murder plot and will shake the entire university and change the course of their lives.",
       "genres": [
         "Crime",
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1389371"
+      "releaseInfo": "2014",
+      "imdb_id": "tt3205802"
+    },
+    {
+      "id": "tt6037988",
+      "type": "series",
+      "name": "Last Seen",
+      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
+      "posterShape": "poster",
+      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt6037988"
     }
   ]
 }
