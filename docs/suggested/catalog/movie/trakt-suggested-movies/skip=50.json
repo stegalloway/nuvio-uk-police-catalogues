@@ -1,151 +1,151 @@
 {
   "metas": [
     {
-      "id": "tt15574124",
+      "id": "tt0266425",
       "type": "movie",
-      "name": "Peaky Blinders: The Immortal Man",
-      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+      "name": "Conspiracy",
+      "poster": "https://image.tmdb.org/t/p/w500/xKocKpTHaKcTuNRLu0rLbZWbLnH.jpg",
       "posterShape": "poster",
-      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+      "description": "At the Wannsee Conference on January 20, 1942, senior Nazi officials meet to determine the manner in which the so-called \"Final Solution to the Jewish Question\" can be best implemented.",
       "genres": [
-        "Crime",
-        "Drama"
+        "History",
+        "Drama",
+        "War",
+        "TV Movie"
+      ],
+      "releaseInfo": "2001",
+      "imdb_id": "tt0266425"
+    },
+    {
+      "id": "tt33100314",
+      "type": "movie",
+      "name": "Remarkably Bright Creatures",
+      "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+      "posterShape": "poster",
+      "description": "Through unlikely bonds formed during night shifts at a local aquarium, Tova, an elderly widow, learns of a life-changing discovery that may bring her joy and wonder once again.",
+      "genres": [
+        "Drama",
+        "Mystery"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt15574124"
+      "imdb_id": "tt33100314"
     },
     {
-      "id": "tt0311113",
+      "id": "tt27543632",
       "type": "movie",
-      "name": "Master and Commander: The Far Side of the World",
-      "poster": "https://image.tmdb.org/t/p/w500/7ZUHF6P0vcA5v1Gm8NbRYyd9w4N.jpg",
+      "name": "The Housemaid",
+      "poster": "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
       "posterShape": "poster",
-      "description": "After an abrupt and violent encounter with a French warship inflicts severe damage upon his ship, a captain of the British Royal Navy begins a chase over two oceans to capture or destroy the enemy, though he must weigh his commitment to duty and ferocious pursuit of glory against the safety of his devoted crew, including the ship's thoughtful surgeon, his best friend.",
+      "description": "Trying to escape her past, Millie Calloway accepts a job as a live-in housemaid for the wealthy Nina and Andrew Winchester. But what begins as a dream job quickly unravels into something far more dangerous—a sexy, seductive game of secrets, scandal, and power.",
       "genres": [
-        "Adventure",
-        "Drama",
-        "War"
+        "Mystery",
+        "Thriller"
       ],
-      "releaseInfo": "2003",
-      "imdb_id": "tt0311113"
+      "releaseInfo": "2025",
+      "imdb_id": "tt27543632"
     },
     {
-      "id": "tt7693316",
+      "id": "tt0446029",
       "type": "movie",
-      "name": "Devotion",
-      "poster": "https://image.tmdb.org/t/p/w500/26yQPXymbWeCLKwcmyL8dRjAzth.jpg",
+      "name": "Scott Pilgrim vs. the World",
+      "poster": "https://image.tmdb.org/t/p/w500/g5IoYeudx9XBEfwNL0fHvSckLBz.jpg",
       "posterShape": "poster",
-      "description": "The harrowing true story of two elite US Navy fighter pilots during the Korean War. Their heroic sacrifices would ultimately make them the Navy's most celebrated wingmen.",
+      "description": "As bass guitarist for a garage-rock band, Scott Pilgrim has never had trouble getting a girlfriend; usually, the problem is getting rid of them. But when Ramona Flowers skates into his heart, he finds she has the most troublesome baggage of all: an army of ex-boyfriends who will stop at nothing to eliminate him from her list of suitors.",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Romance"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt0446029"
+    },
+    {
+      "id": "tt0414387",
+      "type": "movie",
+      "name": "Pride & Prejudice",
+      "poster": "https://image.tmdb.org/t/p/w500/o8UhmEbWPHmTUxP0lMuCoqNkbB3.jpg",
+      "posterShape": "poster",
+      "description": "A story of love and life among the landed English gentry during the Georgian era. Mr. Bennet is a gentleman living in Hertfordshire with his overbearing wife and five daughters, but if he dies their house will be inherited by a distant cousin whom they have never met, so the family's future happiness and security is dependent on the daughters making good marriages.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "releaseInfo": "2005",
+      "imdb_id": "tt0414387"
+    },
+    {
+      "id": "tt0215750",
+      "type": "movie",
+      "name": "Enemy at the Gates",
+      "poster": "https://image.tmdb.org/t/p/w500/cHRAbVdsCWFaQrswRsBP7Bn255W.jpg",
+      "posterShape": "poster",
+      "description": "A Russian and a German sniper play a game of cat-and-mouse during the Battle of Stalingrad in WWII.",
+      "genres": [
+        "War",
+        "History"
+      ],
+      "releaseInfo": "2001",
+      "imdb_id": "tt0215750"
+    },
+    {
+      "id": "tt6914122",
+      "type": "movie",
+      "name": "Resistance",
+      "poster": "https://image.tmdb.org/t/p/w500/As22MQ8G3ILsdzsSIv1u9qEz6hE.jpg",
+      "posterShape": "poster",
+      "description": "The story of mime Marcel Marceau as he works with a group of Jewish boy scouts and the French Resistance to save the lives of ten thousand orphans during World War II.",
+      "genres": [
+        "War",
+        "History",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt6914122"
+    },
+    {
+      "id": "tt26595906",
+      "type": "movie",
+      "name": "The World Will Tremble",
+      "poster": "https://image.tmdb.org/t/p/w500/31CKSlZdsvdY8bysV5WeR2YvTim.jpg",
+      "posterShape": "poster",
+      "description": "The incredible, untold true story of how a group of prisoners attempt a seemingly impossible escape from the first Nazi death camp in order to provide the first eyewitness account of the Holocaust.",
+      "genres": [
+        "Drama",
+        "War",
+        "History"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt26595906"
+    },
+    {
+      "id": "tt19869662",
+      "type": "movie",
+      "name": "Irena's Vow",
+      "poster": "https://image.tmdb.org/t/p/w500/lN6iCgTgpNlylelUctrA29wJx4W.jpg",
+      "posterShape": "poster",
+      "description": "19 year old Irena Gut is promoted to housekeeper in the home of a highly respected Nazi officer in Poland when she finds out that the Jewish ghetto is about to be liquidated. Determined to help twelve Jewish workers, she decides to shelter them in the safest place she can think of – the basement of the German Major's house. Over the next eight months, Irena uses her wit, humour and immense courage to hide her friends as long as possible.",
       "genres": [
         "War",
         "Drama",
         "History"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt7693316"
+      "releaseInfo": "2024",
+      "imdb_id": "tt19869662"
     },
     {
-      "id": "tt2278388",
+      "id": "tt32547691",
       "type": "movie",
-      "name": "The Grand Budapest Hotel",
-      "poster": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+      "name": "Pressure",
+      "poster": "https://image.tmdb.org/t/p/w500/gFjEggtrejCN79r6SXRjM269OtG.jpg",
       "posterShape": "poster",
-      "description": "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2278388"
-    },
-    {
-      "id": "tt31450182",
-      "type": "movie",
-      "name": "Amber Alert",
-      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
-      "posterShape": "poster",
-      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
+      "description": "In the tense 72 hours before D-Day, and the fate of the free world hanging in the balance, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice—launch the largest and most dangerous seaborne invasion in history or risk losing the war altogether.",
       "genres": [
         "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31450182"
-    },
-    {
-      "id": "tt1856101",
-      "type": "movie",
-      "name": "Blade Runner 2049",
-      "poster": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
-      "posterShape": "poster",
-      "description": "Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard, a former LAPD blade runner who has been missing for 30 years.",
-      "genres": [
-        "Science Fiction",
-        "Drama"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt1856101"
-    },
-    {
-      "id": "tt2119532",
-      "type": "movie",
-      "name": "Hacksaw Ridge",
-      "poster": "https://image.tmdb.org/t/p/w500/fnOMP6mjmOmZwmlC1n0K7ivrzt1.jpg",
-      "posterShape": "poster",
-      "description": "WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first Conscientious Objector in American history to receive the Congressional Medal of Honor.",
-      "genres": [
-        "Drama",
         "History",
         "War"
       ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt2119532"
-    },
-    {
-      "id": "tt8093700",
-      "type": "movie",
-      "name": "The Woman King",
-      "poster": "https://image.tmdb.org/t/p/w500/438QXt1E3WJWb3PqNniK0tAE5c1.jpg",
-      "posterShape": "poster",
-      "description": "The story of the Agojie, the all-female unit of warriors who protected the African Kingdom of Dahomey in the 1800s with skills and a fierceness unlike anything the world has ever seen, and General Nanisca as she trains the next generation of recruits and readies them for battle against an enemy determined to destroy their way of life.",
-      "genres": [
-        "Action",
-        "Drama",
-        "History",
-        "War"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt8093700"
-    },
-    {
-      "id": "tt4627382",
-      "type": "movie",
-      "name": "Roofman",
-      "poster": "https://image.tmdb.org/t/p/w500/wXDFtcnYtevleGzCmAD2ReQnJ4l.jpg",
-      "posterShape": "poster",
-      "description": "A former Army Ranger and struggling father turns to robbing McDonald’s restaurants by cutting holes in their roofs, earning him the nickname \"Roofman.\" After escaping prison, he secretly lives inside a Toys “R” Us for six months, surviving undetected while planning his next move. But when he falls for a divorced mom drawn to his undeniable charm, his double life begins to unravel, setting off a compelling and suspenseful game of cat and mouse as his past closes in.",
-      "genres": [
-        "Crime",
-        "Comedy",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt4627382"
-    },
-    {
-      "id": "tt0475276",
-      "type": "movie",
-      "name": "United 93",
-      "poster": "https://image.tmdb.org/t/p/w500/r3mdSgsnpoi4UiUufdybhjha68t.jpg",
-      "posterShape": "poster",
-      "description": "A real-time account of the events on United Flight 93, one of the planes hijacked on 9/11 that crashed near Shanksville, Pennsylvania when passengers foiled the terrorist plot.",
-      "genres": [
-        "Drama",
-        "History",
-        "Thriller"
-      ],
-      "releaseInfo": "2006",
-      "imdb_id": "tt0475276"
+      "releaseInfo": "2026",
+      "imdb_id": "tt32547691"
     }
   ]
 }

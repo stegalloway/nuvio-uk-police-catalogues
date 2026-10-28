@@ -1,35 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt1855199",
-      "type": "movie",
-      "name": "End of Watch",
-      "poster": "https://image.tmdb.org/t/p/w500/pDeVKQICkcdwwjHxGj0MeS14YJ6.jpg",
-      "posterShape": "poster",
-      "description": "Two young officers are marked for death after confiscating a small cache of money and firearms from the members of a notorious cartel during a routine traffic stop.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1855199"
-    },
-    {
-      "id": "tt1024648",
-      "type": "movie",
-      "name": "Argo",
-      "poster": "https://image.tmdb.org/t/p/w500/m5gPWFZFIp4UJFABgWyLkbXv8GX.jpg",
-      "posterShape": "poster",
-      "description": "As the Iranian revolution reaches a boiling point, a CIA 'exfiltration' specialist concocts a risky plan to free six Americans who have found shelter at the home of the Canadian ambassador.",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1024648"
-    },
-    {
       "id": "tt9603208",
       "type": "movie",
       "name": "Mission: Impossible - The Final Reckoning",
@@ -60,6 +31,21 @@
       "imdb_id": "tt1950186"
     },
     {
+      "id": "tt1535109",
+      "type": "movie",
+      "name": "Captain Phillips",
+      "poster": "https://image.tmdb.org/t/p/w500/8Td0kkocW6sD3uRpzwfMfkqMWhx.jpg",
+      "posterShape": "poster",
+      "description": "The true story of Captain Richard Phillips and the 2009 hijacking by Somali pirates of the US-flagged MV Maersk Alabama, the first American cargo ship to be hijacked in two hundred years.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt1535109"
+    },
+    {
       "id": "tt7131622",
       "type": "movie",
       "name": "Once Upon a Time... in Hollywood",
@@ -73,21 +59,6 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt7131622"
-    },
-    {
-      "id": "tt0498380",
-      "type": "movie",
-      "name": "Letters from Iwo Jima",
-      "poster": "https://image.tmdb.org/t/p/w500/kZokxQtzMPURvijWYFuvh1fAvnv.jpg",
-      "posterShape": "poster",
-      "description": "The story of the battle of Iwo Jima between the United States and Imperial Japan during World War II, as told from the perspective of the Japanese who fought it.",
-      "genres": [
-        "Action",
-        "Drama",
-        "War"
-      ],
-      "releaseInfo": "2006",
-      "imdb_id": "tt0498380"
     },
     {
       "id": "tt1392214",
@@ -150,64 +121,17 @@
       "imdb_id": "tt2872718"
     },
     {
-      "id": "tt0257044",
+      "id": "tt8236336",
       "type": "movie",
-      "name": "Road to Perdition",
-      "poster": "https://image.tmdb.org/t/p/w500/loSpBeirRfTPJ3cMIqpQArstGhh.jpg",
+      "name": "The Report",
+      "poster": "https://image.tmdb.org/t/p/w500/sG5NI6TMNR9ftOdTIXmG0hrBYSY.jpg",
       "posterShape": "poster",
-      "description": "Mike Sullivan works as a hit man for crime boss John Rooney. Sullivan views Rooney as a father figure, however after his son is witness to a killing, Mike Sullivan finds himself on the run in attempt to save the life of his son and at the same time looking for revenge on those who wronged him.",
+      "description": "The story of Daniel Jones, lead investigator for the US Senate’s sweeping study into the CIA's Detention and Interrogation Program, which was found to be brutal, immoral and ineffective. With the truth at stake, Jones battled tirelessly to make public what many in power sought to keep hidden.",
       "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0257044"
-    },
-    {
-      "id": "tt0278504",
-      "type": "movie",
-      "name": "Insomnia",
-      "poster": "https://image.tmdb.org/t/p/w500/riVXh3EimGO0y5dgQxEWPRy5Itg.jpg",
-      "posterShape": "poster",
-      "description": "Two Los Angeles homicide detectives are dispatched to a northern town where the sun doesn't set to investigate the methodical murder of a local teen.",
-      "genres": [
-        "Thriller",
-        "Crime",
         "Drama"
       ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0278504"
-    },
-    {
-      "id": "tt0399146",
-      "type": "movie",
-      "name": "A History of Violence",
-      "poster": "https://image.tmdb.org/t/p/w500/ptJKY9WGDUUL064ge3jW78zBX0t.jpg",
-      "posterShape": "poster",
-      "description": "An average family is thrust into the spotlight after the father commits a seemingly self-defense murder at his diner.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0399146"
-    },
-    {
-      "id": "tt31050020",
-      "type": "movie",
-      "name": "Once Upon a Deadpool",
-      "poster": "https://image.tmdb.org/t/p/w500/w6Jk8BHohhoKBUcxGeSyDQGWGWc.jpg",
-      "posterShape": "poster",
-      "description": "A kidnapped Fred Savage is forced to endure Deadpool's PG-13 rendition of Deadpool 2, as a Princess Bride-esque story full of magic, wonder, and zero Fs.",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Adventure"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt31050020"
+      "releaseInfo": "2019",
+      "imdb_id": "tt8236336"
     },
     {
       "id": "tt0478970",
@@ -225,19 +149,19 @@
       "imdb_id": "tt0478970"
     },
     {
-      "id": "tt3659388",
+      "id": "tt31050020",
       "type": "movie",
-      "name": "The Martian",
-      "poster": "https://image.tmdb.org/t/p/w500/5BHuvQ6p9kfc091Z8RiFNhCwL4b.jpg",
+      "name": "Once Upon a Deadpool",
+      "poster": "https://image.tmdb.org/t/p/w500/w6Jk8BHohhoKBUcxGeSyDQGWGWc.jpg",
       "posterShape": "poster",
-      "description": "During a manned mission to Mars, Astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. But Watney has survived and finds himself stranded and alone on the hostile planet. With only meager supplies, he must draw upon his ingenuity, wit and spirit to subsist and find a way to signal to Earth that he is alive.",
+      "description": "A kidnapped Fred Savage is forced to endure Deadpool's PG-13 rendition of Deadpool 2, as a Princess Bride-esque story full of magic, wonder, and zero Fs.",
       "genres": [
-        "Science Fiction",
-        "Drama",
+        "Action",
+        "Comedy",
         "Adventure"
       ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt3659388"
+      "releaseInfo": "2018",
+      "imdb_id": "tt31050020"
     },
     {
       "id": "tt22084616",
@@ -270,32 +194,108 @@
       "imdb_id": "tt3799694"
     },
     {
-      "id": "tt8236336",
+      "id": "tt5950044",
       "type": "movie",
-      "name": "The Report",
-      "poster": "https://image.tmdb.org/t/p/w500/sG5NI6TMNR9ftOdTIXmG0hrBYSY.jpg",
+      "name": "Superman",
+      "poster": "https://image.tmdb.org/t/p/w500/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
       "posterShape": "poster",
-      "description": "The story of Daniel Jones, lead investigator for the US Senate’s sweeping study into the CIA's Detention and Interrogation Program, which was found to be brutal, immoral and ineffective. With the truth at stake, Jones battled tirelessly to make public what many in power sought to keep hidden.",
+      "description": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
       "genres": [
-        "Drama"
+        "Science Fiction",
+        "Adventure",
+        "Action"
       ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8236336"
+      "releaseInfo": "2025",
+      "imdb_id": "tt5950044"
     },
     {
-      "id": "tt4846232",
+      "id": "tt7526136",
       "type": "movie",
-      "name": "Good Time",
-      "poster": "https://image.tmdb.org/t/p/w500/yE1c9hj5Hf8a9KplAdRdhADqUro.jpg",
+      "name": "Heart of the Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
       "posterShape": "poster",
-      "description": "After a botched bank robbery lands his younger brother in prison, Connie Nikas embarks on a twisted odyssey through New York City's underworld to get his brother Nick out of jail.",
+      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
       "genres": [
-        "Crime",
-        "Thriller",
+        "Adventure",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt7526136"
+    },
+    {
+      "id": "tt16311594",
+      "type": "movie",
+      "name": "F1",
+      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+      "posterShape": "poster",
+      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
+      "genres": [
+        "Action",
         "Drama"
       ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt16311594"
+    },
+    {
+      "id": "tt7349662",
+      "type": "movie",
+      "name": "BlacKkKlansman",
+      "poster": "https://image.tmdb.org/t/p/w500/8jxqAvSDoneSKRczaK8v9X5gqBp.jpg",
+      "posterShape": "poster",
+      "description": "Colorado Springs, late 1970s. Ron Stallworth, an African American police officer, and Flip Zimmerman, his Jewish colleague, run an undercover operation to infiltrate the Ku Klux Klan.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "History"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt7349662"
+    },
+    {
+      "id": "tt36042156",
+      "type": "movie",
+      "name": "The Punisher: One Last Kill",
+      "poster": "https://image.tmdb.org/t/p/w500/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
+      "posterShape": "poster",
+      "description": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt36042156"
+    },
+    {
+      "id": "tt3501632",
+      "type": "movie",
+      "name": "Thor: Ragnarok",
+      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "posterShape": "poster",
+      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Science Fiction"
+      ],
       "releaseInfo": "2017",
-      "imdb_id": "tt4846232"
+      "imdb_id": "tt3501632"
+    },
+    {
+      "id": "tt7181546",
+      "type": "movie",
+      "name": "Ballerina",
+      "poster": "https://image.tmdb.org/t/p/w500/2VUmvqsHb6cEtdfscEA6fqqVzLg.jpg",
+      "posterShape": "poster",
+      "description": "Taking place during the events of John Wick: Chapter 3 – Parabellum, Eve Macarro begins her training in the assassin traditions of the Ruska Roma.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt7181546"
     }
   ]
 }

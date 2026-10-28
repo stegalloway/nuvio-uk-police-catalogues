@@ -1,6 +1,78 @@
 {
   "metas": [
     {
+      "id": "tt16030542",
+      "type": "series",
+      "name": "The Recruit",
+      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
+      "posterShape": "poster",
+      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt16030542"
+    },
+    {
+      "id": "tt1595859",
+      "type": "series",
+      "name": "Blue Bloods",
+      "poster": "https://image.tmdb.org/t/p/w500/q1WlrxnCvNhBjJ4N7V0JQXjnIBN.jpg",
+      "posterShape": "poster",
+      "description": "A drama about a multi-generational family of cops dedicated to New York City law enforcement. Frank Reagan is the New York Police Commissioner and heads both the police force and the Reagan brood. He runs his department as diplomatically as he runs his family, even when dealing with the politics that plagued his unapologetically bold father, Henry, during his stint as Chief.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1595859"
+    },
+    {
+      "id": "tt3205802",
+      "type": "series",
+      "name": "How to Get Away with Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/bJs8Y6T88NcgksxA8UaVl4YX8p8.jpg",
+      "posterShape": "poster",
+      "description": "A sexy, suspense-driven legal thriller about a group of ambitious law students and their brilliant, mysterious criminal defense professor. They become entangled in a murder plot and will shake the entire university and change the course of their lives.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt3205802"
+    },
+    {
+      "id": "tt11846996",
+      "type": "series",
+      "name": "Vigil",
+      "poster": "https://image.tmdb.org/t/p/w500/mmNjcRq47U1UVPnOuD2EYxx6Dno.jpg",
+      "posterShape": "poster",
+      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11846996"
+    },
+    {
+      "id": "tt16294384",
+      "type": "series",
+      "name": "Disclaimer",
+      "poster": "https://image.tmdb.org/t/p/w500/m0ZB5DEJKare7NTdeR1UQpHYy4c.jpg",
+      "posterShape": "poster",
+      "description": "When an intriguing novel appears at the bedside of a journalist whose career has been built on revealing transgressions, she is horrified to realize she's a key character in a long-buried story—one that exposes her darkest secret.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt16294384"
+    },
+    {
       "id": "tt32559610",
       "type": "series",
       "name": "Countdown",
@@ -13,35 +85,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt32559610"
-    },
-    {
-      "id": "tt2802850",
-      "type": "series",
-      "name": "Fargo",
-      "poster": "https://image.tmdb.org/t/p/w500/a3VW6khsyUVKrG0GBCWFG3NzWPX.jpg",
-      "posterShape": "poster",
-      "description": "A close-knit anthology series dealing with stories involving malice, violence and murder based in and around Minnesota.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2802850"
-    },
-    {
-      "id": "tt3021686",
-      "type": "series",
-      "name": "The Honourable Woman",
-      "poster": "https://image.tmdb.org/t/p/w500/9EiRdOWqzkO7bHHQxxPnIIJ7s8G.jpg",
-      "posterShape": "poster",
-      "description": "Nessa Stein, the daughter of a Zionist arms procurer who as a child witnessed his assassination. Now an adult, Nessa inherits her father's company and changes course from supplying arms to laying data cabling networks between Israel and the West Bank. Her efforts to reconcile the Israelis and Palestinians lands her an appointment to the House of Lords and creates an international political maelstrom.",
-      "genres": [
-        "Drama",
-        "War & Politics",
-        "Crime"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt3021686"
     },
     {
       "id": "tt2401256",
@@ -59,62 +102,18 @@
       "imdb_id": "tt2401256"
     },
     {
-      "id": "tt9131050",
+      "id": "tt2802850",
       "type": "series",
-      "name": "A Confession",
-      "poster": "https://image.tmdb.org/t/p/w500/6c6q8m5PCiXv3TlxmM0vIcLylb0.jpg",
+      "name": "Fargo",
+      "poster": "https://image.tmdb.org/t/p/w500/a3VW6khsyUVKrG0GBCWFG3NzWPX.jpg",
       "posterShape": "poster",
-      "description": "The story of how Detective Superintendent Steve Fulcher deliberately breached police procedure and protocol to catch a killer, a decision that ultimately cost him his career and reputation.",
+      "description": "A close-knit anthology series dealing with stories involving malice, violence and murder based in and around Minnesota.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt9131050"
-    },
-    {
-      "id": "tt3922704",
-      "type": "series",
-      "name": "No Offence",
-      "poster": "https://image.tmdb.org/t/p/w500/yqftJK3cwbbjmfm8SsN2kjBezVc.jpg",
-      "posterShape": "poster",
-      "description": "Keeping these streets clean is a Herculean task, enough to demoralize even the keenest rookie – but there’s a reason why this hotchpotch of committed cops are on this force, on this side of town. Drug labs, arsonists, neo-Nazis and notorious murderers are all in a day’s work for this close-knit team, led by the dizzyingly capable but unquestionably unhinged DI Vivienne Deering. But when a particularly twisted serial killer emerges it leaves even the most hardened of these seasoned coppers reeling.",
-      "genres": [
-        "Mystery",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt3922704"
-    },
-    {
-      "id": "tt4181172",
-      "type": "series",
-      "name": "Shooter",
-      "poster": "https://image.tmdb.org/t/p/w500/oMmqtafm6Rdlka1ejJeC9BDWzyO.jpg",
-      "posterShape": "poster",
-      "description": "Bob Lee Swagger is an expert marksman living in exile who is coaxed back into action after learning of a plot to kill the president.",
-      "genres": [
-        "Action & Adventure",
-        "War & Politics",
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt4181172"
-    },
-    {
-      "id": "tt1843678",
-      "type": "series",
-      "name": "Scott & Bailey",
-      "poster": "https://image.tmdb.org/t/p/w500/2WD6BxjA2ZE1DejMXenZXnlm1Fz.jpg",
-      "posterShape": "poster",
-      "description": "D.C. Rachel Bailey and D.C. Janet Scott have a robust and engaging friendship which enables them to draw upon each other’s strengths and investigate murders for the Manchester Metropolitan Police.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1843678"
+      "releaseInfo": "2014",
+      "imdb_id": "tt2802850"
     },
     {
       "id": "tt33035373",
@@ -132,35 +131,6 @@
       "imdb_id": "tt33035373"
     },
     {
-      "id": "tt6474236",
-      "type": "series",
-      "name": "The Looming Tower",
-      "poster": "https://image.tmdb.org/t/p/w500/tfnHCDJISHE44lLD0H3kn0lTs64.jpg",
-      "posterShape": "poster",
-      "description": "While Osama bin Laden and Al-Qaeda become a global threat, the rivalry between the CIA and FBI inadvertently sets the stage for the tragedy of 9/11 and the Iraq War.",
-      "genres": [
-        "War & Politics",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6474236"
-    },
-    {
-      "id": "tt30412869",
-      "type": "series",
-      "name": "56 Days",
-      "poster": "https://image.tmdb.org/t/p/w500/sdJLbucggwGj8NdX0UN2zt1Vwmn.jpg",
-      "posterShape": "poster",
-      "description": "When an unidentified body is found in a luxury apartment linked to Oliver Kennedy and his girlfriend Ciara Wyse, Detectives Lee Reardon and Karl Connolly reconstruct the couple's deadly romance across the past 56 days.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt30412869"
-    },
-    {
       "id": "tt4474344",
       "type": "series",
       "name": "Blindspot",
@@ -176,18 +146,32 @@
       "imdb_id": "tt4474344"
     },
     {
-      "id": "tt5822112",
+      "id": "tt1843678",
       "type": "series",
-      "name": "Rabbit Hole",
-      "poster": "https://image.tmdb.org/t/p/w500/zb5MArsrMxK4mSSLzUmbfcXAc60.jpg",
+      "name": "Scott & Bailey",
+      "poster": "https://image.tmdb.org/t/p/w500/2WD6BxjA2ZE1DejMXenZXnlm1Fz.jpg",
       "posterShape": "poster",
-      "description": "Nothing is what it seems when John Weir, a master of deception in the world of corporate espionage, is framed for murder by powerful forces with the ability to influence and control populations.",
+      "description": "D.C. Rachel Bailey and D.C. Janet Scott have a robust and engaging friendship which enables them to draw upon each other’s strengths and investigate murders for the Manchester Metropolitan Police.",
       "genres": [
-        "Drama",
-        "Mystery"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt5822112"
+      "releaseInfo": "2011",
+      "imdb_id": "tt1843678"
+    },
+    {
+      "id": "tt9131050",
+      "type": "series",
+      "name": "A Confession",
+      "poster": "https://image.tmdb.org/t/p/w500/6c6q8m5PCiXv3TlxmM0vIcLylb0.jpg",
+      "posterShape": "poster",
+      "description": "The story of how Detective Superintendent Steve Fulcher deliberately breached police procedure and protocol to catch a killer, a decision that ultimately cost him his career and reputation.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt9131050"
     },
     {
       "id": "tt6110318",
@@ -204,89 +188,103 @@
       "imdb_id": "tt6110318"
     },
     {
-      "id": "tt31314754",
+      "id": "tt5675620",
       "type": "series",
-      "name": "Devil in Disguise: John Wayne Gacy",
-      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
+      "name": "Marvel's The Punisher",
+      "poster": "https://image.tmdb.org/t/p/w500/tM6xqRKXoloH9UchaJEyyRE9O1w.jpg",
       "posterShape": "poster",
-      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
+      "description": "A former Marine out to punish the criminals responsible for his family's murder finds himself ensnared in a military conspiracy.",
+      "genres": [
+        "Action & Adventure",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5675620"
+    },
+    {
+      "id": "tt14507354",
+      "type": "series",
+      "name": "The Endgame",
+      "poster": "https://image.tmdb.org/t/p/w500/qH0BuRkZmP6sdi8R6tvlvwdBxmo.jpg",
+      "posterShape": "poster",
+      "description": "A high-stakes thriller about Elena Federova, a very recently captured international arms dealer and brilliant criminal mastermind who even in captivity orchestrates a number of coordinated bank heists, and Val Turner, the principled, relentless and socially outcast FBI agent who will stop at nothing to foil her ambitious plan.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31314754"
+      "releaseInfo": "2022",
+      "imdb_id": "tt14507354"
     },
     {
-      "id": "tt30459041",
+      "id": "tt0458253",
       "type": "series",
-      "name": "Your Friends & Neighbors",
-      "poster": "https://image.tmdb.org/t/p/w500/lcp63INKEsVHUly9eayx7gEEOcG.jpg",
+      "name": "The Closer",
+      "poster": "https://image.tmdb.org/t/p/w500/q6FhABXGf3TaYKoKNwzGAEzW7bt.jpg",
       "posterShape": "poster",
-      "description": "When a financial titan suddenly finds himself divorced and jobless, he starts robbing his wealthy neighbors to stay afloat. Stealing from his own social circle strangely exhilarates him—but he gradually gets tangled in a deadly web.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30459041"
-    },
-    {
-      "id": "tt11846996",
-      "type": "series",
-      "name": "Vigil",
-      "poster": "https://image.tmdb.org/t/p/w500/mmNjcRq47U1UVPnOuD2EYxx6Dno.jpg",
-      "posterShape": "poster",
-      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11846996"
-    },
-    {
-      "id": "tt34771210",
-      "type": "series",
-      "name": "I Will Find You",
-      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
-      "posterShape": "poster",
-      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34771210"
-    },
-    {
-      "id": "tt6297682",
-      "type": "series",
-      "name": "Seven Seconds",
-      "poster": "https://image.tmdb.org/t/p/w500/mexUP20U3sPzu8jfGeRIHzI3TUC.jpg",
-      "posterShape": "poster",
-      "description": "Tensions run high between African American citizens and Caucasian cops in Jersey City when a teenage African American boy is critically injured by a cop.",
+      "description": "Deputy Police Chief Brenda Leigh Johnson transfers from Atlanta to LA to head up a special unit of the LAPD that handles sensitive, high-profile murder cases. Johnson's quirky personality and hard-nosed approach often rubs her colleagues the wrong way, but her reputation as one of the world's best interrogator eventually wins over even her toughest critics.",
       "genres": [
         "Crime",
-        "Drama"
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6297682"
+      "releaseInfo": "2005",
+      "imdb_id": "tt0458253"
     },
     {
-      "id": "tt0098844",
+      "id": "tt15390524",
       "type": "series",
-      "name": "Law & Order",
-      "poster": "https://image.tmdb.org/t/p/w500/hmd2tEtjolLWpNLCTvXS2PO5VCi.jpg",
+      "name": "Partner Track",
+      "poster": "https://image.tmdb.org/t/p/w500/ekb76bz68oSJrbYrDMCYsLI5I6E.jpg",
       "posterShape": "poster",
-      "description": "In cases ripped from the headlines, police investigate serious and often deadly crimes, weighing the evidence and questioning the suspects until someone is taken into custody. The district attorney's office then builds a case to convict the perpetrator by proving the person guilty beyond a reasonable doubt. Working together, these expert teams navigate all sides of the complex criminal justice system to make New York a safer place.",
+      "description": "At an elite NYC law firm, Ingrid Yun fights to make partner — and hold onto her principles — while balancing romance, friends and family expectations.",
       "genres": [
-        "Crime",
         "Drama"
       ],
-      "releaseInfo": "1990",
-      "imdb_id": "tt0098844"
+      "releaseInfo": "2022",
+      "imdb_id": "tt15390524"
+    },
+    {
+      "id": "tt6964748",
+      "type": "series",
+      "name": "Alex Rider",
+      "poster": "https://image.tmdb.org/t/p/w500/7VkzkvA0XckUClWrlkt4fnmTrkL.jpg",
+      "posterShape": "poster",
+      "description": "Alex Rider is an ordinary teenager enlisted to work on behalf of MI6, where he uses skills he didn't know he had to become an extraordinary spy.",
+      "genres": [
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt6964748"
+    },
+    {
+      "id": "tt2356777",
+      "type": "series",
+      "name": "True Detective",
+      "poster": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
+      "posterShape": "poster",
+      "description": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2356777"
+    },
+    {
+      "id": "tt1769411",
+      "type": "series",
+      "name": "Accused",
+      "poster": "https://image.tmdb.org/t/p/w500/cNTmeTD26zh3IGmWbiByHdsk8Ky.jpg",
+      "posterShape": "poster",
+      "description": "How certain people end up being accused of a crime.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1769411"
     }
   ]
 }

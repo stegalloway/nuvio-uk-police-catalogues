@@ -1,79 +1,78 @@
 {
   "metas": [
     {
-      "id": "tt1856101",
+      "id": "tt0215750",
       "type": "movie",
-      "name": "Blade Runner 2049",
-      "poster": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+      "name": "Enemy at the Gates",
+      "poster": "https://image.tmdb.org/t/p/w500/cHRAbVdsCWFaQrswRsBP7Bn255W.jpg",
       "posterShape": "poster",
-      "description": "Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard, a former LAPD blade runner who has been missing for 30 years.",
+      "description": "A Russian and a German sniper play a game of cat-and-mouse during the Battle of Stalingrad in WWII.",
       "genres": [
-        "Science Fiction",
+        "War",
+        "History"
+      ],
+      "releaseInfo": "2001",
+      "imdb_id": "tt0215750"
+    },
+    {
+      "id": "tt6914122",
+      "type": "movie",
+      "name": "Resistance",
+      "poster": "https://image.tmdb.org/t/p/w500/As22MQ8G3ILsdzsSIv1u9qEz6hE.jpg",
+      "posterShape": "poster",
+      "description": "The story of mime Marcel Marceau as he works with a group of Jewish boy scouts and the French Resistance to save the lives of ten thousand orphans during World War II.",
+      "genres": [
+        "War",
+        "History",
         "Drama"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt1856101"
+      "releaseInfo": "2020",
+      "imdb_id": "tt6914122"
     },
     {
-      "id": "tt2119532",
+      "id": "tt26595906",
       "type": "movie",
-      "name": "Hacksaw Ridge",
-      "poster": "https://image.tmdb.org/t/p/w500/fnOMP6mjmOmZwmlC1n0K7ivrzt1.jpg",
+      "name": "The World Will Tremble",
+      "poster": "https://image.tmdb.org/t/p/w500/31CKSlZdsvdY8bysV5WeR2YvTim.jpg",
       "posterShape": "poster",
-      "description": "WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first Conscientious Objector in American history to receive the Congressional Medal of Honor.",
+      "description": "The incredible, untold true story of how a group of prisoners attempt a seemingly impossible escape from the first Nazi death camp in order to provide the first eyewitness account of the Holocaust.",
       "genres": [
         "Drama",
-        "History",
-        "War"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt2119532"
-    },
-    {
-      "id": "tt8093700",
-      "type": "movie",
-      "name": "The Woman King",
-      "poster": "https://image.tmdb.org/t/p/w500/438QXt1E3WJWb3PqNniK0tAE5c1.jpg",
-      "posterShape": "poster",
-      "description": "The story of the Agojie, the all-female unit of warriors who protected the African Kingdom of Dahomey in the 1800s with skills and a fierceness unlike anything the world has ever seen, and General Nanisca as she trains the next generation of recruits and readies them for battle against an enemy determined to destroy their way of life.",
-      "genres": [
-        "Action",
-        "Drama",
-        "History",
-        "War"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt8093700"
-    },
-    {
-      "id": "tt4627382",
-      "type": "movie",
-      "name": "Roofman",
-      "poster": "https://image.tmdb.org/t/p/w500/wXDFtcnYtevleGzCmAD2ReQnJ4l.jpg",
-      "posterShape": "poster",
-      "description": "A former Army Ranger and struggling father turns to robbing McDonald’s restaurants by cutting holes in their roofs, earning him the nickname \"Roofman.\" After escaping prison, he secretly lives inside a Toys “R” Us for six months, surviving undetected while planning his next move. But when he falls for a divorced mom drawn to his undeniable charm, his double life begins to unravel, setting off a compelling and suspenseful game of cat and mouse as his past closes in.",
-      "genres": [
-        "Crime",
-        "Comedy",
-        "Drama"
+        "War",
+        "History"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt4627382"
+      "imdb_id": "tt26595906"
     },
     {
-      "id": "tt0475276",
+      "id": "tt19869662",
       "type": "movie",
-      "name": "United 93",
-      "poster": "https://image.tmdb.org/t/p/w500/r3mdSgsnpoi4UiUufdybhjha68t.jpg",
+      "name": "Irena's Vow",
+      "poster": "https://image.tmdb.org/t/p/w500/lN6iCgTgpNlylelUctrA29wJx4W.jpg",
       "posterShape": "poster",
-      "description": "A real-time account of the events on United Flight 93, one of the planes hijacked on 9/11 that crashed near Shanksville, Pennsylvania when passengers foiled the terrorist plot.",
+      "description": "19 year old Irena Gut is promoted to housekeeper in the home of a highly respected Nazi officer in Poland when she finds out that the Jewish ghetto is about to be liquidated. Determined to help twelve Jewish workers, she decides to shelter them in the safest place she can think of – the basement of the German Major's house. Over the next eight months, Irena uses her wit, humour and immense courage to hide her friends as long as possible.",
       "genres": [
+        "War",
         "Drama",
-        "History",
-        "Thriller"
+        "History"
       ],
-      "releaseInfo": "2006",
-      "imdb_id": "tt0475276"
+      "releaseInfo": "2024",
+      "imdb_id": "tt19869662"
+    },
+    {
+      "id": "tt32547691",
+      "type": "movie",
+      "name": "Pressure",
+      "poster": "https://image.tmdb.org/t/p/w500/gFjEggtrejCN79r6SXRjM269OtG.jpg",
+      "posterShape": "poster",
+      "description": "In the tense 72 hours before D-Day, and the fate of the free world hanging in the balance, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice—launch the largest and most dangerous seaborne invasion in history or risk losing the war altogether.",
+      "genres": [
+        "Thriller",
+        "History",
+        "War"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32547691"
     }
   ]
 }

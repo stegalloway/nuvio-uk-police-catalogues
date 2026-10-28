@@ -1,299 +1,297 @@
 {
   "metas": [
     {
-      "id": "tt30144839",
+      "id": "tt0253474",
       "type": "movie",
-      "name": "One Battle After Another",
-      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
+      "name": "The Pianist",
+      "poster": "https://image.tmdb.org/t/p/w500/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg",
       "posterShape": "poster",
-      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+      "description": "The true story of pianist Władysław Szpilman's experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a café; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
       "genres": [
-        "Thriller",
-        "Crime",
-        "Comedy"
+        "Drama",
+        "War"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30144839"
+      "releaseInfo": "2002",
+      "imdb_id": "tt0253474"
     },
     {
-      "id": "tt15398776",
+      "id": "tt0395169",
       "type": "movie",
-      "name": "Oppenheimer",
-      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "name": "Hotel Rwanda",
+      "poster": "https://image.tmdb.org/t/p/w500/p3pHw85UMZPegfMZBA6dZ06yarm.jpg",
       "posterShape": "poster",
-      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+      "description": "Inspired by true events, this film takes place in Rwanda in the 1990s when more than a million Tutsis were killed in a genocide that went mostly unnoticed by the rest of the world. Hotel owner Paul Rusesabagina houses over a thousand refuges in his hotel in attempt to save their lives.",
       "genres": [
         "Drama",
         "History",
         "War"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15398776"
+      "releaseInfo": "2004",
+      "imdb_id": "tt0395169"
     },
     {
-      "id": "tt33296751",
+      "id": "tt3783958",
       "type": "movie",
-      "name": "Tuner",
-      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
+      "name": "La La Land",
+      "poster": "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
       "posterShape": "poster",
-      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33296751"
-    },
-    {
-      "id": "tt31434639",
-      "type": "movie",
-      "name": "Warfare",
-      "poster": "https://image.tmdb.org/t/p/w500/l39TlELomwysfsr37vrvCV6rmaQ.jpg",
-      "posterShape": "poster",
-      "description": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
-      "genres": [
-        "War",
-        "Action"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31434639"
-    },
-    {
-      "id": "tt20215234",
-      "type": "movie",
-      "name": "Conclave",
-      "poster": "https://image.tmdb.org/t/p/w500/m5x8D0bZ3eKqIVWZ5y7TnZ2oTVg.jpg",
-      "posterShape": "poster",
-      "description": "After the unexpected death of the Pope, Cardinal Lawrence is tasked with managing the covert and ancient ritual of electing a new one. Sequestered in the Vatican with the Catholic Church’s most powerful leaders until the process is complete, Lawrence finds himself at the center of a conspiracy that could lead to its downfall.",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt20215234"
-    },
-    {
-      "id": "tt1392190",
-      "type": "movie",
-      "name": "Mad Max: Fury Road",
-      "poster": "https://image.tmdb.org/t/p/w500/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
-      "posterShape": "poster",
-      "description": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt1392190"
-    },
-    {
-      "id": "tt0783640",
-      "type": "movie",
-      "name": "The Last Full Measure",
-      "poster": "https://image.tmdb.org/t/p/w500/bMG8c80lyEkBXVgyHVqsdQhjgf6.jpg",
-      "posterShape": "poster",
-      "description": "The incredible true story of Vietnam War hero William H. Pitsenbarger, a U.S. Air Force Pararescuemen medic who personally saved over sixty men. Thirty-two years later, Pentagon staffer Scott Huffman investigates a Congressional Medal of Honor request for Pitsenbarger and uncovers a high-level conspiracy behind the decades-long denial of the medal, prompting Huffman to put his own career on the line to seek justice for the fallen airman.",
-      "genres": [
-        "Drama",
-        "Action",
-        "War"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt0783640"
-    },
-    {
-      "id": "tt8579674",
-      "type": "movie",
-      "name": "1917",
-      "poster": "https://image.tmdb.org/t/p/w500/iZf0KyrE25z1sage4SYFLCCrMi9.jpg",
-      "posterShape": "poster",
-      "description": "At the height of the First World War, two young British soldiers must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers.",
-      "genres": [
-        "War",
-        "Drama",
-        "History"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8579674"
-    },
-    {
-      "id": "tt8368512",
-      "type": "movie",
-      "name": "The Courier",
-      "poster": "https://image.tmdb.org/t/p/w500/zFIjKtZrzhmc7HecdFXXjsLR2Ig.jpg",
-      "posterShape": "poster",
-      "description": "Cold War spy Greville Wynne and his Russian source try to put an end to the Cuban Missile Crisis.",
-      "genres": [
-        "Thriller",
-        "History",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt8368512"
-    },
-    {
-      "id": "tt32550101",
-      "type": "movie",
-      "name": "STRAW",
-      "poster": "https://image.tmdb.org/t/p/w500/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg",
-      "posterShape": "poster",
-      "description": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
-      "genres": [
-        "Thriller",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32550101"
-    },
-    {
-      "id": "tt15574124",
-      "type": "movie",
-      "name": "Peaky Blinders: The Immortal Man",
-      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
-      "posterShape": "poster",
-      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt15574124"
-    },
-    {
-      "id": "tt0311113",
-      "type": "movie",
-      "name": "Master and Commander: The Far Side of the World",
-      "poster": "https://image.tmdb.org/t/p/w500/7ZUHF6P0vcA5v1Gm8NbRYyd9w4N.jpg",
-      "posterShape": "poster",
-      "description": "After an abrupt and violent encounter with a French warship inflicts severe damage upon his ship, a captain of the British Royal Navy begins a chase over two oceans to capture or destroy the enemy, though he must weigh his commitment to duty and ferocious pursuit of glory against the safety of his devoted crew, including the ship's thoughtful surgeon, his best friend.",
-      "genres": [
-        "Adventure",
-        "Drama",
-        "War"
-      ],
-      "releaseInfo": "2003",
-      "imdb_id": "tt0311113"
-    },
-    {
-      "id": "tt7693316",
-      "type": "movie",
-      "name": "Devotion",
-      "poster": "https://image.tmdb.org/t/p/w500/26yQPXymbWeCLKwcmyL8dRjAzth.jpg",
-      "posterShape": "poster",
-      "description": "The harrowing true story of two elite US Navy fighter pilots during the Korean War. Their heroic sacrifices would ultimately make them the Navy's most celebrated wingmen.",
-      "genres": [
-        "War",
-        "Drama",
-        "History"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt7693316"
-    },
-    {
-      "id": "tt2278388",
-      "type": "movie",
-      "name": "The Grand Budapest Hotel",
-      "poster": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
-      "posterShape": "poster",
-      "description": "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.",
+      "description": "Mia, an aspiring actress, serves lattes to movie stars in between auditions and Sebastian, a jazz musician, scrapes by playing cocktail party gigs in dingy bars, but as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.",
       "genres": [
         "Comedy",
-        "Drama"
+        "Drama",
+        "Romance"
       ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2278388"
+      "releaseInfo": "2016",
+      "imdb_id": "tt3783958"
     },
     {
-      "id": "tt31450182",
+      "id": "tt0167261",
       "type": "movie",
-      "name": "Amber Alert",
-      "poster": "https://image.tmdb.org/t/p/w500/vkrmJ2fStfnvsLfBw55nimnjcd5.jpg",
+      "name": "The Lord of the Rings: The Two Towers",
+      "poster": "https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
       "posterShape": "poster",
-      "description": "A ride-share turns into a high-stakes game of cat and mouse after it follows a car fitting the description of an AMBER Alert.",
+      "description": "Frodo Baggins and the other members of the Fellowship continue on their sacred quest to destroy the One Ring--but on separate paths. Their destinies lie at two towers--Orthanc Tower in Isengard, where the corrupt wizard Saruman awaits, and Sauron's fortress at Barad-dur, deep within the dark lands of Mordor.",
       "genres": [
-        "Thriller",
-        "Drama"
+        "Adventure",
+        "Fantasy",
+        "Action"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31450182"
+      "releaseInfo": "2002",
+      "imdb_id": "tt0167261"
     },
     {
-      "id": "tt1856101",
+      "id": "tt1182345",
       "type": "movie",
-      "name": "Blade Runner 2049",
-      "poster": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
+      "name": "Moon",
+      "poster": "https://image.tmdb.org/t/p/w500/35IU0Mq0zFsN1mYwDGts5mKc77n.jpg",
       "posterShape": "poster",
-      "description": "Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos. K's discovery leads him on a quest to find Rick Deckard, a former LAPD blade runner who has been missing for 30 years.",
+      "description": "With only three weeks left in his three-year contract, Sam Bell is eager to return to Earth. Stationed alone at a Moon-based facility with his computer assistant GERTY, an unexpected accident sets off a series of unsettling events that shake his isolation.",
       "genres": [
         "Science Fiction",
         "Drama"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt1856101"
+      "releaseInfo": "2009",
+      "imdb_id": "tt1182345"
     },
     {
-      "id": "tt2119532",
+      "id": "tt31349844",
       "type": "movie",
-      "name": "Hacksaw Ridge",
-      "poster": "https://image.tmdb.org/t/p/w500/fnOMP6mjmOmZwmlC1n0K7ivrzt1.jpg",
+      "name": "Runner",
+      "poster": "https://image.tmdb.org/t/p/w500/vJk2TW1QZAmBiD7oj9ZF9EPTYY1.jpg",
       "posterShape": "poster",
-      "description": "WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first Conscientious Objector in American history to receive the Congressional Medal of Honor.",
-      "genres": [
-        "Drama",
-        "History",
-        "War"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt2119532"
-    },
-    {
-      "id": "tt8093700",
-      "type": "movie",
-      "name": "The Woman King",
-      "poster": "https://image.tmdb.org/t/p/w500/438QXt1E3WJWb3PqNniK0tAE5c1.jpg",
-      "posterShape": "poster",
-      "description": "The story of the Agojie, the all-female unit of warriors who protected the African Kingdom of Dahomey in the 1800s with skills and a fierceness unlike anything the world has ever seen, and General Nanisca as she trains the next generation of recruits and readies them for battle against an enemy determined to destroy their way of life.",
+      "description": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
       "genres": [
         "Action",
-        "Drama",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31349844"
+    },
+    {
+      "id": "tt1201607",
+      "type": "movie",
+      "name": "Harry Potter and the Deathly Hallows: Part 2",
+      "poster": "https://image.tmdb.org/t/p/w500/c54HpQmuwXjHq2C9wmoACjxoom3.jpg",
+      "posterShape": "poster",
+      "description": "Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort's formidable skills.",
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "releaseInfo": "2011",
+      "imdb_id": "tt1201607"
+    },
+    {
+      "id": "tt0277434",
+      "type": "movie",
+      "name": "We Were Soldiers",
+      "poster": "https://image.tmdb.org/t/p/w500/nzeSYldx7wIrwycLKHKHTTUJNWh.jpg",
+      "posterShape": "poster",
+      "description": "The year is 1965 and America is at war with North Vietnam.  Commanding the air cavalry is Lt. Col. Hal Moore (Gibson), a born leader committed to his troops.  His target: the Ia Drang Valley, called \"The Valley of Death.\"  As Moore prepares for one of the most violent battles in U.S. history, he delivers a stirring promise to his soldiers and their families: \"I will leave no man behind...dead or alive.  We will all come home together.\"",
+      "genres": [
+        "Action",
         "History",
         "War"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt8093700"
+      "releaseInfo": "2002",
+      "imdb_id": "tt0277434"
     },
     {
-      "id": "tt4627382",
+      "id": "tt0167260",
       "type": "movie",
-      "name": "Roofman",
-      "poster": "https://image.tmdb.org/t/p/w500/wXDFtcnYtevleGzCmAD2ReQnJ4l.jpg",
+      "name": "The Lord of the Rings: The Return of the King",
+      "poster": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
       "posterShape": "poster",
-      "description": "A former Army Ranger and struggling father turns to robbing McDonald’s restaurants by cutting holes in their roofs, earning him the nickname \"Roofman.\" After escaping prison, he secretly lives inside a Toys “R” Us for six months, surviving undetected while planning his next move. But when he falls for a divorced mom drawn to his undeniable charm, his double life begins to unravel, setting off a compelling and suspenseful game of cat and mouse as his past closes in.",
+      "description": "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil lies with a brave hobbit, Frodo, who, accompanied by his loyal friend Sam and the hideous, wretched Gollum, ventures deep into the very dark heart of Mordor on his seemingly impossible quest to destroy the Ring of Power.​",
       "genres": [
-        "Crime",
-        "Comedy",
-        "Drama"
+        "Adventure",
+        "Fantasy",
+        "Action"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt4627382"
+      "releaseInfo": "2003",
+      "imdb_id": "tt0167260"
     },
     {
-      "id": "tt0475276",
+      "id": "tt0120737",
       "type": "movie",
-      "name": "United 93",
-      "poster": "https://image.tmdb.org/t/p/w500/r3mdSgsnpoi4UiUufdybhjha68t.jpg",
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "poster": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
       "posterShape": "poster",
-      "description": "A real-time account of the events on United Flight 93, one of the planes hijacked on 9/11 that crashed near Shanksville, Pennsylvania when passengers foiled the terrorist plot.",
+      "description": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Action"
+      ],
+      "releaseInfo": "2001",
+      "imdb_id": "tt0120737"
+    },
+    {
+      "id": "tt0266425",
+      "type": "movie",
+      "name": "Conspiracy",
+      "poster": "https://image.tmdb.org/t/p/w500/xKocKpTHaKcTuNRLu0rLbZWbLnH.jpg",
+      "posterShape": "poster",
+      "description": "At the Wannsee Conference on January 20, 1942, senior Nazi officials meet to determine the manner in which the so-called \"Final Solution to the Jewish Question\" can be best implemented.",
+      "genres": [
+        "History",
+        "Drama",
+        "War",
+        "TV Movie"
+      ],
+      "releaseInfo": "2001",
+      "imdb_id": "tt0266425"
+    },
+    {
+      "id": "tt33100314",
+      "type": "movie",
+      "name": "Remarkably Bright Creatures",
+      "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+      "posterShape": "poster",
+      "description": "Through unlikely bonds formed during night shifts at a local aquarium, Tova, an elderly widow, learns of a life-changing discovery that may bring her joy and wonder once again.",
       "genres": [
         "Drama",
-        "History",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33100314"
+    },
+    {
+      "id": "tt27543632",
+      "type": "movie",
+      "name": "The Housemaid",
+      "poster": "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
+      "posterShape": "poster",
+      "description": "Trying to escape her past, Millie Calloway accepts a job as a live-in housemaid for the wealthy Nina and Andrew Winchester. But what begins as a dream job quickly unravels into something far more dangerous—a sexy, seductive game of secrets, scandal, and power.",
+      "genres": [
+        "Mystery",
         "Thriller"
       ],
-      "releaseInfo": "2006",
-      "imdb_id": "tt0475276"
+      "releaseInfo": "2025",
+      "imdb_id": "tt27543632"
+    },
+    {
+      "id": "tt0446029",
+      "type": "movie",
+      "name": "Scott Pilgrim vs. the World",
+      "poster": "https://image.tmdb.org/t/p/w500/g5IoYeudx9XBEfwNL0fHvSckLBz.jpg",
+      "posterShape": "poster",
+      "description": "As bass guitarist for a garage-rock band, Scott Pilgrim has never had trouble getting a girlfriend; usually, the problem is getting rid of them. But when Ramona Flowers skates into his heart, he finds she has the most troublesome baggage of all: an army of ex-boyfriends who will stop at nothing to eliminate him from her list of suitors.",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Romance"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt0446029"
+    },
+    {
+      "id": "tt0414387",
+      "type": "movie",
+      "name": "Pride & Prejudice",
+      "poster": "https://image.tmdb.org/t/p/w500/o8UhmEbWPHmTUxP0lMuCoqNkbB3.jpg",
+      "posterShape": "poster",
+      "description": "A story of love and life among the landed English gentry during the Georgian era. Mr. Bennet is a gentleman living in Hertfordshire with his overbearing wife and five daughters, but if he dies their house will be inherited by a distant cousin whom they have never met, so the family's future happiness and security is dependent on the daughters making good marriages.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "releaseInfo": "2005",
+      "imdb_id": "tt0414387"
+    },
+    {
+      "id": "tt0215750",
+      "type": "movie",
+      "name": "Enemy at the Gates",
+      "poster": "https://image.tmdb.org/t/p/w500/cHRAbVdsCWFaQrswRsBP7Bn255W.jpg",
+      "posterShape": "poster",
+      "description": "A Russian and a German sniper play a game of cat-and-mouse during the Battle of Stalingrad in WWII.",
+      "genres": [
+        "War",
+        "History"
+      ],
+      "releaseInfo": "2001",
+      "imdb_id": "tt0215750"
+    },
+    {
+      "id": "tt6914122",
+      "type": "movie",
+      "name": "Resistance",
+      "poster": "https://image.tmdb.org/t/p/w500/As22MQ8G3ILsdzsSIv1u9qEz6hE.jpg",
+      "posterShape": "poster",
+      "description": "The story of mime Marcel Marceau as he works with a group of Jewish boy scouts and the French Resistance to save the lives of ten thousand orphans during World War II.",
+      "genres": [
+        "War",
+        "History",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt6914122"
+    },
+    {
+      "id": "tt26595906",
+      "type": "movie",
+      "name": "The World Will Tremble",
+      "poster": "https://image.tmdb.org/t/p/w500/31CKSlZdsvdY8bysV5WeR2YvTim.jpg",
+      "posterShape": "poster",
+      "description": "The incredible, untold true story of how a group of prisoners attempt a seemingly impossible escape from the first Nazi death camp in order to provide the first eyewitness account of the Holocaust.",
+      "genres": [
+        "Drama",
+        "War",
+        "History"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt26595906"
+    },
+    {
+      "id": "tt19869662",
+      "type": "movie",
+      "name": "Irena's Vow",
+      "poster": "https://image.tmdb.org/t/p/w500/lN6iCgTgpNlylelUctrA29wJx4W.jpg",
+      "posterShape": "poster",
+      "description": "19 year old Irena Gut is promoted to housekeeper in the home of a highly respected Nazi officer in Poland when she finds out that the Jewish ghetto is about to be liquidated. Determined to help twelve Jewish workers, she decides to shelter them in the safest place she can think of – the basement of the German Major's house. Over the next eight months, Irena uses her wit, humour and immense courage to hide her friends as long as possible.",
+      "genres": [
+        "War",
+        "Drama",
+        "History"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt19869662"
+    },
+    {
+      "id": "tt32547691",
+      "type": "movie",
+      "name": "Pressure",
+      "poster": "https://image.tmdb.org/t/p/w500/gFjEggtrejCN79r6SXRjM269OtG.jpg",
+      "posterShape": "poster",
+      "description": "In the tense 72 hours before D-Day, and the fate of the free world hanging in the balance, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice—launch the largest and most dangerous seaborne invasion in history or risk losing the war altogether.",
+      "genres": [
+        "Thriller",
+        "History",
+        "War"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32547691"
     }
   ]
 }

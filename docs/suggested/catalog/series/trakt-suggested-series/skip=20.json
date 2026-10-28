@@ -15,18 +15,18 @@
       "imdb_id": "tt7440726"
     },
     {
-      "id": "tt1652216",
+      "id": "tt13018148",
       "type": "series",
-      "name": "DCI Banks",
-      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
+      "name": "Tell Me Lies",
+      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
       "posterShape": "poster",
-      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
+      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1652216"
+      "releaseInfo": "2022",
+      "imdb_id": "tt13018148"
     },
     {
       "id": "tt0903747",
@@ -41,20 +41,6 @@
       ],
       "releaseInfo": "2008",
       "imdb_id": "tt0903747"
-    },
-    {
-      "id": "tt14063678",
-      "type": "series",
-      "name": "The Gold",
-      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
-      "posterShape": "poster",
-      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14063678"
     },
     {
       "id": "tt5611024",
@@ -72,6 +58,62 @@
       "imdb_id": "tt5611024"
     },
     {
+      "id": "tt0306414",
+      "type": "series",
+      "name": "The Wire",
+      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
+      "posterShape": "poster",
+      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2002",
+      "imdb_id": "tt0306414"
+    },
+    {
+      "id": "tt1652216",
+      "type": "series",
+      "name": "DCI Banks",
+      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
+      "posterShape": "poster",
+      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2011",
+      "imdb_id": "tt1652216"
+    },
+    {
+      "id": "tt14063678",
+      "type": "series",
+      "name": "The Gold",
+      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
+      "posterShape": "poster",
+      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt14063678"
+    },
+    {
+      "id": "tt16418808",
+      "type": "series",
+      "name": "Sugar",
+      "poster": "https://image.tmdb.org/t/p/w500/tLmwLYiI7EpPbhgmdeivNGY0xw7.jpg",
+      "posterShape": "poster",
+      "description": "John Sugar is a dashing private eye navigating the dark corners of sunny LA. Though he sees only the good in humanity, Sugar is haunted by a secret too dangerous to expose.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt16418808"
+    },
+    {
       "id": "tt2788432",
       "type": "series",
       "name": "American Crime Story",
@@ -86,18 +128,19 @@
       "imdb_id": "tt2788432"
     },
     {
-      "id": "tt0306414",
+      "id": "tt14379784",
       "type": "series",
-      "name": "The Wire",
-      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
+      "name": "The Devil's Hour",
+      "poster": "https://image.tmdb.org/t/p/w500/mFU6ZPAs6g8Y9Eld28GULJYt3rC.jpg",
       "posterShape": "poster",
-      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
+      "description": "Lucy wakes every night at exactly 3:33am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
       "genres": [
+        "Mystery",
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0306414"
+      "releaseInfo": "2022",
+      "imdb_id": "tt14379784"
     },
     {
       "id": "tt6510950",
@@ -128,19 +171,33 @@
       "imdb_id": "tt5290382"
     },
     {
-      "id": "tt36022742",
+      "id": "tt36849871",
       "type": "series",
-      "name": "Nemesis",
-      "poster": "https://image.tmdb.org/t/p/w500/NY7ZwSMw5PjoJdK2CObqiTj7Bm.jpg",
+      "name": "Marshals",
+      "poster": "https://image.tmdb.org/t/p/w500/zV1MRb6eqx6Uj3NSXquZFfz75pa.jpg",
       "posterShape": "poster",
-      "description": "A relentless LAPD cop becomes obsessed with taking down the master thief behind a string of daring heists — and only one can come out on top.",
+      "description": "With the Yellowstone Ranch behind him, Kayce Dutton joins an elite unit of U.S. Marshals, combining his skills as a cowboy and Navy SEAL to bring range justice to Montana, where he and his teammates must balance family, duty and the high psychological cost that comes with serving as the last line of defense in the region's war on violence.",
       "genres": [
-        "Action & Adventure",
         "Drama",
-        "Crime"
+        "Crime",
+        "Action & Adventure"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt36022742"
+      "imdb_id": "tt36849871"
+    },
+    {
+      "id": "tt2805096",
+      "type": "series",
+      "name": "Chicago P.D.",
+      "poster": "https://image.tmdb.org/t/p/w500/w7R4ooo2IbOfBKOoMDwaiMGsNQf.jpg",
+      "posterShape": "poster",
+      "description": "A riveting police drama about the men and women of the Chicago Police Department's District 21 who put it all on the line to serve and protect their community. District 21 is made up of two distinctly different groups: the uniformed cops who patrol the beat and go head-to-head with the city's street crimes and the Intelligence Unit that combats the city's major offenses - organized crime, drug trafficking, high profile murders and beyond.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2805096"
     },
     {
       "id": "tt35515227",
@@ -155,21 +212,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35515227"
-    },
-    {
-      "id": "tt3428912",
-      "type": "series",
-      "name": "Happy Valley",
-      "poster": "https://image.tmdb.org/t/p/w500/xZK5iQSrn2mouZEk2PwyLPCwa4u.jpg",
-      "posterShape": "poster",
-      "description": "Happy Valley is a dark, funny, multi-layered thriller revolving around the personal and professional life of Catherine, a dedicated, experienced, hard-working copper. She is also a bereaved mother who looks after her orphaned grandchild.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt3428912"
     },
     {
       "id": "tt14582876",
@@ -187,18 +229,18 @@
       "imdb_id": "tt14582876"
     },
     {
-      "id": "tt4118584",
+      "id": "tt17677860",
       "type": "series",
-      "name": "Shades of Blue",
-      "poster": "https://image.tmdb.org/t/p/w500/wxg8lxFpandLQtOiHRnTEQf7oeL.jpg",
+      "name": "Presumed Innocent",
+      "poster": "https://image.tmdb.org/t/p/w500/7MXg0BxuSRWz2yKc03M40du2mrc.jpg",
       "posterShape": "poster",
-      "description": "Sexy New York detective and single mother Harlee Santos fell in with a tight-knit group of dirty cops, taking bribes and protection money that she uses to provide the best life for her honest, talented daughter. But when she's trapped by the FBI and forced to inform on her own \"brothers,\" she'll have to walk the fine line between love, loyalty, honor and betrayal, and try to keep it together for her daughter's future.",
+      "description": "A horrific murder upends the Chicago Prosecuting Attorney's Office when one of its own is suspected of the crime—leaving the accused fighting to keep his family together.",
       "genres": [
         "Drama",
-        "Crime"
+        "Mystery"
       ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt4118584"
+      "releaseInfo": "2024",
+      "imdb_id": "tt17677860"
     },
     {
       "id": "tt2304589",
@@ -216,78 +258,34 @@
       "imdb_id": "tt2304589"
     },
     {
-      "id": "tt1595859",
+      "id": "tt3428912",
       "type": "series",
-      "name": "Blue Bloods",
-      "poster": "https://image.tmdb.org/t/p/w500/q1WlrxnCvNhBjJ4N7V0JQXjnIBN.jpg",
+      "name": "Happy Valley",
+      "poster": "https://image.tmdb.org/t/p/w500/xZK5iQSrn2mouZEk2PwyLPCwa4u.jpg",
       "posterShape": "poster",
-      "description": "A drama about a multi-generational family of cops dedicated to New York City law enforcement. Frank Reagan is the New York Police Commissioner and heads both the police force and the Reagan brood. He runs his department as diplomatically as he runs his family, even when dealing with the politics that plagued his unapologetically bold father, Henry, during his stint as Chief.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1595859"
-    },
-    {
-      "id": "tt3205802",
-      "type": "series",
-      "name": "How to Get Away with Murder",
-      "poster": "https://image.tmdb.org/t/p/w500/bJs8Y6T88NcgksxA8UaVl4YX8p8.jpg",
-      "posterShape": "poster",
-      "description": "A sexy, suspense-driven legal thriller about a group of ambitious law students and their brilliant, mysterious criminal defense professor. They become entangled in a murder plot and will shake the entire university and change the course of their lives.",
+      "description": "Happy Valley is a dark, funny, multi-layered thriller revolving around the personal and professional life of Catherine, a dedicated, experienced, hard-working copper. She is also a bereaved mother who looks after her orphaned grandchild.",
       "genres": [
         "Crime",
         "Drama",
         "Mystery"
       ],
       "releaseInfo": "2014",
-      "imdb_id": "tt3205802"
+      "imdb_id": "tt3428912"
     },
     {
-      "id": "tt16030542",
+      "id": "tt34771210",
       "type": "series",
-      "name": "The Recruit",
-      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
+      "name": "I Will Find You",
+      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
       "posterShape": "poster",
-      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
+      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
       "genres": [
         "Drama",
-        "Crime",
-        "Action & Adventure"
+        "Mystery",
+        "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt16030542"
-    },
-    {
-      "id": "tt2701582",
-      "type": "series",
-      "name": "Endeavour",
-      "poster": "https://image.tmdb.org/t/p/w500/suX3F5e8XN9emrb52CQSwt2mRwx.jpg",
-      "posterShape": "poster",
-      "description": "The early days of a young Endeavour Morse, whose experiences as a detective constable with the Oxford City Police will ultimately shape his future.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2701582"
-    },
-    {
-      "id": "tt1493239",
-      "type": "series",
-      "name": "Terriers",
-      "poster": "https://image.tmdb.org/t/p/w500/51T6VEO74kijlt2SDowGiiq0Cti.jpg",
-      "posterShape": "poster",
-      "description": "Ex-cop and recovering alcoholic Hank Dolworth partners with his best friend, former criminal Britt Pollack, in an unlicensed private investigation business. The series is set in Ocean Beach, San Diego, California, although it is portrayed as a distinct town, with Dolworth having once been a member of the fictional Ocean Beach Police Department.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Comedy"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1493239"
+      "releaseInfo": "2026",
+      "imdb_id": "tt34771210"
     }
   ]
 }
