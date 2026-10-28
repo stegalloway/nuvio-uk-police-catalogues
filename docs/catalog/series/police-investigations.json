@@ -1,19 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt49815269",
-      "type": "series",
-      "name": "Major Crimes Unit",
-      "poster": "https://image.tmdb.org/t/p/w500/33x5tDTyUWM4kvqn7D9NaI2AhNq.jpg",
-      "posterShape": "poster",
-      "description": "With unprecedented access to West Midlands Police’s elite crime-fighting unit, this series follows investigators as they race against time to track suspects, uncover the truth, and deliver justice for victims and their families.",
-      "releaseInfo": "2026",
-      "genres": [
-        "Documentary"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/uRUioWgXuTQMw19dE0Cw6ThUC1R.jpg"
-    },
-    {
       "id": "tmdb:273233",
       "type": "series",
       "name": "Crimewatch Caught",
@@ -26,6 +13,19 @@
         "Crime"
       ],
       "background": "https://image.tmdb.org/t/p/w1280/5tLwcTtYiRLBIh69iQdPghcwRkJ.jpg"
+    },
+    {
+      "id": "tt49815269",
+      "type": "series",
+      "name": "Major Crimes Unit",
+      "poster": "https://image.tmdb.org/t/p/w500/33x5tDTyUWM4kvqn7D9NaI2AhNq.jpg",
+      "posterShape": "poster",
+      "description": "With unprecedented access to West Midlands Police’s elite crime-fighting unit, this series follows investigators as they race against time to track suspects, uncover the truth, and deliver justice for victims and their families.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/uRUioWgXuTQMw19dE0Cw6ThUC1R.jpg"
     },
     {
       "id": "tmdb:333609",
