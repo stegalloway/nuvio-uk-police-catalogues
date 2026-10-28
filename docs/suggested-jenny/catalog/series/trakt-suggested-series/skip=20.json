@@ -1,18 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt19244304",
+      "id": "tt10574558",
       "type": "series",
-      "name": "IT: Welcome to Derry",
-      "poster": "https://image.tmdb.org/t/p/w500/nyy3BITeIjviv6PFIXtqvc8i6xi.jpg",
+      "name": "Midnight Mass",
+      "poster": "https://image.tmdb.org/t/p/w500/iYoMZYVD775MtBYJfv6OGY1FsnL.jpg",
       "posterShape": "poster",
-      "description": "In 1962, amid a spate of unexplained disappearances of local children, a group of misfit friends begin to suspect a long-buried ancient evil lurking. As the kids set out to determine what's really going on, a rising unease prompts several townspeople to work together to restore peace – all while a U.S. military operation seeks to exploit Derry for its own objectives.",
+      "description": "The arrival of a charismatic young priest brings glorious miracles, ominous mysteries and renewed religious fervor to a dying town desperate to believe.",
       "genres": [
-        "Drama",
-        "Mystery"
+        "Mystery",
+        "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt19244304"
+      "releaseInfo": "2021",
+      "imdb_id": "tt10574558"
     },
     {
       "id": "tt11540908",
@@ -30,99 +30,73 @@
       "imdb_id": "tt11540908"
     },
     {
-      "id": "tt4452630",
+      "id": "tt5194792",
       "type": "series",
-      "name": "Code Black",
-      "poster": "https://image.tmdb.org/t/p/w500/3T1b6YK6vLrZoLZC5hd65ZuRLq8.jpg",
+      "name": "NOS4A2",
+      "poster": "https://image.tmdb.org/t/p/w500/gnosVTTRTCqooJuipwU6C0bgOGf.jpg",
       "posterShape": "poster",
-      "description": "Inspired by the award-winning documentary, this medical drama is set in the busiest and most notorious ER in the nation where the extraordinary staff confront a challenged system in order to protect their ideals and the patients who need them the most.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4452630"
-    },
-    {
-      "id": "tt10970552",
-      "type": "series",
-      "name": "The Haunting of Bly Manor",
-      "poster": "https://image.tmdb.org/t/p/w500/vIXQ8UymmQ7zJEPrKJP3s3fSbhR.jpg",
-      "posterShape": "poster",
-      "description": "After an au pair's tragic death, Henry Wingrave hires a young American nanny to care for his orphaned niece and nephew who reside at Bly Manor with the estate's chef Owen, groundskeeper Jamie and housekeeper, Mrs. Grose. But all is not as it seems at the manor, and centuries of dark secrets of love and loss are waiting to be unearthed in this chilling tale.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10970552"
-    },
-    {
-      "id": "tt9859436",
-      "type": "series",
-      "name": "The Walking Dead: The Ones Who Live",
-      "poster": "https://image.tmdb.org/t/p/w500/ywbacot78IuNhGW4uVZPxxxVTkm.jpg",
-      "posterShape": "poster",
-      "description": "Rick and Michonne are thrown into another world, built on a war against the dead... And ultimately, a war against the living. Can they find each other and who they were in a place and situation unlike any they've ever known before? Are they enemies? Lovers? Victims? Victors? Without each other, are they even alive – or will they find that they, too, are the Walking Dead?",
+      "description": "A young Victoria \"Vic\" McQueen discovers she has the power to unlock portals that help her find lost objects. As she delves further into this hidden universe, she encounters many other \"inscape travelers\" - some benevolent, and some who have been corrupted by their power. When Vic encounters Charlie Manx, an immortal who stays that way by feeding off of the souls of children, she makes a sworn enemy of Manx.",
       "genres": [
         "Sci-Fi & Fantasy",
         "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt9859436"
+      "releaseInfo": "2019",
+      "imdb_id": "tt5194792"
     },
     {
-      "id": "tt11173006",
+      "id": "tt11285470",
       "type": "series",
-      "name": "Super Pumped: The Battle for Uber",
-      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
+      "name": "The Expecting",
+      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
       "posterShape": "poster",
-      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11173006"
-    },
-    {
-      "id": "tt10574558",
-      "type": "series",
-      "name": "Midnight Mass",
-      "poster": "https://image.tmdb.org/t/p/w500/iYoMZYVD775MtBYJfv6OGY1FsnL.jpg",
-      "posterShape": "poster",
-      "description": "The arrival of a charismatic young priest brings glorious miracles, ominous mysteries and renewed religious fervor to a dying town desperate to believe.",
+      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
       "genres": [
         "Mystery",
         "Drama"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt10574558"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11285470"
     },
     {
-      "id": "tt7985576",
+      "id": "tt0972412",
       "type": "series",
-      "name": "The Serpent",
-      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "name": "Private Practice",
+      "poster": "https://image.tmdb.org/t/p/w500/pW20ANAGdrgreYJExduUVaWos6H.jpg",
       "posterShape": "poster",
-      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt7985576"
-    },
-    {
-      "id": "tt10936342",
-      "type": "series",
-      "name": "Transplant",
-      "poster": "https://image.tmdb.org/t/p/w500/ukvqJZI0XctnLst0CTE2r0AC2eu.jpg",
-      "posterShape": "poster",
-      "description": "Dr. Bashir Hamed, a Syrian doctor with battle-tested skills in emergency medicine, makes the difficult decision to flee his country and build a new life in Canada with his younger sister Amira. Bash works to navigate a new environment after earning a coveted residency in the Emergency Department of one of the best hospitals in Toronto, York Memorial.",
+      "description": "Having left behind Seattle Grace Hospital, renowned surgeon Addison Forbes Montgomery moves to Los Angeles for sunnier weather and happier possibilities. She reunites with her friends from medical school, joining them at their chic, co-op, Oceanside Wellness Center in Santa Monica.",
       "genres": [
         "Drama"
       ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0972412"
+    },
+    {
+      "id": "tt15567174",
+      "type": "series",
+      "name": "The Fall of the House of Usher",
+      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
+      "posterShape": "poster",
+      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15567174"
+    },
+    {
+      "id": "tt6053512",
+      "type": "series",
+      "name": "Home Before Dark",
+      "poster": "https://image.tmdb.org/t/p/w500/mt4P2epJrSaqrlkMP9fTUKLP9OE.jpg",
+      "posterShape": "poster",
+      "description": "Young investigative journalist Hilde Lisko moves with her family to the small town her father left behind, only to unearth shocking secrets in her pursuit of the truth.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
       "releaseInfo": "2020",
-      "imdb_id": "tt10936342"
+      "imdb_id": "tt6053512"
     },
     {
       "id": "tt32252772",
@@ -140,45 +114,19 @@
       "imdb_id": "tt32252772"
     },
     {
-      "id": "tt2937900",
+      "id": "tt8415836",
       "type": "series",
-      "name": "The Knick",
-      "poster": "https://image.tmdb.org/t/p/w500/oeEqDSIVOi6q0GcZj8L9Q6G7fGC.jpg",
+      "name": "Guillermo del Toro's Cabinet of Curiosities",
+      "poster": "https://image.tmdb.org/t/p/w500/a91e9hpWwfCqxJI4xM9Q2RhuxgI.jpg",
       "posterShape": "poster",
-      "description": "Set in downtown New York in 1900, 'The Knick' is centered on the Knickerbocker Hospital and its staff, notably Dr. John Thackery, the hospital's brilliant chief surgeon who pushes medicine's boundaries, pioneering new procedures despite a severe drug addiction.",
+      "description": "Bizarre nightmares unfold in eight tales of terror in this visually stunning, spine-tingling horror collection curated by Guillermo del Toro.",
       "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2937900"
-    },
-    {
-      "id": "tt6053512",
-      "type": "series",
-      "name": "Home Before Dark",
-      "poster": "https://image.tmdb.org/t/p/w500/mt4P2epJrSaqrlkMP9fTUKLP9OE.jpg",
-      "posterShape": "poster",
-      "description": "Young investigative journalist Hilde Lisko moves with her family to the small town her father left behind, only to unearth shocking secrets in her pursuit of the truth.",
-      "genres": [
+        "Drama",
         "Mystery",
-        "Drama"
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt6053512"
-    },
-    {
-      "id": "tt15567174",
-      "type": "series",
-      "name": "The Fall of the House of Usher",
-      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
-      "posterShape": "poster",
-      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15567174"
+      "releaseInfo": "2022",
+      "imdb_id": "tt8415836"
     },
     {
       "id": "tt1831804",
@@ -195,18 +143,32 @@
       "imdb_id": "tt1831804"
     },
     {
-      "id": "tt5290382",
+      "id": "tt9064858",
       "type": "series",
-      "name": "MINDHUNTER",
-      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+      "name": "Them",
+      "poster": "https://image.tmdb.org/t/p/w500/2JIrVunDSjldv7Jv2uNKrrqwfej.jpg",
       "posterShape": "poster",
-      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+      "description": "A limited anthology series that explores terror in America.",
       "genres": [
         "Drama",
+        "Mystery",
         "Crime"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt5290382"
+      "releaseInfo": "2021",
+      "imdb_id": "tt9064858"
+    },
+    {
+      "id": "tt10936342",
+      "type": "series",
+      "name": "Transplant",
+      "poster": "https://image.tmdb.org/t/p/w500/ukvqJZI0XctnLst0CTE2r0AC2eu.jpg",
+      "posterShape": "poster",
+      "description": "Dr. Bashir Hamed, a Syrian doctor with battle-tested skills in emergency medicine, makes the difficult decision to flee his country and build a new life in Canada with his younger sister Amira. Bash works to navigate a new environment after earning a coveted residency in the Emergency Department of one of the best hospitals in Toronto, York Memorial.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10936342"
     },
     {
       "id": "tt8354062",
@@ -236,19 +198,18 @@
       "imdb_id": "tt11055882"
     },
     {
-      "id": "tt33043892",
+      "id": "tt11656892",
       "type": "series",
-      "name": "Dexter: Resurrection",
-      "poster": "https://image.tmdb.org/t/p/w500/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
+      "name": "Des",
+      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
       "posterShape": "poster",
-      "description": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
+      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
       "genres": [
         "Crime",
-        "Drama",
-        "Mystery"
+        "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt33043892"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11656892"
     },
     {
       "id": "tt27031263",
@@ -266,18 +227,58 @@
       "imdb_id": "tt27031263"
     },
     {
-      "id": "tt31314754",
+      "id": "tt7817340",
       "type": "series",
-      "name": "Devil in Disguise: John Wayne Gacy",
-      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
+      "name": "New Amsterdam",
+      "poster": "https://image.tmdb.org/t/p/w500/jsH4AeGZn5Q6h314A3OTUHKxHhR.jpg",
       "posterShape": "poster",
-      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
+      "description": "The new medical director breaks the rules to heal the system at America's oldest public hospital. Max Goodwin sets out to tear up the bureaucracy and provide exceptional care, but the doctors and staff are not so sure he can succeed. They've heard this before. Not taking \"no\" for an answer, Dr. Goodwin's instinctive response to problems large and small is four simple words: \"How can I help?\" He has to disrupt the status quo and prove he'll stop at nothing to breathe new life into this underfunded and underappreciated hospital, returning it to the glory that put it on the map.",
       "genres": [
-        "Crime",
         "Drama"
       ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt7817340"
+    },
+    {
+      "id": "tt0804503",
+      "type": "series",
+      "name": "Mad Men",
+      "poster": "https://image.tmdb.org/t/p/w500/5jOedTeytYzlJZwU66MFjmLHhHX.jpg",
+      "posterShape": "poster",
+      "description": "Set in 1960-1970 New York, this sexy, stylized and provocative drama follows the lives of the ruthlessly competitive men and women of Madison Avenue advertising.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0804503"
+    },
+    {
+      "id": "tt33043892",
+      "type": "series",
+      "name": "Dexter: Resurrection",
+      "poster": "https://image.tmdb.org/t/p/w500/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
+      "posterShape": "poster",
+      "description": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
       "releaseInfo": "2025",
-      "imdb_id": "tt31314754"
+      "imdb_id": "tt33043892"
+    },
+    {
+      "id": "tt14016500",
+      "type": "series",
+      "name": "The Summer I Turned Pretty",
+      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
+      "posterShape": "poster",
+      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14016500"
     }
   ]
 }

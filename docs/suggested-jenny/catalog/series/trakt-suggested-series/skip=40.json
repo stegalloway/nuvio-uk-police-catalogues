@@ -1,60 +1,17 @@
 {
   "metas": [
     {
-      "id": "tt13729648",
+      "id": "tt4452630",
       "type": "series",
-      "name": "Candy",
-      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
+      "name": "Code Black",
+      "poster": "https://image.tmdb.org/t/p/w500/3T1b6YK6vLrZoLZC5hd65ZuRLq8.jpg",
       "posterShape": "poster",
-      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13729648"
-    },
-    {
-      "id": "tt14016500",
-      "type": "series",
-      "name": "The Summer I Turned Pretty",
-      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
-      "posterShape": "poster",
-      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
+      "description": "Inspired by the award-winning documentary, this medical drama is set in the busiest and most notorious ER in the nation where the extraordinary staff confront a challenged system in order to protect their ideals and the patients who need them the most.",
       "genres": [
         "Drama"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14016500"
-    },
-    {
-      "id": "tt19853270",
-      "type": "series",
-      "name": "Murdaugh: Death in the Family",
-      "poster": "https://image.tmdb.org/t/p/w500/fqNT4hsPdA0999NEMuLVeja4Cm2.jpg",
-      "posterShape": "poster",
-      "description": "Maggie and Alex enjoy a lavish life of privilege as members of one of South Carolina's most powerful legal dynasties. But when their son Paul is involved in a deadly boat crash, the family is faced with a test unlike any they've ever encountered. As details come to light and new challenges emerge, the family's connections to several mysterious deaths raise questions which threaten everything Maggie and Alex hold dear.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt19853270"
-    },
-    {
-      "id": "tt9064858",
-      "type": "series",
-      "name": "Them",
-      "poster": "https://image.tmdb.org/t/p/w500/2JIrVunDSjldv7Jv2uNKrrqwfej.jpg",
-      "posterShape": "poster",
-      "description": "A limited anthology series that explores terror in America.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt9064858"
+      "releaseInfo": "2015",
+      "imdb_id": "tt4452630"
     },
     {
       "id": "tt11041332",
@@ -69,21 +26,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11041332"
-    },
-    {
-      "id": "tt12306692",
-      "type": "series",
-      "name": "American Horror Stories",
-      "poster": "https://image.tmdb.org/t/p/w500/8b9FGJ9WhpkeGFOHYgKjPT5AXS6.jpg",
-      "posterShape": "poster",
-      "description": "An anthology series of stand alone episodes delving into horror myths, legends and lore.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt12306692"
     },
     {
       "id": "tt31458276",
@@ -101,17 +43,33 @@
       "imdb_id": "tt31458276"
     },
     {
-      "id": "tt4655480",
+      "id": "tt13365348",
       "type": "series",
-      "name": "Chicago Med",
-      "poster": "https://image.tmdb.org/t/p/w500/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
+      "name": "Archive 81",
+      "poster": "https://image.tmdb.org/t/p/w500/l1jeSEm6a88GFcLzlHQr60D0dOi.jpg",
       "posterShape": "poster",
-      "description": "An emotional thrill ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors who hold it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room.",
+      "description": "An archivist takes a job restoring damaged videotapes and gets pulled into the vortex of a mystery involving the missing director and a demonic cult.",
       "genres": [
-        "Drama"
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4655480"
+      "releaseInfo": "2022",
+      "imdb_id": "tt13365348"
+    },
+    {
+      "id": "tt7985576",
+      "type": "series",
+      "name": "The Serpent",
+      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "posterShape": "poster",
+      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt7985576"
     },
     {
       "id": "tt33332385",
@@ -129,32 +87,18 @@
       "imdb_id": "tt33332385"
     },
     {
-      "id": "tt8415836",
+      "id": "tt13444912",
       "type": "series",
-      "name": "Guillermo del Toro's Cabinet of Curiosities",
-      "poster": "https://image.tmdb.org/t/p/w500/a91e9hpWwfCqxJI4xM9Q2RhuxgI.jpg",
+      "name": "The Midnight Club",
+      "poster": "https://image.tmdb.org/t/p/w500/2Y4F9BHkacKIMnDBZI3GGKpG1If.jpg",
       "posterShape": "poster",
-      "description": "Bizarre nightmares unfold in eight tales of terror in this visually stunning, spine-tingling horror collection curated by Guillermo del Toro.",
+      "description": "Inside a hospice for terminally ill teens, members of an exclusive club make a chilling pact: The first to die must send a sign from beyond the grave.",
       "genres": [
-        "Drama",
         "Mystery",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt8415836"
-    },
-    {
-      "id": "tt0397442",
-      "type": "series",
-      "name": "Gossip Girl",
-      "poster": "https://image.tmdb.org/t/p/w500/ep03M6KKZGeljOizPEbt3Geja5n.jpg",
-      "posterShape": "poster",
-      "description": "An exclusive group of privileged teens from a posh prep school on Manhattan's Upper East Side whose lives revolve around the blog of the all-knowing albeit ultra-secretive Gossip Girl.",
-      "genres": [
         "Drama"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0397442"
+      "releaseInfo": "2022",
+      "imdb_id": "tt13444912"
     },
     {
       "id": "tt26576161",
@@ -171,19 +115,73 @@
       "imdb_id": "tt26576161"
     },
     {
-      "id": "tt13365348",
+      "id": "tt31314754",
       "type": "series",
-      "name": "Archive 81",
-      "poster": "https://image.tmdb.org/t/p/w500/l1jeSEm6a88GFcLzlHQr60D0dOi.jpg",
+      "name": "Devil in Disguise: John Wayne Gacy",
+      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
       "posterShape": "poster",
-      "description": "An archivist takes a job restoring damaged videotapes and gets pulled into the vortex of a mystery involving the missing director and a demonic cult.",
+      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31314754"
+    },
+    {
+      "id": "tt31849826",
+      "type": "series",
+      "name": "Doctor Odyssey",
+      "poster": "https://image.tmdb.org/t/p/w500/78KamrNZE0ZzPLBjEug16BASJ5M.jpg",
+      "posterShape": "poster",
+      "description": "Max is the new on-board doctor for a luxury cruise ship where the small but mighty medical team navigate unique medical crises and each other, miles from shore.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt31849826"
+    },
+    {
+      "id": "tt13729648",
+      "type": "series",
+      "name": "Candy",
+      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
+      "posterShape": "poster",
+      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
       "genres": [
         "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
+        "Crime"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt13365348"
+      "imdb_id": "tt13729648"
+    },
+    {
+      "id": "tt6548228",
+      "type": "series",
+      "name": "Castle Rock",
+      "poster": "https://image.tmdb.org/t/p/w500/6dnUpv9ghx84pgxlMOb4uuJrWDs.jpg",
+      "posterShape": "poster",
+      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6548228"
+    },
+    {
+      "id": "tt19853270",
+      "type": "series",
+      "name": "Murdaugh: Death in the Family",
+      "poster": "https://image.tmdb.org/t/p/w500/fqNT4hsPdA0999NEMuLVeja4Cm2.jpg",
+      "posterShape": "poster",
+      "description": "Maggie and Alex enjoy a lavish life of privilege as members of one of South Carolina's most powerful legal dynasties. But when their son Paul is involved in a deadly boat crash, the family is faced with a test unlike any they've ever encountered. As details come to light and new challenges emerge, the family's connections to several mysterious deaths raise questions which threaten everything Maggie and Alex hold dear.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt19853270"
     },
     {
       "id": "tt34579520",
@@ -200,32 +198,60 @@
       "imdb_id": "tt34579520"
     },
     {
-      "id": "tt31849826",
+      "id": "tt2937900",
       "type": "series",
-      "name": "Doctor Odyssey",
-      "poster": "https://image.tmdb.org/t/p/w500/78KamrNZE0ZzPLBjEug16BASJ5M.jpg",
+      "name": "The Knick",
+      "poster": "https://image.tmdb.org/t/p/w500/oeEqDSIVOi6q0GcZj8L9Q6G7fGC.jpg",
       "posterShape": "poster",
-      "description": "Max is the new on-board doctor for a luxury cruise ship where the small but mighty medical team navigate unique medical crises and each other, miles from shore.",
+      "description": "Set in downtown New York in 1900, 'The Knick' is centered on the Knickerbocker Hospital and its staff, notably Dr. John Thackery, the hospital's brilliant chief surgeon who pushes medicine's boundaries, pioneering new procedures despite a severe drug addiction.",
       "genres": [
         "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31849826"
+      "releaseInfo": "2014",
+      "imdb_id": "tt2937900"
     },
     {
-      "id": "tt0489974",
+      "id": "tt32937780",
       "type": "series",
-      "name": "Carnival Row",
-      "poster": "https://image.tmdb.org/t/p/w500/jyhxT10e2z9IDsKoIQDKhyxSQJt.jpg",
+      "name": "Something Very Bad Is Going to Happen",
+      "poster": "https://image.tmdb.org/t/p/w500/tuj37DlqEqib8sTO4h3nHJeTAJ2.jpg",
       "posterShape": "poster",
-      "description": "In a mystical and dark city filled with humans, fairies and other creatures, a police detective investigates a series of gruesome murders leveled against the fairy population. During his investigation, the detective becomes the prime suspect and must find the real killer to clear his name.",
+      "description": "A bride has a feeling that something horrifying will happen at her wedding — and the closer to the altar she gets, the worse it becomes.",
       "genres": [
-        "Crime",
         "Drama",
-        "Sci-Fi & Fantasy"
+        "Mystery"
       ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt0489974"
+      "releaseInfo": "2026",
+      "imdb_id": "tt32937780"
+    },
+    {
+      "id": "tt28692194",
+      "type": "series",
+      "name": "El extraño retorno de Diana Salazar",
+      "poster": "https://image.tmdb.org/t/p/w500/5GGBkTWM3TlyubGyTeptu1F0pVu.jpg",
+      "posterShape": "poster",
+      "description": "In the 17th century, Leonor and Eduardo's forbidden love ends tragically when she is executed for witchcraft. Centuries later their souls reincarnate in Diana and Mario, but they face the fear of being discovered for their true selves.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt28692194"
+    },
+    {
+      "id": "tt4354880",
+      "type": "series",
+      "name": "Mr. Mercedes",
+      "poster": "https://image.tmdb.org/t/p/w500/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
+      "posterShape": "poster",
+      "description": "A demented serial killer taunts a retired police detective with a series of lurid letters and emails, forcing the ex-cop to undertake a private, and potentially felonious, crusade to bring the killer to justice before he can strike again.",
+      "genres": [
+        "Mystery",
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt4354880"
     },
     {
       "id": "tt11794812",
@@ -243,48 +269,19 @@
       "imdb_id": "tt11794812"
     },
     {
-      "id": "tt13444912",
+      "id": "tt15669534",
       "type": "series",
-      "name": "The Midnight Club",
-      "poster": "https://image.tmdb.org/t/p/w500/2Y4F9BHkacKIMnDBZI3GGKpG1If.jpg",
+      "name": "Tales of the Walking Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
       "posterShape": "poster",
-      "description": "Inside a hospice for terminally ill teens, members of an exclusive club make a chilling pact: The first to die must send a sign from beyond the grave.",
+      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
       "genres": [
-        "Mystery",
-        "Drama"
+        "Drama",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt13444912"
-    },
-    {
-      "id": "tt2983222",
-      "type": "series",
-      "name": "Dare Me",
-      "poster": "https://image.tmdb.org/t/p/w500/eLmQL6gWgWnhgdv0CxHaVQcnYOX.jpg",
-      "posterShape": "poster",
-      "description": "Dive into the cutthroat world of competitive high school cheerleading, following the fraught relationship between two best friends after a new coach arrives to bring their team to prominence.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt2983222"
-    },
-    {
-      "id": "tt1637727",
-      "type": "series",
-      "name": "The Killing",
-      "poster": "https://image.tmdb.org/t/p/w500/3yiwAUNGn1rsPSVmFgVwPVJFtYf.jpg",
-      "posterShape": "poster",
-      "description": "The Killing is an American crime drama television series based upon the Danish television series Forbrydelsen. Set in Seattle, Washington, the series follows the various murder investigations by homicide detectives Sarah Linden and Stephen Holder.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1637727"
+      "imdb_id": "tt15669534"
     }
   ]
 }

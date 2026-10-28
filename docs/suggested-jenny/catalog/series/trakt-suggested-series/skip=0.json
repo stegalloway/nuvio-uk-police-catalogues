@@ -55,17 +55,18 @@
       "imdb_id": "tt9174718"
     },
     {
-      "id": "tt6483832",
+      "id": "tt23148340",
       "type": "series",
-      "name": "The Resident",
-      "poster": "https://image.tmdb.org/t/p/w500/2IkYQJlT26yXef2iot7dhRtavSC.jpg",
+      "name": "Crystal Lake",
+      "poster": "https://image.tmdb.org/t/p/w500/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
       "posterShape": "poster",
-      "description": "A tough, brilliant senior resident guides an idealistic young doctor through his first day, pulling back the curtain on what really happens, both good and bad, in modern-day medicine.",
+      "description": "Single mother Pam Voorhees has been unable to shake her grief after her young, sickly son Jason tragically drowned in the town lake almost a year before. When two strangers arrive at Pam's door digging into her past, a disturbing chain of events is set into motion, leaving the townspeople of Crystal Lake wondering: just who is Pam Voorhees?",
       "genres": [
-        "Drama"
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6483832"
+      "releaseInfo": "2026",
+      "imdb_id": "tt23148340"
     },
     {
       "id": "tt36303968",
@@ -82,20 +83,6 @@
       "imdb_id": "tt36303968"
     },
     {
-      "id": "tt23148340",
-      "type": "series",
-      "name": "Crystal Lake",
-      "poster": "https://image.tmdb.org/t/p/w500/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
-      "posterShape": "poster",
-      "description": "Single mother Pam Voorhees has been unable to shake her grief after her young, sickly son Jason tragically drowned in the town lake almost a year before. When two strangers arrive at Pam's door digging into her past, a disturbing chain of events is set into motion, leaving the townspeople of Crystal Lake wondering: just who is Pam Voorhees?",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt23148340"
-    },
-    {
       "id": "tt2953250",
       "type": "series",
       "name": "Shining Girls",
@@ -109,6 +96,32 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt2953250"
+    },
+    {
+      "id": "tt31938062",
+      "type": "series",
+      "name": "The Pitt",
+      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+      "posterShape": "poster",
+      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31938062"
+    },
+    {
+      "id": "tt6483832",
+      "type": "series",
+      "name": "The Resident",
+      "poster": "https://image.tmdb.org/t/p/w500/2IkYQJlT26yXef2iot7dhRtavSC.jpg",
+      "posterShape": "poster",
+      "description": "A tough, brilliant senior resident guides an idealistic young doctor through his first day, pulling back the curtain on what really happens, both good and bad, in modern-day medicine.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6483832"
     },
     {
       "id": "tt4301160",
@@ -139,45 +152,18 @@
       "imdb_id": "tt1640719"
     },
     {
-      "id": "tt5194792",
+      "id": "tt10148174",
       "type": "series",
-      "name": "NOS4A2",
-      "poster": "https://image.tmdb.org/t/p/w500/gnosVTTRTCqooJuipwU6C0bgOGf.jpg",
+      "name": "The Walking Dead: World Beyond",
+      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
       "posterShape": "poster",
-      "description": "A young Victoria \"Vic\" McQueen discovers she has the power to unlock portals that help her find lost objects. As she delves further into this hidden universe, she encounters many other \"inscape travelers\" - some benevolent, and some who have been corrupted by their power. When Vic encounters Charlie Manx, an immortal who stays that way by feeding off of the souls of children, she makes a sworn enemy of Manx.",
+      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
       "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
+        "Drama",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt5194792"
-    },
-    {
-      "id": "tt31938062",
-      "type": "series",
-      "name": "The Pitt",
-      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
-      "posterShape": "poster",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31938062"
-    },
-    {
-      "id": "tt14586350",
-      "type": "series",
-      "name": "Love & Death",
-      "poster": "https://image.tmdb.org/t/p/w500/8WchbT0UPQeo3PZ6G01fhccYaQB.jpg",
-      "posterShape": "poster",
-      "description": "Candy and Pat Montgomery and Betty and Allan Gore — two churchgoing couples — enjoy their small town Texas life... until an extramarital affair leads somebody to pick up an axe.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14586350"
+      "releaseInfo": "2020",
+      "imdb_id": "tt10148174"
     },
     {
       "id": "tt3960394",
@@ -194,18 +180,18 @@
       "imdb_id": "tt3960394"
     },
     {
-      "id": "tt15837600",
+      "id": "tt10970552",
       "type": "series",
-      "name": "Griselda",
-      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
+      "name": "The Haunting of Bly Manor",
+      "poster": "https://image.tmdb.org/t/p/w500/vIXQ8UymmQ7zJEPrKJP3s3fSbhR.jpg",
       "posterShape": "poster",
-      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
+      "description": "After an au pair's tragic death, Henry Wingrave hires a young American nanny to care for his orphaned niece and nephew who reside at Bly Manor with the estate's chef Owen, groundskeeper Jamie and housekeeper, Mrs. Grose. But all is not as it seems at the manor, and centuries of dark secrets of love and loss are waiting to be unearthed in this chilling tale.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Mystery",
+        "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15837600"
+      "releaseInfo": "2020",
+      "imdb_id": "tt10970552"
     },
     {
       "id": "tt13623632",
@@ -222,57 +208,73 @@
       "imdb_id": "tt13623632"
     },
     {
-      "id": "tt0972412",
+      "id": "tt14586350",
       "type": "series",
-      "name": "Private Practice",
-      "poster": "https://image.tmdb.org/t/p/w500/pW20ANAGdrgreYJExduUVaWos6H.jpg",
+      "name": "Love & Death",
+      "poster": "https://image.tmdb.org/t/p/w500/8WchbT0UPQeo3PZ6G01fhccYaQB.jpg",
       "posterShape": "poster",
-      "description": "Having left behind Seattle Grace Hospital, renowned surgeon Addison Forbes Montgomery moves to Los Angeles for sunnier weather and happier possibilities. She reunites with her friends from medical school, joining them at their chic, co-op, Oceanside Wellness Center in Santa Monica.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0972412"
-    },
-    {
-      "id": "tt7817340",
-      "type": "series",
-      "name": "New Amsterdam",
-      "poster": "https://image.tmdb.org/t/p/w500/jsH4AeGZn5Q6h314A3OTUHKxHhR.jpg",
-      "posterShape": "poster",
-      "description": "The new medical director breaks the rules to heal the system at America's oldest public hospital. Max Goodwin sets out to tear up the bureaucracy and provide exceptional care, but the doctors and staff are not so sure he can succeed. They've heard this before. Not taking \"no\" for an answer, Dr. Goodwin's instinctive response to problems large and small is four simple words: \"How can I help?\" He has to disrupt the status quo and prove he'll stop at nothing to breathe new life into this underfunded and underappreciated hospital, returning it to the glory that put it on the map.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt7817340"
-    },
-    {
-      "id": "tt0804503",
-      "type": "series",
-      "name": "Mad Men",
-      "poster": "https://image.tmdb.org/t/p/w500/5jOedTeytYzlJZwU66MFjmLHhHX.jpg",
-      "posterShape": "poster",
-      "description": "Set in 1960-1970 New York, this sexy, stylized and provocative drama follows the lives of the ruthlessly competitive men and women of Madison Avenue advertising.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0804503"
-    },
-    {
-      "id": "tt11656892",
-      "type": "series",
-      "name": "Des",
-      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
-      "posterShape": "poster",
-      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
+      "description": "Candy and Pat Montgomery and Betty and Allan Gore — two churchgoing couples — enjoy their small town Texas life... until an extramarital affair leads somebody to pick up an axe.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11656892"
+      "releaseInfo": "2023",
+      "imdb_id": "tt14586350"
+    },
+    {
+      "id": "tt19244304",
+      "type": "series",
+      "name": "IT: Welcome to Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/nyy3BITeIjviv6PFIXtqvc8i6xi.jpg",
+      "posterShape": "poster",
+      "description": "In 1962, amid a spate of unexplained disappearances of local children, a group of misfit friends begin to suspect a long-buried ancient evil lurking. As the kids set out to determine what's really going on, a rising unease prompts several townspeople to work together to restore peace – all while a U.S. military operation seeks to exploit Derry for its own objectives.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt19244304"
+    },
+    {
+      "id": "tt9859436",
+      "type": "series",
+      "name": "The Walking Dead: The Ones Who Live",
+      "poster": "https://image.tmdb.org/t/p/w500/ywbacot78IuNhGW4uVZPxxxVTkm.jpg",
+      "posterShape": "poster",
+      "description": "Rick and Michonne are thrown into another world, built on a war against the dead... And ultimately, a war against the living. Can they find each other and who they were in a place and situation unlike any they've ever known before? Are they enemies? Lovers? Victims? Victors? Without each other, are they even alive – or will they find that they, too, are the Walking Dead?",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt9859436"
+    },
+    {
+      "id": "tt15837600",
+      "type": "series",
+      "name": "Griselda",
+      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
+      "posterShape": "poster",
+      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15837600"
+    },
+    {
+      "id": "tt11173006",
+      "type": "series",
+      "name": "Super Pumped: The Battle for Uber",
+      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
+      "posterShape": "poster",
+      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11173006"
     }
   ]
 }
