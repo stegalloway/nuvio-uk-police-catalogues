@@ -15,6 +15,19 @@
       "imdb_id": "tt13729648"
     },
     {
+      "id": "tt14016500",
+      "type": "series",
+      "name": "The Summer I Turned Pretty",
+      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
+      "posterShape": "poster",
+      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14016500"
+    },
+    {
       "id": "tt19853270",
       "type": "series",
       "name": "Murdaugh: Death in the Family",
@@ -44,30 +57,18 @@
       "imdb_id": "tt9064858"
     },
     {
-      "id": "tt14016500",
+      "id": "tt11041332",
       "type": "series",
-      "name": "The Summer I Turned Pretty",
-      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
+      "name": "Yellowjackets",
+      "poster": "https://image.tmdb.org/t/p/w500/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
       "posterShape": "poster",
-      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
+      "description": "This equal parts survival epic, psychological horror story and coming-of-age drama tells the saga of a team of wildly talented high school girls soccer players who become the (un)lucky survivors of a plane crash deep in the remote northern wilderness. The series chronicles their descent from a complicated but thriving team to savage clans, while also tracking the lives they’ve attempted to piece back together nearly 25 years later.",
       "genres": [
-        "Drama"
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14016500"
-    },
-    {
-      "id": "tt4655480",
-      "type": "series",
-      "name": "Chicago Med",
-      "poster": "https://image.tmdb.org/t/p/w500/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
-      "posterShape": "poster",
-      "description": "An emotional thrill ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors who hold it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4655480"
+      "releaseInfo": "2021",
+      "imdb_id": "tt11041332"
     },
     {
       "id": "tt12306692",
@@ -85,20 +86,6 @@
       "imdb_id": "tt12306692"
     },
     {
-      "id": "tt11041332",
-      "type": "series",
-      "name": "Yellowjackets",
-      "poster": "https://image.tmdb.org/t/p/w500/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
-      "posterShape": "poster",
-      "description": "This equal parts survival epic, psychological horror story and coming-of-age drama tells the saga of a team of wildly talented high school girls soccer players who become the (un)lucky survivors of a plane crash deep in the remote northern wilderness. The series chronicles their descent from a complicated but thriving team to savage clans, while also tracking the lives they’ve attempted to piece back together nearly 25 years later.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11041332"
-    },
-    {
       "id": "tt31458276",
       "type": "series",
       "name": "Grotesquerie",
@@ -112,6 +99,19 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt31458276"
+    },
+    {
+      "id": "tt4655480",
+      "type": "series",
+      "name": "Chicago Med",
+      "poster": "https://image.tmdb.org/t/p/w500/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
+      "posterShape": "poster",
+      "description": "An emotional thrill ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors who hold it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt4655480"
     },
     {
       "id": "tt33332385",
@@ -129,19 +129,6 @@
       "imdb_id": "tt33332385"
     },
     {
-      "id": "tt0397442",
-      "type": "series",
-      "name": "Gossip Girl",
-      "poster": "https://image.tmdb.org/t/p/w500/ep03M6KKZGeljOizPEbt3Geja5n.jpg",
-      "posterShape": "poster",
-      "description": "An exclusive group of privileged teens from a posh prep school on Manhattan's Upper East Side whose lives revolve around the blog of the all-knowing albeit ultra-secretive Gossip Girl.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0397442"
-    },
-    {
       "id": "tt8415836",
       "type": "series",
       "name": "Guillermo del Toro's Cabinet of Curiosities",
@@ -157,6 +144,33 @@
       "imdb_id": "tt8415836"
     },
     {
+      "id": "tt26576161",
+      "type": "series",
+      "name": "The Terminal List: Dark Wolf",
+      "poster": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg",
+      "posterShape": "poster",
+      "description": "Before The Terminal List, Navy SEAL Ben Edwards finds himself entangled in the black operations side of the CIA. The deeper Ben goes into the 'gray', the harder it will become to not give himself over to his darker impulses. Every man has two wolves inside him – light and dark – fighting for control. Which wolf will Ben Edwards feed?",
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt26576161"
+    },
+    {
+      "id": "tt0397442",
+      "type": "series",
+      "name": "Gossip Girl",
+      "poster": "https://image.tmdb.org/t/p/w500/ep03M6KKZGeljOizPEbt3Geja5n.jpg",
+      "posterShape": "poster",
+      "description": "An exclusive group of privileged teens from a posh prep school on Manhattan's Upper East Side whose lives revolve around the blog of the all-knowing albeit ultra-secretive Gossip Girl.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0397442"
+    },
+    {
       "id": "tt13365348",
       "type": "series",
       "name": "Archive 81",
@@ -170,35 +184,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt13365348"
-    },
-    {
-      "id": "tt0489974",
-      "type": "series",
-      "name": "Carnival Row",
-      "poster": "https://image.tmdb.org/t/p/w500/jyhxT10e2z9IDsKoIQDKhyxSQJt.jpg",
-      "posterShape": "poster",
-      "description": "In a mystical and dark city filled with humans, fairies and other creatures, a police detective investigates a series of gruesome murders leveled against the fairy population. During his investigation, the detective becomes the prime suspect and must find the real killer to clear his name.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt0489974"
-    },
-    {
-      "id": "tt26576161",
-      "type": "series",
-      "name": "The Terminal List: Dark Wolf",
-      "poster": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg",
-      "posterShape": "poster",
-      "description": "Before The Terminal List, Navy SEAL Ben Edwards finds himself entangled in the black operations side of the CIA. The deeper Ben goes into the 'gray', the harder it will become to not give himself over to his darker impulses. Every man has two wolves inside him – light and dark – fighting for control. Which wolf will Ben Edwards feed?",
-      "genres": [
-        "Action & Adventure",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt26576161"
     },
     {
       "id": "tt34579520",
@@ -226,6 +211,21 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt31849826"
+    },
+    {
+      "id": "tt0489974",
+      "type": "series",
+      "name": "Carnival Row",
+      "poster": "https://image.tmdb.org/t/p/w500/jyhxT10e2z9IDsKoIQDKhyxSQJt.jpg",
+      "posterShape": "poster",
+      "description": "In a mystical and dark city filled with humans, fairies and other creatures, a police detective investigates a series of gruesome murders leveled against the fairy population. During his investigation, the detective becomes the prime suspect and must find the real killer to clear his name.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt0489974"
     },
     {
       "id": "tt11794812",
