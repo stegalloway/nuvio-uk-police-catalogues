@@ -213,21 +213,6 @@
       "imdb_id": "tt31849826"
     },
     {
-      "id": "tt0489974",
-      "type": "series",
-      "name": "Carnival Row",
-      "poster": "https://image.tmdb.org/t/p/w500/jyhxT10e2z9IDsKoIQDKhyxSQJt.jpg",
-      "posterShape": "poster",
-      "description": "In a mystical and dark city filled with humans, fairies and other creatures, a police detective investigates a series of gruesome murders leveled against the fairy population. During his investigation, the detective becomes the prime suspect and must find the real killer to clear his name.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt0489974"
-    },
-    {
       "id": "tt11794812",
       "type": "series",
       "name": "Cross",
@@ -241,6 +226,21 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt11794812"
+    },
+    {
+      "id": "tt0489974",
+      "type": "series",
+      "name": "Carnival Row",
+      "poster": "https://image.tmdb.org/t/p/w500/jyhxT10e2z9IDsKoIQDKhyxSQJt.jpg",
+      "posterShape": "poster",
+      "description": "In a mystical and dark city filled with humans, fairies and other creatures, a police detective investigates a series of gruesome murders leveled against the fairy population. During his investigation, the detective becomes the prime suspect and must find the real killer to clear his name.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt0489974"
     },
     {
       "id": "tt13444912",
