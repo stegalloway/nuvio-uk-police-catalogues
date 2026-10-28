@@ -1,76 +1,47 @@
 {
   "metas": [
     {
-      "id": "tt16030542",
+      "id": "tt34771210",
       "type": "series",
-      "name": "The Recruit",
-      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
+      "name": "I Will Find You",
+      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
       "posterShape": "poster",
-      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
+      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
       "genres": [
         "Drama",
-        "Crime",
-        "Action & Adventure"
+        "Mystery",
+        "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt16030542"
+      "releaseInfo": "2026",
+      "imdb_id": "tt34771210"
     },
     {
-      "id": "tt1595859",
+      "id": "tt2543328",
       "type": "series",
-      "name": "Blue Bloods",
-      "poster": "https://image.tmdb.org/t/p/w500/q1WlrxnCvNhBjJ4N7V0JQXjnIBN.jpg",
+      "name": "TURN: Washington's Spies",
+      "poster": "https://image.tmdb.org/t/p/w500/AehTUycX0VSvCkOOkZzurLnjHsS.jpg",
       "posterShape": "poster",
-      "description": "A drama about a multi-generational family of cops dedicated to New York City law enforcement. Frank Reagan is the New York Police Commissioner and heads both the police force and the Reagan brood. He runs his department as diplomatically as he runs his family, even when dealing with the politics that plagued his unapologetically bold father, Henry, during his stint as Chief.",
+      "description": "The story of New York farmer, Abe Woodhull, who bands together with a group of childhood friends to form The Culper Ring, an unlikely group of spies who turn the tide in America’s fight for independence.",
       "genres": [
-        "Crime",
+        "War & Politics",
         "Drama"
       ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1595859"
-    },
-    {
-      "id": "tt3205802",
-      "type": "series",
-      "name": "How to Get Away with Murder",
-      "poster": "https://image.tmdb.org/t/p/w500/bJs8Y6T88NcgksxA8UaVl4YX8p8.jpg",
-      "posterShape": "poster",
-      "description": "A sexy, suspense-driven legal thriller about a group of ambitious law students and their brilliant, mysterious criminal defense professor. They become entangled in a murder plot and will shake the entire university and change the course of their lives.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
       "releaseInfo": "2014",
-      "imdb_id": "tt3205802"
+      "imdb_id": "tt2543328"
     },
     {
-      "id": "tt11846996",
+      "id": "tt8682948",
       "type": "series",
-      "name": "Vigil",
-      "poster": "https://image.tmdb.org/t/p/w500/mmNjcRq47U1UVPnOuD2EYxx6Dno.jpg",
+      "name": "The Act",
+      "poster": "https://image.tmdb.org/t/p/w500/vb1sQLC2MqfCPOFqHd8SyVsyDVB.jpg",
       "posterShape": "poster",
-      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
+      "description": "Gypsy Blanchard struggles to deal with the toxic relationship with her overprotective mother, but her attempts to free herself lead to murder.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11846996"
-    },
-    {
-      "id": "tt16294384",
-      "type": "series",
-      "name": "Disclaimer",
-      "poster": "https://image.tmdb.org/t/p/w500/m0ZB5DEJKare7NTdeR1UQpHYy4c.jpg",
-      "posterShape": "poster",
-      "description": "When an intriguing novel appears at the bedside of a journalist whose career has been built on revealing transgressions, she is horrified to realize she's a key character in a long-buried story—one that exposes her darkest secret.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt16294384"
+      "releaseInfo": "2019",
+      "imdb_id": "tt8682948"
     },
     {
       "id": "tt32559610",
@@ -87,21 +58,6 @@
       "imdb_id": "tt32559610"
     },
     {
-      "id": "tt2401256",
-      "type": "series",
-      "name": "The Night Of",
-      "poster": "https://image.tmdb.org/t/p/w500/q13XJHdnsmxQL9rXRcnNDrZGHjO.jpg",
-      "posterShape": "poster",
-      "description": "After a night of partying with a female stranger, a man wakes up to find her stabbed to death and is charged with her murder.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt2401256"
-    },
-    {
       "id": "tt2802850",
       "type": "series",
       "name": "Fargo",
@@ -114,21 +70,6 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt2802850"
-    },
-    {
-      "id": "tt33035373",
-      "type": "series",
-      "name": "HIS & HERS",
-      "poster": "https://image.tmdb.org/t/p/w500/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
-      "posterShape": "poster",
-      "description": "Two estranged spouses — one a detective, the other a news reporter — vie to solve a murder in which each believes the other is a prime suspect.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33035373"
     },
     {
       "id": "tt4474344",
@@ -203,60 +144,35 @@
       "imdb_id": "tt5675620"
     },
     {
-      "id": "tt14507354",
+      "id": "tt0362192",
       "type": "series",
-      "name": "The Endgame",
-      "poster": "https://image.tmdb.org/t/p/w500/qH0BuRkZmP6sdi8R6tvlvwdBxmo.jpg",
+      "name": "State of Play",
+      "poster": "https://image.tmdb.org/t/p/w500/qjgtpbPdj0sfhiCa79M5pS1pydT.jpg",
       "posterShape": "poster",
-      "description": "A high-stakes thriller about Elena Federova, a very recently captured international arms dealer and brilliant criminal mastermind who even in captivity orchestrates a number of coordinated bank heists, and Val Turner, the principled, relentless and socially outcast FBI agent who will stop at nothing to foil her ambitious plan.",
+      "description": "The murder of Sonia Baker, a young political researcher, leads journalist Cal McCaffrey to uncover complex links between government and big business.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Mystery",
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14507354"
+      "releaseInfo": "2003",
+      "imdb_id": "tt0362192"
     },
     {
-      "id": "tt0458253",
+      "id": "tt5743796",
       "type": "series",
-      "name": "The Closer",
-      "poster": "https://image.tmdb.org/t/p/w500/q6FhABXGf3TaYKoKNwzGAEzW7bt.jpg",
+      "name": "Warrior",
+      "poster": "https://image.tmdb.org/t/p/w500/hR9qPFMI6BoR63XK6BBX5Ueghan.jpg",
       "posterShape": "poster",
-      "description": "Deputy Police Chief Brenda Leigh Johnson transfers from Atlanta to LA to head up a special unit of the LAPD that handles sensitive, high-profile murder cases. Johnson's quirky personality and hard-nosed approach often rubs her colleagues the wrong way, but her reputation as one of the world's best interrogator eventually wins over even her toughest critics.",
+      "description": "A gritty, action-packed crime drama set during the brutal Tong Wars of San Francisco’s Chinatown in the second half of the 19th century. The series follows Ah Sahm, a martial arts prodigy who immigrates from China to San Francisco under mysterious circumstances, and becomes a hatchet man for one of Chinatown’s most powerful tongs.",
       "genres": [
         "Crime",
         "Drama",
-        "Mystery"
+        "Action & Adventure",
+        "Western"
       ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0458253"
-    },
-    {
-      "id": "tt15390524",
-      "type": "series",
-      "name": "Partner Track",
-      "poster": "https://image.tmdb.org/t/p/w500/ekb76bz68oSJrbYrDMCYsLI5I6E.jpg",
-      "posterShape": "poster",
-      "description": "At an elite NYC law firm, Ingrid Yun fights to make partner — and hold onto her principles — while balancing romance, friends and family expectations.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15390524"
-    },
-    {
-      "id": "tt6964748",
-      "type": "series",
-      "name": "Alex Rider",
-      "poster": "https://image.tmdb.org/t/p/w500/7VkzkvA0XckUClWrlkt4fnmTrkL.jpg",
-      "posterShape": "poster",
-      "description": "Alex Rider is an ordinary teenager enlisted to work on behalf of MI6, where he uses skills he didn't know he had to become an extraordinary spy.",
-      "genres": [
-        "Drama",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt6964748"
+      "releaseInfo": "2019",
+      "imdb_id": "tt5743796"
     },
     {
       "id": "tt2356777",
@@ -273,18 +189,107 @@
       "imdb_id": "tt2356777"
     },
     {
-      "id": "tt1769411",
+      "id": "tt13636038",
       "type": "series",
-      "name": "Accused",
-      "poster": "https://image.tmdb.org/t/p/w500/cNTmeTD26zh3IGmWbiByHdsk8Ky.jpg",
+      "name": "The Ipcress File",
+      "poster": "https://image.tmdb.org/t/p/w500/dq9ayINjdgdUGD27YL8KgX6OhrP.jpg",
       "posterShape": "poster",
-      "description": "How certain people end up being accused of a crime.",
+      "description": "As the Cold War rages, ex-smuggler turned reluctant spy Harry Palmer finds himself at the centre of a dangerous undercover mission, on which he must use his links to find a missing British nuclear scientist.",
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "War & Politics"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13636038"
+    },
+    {
+      "id": "tt0874936",
+      "type": "series",
+      "name": "Life",
+      "poster": "https://image.tmdb.org/t/p/w500/4zTDeRJxdMqH3Si2fIZjQi44k17.jpg",
+      "posterShape": "poster",
+      "description": "Complex, offbeat Detective Charlie Crews returns to the force after serving time in prison for a crime he didn't commit. Crews' new lease on life has provided him with a Zen-like outlook, peace of mind and no need for vengeance, an attitude which can be challenging to maintain when someone he cares about is threatened — or when he is investigating the mystery surrounding the murder he was falsely accused of.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0874936"
+    },
+    {
+      "id": "tt0081873",
+      "type": "series",
+      "name": "Hill Street Blues",
+      "poster": "https://image.tmdb.org/t/p/w500/elvCmYxmwVzv2va3rLKponOJOfm.jpg",
+      "posterShape": "poster",
+      "description": "A realistic glimpse into the daily lives of the officers and detectives at an urban police station.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1769411"
+      "releaseInfo": "1981",
+      "imdb_id": "tt0081873"
+    },
+    {
+      "id": "tt5164196",
+      "type": "series",
+      "name": "Lethal Weapon",
+      "poster": "https://image.tmdb.org/t/p/w500/grGOtTZ0OfNQoWnNtdJOiY1LB8e.jpg",
+      "posterShape": "poster",
+      "description": "A slightly unhinged former Navy SEAL lands a job as a police officer in Los Angeles where he's partnered with a veteran detective trying to keep maintain a low stress level in his life.",
+      "genres": [
+        "Action & Adventure",
+        "Crime",
+        "Drama",
+        "Comedy"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt5164196"
+    },
+    {
+      "id": "tt0092379",
+      "type": "series",
+      "name": "Inspector Morse",
+      "poster": "https://image.tmdb.org/t/p/w500/cvGqqBcCwahSQgLsCLdUKZG1Skq.jpg",
+      "posterShape": "poster",
+      "description": "Inspector Morse is a detective drama based on Colin Dexter's series of Chief Inspector Morse novels. The series starred John Thaw as Chief Inspector Morse and Kevin Whately as Sergeant Lewis, as well as a large cast of notable actors and actresses.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "1987",
+      "imdb_id": "tt0092379"
+    },
+    {
+      "id": "tt6964748",
+      "type": "series",
+      "name": "Alex Rider",
+      "poster": "https://image.tmdb.org/t/p/w500/7VkzkvA0XckUClWrlkt4fnmTrkL.jpg",
+      "posterShape": "poster",
+      "description": "Alex Rider is an ordinary teenager enlisted to work on behalf of MI6, where he uses skills he didn't know he had to become an extraordinary spy.",
+      "genres": [
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt6964748"
+    },
+    {
+      "id": "tt11237708",
+      "type": "series",
+      "name": "Rebel",
+      "poster": "https://image.tmdb.org/t/p/w500/hyHAr6lk3EW2krnUp5RFkK6ouwB.jpg",
+      "posterShape": "poster",
+      "description": "Annie “Rebel” Bello is a blue-collar legal advocate without a law degree. She’s a funny, messy, brilliant and fearless woman who cares desperately about the causes she fights for and the people she loves. When Rebel applies herself to a fight she believes in, she will win at almost any cost.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11237708"
     }
   ]
 }

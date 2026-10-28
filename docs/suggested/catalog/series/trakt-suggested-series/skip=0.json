@@ -58,19 +58,18 @@
       "imdb_id": "tt15435876"
     },
     {
-      "id": "tt4276618",
+      "id": "tt2243973",
       "type": "series",
-      "name": "Strike",
-      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
+      "name": "Hannibal",
+      "poster": "https://image.tmdb.org/t/p/w500/pbV2eLnKSIm1epSZt473UYfqaeZ.jpg",
       "posterShape": "poster",
-      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
+      "description": "Both a gift and a curse, Graham has the extraordinary ability to think like his prey—he sees what they see, feels what they feel. But while Graham is pursuing an especially troubling, cannibalistic murderer, Special Agent Jack Crawford teams him with a highly respected psychiatrist – a man with a taste for the criminal minded – Dr. Hannibal Lecter.",
       "genres": [
-        "Crime",
         "Drama",
-        "Mystery"
+        "Crime"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt4276618"
+      "releaseInfo": "2013",
+      "imdb_id": "tt2243973"
     },
     {
       "id": "tt3281796",
@@ -101,34 +100,6 @@
       "imdb_id": "tt5645432"
     },
     {
-      "id": "tt5715524",
-      "type": "series",
-      "name": "Mayans M.C.",
-      "poster": "https://image.tmdb.org/t/p/w500/510A0upV9WRAynEgs1E2B3eBxi5.jpg",
-      "posterShape": "poster",
-      "description": "Set in the aftermath of Jax Teller’s death, Ezekiel \"EZ\" Reyes is fresh out of prison and a prospect in the Mayans M.C. charter on the Cali/Mexi border. Now, EZ must carve out his new identity in a town where he was once the golden boy with the American Dream in his grasp.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt5715524"
-    },
-    {
-      "id": "tt2243973",
-      "type": "series",
-      "name": "Hannibal",
-      "poster": "https://image.tmdb.org/t/p/w500/pbV2eLnKSIm1epSZt473UYfqaeZ.jpg",
-      "posterShape": "poster",
-      "description": "Both a gift and a curse, Graham has the extraordinary ability to think like his prey—he sees what they see, feels what they feel. But while Graham is pursuing an especially troubling, cannibalistic murderer, Special Agent Jack Crawford teams him with a highly respected psychiatrist – a man with a taste for the criminal minded – Dr. Hannibal Lecter.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2243973"
-    },
-    {
       "id": "tt5011816",
       "type": "series",
       "name": "Sneaky Pete",
@@ -141,6 +112,35 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt5011816"
+    },
+    {
+      "id": "tt4276618",
+      "type": "series",
+      "name": "Strike",
+      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
+      "posterShape": "poster",
+      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt4276618"
+    },
+    {
+      "id": "tt5715524",
+      "type": "series",
+      "name": "Mayans M.C.",
+      "poster": "https://image.tmdb.org/t/p/w500/510A0upV9WRAynEgs1E2B3eBxi5.jpg",
+      "posterShape": "poster",
+      "description": "Set in the aftermath of Jax Teller’s death, Ezekiel \"EZ\" Reyes is fresh out of prison and a prospect in the Mayans M.C. charter on the Cali/Mexi border. Now, EZ must carve out his new identity in a town where he was once the golden boy with the American Dream in his grasp.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt5715524"
     },
     {
       "id": "tt13918776",
@@ -215,18 +215,19 @@
       "imdb_id": "tt11761194"
     },
     {
-      "id": "tt10732104",
+      "id": "tt6037988",
       "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "name": "Last Seen",
+      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
       "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
       "genres": [
         "Crime",
-        "Drama"
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
+      "releaseInfo": "2026",
+      "imdb_id": "tt6037988"
     },
     {
       "id": "tt5071412",
@@ -258,19 +259,18 @@
       "imdb_id": "tt30460310"
     },
     {
-      "id": "tt6037988",
+      "id": "tt10732104",
       "type": "series",
-      "name": "Last Seen",
-      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
+      "name": "Power Book II: Ghost",
+      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
       "posterShape": "poster",
-      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
+      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
       "genres": [
         "Crime",
-        "Drama",
-        "Mystery"
+        "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt6037988"
+      "releaseInfo": "2020",
+      "imdb_id": "tt10732104"
     },
     {
       "id": "tt1489428",

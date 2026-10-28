@@ -1,77 +1,32 @@
 {
   "metas": [
     {
-      "id": "tt0253474",
+      "id": "tt1010278",
       "type": "movie",
-      "name": "The Pianist",
-      "poster": "https://image.tmdb.org/t/p/w500/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg",
+      "name": "The Courageous Heart of Irena Sendler",
+      "poster": "https://image.tmdb.org/t/p/w500/jfvvws0sCNbNNxY9llsBqmeERxv.jpg",
       "posterShape": "poster",
-      "description": "The true story of pianist Władysław Szpilman's experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a café; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
+      "description": "Irena Sendler is a Catholic social worker who has sympathized with the Jews since her childhood, when her physician father died of typhus contracted while treating poor Jewish patients. When she initially proposes saving Jewish children from the Warsaw Ghetto, her idea is met with skepticism by fellow workers, her parish priest, and even her own mother Janina.",
       "genres": [
         "Drama",
         "War"
-      ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0253474"
-    },
-    {
-      "id": "tt0395169",
-      "type": "movie",
-      "name": "Hotel Rwanda",
-      "poster": "https://image.tmdb.org/t/p/w500/p3pHw85UMZPegfMZBA6dZ06yarm.jpg",
-      "posterShape": "poster",
-      "description": "Inspired by true events, this film takes place in Rwanda in the 1990s when more than a million Tutsis were killed in a genocide that went mostly unnoticed by the rest of the world. Hotel owner Paul Rusesabagina houses over a thousand refuges in his hotel in attempt to save their lives.",
-      "genres": [
-        "Drama",
-        "History",
-        "War"
-      ],
-      "releaseInfo": "2004",
-      "imdb_id": "tt0395169"
-    },
-    {
-      "id": "tt3783958",
-      "type": "movie",
-      "name": "La La Land",
-      "poster": "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
-      "posterShape": "poster",
-      "description": "Mia, an aspiring actress, serves lattes to movie stars in between auditions and Sebastian, a jazz musician, scrapes by playing cocktail party gigs in dingy bars, but as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt3783958"
-    },
-    {
-      "id": "tt0167261",
-      "type": "movie",
-      "name": "The Lord of the Rings: The Two Towers",
-      "poster": "https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
-      "posterShape": "poster",
-      "description": "Frodo Baggins and the other members of the Fellowship continue on their sacred quest to destroy the One Ring--but on separate paths. Their destinies lie at two towers--Orthanc Tower in Isengard, where the corrupt wizard Saruman awaits, and Sauron's fortress at Barad-dur, deep within the dark lands of Mordor.",
-      "genres": [
-        "Adventure",
-        "Fantasy",
-        "Action"
-      ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0167261"
-    },
-    {
-      "id": "tt1182345",
-      "type": "movie",
-      "name": "Moon",
-      "poster": "https://image.tmdb.org/t/p/w500/35IU0Mq0zFsN1mYwDGts5mKc77n.jpg",
-      "posterShape": "poster",
-      "description": "With only three weeks left in his three-year contract, Sam Bell is eager to return to Earth. Stationed alone at a Moon-based facility with his computer assistant GERTY, an unexpected accident sets off a series of unsettling events that shake his isolation.",
-      "genres": [
-        "Science Fiction",
-        "Drama"
       ],
       "releaseInfo": "2009",
-      "imdb_id": "tt1182345"
+      "imdb_id": "tt1010278"
+    },
+    {
+      "id": "tt6262770",
+      "type": "movie",
+      "name": "Tenzing",
+      "poster": "https://image.tmdb.org/t/p/w500/eI0QW02PYqhnmIvLRdn9vrfVVP7.jpg",
+      "posterShape": "poster",
+      "description": "A determined man embarks on a high-stakes quest—and defies seemingly impossible odds—to fulfill his dream of being the first to reach the summit of Mount Everest.",
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt6262770"
     },
     {
       "id": "tt31349844",
@@ -88,95 +43,6 @@
       "imdb_id": "tt31349844"
     },
     {
-      "id": "tt1201607",
-      "type": "movie",
-      "name": "Harry Potter and the Deathly Hallows: Part 2",
-      "poster": "https://image.tmdb.org/t/p/w500/c54HpQmuwXjHq2C9wmoACjxoom3.jpg",
-      "posterShape": "poster",
-      "description": "Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort's formidable skills.",
-      "genres": [
-        "Adventure",
-        "Fantasy"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1201607"
-    },
-    {
-      "id": "tt0277434",
-      "type": "movie",
-      "name": "We Were Soldiers",
-      "poster": "https://image.tmdb.org/t/p/w500/nzeSYldx7wIrwycLKHKHTTUJNWh.jpg",
-      "posterShape": "poster",
-      "description": "The year is 1965 and America is at war with North Vietnam.  Commanding the air cavalry is Lt. Col. Hal Moore (Gibson), a born leader committed to his troops.  His target: the Ia Drang Valley, called \"The Valley of Death.\"  As Moore prepares for one of the most violent battles in U.S. history, he delivers a stirring promise to his soldiers and their families: \"I will leave no man behind...dead or alive.  We will all come home together.\"",
-      "genres": [
-        "Action",
-        "History",
-        "War"
-      ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0277434"
-    },
-    {
-      "id": "tt0167260",
-      "type": "movie",
-      "name": "The Lord of the Rings: The Return of the King",
-      "poster": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
-      "posterShape": "poster",
-      "description": "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil lies with a brave hobbit, Frodo, who, accompanied by his loyal friend Sam and the hideous, wretched Gollum, ventures deep into the very dark heart of Mordor on his seemingly impossible quest to destroy the Ring of Power.​",
-      "genres": [
-        "Adventure",
-        "Fantasy",
-        "Action"
-      ],
-      "releaseInfo": "2003",
-      "imdb_id": "tt0167260"
-    },
-    {
-      "id": "tt0120737",
-      "type": "movie",
-      "name": "The Lord of the Rings: The Fellowship of the Ring",
-      "poster": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
-      "posterShape": "poster",
-      "description": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
-      "genres": [
-        "Adventure",
-        "Fantasy",
-        "Action"
-      ],
-      "releaseInfo": "2001",
-      "imdb_id": "tt0120737"
-    },
-    {
-      "id": "tt0266425",
-      "type": "movie",
-      "name": "Conspiracy",
-      "poster": "https://image.tmdb.org/t/p/w500/xKocKpTHaKcTuNRLu0rLbZWbLnH.jpg",
-      "posterShape": "poster",
-      "description": "At the Wannsee Conference on January 20, 1942, senior Nazi officials meet to determine the manner in which the so-called \"Final Solution to the Jewish Question\" can be best implemented.",
-      "genres": [
-        "History",
-        "Drama",
-        "War",
-        "TV Movie"
-      ],
-      "releaseInfo": "2001",
-      "imdb_id": "tt0266425"
-    },
-    {
-      "id": "tt33100314",
-      "type": "movie",
-      "name": "Remarkably Bright Creatures",
-      "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
-      "posterShape": "poster",
-      "description": "Through unlikely bonds formed during night shifts at a local aquarium, Tova, an elderly widow, learns of a life-changing discovery that may bring her joy and wonder once again.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33100314"
-    },
-    {
       "id": "tt27543632",
       "type": "movie",
       "name": "The Housemaid",
@@ -189,109 +55,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt27543632"
-    },
-    {
-      "id": "tt0446029",
-      "type": "movie",
-      "name": "Scott Pilgrim vs. the World",
-      "poster": "https://image.tmdb.org/t/p/w500/g5IoYeudx9XBEfwNL0fHvSckLBz.jpg",
-      "posterShape": "poster",
-      "description": "As bass guitarist for a garage-rock band, Scott Pilgrim has never had trouble getting a girlfriend; usually, the problem is getting rid of them. But when Ramona Flowers skates into his heart, he finds she has the most troublesome baggage of all: an army of ex-boyfriends who will stop at nothing to eliminate him from her list of suitors.",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Romance"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt0446029"
-    },
-    {
-      "id": "tt0414387",
-      "type": "movie",
-      "name": "Pride & Prejudice",
-      "poster": "https://image.tmdb.org/t/p/w500/o8UhmEbWPHmTUxP0lMuCoqNkbB3.jpg",
-      "posterShape": "poster",
-      "description": "A story of love and life among the landed English gentry during the Georgian era. Mr. Bennet is a gentleman living in Hertfordshire with his overbearing wife and five daughters, but if he dies their house will be inherited by a distant cousin whom they have never met, so the family's future happiness and security is dependent on the daughters making good marriages.",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0414387"
-    },
-    {
-      "id": "tt0215750",
-      "type": "movie",
-      "name": "Enemy at the Gates",
-      "poster": "https://image.tmdb.org/t/p/w500/cHRAbVdsCWFaQrswRsBP7Bn255W.jpg",
-      "posterShape": "poster",
-      "description": "A Russian and a German sniper play a game of cat-and-mouse during the Battle of Stalingrad in WWII.",
-      "genres": [
-        "War",
-        "History"
-      ],
-      "releaseInfo": "2001",
-      "imdb_id": "tt0215750"
-    },
-    {
-      "id": "tt6914122",
-      "type": "movie",
-      "name": "Resistance",
-      "poster": "https://image.tmdb.org/t/p/w500/As22MQ8G3ILsdzsSIv1u9qEz6hE.jpg",
-      "posterShape": "poster",
-      "description": "The story of mime Marcel Marceau as he works with a group of Jewish boy scouts and the French Resistance to save the lives of ten thousand orphans during World War II.",
-      "genres": [
-        "War",
-        "History",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt6914122"
-    },
-    {
-      "id": "tt26595906",
-      "type": "movie",
-      "name": "The World Will Tremble",
-      "poster": "https://image.tmdb.org/t/p/w500/31CKSlZdsvdY8bysV5WeR2YvTim.jpg",
-      "posterShape": "poster",
-      "description": "The incredible, untold true story of how a group of prisoners attempt a seemingly impossible escape from the first Nazi death camp in order to provide the first eyewitness account of the Holocaust.",
-      "genres": [
-        "Drama",
-        "War",
-        "History"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt26595906"
-    },
-    {
-      "id": "tt19869662",
-      "type": "movie",
-      "name": "Irena's Vow",
-      "poster": "https://image.tmdb.org/t/p/w500/lN6iCgTgpNlylelUctrA29wJx4W.jpg",
-      "posterShape": "poster",
-      "description": "19 year old Irena Gut is promoted to housekeeper in the home of a highly respected Nazi officer in Poland when she finds out that the Jewish ghetto is about to be liquidated. Determined to help twelve Jewish workers, she decides to shelter them in the safest place she can think of – the basement of the German Major's house. Over the next eight months, Irena uses her wit, humour and immense courage to hide her friends as long as possible.",
-      "genres": [
-        "War",
-        "Drama",
-        "History"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt19869662"
-    },
-    {
-      "id": "tt32547691",
-      "type": "movie",
-      "name": "Pressure",
-      "poster": "https://image.tmdb.org/t/p/w500/gFjEggtrejCN79r6SXRjM269OtG.jpg",
-      "posterShape": "poster",
-      "description": "In the tense 72 hours before D-Day, and the fate of the free world hanging in the balance, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice—launch the largest and most dangerous seaborne invasion in history or risk losing the war altogether.",
-      "genres": [
-        "Thriller",
-        "History",
-        "War"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32547691"
     }
   ]
 }

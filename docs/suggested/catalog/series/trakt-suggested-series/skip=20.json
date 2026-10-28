@@ -15,18 +15,18 @@
       "imdb_id": "tt7440726"
     },
     {
-      "id": "tt13018148",
+      "id": "tt0306414",
       "type": "series",
-      "name": "Tell Me Lies",
-      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
+      "name": "The Wire",
+      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
       "posterShape": "poster",
-      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
+      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
       "genres": [
-        "Drama",
-        "Mystery"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13018148"
+      "releaseInfo": "2002",
+      "imdb_id": "tt0306414"
     },
     {
       "id": "tt0903747",
@@ -41,6 +41,20 @@
       ],
       "releaseInfo": "2008",
       "imdb_id": "tt0903747"
+    },
+    {
+      "id": "tt1652216",
+      "type": "series",
+      "name": "DCI Banks",
+      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
+      "posterShape": "poster",
+      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2011",
+      "imdb_id": "tt1652216"
     },
     {
       "id": "tt5611024",
@@ -58,34 +72,6 @@
       "imdb_id": "tt5611024"
     },
     {
-      "id": "tt0306414",
-      "type": "series",
-      "name": "The Wire",
-      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
-      "posterShape": "poster",
-      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0306414"
-    },
-    {
-      "id": "tt1652216",
-      "type": "series",
-      "name": "DCI Banks",
-      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
-      "posterShape": "poster",
-      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1652216"
-    },
-    {
       "id": "tt14063678",
       "type": "series",
       "name": "The Gold",
@@ -100,18 +86,46 @@
       "imdb_id": "tt14063678"
     },
     {
-      "id": "tt16418808",
+      "id": "tt13018148",
       "type": "series",
-      "name": "Sugar",
-      "poster": "https://image.tmdb.org/t/p/w500/tLmwLYiI7EpPbhgmdeivNGY0xw7.jpg",
+      "name": "Tell Me Lies",
+      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
       "posterShape": "poster",
-      "description": "John Sugar is a dashing private eye navigating the dark corners of sunny LA. Though he sees only the good in humanity, Sugar is haunted by a secret too dangerous to expose.",
+      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
       "genres": [
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt16418808"
+      "releaseInfo": "2022",
+      "imdb_id": "tt13018148"
+    },
+    {
+      "id": "tt11846996",
+      "type": "series",
+      "name": "Vigil",
+      "poster": "https://image.tmdb.org/t/p/w500/mmNjcRq47U1UVPnOuD2EYxx6Dno.jpg",
+      "posterShape": "poster",
+      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11846996"
+    },
+    {
+      "id": "tt6510950",
+      "type": "series",
+      "name": "Condor",
+      "poster": "https://image.tmdb.org/t/p/w500/xgmkmT4Uik4QpvRipYUxcqNx5yR.jpg",
+      "posterShape": "poster",
+      "description": "Young CIA analyst Joe Turner has his idealism tested when he learns that the CIA has been using an algorithm he developed to spy on American citizens, leading the organization to a terrorist plot that threatens the lives of millions.  Inspired by Sydney Pollack’s 1975 political thriller Three Days of the Condor.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6510950"
     },
     {
       "id": "tt2788432",
@@ -143,20 +157,6 @@
       "imdb_id": "tt14379784"
     },
     {
-      "id": "tt6510950",
-      "type": "series",
-      "name": "Condor",
-      "poster": "https://image.tmdb.org/t/p/w500/xgmkmT4Uik4QpvRipYUxcqNx5yR.jpg",
-      "posterShape": "poster",
-      "description": "Young CIA analyst Joe Turner has his idealism tested when he learns that the CIA has been using an algorithm he developed to spy on American citizens, leading the organization to a terrorist plot that threatens the lives of millions.  Inspired by Sydney Pollack’s 1975 political thriller Three Days of the Condor.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6510950"
-    },
-    {
       "id": "tt5290382",
       "type": "series",
       "name": "MINDHUNTER",
@@ -171,33 +171,48 @@
       "imdb_id": "tt5290382"
     },
     {
-      "id": "tt36849871",
+      "id": "tt33035373",
       "type": "series",
-      "name": "Marshals",
-      "poster": "https://image.tmdb.org/t/p/w500/zV1MRb6eqx6Uj3NSXquZFfz75pa.jpg",
+      "name": "HIS & HERS",
+      "poster": "https://image.tmdb.org/t/p/w500/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
       "posterShape": "poster",
-      "description": "With the Yellowstone Ranch behind him, Kayce Dutton joins an elite unit of U.S. Marshals, combining his skills as a cowboy and Navy SEAL to bring range justice to Montana, where he and his teammates must balance family, duty and the high psychological cost that comes with serving as the last line of defense in the region's war on violence.",
+      "description": "Two estranged spouses — one a detective, the other a news reporter — vie to solve a murder in which each believes the other is a prime suspect.",
       "genres": [
         "Drama",
         "Crime",
-        "Action & Adventure"
+        "Mystery"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt36849871"
+      "imdb_id": "tt33035373"
     },
     {
-      "id": "tt2805096",
+      "id": "tt17677860",
       "type": "series",
-      "name": "Chicago P.D.",
-      "poster": "https://image.tmdb.org/t/p/w500/w7R4ooo2IbOfBKOoMDwaiMGsNQf.jpg",
+      "name": "Presumed Innocent",
+      "poster": "https://image.tmdb.org/t/p/w500/7MXg0BxuSRWz2yKc03M40du2mrc.jpg",
       "posterShape": "poster",
-      "description": "A riveting police drama about the men and women of the Chicago Police Department's District 21 who put it all on the line to serve and protect their community. District 21 is made up of two distinctly different groups: the uniformed cops who patrol the beat and go head-to-head with the city's street crimes and the Intelligence Unit that combats the city's major offenses - organized crime, drug trafficking, high profile murders and beyond.",
+      "description": "A horrific murder upends the Chicago Prosecuting Attorney's Office when one of its own is suspected of the crime—leaving the accused fighting to keep his family together.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt17677860"
+    },
+    {
+      "id": "tt3428912",
+      "type": "series",
+      "name": "Happy Valley",
+      "poster": "https://image.tmdb.org/t/p/w500/xZK5iQSrn2mouZEk2PwyLPCwa4u.jpg",
+      "posterShape": "poster",
+      "description": "Happy Valley is a dark, funny, multi-layered thriller revolving around the personal and professional life of Catherine, a dedicated, experienced, hard-working copper. She is also a bereaved mother who looks after her orphaned grandchild.",
       "genres": [
         "Crime",
-        "Drama"
+        "Drama",
+        "Mystery"
       ],
       "releaseInfo": "2014",
-      "imdb_id": "tt2805096"
+      "imdb_id": "tt3428912"
     },
     {
       "id": "tt35515227",
@@ -229,20 +244,6 @@
       "imdb_id": "tt14582876"
     },
     {
-      "id": "tt17677860",
-      "type": "series",
-      "name": "Presumed Innocent",
-      "poster": "https://image.tmdb.org/t/p/w500/7MXg0BxuSRWz2yKc03M40du2mrc.jpg",
-      "posterShape": "poster",
-      "description": "A horrific murder upends the Chicago Prosecuting Attorney's Office when one of its own is suspected of the crime—leaving the accused fighting to keep his family together.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt17677860"
-    },
-    {
       "id": "tt2304589",
       "type": "series",
       "name": "Defending Jacob",
@@ -258,34 +259,34 @@
       "imdb_id": "tt2304589"
     },
     {
-      "id": "tt3428912",
+      "id": "tt3205802",
       "type": "series",
-      "name": "Happy Valley",
-      "poster": "https://image.tmdb.org/t/p/w500/xZK5iQSrn2mouZEk2PwyLPCwa4u.jpg",
+      "name": "How to Get Away with Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/bJs8Y6T88NcgksxA8UaVl4YX8p8.jpg",
       "posterShape": "poster",
-      "description": "Happy Valley is a dark, funny, multi-layered thriller revolving around the personal and professional life of Catherine, a dedicated, experienced, hard-working copper. She is also a bereaved mother who looks after her orphaned grandchild.",
+      "description": "A sexy, suspense-driven legal thriller about a group of ambitious law students and their brilliant, mysterious criminal defense professor. They become entangled in a murder plot and will shake the entire university and change the course of their lives.",
       "genres": [
         "Crime",
         "Drama",
         "Mystery"
       ],
       "releaseInfo": "2014",
-      "imdb_id": "tt3428912"
+      "imdb_id": "tt3205802"
     },
     {
-      "id": "tt34771210",
+      "id": "tt16030542",
       "type": "series",
-      "name": "I Will Find You",
-      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
+      "name": "The Recruit",
+      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
       "posterShape": "poster",
-      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
+      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
       "genres": [
         "Drama",
-        "Mystery",
-        "Crime"
+        "Crime",
+        "Action & Adventure"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34771210"
+      "releaseInfo": "2022",
+      "imdb_id": "tt16030542"
     }
   ]
 }
