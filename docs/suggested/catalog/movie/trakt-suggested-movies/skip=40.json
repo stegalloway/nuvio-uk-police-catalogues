@@ -1,6 +1,94 @@
 {
   "metas": [
     {
+      "id": "tt1190536",
+      "type": "movie",
+      "name": "Black Dynamite",
+      "poster": "https://image.tmdb.org/t/p/w500/u3oWQDz0JggzzsVlsuHY7XVxp5Y.jpg",
+      "posterShape": "poster",
+      "description": "This is the story of 1970s African-American action legend Black Dynamite. The Man killed his brother, pumped heroin into local orphanages, and flooded the ghetto with adulterated malt liquor. Black Dynamite was the one hero willing to fight The Man all the way from the blood-soaked city streets to the hallowed halls of the Honky House.",
+      "genres": [
+        "Comedy",
+        "Action"
+      ],
+      "releaseInfo": "2009",
+      "imdb_id": "tt1190536"
+    },
+    {
+      "id": "tt8936646",
+      "type": "movie",
+      "name": "Extraction",
+      "poster": "https://image.tmdb.org/t/p/w500/nygOUcBKPHFTbxsYRFZVePqgPK6.jpg",
+      "posterShape": "poster",
+      "description": "A hardened gun-for-hire's latest mission becomes a soul-searching race to survive when he's sent into Bangladesh to rescue a drug lord's kidnapped son.",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt8936646"
+    },
+    {
+      "id": "tt0985699",
+      "type": "movie",
+      "name": "Valkyrie",
+      "poster": "https://image.tmdb.org/t/p/w500/8eoRtXswC8IQDsqW7iJWO56NhAv.jpg",
+      "posterShape": "poster",
+      "description": "Wounded in Africa during World War II, Nazi Col. Claus von Stauffenberg returns to his native Germany and joins the Resistance in a daring plan to create a shadow government and assassinate Adolf Hitler. When events unfold so that he becomes a central player, he finds himself tasked with both leading the coup and personally killing the Führer.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "releaseInfo": "2008",
+      "imdb_id": "tt0985699"
+    },
+    {
+      "id": "tt1270798",
+      "type": "movie",
+      "name": "X-Men: First Class",
+      "poster": "https://image.tmdb.org/t/p/w500/hNEokmUke0dazoBhttFN0o3L7Xv.jpg",
+      "posterShape": "poster",
+      "description": "Before Charles Xavier and Erik Lensherr took the names Professor X and Magneto, they were two young men discovering their powers for the first time. Before they were arch-enemies, they were closest of friends, working together with other mutants (some familiar, some new), to stop the greatest threat the world has ever known.",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "releaseInfo": "2011",
+      "imdb_id": "tt1270798"
+    },
+    {
+      "id": "tt5537002",
+      "type": "movie",
+      "name": "Killers of the Flower Moon",
+      "poster": "https://image.tmdb.org/t/p/w500/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
+      "posterShape": "poster",
+      "description": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
+      "genres": [
+        "Crime",
+        "History",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt5537002"
+    },
+    {
+      "id": "tt8946378",
+      "type": "movie",
+      "name": "Knives Out",
+      "poster": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
+      "posterShape": "poster",
+      "description": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt8946378"
+    },
+    {
       "id": "tt12593682",
       "type": "movie",
       "name": "Bullet Train",
@@ -16,33 +104,20 @@
       "imdb_id": "tt12593682"
     },
     {
-      "id": "tt1877832",
+      "id": "tt0373469",
       "type": "movie",
-      "name": "X-Men: Days of Future Past",
-      "poster": "https://image.tmdb.org/t/p/w500/tYfijzolzgoMOtegh1Y7j2Enorg.jpg",
+      "name": "Kiss Kiss Bang Bang",
+      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
       "posterShape": "poster",
-      "description": "The ultimate X-Men ensemble fights a war for the survival of the species across two time periods as they join forces with their younger selves in an epic battle that must change the past – to save our future.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt1877832"
-    },
-    {
-      "id": "tt1190536",
-      "type": "movie",
-      "name": "Black Dynamite",
-      "poster": "https://image.tmdb.org/t/p/w500/u3oWQDz0JggzzsVlsuHY7XVxp5Y.jpg",
-      "posterShape": "poster",
-      "description": "This is the story of 1970s African-American action legend Black Dynamite. The Man killed his brother, pumped heroin into local orphanages, and flooded the ghetto with adulterated malt liquor. Black Dynamite was the one hero willing to fight The Man all the way from the blood-soaked city streets to the hallowed halls of the Honky House.",
+      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
       "genres": [
         "Comedy",
-        "Action"
+        "Crime",
+        "Mystery",
+        "Thriller"
       ],
-      "releaseInfo": "2009",
-      "imdb_id": "tt1190536"
+      "releaseInfo": "2005",
+      "imdb_id": "tt0373469"
     },
     {
       "id": "tt0477348",
@@ -75,51 +150,6 @@
       "imdb_id": "tt5013056"
     },
     {
-      "id": "tt0985699",
-      "type": "movie",
-      "name": "Valkyrie",
-      "poster": "https://image.tmdb.org/t/p/w500/8eoRtXswC8IQDsqW7iJWO56NhAv.jpg",
-      "posterShape": "poster",
-      "description": "Wounded in Africa during World War II, Nazi Col. Claus von Stauffenberg returns to his native Germany and joins the Resistance in a daring plan to create a shadow government and assassinate Adolf Hitler. When events unfold so that he becomes a central player, he finds himself tasked with both leading the coup and personally killing the Führer.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "War"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0985699"
-    },
-    {
-      "id": "tt1212450",
-      "type": "movie",
-      "name": "Lawless",
-      "poster": "https://image.tmdb.org/t/p/w500/Ahtzwts22ayviD3LEVslfL4nRWB.jpg",
-      "posterShape": "poster",
-      "description": "In 1931, the Bondurant brothers of Franklin County, Virginia, run a multipurpose backwoods establishment that hides their true business — bootlegging. Middle brother Forrest is the brain of the operation; older Howard is the brawn, and younger Jack, the lookout. Though the local police have taken bribes and left the brothers alone, a violent war erupts when a sadistic lawman from Chicago arrives and tries to shut down the Bondurants operation.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Western"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1212450"
-    },
-    {
-      "id": "tt1211837",
-      "type": "movie",
-      "name": "Doctor Strange",
-      "poster": "https://image.tmdb.org/t/p/w500/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg",
-      "posterShape": "poster",
-      "description": "After his career is destroyed, a brilliant but arrogant surgeon gets a new lease on life when a sorcerer takes him under her wing and trains him to defend the world against evil.",
-      "genres": [
-        "Fantasy",
-        "Adventure",
-        "Action"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt1211837"
-    },
-    {
       "id": "tt2582802",
       "type": "movie",
       "name": "Whiplash",
@@ -133,98 +163,6 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt2582802"
-    },
-    {
-      "id": "tt1156466",
-      "type": "movie",
-      "name": "Undisputed III: Redemption",
-      "poster": "https://image.tmdb.org/t/p/w500/g8KB77SPA7SyU8eid6TAEpt9skU.jpg",
-      "posterShape": "poster",
-      "description": "Russian inmate Boyka, now severely hobbled by the knee injury suffered at the end of Undisputed 2. No longer the feared prison fighter he was, he has declined so far that he is now good only for cleaning toilets. But when a new prison fight tournament begins - an international affair, matching the best fighters from prisons around the globe, enticing them with the promise of freedom for the winner - Boyka must reclaim his dignity and fight for his position in the tournament.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1156466"
-    },
-    {
-      "id": "tt0371746",
-      "type": "movie",
-      "name": "Iron Man",
-      "poster": "https://image.tmdb.org/t/p/w500/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
-      "posterShape": "poster",
-      "description": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
-      "genres": [
-        "Action",
-        "Science Fiction",
-        "Adventure"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0371746"
-    },
-    {
-      "id": "tt19864802",
-      "type": "movie",
-      "name": "Land of Bad",
-      "poster": "https://image.tmdb.org/t/p/w500/h3jYanWMEJq6JJsCopy1h7cT2Hs.jpg",
-      "posterShape": "poster",
-      "description": "When a Delta Force special ops mission goes terribly wrong, Air Force drone pilot Reaper has 48 hours to remedy what has devolved into a wild rescue operation. With no weapons and no communication other than the drone above, the ground mission suddenly becomes a full-scale battle when the team is discovered by the enemy.",
-      "genres": [
-        "Action",
-        "War",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt19864802"
-    },
-    {
-      "id": "tt8946378",
-      "type": "movie",
-      "name": "Knives Out",
-      "poster": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
-      "posterShape": "poster",
-      "description": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8946378"
-    },
-    {
-      "id": "tt3501632",
-      "type": "movie",
-      "name": "Thor: Ragnarok",
-      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
-      "posterShape": "poster",
-      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt3501632"
-    },
-    {
-      "id": "tt30144839",
-      "type": "movie",
-      "name": "One Battle After Another",
-      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
-      "posterShape": "poster",
-      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
-      "genres": [
-        "Thriller",
-        "Crime",
-        "Comedy"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30144839"
     },
     {
       "id": "tt2057392",
@@ -242,36 +180,49 @@
       "imdb_id": "tt2057392"
     },
     {
-      "id": "tt3344680",
+      "id": "tt19864802",
       "type": "movie",
-      "name": "Boyka: Undisputed IV",
-      "poster": "https://image.tmdb.org/t/p/w500/7QGdIJWWTkPhVjpQ0zA6z69khod.jpg",
+      "name": "Land of Bad",
+      "poster": "https://image.tmdb.org/t/p/w500/h3jYanWMEJq6JJsCopy1h7cT2Hs.jpg",
       "posterShape": "poster",
-      "description": "In the fourth installment of the fighting franchise, Boyka is shooting for the big leagues when an accidental death in the ring makes him question everything he stands for. When he finds out the wife of the man he accidentally killed is in trouble, Boyka offers to fight in a series of impossible battles to free her from a life of servitude.",
+      "description": "When a Delta Force special ops mission goes terribly wrong, Air Force drone pilot Reaper has 48 hours to remedy what has devolved into a wild rescue operation. With no weapons and no communication other than the drone above, the ground mission suddenly becomes a full-scale battle when the team is discovered by the enemy.",
       "genres": [
         "Action",
-        "Drama",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt3344680"
-    },
-    {
-      "id": "tt0373469",
-      "type": "movie",
-      "name": "Kiss Kiss Bang Bang",
-      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
-      "posterShape": "poster",
-      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery",
+        "War",
         "Thriller"
       ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0373469"
+      "releaseInfo": "2024",
+      "imdb_id": "tt19864802"
+    },
+    {
+      "id": "tt15398776",
+      "type": "movie",
+      "name": "Oppenheimer",
+      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "posterShape": "poster",
+      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15398776"
+    },
+    {
+      "id": "tt30144839",
+      "type": "movie",
+      "name": "One Battle After Another",
+      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
+      "posterShape": "poster",
+      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Comedy"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt30144839"
     },
     {
       "id": "tt0469494",
@@ -285,6 +236,50 @@
       ],
       "releaseInfo": "2007",
       "imdb_id": "tt0469494"
+    },
+    {
+      "id": "tt0765443",
+      "type": "movie",
+      "name": "Eastern Promises",
+      "poster": "https://image.tmdb.org/t/p/w500/nLwv1pxRCRZucQaqs6oPkq7HH3K.jpg",
+      "posterShape": "poster",
+      "description": "A Russian teenager living in London dies during childbirth but leaves clues in her diary that could tie her child to a rape involving a violent Russian mob family.",
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0765443"
+    },
+    {
+      "id": "tt2024544",
+      "type": "movie",
+      "name": "12 Years a Slave",
+      "poster": "https://image.tmdb.org/t/p/w500/xdANQijuNrJaw1HA61rDccME4Tm.jpg",
+      "posterShape": "poster",
+      "description": "In the pre-Civil War United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery. Facing cruelty as well as unexpected kindnesses Solomon struggles not only to stay alive, but to retain his dignity. In the twelfth year of his unforgettable odyssey, Solomon’s chance meeting with a Canadian abolitionist will forever alter his life.",
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt2024544"
+    },
+    {
+      "id": "tt0290334",
+      "type": "movie",
+      "name": "X2",
+      "poster": "https://image.tmdb.org/t/p/w500/bst4alFUXCxISwdRUKSMhhkrX1M.jpg",
+      "posterShape": "poster",
+      "description": "Professor Charles Xavier and his team of genetically gifted superheroes face a rising tide of anti-mutant sentiment led by Col. William Stryker. Storm, Wolverine and Jean Grey must join Magneto and Mystique to unhinge Stryker's scheme to exterminate all mutants.",
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2003",
+      "imdb_id": "tt0290334"
     },
     {
       "id": "tt33296751",

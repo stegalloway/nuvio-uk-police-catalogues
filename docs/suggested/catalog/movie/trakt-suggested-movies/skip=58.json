@@ -1,17 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt0469494",
+      "id": "tt0290334",
       "type": "movie",
-      "name": "There Will Be Blood",
-      "poster": "https://image.tmdb.org/t/p/w500/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+      "name": "X2",
+      "poster": "https://image.tmdb.org/t/p/w500/bst4alFUXCxISwdRUKSMhhkrX1M.jpg",
       "posterShape": "poster",
-      "description": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's motives and intentions, starting a slow-burning feud that threatens both their lives.",
+      "description": "Professor Charles Xavier and his team of genetically gifted superheroes face a rising tide of anti-mutant sentiment led by Col. William Stryker. Storm, Wolverine and Jean Grey must join Magneto and Mystique to unhinge Stryker's scheme to exterminate all mutants.",
       "genres": [
-        "Drama"
+        "Adventure",
+        "Action",
+        "Science Fiction"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0469494"
+      "releaseInfo": "2003",
+      "imdb_id": "tt0290334"
     },
     {
       "id": "tt33296751",

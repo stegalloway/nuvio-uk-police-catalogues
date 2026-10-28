@@ -16,53 +16,6 @@
       "imdb_id": "tt30144839"
     },
     {
-      "id": "tt2057392",
-      "type": "movie",
-      "name": "Eye in the Sky",
-      "poster": "https://image.tmdb.org/t/p/w500/faRGb9SuyGuZpsNRoIxoVSLLCId.jpg",
-      "posterShape": "poster",
-      "description": "A UK-based military officer in command of a top secret drone operation to capture terrorists in Kenya discovers the targets are planning a suicide bombing and the mission escalates from “capture” to “kill.” As American pilot Steve Watts is about to engage, a nine-year old girl enters the kill zone, triggering an international dispute reaching the highest levels of US and British government over the moral, political, and personal implications of modern warfare.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "War"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt2057392"
-    },
-    {
-      "id": "tt3344680",
-      "type": "movie",
-      "name": "Boyka: Undisputed IV",
-      "poster": "https://image.tmdb.org/t/p/w500/7QGdIJWWTkPhVjpQ0zA6z69khod.jpg",
-      "posterShape": "poster",
-      "description": "In the fourth installment of the fighting franchise, Boyka is shooting for the big leagues when an accidental death in the ring makes him question everything he stands for. When he finds out the wife of the man he accidentally killed is in trouble, Boyka offers to fight in a series of impossible battles to free her from a life of servitude.",
-      "genres": [
-        "Action",
-        "Drama",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt3344680"
-    },
-    {
-      "id": "tt0373469",
-      "type": "movie",
-      "name": "Kiss Kiss Bang Bang",
-      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
-      "posterShape": "poster",
-      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0373469"
-    },
-    {
       "id": "tt0469494",
       "type": "movie",
       "name": "There Will Be Blood",
@@ -74,6 +27,50 @@
       ],
       "releaseInfo": "2007",
       "imdb_id": "tt0469494"
+    },
+    {
+      "id": "tt0765443",
+      "type": "movie",
+      "name": "Eastern Promises",
+      "poster": "https://image.tmdb.org/t/p/w500/nLwv1pxRCRZucQaqs6oPkq7HH3K.jpg",
+      "posterShape": "poster",
+      "description": "A Russian teenager living in London dies during childbirth but leaves clues in her diary that could tie her child to a rape involving a violent Russian mob family.",
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0765443"
+    },
+    {
+      "id": "tt2024544",
+      "type": "movie",
+      "name": "12 Years a Slave",
+      "poster": "https://image.tmdb.org/t/p/w500/xdANQijuNrJaw1HA61rDccME4Tm.jpg",
+      "posterShape": "poster",
+      "description": "In the pre-Civil War United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery. Facing cruelty as well as unexpected kindnesses Solomon struggles not only to stay alive, but to retain his dignity. In the twelfth year of his unforgettable odyssey, Solomon’s chance meeting with a Canadian abolitionist will forever alter his life.",
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt2024544"
+    },
+    {
+      "id": "tt0290334",
+      "type": "movie",
+      "name": "X2",
+      "poster": "https://image.tmdb.org/t/p/w500/bst4alFUXCxISwdRUKSMhhkrX1M.jpg",
+      "posterShape": "poster",
+      "description": "Professor Charles Xavier and his team of genetically gifted superheroes face a rising tide of anti-mutant sentiment led by Col. William Stryker. Storm, Wolverine and Jean Grey must join Magneto and Mystique to unhinge Stryker's scheme to exterminate all mutants.",
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2003",
+      "imdb_id": "tt0290334"
     },
     {
       "id": "tt33296751",
