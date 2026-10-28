@@ -58,21 +58,6 @@
       "imdb_id": "tt23137390"
     },
     {
-      "id": "tt32141377",
-      "type": "movie",
-      "name": "28 Years Later: The Bone Temple",
-      "poster": "https://image.tmdb.org/t/p/w500/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
-      "posterShape": "poster",
-      "description": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32141377"
-    },
-    {
       "id": "tt14364480",
       "type": "movie",
       "name": "Wake Up Dead Man: A Knives Out Mystery",
@@ -88,18 +73,19 @@
       "imdb_id": "tt14364480"
     },
     {
-      "id": "tt35672862",
+      "id": "tt32141377",
       "type": "movie",
-      "name": "Hokum",
-      "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+      "name": "28 Years Later: The Bone Temple",
+      "poster": "https://image.tmdb.org/t/p/w500/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
       "posterShape": "poster",
-      "description": "When novelist Ohm Bauman retreats to a remote inn to scatter his parents' ashes, he is consumed by tales of a witch haunting the honeymoon suite. Disturbing visions and a shocking disappearance forces him to confront dark corners of his past.",
+      "description": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
       "genres": [
         "Horror",
-        "Thriller"
+        "Thriller",
+        "Science Fiction"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt35672862"
+      "imdb_id": "tt32141377"
     },
     {
       "id": "tt27165187",
@@ -117,6 +103,35 @@
       "imdb_id": "tt27165187"
     },
     {
+      "id": "tt35538033",
+      "type": "movie",
+      "name": "Resident Evil",
+      "poster": "https://image.tmdb.org/t/p/w500/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+      "posterShape": "poster",
+      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35538033"
+    },
+    {
+      "id": "tt35672862",
+      "type": "movie",
+      "name": "Hokum",
+      "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+      "posterShape": "poster",
+      "description": "When novelist Ohm Bauman retreats to a remote inn to scatter his parents' ashes, he is consumed by tales of a witch haunting the honeymoon suite. Disturbing visions and a shocking disappearance forces him to confront dark corners of his past.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35672862"
+    },
+    {
       "id": "tt29550683",
       "type": "movie",
       "name": "Whistle",
@@ -129,6 +144,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt29550683"
+    },
+    {
+      "id": "tt34508974",
+      "type": "movie",
+      "name": "Silent Night, Deadly Night",
+      "poster": "https://image.tmdb.org/t/p/w500/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg",
+      "posterShape": "poster",
+      "description": "After witnessing his parents' brutal murder on Christmas Eve, Billy transforms into a Killer Santa, delivering a yearly spree of calculated, chilling violence. This year, his blood-soaked mission collides with love, as a young woman challenges him to confront his darkness.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt34508974"
     },
     {
       "id": "tt17348060",
@@ -159,20 +188,6 @@
       "imdb_id": "tt37281055"
     },
     {
-      "id": "tt34508974",
-      "type": "movie",
-      "name": "Silent Night, Deadly Night",
-      "poster": "https://image.tmdb.org/t/p/w500/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg",
-      "posterShape": "poster",
-      "description": "After witnessing his parents' brutal murder on Christmas Eve, Billy transforms into a Killer Santa, delivering a yearly spree of calculated, chilling violence. This year, his blood-soaked mission collides with love, as a young woman challenges him to confront his darkness.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt34508974"
-    },
-    {
       "id": "tt27564844",
       "type": "movie",
       "name": "Iron Lung",
@@ -188,19 +203,19 @@
       "imdb_id": "tt27564844"
     },
     {
-      "id": "tt10954984",
+      "id": "tt29516222",
       "type": "movie",
-      "name": "Nope",
-      "poster": "https://image.tmdb.org/t/p/w500/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg",
+      "name": "Deep Water",
+      "poster": "https://image.tmdb.org/t/p/w500/ZWHxL2ETItcZzeVsVfs6gv3SZ7.jpg",
       "posterShape": "poster",
-      "description": "Residents in a lonely gulch of inland California bear witness to an uncanny, chilling discovery.",
+      "description": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences if they hope to escape their sinking plane and the frenzy of sharks drawn to the wreckage.",
       "genres": [
         "Horror",
-        "Science Fiction",
-        "Thriller"
+        "Thriller",
+        "Adventure"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt10954984"
+      "releaseInfo": "2026",
+      "imdb_id": "tt29516222"
     },
     {
       "id": "tt11561116",
@@ -218,6 +233,21 @@
       "imdb_id": "tt11561116"
     },
     {
+      "id": "tt10954984",
+      "type": "movie",
+      "name": "Nope",
+      "poster": "https://image.tmdb.org/t/p/w500/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg",
+      "posterShape": "poster",
+      "description": "Residents in a lonely gulch of inland California bear witness to an uncanny, chilling discovery.",
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt10954984"
+    },
+    {
       "id": "tt1877830",
       "type": "movie",
       "name": "The Batman",
@@ -233,6 +263,20 @@
       "imdb_id": "tt1877830"
     },
     {
+      "id": "tt6483422",
+      "type": "movie",
+      "name": "They Reach",
+      "poster": "https://image.tmdb.org/t/p/w500/wX1t2sPKN2JGzp0rcg4sVx8fyid.jpg",
+      "posterShape": "poster",
+      "description": "In 1979, a young girl stumbles upon a possessed tape player. She unknowingly unleashes a demonic entity that haunts her family while slowly dragging the small town of Clarkston to Hell.",
+      "genres": [
+        "Adventure",
+        "Horror"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt6483422"
+    },
+    {
       "id": "tt28500290",
       "type": "movie",
       "name": "Grizzly Night",
@@ -246,49 +290,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt28500290"
-    },
-    {
-      "id": "tt23642744",
-      "type": "movie",
-      "name": "Night of the Hunted",
-      "poster": "https://image.tmdb.org/t/p/w500/tfNFmBGBVF1biwOTBgFONAeCaDZ.jpg",
-      "posterShape": "poster",
-      "description": "When an unsuspecting woman stops at a remote gas station in the dead of night, she's made the plaything of a sociopath sniper with a secret vendetta. To survive, she must not only dodge his bullets and fight for her life, but also figure out who wants her dead and why.",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt23642744"
-    },
-    {
-      "id": "tt5040012",
-      "type": "movie",
-      "name": "Nosferatu",
-      "poster": "https://image.tmdb.org/t/p/w500/d0B8xDdqBZlzlPEzES8lu5LlNQn.jpg",
-      "posterShape": "poster",
-      "description": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
-      "genres": [
-        "Horror",
-        "Fantasy"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5040012"
-    },
-    {
-      "id": "tt26470109",
-      "type": "movie",
-      "name": "Oddity",
-      "poster": "https://image.tmdb.org/t/p/w500/3Z9c1tbUhP0QruRjczPHnbx3U2D.jpg",
-      "posterShape": "poster",
-      "description": "After the brutal murder of her twin sister, Darcy goes after those responsible by using haunted items as her tools for revenge.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt26470109"
     }
   ]
 }
