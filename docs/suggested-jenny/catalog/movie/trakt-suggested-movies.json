@@ -153,6 +153,19 @@
       "imdb_id": "tt7069210"
     },
     {
+      "id": "tt3515878",
+      "type": "movie",
+      "name": "Do Not Enter",
+      "poster": "https://image.tmdb.org/t/p/w500/stM9N7eJmHKLmFR59JG4tLdN7Wk.jpg",
+      "posterShape": "poster",
+      "description": "A group of young explorers investigates an old abandoned hotel, only to encounter a strange supernatural being and a competing group looking for a legendary hidden treasure.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt3515878"
+    },
+    {
       "id": "tt32612507",
       "type": "movie",
       "name": "Lee Cronin's The Mummy",
@@ -167,17 +180,18 @@
       "imdb_id": "tt32612507"
     },
     {
-      "id": "tt3515878",
+      "id": "tt13778486",
       "type": "movie",
-      "name": "Do Not Enter",
-      "poster": "https://image.tmdb.org/t/p/w500/stM9N7eJmHKLmFR59JG4tLdN7Wk.jpg",
+      "name": "Succubus",
+      "poster": "https://image.tmdb.org/t/p/w500/7AfBMebJS8mEtSV5ymdxEPpgvXb.jpg",
       "posterShape": "poster",
-      "description": "A group of young explorers investigates an old abandoned hotel, only to encounter a strange supernatural being and a competing group looking for a legendary hidden treasure.",
+      "description": "A new father going through a marital separation joins a dating app and matches with a beautiful but mysterious young woman... whose powers of seduction and manipulation entangle him in a mystery more horrifying than he could have ever imagined.",
       "genres": [
-        "Horror"
+        "Horror",
+        "Thriller"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt3515878"
+      "releaseInfo": "2024",
+      "imdb_id": "tt13778486"
     },
     {
       "id": "tt32881442",
@@ -205,20 +219,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt21807222"
-    },
-    {
-      "id": "tt13778486",
-      "type": "movie",
-      "name": "Succubus",
-      "poster": "https://image.tmdb.org/t/p/w500/7AfBMebJS8mEtSV5ymdxEPpgvXb.jpg",
-      "posterShape": "poster",
-      "description": "A new father going through a marital separation joins a dating app and matches with a beautiful but mysterious young woman... whose powers of seduction and manipulation entangle him in a mystery more horrifying than he could have ever imagined.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt13778486"
     },
     {
       "id": "tt36958312",
@@ -262,18 +262,18 @@
       "imdb_id": "tt10963926"
     },
     {
-      "id": "tt32268156",
+      "id": "tt34494076",
       "type": "movie",
-      "name": "The Last House",
-      "poster": "https://image.tmdb.org/t/p/w500/6JU7E8Vv2M11egkctWVOScxWR75.jpg",
+      "name": "Hungry",
+      "poster": "https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg",
       "posterShape": "poster",
-      "description": "A family suddenly sealed inside their home must work together to survive against dwindling resources and the ominous threat keeping them trapped.",
+      "description": "A group of holidaymakers must fight for their lives against a rampaging hippo on the loose after becoming lost in the Louisiana swamplands.",
       "genres": [
         "Horror",
-        "Science Fiction"
+        "Thriller"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt32268156"
+      "imdb_id": "tt34494076"
     }
   ]
 }
