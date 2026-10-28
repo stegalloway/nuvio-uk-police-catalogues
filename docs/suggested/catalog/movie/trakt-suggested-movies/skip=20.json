@@ -165,21 +165,6 @@
       "imdb_id": "tt3501632"
     },
     {
-      "id": "tt0985699",
-      "type": "movie",
-      "name": "Valkyrie",
-      "poster": "https://image.tmdb.org/t/p/w500/8eoRtXswC8IQDsqW7iJWO56NhAv.jpg",
-      "posterShape": "poster",
-      "description": "Wounded in Africa during World War II, Nazi Col. Claus von Stauffenberg returns to his native Germany and joins the Resistance in a daring plan to create a shadow government and assassinate Adolf Hitler. When events unfold so that he becomes a central player, he finds himself tasked with both leading the coup and personally killing the Führer.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "War"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0985699"
-    },
-    {
       "id": "tt1130884",
       "type": "movie",
       "name": "Shutter Island",
@@ -294,6 +279,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt21103218"
+    },
+    {
+      "id": "tt8936646",
+      "type": "movie",
+      "name": "Extraction",
+      "poster": "https://image.tmdb.org/t/p/w500/nygOUcBKPHFTbxsYRFZVePqgPK6.jpg",
+      "posterShape": "poster",
+      "description": "A hardened gun-for-hire's latest mission becomes a soul-searching race to survive when he's sent into Bangladesh to rescue a drug lord's kidnapped son.",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt8936646"
     }
   ]
 }
