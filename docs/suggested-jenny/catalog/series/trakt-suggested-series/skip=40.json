@@ -1,19 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt10936342",
-      "type": "series",
-      "name": "Transplant",
-      "poster": "https://image.tmdb.org/t/p/w500/ukvqJZI0XctnLst0CTE2r0AC2eu.jpg",
-      "posterShape": "poster",
-      "description": "Dr. Bashir Hamed, a Syrian doctor with battle-tested skills in emergency medicine, makes the difficult decision to flee his country and build a new life in Canada with his younger sister Amira. Bash works to navigate a new environment after earning a coveted residency in the Emergency Department of one of the best hospitals in Toronto, York Memorial.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10936342"
-    },
-    {
       "id": "tt28692194",
       "type": "series",
       "name": "El extraño retorno de Diana Salazar",
@@ -281,6 +268,20 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt7817340"
+    },
+    {
+      "id": "tt6130902",
+      "type": "series",
+      "name": "Lore",
+      "poster": "https://image.tmdb.org/t/p/w500/xNixoyzlSfJVy3Lp7AB1Vwrg2Va.jpg",
+      "posterShape": "poster",
+      "description": "This anthology series brings to life Aaron Mahnke's titular podcast and uncovers the real-life events that spawn our darkest nightmares. Blending reenactments, animation, archive and narration, Lore reveals how our horror legends – such as vampires, werewolves and body snatchers – are rooted in truth.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt6130902"
     }
   ]
 }

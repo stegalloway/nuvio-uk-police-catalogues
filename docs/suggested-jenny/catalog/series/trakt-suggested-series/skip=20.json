@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt11540908",
-      "type": "series",
-      "name": "Carrie",
-      "poster": "https://image.tmdb.org/t/p/w500/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
-      "posterShape": "poster",
-      "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
-      "genres": [
-        "Mystery",
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt11540908"
-    },
-    {
       "id": "tt15567174",
       "type": "series",
       "name": "The Fall of the House of Usher",
@@ -284,6 +269,19 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11055882"
+    },
+    {
+      "id": "tt10936342",
+      "type": "series",
+      "name": "Transplant",
+      "poster": "https://image.tmdb.org/t/p/w500/ukvqJZI0XctnLst0CTE2r0AC2eu.jpg",
+      "posterShape": "poster",
+      "description": "Dr. Bashir Hamed, a Syrian doctor with battle-tested skills in emergency medicine, makes the difficult decision to flee his country and build a new life in Canada with his younger sister Amira. Bash works to navigate a new environment after earning a coveted residency in the Emergency Department of one of the best hospitals in Toronto, York Memorial.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10936342"
     }
   ]
 }

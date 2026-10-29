@@ -15,18 +15,17 @@
       "imdb_id": "tt31438328"
     },
     {
-      "id": "tt35726020",
+      "id": "tt0413573",
       "type": "series",
-      "name": "Kill Jackie",
-      "poster": "https://image.tmdb.org/t/p/w500/3tjZspkqquE24iK1rc0nvnJwdEZ.jpg",
+      "name": "Grey's Anatomy",
+      "poster": "https://image.tmdb.org/t/p/w500/gO8Fo47KV1opiutRDdBS5jclTQB.jpg",
       "posterShape": "poster",
-      "description": "S1 E2–8 · out Thu 1 Oct\n\nJackie Price has been living a wealthy, luxurious life for the past 20 years after escaping a dangerous past as an international cocaine dealer. But just as life begins to feel a little boring, she discovers that The Seven Demons, a group of the world’s most terrifying hitmen, have been hired to kill her.",
+      "description": "S19 E1 +67 · out Fri 23 Oct\n\nFollows the personal and professional lives of a group of doctors at Seattle's Grey Sloan Memorial Hospital.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Drama"
       ],
-      "releaseInfo": "Out now · S1 E2–8",
-      "imdb_id": "tt35726020"
+      "releaseInfo": "Out now · S19 E1 +67",
+      "imdb_id": "tt0413573"
     }
   ]
 }
