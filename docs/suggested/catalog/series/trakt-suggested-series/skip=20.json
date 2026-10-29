@@ -15,18 +15,18 @@
       "imdb_id": "tt7440726"
     },
     {
-      "id": "tt0306414",
+      "id": "tt10732104",
       "type": "series",
-      "name": "The Wire",
-      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
+      "name": "Power Book II: Ghost",
+      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
       "posterShape": "poster",
-      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
+      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0306414"
+      "releaseInfo": "2020",
+      "imdb_id": "tt10732104"
     },
     {
       "id": "tt0903747",
@@ -57,6 +57,20 @@
       "imdb_id": "tt1652216"
     },
     {
+      "id": "tt14063678",
+      "type": "series",
+      "name": "The Gold",
+      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
+      "posterShape": "poster",
+      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt14063678"
+    },
+    {
       "id": "tt5611024",
       "type": "series",
       "name": "Fool Me Once",
@@ -72,46 +86,18 @@
       "imdb_id": "tt5611024"
     },
     {
-      "id": "tt14063678",
+      "id": "tt2788432",
       "type": "series",
-      "name": "The Gold",
-      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
+      "name": "American Crime Story",
+      "poster": "https://image.tmdb.org/t/p/w500/dtIS3Qk8ny1FWQLiuJ77MTDX5bZ.jpg",
       "posterShape": "poster",
-      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
+      "description": "An anthology series centered around some of history's most famous criminal investigations.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14063678"
-    },
-    {
-      "id": "tt13018148",
-      "type": "series",
-      "name": "Tell Me Lies",
-      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
-      "posterShape": "poster",
-      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13018148"
-    },
-    {
-      "id": "tt11846996",
-      "type": "series",
-      "name": "Vigil",
-      "poster": "https://image.tmdb.org/t/p/w500/mmNjcRq47U1UVPnOuD2EYxx6Dno.jpg",
-      "posterShape": "poster",
-      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11846996"
+      "releaseInfo": "2016",
+      "imdb_id": "tt2788432"
     },
     {
       "id": "tt6510950",
@@ -128,18 +114,46 @@
       "imdb_id": "tt6510950"
     },
     {
-      "id": "tt2788432",
+      "id": "tt5290382",
       "type": "series",
-      "name": "American Crime Story",
-      "poster": "https://image.tmdb.org/t/p/w500/dtIS3Qk8ny1FWQLiuJ77MTDX5bZ.jpg",
+      "name": "MINDHUNTER",
+      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
       "posterShape": "poster",
-      "description": "An anthology series centered around some of history's most famous criminal investigations.",
+      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt2788432"
+      "releaseInfo": "2017",
+      "imdb_id": "tt5290382"
+    },
+    {
+      "id": "tt11846996",
+      "type": "series",
+      "name": "Vigil",
+      "poster": "https://image.tmdb.org/t/p/w500/mmNjcRq47U1UVPnOuD2EYxx6Dno.jpg",
+      "posterShape": "poster",
+      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11846996"
+    },
+    {
+      "id": "tt13018148",
+      "type": "series",
+      "name": "Tell Me Lies",
+      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
+      "posterShape": "poster",
+      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13018148"
     },
     {
       "id": "tt14379784",
@@ -157,20 +171,6 @@
       "imdb_id": "tt14379784"
     },
     {
-      "id": "tt5290382",
-      "type": "series",
-      "name": "MINDHUNTER",
-      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
-      "posterShape": "poster",
-      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt5290382"
-    },
-    {
       "id": "tt33035373",
       "type": "series",
       "name": "HIS & HERS",
@@ -184,20 +184,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33035373"
-    },
-    {
-      "id": "tt17677860",
-      "type": "series",
-      "name": "Presumed Innocent",
-      "poster": "https://image.tmdb.org/t/p/w500/7MXg0BxuSRWz2yKc03M40du2mrc.jpg",
-      "posterShape": "poster",
-      "description": "A horrific murder upends the Chicago Prosecuting Attorney's Office when one of its own is suspected of the crime—leaving the accused fighting to keep his family together.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt17677860"
     },
     {
       "id": "tt3428912",
@@ -229,19 +215,18 @@
       "imdb_id": "tt35515227"
     },
     {
-      "id": "tt14582876",
+      "id": "tt17677860",
       "type": "series",
-      "name": "On Call",
-      "poster": "https://image.tmdb.org/t/p/w500/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
+      "name": "Presumed Innocent",
+      "poster": "https://image.tmdb.org/t/p/w500/7MXg0BxuSRWz2yKc03M40du2mrc.jpg",
       "posterShape": "poster",
-      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
+      "description": "A horrific murder upends the Chicago Prosecuting Attorney's Office when one of its own is suspected of the crime—leaving the accused fighting to keep his family together.",
       "genres": [
-        "Crime",
         "Drama",
-        "Action & Adventure"
+        "Mystery"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt14582876"
+      "releaseInfo": "2024",
+      "imdb_id": "tt17677860"
     },
     {
       "id": "tt3205802",
@@ -257,6 +242,21 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt3205802"
+    },
+    {
+      "id": "tt14582876",
+      "type": "series",
+      "name": "On Call",
+      "poster": "https://image.tmdb.org/t/p/w500/3MvgPuQfBrJ54lGqTZ6dwhG61rC.jpg",
+      "posterShape": "poster",
+      "description": "Traci Harmon, a veteran female training officer, and her rookie male ride-along, Alex Diaz, navigate the loss of a fellow officer and politics of modern day policing  — in the department and on the streets of Long Beach.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt14582876"
     },
     {
       "id": "tt2304589",

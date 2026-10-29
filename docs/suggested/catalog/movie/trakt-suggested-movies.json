@@ -149,6 +149,21 @@
       "imdb_id": "tt31050020"
     },
     {
+      "id": "tt22084616",
+      "type": "movie",
+      "name": "Spider-Man: Brand New Day",
+      "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "posterShape": "poster",
+      "description": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt22084616"
+    },
+    {
       "id": "tt3799694",
       "type": "movie",
       "name": "The Nice Guys",
@@ -279,21 +294,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt3501632"
-    },
-    {
-      "id": "tt7181546",
-      "type": "movie",
-      "name": "Ballerina",
-      "poster": "https://image.tmdb.org/t/p/w500/2VUmvqsHb6cEtdfscEA6fqqVzLg.jpg",
-      "posterShape": "poster",
-      "description": "Taking place during the events of John Wick: Chapter 3 – Parabellum, Eve Macarro begins her training in the assassin traditions of the Ruska Roma.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt7181546"
     }
   ]
 }

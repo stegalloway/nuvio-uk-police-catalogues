@@ -16,6 +16,20 @@
       "imdb_id": "tt34771210"
     },
     {
+      "id": "tt7909970",
+      "type": "series",
+      "name": "Unbelievable",
+      "poster": "https://image.tmdb.org/t/p/w500/jHOrNJNM03Lsjdw7nsw7TlqBOhd.jpg",
+      "posterShape": "poster",
+      "description": "After a young woman is accused of lying about a rape, two female detectives investigate a spate of eerily similar attacks.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt7909970"
+    },
+    {
       "id": "tt32559610",
       "type": "series",
       "name": "Countdown",
@@ -59,34 +73,6 @@
       "imdb_id": "tt4474344"
     },
     {
-      "id": "tt1843678",
-      "type": "series",
-      "name": "Scott & Bailey",
-      "poster": "https://image.tmdb.org/t/p/w500/2WD6BxjA2ZE1DejMXenZXnlm1Fz.jpg",
-      "posterShape": "poster",
-      "description": "D.C. Rachel Bailey and D.C. Janet Scott have a robust and engaging friendship which enables them to draw upon each other’s strengths and investigate murders for the Manchester Metropolitan Police.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1843678"
-    },
-    {
-      "id": "tt26591147",
-      "type": "series",
-      "name": "Matlock",
-      "poster": "https://image.tmdb.org/t/p/w500/6kEAVyhalzv4HCAfnLfXUcF3nQZ.jpg",
-      "posterShape": "poster",
-      "description": "After achieving success in her younger years, the brilliant septuagenarian Madeline Matlock rejoins the workforce at a prestigious law firm where she uses her unassuming demeanor and wily tactics to win cases and expose corruption from within. Inspired by the classic television series of the same name.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt26591147"
-    },
-    {
       "id": "tt9131050",
       "type": "series",
       "name": "A Confession",
@@ -114,6 +100,21 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt5675620"
+    },
+    {
+      "id": "tt1637727",
+      "type": "series",
+      "name": "The Killing",
+      "poster": "https://image.tmdb.org/t/p/w500/3yiwAUNGn1rsPSVmFgVwPVJFtYf.jpg",
+      "posterShape": "poster",
+      "description": "The Killing is an American crime drama television series based upon the Danish television series Forbrydelsen. Set in Seattle, Washington, the series follows the various murder investigations by homicide detectives Sarah Linden and Stephen Holder.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2011",
+      "imdb_id": "tt1637727"
     },
     {
       "id": "tt5743796",
@@ -146,34 +147,19 @@
       "imdb_id": "tt2356777"
     },
     {
-      "id": "tt0874936",
+      "id": "tt10327354",
       "type": "series",
-      "name": "Life",
-      "poster": "https://image.tmdb.org/t/p/w500/4zTDeRJxdMqH3Si2fIZjQi44k17.jpg",
+      "name": "Prodigal Son",
+      "poster": "https://image.tmdb.org/t/p/w500/sp5BL7O4SnnTnXf9ECNrXbJQyqt.jpg",
       "posterShape": "poster",
-      "description": "Complex, offbeat Detective Charlie Crews returns to the force after serving time in prison for a crime he didn't commit. Crews' new lease on life has provided him with a Zen-like outlook, peace of mind and no need for vengeance, an attitude which can be challenging to maintain when someone he cares about is threatened — or when he is investigating the mystery surrounding the murder he was falsely accused of.",
+      "description": "The son of a notorious serial killer becomes an acclaimed criminal psychologist who uses his unique insight into how killers think to help the NYPD.",
       "genres": [
+        "Crime",
         "Drama",
-        "Mystery",
-        "Crime"
+        "Mystery"
       ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0874936"
-    },
-    {
-      "id": "tt13636038",
-      "type": "series",
-      "name": "The Ipcress File",
-      "poster": "https://image.tmdb.org/t/p/w500/dq9ayINjdgdUGD27YL8KgX6OhrP.jpg",
-      "posterShape": "poster",
-      "description": "As the Cold War rages, ex-smuggler turned reluctant spy Harry Palmer finds himself at the centre of a dangerous undercover mission, on which he must use his links to find a missing British nuclear scientist.",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "War & Politics"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13636038"
+      "releaseInfo": "2019",
+      "imdb_id": "tt10327354"
     },
     {
       "id": "tt5164196",
@@ -206,33 +192,33 @@
       "imdb_id": "tt6964748"
     },
     {
-      "id": "tt0086759",
+      "id": "tt2249364",
       "type": "series",
-      "name": "Miami Vice",
-      "poster": "https://image.tmdb.org/t/p/w500/b5kLqC6eDiA17nq3jr1Vi340Kns.jpg",
+      "name": "Broadchurch",
+      "poster": "https://image.tmdb.org/t/p/w500/2NhBFUTg5KVBmGwafxtLwVdsqrr.jpg",
       "posterShape": "poster",
-      "description": "The story of the Miami Police Department's vice squad and its efforts to end drug trafficking and prostitution, centered on the unlikely partnership of Sonny Crockett and Ricardo Tubbs - who first meet when Tubbs is undercover in a drug cartel.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "1984",
-      "imdb_id": "tt0086759"
-    },
-    {
-      "id": "tt1693592",
-      "type": "series",
-      "name": "Vera",
-      "poster": "https://image.tmdb.org/t/p/w500/yeYImRVVEX6LM2151oEkmNUKLVR.jpg",
-      "posterShape": "poster",
-      "description": "A sharp detective with a messy life, DCI Vera Stanhope patrols her “patch” of northeast England, pursuing the truth in cases of murder, kidnapping, and blackmail. Vera is obsessive about her work and faces the world with caustic wit, guile and courage.",
+      "description": "The murder of a young boy in a small coastal town brings a media frenzy, which threatens to tear the community apart.",
       "genres": [
         "Crime",
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1693592"
+      "releaseInfo": "2013",
+      "imdb_id": "tt2249364"
+    },
+    {
+      "id": "tt3647998",
+      "type": "series",
+      "name": "Taboo",
+      "poster": "https://image.tmdb.org/t/p/w500/om1wVOuEtwH3krHutIWO9sJzkS5.jpg",
+      "posterShape": "poster",
+      "description": "Adventurer James Keziah Delaney returns to London from Africa in 1814 along with fourteen stolen diamonds to seek vengeance after the death of his father.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt3647998"
     },
     {
       "id": "tt9698480",
@@ -249,47 +235,61 @@
       "imdb_id": "tt9698480"
     },
     {
-      "id": "tt5827228",
+      "id": "tt1442065",
       "type": "series",
-      "name": "Bull",
-      "poster": "https://image.tmdb.org/t/p/w500/r6bM2rNjSk5b9gWBOOKCVgKbjc0.jpg",
+      "name": "Rookie Blue",
+      "poster": "https://image.tmdb.org/t/p/w500/rUINbQ8JKiQwN9g9PYJ6Nu0Iap1.jpg",
       "posterShape": "poster",
-      "description": "Dr. Jason Bull is the brilliant, brash, and charming founder of a hugely successful trial consulting firm.",
+      "description": "Ambitious young cops try to prove themselves in their high-stakes careers, in which the smallest mistake can have deadly consequences. At the core of the close-knit group is perfectionist Andy McNally, whose father was a homicide detective before he burned out on the job. The series follows Andy and her four colleagues -- Dov Epstein, Gail Peck, Traci Nash and Chris Diaz -- as they experience the trials, triumphs and tribulations of police work, as well as its effect on their personal lives.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1442065"
+    },
+    {
+      "id": "tt14218674",
+      "type": "series",
+      "name": "NCIS: Hawaiʻi",
+      "poster": "https://image.tmdb.org/t/p/w500/4R8xtDx2ge0GjEOnEwoR8V8X82q.jpg",
+      "posterShape": "poster",
+      "description": "Jane Tennant, the first female Special Agent in Charge of NCIS Pearl Harbor, and her unwavering team of specialists balance duty to family and country while investigating high-stakes crimes involving military personnel, national security and the mysteries of the sun-drenched island paradise itself.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt14218674"
+    },
+    {
+      "id": "tt5722298",
+      "type": "series",
+      "name": "Private Eyes",
+      "poster": "https://image.tmdb.org/t/p/w500/yPt9IuY2D8g6Lpwh8O8wCDixzt9.jpg",
+      "posterShape": "poster",
+      "description": "Ex-pro hockey player Matt Shade irrevocably changes his life when he teams up with fierce P.I. Angie Everett to form an unlikely investigative powerhouse.",
       "genres": [
         "Crime",
         "Drama",
         "Comedy"
       ],
       "releaseInfo": "2016",
-      "imdb_id": "tt5827228"
+      "imdb_id": "tt5722298"
     },
     {
-      "id": "tt2294189",
+      "id": "tt27954448",
       "type": "series",
-      "name": "The Fall",
-      "poster": "https://image.tmdb.org/t/p/w500/fm7nN3nUADA7JGgnFNlOWpXn1tf.jpg",
+      "name": "Law & Order Toronto: Criminal Intent",
+      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
       "posterShape": "poster",
-      "description": "When the Police Service of Northern Ireland are unable to close a case after 28 days, Detective Superintendent Stella Gibson of the Metropolitan Police Service is called in to review the case. Under her new leadership, the local detectives must track down and stop a serial killer who is terrorising the city of Belfast.",
+      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2294189"
-    },
-    {
-      "id": "tt0108876",
-      "type": "series",
-      "name": "New York Undercover",
-      "poster": "https://image.tmdb.org/t/p/w500/14dtuuJXd3drJZISX4FGbcfOPOv.jpg",
-      "posterShape": "poster",
-      "description": "New York Undercover is an American police drama The series stars Detective J.C. Williams and Detective Eddie Torres, two undercover detectives in New York City's Fourth Precinct who were assigned to investigate various crimes and gang-related cases.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "1994",
-      "imdb_id": "tt0108876"
+      "releaseInfo": "2024",
+      "imdb_id": "tt27954448"
     }
   ]
 }

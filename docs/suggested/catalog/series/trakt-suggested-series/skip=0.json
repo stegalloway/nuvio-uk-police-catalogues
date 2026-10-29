@@ -244,6 +244,34 @@
       "imdb_id": "tt5071412"
     },
     {
+      "id": "tt1489428",
+      "type": "series",
+      "name": "Justified",
+      "poster": "https://image.tmdb.org/t/p/w500/ie1quhMk09lDtvtAyQAHTu09R9Z.jpg",
+      "posterShape": "poster",
+      "description": "A character drama based on the 2001 Elmore Leonard short story \"Fire in the Hole.\" Leonard's tale centers around U.S. Marshal Raylan Givens of Kentucky, a quiet but strong-willed official of the law. The tale covers his high-stakes job, as well as his strained relationships with his ex-wife and father.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1489428"
+    },
+    {
+      "id": "tt0306414",
+      "type": "series",
+      "name": "The Wire",
+      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
+      "posterShape": "poster",
+      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2002",
+      "imdb_id": "tt0306414"
+    },
+    {
       "id": "tt30460310",
       "type": "series",
       "name": "Spider-Noir",
@@ -257,34 +285,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt30460310"
-    },
-    {
-      "id": "tt10732104",
-      "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
-      "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
-    },
-    {
-      "id": "tt1489428",
-      "type": "series",
-      "name": "Justified",
-      "poster": "https://image.tmdb.org/t/p/w500/ie1quhMk09lDtvtAyQAHTu09R9Z.jpg",
-      "posterShape": "poster",
-      "description": "A character drama based on the 2001 Elmore Leonard short story \"Fire in the Hole.\" Leonard's tale centers around U.S. Marshal Raylan Givens of Kentucky, a quiet but strong-willed official of the law. The tale covers his high-stakes job, as well as his strained relationships with his ex-wife and father.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1489428"
     }
   ]
 }
