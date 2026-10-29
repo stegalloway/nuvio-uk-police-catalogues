@@ -29,20 +29,6 @@
       "imdb_id": "tt11656892"
     },
     {
-      "id": "tt5194792",
-      "type": "series",
-      "name": "NOS4A2",
-      "poster": "https://image.tmdb.org/t/p/w500/gnosVTTRTCqooJuipwU6C0bgOGf.jpg",
-      "posterShape": "poster",
-      "description": "A young Victoria \"Vic\" McQueen discovers she has the power to unlock portals that help her find lost objects. As she delves further into this hidden universe, she encounters many other \"inscape travelers\" - some benevolent, and some who have been corrupted by their power. When Vic encounters Charlie Manx, an immortal who stays that way by feeding off of the souls of children, she makes a sworn enemy of Manx.",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt5194792"
-    },
-    {
       "id": "tt14016500",
       "type": "series",
       "name": "The Summer I Turned Pretty",
@@ -69,6 +55,20 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11343600"
+    },
+    {
+      "id": "tt5194792",
+      "type": "series",
+      "name": "NOS4A2",
+      "poster": "https://image.tmdb.org/t/p/w500/gnosVTTRTCqooJuipwU6C0bgOGf.jpg",
+      "posterShape": "poster",
+      "description": "A young Victoria \"Vic\" McQueen discovers she has the power to unlock portals that help her find lost objects. As she delves further into this hidden universe, she encounters many other \"inscape travelers\" - some benevolent, and some who have been corrupted by their power. When Vic encounters Charlie Manx, an immortal who stays that way by feeding off of the souls of children, she makes a sworn enemy of Manx.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt5194792"
     },
     {
       "id": "tt34579520",
@@ -143,6 +143,21 @@
       "imdb_id": "tt11794812"
     },
     {
+      "id": "tt9174630",
+      "type": "series",
+      "name": "The Horror of Dolores Roach",
+      "poster": "https://image.tmdb.org/t/p/w500/qTYLRBCNyOuyktuTcjqJ7rbXxaF.jpg",
+      "posterShape": "poster",
+      "description": "After an unjust 16-year prison sentence, Dolores Roach returns to a gentrified Washington Heights, where she reunites with an old stoner friend, Luis, who lets her live and work as a masseuse in the basement under his empanada shop. When the promise of her newfound stability is quickly threatened, “Magic Hands” Dolores is driven to shocking extremes to survive.",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Mystery"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt9174630"
+    },
+    {
       "id": "tt19853270",
       "type": "series",
       "name": "Murdaugh: Death in the Family",
@@ -157,32 +172,18 @@
       "imdb_id": "tt19853270"
     },
     {
-      "id": "tt31849826",
+      "id": "tt7985576",
       "type": "series",
-      "name": "Doctor Odyssey",
-      "poster": "https://image.tmdb.org/t/p/w500/78KamrNZE0ZzPLBjEug16BASJ5M.jpg",
+      "name": "The Serpent",
+      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
       "posterShape": "poster",
-      "description": "Max is the new on-board doctor for a luxury cruise ship where the small but mighty medical team navigate unique medical crises and each other, miles from shore.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31849826"
-    },
-    {
-      "id": "tt9174630",
-      "type": "series",
-      "name": "The Horror of Dolores Roach",
-      "poster": "https://image.tmdb.org/t/p/w500/qTYLRBCNyOuyktuTcjqJ7rbXxaF.jpg",
-      "posterShape": "poster",
-      "description": "After an unjust 16-year prison sentence, Dolores Roach returns to a gentrified Washington Heights, where she reunites with an old stoner friend, Luis, who lets her live and work as a masseuse in the basement under his empanada shop. When the promise of her newfound stability is quickly threatened, “Magic Hands” Dolores is driven to shocking extremes to survive.",
+      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
       "genres": [
         "Drama",
-        "Comedy",
-        "Mystery"
+        "Crime"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt9174630"
+      "releaseInfo": "2021",
+      "imdb_id": "tt7985576"
     },
     {
       "id": "tt9642938",
@@ -200,32 +201,17 @@
       "imdb_id": "tt9642938"
     },
     {
-      "id": "tt7985576",
+      "id": "tt31849826",
       "type": "series",
-      "name": "The Serpent",
-      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "name": "Doctor Odyssey",
+      "poster": "https://image.tmdb.org/t/p/w500/78KamrNZE0ZzPLBjEug16BASJ5M.jpg",
       "posterShape": "poster",
-      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "description": "Max is the new on-board doctor for a luxury cruise ship where the small but mighty medical team navigate unique medical crises and each other, miles from shore.",
       "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt7985576"
-    },
-    {
-      "id": "tt26576161",
-      "type": "series",
-      "name": "The Terminal List: Dark Wolf",
-      "poster": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg",
-      "posterShape": "poster",
-      "description": "Before The Terminal List, Navy SEAL Ben Edwards finds himself entangled in the black operations side of the CIA. The deeper Ben goes into the 'gray', the harder it will become to not give himself over to his darker impulses. Every man has two wolves inside him – light and dark – fighting for control. Which wolf will Ben Edwards feed?",
-      "genres": [
-        "Action & Adventure",
         "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt26576161"
+      "releaseInfo": "2024",
+      "imdb_id": "tt31849826"
     },
     {
       "id": "tt18926116",
@@ -243,17 +229,18 @@
       "imdb_id": "tt18926116"
     },
     {
-      "id": "tt7817340",
+      "id": "tt26576161",
       "type": "series",
-      "name": "New Amsterdam",
-      "poster": "https://image.tmdb.org/t/p/w500/jsH4AeGZn5Q6h314A3OTUHKxHhR.jpg",
+      "name": "The Terminal List: Dark Wolf",
+      "poster": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg",
       "posterShape": "poster",
-      "description": "The new medical director breaks the rules to heal the system at America's oldest public hospital. Max Goodwin sets out to tear up the bureaucracy and provide exceptional care, but the doctors and staff are not so sure he can succeed. They've heard this before. Not taking \"no\" for an answer, Dr. Goodwin's instinctive response to problems large and small is four simple words: \"How can I help?\" He has to disrupt the status quo and prove he'll stop at nothing to breathe new life into this underfunded and underappreciated hospital, returning it to the glory that put it on the map.",
+      "description": "Before The Terminal List, Navy SEAL Ben Edwards finds himself entangled in the black operations side of the CIA. The deeper Ben goes into the 'gray', the harder it will become to not give himself over to his darker impulses. Every man has two wolves inside him – light and dark – fighting for control. Which wolf will Ben Edwards feed?",
       "genres": [
+        "Action & Adventure",
         "Drama"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt7817340"
+      "releaseInfo": "2025",
+      "imdb_id": "tt26576161"
     },
     {
       "id": "tt6130902",
@@ -270,17 +257,32 @@
       "imdb_id": "tt6130902"
     },
     {
-      "id": "tt4452630",
+      "id": "tt7817340",
       "type": "series",
-      "name": "Code Black",
-      "poster": "https://image.tmdb.org/t/p/w500/3T1b6YK6vLrZoLZC5hd65ZuRLq8.jpg",
+      "name": "New Amsterdam",
+      "poster": "https://image.tmdb.org/t/p/w500/jsH4AeGZn5Q6h314A3OTUHKxHhR.jpg",
       "posterShape": "poster",
-      "description": "Inspired by the award-winning documentary, this medical drama is set in the busiest and most notorious ER in the nation where the extraordinary staff confront a challenged system in order to protect their ideals and the patients who need them the most.",
+      "description": "The new medical director breaks the rules to heal the system at America's oldest public hospital. Max Goodwin sets out to tear up the bureaucracy and provide exceptional care, but the doctors and staff are not so sure he can succeed. They've heard this before. Not taking \"no\" for an answer, Dr. Goodwin's instinctive response to problems large and small is four simple words: \"How can I help?\" He has to disrupt the status quo and prove he'll stop at nothing to breathe new life into this underfunded and underappreciated hospital, returning it to the glory that put it on the map.",
       "genres": [
         "Drama"
       ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4452630"
+      "releaseInfo": "2018",
+      "imdb_id": "tt7817340"
+    },
+    {
+      "id": "tt10893694",
+      "type": "series",
+      "name": "The Irregulars",
+      "poster": "https://image.tmdb.org/t/p/w500/qN6HCKR3ZRqbpGBWFctVlSTKR2k.jpg",
+      "posterShape": "poster",
+      "description": "In Victorian London, a gang of troubled street teens are manipulated into solving crimes for the sinister Doctor Watson and his mysterious business partner, the elusive Sherlock Holmes. As the crimes take on a horrifying supernatural edge and a dark power emerges, it'll be up to the Irregulars to come together to save not only London but the entire world.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt10893694"
     }
   ]
 }

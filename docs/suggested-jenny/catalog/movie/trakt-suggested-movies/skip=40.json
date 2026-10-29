@@ -1,34 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt39143902",
-      "type": "movie",
-      "name": "Leviticus",
-      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
-      "posterShape": "poster",
-      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
-      "genres": [
-        "Horror",
-        "Romance"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt39143902"
-    },
-    {
-      "id": "tt20198774",
-      "type": "movie",
-      "name": "Play Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/zeiwFQzyMNp6JBwCfSspG5ZcoLp.jpg",
-      "posterShape": "poster",
-      "description": "Criminology student Chloe fakes her own death to break into a morgue, in order to retrieve a piece of evidence that ties her younger brother to a crime gone wrong. Once inside, she discovers that a sadistic coroner is using the corpses for his sick and twisted business, and when he realises that Chloe still has a pulse, a terrifying game of cat and mouse ensues.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt20198774"
-    },
-    {
       "id": "tt15791034",
       "type": "movie",
       "name": "Barbarian",
@@ -132,18 +104,18 @@
       "imdb_id": "tt35538033"
     },
     {
-      "id": "tt35672862",
+      "id": "tt34508974",
       "type": "movie",
-      "name": "Hokum",
-      "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+      "name": "Silent Night, Deadly Night",
+      "poster": "https://image.tmdb.org/t/p/w500/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg",
       "posterShape": "poster",
-      "description": "When novelist Ohm Bauman retreats to a remote inn to scatter his parents' ashes, he is consumed by tales of a witch haunting the honeymoon suite. Disturbing visions and a shocking disappearance forces him to confront dark corners of his past.",
+      "description": "After witnessing his parents' brutal murder on Christmas Eve, Billy transforms into a Killer Santa, delivering a yearly spree of calculated, chilling violence. This year, his blood-soaked mission collides with love, as a young woman challenges him to confront his darkness.",
       "genres": [
         "Horror",
         "Thriller"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35672862"
+      "releaseInfo": "2025",
+      "imdb_id": "tt34508974"
     },
     {
       "id": "tt29550683",
@@ -233,21 +205,6 @@
       "imdb_id": "tt27564844"
     },
     {
-      "id": "tt11561116",
-      "type": "movie",
-      "name": "The Whisper Man",
-      "poster": "https://image.tmdb.org/t/p/w500/ndRs5lADYm0PeVjuOxaMcInY0o2.jpg",
-      "posterShape": "poster",
-      "description": "When his young son vanishes, a widower enlists help from his estranged father, a retired detective who put away the serial killer now linked to the case.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt11561116"
-    },
-    {
       "id": "tt6483422",
       "type": "movie",
       "name": "They Reach",
@@ -289,6 +246,49 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5040012"
+    },
+    {
+      "id": "tt23642744",
+      "type": "movie",
+      "name": "Night of the Hunted",
+      "poster": "https://image.tmdb.org/t/p/w500/tfNFmBGBVF1biwOTBgFONAeCaDZ.jpg",
+      "posterShape": "poster",
+      "description": "When an unsuspecting woman stops at a remote gas station in the dead of night, she's made the plaything of a sociopath sniper with a secret vendetta. To survive, she must not only dodge his bullets and fight for her life, but also figure out who wants her dead and why.",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt23642744"
+    },
+    {
+      "id": "tt29713093",
+      "type": "movie",
+      "name": "We Bury the Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/xZqo0yPARmyF8TACVNyaOACkYWG.jpg",
+      "posterShape": "poster",
+      "description": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt29713093"
+    },
+    {
+      "id": "tt26470109",
+      "type": "movie",
+      "name": "Oddity",
+      "poster": "https://image.tmdb.org/t/p/w500/3Z9c1tbUhP0QruRjczPHnbx3U2D.jpg",
+      "posterShape": "poster",
+      "description": "After the brutal murder of her twin sister, Darcy goes after those responsible by using haunted items as her tools for revenge.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt26470109"
     }
   ]
 }
