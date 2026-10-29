@@ -16,6 +16,20 @@
       "imdb_id": "tt15791034"
     },
     {
+      "id": "tt20198774",
+      "type": "movie",
+      "name": "Play Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/zeiwFQzyMNp6JBwCfSspG5ZcoLp.jpg",
+      "posterShape": "poster",
+      "description": "Criminology student Chloe fakes her own death to break into a morgue, in order to retrieve a piece of evidence that ties her younger brother to a crime gone wrong. Once inside, she discovers that a sadistic coroner is using the corpses for his sick and twisted business, and when he realises that Chloe still has a pulse, a terrifying game of cat and mouse ensues.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt20198774"
+    },
+    {
       "id": "tt24807110",
       "type": "movie",
       "name": "Don't Move",
@@ -104,18 +118,18 @@
       "imdb_id": "tt35538033"
     },
     {
-      "id": "tt34508974",
+      "id": "tt35672862",
       "type": "movie",
-      "name": "Silent Night, Deadly Night",
-      "poster": "https://image.tmdb.org/t/p/w500/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg",
+      "name": "Hokum",
+      "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
       "posterShape": "poster",
-      "description": "After witnessing his parents' brutal murder on Christmas Eve, Billy transforms into a Killer Santa, delivering a yearly spree of calculated, chilling violence. This year, his blood-soaked mission collides with love, as a young woman challenges him to confront his darkness.",
+      "description": "When novelist Ohm Bauman retreats to a remote inn to scatter his parents' ashes, he is consumed by tales of a witch haunting the honeymoon suite. Disturbing visions and a shocking disappearance forces him to confront dark corners of his past.",
       "genres": [
         "Horror",
         "Thriller"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt34508974"
+      "releaseInfo": "2026",
+      "imdb_id": "tt35672862"
     },
     {
       "id": "tt29550683",
@@ -132,19 +146,6 @@
       "imdb_id": "tt29550683"
     },
     {
-      "id": "tt17348060",
-      "type": "movie",
-      "name": "Diabolic",
-      "poster": "https://image.tmdb.org/t/p/w500/3qikoc12LQH6upkLZZlJY8wEZvN.jpg",
-      "posterShape": "poster",
-      "description": "A woman's hope for a miracle cure turns into a nightmare when she confronts the vengeful spirit of a cursed witch, determined to claim her as a vessel for her evil power.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt17348060"
-    },
-    {
       "id": "tt37281055",
       "type": "movie",
       "name": "Buddy",
@@ -158,6 +159,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt37281055"
+    },
+    {
+      "id": "tt27564844",
+      "type": "movie",
+      "name": "Iron Lung",
+      "poster": "https://image.tmdb.org/t/p/w500/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
+      "posterShape": "poster",
+      "description": "In a post-apocalyptic future where an event known as \"The Quiet Rapture\" caused all known stars and habitable planets in the universe to disappear, a convict is sent to search an ocean of blood discovered on a desolate moon, using a small submarine nicknamed the \"Iron Lung\".",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt27564844"
     },
     {
       "id": "tt29516222",
@@ -190,21 +206,6 @@
       "imdb_id": "tt10954984"
     },
     {
-      "id": "tt27564844",
-      "type": "movie",
-      "name": "Iron Lung",
-      "poster": "https://image.tmdb.org/t/p/w500/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
-      "posterShape": "poster",
-      "description": "In a post-apocalyptic future where an event known as \"The Quiet Rapture\" caused all known stars and habitable planets in the universe to disappear, a convict is sent to search an ocean of blood discovered on a desolate moon, using a small submarine nicknamed the \"Iron Lung\".",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt27564844"
-    },
-    {
       "id": "tt6483422",
       "type": "movie",
       "name": "They Reach",
@@ -234,6 +235,21 @@
       "imdb_id": "tt1877830"
     },
     {
+      "id": "tt1051906",
+      "type": "movie",
+      "name": "The Invisible Man",
+      "poster": "https://image.tmdb.org/t/p/w500/5EufsDwXdY2CVttYOk2WtYhgKpa.jpg",
+      "posterShape": "poster",
+      "description": "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Horror"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt1051906"
+    },
+    {
       "id": "tt5040012",
       "type": "movie",
       "name": "Nosferatu",
@@ -261,20 +277,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt23642744"
-    },
-    {
-      "id": "tt29713093",
-      "type": "movie",
-      "name": "We Bury the Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/xZqo0yPARmyF8TACVNyaOACkYWG.jpg",
-      "posterShape": "poster",
-      "description": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt29713093"
     },
     {
       "id": "tt26470109",
