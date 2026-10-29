@@ -118,6 +118,20 @@
       "imdb_id": "tt35672862"
     },
     {
+      "id": "tt34508974",
+      "type": "movie",
+      "name": "Silent Night, Deadly Night",
+      "poster": "https://image.tmdb.org/t/p/w500/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg",
+      "posterShape": "poster",
+      "description": "After witnessing his parents' brutal murder on Christmas Eve, Billy transforms into a Killer Santa, delivering a yearly spree of calculated, chilling violence. This year, his blood-soaked mission collides with love, as a young woman challenges him to confront his darkness.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt34508974"
+    },
+    {
       "id": "tt29550683",
       "type": "movie",
       "name": "Whistle",
@@ -145,20 +159,6 @@
       "imdb_id": "tt17348060"
     },
     {
-      "id": "tt34508974",
-      "type": "movie",
-      "name": "Silent Night, Deadly Night",
-      "poster": "https://image.tmdb.org/t/p/w500/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg",
-      "posterShape": "poster",
-      "description": "After witnessing his parents' brutal murder on Christmas Eve, Billy transforms into a Killer Santa, delivering a yearly spree of calculated, chilling violence. This year, his blood-soaked mission collides with love, as a young woman challenges him to confront his darkness.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt34508974"
-    },
-    {
       "id": "tt37281055",
       "type": "movie",
       "name": "Buddy",
@@ -174,19 +174,19 @@
       "imdb_id": "tt37281055"
     },
     {
-      "id": "tt27564844",
+      "id": "tt29516222",
       "type": "movie",
-      "name": "Iron Lung",
-      "poster": "https://image.tmdb.org/t/p/w500/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
+      "name": "Deep Water",
+      "poster": "https://image.tmdb.org/t/p/w500/ZWHxL2ETItcZzeVsVfs6gv3SZ7.jpg",
       "posterShape": "poster",
-      "description": "In a post-apocalyptic future where an event known as \"The Quiet Rapture\" caused all known stars and habitable planets in the universe to disappear, a convict is sent to search an ocean of blood discovered on a desolate moon, using a small submarine nicknamed the \"Iron Lung\".",
+      "description": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences if they hope to escape their sinking plane and the frenzy of sharks drawn to the wreckage.",
       "genres": [
         "Horror",
-        "Mystery",
-        "Science Fiction"
+        "Thriller",
+        "Adventure"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt27564844"
+      "imdb_id": "tt29516222"
     },
     {
       "id": "tt10954984",
@@ -204,19 +204,19 @@
       "imdb_id": "tt10954984"
     },
     {
-      "id": "tt29516222",
+      "id": "tt27564844",
       "type": "movie",
-      "name": "Deep Water",
-      "poster": "https://image.tmdb.org/t/p/w500/ZWHxL2ETItcZzeVsVfs6gv3SZ7.jpg",
+      "name": "Iron Lung",
+      "poster": "https://image.tmdb.org/t/p/w500/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
       "posterShape": "poster",
-      "description": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences if they hope to escape their sinking plane and the frenzy of sharks drawn to the wreckage.",
+      "description": "In a post-apocalyptic future where an event known as \"The Quiet Rapture\" caused all known stars and habitable planets in the universe to disappear, a convict is sent to search an ocean of blood discovered on a desolate moon, using a small submarine nicknamed the \"Iron Lung\".",
       "genres": [
         "Horror",
-        "Thriller",
-        "Adventure"
+        "Mystery",
+        "Science Fiction"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt29516222"
+      "imdb_id": "tt27564844"
     },
     {
       "id": "tt11561116",
