@@ -29,21 +29,6 @@
       "imdb_id": "tt0979432"
     },
     {
-      "id": "tt7661390",
-      "type": "series",
-      "name": "Gangs of London",
-      "poster": "https://image.tmdb.org/t/p/w500/fVgwa6wGw9ddGM5O7mqrrwB6gHK.jpg",
-      "posterShape": "poster",
-      "description": "Season 3 has started.\n\nWhen the head of a criminal organisation, Finn Wallace is assassinated, the sudden power vacuum his death creates threatens the fragile peace between the intricate web of gangs operating on the streets of the city. Now it’s up to the grieving, volatile and impulsive Sean Wallace to restore control and find those responsible for killing his father.",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt7661390"
-    },
-    {
       "id": "tt15435876",
       "type": "series",
       "name": "The Penguin",
@@ -84,20 +69,6 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt3281796"
-    },
-    {
-      "id": "tt5645432",
-      "type": "series",
-      "name": "The Old Man",
-      "poster": "https://image.tmdb.org/t/p/w500/8Ec9zCZl2Go8WhDN1JWjjgQRlEi.jpg",
-      "posterShape": "poster",
-      "description": "Season 2 has started.\n\nDan Chase absconded from the CIA decades ago and now lives off the grid. When an assassin arrives and tries to take Chase out, the old operative learns that to ensure his future he now must reconcile his past.",
-      "genres": [
-        "Action & Adventure",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt5645432"
     },
     {
       "id": "tt5011816",
@@ -141,21 +112,6 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt5715524"
-    },
-    {
-      "id": "tt13918776",
-      "type": "series",
-      "name": "The Night Agent",
-      "poster": "https://image.tmdb.org/t/p/w500/4c5yUNcaff4W4aPrkXE6zr7papX.jpg",
-      "posterShape": "poster",
-      "description": "Season 3 has started.\n\nBrought together by a midnight phone call, an FBI agent and a cybersecurity expert must unravel an ever-growing web of political conspiracies.",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt13918776"
     },
     {
       "id": "tt1064899",
@@ -285,6 +241,48 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt30460310"
+    },
+    {
+      "id": "tt7440726",
+      "type": "series",
+      "name": "Your Honor",
+      "poster": "https://image.tmdb.org/t/p/w500/1rWWgTEDFdV330aLgCoaq7I56lk.jpg",
+      "posterShape": "poster",
+      "description": "New Orleans judge Michael Desiato is forced to confront his own deepest convictions when his son is involved in a hit and run that embroils an organized crime family.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt7440726"
+    },
+    {
+      "id": "tt10732104",
+      "type": "series",
+      "name": "Power Book II: Ghost",
+      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "posterShape": "poster",
+      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10732104"
+    },
+    {
+      "id": "tt0903747",
+      "type": "series",
+      "name": "Breaking Bad",
+      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+      "posterShape": "poster",
+      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2008",
+      "imdb_id": "tt0903747"
     }
   ]
 }

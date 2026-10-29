@@ -1,32 +1,48 @@
 {
   "metas": [
     {
-      "id": "tt35726020",
+      "id": "tt7661390",
       "type": "series",
-      "name": "Kill Jackie",
-      "poster": "https://image.tmdb.org/t/p/w500/3tjZspkqquE24iK1rc0nvnJwdEZ.jpg",
+      "name": "Gangs of London",
+      "poster": "https://image.tmdb.org/t/p/w500/fVgwa6wGw9ddGM5O7mqrrwB6gHK.jpg",
       "posterShape": "poster",
-      "description": "S1 E4–8 · out Thu 1 Oct\n\nJackie Price has been living a wealthy, luxurious life for the past 20 years after escaping a dangerous past as an international cocaine dealer. But just as life begins to feel a little boring, she discovers that The Seven Demons, a group of the world’s most terrifying hitmen, have been hired to kill her.",
+      "description": "S3 E1–8 · out Thu 8 May 2025\n\nWhen the head of a criminal organisation, Finn Wallace is assassinated, the sudden power vacuum his death creates threatens the fragile peace between the intricate web of gangs operating on the streets of the city. Now it’s up to the grieving, volatile and impulsive Sean Wallace to restore control and find those responsible for killing his father.",
       "genres": [
+        "Action & Adventure",
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "Out now · S1 E4–8",
-      "imdb_id": "tt35726020"
+      "releaseInfo": "Out now · S3 E1–8",
+      "imdb_id": "tt7661390"
     },
     {
-      "id": "tt14466018",
+      "id": "tt5645432",
       "type": "series",
-      "name": "Blue Lights",
-      "poster": "https://image.tmdb.org/t/p/w500/3C3c40DH8M6qdECHLlxk8o5nrC0.jpg",
+      "name": "The Old Man",
+      "poster": "https://image.tmdb.org/t/p/w500/8Ec9zCZl2Go8WhDN1JWjjgQRlEi.jpg",
       "posterShape": "poster",
-      "description": "On your watchlist · S4 E1–5 · out Tue 29 Sep · start at S1 E1\n\nFollows rookie police officers working in Belfast, a city in which being a frontline response cop comes with unique pressures and dangers.",
+      "description": "S2 E1–8 · out Fri 25 Oct 2024\n\nDan Chase absconded from the CIA decades ago and now lives off the grid. When an assassin arrives and tries to take Chase out, the old operative learns that to ensure his future he now must reconcile his past.",
       "genres": [
-        "Crime",
+        "Action & Adventure",
         "Drama"
       ],
-      "releaseInfo": "Out now · S4 E1–5",
-      "imdb_id": "tt14466018"
+      "releaseInfo": "Out now · S2 E1–8",
+      "imdb_id": "tt5645432"
+    },
+    {
+      "id": "tt6473344",
+      "type": "series",
+      "name": "SEAL Team",
+      "poster": "https://image.tmdb.org/t/p/w500/6iSnec83UEMgLOXAtGYwaVNHLjR.jpg",
+      "posterShape": "poster",
+      "description": "S7 E5–10 · out Sun 6 Oct 2024\n\nMilitary drama following the professional and personal lives of the most elite unit of Navy SEALs as they train, plan and execute the most dangerous, high stakes missions our country can ask of them.",
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "War & Politics"
+      ],
+      "releaseInfo": "Out now · S7 E5–10",
+      "imdb_id": "tt6473344"
     },
     {
       "id": "tt31510819",

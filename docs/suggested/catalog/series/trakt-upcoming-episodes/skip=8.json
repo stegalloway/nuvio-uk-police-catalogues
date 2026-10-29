@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt6473344",
+      "type": "series",
+      "name": "SEAL Team",
+      "poster": "https://image.tmdb.org/t/p/w500/6iSnec83UEMgLOXAtGYwaVNHLjR.jpg",
+      "posterShape": "poster",
+      "description": "S7 E5–10 · out Sun 6 Oct 2024\n\nMilitary drama following the professional and personal lives of the most elite unit of Navy SEALs as they train, plan and execute the most dangerous, high stakes missions our country can ask of them.",
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "War & Politics"
+      ],
+      "releaseInfo": "Out now · S7 E5–10",
+      "imdb_id": "tt6473344"
+    },
+    {
       "id": "tt31510819",
       "type": "series",
       "name": "MobLand",
