@@ -1,19 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt31186255",
-      "type": "series",
-      "name": "The Terror: Devil in Silver",
-      "poster": "https://image.tmdb.org/t/p/w500/bdblQNZ4rP8AVJPqvGi82woxZkg.jpg",
-      "posterShape": "poster",
-      "description": "Wrongfully committed to New Hyde Psychiatric Hospital, one man faces secretive doctors, dangerous patients, and something even worse …",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31186255"
-    },
-    {
       "id": "tt13018148",
       "type": "series",
       "name": "Tell Me Lies",
@@ -281,6 +268,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt11540908"
+    },
+    {
+      "id": "tt15567174",
+      "type": "series",
+      "name": "The Fall of the House of Usher",
+      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
+      "posterShape": "poster",
+      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15567174"
     }
   ]
 }

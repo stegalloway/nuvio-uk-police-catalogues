@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt28692194",
-      "type": "series",
-      "name": "El extraño retorno de Diana Salazar",
-      "poster": "https://image.tmdb.org/t/p/w500/5GGBkTWM3TlyubGyTeptu1F0pVu.jpg",
-      "posterShape": "poster",
-      "description": "In the 17th century, Leonor and Eduardo's forbidden love ends tragically when she is executed for witchcraft. Centuries later their souls reincarnate in Diana and Mario, but they face the fear of being discovered for their true selves.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt28692194"
-    },
-    {
       "id": "tt32937780",
       "type": "series",
       "name": "Something Very Bad Is Going to Happen",
@@ -282,6 +268,19 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt6130902"
+    },
+    {
+      "id": "tt4452630",
+      "type": "series",
+      "name": "Code Black",
+      "poster": "https://image.tmdb.org/t/p/w500/3T1b6YK6vLrZoLZC5hd65ZuRLq8.jpg",
+      "posterShape": "poster",
+      "description": "Inspired by the award-winning documentary, this medical drama is set in the busiest and most notorious ER in the nation where the extraordinary staff confront a challenged system in order to protect their ideals and the patients who need them the most.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt4452630"
     }
   ]
 }

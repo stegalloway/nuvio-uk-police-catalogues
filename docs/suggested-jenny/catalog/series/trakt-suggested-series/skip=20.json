@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt15567174",
-      "type": "series",
-      "name": "The Fall of the House of Usher",
-      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
-      "posterShape": "poster",
-      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15567174"
-    },
-    {
       "id": "tt6548228",
       "type": "series",
       "name": "Castle Rock",
@@ -282,6 +268,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt10936342"
+    },
+    {
+      "id": "tt28692194",
+      "type": "series",
+      "name": "El extraño retorno de Diana Salazar",
+      "poster": "https://image.tmdb.org/t/p/w500/5GGBkTWM3TlyubGyTeptu1F0pVu.jpg",
+      "posterShape": "poster",
+      "description": "In the 17th century, Leonor and Eduardo's forbidden love ends tragically when she is executed for witchcraft. Centuries later their souls reincarnate in Diana and Mario, but they face the fear of being discovered for their true selves.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt28692194"
     }
   ]
 }
