@@ -124,6 +124,21 @@
       "imdb_id": "tt7069210"
     },
     {
+      "id": "tt32654916",
+      "type": "movie",
+      "name": "Soulm8te",
+      "poster": "https://image.tmdb.org/t/p/w500/aRfFP8stzodl0bo8ywoNZXdaVwo.jpg",
+      "posterShape": "poster",
+      "description": "After a ruthless tech giant acquires a small robotics company, a grieving engineer is tasked with testing their new AI companion. But when he attempts to reprogram her to be a truly sentient soulmate, she develops needs of her own—unleashing a relentless spree of precision-engineered mayhem.",
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32654916"
+    },
+    {
       "id": "tt31511689",
       "type": "movie",
       "name": "Vicious",
@@ -136,21 +151,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt31511689"
-    },
-    {
-      "id": "tt32654916",
-      "type": "movie",
-      "name": "Soulm8te",
-      "poster": "https://image.tmdb.org/t/p/w500/nIkAHDzo9kbG3kDmDckqywo6CE9.jpg",
-      "posterShape": "poster",
-      "description": "After a ruthless tech giant acquires a small robotics company, a grieving engineer is tasked with testing their new AI companion. But when he attempts to reprogram her to be a truly sentient soulmate, she develops needs of her own—unleashing a relentless spree of precision-engineered mayhem.",
-      "genres": [
-        "Horror",
-        "Science Fiction",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32654916"
     },
     {
       "id": "tt21807222",
