@@ -233,6 +233,21 @@
       "imdb_id": "tt0081873"
     },
     {
+      "id": "tt0092379",
+      "type": "series",
+      "name": "Inspector Morse",
+      "poster": "https://image.tmdb.org/t/p/w500/cvGqqBcCwahSQgLsCLdUKZG1Skq.jpg",
+      "posterShape": "poster",
+      "description": "Inspector Morse is a detective drama based on Colin Dexter's series of Chief Inspector Morse novels. The series starred John Thaw as Chief Inspector Morse and Kevin Whately as Sergeant Lewis, as well as a large cast of notable actors and actresses.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "1987",
+      "imdb_id": "tt0092379"
+    },
+    {
       "id": "tt5164196",
       "type": "series",
       "name": "Lethal Weapon",
@@ -247,21 +262,6 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt5164196"
-    },
-    {
-      "id": "tt0092379",
-      "type": "series",
-      "name": "Inspector Morse",
-      "poster": "https://image.tmdb.org/t/p/w500/cvGqqBcCwahSQgLsCLdUKZG1Skq.jpg",
-      "posterShape": "poster",
-      "description": "Inspector Morse is a detective drama based on Colin Dexter's series of Chief Inspector Morse novels. The series starred John Thaw as Chief Inspector Morse and Kevin Whately as Sergeant Lewis, as well as a large cast of notable actors and actresses.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "1987",
-      "imdb_id": "tt0092379"
     },
     {
       "id": "tt6964748",
