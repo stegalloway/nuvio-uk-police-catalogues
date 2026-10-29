@@ -68,6 +68,20 @@
       "imdb_id": "tt34890576"
     },
     {
+      "id": "tt32329539",
+      "type": "movie",
+      "name": "Crawlers",
+      "poster": "https://image.tmdb.org/t/p/w500/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
+      "posterShape": "poster",
+      "description": "Tenants at Paradiso Palms apartments fight a deadly spider invasion while the cunning building manager might be their only hope for survival.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32329539"
+    },
+    {
       "id": "tt32393988",
       "type": "movie",
       "name": "Insidious: Out of the Further",
@@ -260,20 +274,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt13405778"
-    },
-    {
-      "id": "tt34494076",
-      "type": "movie",
-      "name": "Hungry",
-      "poster": "https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg",
-      "posterShape": "poster",
-      "description": "A group of holidaymakers must fight for their lives against a rampaging hippo on the loose after becoming lost in the Louisiana swamplands.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34494076"
     }
   ]
 }
