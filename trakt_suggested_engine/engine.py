@@ -1160,8 +1160,9 @@ class JennyProfile(SteProfile):
 
     name = "jenny"
     # Watchlist rules were asked for on Ste's rows only, and so was taste without rating.
+    # New & Upcoming keeps a new episode until it is played, as Ste's does (Jenny, 29 October 2026).
     uses_watchlist = False
-    out_now_until_played = False
+    out_now_until_played = True
     series_viewing = False
     binge_bonus = 0.
     uses_loved_list = False

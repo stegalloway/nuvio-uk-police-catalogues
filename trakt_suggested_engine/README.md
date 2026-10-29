@@ -421,12 +421,12 @@ whose next episode has a confirmed date within `upcoming_horizon_days`
   up. An unwatched episode older than the window, or none watched, leaves the
   show out. Cards read `Out now · S6 E6`, or `Out now · S2 E1–8` for a season
   dropped at once; descriptions add the episode name and `out <day>`.
-- **Ste: until played (since 28 October 2026, `out_now_until_played`).** His row has no 30-day limit.
+- **Until played (Ste and Jenny, since 28 and 29 October 2026, `out_now_until_played`).** Their rows have no 30-day limit.
   - **Stays:** an aired episode after the latest one he watched stays if it aired after that watch (a new episode, or a new season after finishing one), or if it starts a later season none of which is watched. It stays until he plays it. `waiting_episodes` does this from the same Trakt seasons call, after a cheap TMDB check that the latest aired episode is past his latest watched.
   - **Leaves:** a show he is partway through, whose later episodes were already out when he last watched, is left to Continue Watching.
   - **Card text:** an old release names its year in the description (`out Thu 8 May 2025`), never in the card line.
   - **Dropping a show:** Not Interested still removes it for good.
-  - **Jenny:** keeps the 30-day window below.
+  - **The 30-day window below** is the older rule, kept behind the flag; no profile uses it now.
 - This keeps a released episode visible for 30 days even when Nuvio's Continue
   Watching would not show it (for example a show removed from it, which Nuvio
   never brings back until an episode is played or marked).

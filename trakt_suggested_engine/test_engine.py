@@ -496,9 +496,10 @@ class UpcomingContracts(unittest.TestCase):
     # "Out now", the 30-day rule (Jenny's): the viewer was caught up before a
     # release and hasn't watched it yet, for 30 days.
     def thirty_day_rule(self):
-        ste = type(PROFILES["ste"])
-        self.addCleanup(setattr, ste, "out_now_until_played", ste.out_now_until_played)
-        ste.out_now_until_played = False
+        for profile in PROFILES.values():
+            kind = type(profile)
+            self.addCleanup(setattr, kind, "out_now_until_played", kind.out_now_until_played)
+            kind.out_now_until_played = False
 
     def release(self, aired, latest, upcoming_days=None):
         """Trakt seasons for show 10 from {season: [days ago per episode]} (negative = future)."""
@@ -840,10 +841,10 @@ class UntilPlayedContracts(UpcomingContracts):
         self.assertEqual(meta["releaseInfo"], "Out now · S2 E1–2")
         self.assertTrue(meta["description"].startswith(f"S2 E1–2 · out {out:%a} {out.day} {out:%b} {out.year}\n\n"))
 
-    def test_jenny_keeps_the_30_day_window(self):
+    def test_jenny_also_keeps_a_new_episode_until_it_is_played(self):
         self.watched((1, 1, 60), (1, 2, 50))
         self.config = EngineConfig(**dict(vars(self.config), profile="jenny"))
-        self.assertEqual(self.out_now({1: [70, 55, 45, 2]}, (1, 4)), [])
+        self.assertEqual(self.out_now({1: [70, 55, 45, 2]}, (1, 4)), [("tt10", "Out now · S1 E3–4")])
 
 
 class WatchlistContracts(unittest.TestCase):
