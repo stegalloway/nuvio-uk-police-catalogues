@@ -46,21 +46,6 @@
       "imdb_id": "tt7131622"
     },
     {
-      "id": "tt1392214",
-      "type": "movie",
-      "name": "Prisoners",
-      "poster": "https://image.tmdb.org/t/p/w500/uhviyknTT5cEQXbn6vWIqfM4vGm.jpg",
-      "posterShape": "poster",
-      "description": "After his six-year-old daughter is abducted, a desperate father takes justice into his own hands when he loses faith in the detective leading the investigation, setting both men on a collision course as the search descends into obsession and moral compromise.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt1392214"
-    },
-    {
       "id": "tt11083552",
       "type": "movie",
       "name": "Wrath of Man",
@@ -74,6 +59,21 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11083552"
+    },
+    {
+      "id": "tt1392214",
+      "type": "movie",
+      "name": "Prisoners",
+      "poster": "https://image.tmdb.org/t/p/w500/uhviyknTT5cEQXbn6vWIqfM4vGm.jpg",
+      "posterShape": "poster",
+      "description": "After his six-year-old daughter is abducted, a desperate father takes justice into his own hands when he loses faith in the detective leading the investigation, setting both men on a collision course as the search descends into obsession and moral compromise.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt1392214"
     },
     {
       "id": "tt0780504",
