@@ -57,6 +57,20 @@
       "imdb_id": "tt4196566"
     },
     {
+      "id": "tt30274401",
+      "type": "movie",
+      "name": "Five Nights at Freddy's 2",
+      "poster": "https://image.tmdb.org/t/p/w500/udAxQEORq2I5wxI97N2TEqdhzBE.jpg",
+      "posterShape": "poster",
+      "description": "One year since the supernatural nightmare at Freddy Fazbear's Pizza, the stories about what transpired there have been twisted into a campy local legend, inspiring the town's first ever Fazfest. With the truth kept from her, Abby sneaks out to reconnect with Freddy, Bonnie, Chica, and Foxy, setting into motion a terrifying series of events that will reveal dark secrets about the real origin of Freddy's, and unleash a decades-hidden horror.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt30274401"
+    },
+    {
       "id": "tt30955489",
       "type": "movie",
       "name": "Until Dawn",
@@ -141,20 +155,6 @@
       "imdb_id": "tt9419056"
     },
     {
-      "id": "tt11242218",
-      "type": "movie",
-      "name": "Books of Blood",
-      "poster": "https://image.tmdb.org/t/p/w500/bXLVZGgLgd7OwbfP6fC5GCfrxuD.jpg",
-      "posterShape": "poster",
-      "description": "A journey into uncharted and forbidden territory through three tales tangled in space and time.",
-      "genres": [
-        "Horror",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11242218"
-    },
-    {
       "id": "tt29268110",
       "type": "movie",
       "name": "Smile 2",
@@ -183,19 +183,18 @@
       "imdb_id": "tt28129069"
     },
     {
-      "id": "tt8036976",
+      "id": "tt11242218",
       "type": "movie",
-      "name": "Send Help",
-      "poster": "https://image.tmdb.org/t/p/w500/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
+      "name": "Books of Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/bXLVZGgLgd7OwbfP6fC5GCfrxuD.jpg",
       "posterShape": "poster",
-      "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
+      "description": "A journey into uncharted and forbidden territory through three tales tangled in space and time.",
       "genres": [
         "Horror",
-        "Thriller",
-        "Comedy"
+        "Science Fiction"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt8036976"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11242218"
     },
     {
       "id": "tt33028778",
@@ -212,6 +211,21 @@
       "imdb_id": "tt33028778"
     },
     {
+      "id": "tt8036976",
+      "type": "movie",
+      "name": "Send Help",
+      "poster": "https://image.tmdb.org/t/p/w500/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
+      "posterShape": "poster",
+      "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt8036976"
+    },
+    {
       "id": "tt28498159",
       "type": "movie",
       "name": "The Other",
@@ -224,20 +238,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt28498159"
-    },
-    {
-      "id": "tt39143902",
-      "type": "movie",
-      "name": "Leviticus",
-      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
-      "posterShape": "poster",
-      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
-      "genres": [
-        "Horror",
-        "Romance"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt39143902"
     },
     {
       "id": "tt18412256",
@@ -254,6 +254,20 @@
       "imdb_id": "tt18412256"
     },
     {
+      "id": "tt39143902",
+      "type": "movie",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+      "posterShape": "poster",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
+      "genres": [
+        "Horror",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
+    },
+    {
       "id": "tt20198774",
       "type": "movie",
       "name": "Play Dead",
@@ -266,21 +280,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt20198774"
-    },
-    {
-      "id": "tt15791034",
-      "type": "movie",
-      "name": "Barbarian",
-      "poster": "https://image.tmdb.org/t/p/w500/idT5mnqPcJgSkvpDX7pJffBzdVH.jpg",
-      "posterShape": "poster",
-      "description": "In town for a job interview, a young woman arrives at her Airbnb late at night only to find that it has been mistakenly double-booked and a strange man is already staying there. Against her better judgement, she decides to stay the night anyway.",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15791034"
     }
   ]
 }
