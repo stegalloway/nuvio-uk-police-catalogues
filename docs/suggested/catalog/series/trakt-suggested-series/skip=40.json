@@ -102,21 +102,6 @@
       "imdb_id": "tt5675620"
     },
     {
-      "id": "tt1637727",
-      "type": "series",
-      "name": "The Killing",
-      "poster": "https://image.tmdb.org/t/p/w500/3yiwAUNGn1rsPSVmFgVwPVJFtYf.jpg",
-      "posterShape": "poster",
-      "description": "The Killing is an American crime drama television series based upon the Danish television series Forbrydelsen. Set in Seattle, Washington, the series follows the various murder investigations by homicide detectives Sarah Linden and Stephen Holder.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1637727"
-    },
-    {
       "id": "tt5743796",
       "type": "series",
       "name": "Warrior",
@@ -131,6 +116,21 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt5743796"
+    },
+    {
+      "id": "tt1637727",
+      "type": "series",
+      "name": "The Killing",
+      "poster": "https://image.tmdb.org/t/p/w500/3yiwAUNGn1rsPSVmFgVwPVJFtYf.jpg",
+      "posterShape": "poster",
+      "description": "The Killing is an American crime drama television series based upon the Danish television series Forbrydelsen. Set in Seattle, Washington, the series follows the various murder investigations by homicide detectives Sarah Linden and Stephen Holder.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2011",
+      "imdb_id": "tt1637727"
     },
     {
       "id": "tt2356777",
@@ -235,6 +235,21 @@
       "imdb_id": "tt9698480"
     },
     {
+      "id": "tt5722298",
+      "type": "series",
+      "name": "Private Eyes",
+      "poster": "https://image.tmdb.org/t/p/w500/yPt9IuY2D8g6Lpwh8O8wCDixzt9.jpg",
+      "posterShape": "poster",
+      "description": "Ex-pro hockey player Matt Shade irrevocably changes his life when he teams up with fierce P.I. Angie Everett to form an unlikely investigative powerhouse.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Comedy"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt5722298"
+    },
+    {
       "id": "tt1442065",
       "type": "series",
       "name": "Rookie Blue",
@@ -261,21 +276,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt14218674"
-    },
-    {
-      "id": "tt5722298",
-      "type": "series",
-      "name": "Private Eyes",
-      "poster": "https://image.tmdb.org/t/p/w500/yPt9IuY2D8g6Lpwh8O8wCDixzt9.jpg",
-      "posterShape": "poster",
-      "description": "Ex-pro hockey player Matt Shade irrevocably changes his life when he teams up with fierce P.I. Angie Everett to form an unlikely investigative powerhouse.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Comedy"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt5722298"
     },
     {
       "id": "tt27954448",

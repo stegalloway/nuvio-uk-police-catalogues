@@ -46,21 +46,6 @@
       "imdb_id": "tt7131622"
     },
     {
-      "id": "tt11083552",
-      "type": "movie",
-      "name": "Wrath of Man",
-      "poster": "https://image.tmdb.org/t/p/w500/M7SUK85sKjaStg4TKhlAVyGlz3.jpg",
-      "posterShape": "poster",
-      "description": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
-      "genres": [
-        "Thriller",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11083552"
-    },
-    {
       "id": "tt1392214",
       "type": "movie",
       "name": "Prisoners",
@@ -74,6 +59,21 @@
       ],
       "releaseInfo": "2013",
       "imdb_id": "tt1392214"
+    },
+    {
+      "id": "tt11083552",
+      "type": "movie",
+      "name": "Wrath of Man",
+      "poster": "https://image.tmdb.org/t/p/w500/M7SUK85sKjaStg4TKhlAVyGlz3.jpg",
+      "posterShape": "poster",
+      "description": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11083552"
     },
     {
       "id": "tt0780504",
@@ -119,6 +119,19 @@
       "imdb_id": "tt8236336"
     },
     {
+      "id": "tt0195685",
+      "type": "movie",
+      "name": "Erin Brockovich",
+      "poster": "https://image.tmdb.org/t/p/w500/eMs20iUQyZVs05Ck7Q0LNnRsstr.jpg",
+      "posterShape": "poster",
+      "description": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins -- with a little help from her push-up bra. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2000",
+      "imdb_id": "tt0195685"
+    },
+    {
       "id": "tt0478970",
       "type": "movie",
       "name": "Ant-Man",
@@ -147,21 +160,6 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt31050020"
-    },
-    {
-      "id": "tt22084616",
-      "type": "movie",
-      "name": "Spider-Man: Brand New Day",
-      "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-      "posterShape": "poster",
-      "description": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
-      "genres": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt22084616"
     },
     {
       "id": "tt3799694",
