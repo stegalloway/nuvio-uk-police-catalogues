@@ -73,6 +73,20 @@
       "imdb_id": "tt1843678"
     },
     {
+      "id": "tt26591147",
+      "type": "series",
+      "name": "Matlock",
+      "poster": "https://image.tmdb.org/t/p/w500/6kEAVyhalzv4HCAfnLfXUcF3nQZ.jpg",
+      "posterShape": "poster",
+      "description": "After achieving success in her younger years, the brilliant septuagenarian Madeline Matlock rejoins the workforce at a prestigious law firm where she uses her unassuming demeanor and wily tactics to win cases and expose corruption from within. Inspired by the classic television series of the same name.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt26591147"
+    },
+    {
       "id": "tt9131050",
       "type": "series",
       "name": "A Confession",
@@ -276,20 +290,6 @@
       ],
       "releaseInfo": "1994",
       "imdb_id": "tt0108876"
-    },
-    {
-      "id": "tt3647998",
-      "type": "series",
-      "name": "Taboo",
-      "poster": "https://image.tmdb.org/t/p/w500/om1wVOuEtwH3krHutIWO9sJzkS5.jpg",
-      "posterShape": "poster",
-      "description": "Adventurer James Keziah Delaney returns to London from Africa in 1814 along with fourteen stolen diamonds to seek vengeance after the death of his father.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt3647998"
     }
   ]
 }
