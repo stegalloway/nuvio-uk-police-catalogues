@@ -149,21 +149,6 @@
       "imdb_id": "tt31050020"
     },
     {
-      "id": "tt22084616",
-      "type": "movie",
-      "name": "Spider-Man: Brand New Day",
-      "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-      "posterShape": "poster",
-      "description": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
-      "genres": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt22084616"
-    },
-    {
       "id": "tt3799694",
       "type": "movie",
       "name": "The Nice Guys",
@@ -179,19 +164,18 @@
       "imdb_id": "tt3799694"
     },
     {
-      "id": "tt5950044",
+      "id": "tt16311594",
       "type": "movie",
-      "name": "Superman",
-      "poster": "https://image.tmdb.org/t/p/w500/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
+      "name": "F1",
+      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
       "posterShape": "poster",
-      "description": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
+      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
       "genres": [
-        "Science Fiction",
-        "Adventure",
-        "Action"
+        "Action",
+        "Drama"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt5950044"
+      "imdb_id": "tt16311594"
     },
     {
       "id": "tt7349662",
@@ -209,18 +193,19 @@
       "imdb_id": "tt7349662"
     },
     {
-      "id": "tt16311594",
+      "id": "tt5950044",
       "type": "movie",
-      "name": "F1",
-      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+      "name": "Superman",
+      "poster": "https://image.tmdb.org/t/p/w500/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
       "posterShape": "poster",
-      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
+      "description": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
       "genres": [
-        "Action",
-        "Drama"
+        "Science Fiction",
+        "Adventure",
+        "Action"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt16311594"
+      "imdb_id": "tt5950044"
     },
     {
       "id": "tt7526136",
@@ -252,6 +237,34 @@
       "imdb_id": "tt36042156"
     },
     {
+      "id": "tt1130884",
+      "type": "movie",
+      "name": "Shutter Island",
+      "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
+      "posterShape": "poster",
+      "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1130884"
+    },
+    {
+      "id": "tt0469494",
+      "type": "movie",
+      "name": "There Will Be Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+      "posterShape": "poster",
+      "description": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's motives and intentions, starting a slow-burning feud that threatens both their lives.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0469494"
+    },
+    {
       "id": "tt3501632",
       "type": "movie",
       "name": "Thor: Ragnarok",
@@ -281,21 +294,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt7181546"
-    },
-    {
-      "id": "tt1130884",
-      "type": "movie",
-      "name": "Shutter Island",
-      "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
-      "posterShape": "poster",
-      "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Mystery"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1130884"
     }
   ]
 }

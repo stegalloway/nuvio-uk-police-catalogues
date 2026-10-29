@@ -1,19 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt0469494",
-      "type": "movie",
-      "name": "There Will Be Blood",
-      "poster": "https://image.tmdb.org/t/p/w500/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
-      "posterShape": "poster",
-      "description": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's motives and intentions, starting a slow-burning feud that threatens both their lives.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0469494"
-    },
-    {
       "id": "tt0477348",
       "type": "movie",
       "name": "No Country for Old Men",
@@ -60,19 +47,17 @@
       "imdb_id": "tt5013056"
     },
     {
-      "id": "tt0450259",
+      "id": "tt0455590",
       "type": "movie",
-      "name": "Blood Diamond",
-      "poster": "https://image.tmdb.org/t/p/w500/sYAUuiWpoXGKHxUfHyjTj7Apj2h.jpg",
+      "name": "The Last King of Scotland",
+      "poster": "https://image.tmdb.org/t/p/w500/n1CgN2mS7RSxHhv2R1DdisYDvT6.jpg",
       "posterShape": "poster",
-      "description": "An ex-mercenary turned smuggler. A Mende fisherman. Amid the explosive civil war overtaking 1999 Sierra Leone, these men join for two desperate missions: recovering a rare pink diamond of immense value and rescuing the fisherman's son, conscripted as a child soldier into the brutal rebel forces ripping a swath of torture and bloodshed countrywide.",
+      "description": "Young Scottish doctor, Nicholas Garrigan decides it's time for an adventure after he finishes his formal education, so he decides to try his luck in Uganda, and arrives during the downfall of President Obote. General Idi Amin comes to power and asks Garrigan to become his personal doctor.",
       "genres": [
-        "Drama",
-        "Thriller",
-        "Action"
+        "Drama"
       ],
       "releaseInfo": "2006",
-      "imdb_id": "tt0450259"
+      "imdb_id": "tt0455590"
     },
     {
       "id": "tt8579674",
@@ -103,21 +88,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt12593682"
-    },
-    {
-      "id": "tt9376612",
-      "type": "movie",
-      "name": "Shang-Chi and the Legend of the Ten Rings",
-      "poster": "https://image.tmdb.org/t/p/w500/9f2Q0U3IOsLgrI2HkvldwSABZy5.jpg",
-      "posterShape": "poster",
-      "description": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt9376612"
     },
     {
       "id": "tt8946378",
@@ -165,21 +135,6 @@
       "imdb_id": "tt19864802"
     },
     {
-      "id": "tt2119532",
-      "type": "movie",
-      "name": "Hacksaw Ridge",
-      "poster": "https://image.tmdb.org/t/p/w500/fnOMP6mjmOmZwmlC1n0K7ivrzt1.jpg",
-      "posterShape": "poster",
-      "description": "WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first Conscientious Objector in American history to receive the Congressional Medal of Honor.",
-      "genres": [
-        "Drama",
-        "History",
-        "War"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt2119532"
-    },
-    {
       "id": "tt30144839",
       "type": "movie",
       "name": "One Battle After Another",
@@ -195,6 +150,21 @@
       "imdb_id": "tt30144839"
     },
     {
+      "id": "tt2119532",
+      "type": "movie",
+      "name": "Hacksaw Ridge",
+      "poster": "https://image.tmdb.org/t/p/w500/fnOMP6mjmOmZwmlC1n0K7ivrzt1.jpg",
+      "posterShape": "poster",
+      "description": "WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first Conscientious Objector in American history to receive the Congressional Medal of Honor.",
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt2119532"
+    },
+    {
       "id": "tt31434639",
       "type": "movie",
       "name": "Warfare",
@@ -207,6 +177,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt31434639"
+    },
+    {
+      "id": "tt0783640",
+      "type": "movie",
+      "name": "The Last Full Measure",
+      "poster": "https://image.tmdb.org/t/p/w500/bMG8c80lyEkBXVgyHVqsdQhjgf6.jpg",
+      "posterShape": "poster",
+      "description": "The incredible true story of Vietnam War hero William H. Pitsenbarger, a U.S. Air Force Pararescuemen medic who personally saved over sixty men. Thirty-two years later, Pentagon staffer Scott Huffman investigates a Congressional Medal of Honor request for Pitsenbarger and uncovers a high-level conspiracy behind the decades-long denial of the medal, prompting Huffman to put his own career on the line to seek justice for the fallen airman.",
+      "genres": [
+        "Drama",
+        "Action",
+        "War"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt0783640"
     },
     {
       "id": "tt7693316",
@@ -224,6 +209,20 @@
       "imdb_id": "tt7693316"
     },
     {
+      "id": "tt15574124",
+      "type": "movie",
+      "name": "Peaky Blinders: The Immortal Man",
+      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+      "posterShape": "poster",
+      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt15574124"
+    },
+    {
       "id": "tt1392190",
       "type": "movie",
       "name": "Mad Max: Fury Road",
@@ -237,20 +236,6 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt1392190"
-    },
-    {
-      "id": "tt15574124",
-      "type": "movie",
-      "name": "Peaky Blinders: The Immortal Man",
-      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
-      "posterShape": "poster",
-      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt15574124"
     },
     {
       "id": "tt6924650",
@@ -268,32 +253,48 @@
       "imdb_id": "tt6924650"
     },
     {
-      "id": "tt27543632",
+      "id": "tt31349844",
       "type": "movie",
-      "name": "The Housemaid",
-      "poster": "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
+      "name": "Runner",
+      "poster": "https://image.tmdb.org/t/p/w500/vJk2TW1QZAmBiD7oj9ZF9EPTYY1.jpg",
       "posterShape": "poster",
-      "description": "Trying to escape her past, Millie Calloway accepts a job as a live-in housemaid for the wealthy Nina and Andrew Winchester. But what begins as a dream job quickly unravels into something far more dangerous—a sexy, seductive game of secrets, scandal, and power.",
+      "description": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
       "genres": [
-        "Mystery",
-        "Thriller"
+        "Action",
+        "Comedy"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt27543632"
+      "releaseInfo": "2026",
+      "imdb_id": "tt31349844"
     },
     {
-      "id": "tt1010278",
+      "id": "tt11564570",
       "type": "movie",
-      "name": "The Courageous Heart of Irena Sendler",
-      "poster": "https://image.tmdb.org/t/p/w500/jfvvws0sCNbNNxY9llsBqmeERxv.jpg",
+      "name": "Glass Onion: A Knives Out Mystery",
+      "poster": "https://image.tmdb.org/t/p/w500/vDGr1YdrlfbU9wxTOdpf3zChmv9.jpg",
       "posterShape": "poster",
-      "description": "Irena Sendler is a Catholic social worker who has sympathized with the Jews since her childhood, when her physician father died of typhus contracted while treating poor Jewish patients. When she initially proposes saving Jewish children from the Warsaw Ghetto, her idea is met with skepticism by fellow workers, her parish priest, and even her own mother Janina.",
+      "description": "World-famous detective Benoit Blanc heads to Greece to peel back the layers of a mystery surrounding a tech billionaire and his eclectic crew of friends.",
       "genres": [
-        "Drama",
-        "War"
+        "Comedy",
+        "Crime",
+        "Mystery"
       ],
-      "releaseInfo": "2009",
-      "imdb_id": "tt1010278"
+      "releaseInfo": "2022",
+      "imdb_id": "tt11564570"
+    },
+    {
+      "id": "tt33296751",
+      "type": "movie",
+      "name": "Tuner",
+      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
+      "posterShape": "poster",
+      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
+      "genres": [
+        "Crime",
+        "Music",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33296751"
     }
   ]
 }
