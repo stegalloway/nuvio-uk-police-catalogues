@@ -141,6 +141,20 @@
       "imdb_id": "tt9419056"
     },
     {
+      "id": "tt29268110",
+      "type": "movie",
+      "name": "Smile 2",
+      "poster": "https://image.tmdb.org/t/p/w500/ht8Uv9QPv9y7K0RvUyJIaXOZTfd.jpg",
+      "posterShape": "poster",
+      "description": "About to embark on a new world tour, global pop sensation Skye Riley begins experiencing increasingly terrifying and inexplicable events. Overwhelmed by the escalating horrors and the pressures of fame, Skye is forced to face her dark past to regain control of her life before it spirals out of control.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt29268110"
+    },
+    {
       "id": "tt11242218",
       "type": "movie",
       "name": "Books of Blood",
@@ -267,20 +281,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt20198774"
-    },
-    {
-      "id": "tt24807110",
-      "type": "movie",
-      "name": "Don't Move",
-      "poster": "https://image.tmdb.org/t/p/w500/cRDJxdnRb7ikKd6fVJTrGeaL34v.jpg",
-      "posterShape": "poster",
-      "description": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt24807110"
     }
   ]
 }
