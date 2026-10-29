@@ -526,6 +526,8 @@ def derive_episode_progress(
         state = states.setdefault(key, {
             "show": dict(show), "watched_episodes": {}, "reset_at": entry.get("reset_at"),
             "last_watched_at": entry.get("last_watched_at"), "history_evidence_count": 0,
+            # (season, episode) -> its latest watch time, when known.
+            "watched_at": {},
         })
         for alias in _aliases(show.get("ids")):
             alias_to_key[alias] = key
@@ -544,6 +546,8 @@ def derive_episode_progress(
                     continue
                 numbers.add(epnum)
                 state["history_evidence_count"] += 1
+                if when and when > state["watched_at"].get((number, epnum), when - timedelta(seconds=1)):
+                    state["watched_at"][(number, epnum)] = when
     for event in watched_episode_history:
         show, episode = event.get("show") or {}, event.get("episode") or {}
         keys = {alias_to_key[a] for a in _aliases(show.get("ids")) if a in alias_to_key}
@@ -558,6 +562,8 @@ def derive_episode_progress(
             continue
         state["watched_episodes"].setdefault(season, set()).add(number)
         state["history_evidence_count"] += 1
+        if when and when > state["watched_at"].get((season, number), when - timedelta(seconds=1)):
+            state["watched_at"][(season, number)] = when
     return states
 
 
@@ -725,6 +731,57 @@ def out_now_episodes(state: Mapping, seasons: Sequence[Mapping], now: datetime, 
             "episode_name": first[3] if len(new) == 1 else "", "out_now": True}
 
 
+def aired_after_latest(state: Mapping, detail: Mapping) -> bool:
+    """Cheap pre-check: TMDB's latest aired episode comes after the latest one watched."""
+    latest = detail.get("last_episode_to_air")
+    watched = state.get("watched_episodes") or {}
+    mine = max(((s, max(v)) for s, v in watched.items() if v), default=None)
+    if not isinstance(latest, Mapping) or not mine:
+        return False
+    season, number = w._int(latest.get("season_number")), w._int(latest.get("episode_number"))
+    return bool(season and season >= 1 and number) and (season, number) > mine
+
+
+def waiting_episodes(state: Mapping, seasons: Sequence[Mapping], now: datetime) -> dict | None:
+    """Aired episodes after the latest one watched that the viewer is waiting on, or None.
+
+    Waiting (Ste, 28 October 2026): the first of them aired after that latest
+    episode was watched (a new episode, or a new season after finishing one),
+    or it starts a later season none of which is watched (the next season was
+    already out). Partway through episodes that were already out is left to
+    Continue Watching. There is no time limit: the show stays until the first
+    of them is played.
+    """
+    watched = state.get("watched_episodes") or {}
+    mine = max(((s, max(v)) for s, v in watched.items() if v), default=None)
+    if not mine:
+        return None
+    after = []
+    for season in seasons:
+        number = w._int(season.get("number"))
+        if not number or number < 1:
+            continue
+        for episode in season.get("episodes") or []:
+            when = _aware(episode.get("first_aired"))
+            ep = w._int(episode.get("number"))
+            if _regular_episode(episode) and when is not None and when <= now and (number, ep) > mine:
+                after.append(((number, ep), when, str(episode.get("title") or "").strip()))
+    if not after:
+        return None
+    after.sort()
+    (season, number), aired, title = after[0]
+    seen = (state.get("watched_at") or {}).get(mine) or _aware(state.get("last_watched_at"))
+    new_since = seen is not None and aired > seen
+    new_season = season > mine[0] and not watched.get(season)
+    if not (new_since or new_season):
+        return None
+    last = after[-1][0]
+    return {"air_date": max(when for _, when, _ in after).date().isoformat(), "season_number": season,
+            "episode_number": number, "last_season_number": last[0], "last_episode_number": last[1],
+            "count": len(after), "episode_name": title if len(after) == 1 else "", "out_now": True,
+            "waiting_since": aired.date().isoformat()}
+
+
 def watchlist_premiere(detail: Mapping, today: date, horizon_days: int, out_now_days: int) -> dict | None:
     """A season premiere of a watchlisted show the viewer hasn't started, or None.
 
@@ -761,7 +818,8 @@ def watchlist_premiere(detail: Mapping, today: date, horizon_days: int, out_now_
 def _out_now_text(episode: Mapping, today: date) -> tuple[str, str]:
     """(card line, description line), e.g. ("Out now · S6 E6", "S6 E6 · Name · out Wed 21 Oct")."""
     out = date.fromisoformat(episode["air_date"])
-    when = "today" if out == today else "yesterday" if out == today - timedelta(days=1) else f"{out:%a} {out.day} {out:%b}"
+    when = "today" if out == today else "yesterday" if out == today - timedelta(days=1) else \
+        f"{out:%a} {out.day} {out:%b}" + ("" if out.year == today.year else f" {out.year}")
     season, number = episode["season_number"], episode["episode_number"]
     label = f"S{season} E{number}"
     if episode["count"] > 1:
@@ -938,6 +996,10 @@ class SteProfile:
     film_row_limit = None
     # The Trakt watchlist hides suggestions and adds premieres (Ste, 27 October 2026).
     uses_watchlist = True
+    # New & Upcoming (Ste, 28 October 2026): an episode out since the last watch,
+    # or a season not begun, stays "Out now" until it is played (waiting_episodes),
+    # in place of the 30-day window for viewers caught up before the release.
+    out_now_until_played = True
     # Taste without rating (Ste, 27 October 2026): series evidence from how much
     # of a show he watched, a bonus for binged shows, the "Loved" Trakt list,
     # Trakt's related titles as a candidate source (titles per seed, 0 = off) and
@@ -1099,6 +1161,7 @@ class JennyProfile(SteProfile):
     name = "jenny"
     # Watchlist rules were asked for on Ste's rows only, and so was taste without rating.
     uses_watchlist = False
+    out_now_until_played = False
     series_viewing = False
     binge_bonus = 0.
     uses_loved_list = False
@@ -1771,12 +1834,15 @@ def generate_catalogues(
                 detail = runner._details(tid, media)
                 episode = None
                 trakt_identifier = ids.get("trakt") or ids.get("slug") or ids.get("imdb")
+                until_played = taste.out_now_until_played
                 if (detail and trakt_fetch and trakt_identifier
-                        and recent_release_unwatched(state, detail, today, config.out_now_days)):
+                        and (aired_after_latest(state, detail) if until_played
+                             else recent_release_unwatched(state, detail, today, config.out_now_days))):
                     try:
                         seasons = trakt_fetch("/shows/" + str(trakt_identifier) + "/seasons", {"extended": "episodes,full"})
                         if isinstance(seasons, list):
-                            episode = out_now_episodes(state, seasons, moment, config.out_now_days)
+                            episode = (waiting_episodes(state, seasons, moment) if until_played
+                                       else out_now_episodes(state, seasons, moment, config.out_now_days))
                     except Exception:
                         episode = None
                 if detail and not episode:
@@ -1948,6 +2014,7 @@ def generate_catalogues(
     upcoming = (out_now + due)[:config.catalogue_limit]
     result["diagnostics"]["media"]["upcoming"] = {
         "horizon_days": config.upcoming_horizon_days, "out_now_days": config.out_now_days,
+        "out_now_until_played": taste.out_now_until_played,
         "out_now_count": len(out_now), "count": len(upcoming), "watchlist_premieres": watchlist_premieres,
         "selected": [{"id": c["id"], **c["upcoming_episode"]} for c in upcoming]}
     result["diagnostics"]["place_keywords_dropped"] = places_dropped.most_common(60)

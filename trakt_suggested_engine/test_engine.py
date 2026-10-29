@@ -493,7 +493,13 @@ class UpcomingContracts(unittest.TestCase):
         self.assertNotRegex(meta["releaseInfo"], r"\b(19|20)\d{2}\b")
         self.assertTrue(meta["description"].startswith("S9 E1 · Wed 6 Jan 2027\n\n"))
 
-    # "Out now": the viewer was caught up before a release and hasn't watched it yet.
+    # "Out now", the 30-day rule (Jenny's): the viewer was caught up before a
+    # release and hasn't watched it yet, for 30 days.
+    def thirty_day_rule(self):
+        ste = type(PROFILES["ste"])
+        self.addCleanup(setattr, ste, "out_now_until_played", ste.out_now_until_played)
+        ste.out_now_until_played = False
+
     def release(self, aired, latest, upcoming_days=None):
         """Trakt seasons for show 10 from {season: [days ago per episode]} (negative = future)."""
         detail = self.api.details[("tv", 10)]
@@ -508,6 +514,7 @@ class UpcomingContracts(unittest.TestCase):
         return lambda path, params: seasons
 
     def test_new_episode_shows_as_out_now(self):
+        self.thirty_day_rule()
         # Watched S1 E1-E2; E3 came out two days ago, E4 is due in five.
         fetch = self.release({1: [30, 23, 2, -5]}, latest=(1, 3), upcoming_days=5)
         result, metas = self.upcoming(trakt_fetch=fetch)
@@ -516,18 +523,21 @@ class UpcomingContracts(unittest.TestCase):
         self.assertEqual(result["diagnostics"]["media"]["upcoming"]["out_now_count"], 1)
 
     def test_a_whole_new_season_dropped_at_once(self):
+        self.thirty_day_rule()
         fetch = self.release({1: [60, 53], 2: [1, 1, 1]}, latest=(2, 3))
         metas = self.upcoming(trakt_fetch=fetch)[1]
         self.assertEqual([(m["id"], m["releaseInfo"]) for m in metas], [("tt10", "Out now · S2 E1–3")])
         self.assertTrue(metas[0]["description"].startswith("S2 E1–3 · out yesterday\n\n"))
 
     def test_unwatched_episodes_inside_30_days_stay_together(self):
+        self.thirty_day_rule()
         # Watched E2; E3 ten days ago and E4 two days ago are both still new.
         fetch = self.release({1: [60, 40, 10, 2]}, latest=(1, 4))
         metas = self.upcoming(trakt_fetch=fetch)[1]
         self.assertEqual([(m["id"], m["releaseInfo"]) for m in metas], [("tt10", "Out now · S1 E3–4")])
 
     def test_not_caught_up_or_past_30_days_is_left_out(self):
+        self.thirty_day_rule()
         # E3 has sat unwatched for 40 days, so E4 two days ago is not "new to a caught-up viewer".
         fetch = self.release({1: [70, 60, 40, 2]}, latest=(1, 4))
         self.assertEqual(self.upcoming(trakt_fetch=fetch)[1], [])
@@ -536,6 +546,7 @@ class UpcomingContracts(unittest.TestCase):
         self.assertEqual(self.upcoming(trakt_fetch=fetch)[1], [])
 
     def test_out_now_comes_before_upcoming(self):
+        self.thirty_day_rule()
         self.inputs[1] = self.inputs[1] + [{"show": show(11), "plays": 1, "last_watched_at": "2026-10-17T00:00:00Z"}]
         self.inputs[4] = self.inputs[4] + [event(3, 8, number=11)]
         self.api.details[("tv", 11)] = self.api.detail(11)
@@ -793,6 +804,46 @@ class JennyProfileContracts(unittest.TestCase):
         self.assertNotEqual(self.run_engine()["catalogues"]["movie"], default["catalogues"]["movie"])
         with self.assertRaises(ValueError):
             generate_catalogues(*self.inputs, FixtureAPI(), now=NOW, config=EngineConfig(profile="nobody"))
+
+
+class UntilPlayedContracts(UpcomingContracts):
+    """Ste's New & Upcoming: an episode out since the last watch stays until it is played."""
+
+    def watched(self, *episodes):
+        """Show 10's watch history: (season, episode, days ago)."""
+        self.inputs[4] = [event(s, e, when=(NOW - timedelta(days=d)).isoformat()) for s, e, d in episodes]
+
+    def out_now(self, aired, latest):
+        return [(m["id"], m["releaseInfo"]) for m in self.upcoming(trakt_fetch=self.release(aired, latest))[1]]
+
+    def test_a_new_episode_stays_until_it_is_played(self):
+        # E3 came out 45 days ago, after E2 was watched: past 30 days, still new.
+        self.watched((1, 1, 60), (1, 2, 50))
+        self.assertEqual(self.out_now({1: [70, 55, 45, 2]}, (1, 4)), [("tt10", "Out now · S1 E3–4")])
+        self.watched((1, 1, 60), (1, 2, 50), (1, 3, 5))     # E3 played, then E4 came out: new again
+        self.assertEqual(self.out_now({1: [70, 55, 45, 2]}, (1, 4)), [("tt10", "Out now · S1 E4")])
+        self.watched((1, 1, 60), (1, 2, 50), (1, 3, 1))     # E3 played after E4 was out: Continue Watching
+        self.assertEqual(self.out_now({1: [70, 55, 45, 2]}, (1, 4)), [])
+
+    def test_a_season_not_begun_shows_though_it_was_out_before_the_finale_was_watched(self):
+        self.watched((1, 1, 30), (1, 2, 1))
+        self.assertEqual(self.out_now({1: [60, 53], 2: [20, 20, 20]}, (2, 3)), [("tt10", "Out now · S2 E1–3")])
+
+    def test_partway_through_episodes_already_out_is_left_to_continue_watching(self):
+        self.watched((1, 1, 1), (1, 2, 1))
+        self.assertEqual(self.out_now({1: [20, 20, 20, 20]}, (1, 4)), [])
+
+    def test_an_old_release_names_its_year_in_the_description_only(self):
+        self.watched((1, 1, 400), (1, 2, 399))
+        meta = self.upcoming(trakt_fetch=self.release({1: [420, 410], 2: [380, 380]}, (2, 2)))[1][0]
+        out = (NOW - timedelta(days=380)).date()
+        self.assertEqual(meta["releaseInfo"], "Out now · S2 E1–2")
+        self.assertTrue(meta["description"].startswith(f"S2 E1–2 · out {out:%a} {out.day} {out:%b} {out.year}\n\n"))
+
+    def test_jenny_keeps_the_30_day_window(self):
+        self.watched((1, 1, 60), (1, 2, 50))
+        self.config = EngineConfig(**dict(vars(self.config), profile="jenny"))
+        self.assertEqual(self.out_now({1: [70, 55, 45, 2]}, (1, 4)), [])
 
 
 class WatchlistContracts(unittest.TestCase):
