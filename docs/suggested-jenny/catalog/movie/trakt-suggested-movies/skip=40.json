@@ -15,20 +15,6 @@
       "imdb_id": "tt24807110"
     },
     {
-      "id": "tt12873562",
-      "type": "movie",
-      "name": "The Invitation",
-      "poster": "https://image.tmdb.org/t/p/w500/jcTq6gIskCsHlKDvCKKouEfiU66.jpg",
-      "posterShape": "poster",
-      "description": "After the death of her mother, Evie is approached by an unknown cousin who invites her to a lavish wedding in the English countryside. Soon, she realizes a gothic conspiracy is afoot and must fight for survival as she uncovers twisted secrets in her family’s history.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt12873562"
-    },
-    {
       "id": "tt35538033",
       "type": "movie",
       "name": "Resident Evil",
@@ -118,6 +104,20 @@
       "imdb_id": "tt35672862"
     },
     {
+      "id": "tt29550683",
+      "type": "movie",
+      "name": "Whistle",
+      "poster": "https://image.tmdb.org/t/p/w500/vgonf5kGsiijUBjzxKTvechhT28.jpg",
+      "posterShape": "poster",
+      "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt29550683"
+    },
+    {
       "id": "tt34508974",
       "type": "movie",
       "name": "Silent Night, Deadly Night",
@@ -145,20 +145,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt23642744"
-    },
-    {
-      "id": "tt29550683",
-      "type": "movie",
-      "name": "Whistle",
-      "poster": "https://image.tmdb.org/t/p/w500/vgonf5kGsiijUBjzxKTvechhT28.jpg",
-      "posterShape": "poster",
-      "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt29550683"
     },
     {
       "id": "tt37281055",
@@ -221,20 +207,6 @@
       "imdb_id": "tt10954984"
     },
     {
-      "id": "tt6874690",
-      "type": "movie",
-      "name": "The Rule of Jenny Pen",
-      "poster": "https://image.tmdb.org/t/p/w500/5vqK1wbrgmUvqHn6yPt9b6qT9iL.jpg",
-      "posterShape": "poster",
-      "description": "Confined to a secluded rest home and trapped within his stroke-ridden body, a former Judge must stop an elderly psychopath who employs a child's puppet to abuse the home's residents with deadly consequences.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt6874690"
-    },
-    {
       "id": "tt6483422",
       "type": "movie",
       "name": "They Reach",
@@ -264,6 +236,20 @@
       "imdb_id": "tt1877830"
     },
     {
+      "id": "tt6874690",
+      "type": "movie",
+      "name": "The Rule of Jenny Pen",
+      "poster": "https://image.tmdb.org/t/p/w500/5vqK1wbrgmUvqHn6yPt9b6qT9iL.jpg",
+      "posterShape": "poster",
+      "description": "Confined to a secluded rest home and trapped within his stroke-ridden body, a former Judge must stop an elderly psychopath who employs a child's puppet to abuse the home's residents with deadly consequences.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt6874690"
+    },
+    {
       "id": "tt1051906",
       "type": "movie",
       "name": "The Invisible Man",
@@ -291,6 +277,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5040012"
+    },
+    {
+      "id": "tt26470109",
+      "type": "movie",
+      "name": "Oddity",
+      "poster": "https://image.tmdb.org/t/p/w500/3Z9c1tbUhP0QruRjczPHnbx3U2D.jpg",
+      "posterShape": "poster",
+      "description": "After the brutal murder of her twin sister, Darcy goes after those responsible by using haunted items as her tools for revenge.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt26470109"
     }
   ]
 }
