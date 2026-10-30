@@ -114,6 +114,19 @@
       "imdb_id": "tt13729648"
     },
     {
+      "id": "tt3581920",
+      "type": "series",
+      "name": "The Last of Us",
+      "poster": "https://image.tmdb.org/t/p/w500/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
+      "posterShape": "poster",
+      "description": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt3581920"
+    },
+    {
       "id": "tt11794812",
       "type": "series",
       "name": "Cross",
@@ -269,19 +282,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt6130902"
-    },
-    {
-      "id": "tt4452630",
-      "type": "series",
-      "name": "Code Black",
-      "poster": "https://image.tmdb.org/t/p/w500/3T1b6YK6vLrZoLZC5hd65ZuRLq8.jpg",
-      "posterShape": "poster",
-      "description": "Inspired by the award-winning documentary, this medical drama is set in the busiest and most notorious ER in the nation where the extraordinary staff confront a challenged system in order to protect their ideals and the patients who need them the most.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4452630"
     }
   ]
 }
