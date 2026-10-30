@@ -30,18 +30,18 @@
       "imdb_id": "tt11343600"
     },
     {
-      "id": "tt34579520",
+      "id": "tt5194792",
       "type": "series",
-      "name": "Murder Before Evensong",
-      "poster": "https://image.tmdb.org/t/p/w500/xn7TFZnR9U2KpJovIg5F1WZ1qs2.jpg",
+      "name": "NOS4A2",
+      "poster": "https://image.tmdb.org/t/p/w500/gnosVTTRTCqooJuipwU6C0bgOGf.jpg",
       "posterShape": "poster",
-      "description": "In 1980s England, Canon Daniel Clement, the Rector of Champton, finds himself unexpectedly entangled in a murder case when a dead body turns up in the church. When Daniel announces a plan to modernize the church, the parish is suddenly divided. And then a body is found dead at the back of the church. As the police move in and the bodies start piling up, Daniel is the only one who can try and keep his fractured community together... and catch a killer.",
+      "description": "A young Victoria \"Vic\" McQueen discovers she has the power to unlock portals that help her find lost objects. As she delves further into this hidden universe, she encounters many other \"inscape travelers\" - some benevolent, and some who have been corrupted by their power. When Vic encounters Charlie Manx, an immortal who stays that way by feeding off of the souls of children, she makes a sworn enemy of Manx.",
       "genres": [
-        "Drama",
-        "Mystery"
+        "Sci-Fi & Fantasy",
+        "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt34579520"
+      "releaseInfo": "2019",
+      "imdb_id": "tt5194792"
     },
     {
       "id": "tt14016500",
@@ -57,18 +57,18 @@
       "imdb_id": "tt14016500"
     },
     {
-      "id": "tt5194792",
+      "id": "tt34579520",
       "type": "series",
-      "name": "NOS4A2",
-      "poster": "https://image.tmdb.org/t/p/w500/gnosVTTRTCqooJuipwU6C0bgOGf.jpg",
+      "name": "Murder Before Evensong",
+      "poster": "https://image.tmdb.org/t/p/w500/xn7TFZnR9U2KpJovIg5F1WZ1qs2.jpg",
       "posterShape": "poster",
-      "description": "A young Victoria \"Vic\" McQueen discovers she has the power to unlock portals that help her find lost objects. As she delves further into this hidden universe, she encounters many other \"inscape travelers\" - some benevolent, and some who have been corrupted by their power. When Vic encounters Charlie Manx, an immortal who stays that way by feeding off of the souls of children, she makes a sworn enemy of Manx.",
+      "description": "In 1980s England, Canon Daniel Clement, the Rector of Champton, finds himself unexpectedly entangled in a murder case when a dead body turns up in the church. When Daniel announces a plan to modernize the church, the parish is suddenly divided. And then a body is found dead at the back of the church. As the police move in and the bodies start piling up, Daniel is the only one who can try and keep his fractured community together... and catch a killer.",
       "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt5194792"
+      "releaseInfo": "2025",
+      "imdb_id": "tt34579520"
     },
     {
       "id": "tt9813792",
@@ -101,6 +101,21 @@
       "imdb_id": "tt9174630"
     },
     {
+      "id": "tt11794812",
+      "type": "series",
+      "name": "Cross",
+      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
+      "posterShape": "poster",
+      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt11794812"
+    },
+    {
       "id": "tt31314754",
       "type": "series",
       "name": "Devil in Disguise: John Wayne Gacy",
@@ -115,19 +130,19 @@
       "imdb_id": "tt31314754"
     },
     {
-      "id": "tt11794812",
+      "id": "tt2708480",
       "type": "series",
-      "name": "Cross",
-      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
+      "name": "The Terror",
+      "poster": "https://image.tmdb.org/t/p/w500/fUVn5mScv83FfwrRUUR694yA7bd.jpg",
       "posterShape": "poster",
-      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
+      "description": "A chilling anthology series featuring stories of people in terrifying situations inspired by true historical events.",
       "genres": [
-        "Crime",
+        "Mystery",
         "Drama",
-        "Mystery"
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt11794812"
+      "releaseInfo": "2018",
+      "imdb_id": "tt2708480"
     },
     {
       "id": "tt13729648",
@@ -157,19 +172,19 @@
       "imdb_id": "tt3581920"
     },
     {
-      "id": "tt2708480",
+      "id": "tt18926116",
       "type": "series",
-      "name": "The Terror",
-      "poster": "https://image.tmdb.org/t/p/w500/fUVn5mScv83FfwrRUUR694yA7bd.jpg",
+      "name": "Fear the Walking Dead: Dead in the Water",
+      "poster": "https://image.tmdb.org/t/p/w500/kayTdmzIZli4S0njuQjhI8i5clf.jpg",
       "posterShape": "poster",
-      "description": "A chilling anthology series featuring stories of people in terrifying situations inspired by true historical events.",
+      "description": "Riley is serving as a weapons officer aboard the USS Pennsylvania near the Gulf of Mexico when a mysterious outbreak forces the crew to strategize a way off the sub before it becomes their tomb, in this prequel to Fear the Walking Dead.",
       "genres": [
-        "Mystery",
+        "Action & Adventure",
         "Drama",
         "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt2708480"
+      "releaseInfo": "2022",
+      "imdb_id": "tt18926116"
     },
     {
       "id": "tt19853270",
@@ -184,21 +199,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt19853270"
-    },
-    {
-      "id": "tt18926116",
-      "type": "series",
-      "name": "Fear the Walking Dead: Dead in the Water",
-      "poster": "https://image.tmdb.org/t/p/w500/kayTdmzIZli4S0njuQjhI8i5clf.jpg",
-      "posterShape": "poster",
-      "description": "Riley is serving as a weapons officer aboard the USS Pennsylvania near the Gulf of Mexico when a mysterious outbreak forces the crew to strategize a way off the sub before it becomes their tomb, in this prequel to Fear the Walking Dead.",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt18926116"
     },
     {
       "id": "tt9642938",
