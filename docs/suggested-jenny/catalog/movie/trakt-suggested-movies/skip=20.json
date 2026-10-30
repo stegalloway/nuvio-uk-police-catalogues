@@ -214,20 +214,6 @@
       "imdb_id": "tt33028778"
     },
     {
-      "id": "tt28498159",
-      "type": "movie",
-      "name": "The Other",
-      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
-      "posterShape": "poster",
-      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt28498159"
-    },
-    {
       "id": "tt27444133",
       "type": "movie",
       "name": "Shades of Desire",
@@ -282,6 +268,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt20198774"
+    },
+    {
+      "id": "tt15791034",
+      "type": "movie",
+      "name": "Barbarian",
+      "poster": "https://image.tmdb.org/t/p/w500/idT5mnqPcJgSkvpDX7pJffBzdVH.jpg",
+      "posterShape": "poster",
+      "description": "In town for a job interview, a young woman arrives at her Airbnb late at night only to find that it has been mistakenly double-booked and a strange man is already staying there. Against her better judgement, she decides to stay the night anyway.",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15791034"
     }
   ]
 }
