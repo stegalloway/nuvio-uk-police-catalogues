@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt32937780",
-      "type": "series",
-      "name": "Something Very Bad Is Going to Happen",
-      "poster": "https://image.tmdb.org/t/p/w500/tuj37DlqEqib8sTO4h3nHJeTAJ2.jpg",
-      "posterShape": "poster",
-      "description": "A bride has a feeling that something horrifying will happen at her wedding — and the closer to the altar she gets, the worse it becomes.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32937780"
-    },
-    {
       "id": "tt11656892",
       "type": "series",
       "name": "Des",
@@ -283,6 +269,19 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt6130902"
+    },
+    {
+      "id": "tt4452630",
+      "type": "series",
+      "name": "Code Black",
+      "poster": "https://image.tmdb.org/t/p/w500/3T1b6YK6vLrZoLZC5hd65ZuRLq8.jpg",
+      "posterShape": "poster",
+      "description": "Inspired by the award-winning documentary, this medical drama is set in the busiest and most notorious ER in the nation where the extraordinary staff confront a challenged system in order to protect their ideals and the patients who need them the most.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt4452630"
     }
   ]
 }
