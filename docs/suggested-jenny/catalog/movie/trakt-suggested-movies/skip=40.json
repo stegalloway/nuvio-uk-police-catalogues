@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt15791034",
-      "type": "movie",
-      "name": "Barbarian",
-      "poster": "https://image.tmdb.org/t/p/w500/idT5mnqPcJgSkvpDX7pJffBzdVH.jpg",
-      "posterShape": "poster",
-      "description": "In town for a job interview, a young woman arrives at her Airbnb late at night only to find that it has been mistakenly double-booked and a strange man is already staying there. Against her better judgement, she decides to stay the night anyway.",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15791034"
-    },
-    {
       "id": "tt24807110",
       "type": "movie",
       "name": "Don't Move",
@@ -133,6 +118,20 @@
       "imdb_id": "tt35672862"
     },
     {
+      "id": "tt34508974",
+      "type": "movie",
+      "name": "Silent Night, Deadly Night",
+      "poster": "https://image.tmdb.org/t/p/w500/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg",
+      "posterShape": "poster",
+      "description": "After witnessing his parents' brutal murder on Christmas Eve, Billy transforms into a Killer Santa, delivering a yearly spree of calculated, chilling violence. This year, his blood-soaked mission collides with love, as a young woman challenges him to confront his darkness.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt34508974"
+    },
+    {
       "id": "tt23642744",
       "type": "movie",
       "name": "Night of the Hunted",
@@ -222,20 +221,6 @@
       "imdb_id": "tt10954984"
     },
     {
-      "id": "tt6483422",
-      "type": "movie",
-      "name": "They Reach",
-      "poster": "https://image.tmdb.org/t/p/w500/wX1t2sPKN2JGzp0rcg4sVx8fyid.jpg",
-      "posterShape": "poster",
-      "description": "In 1979, a young girl stumbles upon a possessed tape player. She unknowingly unleashes a demonic entity that haunts her family while slowly dragging the small town of Clarkston to Hell.",
-      "genres": [
-        "Adventure",
-        "Horror"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt6483422"
-    },
-    {
       "id": "tt6874690",
       "type": "movie",
       "name": "The Rule of Jenny Pen",
@@ -248,6 +233,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt6874690"
+    },
+    {
+      "id": "tt6483422",
+      "type": "movie",
+      "name": "They Reach",
+      "poster": "https://image.tmdb.org/t/p/w500/wX1t2sPKN2JGzp0rcg4sVx8fyid.jpg",
+      "posterShape": "poster",
+      "description": "In 1979, a young girl stumbles upon a possessed tape player. She unknowingly unleashes a demonic entity that haunts her family while slowly dragging the small town of Clarkston to Hell.",
+      "genres": [
+        "Adventure",
+        "Horror"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt6483422"
     },
     {
       "id": "tt1877830",

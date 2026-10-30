@@ -15,18 +15,19 @@
       "imdb_id": "tt11656892"
     },
     {
-      "id": "tt5194792",
+      "id": "tt11343600",
       "type": "series",
-      "name": "NOS4A2",
-      "poster": "https://image.tmdb.org/t/p/w500/gnosVTTRTCqooJuipwU6C0bgOGf.jpg",
+      "name": "Brand New Cherry Flavor",
+      "poster": "https://image.tmdb.org/t/p/w500/cX4acZbi2l4v051NJZfonqY0E3X.jpg",
       "posterShape": "poster",
-      "description": "A young Victoria \"Vic\" McQueen discovers she has the power to unlock portals that help her find lost objects. As she delves further into this hidden universe, she encounters many other \"inscape travelers\" - some benevolent, and some who have been corrupted by their power. When Vic encounters Charlie Manx, an immortal who stays that way by feeding off of the souls of children, she makes a sworn enemy of Manx.",
+      "description": "A filmmaker heads to Hollywood in the early ’90s to make her movie but tumbles down a hallucinatory rabbit hole of sex, magic, revenge — and kittens.",
       "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt5194792"
+      "releaseInfo": "2021",
+      "imdb_id": "tt11343600"
     },
     {
       "id": "tt14016500",
@@ -42,19 +43,18 @@
       "imdb_id": "tt14016500"
     },
     {
-      "id": "tt11343600",
+      "id": "tt5194792",
       "type": "series",
-      "name": "Brand New Cherry Flavor",
-      "poster": "https://image.tmdb.org/t/p/w500/cX4acZbi2l4v051NJZfonqY0E3X.jpg",
+      "name": "NOS4A2",
+      "poster": "https://image.tmdb.org/t/p/w500/gnosVTTRTCqooJuipwU6C0bgOGf.jpg",
       "posterShape": "poster",
-      "description": "A filmmaker heads to Hollywood in the early ’90s to make her movie but tumbles down a hallucinatory rabbit hole of sex, magic, revenge — and kittens.",
+      "description": "A young Victoria \"Vic\" McQueen discovers she has the power to unlock portals that help her find lost objects. As she delves further into this hidden universe, she encounters many other \"inscape travelers\" - some benevolent, and some who have been corrupted by their power. When Vic encounters Charlie Manx, an immortal who stays that way by feeding off of the souls of children, she makes a sworn enemy of Manx.",
       "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
+        "Sci-Fi & Fantasy",
+        "Drama"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11343600"
+      "releaseInfo": "2019",
+      "imdb_id": "tt5194792"
     },
     {
       "id": "tt34579520",
@@ -114,19 +114,6 @@
       "imdb_id": "tt13729648"
     },
     {
-      "id": "tt3581920",
-      "type": "series",
-      "name": "The Last of Us",
-      "poster": "https://image.tmdb.org/t/p/w500/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
-      "posterShape": "poster",
-      "description": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt3581920"
-    },
-    {
       "id": "tt11794812",
       "type": "series",
       "name": "Cross",
@@ -142,31 +129,17 @@
       "imdb_id": "tt11794812"
     },
     {
-      "id": "tt19853270",
+      "id": "tt3581920",
       "type": "series",
-      "name": "Murdaugh: Death in the Family",
-      "poster": "https://image.tmdb.org/t/p/w500/fqNT4hsPdA0999NEMuLVeja4Cm2.jpg",
+      "name": "The Last of Us",
+      "poster": "https://image.tmdb.org/t/p/w500/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
       "posterShape": "poster",
-      "description": "Maggie and Alex enjoy a lavish life of privilege as members of one of South Carolina's most powerful legal dynasties. But when their son Paul is involved in a deadly boat crash, the family is faced with a test unlike any they've ever encountered. As details come to light and new challenges emerge, the family's connections to several mysterious deaths raise questions which threaten everything Maggie and Alex hold dear.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt19853270"
-    },
-    {
-      "id": "tt31849826",
-      "type": "series",
-      "name": "Doctor Odyssey",
-      "poster": "https://image.tmdb.org/t/p/w500/78KamrNZE0ZzPLBjEug16BASJ5M.jpg",
-      "posterShape": "poster",
-      "description": "Max is the new on-board doctor for a luxury cruise ship where the small but mighty medical team navigate unique medical crises and each other, miles from shore.",
+      "description": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
       "genres": [
         "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31849826"
+      "releaseInfo": "2023",
+      "imdb_id": "tt3581920"
     },
     {
       "id": "tt9174630",
@@ -184,19 +157,32 @@
       "imdb_id": "tt9174630"
     },
     {
-      "id": "tt2708480",
+      "id": "tt19853270",
       "type": "series",
-      "name": "The Terror",
-      "poster": "https://image.tmdb.org/t/p/w500/fUVn5mScv83FfwrRUUR694yA7bd.jpg",
+      "name": "Murdaugh: Death in the Family",
+      "poster": "https://image.tmdb.org/t/p/w500/fqNT4hsPdA0999NEMuLVeja4Cm2.jpg",
       "posterShape": "poster",
-      "description": "A chilling anthology series featuring stories of people in terrifying situations inspired by true historical events.",
+      "description": "Maggie and Alex enjoy a lavish life of privilege as members of one of South Carolina's most powerful legal dynasties. But when their son Paul is involved in a deadly boat crash, the family is faced with a test unlike any they've ever encountered. As details come to light and new challenges emerge, the family's connections to several mysterious deaths raise questions which threaten everything Maggie and Alex hold dear.",
       "genres": [
-        "Mystery",
         "Drama",
-        "Sci-Fi & Fantasy"
+        "Crime"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt2708480"
+      "releaseInfo": "2025",
+      "imdb_id": "tt19853270"
+    },
+    {
+      "id": "tt7985576",
+      "type": "series",
+      "name": "The Serpent",
+      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "posterShape": "poster",
+      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt7985576"
     },
     {
       "id": "tt9642938",
@@ -214,32 +200,32 @@
       "imdb_id": "tt9642938"
     },
     {
-      "id": "tt7985576",
+      "id": "tt2708480",
       "type": "series",
-      "name": "The Serpent",
-      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "name": "The Terror",
+      "poster": "https://image.tmdb.org/t/p/w500/fUVn5mScv83FfwrRUUR694yA7bd.jpg",
       "posterShape": "poster",
-      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "description": "A chilling anthology series featuring stories of people in terrifying situations inspired by true historical events.",
       "genres": [
+        "Mystery",
         "Drama",
-        "Crime"
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt7985576"
+      "releaseInfo": "2018",
+      "imdb_id": "tt2708480"
     },
     {
-      "id": "tt26576161",
+      "id": "tt31849826",
       "type": "series",
-      "name": "The Terminal List: Dark Wolf",
-      "poster": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg",
+      "name": "Doctor Odyssey",
+      "poster": "https://image.tmdb.org/t/p/w500/78KamrNZE0ZzPLBjEug16BASJ5M.jpg",
       "posterShape": "poster",
-      "description": "Before The Terminal List, Navy SEAL Ben Edwards finds himself entangled in the black operations side of the CIA. The deeper Ben goes into the 'gray', the harder it will become to not give himself over to his darker impulses. Every man has two wolves inside him – light and dark – fighting for control. Which wolf will Ben Edwards feed?",
+      "description": "Max is the new on-board doctor for a luxury cruise ship where the small but mighty medical team navigate unique medical crises and each other, miles from shore.",
       "genres": [
-        "Action & Adventure",
         "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt26576161"
+      "releaseInfo": "2024",
+      "imdb_id": "tt31849826"
     },
     {
       "id": "tt18926116",
@@ -257,17 +243,18 @@
       "imdb_id": "tt18926116"
     },
     {
-      "id": "tt7817340",
+      "id": "tt26576161",
       "type": "series",
-      "name": "New Amsterdam",
-      "poster": "https://image.tmdb.org/t/p/w500/jsH4AeGZn5Q6h314A3OTUHKxHhR.jpg",
+      "name": "The Terminal List: Dark Wolf",
+      "poster": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg",
       "posterShape": "poster",
-      "description": "The new medical director breaks the rules to heal the system at America's oldest public hospital. Max Goodwin sets out to tear up the bureaucracy and provide exceptional care, but the doctors and staff are not so sure he can succeed. They've heard this before. Not taking \"no\" for an answer, Dr. Goodwin's instinctive response to problems large and small is four simple words: \"How can I help?\" He has to disrupt the status quo and prove he'll stop at nothing to breathe new life into this underfunded and underappreciated hospital, returning it to the glory that put it on the map.",
+      "description": "Before The Terminal List, Navy SEAL Ben Edwards finds himself entangled in the black operations side of the CIA. The deeper Ben goes into the 'gray', the harder it will become to not give himself over to his darker impulses. Every man has two wolves inside him – light and dark – fighting for control. Which wolf will Ben Edwards feed?",
       "genres": [
+        "Action & Adventure",
         "Drama"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt7817340"
+      "releaseInfo": "2025",
+      "imdb_id": "tt26576161"
     },
     {
       "id": "tt6130902",
@@ -282,6 +269,19 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt6130902"
+    },
+    {
+      "id": "tt7817340",
+      "type": "series",
+      "name": "New Amsterdam",
+      "poster": "https://image.tmdb.org/t/p/w500/jsH4AeGZn5Q6h314A3OTUHKxHhR.jpg",
+      "posterShape": "poster",
+      "description": "The new medical director breaks the rules to heal the system at America's oldest public hospital. Max Goodwin sets out to tear up the bureaucracy and provide exceptional care, but the doctors and staff are not so sure he can succeed. They've heard this before. Not taking \"no\" for an answer, Dr. Goodwin's instinctive response to problems large and small is four simple words: \"How can I help?\" He has to disrupt the status quo and prove he'll stop at nothing to breathe new life into this underfunded and underappreciated hospital, returning it to the glory that put it on the map.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt7817340"
     }
   ]
 }
