@@ -132,6 +132,22 @@
       "imdb_id": "tt0195685"
     },
     {
+      "id": "tt3501632",
+      "type": "movie",
+      "name": "Thor: Ragnarok",
+      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "posterShape": "poster",
+      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt3501632"
+    },
+    {
       "id": "tt31050020",
       "type": "movie",
       "name": "Once Upon a Deadpool",
@@ -206,6 +222,20 @@
       "imdb_id": "tt5950044"
     },
     {
+      "id": "tt1631867",
+      "type": "movie",
+      "name": "Edge of Tomorrow",
+      "poster": "https://image.tmdb.org/t/p/w500/nBM9MMa2WCwvMG4IJ3eiGUdbPe6.jpg",
+      "posterShape": "poster",
+      "description": "Major Bill Cage is an officer who has never seen a day of combat when he is unceremoniously demoted and dropped into combat. Cage is killed within minutes, managing to take an alpha alien down with him. He awakens back at the beginning of the same day and is forced to fight and die again... and again - as physical contact with the alien has thrown him into a time loop.",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt1631867"
+    },
+    {
       "id": "tt7526136",
       "type": "movie",
       "name": "Heart of the Beast",
@@ -261,37 +291,6 @@
       ],
       "releaseInfo": "2007",
       "imdb_id": "tt0469494"
-    },
-    {
-      "id": "tt3501632",
-      "type": "movie",
-      "name": "Thor: Ragnarok",
-      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
-      "posterShape": "poster",
-      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt3501632"
-    },
-    {
-      "id": "tt0478970",
-      "type": "movie",
-      "name": "Ant-Man",
-      "poster": "https://image.tmdb.org/t/p/w500/rQRnQfUl3kfp78nCWq8Ks04vnq1.jpg",
-      "posterShape": "poster",
-      "description": "Armed with the astonishing ability to shrink in scale but increase in strength, master thief Scott Lang must embrace his inner-hero and help his mentor, Doctor Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world.",
-      "genres": [
-        "Science Fiction",
-        "Adventure",
-        "Action"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt0478970"
     }
   ]
 }

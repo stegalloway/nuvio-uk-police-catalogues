@@ -1,6 +1,78 @@
 {
   "metas": [
     {
+      "id": "tt15574124",
+      "type": "movie",
+      "name": "Peaky Blinders: The Immortal Man",
+      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+      "posterShape": "poster",
+      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt15574124"
+    },
+    {
+      "id": "tt29028515",
+      "type": "movie",
+      "name": "Wasteman",
+      "poster": "https://image.tmdb.org/t/p/w500/lKK9ImwpoTCwDZKgYpjIIJCnlf0.jpg",
+      "posterShape": "poster",
+      "description": "Taylor's hopes for a fresh start post-parole are jeopardised by cellmate Dee's arrival. As Dee takes Taylor under his wing, a vicious attack tests their bond, forcing Taylor to choose between protecting Dee and his own chances at freedom.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt29028515"
+    },
+    {
+      "id": "tt5726616",
+      "type": "movie",
+      "name": "Call Me by Your Name",
+      "poster": "https://image.tmdb.org/t/p/w500/gXiE0WveDnT0n5J4sW9TMxXF4oT.jpg",
+      "posterShape": "poster",
+      "description": "In the summer of 1983, a 17-year-old Elio spends his days in his family's villa in Italy. One day Oliver, a graduate student, arrives to assist Elio's father, a professor of Greco-Roman culture. Soon, Elio and Oliver discover a summer that will alter their lives forever.",
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5726616"
+    },
+    {
+      "id": "tt31349844",
+      "type": "movie",
+      "name": "Runner",
+      "poster": "https://image.tmdb.org/t/p/w500/vJk2TW1QZAmBiD7oj9ZF9EPTYY1.jpg",
+      "posterShape": "poster",
+      "description": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31349844"
+    },
+    {
+      "id": "tt11564570",
+      "type": "movie",
+      "name": "Glass Onion: A Knives Out Mystery",
+      "poster": "https://image.tmdb.org/t/p/w500/vDGr1YdrlfbU9wxTOdpf3zChmv9.jpg",
+      "posterShape": "poster",
+      "description": "World-famous detective Benoit Blanc heads to Greece to peel back the layers of a mystery surrounding a tech billionaire and his eclectic crew of friends.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11564570"
+    },
+    {
       "id": "tt33296751",
       "type": "movie",
       "name": "Tuner",

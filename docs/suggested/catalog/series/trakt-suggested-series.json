@@ -213,19 +213,18 @@
       "imdb_id": "tt1489428"
     },
     {
-      "id": "tt4258440",
+      "id": "tt10732104",
       "type": "series",
-      "name": "River",
-      "poster": "https://image.tmdb.org/t/p/w500/fhiVcu9RA3MEVQtMowwQUsHJfJR.jpg",
+      "name": "Power Book II: Ghost",
+      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
       "posterShape": "poster",
-      "description": "Respected police officer John River, a gifted cop with a troubled mind, struggles to come to terms with the recent loss of a colleague, and chases a suspect across London - with tragic consequences. Now at odds with the authorities, River ends up in a precarious position as he seeks to bring closure to the mother of murdered teenager, who blames him for failing to keep his promise.",
+      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
       "genres": [
         "Crime",
-        "Drama",
-        "Mystery"
+        "Drama"
       ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4258440"
+      "releaseInfo": "2020",
+      "imdb_id": "tt10732104"
     },
     {
       "id": "tt30460310",
@@ -257,18 +256,18 @@
       "imdb_id": "tt7440726"
     },
     {
-      "id": "tt10732104",
+      "id": "tt1652216",
       "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "name": "DCI Banks",
+      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
       "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
+      "releaseInfo": "2011",
+      "imdb_id": "tt1652216"
     },
     {
       "id": "tt0903747",

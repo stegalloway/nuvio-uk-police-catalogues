@@ -192,6 +192,21 @@
       "imdb_id": "tt9698480"
     },
     {
+      "id": "tt0773262",
+      "type": "series",
+      "name": "Dexter",
+      "poster": "https://image.tmdb.org/t/p/w500/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
+      "posterShape": "poster",
+      "description": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2006",
+      "imdb_id": "tt0773262"
+    },
+    {
       "id": "tt5722298",
       "type": "series",
       "name": "Private Eyes",
@@ -275,20 +290,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt32267726"
-    },
-    {
-      "id": "tt9179552",
-      "type": "series",
-      "name": "Dr. Death",
-      "poster": "https://image.tmdb.org/t/p/w500/pNnmxTSc2ixac4xk8T80wchec0r.jpg",
-      "posterShape": "poster",
-      "description": "An anthology series, with each season following a new medical true crime story.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt9179552"
     }
   ]
 }

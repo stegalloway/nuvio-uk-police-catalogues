@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt1652216",
-      "type": "series",
-      "name": "DCI Banks",
-      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
-      "posterShape": "poster",
-      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1652216"
-    },
-    {
       "id": "tt14063678",
       "type": "series",
       "name": "The Gold",
@@ -72,20 +58,6 @@
       "imdb_id": "tt2788432"
     },
     {
-      "id": "tt5290382",
-      "type": "series",
-      "name": "MINDHUNTER",
-      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
-      "posterShape": "poster",
-      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt5290382"
-    },
-    {
       "id": "tt11846996",
       "type": "series",
       "name": "Vigil",
@@ -98,6 +70,20 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11846996"
+    },
+    {
+      "id": "tt5290382",
+      "type": "series",
+      "name": "MINDHUNTER",
+      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+      "posterShape": "poster",
+      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5290382"
     },
     {
       "id": "tt13018148",
@@ -215,6 +201,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt14582876"
+    },
+    {
+      "id": "tt4258440",
+      "type": "series",
+      "name": "River",
+      "poster": "https://image.tmdb.org/t/p/w500/fhiVcu9RA3MEVQtMowwQUsHJfJR.jpg",
+      "posterShape": "poster",
+      "description": "Respected police officer John River, a gifted cop with a troubled mind, struggles to come to terms with the recent loss of a colleague, and chases a suspect across London - with tragic consequences. Now at odds with the authorities, River ends up in a precarious position as he seeks to bring closure to the mother of murdered teenager, who blames him for failing to keep his promise.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt4258440"
     },
     {
       "id": "tt2304589",

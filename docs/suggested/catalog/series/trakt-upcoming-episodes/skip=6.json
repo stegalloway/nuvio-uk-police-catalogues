@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt7661390",
-      "type": "series",
-      "name": "Gangs of London",
-      "poster": "https://image.tmdb.org/t/p/w500/fVgwa6wGw9ddGM5O7mqrrwB6gHK.jpg",
-      "posterShape": "poster",
-      "description": "S3 E1–8 · out Thu 8 May 2025\n\nWhen the head of a criminal organisation, Finn Wallace is assassinated, the sudden power vacuum his death creates threatens the fragile peace between the intricate web of gangs operating on the streets of the city. Now it’s up to the grieving, volatile and impulsive Sean Wallace to restore control and find those responsible for killing his father.",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "Out now · S3 E1–8",
-      "imdb_id": "tt7661390"
-    },
-    {
       "id": "tt5645432",
       "type": "series",
       "name": "The Old Man",
@@ -50,12 +35,12 @@
       "name": "MobLand",
       "poster": "https://image.tmdb.org/t/p/w500/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
       "posterShape": "poster",
-      "description": "S2 E7 · Ace of Spades · Tomorrow\n\nTwo mob families clash in a war that threatens to topple empires and lives.",
+      "description": "S2 E7 · Ace of Spades · Today\n\nTwo mob families clash in a war that threatens to topple empires and lives.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "Tomorrow · S2 E7",
+      "releaseInfo": "Today · S2 E7",
       "imdb_id": "tt31510819"
     },
     {
