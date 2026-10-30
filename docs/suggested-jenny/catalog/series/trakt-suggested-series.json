@@ -71,21 +71,6 @@
       "imdb_id": "tt10970552"
     },
     {
-      "id": "tt2953250",
-      "type": "series",
-      "name": "Shining Girls",
-      "poster": "https://image.tmdb.org/t/p/w500/qmN97JxhZHgCThRqgzaiSF7C2mj.jpg",
-      "posterShape": "poster",
-      "description": "Years after a brutal attack left her in a constantly shifting reality, Kirby Mazrachi learns that a recent murder is linked to her assault. She teams with veteran reporter Dan Velazquez to understand her ever-changing present—and confront her past.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt2953250"
-    },
-    {
       "id": "tt10148174",
       "type": "series",
       "name": "The Walking Dead: World Beyond",
@@ -100,18 +85,19 @@
       "imdb_id": "tt10148174"
     },
     {
-      "id": "tt36303968",
+      "id": "tt2953250",
       "type": "series",
-      "name": "Furious",
-      "poster": "https://image.tmdb.org/t/p/w500/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg",
+      "name": "Shining Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/qmN97JxhZHgCThRqgzaiSF7C2mj.jpg",
       "posterShape": "poster",
-      "description": "FBI agent Alice Black is on the hunt for a mysterious and calculating female serial killer. Both walk their own paths toward justice, and as their lives start to intertwine, the line between right and wrong begins to blur.",
+      "description": "Years after a brutal attack left her in a constantly shifting reality, Kirby Mazrachi learns that a recent murder is linked to her assault. She teams with veteran reporter Dan Velazquez to understand her ever-changing present—and confront her past.",
       "genres": [
         "Drama",
+        "Mystery",
         "Crime"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36303968"
+      "releaseInfo": "2022",
+      "imdb_id": "tt2953250"
     },
     {
       "id": "tt8415836",
@@ -129,6 +115,20 @@
       "imdb_id": "tt8415836"
     },
     {
+      "id": "tt36303968",
+      "type": "series",
+      "name": "Furious",
+      "poster": "https://image.tmdb.org/t/p/w500/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg",
+      "posterShape": "poster",
+      "description": "FBI agent Alice Black is on the hunt for a mysterious and calculating female serial killer. Both walk their own paths toward justice, and as their lives start to intertwine, the line between right and wrong begins to blur.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt36303968"
+    },
+    {
       "id": "tt9859436",
       "type": "series",
       "name": "The Walking Dead: The Ones Who Live",
@@ -143,20 +143,6 @@
       "imdb_id": "tt9859436"
     },
     {
-      "id": "tt3960394",
-      "type": "series",
-      "name": "Interview with the Vampire",
-      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
-      "posterShape": "poster",
-      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
-      "genres": [
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt3960394"
-    },
-    {
       "id": "tt19244304",
       "type": "series",
       "name": "IT: Welcome to Derry",
@@ -169,6 +155,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt19244304"
+    },
+    {
+      "id": "tt3960394",
+      "type": "series",
+      "name": "Interview with the Vampire",
+      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
+      "posterShape": "poster",
+      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt3960394"
     },
     {
       "id": "tt13623632",

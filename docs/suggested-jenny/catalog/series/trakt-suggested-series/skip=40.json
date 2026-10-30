@@ -30,18 +30,18 @@
       "imdb_id": "tt11343600"
     },
     {
-      "id": "tt5194792",
+      "id": "tt34579520",
       "type": "series",
-      "name": "NOS4A2",
-      "poster": "https://image.tmdb.org/t/p/w500/gnosVTTRTCqooJuipwU6C0bgOGf.jpg",
+      "name": "Murder Before Evensong",
+      "poster": "https://image.tmdb.org/t/p/w500/xn7TFZnR9U2KpJovIg5F1WZ1qs2.jpg",
       "posterShape": "poster",
-      "description": "A young Victoria \"Vic\" McQueen discovers she has the power to unlock portals that help her find lost objects. As she delves further into this hidden universe, she encounters many other \"inscape travelers\" - some benevolent, and some who have been corrupted by their power. When Vic encounters Charlie Manx, an immortal who stays that way by feeding off of the souls of children, she makes a sworn enemy of Manx.",
+      "description": "In 1980s England, Canon Daniel Clement, the Rector of Champton, finds himself unexpectedly entangled in a murder case when a dead body turns up in the church. When Daniel announces a plan to modernize the church, the parish is suddenly divided. And then a body is found dead at the back of the church. As the police move in and the bodies start piling up, Daniel is the only one who can try and keep his fractured community together... and catch a killer.",
       "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt5194792"
+      "releaseInfo": "2025",
+      "imdb_id": "tt34579520"
     },
     {
       "id": "tt14016500",
@@ -57,18 +57,18 @@
       "imdb_id": "tt14016500"
     },
     {
-      "id": "tt34579520",
+      "id": "tt5194792",
       "type": "series",
-      "name": "Murder Before Evensong",
-      "poster": "https://image.tmdb.org/t/p/w500/xn7TFZnR9U2KpJovIg5F1WZ1qs2.jpg",
+      "name": "NOS4A2",
+      "poster": "https://image.tmdb.org/t/p/w500/gnosVTTRTCqooJuipwU6C0bgOGf.jpg",
       "posterShape": "poster",
-      "description": "In 1980s England, Canon Daniel Clement, the Rector of Champton, finds himself unexpectedly entangled in a murder case when a dead body turns up in the church. When Daniel announces a plan to modernize the church, the parish is suddenly divided. And then a body is found dead at the back of the church. As the police move in and the bodies start piling up, Daniel is the only one who can try and keep his fractured community together... and catch a killer.",
+      "description": "A young Victoria \"Vic\" McQueen discovers she has the power to unlock portals that help her find lost objects. As she delves further into this hidden universe, she encounters many other \"inscape travelers\" - some benevolent, and some who have been corrupted by their power. When Vic encounters Charlie Manx, an immortal who stays that way by feeding off of the souls of children, she makes a sworn enemy of Manx.",
       "genres": [
-        "Drama",
-        "Mystery"
+        "Sci-Fi & Fantasy",
+        "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt34579520"
+      "releaseInfo": "2019",
+      "imdb_id": "tt5194792"
     },
     {
       "id": "tt9813792",
@@ -86,6 +86,21 @@
       "imdb_id": "tt9813792"
     },
     {
+      "id": "tt9174630",
+      "type": "series",
+      "name": "The Horror of Dolores Roach",
+      "poster": "https://image.tmdb.org/t/p/w500/qTYLRBCNyOuyktuTcjqJ7rbXxaF.jpg",
+      "posterShape": "poster",
+      "description": "After an unjust 16-year prison sentence, Dolores Roach returns to a gentrified Washington Heights, where she reunites with an old stoner friend, Luis, who lets her live and work as a masseuse in the basement under his empanada shop. When the promise of her newfound stability is quickly threatened, “Magic Hands” Dolores is driven to shocking extremes to survive.",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Mystery"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt9174630"
+    },
+    {
       "id": "tt31314754",
       "type": "series",
       "name": "Devil in Disguise: John Wayne Gacy",
@@ -98,20 +113,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt31314754"
-    },
-    {
-      "id": "tt13729648",
-      "type": "series",
-      "name": "Candy",
-      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
-      "posterShape": "poster",
-      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13729648"
     },
     {
       "id": "tt11794812",
@@ -129,6 +130,20 @@
       "imdb_id": "tt11794812"
     },
     {
+      "id": "tt13729648",
+      "type": "series",
+      "name": "Candy",
+      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
+      "posterShape": "poster",
+      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13729648"
+    },
+    {
       "id": "tt3581920",
       "type": "series",
       "name": "The Last of Us",
@@ -142,19 +157,19 @@
       "imdb_id": "tt3581920"
     },
     {
-      "id": "tt9174630",
+      "id": "tt2708480",
       "type": "series",
-      "name": "The Horror of Dolores Roach",
-      "poster": "https://image.tmdb.org/t/p/w500/qTYLRBCNyOuyktuTcjqJ7rbXxaF.jpg",
+      "name": "The Terror",
+      "poster": "https://image.tmdb.org/t/p/w500/fUVn5mScv83FfwrRUUR694yA7bd.jpg",
       "posterShape": "poster",
-      "description": "After an unjust 16-year prison sentence, Dolores Roach returns to a gentrified Washington Heights, where she reunites with an old stoner friend, Luis, who lets her live and work as a masseuse in the basement under his empanada shop. When the promise of her newfound stability is quickly threatened, “Magic Hands” Dolores is driven to shocking extremes to survive.",
+      "description": "A chilling anthology series featuring stories of people in terrifying situations inspired by true historical events.",
       "genres": [
+        "Mystery",
         "Drama",
-        "Comedy",
-        "Mystery"
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt9174630"
+      "releaseInfo": "2018",
+      "imdb_id": "tt2708480"
     },
     {
       "id": "tt19853270",
@@ -171,33 +186,19 @@
       "imdb_id": "tt19853270"
     },
     {
-      "id": "tt7985576",
+      "id": "tt18926116",
       "type": "series",
-      "name": "The Serpent",
-      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "name": "Fear the Walking Dead: Dead in the Water",
+      "poster": "https://image.tmdb.org/t/p/w500/kayTdmzIZli4S0njuQjhI8i5clf.jpg",
       "posterShape": "poster",
-      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "description": "Riley is serving as a weapons officer aboard the USS Pennsylvania near the Gulf of Mexico when a mysterious outbreak forces the crew to strategize a way off the sub before it becomes their tomb, in this prequel to Fear the Walking Dead.",
       "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt7985576"
-    },
-    {
-      "id": "tt2708480",
-      "type": "series",
-      "name": "The Terror",
-      "poster": "https://image.tmdb.org/t/p/w500/fUVn5mScv83FfwrRUUR694yA7bd.jpg",
-      "posterShape": "poster",
-      "description": "A chilling anthology series featuring stories of people in terrifying situations inspired by true historical events.",
-      "genres": [
-        "Mystery",
+        "Action & Adventure",
         "Drama",
         "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt2708480"
+      "releaseInfo": "2022",
+      "imdb_id": "tt18926116"
     },
     {
       "id": "tt9642938",
@@ -228,19 +229,18 @@
       "imdb_id": "tt31849826"
     },
     {
-      "id": "tt18926116",
+      "id": "tt7985576",
       "type": "series",
-      "name": "Fear the Walking Dead: Dead in the Water",
-      "poster": "https://image.tmdb.org/t/p/w500/kayTdmzIZli4S0njuQjhI8i5clf.jpg",
+      "name": "The Serpent",
+      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
       "posterShape": "poster",
-      "description": "Riley is serving as a weapons officer aboard the USS Pennsylvania near the Gulf of Mexico when a mysterious outbreak forces the crew to strategize a way off the sub before it becomes their tomb, in this prequel to Fear the Walking Dead.",
+      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
       "genres": [
-        "Action & Adventure",
         "Drama",
-        "Sci-Fi & Fantasy"
+        "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt18926116"
+      "releaseInfo": "2021",
+      "imdb_id": "tt7985576"
     },
     {
       "id": "tt26576161",
