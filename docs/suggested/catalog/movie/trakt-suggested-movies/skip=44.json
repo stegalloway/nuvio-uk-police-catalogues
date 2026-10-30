@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt11564570",
+      "type": "movie",
+      "name": "Glass Onion: A Knives Out Mystery",
+      "poster": "https://image.tmdb.org/t/p/w500/vDGr1YdrlfbU9wxTOdpf3zChmv9.jpg",
+      "posterShape": "poster",
+      "description": "World-famous detective Benoit Blanc heads to Greece to peel back the layers of a mystery surrounding a tech billionaire and his eclectic crew of friends.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11564570"
+    },
+    {
       "id": "tt33296751",
       "type": "movie",
       "name": "Tuner",
