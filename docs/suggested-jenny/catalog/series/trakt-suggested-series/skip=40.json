@@ -185,6 +185,21 @@
       "imdb_id": "tt9174630"
     },
     {
+      "id": "tt2708480",
+      "type": "series",
+      "name": "The Terror",
+      "poster": "https://image.tmdb.org/t/p/w500/fUVn5mScv83FfwrRUUR694yA7bd.jpg",
+      "posterShape": "poster",
+      "description": "A chilling anthology series featuring stories of people in terrifying situations inspired by true historical events.",
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt2708480"
+    },
+    {
       "id": "tt9642938",
       "type": "series",
       "name": "Unsolved Mysteries",
@@ -268,19 +283,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt6130902"
-    },
-    {
-      "id": "tt4452630",
-      "type": "series",
-      "name": "Code Black",
-      "poster": "https://image.tmdb.org/t/p/w500/3T1b6YK6vLrZoLZC5hd65ZuRLq8.jpg",
-      "posterShape": "poster",
-      "description": "Inspired by the award-winning documentary, this medical drama is set in the busiest and most notorious ER in the nation where the extraordinary staff confront a challenged system in order to protect their ideals and the patients who need them the most.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4452630"
     }
   ]
 }
