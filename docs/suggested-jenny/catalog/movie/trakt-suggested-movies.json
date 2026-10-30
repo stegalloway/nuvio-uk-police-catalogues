@@ -249,19 +249,6 @@
       "imdb_id": "tt8004664"
     },
     {
-      "id": "tt10963926",
-      "type": "movie",
-      "name": "Two Witches",
-      "poster": "https://image.tmdb.org/t/p/w500/a6JHz23BOfbzWxL5JsrBWQHqMuh.jpg",
-      "posterShape": "poster",
-      "description": "A matriarchal witch passes on her sinister inheritance to her grand-daughter, triggering the most horrific curses.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt10963926"
-    },
-    {
       "id": "tt13405778",
       "type": "movie",
       "name": "Insidious: The Red Door",
@@ -274,6 +261,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt13405778"
+    },
+    {
+      "id": "tt34494076",
+      "type": "movie",
+      "name": "Hungry",
+      "poster": "https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg",
+      "posterShape": "poster",
+      "description": "A group of holidaymakers must fight for their lives against a rampaging hippo on the loose after becoming lost in the Louisiana swamplands.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34494076"
     }
   ]
 }
