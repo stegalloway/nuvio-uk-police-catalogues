@@ -16,6 +16,9 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 EDITORIAL = ROOT / "config" / "editorial.json"
 DISCOVERED = ROOT / "data" / "discovered.json"
 REVIEW = ROOT / "data" / "review-queue.json"
+# Every show ever put in the review queue. A show is queued once, so it never
+# comes back after it has been shown (failsafe, 30 October 2026).
+SEEN = ROOT / "data" / "review-seen.json"
 DOCS = ROOT / "docs"
 PAGE_SIZE = 20
 BASE_URL = "https://api.themoviedb.org/3"
@@ -169,7 +172,7 @@ def to_meta(tv):
         "background":("https://image.tmdb.org/t/p/w1280/"+backdrop.lstrip("/")) if backdrop else poster
     }
 
-def discover(tmdb, editorial, previous, seeded, already):
+def discover(tmdb, editorial, previous, seeded, already, seen_ids=frozenset()):
     """Scan recent and historic UK TV documentary premieres. Double-confirm auto additions."""
     past=years_ago(editorial["firstAiredWithinYears"])
     query={"with_origin_country":"GB","with_genres":"99|10764",
@@ -198,7 +201,7 @@ def discover(tmdb, editorial, previous, seeded, already):
             # Keep recently considered shows even if upstream pagination changes.
             if date_or_none(meta.get("lastSeen")) and date_or_none(meta["lastSeen"])>=months_ago(1):
                 matches[tmdb_id]=meta
-    blocked=set(editorial.get("excludedTmdbIds",[]))
+    blocked=set(editorial.get("excludedTmdbIds",[]))|seen_ids
     name_seen={title_key(x.get("name")) for x in seeded.values()}
     for id in already:
         if id in tmdb.cache:name_seen.add(title_key(tmdb.cache[id].get("name")))
@@ -308,6 +311,7 @@ def run():
     editorial=load_json(EDITORIAL)
     discovered=load_json(DISCOVERED,{"schema":1})
     previous_review=load_json(REVIEW,{"schema":1,"candidates":[]})
+    seen_ids=set(load_json(SEEN,{"schema":1,"tmdbIds":[]}).get("tmdbIds",[]))
     tmdb=TMDB(os.environ.get("TMDB_ACCESS_TOKEN"))
     ids=list(dict.fromkeys([i for c in editorial["categories"].values() for i in c["tmdbIds"]]+
                                [i for slug in editorial["categories"] for i in discovered.get(slug,[])]))
@@ -319,7 +323,10 @@ def run():
     review=previous_review
     scan_pages=scan_candidates=0
     if not options.bootstrap:
-        fresh,review,scan_pages,scan_candidates=discover(tmdb,editorial,previous_review,original_ids,set(ids))
+        fresh,review,scan_pages,scan_candidates=discover(tmdb,editorial,previous_review,original_ids,set(ids),seen_ids)
+        seen_ids|={c["tmdbId"] for c in review["candidates"]}
+        if not options.dry_run:
+            save_json(SEEN,{"schema":1,"tmdbIds":sorted(seen_ids)})
     render_outputs(tmdb,editorial,discovered,fresh,review,scan_pages,scan_candidates,write=not options.dry_run)
 
 if __name__=="__main__":
