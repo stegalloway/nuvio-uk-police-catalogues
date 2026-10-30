@@ -30,19 +30,6 @@
       "imdb_id": "tt11343600"
     },
     {
-      "id": "tt14016500",
-      "type": "series",
-      "name": "The Summer I Turned Pretty",
-      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
-      "posterShape": "poster",
-      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14016500"
-    },
-    {
       "id": "tt5194792",
       "type": "series",
       "name": "NOS4A2",
@@ -55,6 +42,19 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt5194792"
+    },
+    {
+      "id": "tt14016500",
+      "type": "series",
+      "name": "The Summer I Turned Pretty",
+      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
+      "posterShape": "poster",
+      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14016500"
     },
     {
       "id": "tt34579520",
@@ -185,21 +185,6 @@
       "imdb_id": "tt7985576"
     },
     {
-      "id": "tt9642938",
-      "type": "series",
-      "name": "Unsolved Mysteries",
-      "poster": "https://image.tmdb.org/t/p/w500/5Gn9hoJZUiJX5yb4datIcoq3Day.jpg",
-      "posterShape": "poster",
-      "description": "Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this gripping revival of the iconic documentary series.",
-      "genres": [
-        "Documentary",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9642938"
-    },
-    {
       "id": "tt2708480",
       "type": "series",
       "name": "The Terror",
@@ -213,6 +198,21 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt2708480"
+    },
+    {
+      "id": "tt9642938",
+      "type": "series",
+      "name": "Unsolved Mysteries",
+      "poster": "https://image.tmdb.org/t/p/w500/5Gn9hoJZUiJX5yb4datIcoq3Day.jpg",
+      "posterShape": "poster",
+      "description": "Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this gripping revival of the iconic documentary series.",
+      "genres": [
+        "Documentary",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt9642938"
     },
     {
       "id": "tt31849826",
