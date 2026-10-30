@@ -58,6 +58,21 @@
       "imdb_id": "tt12873562"
     },
     {
+      "id": "tt35538033",
+      "type": "movie",
+      "name": "Resident Evil",
+      "poster": "https://image.tmdb.org/t/p/w500/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+      "posterShape": "poster",
+      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35538033"
+    },
+    {
       "id": "tt23137390",
       "type": "movie",
       "name": "Immaculate",
@@ -103,21 +118,6 @@
       "imdb_id": "tt14364480"
     },
     {
-      "id": "tt35538033",
-      "type": "movie",
-      "name": "Resident Evil",
-      "poster": "https://image.tmdb.org/t/p/w500/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
-      "posterShape": "poster",
-      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
-      "genres": [
-        "Horror",
-        "Science Fiction",
-        "Adventure"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35538033"
-    },
-    {
       "id": "tt35672862",
       "type": "movie",
       "name": "Hokum",
@@ -144,6 +144,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt29550683"
+    },
+    {
+      "id": "tt23642744",
+      "type": "movie",
+      "name": "Night of the Hunted",
+      "poster": "https://image.tmdb.org/t/p/w500/tfNFmBGBVF1biwOTBgFONAeCaDZ.jpg",
+      "posterShape": "poster",
+      "description": "When an unsuspecting woman stops at a remote gas station in the dead of night, she's made the plaything of a sociopath sniper with a secret vendetta. To survive, she must not only dodge his bullets and fight for her life, but also figure out who wants her dead and why.",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt23642744"
     },
     {
       "id": "tt37281055",
@@ -235,6 +250,20 @@
       "imdb_id": "tt1877830"
     },
     {
+      "id": "tt6874690",
+      "type": "movie",
+      "name": "The Rule of Jenny Pen",
+      "poster": "https://image.tmdb.org/t/p/w500/5vqK1wbrgmUvqHn6yPt9b6qT9iL.jpg",
+      "posterShape": "poster",
+      "description": "Confined to a secluded rest home and trapped within his stroke-ridden body, a former Judge must stop an elderly psychopath who employs a child's puppet to abuse the home's residents with deadly consequences.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt6874690"
+    },
+    {
       "id": "tt1051906",
       "type": "movie",
       "name": "The Invisible Man",
@@ -262,35 +291,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5040012"
-    },
-    {
-      "id": "tt23642744",
-      "type": "movie",
-      "name": "Night of the Hunted",
-      "poster": "https://image.tmdb.org/t/p/w500/tfNFmBGBVF1biwOTBgFONAeCaDZ.jpg",
-      "posterShape": "poster",
-      "description": "When an unsuspecting woman stops at a remote gas station in the dead of night, she's made the plaything of a sociopath sniper with a secret vendetta. To survive, she must not only dodge his bullets and fight for her life, but also figure out who wants her dead and why.",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt23642744"
-    },
-    {
-      "id": "tt26470109",
-      "type": "movie",
-      "name": "Oddity",
-      "poster": "https://image.tmdb.org/t/p/w500/3Z9c1tbUhP0QruRjczPHnbx3U2D.jpg",
-      "posterShape": "poster",
-      "description": "After the brutal murder of her twin sister, Darcy goes after those responsible by using haunted items as her tools for revenge.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt26470109"
     }
   ]
 }
