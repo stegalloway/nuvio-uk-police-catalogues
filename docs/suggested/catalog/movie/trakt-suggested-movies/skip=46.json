@@ -1,6 +1,34 @@
 {
   "metas": [
     {
+      "id": "tt5726616",
+      "type": "movie",
+      "name": "Call Me by Your Name",
+      "poster": "https://image.tmdb.org/t/p/w500/gXiE0WveDnT0n5J4sW9TMxXF4oT.jpg",
+      "posterShape": "poster",
+      "description": "In the summer of 1983, a 17-year-old Elio spends his days in his family's villa in Italy. One day Oliver, a graduate student, arrives to assist Elio's father, a professor of Greco-Roman culture. Soon, Elio and Oliver discover a summer that will alter their lives forever.",
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5726616"
+    },
+    {
+      "id": "tt31349844",
+      "type": "movie",
+      "name": "Runner",
+      "poster": "https://image.tmdb.org/t/p/w500/vJk2TW1QZAmBiD7oj9ZF9EPTYY1.jpg",
+      "posterShape": "poster",
+      "description": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31349844"
+    },
+    {
       "id": "tt33296751",
       "type": "movie",
       "name": "Tuner",
