@@ -165,20 +165,6 @@
       "imdb_id": "tt2249364"
     },
     {
-      "id": "tt6964748",
-      "type": "series",
-      "name": "Alex Rider",
-      "poster": "https://image.tmdb.org/t/p/w500/7VkzkvA0XckUClWrlkt4fnmTrkL.jpg",
-      "posterShape": "poster",
-      "description": "Alex Rider is an ordinary teenager enlisted to work on behalf of MI6, where he uses skills he didn't know he had to become an extraordinary spy.",
-      "genres": [
-        "Drama",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt6964748"
-    },
-    {
       "id": "tt3647998",
       "type": "series",
       "name": "Taboo",
@@ -191,6 +177,20 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt3647998"
+    },
+    {
+      "id": "tt6964748",
+      "type": "series",
+      "name": "Alex Rider",
+      "poster": "https://image.tmdb.org/t/p/w500/7VkzkvA0XckUClWrlkt4fnmTrkL.jpg",
+      "posterShape": "poster",
+      "description": "Alex Rider is an ordinary teenager enlisted to work on behalf of MI6, where he uses skills he didn't know he had to become an extraordinary spy.",
+      "genres": [
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt6964748"
     },
     {
       "id": "tt9698480",
@@ -236,20 +236,6 @@
       "imdb_id": "tt5722298"
     },
     {
-      "id": "tt14218674",
-      "type": "series",
-      "name": "NCIS: Hawaiʻi",
-      "poster": "https://image.tmdb.org/t/p/w500/4R8xtDx2ge0GjEOnEwoR8V8X82q.jpg",
-      "posterShape": "poster",
-      "description": "Jane Tennant, the first female Special Agent in Charge of NCIS Pearl Harbor, and her unwavering team of specialists balance duty to family and country while investigating high-stakes crimes involving military personnel, national security and the mysteries of the sun-drenched island paradise itself.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt14218674"
-    },
-    {
       "id": "tt0773262",
       "type": "series",
       "name": "Dexter",
@@ -263,6 +249,20 @@
       ],
       "releaseInfo": "2006",
       "imdb_id": "tt0773262"
+    },
+    {
+      "id": "tt14218674",
+      "type": "series",
+      "name": "NCIS: Hawaiʻi",
+      "poster": "https://image.tmdb.org/t/p/w500/4R8xtDx2ge0GjEOnEwoR8V8X82q.jpg",
+      "posterShape": "poster",
+      "description": "Jane Tennant, the first female Special Agent in Charge of NCIS Pearl Harbor, and her unwavering team of specialists balance duty to family and country while investigating high-stakes crimes involving military personnel, national security and the mysteries of the sun-drenched island paradise itself.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt14218674"
     },
     {
       "id": "tt27954448",
