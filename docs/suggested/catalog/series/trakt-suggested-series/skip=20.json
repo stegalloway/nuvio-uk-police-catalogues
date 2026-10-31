@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt10367818",
+      "type": "series",
+      "name": "El final del paraíso",
+      "poster": "https://image.tmdb.org/t/p/w500/1B2upXyWC74tRmg6UEtuvIm08rQ.jpg",
+      "posterShape": "poster",
+      "description": "In this new era, Catalina, now head of the DEA in Colombia, has a new challenge: to track down a criminal organization that is trafficking a new synthetic drug. What she ignores is that her daughter is part of the Cartel that traffics them and that Yésica, her worst enemy, is infiltrated in the DEA.",
+      "genres": [
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt10367818"
+    },
+    {
       "id": "tt14063678",
       "type": "series",
       "name": "The Gold",
@@ -275,20 +289,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11846996"
-    },
-    {
-      "id": "tt32559610",
-      "type": "series",
-      "name": "Countdown",
-      "poster": "https://image.tmdb.org/t/p/w500/gcSNS5cy1iOmYawIdJCzoc873rQ.jpg",
-      "posterShape": "poster",
-      "description": "When an officer with the Department of Homeland Security is murdered in broad daylight, LAPD detective Mark Meachum is recruited to a secret task force, alongside undercover agents from all branches of law enforcement, to investigate. But the hunt for the killer soon uncovers a plot far more sinister than anyone could have imagined, kicking off a race against time to save a city of millions.",
-      "genres": [
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32559610"
     }
   ]
 }
