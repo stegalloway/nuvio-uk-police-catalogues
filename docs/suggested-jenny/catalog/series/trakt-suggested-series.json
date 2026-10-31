@@ -85,21 +85,6 @@
       "imdb_id": "tt10148174"
     },
     {
-      "id": "tt2953250",
-      "type": "series",
-      "name": "Shining Girls",
-      "poster": "https://image.tmdb.org/t/p/w500/qmN97JxhZHgCThRqgzaiSF7C2mj.jpg",
-      "posterShape": "poster",
-      "description": "Years after a brutal attack left her in a constantly shifting reality, Kirby Mazrachi learns that a recent murder is linked to her assault. She teams with veteran reporter Dan Velazquez to understand her ever-changing present—and confront her past.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt2953250"
-    },
-    {
       "id": "tt8415836",
       "type": "series",
       "name": "Guillermo del Toro's Cabinet of Curiosities",
@@ -113,6 +98,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt8415836"
+    },
+    {
+      "id": "tt2953250",
+      "type": "series",
+      "name": "Shining Girls",
+      "poster": "https://image.tmdb.org/t/p/w500/qmN97JxhZHgCThRqgzaiSF7C2mj.jpg",
+      "posterShape": "poster",
+      "description": "Years after a brutal attack left her in a constantly shifting reality, Kirby Mazrachi learns that a recent murder is linked to her assault. She teams with veteran reporter Dan Velazquez to understand her ever-changing present—and confront her past.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt2953250"
     },
     {
       "id": "tt36303968",
@@ -143,20 +143,6 @@
       "imdb_id": "tt9859436"
     },
     {
-      "id": "tt3960394",
-      "type": "series",
-      "name": "Interview with the Vampire",
-      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
-      "posterShape": "poster",
-      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
-      "genres": [
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt3960394"
-    },
-    {
       "id": "tt19244304",
       "type": "series",
       "name": "IT: Welcome to Derry",
@@ -171,18 +157,18 @@
       "imdb_id": "tt19244304"
     },
     {
-      "id": "tt13623632",
+      "id": "tt3960394",
       "type": "series",
-      "name": "Alien: Earth",
-      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
+      "name": "Interview with the Vampire",
+      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
       "posterShape": "poster",
-      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
+      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
       "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
+        "Drama",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt13623632"
+      "releaseInfo": "2022",
+      "imdb_id": "tt3960394"
     },
     {
       "id": "tt9064858",
@@ -198,6 +184,20 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt9064858"
+    },
+    {
+      "id": "tt13623632",
+      "type": "series",
+      "name": "Alien: Earth",
+      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
+      "posterShape": "poster",
+      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt13623632"
     },
     {
       "id": "tt10574558",
@@ -228,19 +228,6 @@
       "imdb_id": "tt4301160"
     },
     {
-      "id": "tt31938062",
-      "type": "series",
-      "name": "The Pitt",
-      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
-      "posterShape": "poster",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31938062"
-    },
-    {
       "id": "tt1640719",
       "type": "series",
       "name": "Under the Bridge",
@@ -253,6 +240,19 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt1640719"
+    },
+    {
+      "id": "tt31938062",
+      "type": "series",
+      "name": "The Pitt",
+      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+      "posterShape": "poster",
+      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31938062"
     },
     {
       "id": "tt15567174",
