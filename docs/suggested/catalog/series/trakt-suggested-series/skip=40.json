@@ -165,20 +165,6 @@
       "imdb_id": "tt2249364"
     },
     {
-      "id": "tt3647998",
-      "type": "series",
-      "name": "Taboo",
-      "poster": "https://image.tmdb.org/t/p/w500/om1wVOuEtwH3krHutIWO9sJzkS5.jpg",
-      "posterShape": "poster",
-      "description": "Adventurer James Keziah Delaney returns to London from Africa in 1814 along with fourteen stolen diamonds to seek vengeance after the death of his father.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt3647998"
-    },
-    {
       "id": "tt6964748",
       "type": "series",
       "name": "Alex Rider",
@@ -191,6 +177,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt6964748"
+    },
+    {
+      "id": "tt3647998",
+      "type": "series",
+      "name": "Taboo",
+      "poster": "https://image.tmdb.org/t/p/w500/om1wVOuEtwH3krHutIWO9sJzkS5.jpg",
+      "posterShape": "poster",
+      "description": "Adventurer James Keziah Delaney returns to London from Africa in 1814 along with fourteen stolen diamonds to seek vengeance after the death of his father.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt3647998"
     },
     {
       "id": "tt9698480",
