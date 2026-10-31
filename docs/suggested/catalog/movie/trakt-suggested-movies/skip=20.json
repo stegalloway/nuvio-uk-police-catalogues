@@ -283,19 +283,19 @@
       "imdb_id": "tt7693316"
     },
     {
-      "id": "tt1392190",
+      "id": "tt6924650",
       "type": "movie",
-      "name": "Mad Max: Fury Road",
-      "poster": "https://image.tmdb.org/t/p/w500/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+      "name": "Midway",
+      "poster": "https://image.tmdb.org/t/p/w500/hj8pyoNnynGeJTAbl7jcLZO8Uhx.jpg",
       "posterShape": "poster",
-      "description": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
+      "description": "The story of the Battle of Midway, and the leaders and soldiers who used their instincts, fortitude and bravery to overcome massive odds.",
       "genres": [
-        "Action",
-        "Adventure",
-        "Science Fiction"
+        "War",
+        "History",
+        "Action"
       ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt1392190"
+      "releaseInfo": "2019",
+      "imdb_id": "tt6924650"
     }
   ]
 }

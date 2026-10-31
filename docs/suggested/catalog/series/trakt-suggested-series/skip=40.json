@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt2356777",
+      "type": "series",
+      "name": "True Detective",
+      "poster": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
+      "posterShape": "poster",
+      "description": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2356777"
+    },
+    {
       "id": "tt2802850",
       "type": "series",
       "name": "Fargo",
@@ -179,20 +193,6 @@
       "imdb_id": "tt3647998"
     },
     {
-      "id": "tt2356777",
-      "type": "series",
-      "name": "True Detective",
-      "poster": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
-      "posterShape": "poster",
-      "description": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2356777"
-    },
-    {
       "id": "tt9698480",
       "type": "series",
       "name": "The Stranger",
@@ -221,20 +221,6 @@
       "imdb_id": "tt1442065"
     },
     {
-      "id": "tt14218674",
-      "type": "series",
-      "name": "NCIS: Hawaiʻi",
-      "poster": "https://image.tmdb.org/t/p/w500/4R8xtDx2ge0GjEOnEwoR8V8X82q.jpg",
-      "posterShape": "poster",
-      "description": "Jane Tennant, the first female Special Agent in Charge of NCIS Pearl Harbor, and her unwavering team of specialists balance duty to family and country while investigating high-stakes crimes involving military personnel, national security and the mysteries of the sun-drenched island paradise itself.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt14218674"
-    },
-    {
       "id": "tt5722298",
       "type": "series",
       "name": "Private Eyes",
@@ -248,6 +234,20 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt5722298"
+    },
+    {
+      "id": "tt14218674",
+      "type": "series",
+      "name": "NCIS: Hawaiʻi",
+      "poster": "https://image.tmdb.org/t/p/w500/4R8xtDx2ge0GjEOnEwoR8V8X82q.jpg",
+      "posterShape": "poster",
+      "description": "Jane Tennant, the first female Special Agent in Charge of NCIS Pearl Harbor, and her unwavering team of specialists balance duty to family and country while investigating high-stakes crimes involving military personnel, national security and the mysteries of the sun-drenched island paradise itself.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt14218674"
     },
     {
       "id": "tt0773262",
