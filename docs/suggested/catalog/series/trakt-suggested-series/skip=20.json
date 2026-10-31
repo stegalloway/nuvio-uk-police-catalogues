@@ -101,21 +101,6 @@
       "imdb_id": "tt14379784"
     },
     {
-      "id": "tt33035373",
-      "type": "series",
-      "name": "HIS & HERS",
-      "poster": "https://image.tmdb.org/t/p/w500/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
-      "posterShape": "poster",
-      "description": "Two estranged spouses — one a detective, the other a news reporter — vie to solve a murder in which each believes the other is a prime suspect.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33035373"
-    },
-    {
       "id": "tt3428912",
       "type": "series",
       "name": "Happy Valley",
@@ -129,6 +114,21 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt3428912"
+    },
+    {
+      "id": "tt33035373",
+      "type": "series",
+      "name": "HIS & HERS",
+      "poster": "https://image.tmdb.org/t/p/w500/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
+      "posterShape": "poster",
+      "description": "Two estranged spouses — one a detective, the other a news reporter — vie to solve a murder in which each believes the other is a prime suspect.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33035373"
     },
     {
       "id": "tt35515227",
