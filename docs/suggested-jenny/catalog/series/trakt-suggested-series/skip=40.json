@@ -130,6 +130,20 @@
       "imdb_id": "tt31314754"
     },
     {
+      "id": "tt13729648",
+      "type": "series",
+      "name": "Candy",
+      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
+      "posterShape": "poster",
+      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13729648"
+    },
+    {
       "id": "tt2708480",
       "type": "series",
       "name": "The Terror",
@@ -143,20 +157,6 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt2708480"
-    },
-    {
-      "id": "tt13729648",
-      "type": "series",
-      "name": "Candy",
-      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
-      "posterShape": "poster",
-      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13729648"
     },
     {
       "id": "tt3581920",
