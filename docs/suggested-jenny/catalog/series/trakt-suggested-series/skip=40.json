@@ -216,18 +216,18 @@
       "imdb_id": "tt9642938"
     },
     {
-      "id": "tt7985576",
+      "id": "tt6130902",
       "type": "series",
-      "name": "The Serpent",
-      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "name": "Lore",
+      "poster": "https://image.tmdb.org/t/p/w500/xNixoyzlSfJVy3Lp7AB1Vwrg2Va.jpg",
       "posterShape": "poster",
-      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "description": "This anthology series brings to life Aaron Mahnke's titular podcast and uncovers the real-life events that spawn our darkest nightmares. Blending reenactments, animation, archive and narration, Lore reveals how our horror legends – such as vampires, werewolves and body snatchers – are rooted in truth.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Mystery",
+        "Drama"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt7985576"
+      "releaseInfo": "2017",
+      "imdb_id": "tt6130902"
     },
     {
       "id": "tt31849826",
@@ -243,18 +243,18 @@
       "imdb_id": "tt31849826"
     },
     {
-      "id": "tt6130902",
+      "id": "tt7985576",
       "type": "series",
-      "name": "Lore",
-      "poster": "https://image.tmdb.org/t/p/w500/xNixoyzlSfJVy3Lp7AB1Vwrg2Va.jpg",
+      "name": "The Serpent",
+      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
       "posterShape": "poster",
-      "description": "This anthology series brings to life Aaron Mahnke's titular podcast and uncovers the real-life events that spawn our darkest nightmares. Blending reenactments, animation, archive and narration, Lore reveals how our horror legends – such as vampires, werewolves and body snatchers – are rooted in truth.",
+      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
       "genres": [
-        "Mystery",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt6130902"
+      "releaseInfo": "2021",
+      "imdb_id": "tt7985576"
     },
     {
       "id": "tt26576161",

@@ -1,18 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt6548228",
+      "id": "tt11540908",
       "type": "series",
-      "name": "Castle Rock",
-      "poster": "https://image.tmdb.org/t/p/w500/6dnUpv9ghx84pgxlMOb4uuJrWDs.jpg",
+      "name": "Carrie",
+      "poster": "https://image.tmdb.org/t/p/w500/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
       "posterShape": "poster",
-      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
+      "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
       "genres": [
         "Mystery",
-        "Drama"
+        "Drama",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6548228"
+      "releaseInfo": "2026",
+      "imdb_id": "tt11540908"
     },
     {
       "id": "tt27031263",
