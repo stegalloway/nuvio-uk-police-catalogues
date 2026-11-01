@@ -53,6 +53,20 @@
       "imdb_id": "tt35050712"
     },
     {
+      "id": "tt32393988",
+      "type": "movie",
+      "name": "Insidious: Out of the Further",
+      "poster": "https://image.tmdb.org/t/p/w500/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg",
+      "posterShape": "poster",
+      "description": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32393988"
+    },
+    {
       "id": "tt34890576",
       "type": "movie",
       "name": "Clayface",
@@ -66,20 +80,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt34890576"
-    },
-    {
-      "id": "tt32393988",
-      "type": "movie",
-      "name": "Insidious: Out of the Further",
-      "poster": "https://image.tmdb.org/t/p/w500/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg",
-      "posterShape": "poster",
-      "description": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32393988"
     },
     {
       "id": "tt32329539",
