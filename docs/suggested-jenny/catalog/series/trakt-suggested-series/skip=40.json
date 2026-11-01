@@ -14,20 +14,6 @@
       "imdb_id": "tt10936342"
     },
     {
-      "id": "tt11656892",
-      "type": "series",
-      "name": "Des",
-      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
-      "posterShape": "poster",
-      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11656892"
-    },
-    {
       "id": "tt11343600",
       "type": "series",
       "name": "Brand New Cherry Flavor",
@@ -41,6 +27,20 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11343600"
+    },
+    {
+      "id": "tt11656892",
+      "type": "series",
+      "name": "Des",
+      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
+      "posterShape": "poster",
+      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11656892"
     },
     {
       "id": "tt34579520",
@@ -114,6 +114,21 @@
       "imdb_id": "tt9174630"
     },
     {
+      "id": "tt2708480",
+      "type": "series",
+      "name": "The Terror",
+      "poster": "https://image.tmdb.org/t/p/w500/fUVn5mScv83FfwrRUUR694yA7bd.jpg",
+      "posterShape": "poster",
+      "description": "A chilling anthology series featuring stories of people in terrifying situations inspired by true historical events.",
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt2708480"
+    },
+    {
       "id": "tt11794812",
       "type": "series",
       "name": "Cross",
@@ -157,21 +172,6 @@
       "imdb_id": "tt13729648"
     },
     {
-      "id": "tt2708480",
-      "type": "series",
-      "name": "The Terror",
-      "poster": "https://image.tmdb.org/t/p/w500/fUVn5mScv83FfwrRUUR694yA7bd.jpg",
-      "posterShape": "poster",
-      "description": "A chilling anthology series featuring stories of people in terrifying situations inspired by true historical events.",
-      "genres": [
-        "Mystery",
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt2708480"
-    },
-    {
       "id": "tt18926116",
       "type": "series",
       "name": "Fear the Walking Dead: Dead in the Water",
@@ -198,20 +198,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt3581920"
-    },
-    {
-      "id": "tt19853270",
-      "type": "series",
-      "name": "Murdaugh: Death in the Family",
-      "poster": "https://image.tmdb.org/t/p/w500/fqNT4hsPdA0999NEMuLVeja4Cm2.jpg",
-      "posterShape": "poster",
-      "description": "Maggie and Alex enjoy a lavish life of privilege as members of one of South Carolina's most powerful legal dynasties. But when their son Paul is involved in a deadly boat crash, the family is faced with a test unlike any they've ever encountered. As details come to light and new challenges emerge, the family's connections to several mysterious deaths raise questions which threaten everything Maggie and Alex hold dear.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt19853270"
     },
     {
       "id": "tt9642938",
@@ -241,6 +227,20 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt6130902"
+    },
+    {
+      "id": "tt19853270",
+      "type": "series",
+      "name": "Murdaugh: Death in the Family",
+      "poster": "https://image.tmdb.org/t/p/w500/fqNT4hsPdA0999NEMuLVeja4Cm2.jpg",
+      "posterShape": "poster",
+      "description": "Maggie and Alex enjoy a lavish life of privilege as members of one of South Carolina's most powerful legal dynasties. But when their son Paul is involved in a deadly boat crash, the family is faced with a test unlike any they've ever encountered. As details come to light and new challenges emerge, the family's connections to several mysterious deaths raise questions which threaten everything Maggie and Alex hold dear.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt19853270"
     },
     {
       "id": "tt31849826",

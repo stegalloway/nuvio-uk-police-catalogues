@@ -158,6 +158,20 @@
       "imdb_id": "tt9859436"
     },
     {
+      "id": "tt3960394",
+      "type": "series",
+      "name": "Interview with the Vampire",
+      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
+      "posterShape": "poster",
+      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt3960394"
+    },
+    {
       "id": "tt9064858",
       "type": "series",
       "name": "Them",
@@ -171,20 +185,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt9064858"
-    },
-    {
-      "id": "tt3960394",
-      "type": "series",
-      "name": "Interview with the Vampire",
-      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
-      "posterShape": "poster",
-      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
-      "genres": [
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt3960394"
     },
     {
       "id": "tt13623632",
@@ -256,20 +256,6 @@
       "imdb_id": "tt1640719"
     },
     {
-      "id": "tt15567174",
-      "type": "series",
-      "name": "The Fall of the House of Usher",
-      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
-      "posterShape": "poster",
-      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15567174"
-    },
-    {
       "id": "tt6548228",
       "type": "series",
       "name": "Castle Rock",
@@ -282,6 +268,20 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt6548228"
+    },
+    {
+      "id": "tt15567174",
+      "type": "series",
+      "name": "The Fall of the House of Usher",
+      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
+      "posterShape": "poster",
+      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15567174"
     }
   ]
 }
