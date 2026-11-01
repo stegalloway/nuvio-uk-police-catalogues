@@ -195,20 +195,6 @@
       "imdb_id": "tt3515878"
     },
     {
-      "id": "tt32612507",
-      "type": "movie",
-      "name": "Lee Cronin's The Mummy",
-      "poster": "https://image.tmdb.org/t/p/w500/1q308iixueCU4pFtSYugNOevtNx.jpg",
-      "posterShape": "poster",
-      "description": "The young daughter of a journalist disappears into the desert without a trace—eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32612507"
-    },
-    {
       "id": "tt13778486",
       "type": "movie",
       "name": "Succubus",
@@ -221,6 +207,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt13778486"
+    },
+    {
+      "id": "tt32612507",
+      "type": "movie",
+      "name": "Lee Cronin's The Mummy",
+      "poster": "https://image.tmdb.org/t/p/w500/1q308iixueCU4pFtSYugNOevtNx.jpg",
+      "posterShape": "poster",
+      "description": "The young daughter of a journalist disappears into the desert without a trace—eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32612507"
     },
     {
       "id": "tt32881442",

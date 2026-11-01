@@ -15,20 +15,6 @@
       "imdb_id": "tt34494076"
     },
     {
-      "id": "tt32268156",
-      "type": "movie",
-      "name": "The Last House",
-      "poster": "https://image.tmdb.org/t/p/w500/6JU7E8Vv2M11egkctWVOScxWR75.jpg",
-      "posterShape": "poster",
-      "description": "A family suddenly sealed inside their home must work together to survive against dwindling resources and the ominous threat keeping them trapped.",
-      "genres": [
-        "Horror",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32268156"
-    },
-    {
       "id": "tt21201300",
       "type": "movie",
       "name": "Bagman",
@@ -41,6 +27,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt21201300"
+    },
+    {
+      "id": "tt32268156",
+      "type": "movie",
+      "name": "The Last House",
+      "poster": "https://image.tmdb.org/t/p/w500/6JU7E8Vv2M11egkctWVOScxWR75.jpg",
+      "posterShape": "poster",
+      "description": "A family suddenly sealed inside their home must work together to survive against dwindling resources and the ominous threat keeping them trapped.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32268156"
     },
     {
       "id": "tt15474916",
@@ -69,20 +69,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt30955489"
-    },
-    {
-      "id": "tt30274401",
-      "type": "movie",
-      "name": "Five Nights at Freddy's 2",
-      "poster": "https://image.tmdb.org/t/p/w500/udAxQEORq2I5wxI97N2TEqdhzBE.jpg",
-      "posterShape": "poster",
-      "description": "One year since the supernatural nightmare at Freddy Fazbear's Pizza, the stories about what transpired there have been twisted into a campy local legend, inspiring the town's first ever Fazfest. With the truth kept from her, Abby sneaks out to reconnect with Freddy, Bonnie, Chica, and Foxy, setting into motion a terrifying series of events that will reveal dark secrets about the real origin of Freddy's, and unleash a decades-hidden horror.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30274401"
     },
     {
       "id": "tt11245972",
@@ -226,20 +212,6 @@
       "imdb_id": "tt28498159"
     },
     {
-      "id": "tt18412256",
-      "type": "movie",
-      "name": "Alien: Romulus",
-      "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
-      "posterShape": "poster",
-      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
-      "genres": [
-        "Horror",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt18412256"
-    },
-    {
       "id": "tt27444133",
       "type": "movie",
       "name": "Shades of Desire",
@@ -268,6 +240,20 @@
       "imdb_id": "tt39143902"
     },
     {
+      "id": "tt18412256",
+      "type": "movie",
+      "name": "Alien: Romulus",
+      "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
+      "posterShape": "poster",
+      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt18412256"
+    },
+    {
       "id": "tt15791034",
       "type": "movie",
       "name": "Barbarian",
@@ -281,6 +267,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15791034"
+    },
+    {
+      "id": "tt24807110",
+      "type": "movie",
+      "name": "Don't Move",
+      "poster": "https://image.tmdb.org/t/p/w500/cRDJxdnRb7ikKd6fVJTrGeaL34v.jpg",
+      "posterShape": "poster",
+      "description": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt24807110"
     }
   ]
 }
