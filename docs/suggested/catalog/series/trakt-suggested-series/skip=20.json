@@ -86,20 +86,6 @@
       "imdb_id": "tt6510950"
     },
     {
-      "id": "tt35826715",
-      "type": "series",
-      "name": "Boston Blue",
-      "poster": "https://image.tmdb.org/t/p/w500/81IhL3ckAgJ9J8vHazlUA5BNs8G.jpg",
-      "posterShape": "poster",
-      "description": "NYPD Detective Danny Reagan takes a job with the Boston PD and is paired with Detective Lena Silver, part of a law enforcement family comprised of District Attorney Mae Silver, Police Superintendent Sarah Silver, rookie cop Jonah Silver and Rev. Edwin Peters. Reagan hopes to reconnect with his son, Sean, in Boston.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35826715"
-    },
-    {
       "id": "tt5290382",
       "type": "series",
       "name": "MINDHUNTER",
@@ -112,6 +98,20 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt5290382"
+    },
+    {
+      "id": "tt35826715",
+      "type": "series",
+      "name": "Boston Blue",
+      "poster": "https://image.tmdb.org/t/p/w500/81IhL3ckAgJ9J8vHazlUA5BNs8G.jpg",
+      "posterShape": "poster",
+      "description": "NYPD Detective Danny Reagan takes a job with the Boston PD and is paired with Detective Lena Silver, part of a law enforcement family comprised of District Attorney Mae Silver, Police Superintendent Sarah Silver, rookie cop Jonah Silver and Rev. Edwin Peters. Reagan hopes to reconnect with his son, Sean, in Boston.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt35826715"
     },
     {
       "id": "tt34771210",
