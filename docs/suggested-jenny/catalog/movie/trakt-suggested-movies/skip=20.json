@@ -57,6 +57,20 @@
       "imdb_id": "tt15474916"
     },
     {
+      "id": "tt30274401",
+      "type": "movie",
+      "name": "Five Nights at Freddy's 2",
+      "poster": "https://image.tmdb.org/t/p/w500/udAxQEORq2I5wxI97N2TEqdhzBE.jpg",
+      "posterShape": "poster",
+      "description": "One year since the supernatural nightmare at Freddy Fazbear's Pizza, the stories about what transpired there have been twisted into a campy local legend, inspiring the town's first ever Fazfest. With the truth kept from her, Abby sneaks out to reconnect with Freddy, Bonnie, Chica, and Foxy, setting into motion a terrifying series of events that will reveal dark secrets about the real origin of Freddy's, and unleash a decades-hidden horror.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt30274401"
+    },
+    {
       "id": "tt30955489",
       "type": "movie",
       "name": "Until Dawn",
@@ -169,6 +183,20 @@
       "imdb_id": "tt11242218"
     },
     {
+      "id": "tt33028778",
+      "type": "movie",
+      "name": "Primate",
+      "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
+      "posterShape": "poster",
+      "description": "College student Lucy and her friends spend their vacation at her family's home in Hawaii, which includes her pet chimpanzee, Ben. However, when Ben contracts rabies after being bitten by a rabid animal, the group must fight for their lives in order to avoid the now-violent chimp.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33028778"
+    },
+    {
       "id": "tt8036976",
       "type": "movie",
       "name": "Send Help",
@@ -184,20 +212,6 @@
       "imdb_id": "tt8036976"
     },
     {
-      "id": "tt33028778",
-      "type": "movie",
-      "name": "Primate",
-      "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
-      "posterShape": "poster",
-      "description": "College student Lucy and her friends spend their vacation at her family's home in Hawaii, which includes her pet chimpanzee, Ben. However, when Ben contracts rabies after being bitten by a rabid animal, the group must fight for their lives in order to avoid the now-violent chimp.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33028778"
-    },
-    {
       "id": "tt27444133",
       "type": "movie",
       "name": "Shades of Desire",
@@ -210,20 +224,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt27444133"
-    },
-    {
-      "id": "tt39143902",
-      "type": "movie",
-      "name": "Leviticus",
-      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
-      "posterShape": "poster",
-      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
-      "genres": [
-        "Horror",
-        "Romance"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt39143902"
     },
     {
       "id": "tt18412256",
@@ -255,6 +255,20 @@
       "imdb_id": "tt31193180"
     },
     {
+      "id": "tt39143902",
+      "type": "movie",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+      "posterShape": "poster",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
+      "genres": [
+        "Horror",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
+    },
+    {
       "id": "tt20198774",
       "type": "movie",
       "name": "Play Dead",
@@ -267,21 +281,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt20198774"
-    },
-    {
-      "id": "tt15791034",
-      "type": "movie",
-      "name": "Barbarian",
-      "poster": "https://image.tmdb.org/t/p/w500/idT5mnqPcJgSkvpDX7pJffBzdVH.jpg",
-      "posterShape": "poster",
-      "description": "In town for a job interview, a young woman arrives at her Airbnb late at night only to find that it has been mistakenly double-booked and a strange man is already staying there. Against her better judgement, she decides to stay the night anyway.",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15791034"
     }
   ]
 }
