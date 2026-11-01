@@ -207,6 +207,20 @@
       "imdb_id": "tt10954984"
     },
     {
+      "id": "tt6483422",
+      "type": "movie",
+      "name": "They Reach",
+      "poster": "https://image.tmdb.org/t/p/w500/wX1t2sPKN2JGzp0rcg4sVx8fyid.jpg",
+      "posterShape": "poster",
+      "description": "In 1979, a young girl stumbles upon a possessed tape player. She unknowingly unleashes a demonic entity that haunts her family while slowly dragging the small town of Clarkston to Hell.",
+      "genres": [
+        "Adventure",
+        "Horror"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt6483422"
+    },
+    {
       "id": "tt6874690",
       "type": "movie",
       "name": "The Rule of Jenny Pen",
@@ -277,20 +291,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt29713093"
-    },
-    {
-      "id": "tt26470109",
-      "type": "movie",
-      "name": "Oddity",
-      "poster": "https://image.tmdb.org/t/p/w500/3Z9c1tbUhP0QruRjczPHnbx3U2D.jpg",
-      "posterShape": "poster",
-      "description": "After the brutal murder of her twin sister, Darcy goes after those responsible by using haunted items as her tools for revenge.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt26470109"
     }
   ]
 }
