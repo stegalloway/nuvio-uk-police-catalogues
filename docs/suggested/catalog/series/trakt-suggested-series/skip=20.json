@@ -73,20 +73,6 @@
       "imdb_id": "tt5611024"
     },
     {
-      "id": "tt2788432",
-      "type": "series",
-      "name": "American Crime Story",
-      "poster": "https://image.tmdb.org/t/p/w500/dtIS3Qk8ny1FWQLiuJ77MTDX5bZ.jpg",
-      "posterShape": "poster",
-      "description": "An anthology series centered around some of history's most famous criminal investigations.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt2788432"
-    },
-    {
       "id": "tt6510950",
       "type": "series",
       "name": "Condor",
@@ -101,18 +87,18 @@
       "imdb_id": "tt6510950"
     },
     {
-      "id": "tt5290382",
+      "id": "tt2788432",
       "type": "series",
-      "name": "MINDHUNTER",
-      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+      "name": "American Crime Story",
+      "poster": "https://image.tmdb.org/t/p/w500/dtIS3Qk8ny1FWQLiuJ77MTDX5bZ.jpg",
       "posterShape": "poster",
-      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+      "description": "An anthology series centered around some of history's most famous criminal investigations.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt5290382"
+      "releaseInfo": "2016",
+      "imdb_id": "tt2788432"
     },
     {
       "id": "tt35826715",
@@ -127,6 +113,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt35826715"
+    },
+    {
+      "id": "tt5290382",
+      "type": "series",
+      "name": "MINDHUNTER",
+      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+      "posterShape": "poster",
+      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5290382"
     },
     {
       "id": "tt34771210",
