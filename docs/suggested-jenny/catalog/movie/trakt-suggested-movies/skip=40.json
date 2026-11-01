@@ -90,21 +90,6 @@
       "imdb_id": "tt14364480"
     },
     {
-      "id": "tt8179024",
-      "type": "movie",
-      "name": "Body Cam",
-      "poster": "https://image.tmdb.org/t/p/w500/xoaqGblOmZ3wliJJHjTG5dR9jKV.jpg",
-      "posterShape": "poster",
-      "description": "As a police officer investigates the gruesome murder of her colleague, she discovers that a mysterious supernatural force is behind it.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Mystery"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt8179024"
-    },
-    {
       "id": "tt35672862",
       "type": "movie",
       "name": "Hokum",
@@ -292,6 +277,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5040012"
+    },
+    {
+      "id": "tt29713093",
+      "type": "movie",
+      "name": "We Bury the Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/xZqo0yPARmyF8TACVNyaOACkYWG.jpg",
+      "posterShape": "poster",
+      "description": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt29713093"
     }
   ]
 }
