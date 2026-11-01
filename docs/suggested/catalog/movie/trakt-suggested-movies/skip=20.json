@@ -1,34 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt1130884",
-      "type": "movie",
-      "name": "Shutter Island",
-      "poster": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg",
-      "posterShape": "poster",
-      "description": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by troubling visions and a mysterious doctor.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Mystery"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1130884"
-    },
-    {
-      "id": "tt0469494",
-      "type": "movie",
-      "name": "There Will Be Blood",
-      "poster": "https://image.tmdb.org/t/p/w500/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
-      "posterShape": "poster",
-      "description": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's motives and intentions, starting a slow-burning feud that threatens both their lives.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0469494"
-    },
-    {
       "id": "tt0478970",
       "type": "movie",
       "name": "Ant-Man",
@@ -284,18 +256,49 @@
       "imdb_id": "tt31434639"
     },
     {
-      "id": "tt3281548",
+      "id": "tt7693316",
       "type": "movie",
-      "name": "Little Women",
-      "poster": "https://image.tmdb.org/t/p/w500/yn5ihODtZ7ofn8pDYfxCmxh8AXI.jpg",
+      "name": "Devotion",
+      "poster": "https://image.tmdb.org/t/p/w500/26yQPXymbWeCLKwcmyL8dRjAzth.jpg",
       "posterShape": "poster",
-      "description": "Four sisters come of age in America in the aftermath of the Civil War.",
+      "description": "The harrowing true story of two elite US Navy fighter pilots during the Korean War. Their heroic sacrifices would ultimately make them the Navy's most celebrated wingmen.",
       "genres": [
+        "War",
         "Drama",
-        "Romance"
+        "History"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt7693316"
+    },
+    {
+      "id": "tt1392190",
+      "type": "movie",
+      "name": "Mad Max: Fury Road",
+      "poster": "https://image.tmdb.org/t/p/w500/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+      "posterShape": "poster",
+      "description": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt1392190"
+    },
+    {
+      "id": "tt6924650",
+      "type": "movie",
+      "name": "Midway",
+      "poster": "https://image.tmdb.org/t/p/w500/hj8pyoNnynGeJTAbl7jcLZO8Uhx.jpg",
+      "posterShape": "poster",
+      "description": "The story of the Battle of Midway, and the leaders and soldiers who used their instincts, fortitude and bravery to overcome massive odds.",
+      "genres": [
+        "War",
+        "History",
+        "Action"
       ],
       "releaseInfo": "2019",
-      "imdb_id": "tt3281548"
+      "imdb_id": "tt6924650"
     }
   ]
 }
