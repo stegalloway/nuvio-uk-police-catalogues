@@ -271,18 +271,17 @@
       "imdb_id": "tt26576161"
     },
     {
-      "id": "tt23112594",
+      "id": "tt7817340",
       "type": "series",
-      "name": "VisionQuest",
-      "poster": "https://image.tmdb.org/t/p/w500/WGyAyBPncfuu8MZhLY9RtfZPM0.jpg",
+      "name": "New Amsterdam",
+      "poster": "https://image.tmdb.org/t/p/w500/jsH4AeGZn5Q6h314A3OTUHKxHhR.jpg",
       "posterShape": "poster",
-      "description": "With a bounty on his head, Vision must confront his nature and resist Ultron's influence to survive.",
+      "description": "The new medical director breaks the rules to heal the system at America's oldest public hospital. Max Goodwin sets out to tear up the bureaucracy and provide exceptional care, but the doctors and staff are not so sure he can succeed. They've heard this before. Not taking \"no\" for an answer, Dr. Goodwin's instinctive response to problems large and small is four simple words: \"How can I help?\" He has to disrupt the status quo and prove he'll stop at nothing to breathe new life into this underfunded and underappreciated hospital, returning it to the glory that put it on the map.",
       "genres": [
-        "Sci-Fi & Fantasy",
         "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt23112594"
+      "releaseInfo": "2018",
+      "imdb_id": "tt7817340"
     }
   ]
 }
