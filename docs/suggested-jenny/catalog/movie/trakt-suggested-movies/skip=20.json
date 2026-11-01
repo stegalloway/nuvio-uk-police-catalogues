@@ -240,21 +240,6 @@
       "imdb_id": "tt18412256"
     },
     {
-      "id": "tt31193180",
-      "type": "movie",
-      "name": "Sinners",
-      "poster": "https://image.tmdb.org/t/p/w500/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
-      "posterShape": "poster",
-      "description": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.",
-      "genres": [
-        "Horror",
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31193180"
-    },
-    {
       "id": "tt39143902",
       "type": "movie",
       "name": "Leviticus",
@@ -281,6 +266,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt20198774"
+    },
+    {
+      "id": "tt15791034",
+      "type": "movie",
+      "name": "Barbarian",
+      "poster": "https://image.tmdb.org/t/p/w500/idT5mnqPcJgSkvpDX7pJffBzdVH.jpg",
+      "posterShape": "poster",
+      "description": "In town for a job interview, a young woman arrives at her Airbnb late at night only to find that it has been mistakenly double-booked and a strange man is already staying there. Against her better judgement, she decides to stay the night anyway.",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15791034"
     }
   ]
 }
