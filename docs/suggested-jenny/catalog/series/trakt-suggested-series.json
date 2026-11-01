@@ -71,6 +71,21 @@
       "imdb_id": "tt10970552"
     },
     {
+      "id": "tt26598805",
+      "type": "series",
+      "name": "Nocturne",
+      "poster": "https://image.tmdb.org/t/p/w500/nyvXVcPnHEwVmqCdzjjCsu1jqhm.jpg",
+      "posterShape": "poster",
+      "description": "When a victim of notorious serial killer Jurek Walter unexpectedly turns up alive, detective Jonah Lynn races against time to find the one person still missing, while his protégé Saga Bauer goes undercover to get answers from the killer himself.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt26598805"
+    },
+    {
       "id": "tt10148174",
       "type": "series",
       "name": "The Walking Dead: World Beyond",
@@ -268,20 +283,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt11540908"
-    },
-    {
-      "id": "tt6548228",
-      "type": "series",
-      "name": "Castle Rock",
-      "poster": "https://image.tmdb.org/t/p/w500/6dnUpv9ghx84pgxlMOb4uuJrWDs.jpg",
-      "posterShape": "poster",
-      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6548228"
     }
   ]
 }
