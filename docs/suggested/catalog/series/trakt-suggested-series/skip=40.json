@@ -249,6 +249,21 @@
       "imdb_id": "tt9698480"
     },
     {
+      "id": "tt7335184",
+      "type": "series",
+      "name": "You",
+      "poster": "https://image.tmdb.org/t/p/w500/oANi0vEE92nuijiZQgPZ88FSxqQ.jpg",
+      "posterShape": "poster",
+      "description": "A dangerously charming, obsessive man goes to extreme measures to insert himself into the lives of women who fascinate him.",
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt7335184"
+    },
+    {
       "id": "tt1442065",
       "type": "series",
       "name": "Rookie Blue",
@@ -276,21 +291,6 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt5722298"
-    },
-    {
-      "id": "tt0773262",
-      "type": "series",
-      "name": "Dexter",
-      "poster": "https://image.tmdb.org/t/p/w500/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
-      "posterShape": "poster",
-      "description": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2006",
-      "imdb_id": "tt0773262"
     }
   ]
 }

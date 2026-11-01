@@ -15,6 +15,22 @@
       "imdb_id": "tt13444408"
     },
     {
+      "id": "tt0078657",
+      "type": "series",
+      "name": "Minder",
+      "poster": "https://image.tmdb.org/t/p/w500/4s9hiyQvTaMe1bK91HRCTgDTAoF.jpg",
+      "posterShape": "poster",
+      "description": "Roguish comedy drama following the misadventures of small-time crook Arthur Daley.",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Action & Adventure",
+        "Crime"
+      ],
+      "releaseInfo": "1979",
+      "imdb_id": "tt0078657"
+    },
+    {
       "id": "tt0979432",
       "type": "series",
       "name": "Boardwalk Empire",
@@ -268,20 +284,6 @@
       ],
       "releaseInfo": "2011",
       "imdb_id": "tt1652216"
-    },
-    {
-      "id": "tt15837600",
-      "type": "series",
-      "name": "Griselda",
-      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
-      "posterShape": "poster",
-      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15837600"
     }
   ]
 }
