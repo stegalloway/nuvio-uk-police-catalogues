@@ -15,20 +15,6 @@
       "imdb_id": "tt24807110"
     },
     {
-      "id": "tt12873562",
-      "type": "movie",
-      "name": "The Invitation",
-      "poster": "https://image.tmdb.org/t/p/w500/jcTq6gIskCsHlKDvCKKouEfiU66.jpg",
-      "posterShape": "poster",
-      "description": "After the death of her mother, Evie is approached by an unknown cousin who invites her to a lavish wedding in the English countryside. Soon, she realizes a gothic conspiracy is afoot and must fight for survival as she uncovers twisted secrets in her family’s history.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt12873562"
-    },
-    {
       "id": "tt35538033",
       "type": "movie",
       "name": "Resident Evil",
@@ -291,6 +277,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5040012"
+    },
+    {
+      "id": "tt26470109",
+      "type": "movie",
+      "name": "Oddity",
+      "poster": "https://image.tmdb.org/t/p/w500/3Z9c1tbUhP0QruRjczPHnbx3U2D.jpg",
+      "posterShape": "poster",
+      "description": "After the brutal murder of her twin sister, Darcy goes after those responsible by using haunted items as her tools for revenge.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt26470109"
     }
   ]
 }
