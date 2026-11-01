@@ -190,21 +190,6 @@
       "imdb_id": "tt7526136"
     },
     {
-      "id": "tt5950044",
-      "type": "movie",
-      "name": "Superman",
-      "poster": "https://image.tmdb.org/t/p/w500/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
-      "posterShape": "poster",
-      "description": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
-      "genres": [
-        "Science Fiction",
-        "Adventure",
-        "Action"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt5950044"
-    },
-    {
       "id": "tt3799694",
       "type": "movie",
       "name": "The Nice Guys",
@@ -218,6 +203,21 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt3799694"
+    },
+    {
+      "id": "tt5950044",
+      "type": "movie",
+      "name": "Superman",
+      "poster": "https://image.tmdb.org/t/p/w500/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
+      "posterShape": "poster",
+      "description": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt5950044"
     },
     {
       "id": "tt0203119",
