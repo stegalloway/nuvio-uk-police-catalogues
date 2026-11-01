@@ -130,21 +130,6 @@
       "imdb_id": "tt5675620"
     },
     {
-      "id": "tt33043892",
-      "type": "series",
-      "name": "Dexter: Resurrection",
-      "poster": "https://image.tmdb.org/t/p/w500/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
-      "posterShape": "poster",
-      "description": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt33043892"
-    },
-    {
       "id": "tt1637727",
       "type": "series",
       "name": "The Killing",
@@ -291,6 +276,21 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt5722298"
+    },
+    {
+      "id": "tt0773262",
+      "type": "series",
+      "name": "Dexter",
+      "poster": "https://image.tmdb.org/t/p/w500/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
+      "posterShape": "poster",
+      "description": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2006",
+      "imdb_id": "tt0773262"
     }
   ]
 }
