@@ -190,21 +190,6 @@
       "imdb_id": "tt7526136"
     },
     {
-      "id": "tt3799694",
-      "type": "movie",
-      "name": "The Nice Guys",
-      "poster": "https://image.tmdb.org/t/p/w500/clq4So9spa9cXk3MZy2iMdqkxP2.jpg",
-      "posterShape": "poster",
-      "description": "A private eye investigates the apparent suicide of a fading porn star in 1970s Los Angeles and uncovers a conspiracy.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Action"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt3799694"
-    },
-    {
       "id": "tt5950044",
       "type": "movie",
       "name": "Superman",
@@ -220,19 +205,19 @@
       "imdb_id": "tt5950044"
     },
     {
-      "id": "tt0203119",
+      "id": "tt3799694",
       "type": "movie",
-      "name": "Sexy Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/xTfCZTzhgHNAR1pf5D49WH4buI5.jpg",
+      "name": "The Nice Guys",
+      "poster": "https://image.tmdb.org/t/p/w500/clq4So9spa9cXk3MZy2iMdqkxP2.jpg",
       "posterShape": "poster",
-      "description": "Ex-safecracker Gal Dove has served his time behind bars and is blissfully retired to a Spanish villa paradise with a wife he adores. The idyll is shattered by the arrival of his nemesis Don Logan, intent on persuading Gal to return to London for one last big job.",
+      "description": "A private eye investigates the apparent suicide of a fading porn star in 1970s Los Angeles and uncovers a conspiracy.",
       "genres": [
+        "Comedy",
         "Crime",
-        "Thriller",
-        "Drama"
+        "Action"
       ],
-      "releaseInfo": "2001",
-      "imdb_id": "tt0203119"
+      "releaseInfo": "2016",
+      "imdb_id": "tt3799694"
     },
     {
       "id": "tt1631867",
@@ -247,6 +232,21 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt1631867"
+    },
+    {
+      "id": "tt0203119",
+      "type": "movie",
+      "name": "Sexy Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/xTfCZTzhgHNAR1pf5D49WH4buI5.jpg",
+      "posterShape": "poster",
+      "description": "Ex-safecracker Gal Dove has served his time behind bars and is blissfully retired to a Spanish villa paradise with a wife he adores. The idyll is shattered by the arrival of his nemesis Don Logan, intent on persuading Gal to return to London for one last big job.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2001",
+      "imdb_id": "tt0203119"
     },
     {
       "id": "tt7349662",
