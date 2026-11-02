@@ -1,6 +1,34 @@
 {
   "metas": [
     {
+      "id": "tt39143902",
+      "type": "movie",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+      "posterShape": "poster",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
+      "genres": [
+        "Horror",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
+    },
+    {
+      "id": "tt18412256",
+      "type": "movie",
+      "name": "Alien: Romulus",
+      "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
+      "posterShape": "poster",
+      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt18412256"
+    },
+    {
       "id": "tt15791034",
       "type": "movie",
       "name": "Barbarian",
@@ -177,20 +205,6 @@
       "imdb_id": "tt6483422"
     },
     {
-      "id": "tt6874690",
-      "type": "movie",
-      "name": "The Rule of Jenny Pen",
-      "poster": "https://image.tmdb.org/t/p/w500/5vqK1wbrgmUvqHn6yPt9b6qT9iL.jpg",
-      "posterShape": "poster",
-      "description": "Confined to a secluded rest home and trapped within his stroke-ridden body, a former Judge must stop an elderly psychopath who employs a child's puppet to abuse the home's residents with deadly consequences.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt6874690"
-    },
-    {
       "id": "tt10954984",
       "type": "movie",
       "name": "Nope",
@@ -277,20 +291,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5040012"
-    },
-    {
-      "id": "tt26671996",
-      "type": "movie",
-      "name": "Locked",
-      "poster": "https://image.tmdb.org/t/p/w500/hhkiqXpfpufwxVrdSftzeKIANl3.jpg",
-      "posterShape": "poster",
-      "description": "When Eddie breaks into a luxury SUV, he steps into a deadly trap set by William, a self-proclaimed vigilante delivering his own brand of twisted justice. With no means of escape, Eddie must fight to survive in a ride where escape is an illusion, survival is a nightmare, and justice shifts into high gear.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt26671996"
     }
   ]
 }
