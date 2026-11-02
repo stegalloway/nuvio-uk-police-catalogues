@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt18412256",
+      "type": "movie",
+      "name": "Alien: Romulus",
+      "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
+      "posterShape": "poster",
+      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt18412256"
+    },
+    {
       "id": "tt39143902",
       "type": "movie",
       "name": "Leviticus",
@@ -117,20 +131,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35672862"
-    },
-    {
-      "id": "tt34508974",
-      "type": "movie",
-      "name": "Silent Night, Deadly Night",
-      "poster": "https://image.tmdb.org/t/p/w500/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg",
-      "posterShape": "poster",
-      "description": "After witnessing his parents' brutal murder on Christmas Eve, Billy transforms into a Killer Santa, delivering a yearly spree of calculated, chilling violence. This year, his blood-soaked mission collides with love, as a young woman challenges him to confront his darkness.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt34508974"
     },
     {
       "id": "tt23642744",
@@ -251,6 +251,20 @@
       "imdb_id": "tt1051906"
     },
     {
+      "id": "tt29713093",
+      "type": "movie",
+      "name": "We Bury the Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/xZqo0yPARmyF8TACVNyaOACkYWG.jpg",
+      "posterShape": "poster",
+      "description": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt29713093"
+    },
+    {
       "id": "tt1877830",
       "type": "movie",
       "name": "The Batman",
@@ -264,20 +278,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt1877830"
-    },
-    {
-      "id": "tt29713093",
-      "type": "movie",
-      "name": "We Bury the Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/xZqo0yPARmyF8TACVNyaOACkYWG.jpg",
-      "posterShape": "poster",
-      "description": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt29713093"
     },
     {
       "id": "tt5040012",
