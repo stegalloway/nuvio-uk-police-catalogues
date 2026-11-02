@@ -188,6 +188,19 @@
       "imdb_id": "tt13365348"
     },
     {
+      "id": "tt0972412",
+      "type": "series",
+      "name": "Private Practice",
+      "poster": "https://image.tmdb.org/t/p/w500/pW20ANAGdrgreYJExduUVaWos6H.jpg",
+      "posterShape": "poster",
+      "description": "Having left behind Seattle Grace Hospital, renowned surgeon Addison Forbes Montgomery moves to Los Angeles for sunnier weather and happier possibilities. She reunites with her friends from medical school, joining them at their chic, co-op, Oceanside Wellness Center in Santa Monica.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0972412"
+    },
+    {
       "id": "tt13444912",
       "type": "series",
       "name": "The Midnight Club",
@@ -217,19 +230,6 @@
       "imdb_id": "tt33332385"
     },
     {
-      "id": "tt0972412",
-      "type": "series",
-      "name": "Private Practice",
-      "poster": "https://image.tmdb.org/t/p/w500/pW20ANAGdrgreYJExduUVaWos6H.jpg",
-      "posterShape": "poster",
-      "description": "Having left behind Seattle Grace Hospital, renowned surgeon Addison Forbes Montgomery moves to Los Angeles for sunnier weather and happier possibilities. She reunites with her friends from medical school, joining them at their chic, co-op, Oceanside Wellness Center in Santa Monica.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0972412"
-    },
-    {
       "id": "tt19244304",
       "type": "series",
       "name": "IT: Welcome to Derry",
@@ -242,6 +242,19 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt19244304"
+    },
+    {
+      "id": "tt11055882",
+      "type": "series",
+      "name": "Good Sam",
+      "poster": "https://image.tmdb.org/t/p/w500/3daYD4eYimoQaPyKIgCADKUovcJ.jpg",
+      "posterShape": "poster",
+      "description": "A gifted heart surgeon excels in her new leadership role as Chief of Surgery after her renowned boss falls into a coma. When her former boss wakes up months later demanding to resume his duties, Sam is tasked with supervising this egotistical expert with a scalpel who never acknowledged her stellar talent.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11055882"
     },
     {
       "id": "tt28692194",
@@ -270,19 +283,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32937780"
-    },
-    {
-      "id": "tt11055882",
-      "type": "series",
-      "name": "Good Sam",
-      "poster": "https://image.tmdb.org/t/p/w500/3daYD4eYimoQaPyKIgCADKUovcJ.jpg",
-      "posterShape": "poster",
-      "description": "A gifted heart surgeon excels in her new leadership role as Chief of Surgery after her renowned boss falls into a coma. When her former boss wakes up months later demanding to resume his duties, Sam is tasked with supervising this egotistical expert with a scalpel who never acknowledged her stellar talent.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11055882"
     }
   ]
 }
