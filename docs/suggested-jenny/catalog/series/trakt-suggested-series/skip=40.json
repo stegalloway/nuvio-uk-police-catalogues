@@ -200,20 +200,6 @@
       "imdb_id": "tt3581920"
     },
     {
-      "id": "tt19853270",
-      "type": "series",
-      "name": "Murdaugh: Death in the Family",
-      "poster": "https://image.tmdb.org/t/p/w500/fqNT4hsPdA0999NEMuLVeja4Cm2.jpg",
-      "posterShape": "poster",
-      "description": "Maggie and Alex enjoy a lavish life of privilege as members of one of South Carolina's most powerful legal dynasties. But when their son Paul is involved in a deadly boat crash, the family is faced with a test unlike any they've ever encountered. As details come to light and new challenges emerge, the family's connections to several mysterious deaths raise questions which threaten everything Maggie and Alex hold dear.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt19853270"
-    },
-    {
       "id": "tt9642938",
       "type": "series",
       "name": "Unsolved Mysteries",
@@ -229,18 +215,32 @@
       "imdb_id": "tt9642938"
     },
     {
-      "id": "tt7985576",
+      "id": "tt19853270",
       "type": "series",
-      "name": "The Serpent",
-      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "name": "Murdaugh: Death in the Family",
+      "poster": "https://image.tmdb.org/t/p/w500/fqNT4hsPdA0999NEMuLVeja4Cm2.jpg",
       "posterShape": "poster",
-      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "description": "Maggie and Alex enjoy a lavish life of privilege as members of one of South Carolina's most powerful legal dynasties. But when their son Paul is involved in a deadly boat crash, the family is faced with a test unlike any they've ever encountered. As details come to light and new challenges emerge, the family's connections to several mysterious deaths raise questions which threaten everything Maggie and Alex hold dear.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt7985576"
+      "releaseInfo": "2025",
+      "imdb_id": "tt19853270"
+    },
+    {
+      "id": "tt6130902",
+      "type": "series",
+      "name": "Lore",
+      "poster": "https://image.tmdb.org/t/p/w500/xNixoyzlSfJVy3Lp7AB1Vwrg2Va.jpg",
+      "posterShape": "poster",
+      "description": "This anthology series brings to life Aaron Mahnke's titular podcast and uncovers the real-life events that spawn our darkest nightmares. Blending reenactments, animation, archive and narration, Lore reveals how our horror legends – such as vampires, werewolves and body snatchers – are rooted in truth.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt6130902"
     },
     {
       "id": "tt31849826",
@@ -256,18 +256,18 @@
       "imdb_id": "tt31849826"
     },
     {
-      "id": "tt6130902",
+      "id": "tt7985576",
       "type": "series",
-      "name": "Lore",
-      "poster": "https://image.tmdb.org/t/p/w500/xNixoyzlSfJVy3Lp7AB1Vwrg2Va.jpg",
+      "name": "The Serpent",
+      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
       "posterShape": "poster",
-      "description": "This anthology series brings to life Aaron Mahnke's titular podcast and uncovers the real-life events that spawn our darkest nightmares. Blending reenactments, animation, archive and narration, Lore reveals how our horror legends – such as vampires, werewolves and body snatchers – are rooted in truth.",
+      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
       "genres": [
-        "Mystery",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt6130902"
+      "releaseInfo": "2021",
+      "imdb_id": "tt7985576"
     },
     {
       "id": "tt26576161",
