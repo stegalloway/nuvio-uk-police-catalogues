@@ -15,20 +15,6 @@
       "imdb_id": "tt34494076"
     },
     {
-      "id": "tt21201300",
-      "type": "movie",
-      "name": "Bagman",
-      "poster": "https://image.tmdb.org/t/p/w500/53IK9rlZJbwFYbNnJZiLq7UWxkT.jpg",
-      "posterShape": "poster",
-      "description": "For centuries and across cultures, parents have warned their children of the legendary Bagman, who snatches innocent children and stuffs them into his vile, rotting bag—never to be seen again. Patrick McKee narrowly escaped such an encounter as a boy, which left him with lasting scars throughout his adulthood. Now, Patrick’s childhood tormentor has returned, threatening the safety of his wife Karina and son Jake.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt21201300"
-    },
-    {
       "id": "tt8004664",
       "type": "movie",
       "name": "Come Play",
@@ -280,6 +266,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt39143902"
+    },
+    {
+      "id": "tt18412256",
+      "type": "movie",
+      "name": "Alien: Romulus",
+      "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
+      "posterShape": "poster",
+      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt18412256"
     }
   ]
 }
