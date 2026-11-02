@@ -1,18 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt18412256",
+      "id": "tt39143902",
       "type": "movie",
-      "name": "Alien: Romulus",
-      "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
       "posterShape": "poster",
-      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
       "genres": [
         "Horror",
-        "Science Fiction"
+        "Romance"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt18412256"
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
     },
     {
       "id": "tt15791034",
