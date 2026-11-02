@@ -158,21 +158,6 @@
       "imdb_id": "tt14379784"
     },
     {
-      "id": "tt3428912",
-      "type": "series",
-      "name": "Happy Valley",
-      "poster": "https://image.tmdb.org/t/p/w500/xZK5iQSrn2mouZEk2PwyLPCwa4u.jpg",
-      "posterShape": "poster",
-      "description": "Happy Valley is a dark, funny, multi-layered thriller revolving around the personal and professional life of Catherine, a dedicated, experienced, hard-working copper. She is also a bereaved mother who looks after her orphaned grandchild.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt3428912"
-    },
-    {
       "id": "tt33035373",
       "type": "series",
       "name": "HIS & HERS",
@@ -188,18 +173,19 @@
       "imdb_id": "tt33035373"
     },
     {
-      "id": "tt35515227",
+      "id": "tt3428912",
       "type": "series",
-      "name": "CIA",
-      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
+      "name": "Happy Valley",
+      "poster": "https://image.tmdb.org/t/p/w500/xZK5iQSrn2mouZEk2PwyLPCwa4u.jpg",
       "posterShape": "poster",
-      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
+      "description": "Happy Valley is a dark, funny, multi-layered thriller revolving around the personal and professional life of Catherine, a dedicated, experienced, hard-working copper. She is also a bereaved mother who looks after her orphaned grandchild.",
       "genres": [
         "Crime",
-        "Drama"
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35515227"
+      "releaseInfo": "2014",
+      "imdb_id": "tt3428912"
     },
     {
       "id": "tt17677860",
@@ -214,6 +200,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt17677860"
+    },
+    {
+      "id": "tt35515227",
+      "type": "series",
+      "name": "CIA",
+      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
+      "posterShape": "poster",
+      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35515227"
     },
     {
       "id": "tt3205802",
