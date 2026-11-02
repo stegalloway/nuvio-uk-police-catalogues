@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt16030542",
-      "type": "series",
-      "name": "The Recruit",
-      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
-      "posterShape": "poster",
-      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt16030542"
-    },
-    {
       "id": "tt7909970",
       "type": "series",
       "name": "Unbelievable",
@@ -70,20 +55,6 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt2802850"
-    },
-    {
-      "id": "tt2356777",
-      "type": "series",
-      "name": "True Detective",
-      "poster": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
-      "posterShape": "poster",
-      "description": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2356777"
     },
     {
       "id": "tt4474344",
@@ -235,6 +206,20 @@
       "imdb_id": "tt6964748"
     },
     {
+      "id": "tt2356777",
+      "type": "series",
+      "name": "True Detective",
+      "poster": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
+      "posterShape": "poster",
+      "description": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2356777"
+    },
+    {
       "id": "tt9698480",
       "type": "series",
       "name": "The Stranger",
@@ -291,6 +276,21 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt5722298"
+    },
+    {
+      "id": "tt0773262",
+      "type": "series",
+      "name": "Dexter",
+      "poster": "https://image.tmdb.org/t/p/w500/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
+      "posterShape": "poster",
+      "description": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2006",
+      "imdb_id": "tt0773262"
     }
   ]
 }
