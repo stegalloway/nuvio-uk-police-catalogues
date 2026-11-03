@@ -72,6 +72,21 @@
       "imdb_id": "tt23148340"
     },
     {
+      "id": "tt11540908",
+      "type": "series",
+      "name": "Carrie",
+      "poster": "https://image.tmdb.org/t/p/w500/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
+      "posterShape": "poster",
+      "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt11540908"
+    },
+    {
       "id": "tt4301160",
       "type": "series",
       "name": "Black Bird",
@@ -268,21 +283,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt13623632"
-    },
-    {
-      "id": "tt11794812",
-      "type": "series",
-      "name": "Cross",
-      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
-      "posterShape": "poster",
-      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt11794812"
     }
   ]
 }
