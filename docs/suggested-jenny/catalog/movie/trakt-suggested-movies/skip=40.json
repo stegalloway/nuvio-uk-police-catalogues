@@ -265,6 +265,20 @@
       "imdb_id": "tt1051906"
     },
     {
+      "id": "tt29713093",
+      "type": "movie",
+      "name": "We Bury the Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/xZqo0yPARmyF8TACVNyaOACkYWG.jpg",
+      "posterShape": "poster",
+      "description": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt29713093"
+    },
+    {
       "id": "tt1877830",
       "type": "movie",
       "name": "The Batman",
@@ -278,20 +292,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt1877830"
-    },
-    {
-      "id": "tt29713093",
-      "type": "movie",
-      "name": "We Bury the Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/xZqo0yPARmyF8TACVNyaOACkYWG.jpg",
-      "posterShape": "poster",
-      "description": "After a catastrophic military disaster reanimates the dead, Ava searches for her missing husband amidst an increasingly hostile world.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt29713093"
     }
   ]
 }
