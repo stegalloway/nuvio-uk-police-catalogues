@@ -59,6 +59,20 @@
       "imdb_id": "tt33246591"
     },
     {
+      "id": "tt31438328",
+      "type": "series",
+      "name": "This City Is Ours",
+      "poster": "https://image.tmdb.org/t/p/w500/75BwofwAZbf6GlhP2m6NPpP3bW2.jpg",
+      "posterShape": "poster",
+      "description": "S2 E5 · Sun 8 Nov\n\nAfter trying to leave a world of crime, Michael is dragged back into the fold to answer questions. Back in Liverpool tensions continue to bubble amongst the remaining members of the gang, and a gangster who's just been let out of prison wants answers.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "Sun 8 Nov · S2 E5",
+      "imdb_id": "tt31438328"
+    },
+    {
       "id": "tt7587890",
       "type": "series",
       "name": "The Rookie",
