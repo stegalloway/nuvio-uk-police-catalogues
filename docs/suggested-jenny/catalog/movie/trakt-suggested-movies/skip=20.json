@@ -85,20 +85,6 @@
       "imdb_id": "tt30274401"
     },
     {
-      "id": "tt32362890",
-      "type": "movie",
-      "name": "Thrash",
-      "poster": "https://image.tmdb.org/t/p/w500/adk8weka3O5648g3de4z3y4aE7G.jpg",
-      "posterShape": "poster",
-      "description": "When a catastrophic hurricane slams a coastal town, stranded residents must survive rapidly rising waters swarming with ravenous sharks.",
-      "genres": [
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32362890"
-    },
-    {
       "id": "tt33978029",
       "type": "movie",
       "name": "Ready or Not: Here I Come",
@@ -111,6 +97,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33978029"
+    },
+    {
+      "id": "tt32362890",
+      "type": "movie",
+      "name": "Thrash",
+      "poster": "https://image.tmdb.org/t/p/w500/adk8weka3O5648g3de4z3y4aE7G.jpg",
+      "posterShape": "poster",
+      "description": "When a catastrophic hurricane slams a coastal town, stranded residents must survive rapidly rising waters swarming with ravenous sharks.",
+      "genres": [
+        "Thriller",
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32362890"
     },
     {
       "id": "tt30955489",
@@ -239,18 +239,18 @@
       "imdb_id": "tt9419056"
     },
     {
-      "id": "tt27444133",
+      "id": "tt39143902",
       "type": "movie",
-      "name": "Shades of Desire",
-      "poster": "https://image.tmdb.org/t/p/w500/3E3TAy3fSksFDJ4TS6maL9xNEgU.jpg",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/xWpgXEecLBCe1rSkXoEdUVuAvA.jpg",
       "posterShape": "poster",
-      "description": "After her twin sister Aubrey goes missing, Jennifer uncovers the scandalous, secret double-life that Aubrey leads - and that has put both of them in danger.",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
       "genres": [
         "Horror",
-        "Thriller"
+        "Romance"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt27444133"
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
     },
     {
       "id": "tt20198774",
@@ -267,18 +267,18 @@
       "imdb_id": "tt20198774"
     },
     {
-      "id": "tt39143902",
+      "id": "tt11242218",
       "type": "movie",
-      "name": "Leviticus",
-      "poster": "https://image.tmdb.org/t/p/w500/xWpgXEecLBCe1rSkXoEdUVuAvA.jpg",
+      "name": "Books of Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/bXLVZGgLgd7OwbfP6fC5GCfrxuD.jpg",
       "posterShape": "poster",
-      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
+      "description": "A journey into uncharted and forbidden territory through three tales tangled in space and time.",
       "genres": [
         "Horror",
-        "Romance"
+        "Science Fiction"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt39143902"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11242218"
     }
   ]
 }
