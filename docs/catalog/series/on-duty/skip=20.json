@@ -1,6 +1,33 @@
 {
   "metas": [
     {
+      "id": "tmdb:256705",
+      "type": "series",
+      "name": "Police Raid: Minute by Minute",
+      "poster": "https://image.tmdb.org/t/p/w500/1CgGspqdnxSPtWwmJ0yoQwevLSU.jpg",
+      "posterShape": "poster",
+      "description": "Officers mount a major operation to tackle drug dealing in south Wales.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w500/1CgGspqdnxSPtWwmJ0yoQwevLSU.jpg"
+    },
+    {
+      "id": "tt32127658",
+      "type": "series",
+      "name": "Police Interceptors: Pursuit and Capture",
+      "poster": "https://image.tmdb.org/t/p/w500/hJuG4EZPCWHQyzV9rcf9W8IJ067.jpg",
+      "posterShape": "poster",
+      "description": "Full-throttle documentary series featuring the UK's police in breath-taking chases.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Reality",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/bulwHX1zhxHC60ubAkwy9dMgGqR.jpg"
+    },
+    {
       "id": "tt21844622",
       "type": "series",
       "name": "999: Emergency Call Out",
@@ -55,6 +82,20 @@
         "Reality"
       ],
       "background": "https://image.tmdb.org/t/p/w1280/p7WM3uBamzaGhbP2pZ3dYRNOzmY.jpg"
+    },
+    {
+      "id": "tt26682637",
+      "type": "series",
+      "name": "Cops Who Kill With Will Mellor",
+      "poster": "https://image.tmdb.org/t/p/w500/3WYsqr4pcYX7xwxcTTyuQWdSAW1.jpg",
+      "posterShape": "poster",
+      "description": "In each episode, TV personality and actor Will Mellor is joined by a panel of experts, including ex-Detective Superintendent Julie McKay, psychologist Serena Simmons and ex-Murder Detective Howard Groves. They will try to unravel how and why a police officer can switch from law enforcer to lawbreaker, as well as tell the story of how they were brought to justice for their horrendous actions.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/izAWCkGxyFG7Pfusqq3725lYzze.jpg"
     },
     {
       "id": "tt22183904",

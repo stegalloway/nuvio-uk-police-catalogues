@@ -1,6 +1,90 @@
 {
   "metas": [
     {
+      "id": "tt34567293",
+      "type": "series",
+      "name": "Shoot to Kill: Terror on the Tube",
+      "poster": "https://image.tmdb.org/t/p/w500/ejkmCxPKCprdBqZn2Ftj6zHVazA.jpg",
+      "posterShape": "poster",
+      "description": "Documentary featuring previously unheard testimony, exploring the manhunt following the London bombings of 2005, and the shooting of innocent electrician Jean Charles de Menezes by armed police.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/7jeLfE2c3hQF3uPhAhWzdhLJxgM.jpg"
+    },
+    {
+      "id": "tmdb:298943",
+      "type": "series",
+      "name": "Detectives: Case Closed",
+      "poster": "https://image.tmdb.org/t/p/w500/TEJbd3VPqjhnqEw0xkvbikcQVQ.jpg",
+      "posterShape": "poster",
+      "description": "Murders, kidnappings, blackmail, people smuggling. They’re some of the worst crimes that Britain has ever endured. Now the detectives who solved these complex cases are revealing, for the first time, how they hunted down the perpetrators and explain the methods they used to put them behind bars. This true crime documentary series features exclusive interviews and forensic evidence.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/365RTN3WnJrmjWnKO50PXpdARpU.jpg"
+    },
+    {
+      "id": "tt34377511",
+      "type": "series",
+      "name": "Black Widow",
+      "poster": "https://image.tmdb.org/t/p/w500/lFh9s2d73eL8uX8D5P7VQlF45X5.jpg",
+      "posterShape": "poster",
+      "description": "Follows the decade-long police investigation into one of Britain’s most dangerous female murderers. Over 20 years, Dena Thompson who was known as ‘The Black Widow’, carried out a sustained campaign of fraud, deception, bigamy and murder. Using Lonely Hearts columns to lure a succession of husbands and dozens of lovers into her life, she was able to coerce them into giving up their life’s savings, their homes, their families and their freedom based on her bizarre but convincing stories.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/9zjbi986MG1kZvxwp4V0IlBlB5N.jpg"
+    },
+    {
+      "id": "tt34581163",
+      "type": "series",
+      "name": "Merseyside Detectives: The Murders of Ashley and Olivia",
+      "poster": "https://image.tmdb.org/t/p/w500/92tA7HtLO5NZrsNQCbybOCXVzuc.jpg",
+      "posterShape": "poster",
+      "description": "Liverpool, 2022 - Ashley Dale and nine-year-old Olivia Pratt-Korbel are shot dead at home, victims of feuding gangs. Can the police bring the killers to justice?",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/7PkwDNKdWFWNeyebbNY7WoZsKIT.jpg"
+    },
+    {
+      "id": "tt24805866",
+      "type": "series",
+      "name": "Big Little Crimes",
+      "poster": "https://image.tmdb.org/t/p/w500/qghpokJUWJNHghhsvpqSEeMarim.jpg",
+      "posterShape": "poster",
+      "description": "Minor incidents - huge impact. The gob-smacking stories of ordinary coppers who stumbled upon key pieces of evidence and helped take down major criminals.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/1sc0kJjDeMyuTD7aTlVvhjNpIoO.jpg"
+    },
+    {
+      "id": "tt31106703",
+      "type": "series",
+      "name": "To Catch a Copper",
+      "poster": "https://image.tmdb.org/t/p/w500/baDAoXME2y9tb4cgOFlK9Twwgec.jpg",
+      "posterShape": "poster",
+      "description": "Who polices the police? In Avon and Somerset several officers are accused of mistreating or sexually exploiting members of the public. But can coppers really investigate their own?",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/tZnzwv8Th9UIP03WRrWjHng0v8.jpg"
+    },
+    {
       "id": "tt27125496",
       "type": "series",
       "name": "The Real Line of Duty",
@@ -26,6 +110,20 @@
         "Crime"
       ],
       "background": "https://image.tmdb.org/t/p/w1280/stY5PJSPYF5wxFW6tAGVayEygPp.jpg"
+    },
+    {
+      "id": "tt26542876",
+      "type": "series",
+      "name": "Murder Detective With Graham Hill",
+      "poster": "https://image.tmdb.org/t/p/w500/wcWXWieLqzqZkqFGEZcH4EcEzLj.jpg",
+      "posterShape": "poster",
+      "description": "Murder Detective with Graham Hill introduces former Surrey Police senior detective and criminologist Graham Hill to Crime + Investigation's true crime-loving audience as the Murder Detective. In each episode, Graham Hill pairs his detective methodology with forensic science and insider knowledge to provide audiences with his expert understanding of how the cases were finally cracked. The episodes will also include key witness testimonies, new interviews, forensic and psychological experts, and archive footage, taking viewers into the investigation to see the modern crime-solving techniques.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/i8sATHg1TzaT4eFEFC50EHJJ5ir.jpg"
     },
     {
       "id": "tmdb:222449",

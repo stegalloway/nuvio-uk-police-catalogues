@@ -84,6 +84,20 @@
       "background": "https://image.tmdb.org/t/p/w1280/bEwzge2gj8rxxBwM9iWd2RSm8sY.jpg"
     },
     {
+      "id": "tmdb:333348",
+      "type": "series",
+      "name": "Britain's TikTok Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/ofNiJruhCwh8SuZm1zgw28hlRmG.jpg",
+      "posterShape": "poster",
+      "description": "Britain's TikTok Murder is a two-part true crime documentary series that investigates the murder of 62-year-old army veteran Stuart Crocker. Through exclusive interviews, police evidence, and extensive TikTok footage, the series explores how social media fame, manipulation, coercive control, and the exploitation of vulnerable people became central to one of the UK's most disturbing recent murder cases, uncovering the events that led to Crocker's death and the shocking investigation that followed.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/wyQdXBQaoTsZhZfe98OXijmnTOa.jpg"
+    },
+    {
       "id": "tt44861919",
       "type": "series",
       "name": "The Murder Detective",
@@ -166,6 +180,20 @@
       "background": "https://image.tmdb.org/t/p/w1280/orMiY6AP9iZZaHR7qQDRCKhX8sh.jpg"
     },
     {
+      "id": "tmdb:313041",
+      "type": "series",
+      "name": "Nicholas Rossi: Predator on Trial",
+      "poster": "https://image.tmdb.org/t/p/w500/1CiMmsokvGzpTKByEQ53LMQ57El.jpg",
+      "posterShape": "poster",
+      "description": "December 2021, a man with Covid wakes up from a coma in a Glasgow hospital surrounded by detectives. They say he is Nicholas Rossi, one of America's most wanted fugitives. He claims to be a disabled academic called Arthur Knight. This is the astonishing story of one of the world's most dangerous conmen and the transatlantic battle for justice.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/6T0JnQBKW5rtQlBhyJovPjmwCbX.jpg"
+    },
+    {
       "id": "tt13182856",
       "type": "series",
       "name": "Police: Suspect No.1",
@@ -235,45 +263,18 @@
       "background": "https://image.tmdb.org/t/p/w1280/2jOnN8NRW6OLjoL9GzOCAvLFM2V.jpg"
     },
     {
-      "id": "tt37694631",
+      "id": "tt36581615",
       "type": "series",
-      "name": "Operation Dark Phone: Murder by Text",
-      "poster": "https://image.tmdb.org/t/p/w500/qQNwBejBSqPbuAouJDTMduiqLaI.jpg",
+      "name": "MURDER IN CONCRETE",
+      "poster": "https://image.tmdb.org/t/p/w500/bPyQb8N57G4nitVLYL1gH8dZzkJ.jpg",
       "posterShape": "poster",
-      "description": "The incredible inside story of a huge police operation to infiltrate dangerous global crime gangs through their encrypted phone network.\n\nOperation Dark Phone : Murder by Text is the inside story the biggest ever joint law enforcement operation against a global network of organised crime groups who believed their encrypted phones were safe. Until a collaboration between international authorities - led in the UK by the National Crime Agency - managed to hack their phones to reveal the astonishing details of their messages.  For the first time since the EncroChat network was infiltrated in 2020, the messages sent and the criminals exposed are exclusively revealed in a four part documentary series that tells the story in compelling and shocking detail. For 74 frantic days the authorities could read all the messages and sought to save lives and bring down the gangs, before the criminals realised their data was being captured.",
+      "description": "Cheshire, the north west of England, May 2013. When a French-speaking man contacts local police confessing to killing his housemate several years earlier, two detectives set out to discover the truth. The discovery of a body buried in a concrete tomb in a seemingly ordinary neighbourhood triggers an investigation that uncovers a shocking story of betrayal, deception and brutal murder.",
       "releaseInfo": "2025",
-      "genres": [
-        "Crime",
-        "Documentary"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/xKD5NY9AMkY5IEE8W56UEE9IhWL.jpg"
-    },
-    {
-      "id": "tt13691282",
-      "type": "series",
-      "name": "The Moment of Proof",
-      "poster": "https://image.tmdb.org/t/p/w500/bbu4UenfDioETUx2TTAvIGjYuX4.jpg",
-      "posterShape": "poster",
-      "description": "True-crime documentary series telling the story of police investigations, focused on the moment detectives realise they have cracked the case. It may be a DNA match, the moment an alibi is disproven or a dramatic interview room confession.",
-      "releaseInfo": "2021",
       "genres": [
         "Documentary",
         "Crime"
       ],
-      "background": "https://image.tmdb.org/t/p/w1280/iTIolXlKrAAxNdQkjVsBb3pmXeh.jpg"
-    },
-    {
-      "id": "tt33381630",
-      "type": "series",
-      "name": "Forensics: Murder Scene",
-      "poster": "https://image.tmdb.org/t/p/w500/uEyGqM2aq1xaZWo1f5z5IIdOTCx.jpg",
-      "posterShape": "poster",
-      "description": "Documentary telling the inside story of forensics teams working alongside West Yorkshire Police.",
-      "releaseInfo": "2024",
-      "genres": [
-        "Documentary"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/f2r2zXMPUOHFSrWRjgwnbVJ4hEW.jpg"
+      "background": "https://image.tmdb.org/t/p/w1280/2bFjITX3vvbFbWtwDRQHOXl2TLI.jpg"
     }
   ]
 }

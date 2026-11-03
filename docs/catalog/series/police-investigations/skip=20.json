@@ -1,6 +1,47 @@
 {
   "metas": [
     {
+      "id": "tt37694631",
+      "type": "series",
+      "name": "Operation Dark Phone: Murder by Text",
+      "poster": "https://image.tmdb.org/t/p/w500/qQNwBejBSqPbuAouJDTMduiqLaI.jpg",
+      "posterShape": "poster",
+      "description": "The incredible inside story of a huge police operation to infiltrate dangerous global crime gangs through their encrypted phone network.\n\nOperation Dark Phone : Murder by Text is the inside story the biggest ever joint law enforcement operation against a global network of organised crime groups who believed their encrypted phones were safe. Until a collaboration between international authorities - led in the UK by the National Crime Agency - managed to hack their phones to reveal the astonishing details of their messages.  For the first time since the EncroChat network was infiltrated in 2020, the messages sent and the criminals exposed are exclusively revealed in a four part documentary series that tells the story in compelling and shocking detail. For 74 frantic days the authorities could read all the messages and sought to save lives and bring down the gangs, before the criminals realised their data was being captured.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/xKD5NY9AMkY5IEE8W56UEE9IhWL.jpg"
+    },
+    {
+      "id": "tt13691282",
+      "type": "series",
+      "name": "The Moment of Proof",
+      "poster": "https://image.tmdb.org/t/p/w500/bbu4UenfDioETUx2TTAvIGjYuX4.jpg",
+      "posterShape": "poster",
+      "description": "True-crime documentary series telling the story of police investigations, focused on the moment detectives realise they have cracked the case. It may be a DNA match, the moment an alibi is disproven or a dramatic interview room confession.",
+      "releaseInfo": "2021",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/iTIolXlKrAAxNdQkjVsBb3pmXeh.jpg"
+    },
+    {
+      "id": "tt33381630",
+      "type": "series",
+      "name": "Forensics: Murder Scene",
+      "poster": "https://image.tmdb.org/t/p/w500/uEyGqM2aq1xaZWo1f5z5IIdOTCx.jpg",
+      "posterShape": "poster",
+      "description": "Documentary telling the inside story of forensics teams working alongside West Yorkshire Police.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/f2r2zXMPUOHFSrWRjgwnbVJ4hEW.jpg"
+    },
+    {
       "id": "tt36334448",
       "type": "series",
       "name": "The Undercover Police Scandal: Love and Lies Exposed",
@@ -41,6 +82,20 @@
       "background": "https://image.tmdb.org/t/p/w1280/mO2JSkouIqDRzTLNM8G3PjJk4Fm.jpg"
     },
     {
+      "id": "tt35661293",
+      "type": "series",
+      "name": "Murder in the Skies: Who Downed Mh17?",
+      "poster": "https://image.tmdb.org/t/p/w500/8TE8F6uwztvu84iiamAyiUNu8Bn.jpg",
+      "posterShape": "poster",
+      "description": "July 2014.  When Malaysian Airlines flight MH17 crashes in Ukraine, killing all 298 people on board, the circumstances are shrouded in mystery. With a regional war beginning to rage around the crash site, disinformation is everywhere. Western governments are left scrabbling for detail while one civilian is leading the hunt for answers – Dad of two and amateur blogger Eliot Higgins. And with an unlikely team of online detectives by his side, he’s ready to fight all the way to the truth.",
+      "releaseInfo": "2025",
+      "genres": [
+        "Documentary",
+        "Mystery"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/bWWQ10XYqRvX2hV6ZylLdW6eJK5.jpg"
+    },
+    {
       "id": "tt11165808",
       "type": "series",
       "name": "When Missing Turns to Murder",
@@ -55,6 +110,20 @@
       "background": "https://image.tmdb.org/t/p/w1280/arSxfELkMW4grBiBDhyTAT1CTXm.jpg"
     },
     {
+      "id": "tt34567293",
+      "type": "series",
+      "name": "Shoot to Kill: Terror on the Tube",
+      "poster": "https://image.tmdb.org/t/p/w500/ejkmCxPKCprdBqZn2Ftj6zHVazA.jpg",
+      "posterShape": "poster",
+      "description": "Documentary featuring previously unheard testimony, exploring the manhunt following the London bombings of 2005, and the shooting of innocent electrician Jean Charles de Menezes by armed police.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/7jeLfE2c3hQF3uPhAhWzdhLJxgM.jpg"
+    },
+    {
       "id": "tmdb:298943",
       "type": "series",
       "name": "Detectives: Case Closed",
@@ -67,6 +136,20 @@
         "Crime"
       ],
       "background": "https://image.tmdb.org/t/p/w1280/365RTN3WnJrmjWnKO50PXpdARpU.jpg"
+    },
+    {
+      "id": "tt34377511",
+      "type": "series",
+      "name": "Black Widow",
+      "poster": "https://image.tmdb.org/t/p/w500/lFh9s2d73eL8uX8D5P7VQlF45X5.jpg",
+      "posterShape": "poster",
+      "description": "Follows the decade-long police investigation into one of Britain’s most dangerous female murderers. Over 20 years, Dena Thompson who was known as ‘The Black Widow’, carried out a sustained campaign of fraud, deception, bigamy and murder. Using Lonely Hearts columns to lure a succession of husbands and dozens of lovers into her life, she was able to coerce them into giving up their life’s savings, their homes, their families and their freedom based on her bizarre but convincing stories.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/9zjbi986MG1kZvxwp4V0IlBlB5N.jpg"
     },
     {
       "id": "tt34581163",
@@ -136,6 +219,20 @@
         "Crime"
       ],
       "background": "https://image.tmdb.org/t/p/w1280/stY5PJSPYF5wxFW6tAGVayEygPp.jpg"
+    },
+    {
+      "id": "tt26542876",
+      "type": "series",
+      "name": "Murder Detective With Graham Hill",
+      "poster": "https://image.tmdb.org/t/p/w500/wcWXWieLqzqZkqFGEZcH4EcEzLj.jpg",
+      "posterShape": "poster",
+      "description": "Murder Detective with Graham Hill introduces former Surrey Police senior detective and criminologist Graham Hill to Crime + Investigation's true crime-loving audience as the Murder Detective. In each episode, Graham Hill pairs his detective methodology with forensic science and insider knowledge to provide audiences with his expert understanding of how the cases were finally cracked. The episodes will also include key witness testimonies, new interviews, forensic and psychological experts, and archive footage, taking viewers into the investigation to see the modern crime-solving techniques.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/i8sATHg1TzaT4eFEFC50EHJJ5ir.jpg"
     },
     {
       "id": "tmdb:222449",

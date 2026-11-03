@@ -1,17 +1,17 @@
 {
-  "updatedAtUtc": "2026-11-03T19:26:03+00:00",
+  "updatedAtUtc": "2026-11-03T19:37:46+00:00",
   "counts": {
-    "on-duty": 28,
-    "police-investigations": 33,
-    "true-crime": 27
+    "on-duty": 31,
+    "police-investigations": 40,
+    "true-crime": 32
   },
-  "approvedSeedCount": 88,
+  "approvedSeedCount": 103,
   "newlyAutoAdded": {
     "on-duty": [],
     "police-investigations": [],
     "true-crime": []
   },
-  "reviewCandidates": 159,
+  "reviewCandidates": 0,
   "scanPages": 91,
   "screenedCandidates": 256,
   "firstAirCutoff": "2021-11-03",

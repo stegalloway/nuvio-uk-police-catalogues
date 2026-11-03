@@ -155,6 +155,20 @@
       "background": "https://image.tmdb.org/t/p/w1280/1aJyO3DhAqqqkvML6OYo9DSojtY.jpg"
     },
     {
+      "id": "tmdb:302410",
+      "type": "series",
+      "name": "Social Media Monsters",
+      "poster": "https://image.tmdb.org/t/p/w500/2CLHCs1MRTXvtZZufSbWeDZXCWc.jpg",
+      "posterShape": "poster",
+      "description": "Social Media Monsters examines serious crimes where social media played a significant role, meeting victims, friends and families, and gaining insight from police, psychologists and other experts",
+      "releaseInfo": "2025",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/nbc581ucbniK4XMbgdguWUBzG0L.jpg"
+    },
+    {
       "id": "tmdb:304549",
       "type": "series",
       "name": "Inside the Arrest",
@@ -209,6 +223,19 @@
       "background": "https://image.tmdb.org/t/p/w1280/wp0GaRdWk3vJRKpW4DOCi5xNi1H.jpg"
     },
     {
+      "id": "tt32118008",
+      "type": "series",
+      "name": "Cops Gone Bad with Will Mellor",
+      "poster": "https://image.tmdb.org/t/p/w500/bmPtomy9zIRTNSv7kmbXTOEKv3Y.jpg",
+      "posterShape": "poster",
+      "description": "Cops Gone Bad with Will Mellor delves into shocking cases of officers turned criminals, exposing their plots and abuse of power.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/2mVXCcW0vbAZpwTznHQNgjPVLxQ.jpg"
+    },
+    {
       "id": "tt35653064",
       "type": "series",
       "name": "Manhunt",
@@ -249,33 +276,6 @@
         "Reality"
       ],
       "background": "https://image.tmdb.org/t/p/w1280/pYhYy7HRoT3K78WZtWf29F10SoC.jpg"
-    },
-    {
-      "id": "tmdb:256705",
-      "type": "series",
-      "name": "Police Raid: Minute by Minute",
-      "poster": "https://image.tmdb.org/t/p/w500/1CgGspqdnxSPtWwmJ0yoQwevLSU.jpg",
-      "posterShape": "poster",
-      "description": "Officers mount a major operation to tackle drug dealing in south Wales.",
-      "releaseInfo": "2024",
-      "genres": [
-        "Documentary"
-      ],
-      "background": "https://image.tmdb.org/t/p/w500/1CgGspqdnxSPtWwmJ0yoQwevLSU.jpg"
-    },
-    {
-      "id": "tt32127658",
-      "type": "series",
-      "name": "Police Interceptors: Pursuit and Capture",
-      "poster": "https://image.tmdb.org/t/p/w500/hJuG4EZPCWHQyzV9rcf9W8IJ067.jpg",
-      "posterShape": "poster",
-      "description": "Full-throttle documentary series featuring the UK's police in breath-taking chases.",
-      "releaseInfo": "2024",
-      "genres": [
-        "Reality",
-        "Crime"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/bulwHX1zhxHC60ubAkwy9dMgGqR.jpg"
     }
   ]
 }

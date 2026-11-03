@@ -1,6 +1,61 @@
 {
   "metas": [
     {
+      "id": "tt31494137",
+      "type": "series",
+      "name": "The British Airways Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/mergqmTNw8lPAJjIIXnuMG3G3y7.jpg",
+      "posterShape": "poster",
+      "description": "Docuseries exploring the death of Joanna Simpson, a wealthy heiress who was killed by her husband, a British Airways pilot. The series tracks the case from that first phone call to the tragic discovery of her remains in a shallow grave in Windsor Great Park, to his conviction and the consequences - taking in an acrimonious divorce and the pre-nuptial agreement of a wealthy heiress that was to change British legal history.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/34DZDFbrJgwDiPzELVSB7z8QsXo.jpg"
+    },
+    {
+      "id": "tt31110159",
+      "type": "series",
+      "name": "Nicola Bulley: The Disappearance That Gripped Britain",
+      "poster": "https://image.tmdb.org/t/p/w500/fHi40n7rhU9oXJBo87FYZEqznce.jpg",
+      "posterShape": "poster",
+      "description": "One year after her vanishing, why are there still so many unanswered questions about Nicola Bulley's disappearance? This documentary looks at the notorious case, delving into questions that never got answered, with testimony from those who lived through the tragedy.",
+      "releaseInfo": "2024",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/id4wOJdTFMS8wZYn47QMuiaRbn1.jpg"
+    },
+    {
+      "id": "tt30701310",
+      "type": "series",
+      "name": "The Playboy Bunny Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/2eOgYNQ0pTcMdW0cFFXgC82KAYM.jpg",
+      "posterShape": "poster",
+      "description": "The Playboy Bunny Murder will see Marcel Theroux investigate a set of disturbing murders of young women that have remained unsolved since the 1970s and reveal a dark and violent side hidden beneath the wealth and glamour of exclusive corners of London’s nightlife at that time.\n\nThe journalist and filmmaker’s long-standing interest in the brutal murders, which shocked the London he grew up in, led him to return to the killings of Eve Stratford, a Playboy Bunny who aspired to be a famous model, Lynda Farrow, a croupier with years of experience working in nighttime London, and Lynne Weedon, a schoolgirl whose whole life lay ahead of her.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/67HsOMrMnTHdSDJZwEXAGhj6Qep.jpg"
+    },
+    {
+      "id": "tt31418052",
+      "type": "series",
+      "name": "Sleeping with My Murderer",
+      "poster": "https://image.tmdb.org/t/p/w500/krYUEjaLGaQDUrhxaB0R9RJOUVl.jpg",
+      "posterShape": "poster",
+      "description": "British true crime documentary series revealing ten tragically, ill-fated love stories.",
+      "releaseInfo": "2023",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/bBywY6tLjm76oGURA9E87wZDBVj.jpg"
+    },
+    {
       "id": "tt34319348",
       "type": "series",
       "name": "The Child Snatcher: Manhunt",
@@ -13,6 +68,20 @@
         "Crime"
       ],
       "background": "https://image.tmdb.org/t/p/w1280/a5Agsh7HrvXUVHmPsucYzjBpIHN.jpg"
+    },
+    {
+      "id": "tt26676711",
+      "type": "series",
+      "name": "Inside the Heist",
+      "poster": "https://image.tmdb.org/t/p/w500/5cssHc2rO98ayQG4SjvoLjw7HA9.jpg",
+      "posterShape": "poster",
+      "description": "The stories behind the most daring and audacious robberies in the world. Explore the planning, the personalities and the ingenuity involved in walking away with untold riches. These are the boldest robberies carried out by the criminal elite.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/u6Sz4fsawtXCnzyW9YUSxFPlwUY.jpg"
     },
     {
       "id": "tt23858830",
