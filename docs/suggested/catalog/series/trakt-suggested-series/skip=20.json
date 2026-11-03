@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt0903747",
-      "type": "series",
-      "name": "Breaking Bad",
-      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
-      "posterShape": "poster",
-      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0903747"
-    },
-    {
       "id": "tt10367818",
       "type": "series",
       "name": "El final del paraíso",
@@ -141,6 +127,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt34771210"
+    },
+    {
+      "id": "tt11846996",
+      "type": "series",
+      "name": "Vigil",
+      "poster": "https://image.tmdb.org/t/p/w500/mmNjcRq47U1UVPnOuD2EYxx6Dno.jpg",
+      "posterShape": "poster",
+      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11846996"
     },
     {
       "id": "tt13018148",

@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt11846996",
-      "type": "series",
-      "name": "Vigil",
-      "poster": "https://image.tmdb.org/t/p/w500/mmNjcRq47U1UVPnOuD2EYxx6Dno.jpg",
-      "posterShape": "poster",
-      "description": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11846996"
-    },
-    {
       "id": "tt7909970",
       "type": "series",
       "name": "Unbelievable",
@@ -291,6 +277,20 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1442065"
+    },
+    {
+      "id": "tt37063558",
+      "type": "series",
+      "name": "R.J. Decker",
+      "poster": "https://image.tmdb.org/t/p/w500/iNOXveSqB5tUTmGKxp5flQuQ72f.jpg",
+      "posterShape": "poster",
+      "description": "Ex-con photographer RJ Decker becomes a PI in South Florida, solving strange cases with help from his journalist ex, her cop wife, and an enigmatic woman from his past who may help or destroy him.",
+      "genres": [
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt37063558"
     }
   ]
 }
