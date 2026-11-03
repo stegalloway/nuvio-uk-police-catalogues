@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt7909970",
-      "type": "series",
-      "name": "Unbelievable",
-      "poster": "https://image.tmdb.org/t/p/w500/jHOrNJNM03Lsjdw7nsw7TlqBOhd.jpg",
-      "posterShape": "poster",
-      "description": "After a young woman is accused of lying about a rape, two female detectives investigate a spate of eerily similar attacks.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt7909970"
-    },
-    {
       "id": "tt2356777",
       "type": "series",
       "name": "True Detective",
@@ -291,6 +277,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt37063558"
+    },
+    {
+      "id": "tt14218674",
+      "type": "series",
+      "name": "NCIS: Hawaiʻi",
+      "poster": "https://image.tmdb.org/t/p/w500/4R8xtDx2ge0GjEOnEwoR8V8X82q.jpg",
+      "posterShape": "poster",
+      "description": "Jane Tennant, the first female Special Agent in Charge of NCIS Pearl Harbor, and her unwavering team of specialists balance duty to family and country while investigating high-stakes crimes involving military personnel, national security and the mysteries of the sun-drenched island paradise itself.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt14218674"
     }
   ]
 }
