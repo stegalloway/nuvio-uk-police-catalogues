@@ -117,6 +117,21 @@
       "imdb_id": "tt8236336"
     },
     {
+      "id": "tt6320628",
+      "type": "movie",
+      "name": "Spider-Man: Far From Home",
+      "poster": "https://image.tmdb.org/t/p/w500/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+      "posterShape": "poster",
+      "description": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt6320628"
+    },
+    {
       "id": "tt3501632",
       "type": "movie",
       "name": "Thor: Ragnarok",
@@ -162,20 +177,6 @@
       "imdb_id": "tt16311594"
     },
     {
-      "id": "tt7526136",
-      "type": "movie",
-      "name": "Heart of the Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
-      "posterShape": "poster",
-      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "genres": [
-        "Adventure",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt7526136"
-    },
-    {
       "id": "tt3799694",
       "type": "movie",
       "name": "The Nice Guys",
@@ -189,6 +190,20 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt3799694"
+    },
+    {
+      "id": "tt7526136",
+      "type": "movie",
+      "name": "Heart of the Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+      "posterShape": "poster",
+      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "genres": [
+        "Adventure",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt7526136"
     },
     {
       "id": "tt5950044",
@@ -278,21 +293,6 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt0478970"
-    },
-    {
-      "id": "tt7181546",
-      "type": "movie",
-      "name": "Ballerina",
-      "poster": "https://image.tmdb.org/t/p/w500/2VUmvqsHb6cEtdfscEA6fqqVzLg.jpg",
-      "posterShape": "poster",
-      "description": "Taking place during the events of John Wick: Chapter 3 – Parabellum, Eve Macarro begins her training in the assassin traditions of the Ruska Roma.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt7181546"
     }
   ]
 }
