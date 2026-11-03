@@ -183,6 +183,19 @@
       "imdb_id": "tt31511689"
     },
     {
+      "id": "tt3515878",
+      "type": "movie",
+      "name": "Do Not Enter",
+      "poster": "https://image.tmdb.org/t/p/w500/stM9N7eJmHKLmFR59JG4tLdN7Wk.jpg",
+      "posterShape": "poster",
+      "description": "A group of young explorers investigates an old abandoned hotel, only to encounter a strange supernatural being and a competing group looking for a legendary hidden treasure.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt3515878"
+    },
+    {
       "id": "tt13778486",
       "type": "movie",
       "name": "Succubus",
@@ -195,19 +208,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt13778486"
-    },
-    {
-      "id": "tt3515878",
-      "type": "movie",
-      "name": "Do Not Enter",
-      "poster": "https://image.tmdb.org/t/p/w500/stM9N7eJmHKLmFR59JG4tLdN7Wk.jpg",
-      "posterShape": "poster",
-      "description": "A group of young explorers investigates an old abandoned hotel, only to encounter a strange supernatural being and a competing group looking for a legendary hidden treasure.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt3515878"
     },
     {
       "id": "tt32881442",
