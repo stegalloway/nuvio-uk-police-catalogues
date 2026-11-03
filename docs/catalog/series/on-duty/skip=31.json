@@ -1,3 +1,17 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "tmdb:88749",
+      "type": "series",
+      "name": "Police Code Zero: Officer Under Attack",
+      "poster": "https://image.tmdb.org/t/p/w500/26i7JLOulmVwtLZXLs5DioYEMwY.jpg",
+      "posterShape": "poster",
+      "description": "Documentary series exposing the dangerous situations faced by our police forces.",
+      "releaseInfo": "2019",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/5dw9m07bRkQKeTYdpIrwFbdjQxc.jpg"
+    }
+  ]
 }

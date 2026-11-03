@@ -1,6 +1,17 @@
 {
   "metas": [
     {
+      "id": "tt18077464",
+      "type": "series",
+      "name": "Special Ops: Crime Squad UK",
+      "poster": "https://image.tmdb.org/t/p/w500/Nup2niBZkWLxR1QkNnnnw14pKz.jpg",
+      "posterShape": "poster",
+      "description": "A never-before-seen look into the real-life criminal investigations of the UK's most talented and successful sleuths who tackle some of the UK's most challenging criminal cases.",
+      "releaseInfo": "2022",
+      "genres": [],
+      "background": "https://image.tmdb.org/t/p/w1280/uYqGToQwzNEiqfZ8y6P7lD3VOSo.jpg"
+    },
+    {
       "id": "tt31106703",
       "type": "series",
       "name": "To Catch a Copper",

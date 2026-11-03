@@ -1,6 +1,33 @@
 {
   "metas": [
     {
+      "id": "tt26676711",
+      "type": "series",
+      "name": "Inside the Heist",
+      "poster": "https://image.tmdb.org/t/p/w500/5cssHc2rO98ayQG4SjvoLjw7HA9.jpg",
+      "posterShape": "poster",
+      "description": "The stories behind the most daring and audacious robberies in the world. Explore the planning, the personalities and the ingenuity involved in walking away with untold riches. These are the boldest robberies carried out by the criminal elite.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/u6Sz4fsawtXCnzyW9YUSxFPlwUY.jpg"
+    },
+    {
+      "id": "tt23858830",
+      "type": "series",
+      "name": "Police, Camera, Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/6V5k2a7rNEVMXrJXCn3ij5F2qVU.jpg",
+      "posterShape": "poster",
+      "description": "Unprecedented access reveals the critical role of digital forensics in modern murder investigations.",
+      "releaseInfo": "2022",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/rKWa85nM1YP4703XXSgUZcpOIID.jpg"
+    },
+    {
       "id": "tt21442032",
       "type": "series",
       "name": "Murder in the Badlands",

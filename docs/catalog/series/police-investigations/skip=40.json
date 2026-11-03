@@ -1,3 +1,18 @@
 {
-  "metas": []
+  "metas": [
+    {
+      "id": "tt14536022",
+      "type": "series",
+      "name": "Bent Coppers: Crossing the Line of Duty",
+      "poster": "https://image.tmdb.org/t/p/w500/ezbpKag6l0KX7isCzr4L1VnW9Ps.jpg",
+      "posterShape": "poster",
+      "description": "Exploring the corruption within the Metropolitan Police force in the 1960s and 70s eventually leading to the formation of its first anti-corruption unit, A10. With the use of archive footage, insider interviews, and secret recordings, public myths surrounding the incorruptibility of London police are interrogated, revealing uncurbed levels of malfeasance within the force, and revealing the story behind the infamous Times investigation which unearthed unpleasant truths about policing to the broader public.",
+      "releaseInfo": "2021",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/4oXHVXTqfkiuLupcL70ffKd0qu.jpg"
+    }
+  ]
 }

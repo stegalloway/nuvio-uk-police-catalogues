@@ -1,6 +1,17 @@
 {
   "metas": [
     {
+      "id": "tmdb:203526",
+      "type": "series",
+      "name": "Police: Elite Raid Squad",
+      "poster": "https://image.tmdb.org/t/p/w500/3GAAtAJ4JHFSGdx9jNjFWCzj23N.jpg",
+      "posterShape": "poster",
+      "description": "Cameras follow law enforcement agencies as they carry out some of the biggest crime raids across Britain, giving viewers exclusive access as they take forceful action against a variety of fraudsters, counterfeiters, and criminals.",
+      "releaseInfo": "2022",
+      "genres": [],
+      "background": "https://image.tmdb.org/t/p/w500/3GAAtAJ4JHFSGdx9jNjFWCzj23N.jpg"
+    },
+    {
       "id": "tt19894406",
       "type": "series",
       "name": "Inside the Force: 24/7",
