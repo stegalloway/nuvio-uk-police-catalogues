@@ -70,6 +70,25 @@ class TrueCrimeRoutingTests(unittest.TestCase):
         self.assertIsNone(update_catalogs.confidence(drama, true_crime=True))
         self.assertIsNone(update_catalogs.confidence(nature, true_crime=True))
 
+    def test_a_uk_show_on_an_unlisted_channel_is_reviewed_never_added(self):
+        for networks in ([{"id": 1, "name": "Crime + Investigation"}], [], [{"id": 2, "name": "Prime Video"}]):
+            show = {**SHOW, "networks": networks, "name": "Cops Gone Bad",
+                    "first_air_date": update_catalogs.months_ago(1).isoformat()}
+            signals = update_catalogs.confidence(show, true_crime=True)
+            self.assertIsNotNone(signals, networks)
+            self.assertFalse(signals["autoEligible"], networks)
+        listed = {**SHOW, "name": "Cops Gone Bad", "first_air_date": update_catalogs.months_ago(1).isoformat()}
+        self.assertTrue(update_catalogs.confidence(listed, true_crime=True)["autoEligible"])
+
+    def test_a_crime_documentary_without_crime_words_is_reviewed_as_true_crime(self):
+        case = {**SHOW, "name": "The Bodies on the Bridge", "overview": "Two suitcases were found in Bristol.",
+                "genres": [{"id": 99, "name": "Documentary"}, {"id": 80, "name": "Crime"}]}
+        signals = update_catalogs.confidence(case, true_crime=True)
+        self.assertEqual(signals["category"], "true-crime")
+        self.assertFalse(signals["autoEligible"])
+        self.assertIsNone(update_catalogs.confidence({**case, "genres": [{"id": 99, "name": "Documentary"}]},
+                                                     true_crime=True))
+
 
 if __name__ == "__main__":
     unittest.main()

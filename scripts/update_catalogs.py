@@ -122,9 +122,14 @@ def confidence(tv, true_crime=False):
     network=tv.get("networks") or []
     network_match=any(x.get("id") in UK_BROADCASTERS or any(label in (x.get("name") or "").lower() for label in UK_NETWORK_HINTS) for x in network)
     doc=any(x.get("id") in (99,10764) for x in (tv.get("genres") or []))
-    if ("GB" not in tv.get("origin_country",[]) or not doc or not network_match or
+    crime_genre=any(x.get("id")==80 for x in (tv.get("genres") or []))
+    if ("GB" not in tv.get("origin_country",[]) or not doc or
         not first or first>TODAY or NEGATIVE.search(full) or any(x in full for x in OFFSHORE_MARKERS)):
         return None
+    # A UK show on a channel not on the list (UK crime channels, streaming
+    # services, or none on TMDB) is never added automatically, only reviewed
+    # (3 November 2026: these were dropped silently before).
+    review_only=not network_match
     specific=bool(STRONG_TITLE.search(title))
     context=bool(POLICE_CONTEXT.search(desc))
     category=category_from_text(tv)
@@ -133,13 +138,16 @@ def confidence(tv, true_crime=False):
         if not true_crime:return None
         specific=bool(TRUE_CRIME_TITLE.search(title))
         context=bool(TRUE_CRIME_CONTEXT.search(desc))
-        if not specific or not context:return None
+        if not specific or not context:
+            # TMDB files it as a crime documentary: a person decides.
+            if not crime_genre:return None
+            review_only=True
         category="true-crime"
     score=2 + 4*int(specific) + 2*int(context)
     if any(x in full for x in ("britain","british","london","england","scotland","wales","west midlands","merseyside","geordie","manchester","county police")):
         score+=1
     return {"score":score,"category":category,
-            "autoEligible":specific and context and score>=8 and first>=months_ago(6)}
+            "autoEligible":not review_only and specific and context and score>=8 and first>=months_ago(6)}
 
 def review_details(tv):
     """What a person needs to judge a review candidate without opening TMDB."""
@@ -192,7 +200,8 @@ def discover(tmdb, editorial, previous, seeded, already, seen_ids=frozenset()):
             overview=item.get("overview") or ""
             potential=(STRONG_TITLE.search(name) or
                 (POLICE_CONTEXT.search(overview) and re.search(r"detectiv|crime|murder|999|police|interceptor|custody|forensic|manhunt",name,re.I)) or
-                (true_crime and TRUE_CRIME_TITLE.search(name) and TRUE_CRIME_CONTEXT.search(overview)))
+                (true_crime and TRUE_CRIME_TITLE.search(name) and TRUE_CRIME_CONTEXT.search(overview)) or
+                (true_crime and 80 in (item.get("genre_ids") or [])))
             if potential and isinstance(item.get("id"),int):
                 matches[item["id"]]=item
     previous_by_id={int(x["tmdbId"]):x for x in previous.get("candidates",[]) if isinstance(x.get("tmdbId"),int)}
