@@ -115,21 +115,6 @@
       "imdb_id": "tt3581920"
     },
     {
-      "id": "tt1998372",
-      "type": "series",
-      "name": "Under the Banner of Heaven",
-      "poster": "https://image.tmdb.org/t/p/w500/gKyXUkyKRg9LdZzZWRzk0eKD5HJ.jpg",
-      "posterShape": "poster",
-      "description": "A devout detective's faith is tested as he investigates a brutal murder that seems to be connected to an esteemed Utah family's spiral into LDS fundamentalism and their distrust in the government.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt1998372"
-    },
-    {
       "id": "tt15669534",
       "type": "series",
       "name": "Tales of the Walking Dead",
@@ -143,6 +128,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15669534"
+    },
+    {
+      "id": "tt1998372",
+      "type": "series",
+      "name": "Under the Banner of Heaven",
+      "poster": "https://image.tmdb.org/t/p/w500/gKyXUkyKRg9LdZzZWRzk0eKD5HJ.jpg",
+      "posterShape": "poster",
+      "description": "A devout detective's faith is tested as he investigates a brutal murder that seems to be connected to an esteemed Utah family's spiral into LDS fundamentalism and their distrust in the government.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt1998372"
     },
     {
       "id": "tt28118211",
@@ -259,20 +259,6 @@
       "imdb_id": "tt11141900"
     },
     {
-      "id": "tt11324406",
-      "type": "series",
-      "name": "The Staircase",
-      "poster": "https://image.tmdb.org/t/p/w500/jiAcdCyf1UbWYBImcNtVeLW0pRj.jpg",
-      "posterShape": "poster",
-      "description": "An exploration of the life of Michael Peterson, his sprawling North Carolina family, and the suspicious death of his wife, Kathleen Peterson.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11324406"
-    },
-    {
       "id": "tt10946316",
       "type": "series",
       "name": "The Institute",
@@ -285,6 +271,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt10946316"
+    },
+    {
+      "id": "tt11324406",
+      "type": "series",
+      "name": "The Staircase",
+      "poster": "https://image.tmdb.org/t/p/w500/jiAcdCyf1UbWYBImcNtVeLW0pRj.jpg",
+      "posterShape": "poster",
+      "description": "An exploration of the life of Michael Peterson, his sprawling North Carolina family, and the suspicious death of his wife, Kathleen Peterson.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11324406"
     }
   ]
 }
