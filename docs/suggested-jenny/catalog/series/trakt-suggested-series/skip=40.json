@@ -144,6 +144,21 @@
       "imdb_id": "tt15669534"
     },
     {
+      "id": "tt1998372",
+      "type": "series",
+      "name": "Under the Banner of Heaven",
+      "poster": "https://image.tmdb.org/t/p/w500/gKyXUkyKRg9LdZzZWRzk0eKD5HJ.jpg",
+      "posterShape": "poster",
+      "description": "A devout detective's faith is tested as he investigates a brutal murder that seems to be connected to an esteemed Utah family's spiral into LDS fundamentalism and their distrust in the government.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt1998372"
+    },
+    {
       "id": "tt10936342",
       "type": "series",
       "name": "Transplant",
@@ -269,20 +284,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11324406"
-    },
-    {
-      "id": "tt11141900",
-      "type": "series",
-      "name": "Ted Bundy: Falling for a Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
-      "posterShape": "poster",
-      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11141900"
     }
   ]
 }
