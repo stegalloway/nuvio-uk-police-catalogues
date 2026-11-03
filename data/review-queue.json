@@ -1,23 +1,4 @@
 {
   "schema": 1,
-  "candidates": [
-    {
-      "tmdbId": 335153,
-      "name": "Richard Madeley: Inside the Worlds Mega Prison",
-      "category": "true-crime",
-      "score": 1,
-      "firstAir": "2026-09-14",
-      "lastAir": "2026-09-21",
-      "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-03",
-      "observations": 1,
-      "status": "pending",
-      "eligibleForAuto": false,
-      "needsArtwork": false,
-      "network": "",
-      "episodes": 2,
-      "seasons": 1,
-      "overview": "Powerful feature-length documentary in which Richard Madeley joins 40,000 brutal murderers and rapists in the world's mega jail. Could we learn anything from this extreme penal punishment in El Salvador?"
-    }
-  ]
+  "candidates": []
 }
