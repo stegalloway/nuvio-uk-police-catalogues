@@ -1,49 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt6548228",
-      "type": "series",
-      "name": "Castle Rock",
-      "poster": "https://image.tmdb.org/t/p/w500/6dnUpv9ghx84pgxlMOb4uuJrWDs.jpg",
-      "posterShape": "poster",
-      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6548228"
-    },
-    {
-      "id": "tt31314754",
-      "type": "series",
-      "name": "Devil in Disguise: John Wayne Gacy",
-      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
-      "posterShape": "poster",
-      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31314754"
-    },
-    {
-      "id": "tt15669534",
-      "type": "series",
-      "name": "Tales of the Walking Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
-      "posterShape": "poster",
-      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
-      "genres": [
-        "Drama",
-        "Action & Adventure",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15669534"
-    },
-    {
       "id": "tt13729648",
       "type": "series",
       "name": "Candy",
@@ -58,18 +15,46 @@
       "imdb_id": "tt13729648"
     },
     {
-      "id": "tt7985576",
+      "id": "tt32937780",
       "type": "series",
-      "name": "The Serpent",
-      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "name": "Something Very Bad Is Going to Happen",
+      "poster": "https://image.tmdb.org/t/p/w500/tuj37DlqEqib8sTO4h3nHJeTAJ2.jpg",
       "posterShape": "poster",
-      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "description": "A bride has a feeling that something horrifying will happen at her wedding — and the closer to the altar she gets, the worse it becomes.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32937780"
+    },
+    {
+      "id": "tt19853270",
+      "type": "series",
+      "name": "Murdaugh: Death in the Family",
+      "poster": "https://image.tmdb.org/t/p/w500/fqNT4hsPdA0999NEMuLVeja4Cm2.jpg",
+      "posterShape": "poster",
+      "description": "Maggie and Alex enjoy a lavish life of privilege as members of one of South Carolina's most powerful legal dynasties. But when their son Paul is involved in a deadly boat crash, the family is faced with a test unlike any they've ever encountered. As details come to light and new challenges emerge, the family's connections to several mysterious deaths raise questions which threaten everything Maggie and Alex hold dear.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt7985576"
+      "releaseInfo": "2025",
+      "imdb_id": "tt19853270"
+    },
+    {
+      "id": "tt28692194",
+      "type": "series",
+      "name": "El extraño retorno de Diana Salazar",
+      "poster": "https://image.tmdb.org/t/p/w500/5GGBkTWM3TlyubGyTeptu1F0pVu.jpg",
+      "posterShape": "poster",
+      "description": "In the 17th century, Leonor and Eduardo's forbidden love ends tragically when she is executed for witchcraft. Centuries later their souls reincarnate in Diana and Mario, but they face the fear of being discovered for their true selves.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt28692194"
     },
     {
       "id": "tt9813792",
@@ -87,59 +72,19 @@
       "imdb_id": "tt9813792"
     },
     {
-      "id": "tt19853270",
+      "id": "tt33043892",
       "type": "series",
-      "name": "Murdaugh: Death in the Family",
-      "poster": "https://image.tmdb.org/t/p/w500/fqNT4hsPdA0999NEMuLVeja4Cm2.jpg",
+      "name": "Dexter: Resurrection",
+      "poster": "https://image.tmdb.org/t/p/w500/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
       "posterShape": "poster",
-      "description": "Maggie and Alex enjoy a lavish life of privilege as members of one of South Carolina's most powerful legal dynasties. But when their son Paul is involved in a deadly boat crash, the family is faced with a test unlike any they've ever encountered. As details come to light and new challenges emerge, the family's connections to several mysterious deaths raise questions which threaten everything Maggie and Alex hold dear.",
+      "description": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
       "genres": [
+        "Crime",
         "Drama",
-        "Crime"
+        "Mystery"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt19853270"
-    },
-    {
-      "id": "tt11343600",
-      "type": "series",
-      "name": "Brand New Cherry Flavor",
-      "poster": "https://image.tmdb.org/t/p/w500/cX4acZbi2l4v051NJZfonqY0E3X.jpg",
-      "posterShape": "poster",
-      "description": "A filmmaker heads to Hollywood in the early ’90s to make her movie but tumbles down a hallucinatory rabbit hole of sex, magic, revenge — and kittens.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11343600"
-    },
-    {
-      "id": "tt14016500",
-      "type": "series",
-      "name": "The Summer I Turned Pretty",
-      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
-      "posterShape": "poster",
-      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14016500"
-    },
-    {
-      "id": "tt10936342",
-      "type": "series",
-      "name": "Transplant",
-      "poster": "https://image.tmdb.org/t/p/w500/ukvqJZI0XctnLst0CTE2r0AC2eu.jpg",
-      "posterShape": "poster",
-      "description": "Dr. Bashir Hamed, a Syrian doctor with battle-tested skills in emergency medicine, makes the difficult decision to flee his country and build a new life in Canada with his younger sister Amira. Bash works to navigate a new environment after earning a coveted residency in the Emergency Department of one of the best hospitals in Toronto, York Memorial.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10936342"
+      "imdb_id": "tt33043892"
     },
     {
       "id": "tt9642938",
@@ -157,17 +102,32 @@
       "imdb_id": "tt9642938"
     },
     {
-      "id": "tt11055882",
+      "id": "tt14016500",
       "type": "series",
-      "name": "Good Sam",
-      "poster": "https://image.tmdb.org/t/p/w500/3daYD4eYimoQaPyKIgCADKUovcJ.jpg",
+      "name": "The Summer I Turned Pretty",
+      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
       "posterShape": "poster",
-      "description": "A gifted heart surgeon excels in her new leadership role as Chief of Surgery after her renowned boss falls into a coma. When her former boss wakes up months later demanding to resume his duties, Sam is tasked with supervising this egotistical expert with a scalpel who never acknowledged her stellar talent.",
+      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
       "genres": [
         "Drama"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt11055882"
+      "imdb_id": "tt14016500"
+    },
+    {
+      "id": "tt11343600",
+      "type": "series",
+      "name": "Brand New Cherry Flavor",
+      "poster": "https://image.tmdb.org/t/p/w500/cX4acZbi2l4v051NJZfonqY0E3X.jpg",
+      "posterShape": "poster",
+      "description": "A filmmaker heads to Hollywood in the early ’90s to make her movie but tumbles down a hallucinatory rabbit hole of sex, magic, revenge — and kittens.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11343600"
     },
     {
       "id": "tt3581920",
@@ -183,19 +143,62 @@
       "imdb_id": "tt3581920"
     },
     {
-      "id": "tt33043892",
+      "id": "tt15669534",
       "type": "series",
-      "name": "Dexter: Resurrection",
-      "poster": "https://image.tmdb.org/t/p/w500/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
+      "name": "Tales of the Walking Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
       "posterShape": "poster",
-      "description": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
+      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15669534"
+    },
+    {
+      "id": "tt1998372",
+      "type": "series",
+      "name": "Under the Banner of Heaven",
+      "poster": "https://image.tmdb.org/t/p/w500/gKyXUkyKRg9LdZzZWRzk0eKD5HJ.jpg",
+      "posterShape": "poster",
+      "description": "A devout detective's faith is tested as he investigates a brutal murder that seems to be connected to an esteemed Utah family's spiral into LDS fundamentalism and their distrust in the government.",
       "genres": [
         "Crime",
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt33043892"
+      "releaseInfo": "2022",
+      "imdb_id": "tt1998372"
+    },
+    {
+      "id": "tt28118211",
+      "type": "series",
+      "name": "A Good Girl's Guide to Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/pVV62HbgLP7JsZv096XmjPZtjdP.jpg",
+      "posterShape": "poster",
+      "description": "Five years after the death of schoolgirl Andie Bell, Pippa Fitz-Amobi sets out to uncover what really happened to her. Sal Singh, Andie's boyfriend, admitted to the murder before taking his own life, but Pip doesn't believe he's responsible and teams up with Sal's brother Ravi to uncover the truth. If Sal Singh isn't a murderer and the real killer is still out there, how far will they go to keep Pip from finding out the truth?",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt28118211"
+    },
+    {
+      "id": "tt10936342",
+      "type": "series",
+      "name": "Transplant",
+      "poster": "https://image.tmdb.org/t/p/w500/ukvqJZI0XctnLst0CTE2r0AC2eu.jpg",
+      "posterShape": "poster",
+      "description": "Dr. Bashir Hamed, a Syrian doctor with battle-tested skills in emergency medicine, makes the difficult decision to flee his country and build a new life in Canada with his younger sister Amira. Bash works to navigate a new environment after earning a coveted residency in the Emergency Department of one of the best hospitals in Toronto, York Memorial.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10936342"
     },
     {
       "id": "tt26576161",
@@ -212,34 +215,18 @@
       "imdb_id": "tt26576161"
     },
     {
-      "id": "tt9174630",
+      "id": "tt6548228",
       "type": "series",
-      "name": "The Horror of Dolores Roach",
-      "poster": "https://image.tmdb.org/t/p/w500/qTYLRBCNyOuyktuTcjqJ7rbXxaF.jpg",
+      "name": "Castle Rock",
+      "poster": "https://image.tmdb.org/t/p/w500/6dnUpv9ghx84pgxlMOb4uuJrWDs.jpg",
       "posterShape": "poster",
-      "description": "After an unjust 16-year prison sentence, Dolores Roach returns to a gentrified Washington Heights, where she reunites with an old stoner friend, Luis, who lets her live and work as a masseuse in the basement under his empanada shop. When the promise of her newfound stability is quickly threatened, “Magic Hands” Dolores is driven to shocking extremes to survive.",
+      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
       "genres": [
-        "Drama",
-        "Comedy",
-        "Mystery"
+        "Mystery",
+        "Drama"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt9174630"
-    },
-    {
-      "id": "tt18926116",
-      "type": "series",
-      "name": "Fear the Walking Dead: Dead in the Water",
-      "poster": "https://image.tmdb.org/t/p/w500/kayTdmzIZli4S0njuQjhI8i5clf.jpg",
-      "posterShape": "poster",
-      "description": "Riley is serving as a weapons officer aboard the USS Pennsylvania near the Gulf of Mexico when a mysterious outbreak forces the crew to strategize a way off the sub before it becomes their tomb, in this prequel to Fear the Walking Dead.",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt18926116"
+      "releaseInfo": "2018",
+      "imdb_id": "tt6548228"
     },
     {
       "id": "tt19500224",
@@ -256,19 +243,6 @@
       "imdb_id": "tt19500224"
     },
     {
-      "id": "tt31849826",
-      "type": "series",
-      "name": "Doctor Odyssey",
-      "poster": "https://image.tmdb.org/t/p/w500/78KamrNZE0ZzPLBjEug16BASJ5M.jpg",
-      "posterShape": "poster",
-      "description": "Max is the new on-board doctor for a luxury cruise ship where the small but mighty medical team navigate unique medical crises and each other, miles from shore.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31849826"
-    },
-    {
       "id": "tt8740614",
       "type": "series",
       "name": "The Residence",
@@ -282,6 +256,35 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt8740614"
+    },
+    {
+      "id": "tt11794642",
+      "type": "series",
+      "name": "Big Sky",
+      "poster": "https://image.tmdb.org/t/p/w500/4CUK42x0TvcWvuRXfjAFQlCeRdf.jpg",
+      "posterShape": "poster",
+      "description": "Private detective Cassie Dewell partners with ex-cop Jenny Hoyt on a search for two sisters who have been kidnapped by a truck driver on a remote highway in Montana. When they discover that these are not the only girls who have disappeared in the area, they must race against the clock to stop the perpetrator before another woman is taken.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11794642"
+    },
+    {
+      "id": "tt10946316",
+      "type": "series",
+      "name": "The Institute",
+      "poster": "https://image.tmdb.org/t/p/w500/7JXZdWifaa6wL0XLRi0GJOlOA8y.jpg",
+      "posterShape": "poster",
+      "description": "When 14 year old genius Luke Ellis is kidnapped, he awakens at The Institute, a facility full of children who all got there the same way he did, and who are all possessed of unusual abilities. In a nearby town, haunted former police officer Tim Jamieson has come looking to start a new life, but the peace and quiet won’t last, as his story and Luke’s are destined to collide.",
+      "genres": [
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt10946316"
     }
   ]
 }

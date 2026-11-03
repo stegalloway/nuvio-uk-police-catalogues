@@ -29,20 +29,6 @@
       "imdb_id": "tt9174718"
     },
     {
-      "id": "tt23148340",
-      "type": "series",
-      "name": "Crystal Lake",
-      "poster": "https://image.tmdb.org/t/p/w500/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
-      "posterShape": "poster",
-      "description": "Single mother Pam Voorhees has been unable to shake her grief after her young, sickly son Jason tragically drowned in the town lake almost a year before. When two strangers arrive at Pam's door digging into her past, a disturbing chain of events is set into motion, leaving the townspeople of Crystal Lake wondering: just who is Pam Voorhees?",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt23148340"
-    },
-    {
       "id": "tt36303968",
       "type": "series",
       "name": "Furious",
@@ -72,32 +58,18 @@
       "imdb_id": "tt2953250"
     },
     {
-      "id": "tt11285470",
+      "id": "tt23148340",
       "type": "series",
-      "name": "The Expecting",
-      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
+      "name": "Crystal Lake",
+      "poster": "https://image.tmdb.org/t/p/w500/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
       "posterShape": "poster",
-      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
+      "description": "Single mother Pam Voorhees has been unable to shake her grief after her young, sickly son Jason tragically drowned in the town lake almost a year before. When two strangers arrive at Pam's door digging into her past, a disturbing chain of events is set into motion, leaving the townspeople of Crystal Lake wondering: just who is Pam Voorhees?",
       "genres": [
-        "Mystery",
-        "Drama"
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11285470"
-    },
-    {
-      "id": "tt10970552",
-      "type": "series",
-      "name": "The Haunting of Bly Manor",
-      "poster": "https://image.tmdb.org/t/p/w500/vIXQ8UymmQ7zJEPrKJP3s3fSbhR.jpg",
-      "posterShape": "poster",
-      "description": "After an au pair's tragic death, Henry Wingrave hires a young American nanny to care for his orphaned niece and nephew who reside at Bly Manor with the estate's chef Owen, groundskeeper Jamie and housekeeper, Mrs. Grose. But all is not as it seems at the manor, and centuries of dark secrets of love and loss are waiting to be unearthed in this chilling tale.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10970552"
+      "releaseInfo": "2026",
+      "imdb_id": "tt23148340"
     },
     {
       "id": "tt4301160",
@@ -114,18 +86,18 @@
       "imdb_id": "tt4301160"
     },
     {
-      "id": "tt10148174",
+      "id": "tt10970552",
       "type": "series",
-      "name": "The Walking Dead: World Beyond",
-      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
+      "name": "The Haunting of Bly Manor",
+      "poster": "https://image.tmdb.org/t/p/w500/vIXQ8UymmQ7zJEPrKJP3s3fSbhR.jpg",
       "posterShape": "poster",
-      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
+      "description": "After an au pair's tragic death, Henry Wingrave hires a young American nanny to care for his orphaned niece and nephew who reside at Bly Manor with the estate's chef Owen, groundskeeper Jamie and housekeeper, Mrs. Grose. But all is not as it seems at the manor, and centuries of dark secrets of love and loss are waiting to be unearthed in this chilling tale.",
       "genres": [
-        "Drama",
-        "Sci-Fi & Fantasy"
+        "Mystery",
+        "Drama"
       ],
       "releaseInfo": "2020",
-      "imdb_id": "tt10148174"
+      "imdb_id": "tt10970552"
     },
     {
       "id": "tt1640719",
@@ -142,90 +114,18 @@
       "imdb_id": "tt1640719"
     },
     {
-      "id": "tt3960394",
+      "id": "tt11285470",
       "type": "series",
-      "name": "Interview with the Vampire",
-      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
+      "name": "The Expecting",
+      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
       "posterShape": "poster",
-      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
-      "genres": [
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt3960394"
-    },
-    {
-      "id": "tt8415836",
-      "type": "series",
-      "name": "Guillermo del Toro's Cabinet of Curiosities",
-      "poster": "https://image.tmdb.org/t/p/w500/a91e9hpWwfCqxJI4xM9Q2RhuxgI.jpg",
-      "posterShape": "poster",
-      "description": "Bizarre nightmares unfold in eight tales of terror in this visually stunning, spine-tingling horror collection curated by Guillermo del Toro.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt8415836"
-    },
-    {
-      "id": "tt10574558",
-      "type": "series",
-      "name": "Midnight Mass",
-      "poster": "https://image.tmdb.org/t/p/w500/iYoMZYVD775MtBYJfv6OGY1FsnL.jpg",
-      "posterShape": "poster",
-      "description": "The arrival of a charismatic young priest brings glorious miracles, ominous mysteries and renewed religious fervor to a dying town desperate to believe.",
+      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
       "genres": [
         "Mystery",
         "Drama"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt10574558"
-    },
-    {
-      "id": "tt9064858",
-      "type": "series",
-      "name": "Them",
-      "poster": "https://image.tmdb.org/t/p/w500/2JIrVunDSjldv7Jv2uNKrrqwfej.jpg",
-      "posterShape": "poster",
-      "description": "A limited anthology series that explores terror in America.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt9064858"
-    },
-    {
-      "id": "tt13623632",
-      "type": "series",
-      "name": "Alien: Earth",
-      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
-      "posterShape": "poster",
-      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt13623632"
-    },
-    {
-      "id": "tt15567174",
-      "type": "series",
-      "name": "The Fall of the House of Usher",
-      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
-      "posterShape": "poster",
-      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15567174"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11285470"
     },
     {
       "id": "tt14586350",
@@ -257,18 +157,61 @@
       "imdb_id": "tt32252772"
     },
     {
-      "id": "tt9859436",
+      "id": "tt15837600",
       "type": "series",
-      "name": "The Walking Dead: The Ones Who Live",
-      "poster": "https://image.tmdb.org/t/p/w500/ywbacot78IuNhGW4uVZPxxxVTkm.jpg",
+      "name": "Griselda",
+      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
       "posterShape": "poster",
-      "description": "Rick and Michonne are thrown into another world, built on a war against the dead... And ultimately, a war against the living. Can they find each other and who they were in a place and situation unlike any they've ever known before? Are they enemies? Lovers? Victims? Victors? Without each other, are they even alive – or will they find that they, too, are the Walking Dead?",
+      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
       "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
       "releaseInfo": "2024",
-      "imdb_id": "tt9859436"
+      "imdb_id": "tt15837600"
+    },
+    {
+      "id": "tt10574558",
+      "type": "series",
+      "name": "Midnight Mass",
+      "poster": "https://image.tmdb.org/t/p/w500/iYoMZYVD775MtBYJfv6OGY1FsnL.jpg",
+      "posterShape": "poster",
+      "description": "The arrival of a charismatic young priest brings glorious miracles, ominous mysteries and renewed religious fervor to a dying town desperate to believe.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt10574558"
+    },
+    {
+      "id": "tt10148174",
+      "type": "series",
+      "name": "The Walking Dead: World Beyond",
+      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
+      "posterShape": "poster",
+      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10148174"
+    },
+    {
+      "id": "tt9064858",
+      "type": "series",
+      "name": "Them",
+      "poster": "https://image.tmdb.org/t/p/w500/2JIrVunDSjldv7Jv2uNKrrqwfej.jpg",
+      "posterShape": "poster",
+      "description": "A limited anthology series that explores terror in America.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt9064858"
     },
     {
       "id": "tt6053512",
@@ -283,6 +226,63 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt6053512"
+    },
+    {
+      "id": "tt15567174",
+      "type": "series",
+      "name": "The Fall of the House of Usher",
+      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
+      "posterShape": "poster",
+      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15567174"
+    },
+    {
+      "id": "tt3960394",
+      "type": "series",
+      "name": "Interview with the Vampire",
+      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
+      "posterShape": "poster",
+      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt3960394"
+    },
+    {
+      "id": "tt13623632",
+      "type": "series",
+      "name": "Alien: Earth",
+      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
+      "posterShape": "poster",
+      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt13623632"
+    },
+    {
+      "id": "tt11794812",
+      "type": "series",
+      "name": "Cross",
+      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
+      "posterShape": "poster",
+      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt11794812"
     }
   ]
 }

@@ -6,7 +6,7 @@
       "name": "This City Is Ours",
       "poster": "https://image.tmdb.org/t/p/w500/75BwofwAZbf6GlhP2m6NPpP3bW2.jpg",
       "posterShape": "poster",
-      "description": "S2 E1–4 · out today\n\nAfter trying to leave a world of crime, Michael is dragged back into the fold to answer questions. Back in Liverpool tensions continue to bubble amongst the remaining members of the gang, and a gangster who's just been let out of prison wants answers.",
+      "description": "S2 E1–4 · out yesterday\n\nAfter trying to leave a world of crime, Michael is dragged back into the fold to answer questions. Back in Liverpool tensions continue to bubble amongst the remaining members of the gang, and a gangster who's just been let out of prison wants answers.",
       "genres": [
         "Drama",
         "Crime"
@@ -26,6 +26,21 @@
       ],
       "releaseInfo": "Out now · S19 E1 +68",
       "imdb_id": "tt0413573"
+    },
+    {
+      "id": "tt26598805",
+      "type": "series",
+      "name": "Nocturne",
+      "poster": "https://image.tmdb.org/t/p/w500/nyvXVcPnHEwVmqCdzjjCsu1jqhm.jpg",
+      "posterShape": "poster",
+      "description": "S1 E3 · Eyes on the Inside · Thu 5 Nov\n\nWhen a victim of notorious serial killer Jurek Walter unexpectedly turns up alive, detective Jonah Lynn races against time to find the one person still missing, while his protégé Saga Bauer goes undercover to get answers from the killer himself.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "Thu 5 Nov · S1 E3",
+      "imdb_id": "tt26598805"
     }
   ]
 }

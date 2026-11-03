@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt8415836",
+      "type": "series",
+      "name": "Guillermo del Toro's Cabinet of Curiosities",
+      "poster": "https://image.tmdb.org/t/p/w500/a91e9hpWwfCqxJI4xM9Q2RhuxgI.jpg",
+      "posterShape": "poster",
+      "description": "Bizarre nightmares unfold in eight tales of terror in this visually stunning, spine-tingling horror collection curated by Guillermo del Toro.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt8415836"
+    },
+    {
       "id": "tt11540908",
       "type": "series",
       "name": "Carrie",
@@ -16,33 +31,6 @@
       "imdb_id": "tt11540908"
     },
     {
-      "id": "tt15837600",
-      "type": "series",
-      "name": "Griselda",
-      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
-      "posterShape": "poster",
-      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15837600"
-    },
-    {
-      "id": "tt31938062",
-      "type": "series",
-      "name": "The Pitt",
-      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
-      "posterShape": "poster",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31938062"
-    },
-    {
       "id": "tt8354062",
       "type": "series",
       "name": "One of Us Is Lying",
@@ -55,21 +43,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt8354062"
-    },
-    {
-      "id": "tt27031263",
-      "type": "series",
-      "name": "Teacup",
-      "poster": "https://image.tmdb.org/t/p/w500/cP5zuQvWAFrgWptS0iXvDI3iND.jpg",
-      "posterShape": "poster",
-      "description": "A mysterious event traps people on a rural Georgia farm, forcing them to unite against an unknown, deadly force. A young boy named Arlo becomes central to uncovering the truth.",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt27031263"
     },
     {
       "id": "tt31458276",
@@ -87,145 +60,18 @@
       "imdb_id": "tt31458276"
     },
     {
-      "id": "tt1831804",
+      "id": "tt9859436",
       "type": "series",
-      "name": "The Stand",
-      "poster": "https://image.tmdb.org/t/p/w500/w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
+      "name": "The Walking Dead: The Ones Who Live",
+      "poster": "https://image.tmdb.org/t/p/w500/ywbacot78IuNhGW4uVZPxxxVTkm.jpg",
       "posterShape": "poster",
-      "description": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
+      "description": "Rick and Michonne are thrown into another world, built on a war against the dead... And ultimately, a war against the living. Can they find each other and who they were in a place and situation unlike any they've ever known before? Are they enemies? Lovers? Victims? Victors? Without each other, are they even alive – or will they find that they, too, are the Walking Dead?",
       "genres": [
         "Sci-Fi & Fantasy",
         "Drama"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt1831804"
-    },
-    {
-      "id": "tt11173006",
-      "type": "series",
-      "name": "Super Pumped: The Battle for Uber",
-      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
-      "posterShape": "poster",
-      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11173006"
-    },
-    {
-      "id": "tt19785210",
-      "type": "series",
-      "name": "Lucky Hank",
-      "poster": "https://image.tmdb.org/t/p/w500/eKYPaXerPYUhmCsGlk8KlGkrIc9.jpg",
-      "posterShape": "poster",
-      "description": "A mid-life crisis tale about the unlikely chairman of the English department in a badly underfunded college in the Pennsylvania rust belt.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt19785210"
-    },
-    {
-      "id": "tt19244304",
-      "type": "series",
-      "name": "IT: Welcome to Derry",
-      "poster": "https://image.tmdb.org/t/p/w500/nyy3BITeIjviv6PFIXtqvc8i6xi.jpg",
-      "posterShape": "poster",
-      "description": "In 1962, amid a spate of unexplained disappearances of local children, a group of misfit friends begin to suspect a long-buried ancient evil lurking. As the kids set out to determine what's really going on, a rising unease prompts several townspeople to work together to restore peace – all while a U.S. military operation seeks to exploit Derry for its own objectives.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt19244304"
-    },
-    {
-      "id": "tt11794812",
-      "type": "series",
-      "name": "Cross",
-      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
-      "posterShape": "poster",
-      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
       "releaseInfo": "2024",
-      "imdb_id": "tt11794812"
-    },
-    {
-      "id": "tt11041332",
-      "type": "series",
-      "name": "Yellowjackets",
-      "poster": "https://image.tmdb.org/t/p/w500/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
-      "posterShape": "poster",
-      "description": "This equal parts survival epic, psychological horror story and coming-of-age drama tells the saga of a team of wildly talented high school girls soccer players who become the (un)lucky survivors of a plane crash deep in the remote northern wilderness. The series chronicles their descent from a complicated but thriving team to savage clans, while also tracking the lives they’ve attempted to piece back together nearly 25 years later.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11041332"
-    },
-    {
-      "id": "tt13444912",
-      "type": "series",
-      "name": "The Midnight Club",
-      "poster": "https://image.tmdb.org/t/p/w500/2Y4F9BHkacKIMnDBZI3GGKpG1If.jpg",
-      "posterShape": "poster",
-      "description": "Inside a hospice for terminally ill teens, members of an exclusive club make a chilling pact: The first to die must send a sign from beyond the grave.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13444912"
-    },
-    {
-      "id": "tt13365348",
-      "type": "series",
-      "name": "Archive 81",
-      "poster": "https://image.tmdb.org/t/p/w500/l1jeSEm6a88GFcLzlHQr60D0dOi.jpg",
-      "posterShape": "poster",
-      "description": "An archivist takes a job restoring damaged videotapes and gets pulled into the vortex of a mystery involving the missing director and a demonic cult.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13365348"
-    },
-    {
-      "id": "tt33332385",
-      "type": "series",
-      "name": "Widow's Bay",
-      "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
-      "posterShape": "poster",
-      "description": "The mayor of a New England town resolves to turn it into the next tourist hot spot, despite local warnings that it's cursed.",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33332385"
-    },
-    {
-      "id": "tt11656892",
-      "type": "series",
-      "name": "Des",
-      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
-      "posterShape": "poster",
-      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11656892"
+      "imdb_id": "tt9859436"
     },
     {
       "id": "tt34771210",
@@ -243,6 +89,102 @@
       "imdb_id": "tt34771210"
     },
     {
+      "id": "tt31938062",
+      "type": "series",
+      "name": "The Pitt",
+      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+      "posterShape": "poster",
+      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31938062"
+    },
+    {
+      "id": "tt11656892",
+      "type": "series",
+      "name": "Des",
+      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
+      "posterShape": "poster",
+      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11656892"
+    },
+    {
+      "id": "tt11173006",
+      "type": "series",
+      "name": "Super Pumped: The Battle for Uber",
+      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
+      "posterShape": "poster",
+      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11173006"
+    },
+    {
+      "id": "tt19244304",
+      "type": "series",
+      "name": "IT: Welcome to Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/nyy3BITeIjviv6PFIXtqvc8i6xi.jpg",
+      "posterShape": "poster",
+      "description": "In 1962, amid a spate of unexplained disappearances of local children, a group of misfit friends begin to suspect a long-buried ancient evil lurking. As the kids set out to determine what's really going on, a rising unease prompts several townspeople to work together to restore peace – all while a U.S. military operation seeks to exploit Derry for its own objectives.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt19244304"
+    },
+    {
+      "id": "tt27031263",
+      "type": "series",
+      "name": "Teacup",
+      "poster": "https://image.tmdb.org/t/p/w500/cP5zuQvWAFrgWptS0iXvDI3iND.jpg",
+      "posterShape": "poster",
+      "description": "A mysterious event traps people on a rural Georgia farm, forcing them to unite against an unknown, deadly force. A young boy named Arlo becomes central to uncovering the truth.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt27031263"
+    },
+    {
+      "id": "tt19785210",
+      "type": "series",
+      "name": "Lucky Hank",
+      "poster": "https://image.tmdb.org/t/p/w500/eKYPaXerPYUhmCsGlk8KlGkrIc9.jpg",
+      "posterShape": "poster",
+      "description": "A mid-life crisis tale about the unlikely chairman of the English department in a badly underfunded college in the Pennsylvania rust belt.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt19785210"
+    },
+    {
+      "id": "tt1831804",
+      "type": "series",
+      "name": "The Stand",
+      "poster": "https://image.tmdb.org/t/p/w500/w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
+      "posterShape": "poster",
+      "description": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt1831804"
+    },
+    {
       "id": "tt34579520",
       "type": "series",
       "name": "Murder Before Evensong",
@@ -257,32 +199,90 @@
       "imdb_id": "tt34579520"
     },
     {
-      "id": "tt32937780",
+      "id": "tt13444912",
       "type": "series",
-      "name": "Something Very Bad Is Going to Happen",
-      "poster": "https://image.tmdb.org/t/p/w500/tuj37DlqEqib8sTO4h3nHJeTAJ2.jpg",
+      "name": "The Midnight Club",
+      "poster": "https://image.tmdb.org/t/p/w500/2Y4F9BHkacKIMnDBZI3GGKpG1If.jpg",
       "posterShape": "poster",
-      "description": "A bride has a feeling that something horrifying will happen at her wedding — and the closer to the altar she gets, the worse it becomes.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32937780"
-    },
-    {
-      "id": "tt28692194",
-      "type": "series",
-      "name": "El extraño retorno de Diana Salazar",
-      "poster": "https://image.tmdb.org/t/p/w500/5GGBkTWM3TlyubGyTeptu1F0pVu.jpg",
-      "posterShape": "poster",
-      "description": "In the 17th century, Leonor and Eduardo's forbidden love ends tragically when she is executed for witchcraft. Centuries later their souls reincarnate in Diana and Mario, but they face the fear of being discovered for their true selves.",
+      "description": "Inside a hospice for terminally ill teens, members of an exclusive club make a chilling pact: The first to die must send a sign from beyond the grave.",
       "genres": [
         "Mystery",
         "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt28692194"
+      "releaseInfo": "2022",
+      "imdb_id": "tt13444912"
+    },
+    {
+      "id": "tt31314754",
+      "type": "series",
+      "name": "Devil in Disguise: John Wayne Gacy",
+      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
+      "posterShape": "poster",
+      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31314754"
+    },
+    {
+      "id": "tt11041332",
+      "type": "series",
+      "name": "Yellowjackets",
+      "poster": "https://image.tmdb.org/t/p/w500/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
+      "posterShape": "poster",
+      "description": "This equal parts survival epic, psychological horror story and coming-of-age drama tells the saga of a team of wildly talented high school girls soccer players who become the (un)lucky survivors of a plane crash deep in the remote northern wilderness. The series chronicles their descent from a complicated but thriving team to savage clans, while also tracking the lives they’ve attempted to piece back together nearly 25 years later.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11041332"
+    },
+    {
+      "id": "tt33332385",
+      "type": "series",
+      "name": "Widow's Bay",
+      "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
+      "posterShape": "poster",
+      "description": "The mayor of a New England town resolves to turn it into the next tourist hot spot, despite local warnings that it's cursed.",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33332385"
+    },
+    {
+      "id": "tt13365348",
+      "type": "series",
+      "name": "Archive 81",
+      "poster": "https://image.tmdb.org/t/p/w500/l1jeSEm6a88GFcLzlHQr60D0dOi.jpg",
+      "posterShape": "poster",
+      "description": "An archivist takes a job restoring damaged videotapes and gets pulled into the vortex of a mystery involving the missing director and a demonic cult.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13365348"
+    },
+    {
+      "id": "tt7985576",
+      "type": "series",
+      "name": "The Serpent",
+      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "posterShape": "poster",
+      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt7985576"
     }
   ]
 }
