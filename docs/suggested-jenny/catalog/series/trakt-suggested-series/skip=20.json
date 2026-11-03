@@ -74,21 +74,6 @@
       "imdb_id": "tt9859436"
     },
     {
-      "id": "tt34771210",
-      "type": "series",
-      "name": "I Will Find You",
-      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
-      "posterShape": "poster",
-      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34771210"
-    },
-    {
       "id": "tt31938062",
       "type": "series",
       "name": "The Pitt",
@@ -284,6 +269,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt13729648"
+    },
+    {
+      "id": "tt19853270",
+      "type": "series",
+      "name": "Murdaugh: Death in the Family",
+      "poster": "https://image.tmdb.org/t/p/w500/fqNT4hsPdA0999NEMuLVeja4Cm2.jpg",
+      "posterShape": "poster",
+      "description": "Maggie and Alex enjoy a lavish life of privilege as members of one of South Carolina's most powerful legal dynasties. But when their son Paul is involved in a deadly boat crash, the family is faced with a test unlike any they've ever encountered. As details come to light and new challenges emerge, the family's connections to several mysterious deaths raise questions which threaten everything Maggie and Alex hold dear.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt19853270"
     }
   ]
 }
