@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt16988408",
-      "type": "series",
-      "name": "The Killer Nanny: Did She Do It?",
-      "poster": "https://image.tmdb.org/t/p/w500/exX1NaYFPq5X3KuW27g83MIljyD.jpg",
-      "posterShape": "poster",
-      "description": "Series re-examining the evidence from British au pair Louise Woodward's murder trial 25 years ago. Includes unprecedented access to witnesses, the defence team, the prosecution and members of the jury who decided her fate.",
-      "releaseInfo": "2022",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/i16tVXqK6OSuDnVUpZTdH5K22a6.jpg"
-    },
-    {
       "id": "tt16442836",
       "type": "series",
       "name": "The Lie Murder in Suburbia",
