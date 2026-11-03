@@ -404,8 +404,8 @@ class TraktClient:
             return None
 
     def title_lookup(self, path: str, params: Mapping | None = None) -> Any:
-        """A title's related titles or community rating; None when Trakt doesn't know it."""
-        if not re.fullmatch(r"/(?:shows|movies)/[A-Za-z0-9._-]+/(?:related|ratings)", path):
+        """A title's summary (its languages), related titles or community rating; None when Trakt doesn't know it."""
+        if not re.fullmatch(r"/(?:shows|movies)/[A-Za-z0-9._-]+(?:/(?:related|ratings))?", path):
             self.http.fail("unexpected_title_path")
         try:
             return self.http.get(path, params, missing_ok=True).data

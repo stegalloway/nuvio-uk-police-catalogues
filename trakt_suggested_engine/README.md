@@ -74,6 +74,25 @@ the basis. This generator deliberately makes the following custom adaptations:
   with any crime/thriller/mystery genre, at least 7/10 and 100 votes; released
   crime/mystery series, at least 7/10 and 30 votes. Existing genre exclusions and
   the no-adult rule stay in force. No minimum release year is imposed by these gates; Ste's profile adds a 2000 floor for films (see Taste profiles), widens series to action, war and politics and legal dramas (see "Series taste from the Loved list"), and widens films to action and war plus acclaimed films of other genres (see "Films from the Loved list").
+- English originals, second stage (3 November 2026, both profiles). TMDB
+  mislabels some original languages: two Spanish-language US network series
+  (ViX, Telemundo) were filed as English.
+  - Once a title's TMDB details are known, a title whose spoken languages are
+    listed but lack English is a suspect. "No Language" doesn't count.
+  - TMDB's spoken list is wrong sometimes too: the 2026 Resident Evil, a US
+    English-language film, is listed as Arabic only.
+  - So Trakt's own language list decides a suspect, through
+    `trakt_lookup("/movies|shows/{imdb}", {"extended": "full"})`. It stays only
+    when Trakt lists English first. Without a Trakt answer, TMDB's evidence
+    stands and the title leaves.
+  - Returning seasons get the same check. Titles that list English among their
+    spoken languages never cost a Trakt request.
+  - Diagnostics report `language_check.suppressed_count` per row.
+  - A/B on the 3 November snapshots, with the Rotten Tomatoes boost off on
+    both sides:
+    - Ste's series: "El final del paraíso" out, The Continental in.
+    - Jenny's series: "El extraño retorno de Diana Salazar" out, The Institute in.
+    - Every other row unchanged; Resident Evil stays.
 - Actual Trakt watched IDs determine suppression. Ratings inform the profile
   but do not silently mark a rated-only title watched.
 - Titles on the "Not Interested" list (`dismissed`) are suppressed at the same

@@ -258,11 +258,13 @@ class PublicationContracts(unittest.TestCase):
                                      failures=SourceFailures(), generator=generator, trakt_lookup=trakt_lookup)
         self.assertEqual(seen, [(items, lookup), ("absent", "absent")])
 
-    def test_title_lookup_reads_only_related_and_ratings(self):
-        http = FixtureHTTP([JsonResponse([{"ids": {"tmdb": 1}}], {}), JsonResponse({"rating": 8.1, "votes": 10}, {})])
+    def test_title_lookup_reads_only_summary_related_and_ratings(self):
+        http = FixtureHTTP([JsonResponse([{"ids": {"tmdb": 1}}], {}), JsonResponse({"rating": 8.1, "votes": 10}, {}),
+                            JsonResponse({"languages": ["es", "en"]}, {})])
         trakt = TraktClient(http)
         self.assertEqual(trakt.title_lookup("/shows/tt10/related", {"limit": 10}), [{"ids": {"tmdb": 1}}])
         self.assertEqual(trakt.title_lookup("/movies/tt1/ratings"), {"rating": 8.1, "votes": 10})
+        self.assertEqual(trakt.title_lookup("/shows/tt28692194", {"extended": "full"}), {"languages": ["es", "en"]})
         for path in ("/users/example/history", "/shows/tt10/related/../x", "/shows/tt10/people"):
             with self.subTest(path=path), self.assertRaises(SourceError):
                 TraktClient(FixtureHTTP([])).title_lookup(path)

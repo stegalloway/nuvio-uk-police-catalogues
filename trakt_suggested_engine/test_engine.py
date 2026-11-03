@@ -9,7 +9,8 @@ from .engine import (
     FOR_YOU_SOURCE, LOVED_EVIDENCE, PROFILES, EngineConfig, GenerationError, aired_by_season,
     apply_dismissal_signal, binged, derive_episode_progress, evaluate_returning, for_you_queries, freshness,
     generate_catalogues, jenny_for_you_queries, jenny_theme, place_keyword,
-    rank_and_mix_series, rt_bonus, series_viewing, thematic_signals, viewing_pattern, without_place_keywords,
+    rank_and_mix_series, rt_bonus, series_viewing, spoken_includes, thematic_signals, viewing_pattern,
+    without_place_keywords,
 )
 
 
@@ -1507,6 +1508,82 @@ class FilmAgeContracts(unittest.TestCase):
         self.assertIsNone(PROFILES["ste"].policy("series").year_min)
         self.assertIsNone(PROFILES["jenny"].policy("movie").year_min)
         self.assertIsNone(PROFILES["jenny"].policy("series").year_min)
+
+
+class RawWithoutSpoken(FixtureAPI):
+    """TMDB discover rows carry no spoken_languages; only details do."""
+
+    @staticmethod
+    def raw(detail):
+        raw = FixtureAPI.raw(detail)
+        raw.pop("spoken_languages", None)
+        return raw
+
+
+class SpokenLanguageContracts(unittest.TestCase):
+    """TMDB can mislabel original_language: its spoken languages flag a suspect, Trakt decides.
+
+    3 Nov 2026: two Spanish-language US network series filed as English (spoken: Spanish),
+    and a 2026 English-language US film whose TMDB spoken languages say Arabic only.
+    """
+
+    def test_spoken_languages_flag_a_suspect_only_when_listed(self):
+        en, es, xx = ({"iso_639_1": code} for code in ("en", "es", "xx"))
+        for spoken in (None, [], [xx], [es, en]):
+            self.assertTrue(spoken_includes({"spoken_languages": spoken}, "en"), spoken)
+        for spoken in ([es], [es, xx]):
+            self.assertFalse(spoken_includes({"spoken_languages": spoken}, "en"), spoken)
+
+    def rows(self, api, profile, lookup=None):
+        config = EngineConfig(catalogue_limit=20, candidate_enrichment_limit=40, minimum_items=3,
+                              max_workers=2, profile=profile)
+        result = generate_catalogues(*fixture_inputs(), api, now=NOW, config=config, trakt_lookup=lookup)
+        return {kind: [m["id"] for m in result["catalogues"][kind]["payload"]["metas"]] for kind in ("series", "movie")}
+
+    @staticmethod
+    def trakt(languages):
+        """Trakt fake: title summaries from `languages`; related titles and ratings unknown."""
+        calls = []
+        def lookup(path, params=None):
+            parts = path.strip("/").split("/")
+            if len(parts) != 2:
+                return None
+            calls.append(parts[1])
+            return {"languages": languages[parts[1]]} if parts[1] in languages else None
+        lookup.calls = calls
+        return lookup
+
+    def test_suspects_leave_both_viewers_rows_unless_trakt_says_english(self):
+        for profile in ("ste", "jenny"):
+            with self.subTest(profile=profile):
+                before = self.rows(RawWithoutSpoken(), profile, self.trakt({}))
+                api, picks = RawWithoutSpoken(), {}
+                for kind, media in (("series", "tv"), ("movie", "movie")):
+                    self.assertGreaterEqual(len(before[kind]), 3, "the check needs three titles in each row")
+                    spanish, english, bilingual = before[kind][:3]
+                    for imdb in (spanish, english):
+                        api.details[(media, int(imdb[2:]))]["spoken_languages"] = [{"iso_639_1": "es"}]
+                    api.details[(media, int(bilingual[2:]))]["spoken_languages"] = [{"iso_639_1": "en"},
+                                                                                     {"iso_639_1": "es"}]
+                    picks[kind] = (spanish, english, bilingual)
+                languages = {p[0]: ["es", "en"] for p in picks.values()} | {p[1]: ["en"] for p in picks.values()}
+                lookup = self.trakt(languages)
+                after = self.rows(api, profile, lookup)
+                for kind, (spanish, english, bilingual) in picks.items():
+                    self.assertNotIn(spanish, after[kind], "Trakt leads with Spanish: it leaves")
+                    self.assertIn(english, after[kind], "Trakt says English: TMDB's spoken list was wrong")
+                    self.assertIn(bilingual, after[kind], "English is among TMDB's spoken languages")
+                self.assertEqual(set(lookup.calls), {imdb for p in picks.values() for imdb in p[:2]},
+                                 "only suspects cost a Trakt request")
+
+    def test_without_a_trakt_answer_the_tmdb_evidence_stands(self):
+        for profile in ("ste", "jenny"):
+            with self.subTest(profile=profile):
+                suspect = self.rows(RawWithoutSpoken(), profile)["series"][0]
+                api = RawWithoutSpoken()
+                api.details[("tv", int(suspect[2:]))]["spoken_languages"] = [{"iso_639_1": "es"}]
+                self.assertNotIn(suspect, self.rows(api, profile)["series"])
+                self.assertNotIn(suspect, self.rows(api, profile, self.trakt({}))["series"])
 
 
 if __name__ == "__main__":

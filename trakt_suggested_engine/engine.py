@@ -1227,6 +1227,44 @@ def _eligible(item: Mapping, policy: w.FilterPolicy, now: datetime) -> bool:
     return not item.get("adult", False) and w.passes_filters(item, policy, now)
 
 
+def spoken_includes(item: Mapping, language: str) -> bool:
+    """True unless TMDB details list spoken languages and `language` is not among them.
+
+    Raw discover rows carry no spoken_languages, so this only applies to details.
+    "xx" (No Language) is not evidence either way.
+    """
+    spoken = item.get("spoken_languages")
+    codes = {s.get("iso_639_1") for s in spoken if isinstance(s, Mapping)} if isinstance(spoken, list) else set()
+    codes -= {"xx", None}
+    return not codes or language in codes
+
+
+def _language_confirmed(detail: Mapping, trakt_id: Any, policy: w.FilterPolicy,
+                        trakt_lookup: Callable | None, trakt_path: str, warnings: list) -> bool:
+    """Second stage of the original-language gate, after TMDB details are known.
+
+    TMDB mislabels some original languages: on 3 Nov 2026 two Spanish-language US
+    network series (ViX, Telemundo) were filed as English. Their details list only
+    Spanish as spoken, which makes them suspects. TMDB's spoken list is wrong too
+    (a 2026 US horror film listed as Arabic only), so Trakt's own language list
+    decides a suspect: it stays only when Trakt lists the original language first.
+    Without a Trakt answer the TMDB evidence stands and the title leaves.
+    Titles whose spoken languages include it never cost a Trakt request.
+    """
+    language = policy.original_language
+    if not language or spoken_includes(detail, language):
+        return True
+    if not trakt_lookup or not trakt_id:
+        return False
+    try:
+        summary = trakt_lookup(trakt_path + str(trakt_id), {"extended": "full"})
+    except Exception as error:
+        warnings.append({"stage": "trakt_language", "exception_type": type(error).__name__})
+        return False
+    languages = summary.get("languages") if isinstance(summary, Mapping) else None
+    return isinstance(languages, list) and bool(languages) and languages[0] == language
+
+
 def _normalise(values: Sequence[float], reference: Sequence[float] = ()) -> list[float]:
     """Scale values to 0-1 over the reference's range (default: their own), clamped."""
     if not values:
@@ -1481,6 +1519,7 @@ def generate_catalogues(
             seeds.extend(i for i in themed[:config.thematic_seed_count] if i["imdb_id"] not in seed_ids)
         dismissed_imdb, dismissed_tmdb = dismissed_ids(dismissed, kind)
         dismissed_hits = set()
+        language_hits = set()
         listed_imdb, listed_tmdb = dismissed_ids(watchlist, kind)
         watchlist_hits, loved_hits = set(), set()
         candidates, origins = {}, defaultdict(set)
@@ -1676,6 +1715,9 @@ def generate_catalogues(
             on_trial = not core and raw["id"] in acclaimed_ids and _eligible(combined, acclaimed_policy, moment)
             if not (core or on_trial) or not taste.final_gate(combined, kind):
                 continue
+            if not _language_confirmed(combined, imdb, policy, trakt_lookup, trakt_path, runner.warnings):
+                language_hits.add(raw["id"])
+                continue
             poster = _safe_poster(detail.get("poster_path") or raw.get("poster_path"))
             if not poster:
                 continue
@@ -1792,6 +1834,10 @@ def generate_catalogues(
                 detail = runner._details(tid, media) if tid else {}
                 if (not detail or not _eligible(_canonical_detail(detail, detail), policy, moment)
                         or not taste.final_gate(_canonical_detail(detail, detail), kind)):
+                    continue
+                if not _language_confirmed(detail, ids.get("imdb") or ids.get("trakt"), policy, trakt_lookup,
+                                           trakt_path, runner.warnings):
+                    language_hits.add(tid)
                     continue
                 if not state["watched_episodes"]:
                     returning_diagnostics.append({"show_id": key, "route": "hidden", "reason": "missing_episode_history"})
@@ -1950,6 +1996,7 @@ def generate_catalogues(
                                                  for i, c in enumerate(ordered) if "for_you_rank" in c]},
                        "not_interested": {"suppressed_count": len(dismissed_hits),
                                           "disliked_profile_titles": len(dislike_details)},
+                       "language_check": {"suppressed_count": len(language_hits)},
                        "watchlist": {"suppressed_count": len(watchlist_hits),
                                      "liked_profile_titles": len(like_details)},
                        "loved": {"history_titles": sum(bool(i.get("loved")) for i in items),
