@@ -34,6 +34,13 @@ NEGATIVE = re.compile(r"\b(fictional|scripted drama|crime drama|police procedura
 TRUE_CRIME_TITLE = re.compile(r"\b(murders?|murderers?|killers?|killings?|crimes?|criminals?|cold\s+case|trial|manhunt|missing|serial|ripper|forensics?|evil|vanish(?:ed|ing)?|disappear(?:ed|ance)?|abduct(?:ed|ion)|kidnap(?:ped|ping)?|stalk(?:er|ing)|poison(?:er|ing)?|con\s?man|heist|gangsters?)\b", re.I)
 TRUE_CRIME_CONTEXT = re.compile(r"\b(murder(?:ed|er|s)?|killed|killers?|killing|convicted|trial|jury|verdict|victims?|investigation|disappearance|justice|sentenced|prison|crimes?)\b", re.I)
 
+# UK shows TMDB lists with no genre at all never reach the documentary scan.
+# These words send them to review (3 November 2026: 29 found, 4 picked).
+NO_GENRE_WORDS = re.compile(r"\b(police|cops?|coppers|detectives?|constabulary|officers?|999|custody|interceptors?|"
+                            r"murders?|murdered|killers?|killing|killed|crimes?|criminals?|forensic|manhunt|arrest(?:ed)?|"
+                            r"prison|jail|court|trial|jury|convicted|victims?|investigation|missing|disappearance|"
+                            r"serial|gang|fraud|scam|heist|poison(?:ed|ing)?)\b", re.I)
+
 def load_json(path, default=None):
     return json.loads(path.read_text(encoding="utf-8-sig")) if path.exists() else default
 
@@ -149,6 +156,17 @@ def confidence(tv, true_crime=False):
     return {"score":score,"category":category,
             "autoEligible":not review_only and specific and context and score>=8 and first>=months_ago(6)}
 
+def no_genre_signals(tv):
+    """A UK show with no TMDB genre and crime wording: always a review candidate, never added automatically."""
+    title=tv.get("name") or ""
+    full=(title+" "+(tv.get("overview") or "")).lower()
+    first=date_or_none(tv.get("first_air_date"))
+    if ("GB" not in tv.get("origin_country",[]) or tv.get("genres") or not first or first>TODAY or
+        NEGATIVE.search(full) or any(x in full for x in OFFSHORE_MARKERS) or not NO_GENRE_WORDS.search(full)):
+        return None
+    police=STRONG_TITLE.search(title) or POLICE_CONTEXT.search(tv.get("overview") or "")
+    return {"score":1,"category":category_from_text(tv) if police else "true-crime","autoEligible":False}
+
 def review_details(tv):
     """What a person needs to judge a review candidate without opening TMDB."""
     overview=" ".join((tv.get("overview") or "").split())
@@ -193,6 +211,20 @@ def discover(tmdb, editorial, previous, seeded, already, seen_ids=frozenset()):
         with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
             pages.extend(pool.map(lambda n:tmdb.get("/discover/tv",{**query,"page":n}),range(2,count+1)))
     true_crime="true-crime" in editorial["categories"]
+    # The same years with no genre filter, for shows TMDB lists without one.
+    no_genre=set()
+    wide={k:v for k,v in query.items() if k!="with_genres"}
+    wide_first=tmdb.get("/discover/tv",{**wide,"page":1})
+    wide_count=min(int(wide_first.get("total_pages",0)),500)
+    wide_pages=[wide_first]
+    if wide_count>1:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
+            wide_pages.extend(pool.map(lambda n:tmdb.get("/discover/tv",{**wide,"page":n}),range(2,wide_count+1)))
+    for page in wide_pages:
+        for item in page.get("results",[]):
+            text=(item.get("name") or "")+" "+(item.get("overview") or "")
+            if not item.get("genre_ids") and isinstance(item.get("id"),int) and NO_GENRE_WORDS.search(text):
+                no_genre.add(item["id"])
     matches={}
     for page in pages:
         for item in page.get("results",[]):
@@ -204,6 +236,10 @@ def discover(tmdb, editorial, previous, seeded, already, seen_ids=frozenset()):
                 (true_crime and 80 in (item.get("genre_ids") or [])))
             if potential and isinstance(item.get("id"),int):
                 matches[item["id"]]=item
+    for page in wide_pages:
+        for item in page.get("results",[]):
+            if item.get("id") in no_genre:
+                matches.setdefault(item["id"],item)
     previous_by_id={int(x["tmdbId"]):x for x in previous.get("candidates",[]) if isinstance(x.get("tmdbId"),int)}
     for tmdb_id,meta in list(previous_by_id.items()):
         if meta.get("status")=="pending" and tmdb_id not in matches and meta.get("lastSeen"):
@@ -228,7 +264,7 @@ def discover(tmdb, editorial, previous, seeded, already, seen_ids=frozenset()):
         if error:
             error_count+=1
             continue
-        signals=confidence(show,true_crime)
+        signals=confidence(show,true_crime) or (no_genre_signals(show) if id in no_genre else None)
         if not signals or not eligible(show): continue
         normalized=title_key(show.get("name"))
         if normalized in name_seen: continue
@@ -250,7 +286,7 @@ def discover(tmdb, editorial, previous, seeded, already, seen_ids=frozenset()):
                        "needsArtwork":not poster_ok,**review_details(show)})
     if error_count:raise RuntimeError(f"TMDB candidate lookups failed for {error_count} titles; keeping last published catalogues intact")
     review.sort(key=lambda x:(x["score"],x["firstAir"] or "",x["name"] or ""),reverse=True)
-    return new,{"schema":1,"candidates":review[:250]},len(pages),len(matches)
+    return new,{"schema":1,"candidates":review[:250]},len(pages)+len(wide_pages),len(matches)
 
 def render_outputs(tmdb, editorial, discovered, fresh, review, scan_pages, scan_candidates, write=True):
     current={}

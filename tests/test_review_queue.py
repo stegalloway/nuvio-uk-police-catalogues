@@ -53,6 +53,25 @@ class ReviewQueueTests(unittest.TestCase):
         self.assertEqual(fresh, {"on-duty": [], "police-investigations": [], "true-crime": []})
         self.assertEqual([c["category"] for c in review["candidates"]], ["true-crime"])
 
+    def test_a_uk_show_with_no_genre_and_crime_wording_goes_to_review_only(self):
+        bare = {**SHOW, "id": 314187, "name": "Killer on the Run", "genres": [], "genre_ids": [], "networks": [],
+                "overview": "True-crime series focusing on the hunt for elusive killers."}
+        editorial = {"firstAiredWithinYears": 5, "excludedTmdbIds": [],
+                     "categories": {"on-duty": {}, "police-investigations": {}, "true-crime": {}}}
+
+        class Queue(FakeTMDB):
+            def get(self, path, query=None):
+                return {"total_pages": 1, "results": [bare]}
+
+            def detail(self, tmdb_id):
+                return bare
+
+        fresh, review, _, _ = update_catalogs.discover(Queue(), editorial, {"candidates": []}, {}, set())
+        self.assertEqual(fresh, {"on-duty": [], "police-investigations": [], "true-crime": []})
+        self.assertEqual([(c["name"], c["category"], c["eligibleForAuto"]) for c in review["candidates"]],
+                         [("Killer on the Run", "true-crime", False)])
+        self.assertIsNone(update_catalogs.no_genre_signals({**bare, "name": "Kitchen Nights", "overview": "A cookery series."}))
+
 
 class TrueCrimeRoutingTests(unittest.TestCase):
     def test_police_led_shows_keep_their_police_rows(self):
