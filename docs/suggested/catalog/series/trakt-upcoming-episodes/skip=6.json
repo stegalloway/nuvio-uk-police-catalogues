@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt5645432",
-      "type": "series",
-      "name": "The Old Man",
-      "poster": "https://image.tmdb.org/t/p/w500/8Ec9zCZl2Go8WhDN1JWjjgQRlEi.jpg",
-      "posterShape": "poster",
-      "description": "S2 E1–8 · out Fri 25 Oct 2024\n\nDan Chase absconded from the CIA decades ago and now lives off the grid. When an assassin arrives and tries to take Chase out, the old operative learns that to ensure his future he now must reconcile his past.",
-      "genres": [
-        "Action & Adventure",
-        "Drama"
-      ],
-      "releaseInfo": "Out now · S2 E1–8",
-      "imdb_id": "tt5645432"
-    },
-    {
       "id": "tt6473344",
       "type": "series",
       "name": "SEAL Team",
@@ -35,13 +21,13 @@
       "name": "Black Doves",
       "poster": "https://image.tmdb.org/t/p/w500/uoXtkm2P4HPPL8T3IBJ02G3hCC4.jpg",
       "posterShape": "poster",
-      "description": "S2 E1 · Thu 5 Nov\n\nWhen a spy posing as a politician's wife learns her lover has been murdered, an old assassin friend joins her on a quest for truth — and vengeance.",
+      "description": "S2 E1 · Tomorrow\n\nWhen a spy posing as a politician's wife learns her lover has been murdered, an old assassin friend joins her on a quest for truth — and vengeance.",
       "genres": [
         "Action & Adventure",
         "Mystery",
         "Crime"
       ],
-      "releaseInfo": "Thu 5 Nov · S2 E1",
+      "releaseInfo": "Tomorrow · S2 E1",
       "imdb_id": "tt27995113"
     },
     {

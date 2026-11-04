@@ -43,20 +43,6 @@
       "imdb_id": "tt35051210"
     },
     {
-      "id": "tt13875494",
-      "type": "series",
-      "name": "Tracker",
-      "poster": "https://image.tmdb.org/t/p/w500/otula4h1ITZ0eV84eg7Lb8u614C.jpg",
-      "posterShape": "poster",
-      "description": "On your watchlist · S4 E1–5 · out Sun 4 Oct · start at S1 E1\n\nLone-wolf survivalist Colter Shaw roams the country as a “reward seeker,” using his expert tracking skills to help private citizens and law enforcement solve all manner of mysteries while contending with his own fractured family.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "Out now · S4 E1–5",
-      "imdb_id": "tt13875494"
-    },
-    {
       "id": "tt13918776",
       "type": "series",
       "name": "The Night Agent",
@@ -121,13 +107,13 @@
       "name": "Black Doves",
       "poster": "https://image.tmdb.org/t/p/w500/uoXtkm2P4HPPL8T3IBJ02G3hCC4.jpg",
       "posterShape": "poster",
-      "description": "S2 E1 · Thu 5 Nov\n\nWhen a spy posing as a politician's wife learns her lover has been murdered, an old assassin friend joins her on a quest for truth — and vengeance.",
+      "description": "S2 E1 · Tomorrow\n\nWhen a spy posing as a politician's wife learns her lover has been murdered, an old assassin friend joins her on a quest for truth — and vengeance.",
       "genres": [
         "Action & Adventure",
         "Mystery",
         "Crime"
       ],
-      "releaseInfo": "Thu 5 Nov · S2 E1",
+      "releaseInfo": "Tomorrow · S2 E1",
       "imdb_id": "tt27995113"
     },
     {

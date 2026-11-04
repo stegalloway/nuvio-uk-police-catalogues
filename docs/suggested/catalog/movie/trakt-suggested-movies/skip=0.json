@@ -91,19 +91,6 @@
       "imdb_id": "tt0780504"
     },
     {
-      "id": "tt1285016",
-      "type": "movie",
-      "name": "The Social Network",
-      "poster": "https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
-      "posterShape": "poster",
-      "description": "In 2003, Harvard undergrad and computer programmer Mark Zuckerberg begins work on a new concept that eventually turns into the global social network known as Facebook. Six years later, Mark is one of the youngest billionaires ever, but his unprecedented success leads to both personal and legal complications when he ends up on the receiving end of two lawsuits, one involving his former friend.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1285016"
-    },
-    {
       "id": "tt2872718",
       "type": "movie",
       "name": "Nightcrawler",
@@ -207,20 +194,6 @@
       "imdb_id": "tt3799694"
     },
     {
-      "id": "tt7526136",
-      "type": "movie",
-      "name": "Heart of the Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
-      "posterShape": "poster",
-      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "genres": [
-        "Adventure",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt7526136"
-    },
-    {
       "id": "tt5950044",
       "type": "movie",
       "name": "Superman",
@@ -234,6 +207,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt5950044"
+    },
+    {
+      "id": "tt7526136",
+      "type": "movie",
+      "name": "Heart of the Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+      "posterShape": "poster",
+      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "genres": [
+        "Adventure",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt7526136"
     },
     {
       "id": "tt1631867",
@@ -293,6 +280,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt36042156"
+    },
+    {
+      "id": "tt0478970",
+      "type": "movie",
+      "name": "Ant-Man",
+      "poster": "https://image.tmdb.org/t/p/w500/rQRnQfUl3kfp78nCWq8Ks04vnq1.jpg",
+      "posterShape": "poster",
+      "description": "Armed with the astonishing ability to shrink in scale but increase in strength, master thief Scott Lang must embrace his inner-hero and help his mentor, Doctor Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world.",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt0478970"
     }
   ]
 }

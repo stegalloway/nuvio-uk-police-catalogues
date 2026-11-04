@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt27995113",
-      "type": "series",
-      "name": "Black Doves",
-      "poster": "https://image.tmdb.org/t/p/w500/uoXtkm2P4HPPL8T3IBJ02G3hCC4.jpg",
-      "posterShape": "poster",
-      "description": "S2 E1 · Thu 5 Nov\n\nWhen a spy posing as a politician's wife learns her lover has been murdered, an old assassin friend joins her on a quest for truth — and vengeance.",
-      "genres": [
-        "Action & Adventure",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "Thu 5 Nov · S2 E1",
-      "imdb_id": "tt27995113"
-    },
-    {
       "id": "tt31510819",
       "type": "series",
       "name": "MobLand",
