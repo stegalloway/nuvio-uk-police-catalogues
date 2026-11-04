@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt13729648",
-      "type": "series",
-      "name": "Candy",
-      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
-      "posterShape": "poster",
-      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13729648"
-    },
-    {
       "id": "tt19853270",
       "type": "series",
       "name": "Murdaugh: Death in the Family",
@@ -284,6 +270,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11324406"
+    },
+    {
+      "id": "tt11141900",
+      "type": "series",
+      "name": "Ted Bundy: Falling for a Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
+      "posterShape": "poster",
+      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11141900"
     }
   ]
 }
