@@ -29,18 +29,18 @@
       "imdb_id": "tt0979432"
     },
     {
-      "id": "tt15435876",
+      "id": "tt3281796",
       "type": "series",
-      "name": "The Penguin",
-      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
+      "name": "Power",
+      "poster": "https://image.tmdb.org/t/p/w500/ctftzvyj8b0odco7EoS9VfJhf7K.jpg",
       "posterShape": "poster",
-      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
+      "description": "A successful New York entrepreneur lives a double life as the head of a drug empire that serves only the rich and influential, all while wanting to escape the underworld and keep his family safe.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15435876"
+      "releaseInfo": "2014",
+      "imdb_id": "tt3281796"
     },
     {
       "id": "tt2243973",
@@ -57,18 +57,18 @@
       "imdb_id": "tt2243973"
     },
     {
-      "id": "tt3281796",
+      "id": "tt15435876",
       "type": "series",
-      "name": "Power",
-      "poster": "https://image.tmdb.org/t/p/w500/ctftzvyj8b0odco7EoS9VfJhf7K.jpg",
+      "name": "The Penguin",
+      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
       "posterShape": "poster",
-      "description": "A successful New York entrepreneur lives a double life as the head of a drug empire that serves only the rich and influential, all while wanting to escape the underworld and keep his family safe.",
+      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt3281796"
+      "releaseInfo": "2024",
+      "imdb_id": "tt15435876"
     },
     {
       "id": "tt3032476",
