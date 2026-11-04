@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt11242218",
-      "type": "movie",
-      "name": "Books of Blood",
-      "poster": "https://image.tmdb.org/t/p/w500/bXLVZGgLgd7OwbfP6fC5GCfrxuD.jpg",
-      "posterShape": "poster",
-      "description": "A journey into uncharted and forbidden territory through three tales tangled in space and time.",
-      "genres": [
-        "Horror",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11242218"
-    },
-    {
       "id": "tt24807110",
       "type": "movie",
       "name": "Don't Move",
@@ -292,6 +278,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5040012"
+    },
+    {
+      "id": "tt26671996",
+      "type": "movie",
+      "name": "Locked",
+      "poster": "https://image.tmdb.org/t/p/w500/hhkiqXpfpufwxVrdSftzeKIANl3.jpg",
+      "posterShape": "poster",
+      "description": "When Eddie breaks into a luxury SUV, he steps into a deadly trap set by William, a self-proclaimed vigilante delivering his own brand of twisted justice. With no means of escape, Eddie must fight to survive in a ride where escape is an illusion, survival is a nightmare, and justice shifts into high gear.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt26671996"
     }
   ]
 }
