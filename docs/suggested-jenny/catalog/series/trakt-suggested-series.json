@@ -200,18 +200,19 @@
       "imdb_id": "tt10574558"
     },
     {
-      "id": "tt10148174",
+      "id": "tt9064858",
       "type": "series",
-      "name": "The Walking Dead: World Beyond",
-      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
+      "name": "Them",
+      "poster": "https://image.tmdb.org/t/p/w500/2JIrVunDSjldv7Jv2uNKrrqwfej.jpg",
       "posterShape": "poster",
-      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
+      "description": "A limited anthology series that explores terror in America.",
       "genres": [
         "Drama",
-        "Sci-Fi & Fantasy"
+        "Mystery",
+        "Crime"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10148174"
+      "releaseInfo": "2021",
+      "imdb_id": "tt9064858"
     },
     {
       "id": "tt6053512",
@@ -228,19 +229,18 @@
       "imdb_id": "tt6053512"
     },
     {
-      "id": "tt9064858",
+      "id": "tt10148174",
       "type": "series",
-      "name": "Them",
-      "poster": "https://image.tmdb.org/t/p/w500/2JIrVunDSjldv7Jv2uNKrrqwfej.jpg",
+      "name": "The Walking Dead: World Beyond",
+      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
       "posterShape": "poster",
-      "description": "A limited anthology series that explores terror in America.",
+      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
       "genres": [
         "Drama",
-        "Mystery",
-        "Crime"
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt9064858"
+      "releaseInfo": "2020",
+      "imdb_id": "tt10148174"
     },
     {
       "id": "tt15567174",
