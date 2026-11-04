@@ -44,20 +44,6 @@
       "imdb_id": "tt5611024"
     },
     {
-      "id": "tt2788432",
-      "type": "series",
-      "name": "American Crime Story",
-      "poster": "https://image.tmdb.org/t/p/w500/dtIS3Qk8ny1FWQLiuJ77MTDX5bZ.jpg",
-      "posterShape": "poster",
-      "description": "An anthology series centered around some of history's most famous criminal investigations.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt2788432"
-    },
-    {
       "id": "tt13018148",
       "type": "series",
       "name": "Tell Me Lies",
@@ -70,6 +56,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt13018148"
+    },
+    {
+      "id": "tt2788432",
+      "type": "series",
+      "name": "American Crime Story",
+      "poster": "https://image.tmdb.org/t/p/w500/dtIS3Qk8ny1FWQLiuJ77MTDX5bZ.jpg",
+      "posterShape": "poster",
+      "description": "An anthology series centered around some of history's most famous criminal investigations.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt2788432"
     },
     {
       "id": "tt34771210",
@@ -87,20 +87,6 @@
       "imdb_id": "tt34771210"
     },
     {
-      "id": "tt5290382",
-      "type": "series",
-      "name": "MINDHUNTER",
-      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
-      "posterShape": "poster",
-      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt5290382"
-    },
-    {
       "id": "tt33035373",
       "type": "series",
       "name": "HIS & HERS",
@@ -114,6 +100,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33035373"
+    },
+    {
+      "id": "tt5290382",
+      "type": "series",
+      "name": "MINDHUNTER",
+      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+      "posterShape": "poster",
+      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5290382"
     },
     {
       "id": "tt17677860",
@@ -219,20 +219,6 @@
       "imdb_id": "tt16030542"
     },
     {
-      "id": "tt7909970",
-      "type": "series",
-      "name": "Unbelievable",
-      "poster": "https://image.tmdb.org/t/p/w500/jHOrNJNM03Lsjdw7nsw7TlqBOhd.jpg",
-      "posterShape": "poster",
-      "description": "After a young woman is accused of lying about a rape, two female detectives investigate a spate of eerily similar attacks.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt7909970"
-    },
-    {
       "id": "tt11846996",
       "type": "series",
       "name": "Vigil",
@@ -245,6 +231,20 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11846996"
+    },
+    {
+      "id": "tt7909970",
+      "type": "series",
+      "name": "Unbelievable",
+      "poster": "https://image.tmdb.org/t/p/w500/jHOrNJNM03Lsjdw7nsw7TlqBOhd.jpg",
+      "posterShape": "poster",
+      "description": "After a young woman is accused of lying about a rape, two female detectives investigate a spate of eerily similar attacks.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt7909970"
     },
     {
       "id": "tt3428912",

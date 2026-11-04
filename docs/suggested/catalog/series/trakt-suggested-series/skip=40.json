@@ -60,21 +60,6 @@
       "imdb_id": "tt5675620"
     },
     {
-      "id": "tt1637727",
-      "type": "series",
-      "name": "The Killing",
-      "poster": "https://image.tmdb.org/t/p/w500/3yiwAUNGn1rsPSVmFgVwPVJFtYf.jpg",
-      "posterShape": "poster",
-      "description": "The Killing is an American crime drama television series based upon the Danish television series Forbrydelsen. Set in Seattle, Washington, the series follows the various murder investigations by homicide detectives Sarah Linden and Stephen Holder.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1637727"
-    },
-    {
       "id": "tt5743796",
       "type": "series",
       "name": "Warrior",
@@ -89,6 +74,21 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt5743796"
+    },
+    {
+      "id": "tt1637727",
+      "type": "series",
+      "name": "The Killing",
+      "poster": "https://image.tmdb.org/t/p/w500/3yiwAUNGn1rsPSVmFgVwPVJFtYf.jpg",
+      "posterShape": "poster",
+      "description": "The Killing is an American crime drama television series based upon the Danish television series Forbrydelsen. Set in Seattle, Washington, the series follows the various murder investigations by homicide detectives Sarah Linden and Stephen Holder.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2011",
+      "imdb_id": "tt1637727"
     },
     {
       "id": "tt10327354",
@@ -122,6 +122,20 @@
       "imdb_id": "tt5164196"
     },
     {
+      "id": "tt6964748",
+      "type": "series",
+      "name": "Alex Rider",
+      "poster": "https://image.tmdb.org/t/p/w500/7VkzkvA0XckUClWrlkt4fnmTrkL.jpg",
+      "posterShape": "poster",
+      "description": "Alex Rider is an ordinary teenager enlisted to work on behalf of MI6, where he uses skills he didn't know he had to become an extraordinary spy.",
+      "genres": [
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt6964748"
+    },
+    {
       "id": "tt2249364",
       "type": "series",
       "name": "Broadchurch",
@@ -149,20 +163,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt3647998"
-    },
-    {
-      "id": "tt6964748",
-      "type": "series",
-      "name": "Alex Rider",
-      "poster": "https://image.tmdb.org/t/p/w500/7VkzkvA0XckUClWrlkt4fnmTrkL.jpg",
-      "posterShape": "poster",
-      "description": "Alex Rider is an ordinary teenager enlisted to work on behalf of MI6, where he uses skills he didn't know he had to become an extraordinary spy.",
-      "genres": [
-        "Drama",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt6964748"
     },
     {
       "id": "tt5722298",
@@ -195,20 +195,6 @@
       "imdb_id": "tt7335184"
     },
     {
-      "id": "tt1442065",
-      "type": "series",
-      "name": "Rookie Blue",
-      "poster": "https://image.tmdb.org/t/p/w500/rUINbQ8JKiQwN9g9PYJ6Nu0Iap1.jpg",
-      "posterShape": "poster",
-      "description": "Ambitious young cops try to prove themselves in their high-stakes careers, in which the smallest mistake can have deadly consequences. At the core of the close-knit group is perfectionist Andy McNally, whose father was a homicide detective before he burned out on the job. The series follows Andy and her four colleagues -- Dov Epstein, Gail Peck, Traci Nash and Chris Diaz -- as they experience the trials, triumphs and tribulations of police work, as well as its effect on their personal lives.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1442065"
-    },
-    {
       "id": "tt0773262",
       "type": "series",
       "name": "Dexter",
@@ -222,6 +208,20 @@
       ],
       "releaseInfo": "2006",
       "imdb_id": "tt0773262"
+    },
+    {
+      "id": "tt1442065",
+      "type": "series",
+      "name": "Rookie Blue",
+      "poster": "https://image.tmdb.org/t/p/w500/rUINbQ8JKiQwN9g9PYJ6Nu0Iap1.jpg",
+      "posterShape": "poster",
+      "description": "Ambitious young cops try to prove themselves in their high-stakes careers, in which the smallest mistake can have deadly consequences. At the core of the close-knit group is perfectionist Andy McNally, whose father was a homicide detective before he burned out on the job. The series follows Andy and her four colleagues -- Dov Epstein, Gail Peck, Traci Nash and Chris Diaz -- as they experience the trials, triumphs and tribulations of police work, as well as its effect on their personal lives.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1442065"
     },
     {
       "id": "tt14218674",
