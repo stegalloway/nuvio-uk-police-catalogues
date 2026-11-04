@@ -148,6 +148,21 @@
       "imdb_id": "tt23642744"
     },
     {
+      "id": "tt29516222",
+      "type": "movie",
+      "name": "Deep Water",
+      "poster": "https://image.tmdb.org/t/p/w500/ZWHxL2ETItcZzeVsVfs6gv3SZ7.jpg",
+      "posterShape": "poster",
+      "description": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences if they hope to escape their sinking plane and the frenzy of sharks drawn to the wreckage.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt29516222"
+    },
+    {
       "id": "tt6483422",
       "type": "movie",
       "name": "They Reach",
@@ -277,20 +292,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt26671996"
-    },
-    {
-      "id": "tt5040012",
-      "type": "movie",
-      "name": "Nosferatu",
-      "poster": "https://image.tmdb.org/t/p/w500/d0B8xDdqBZlzlPEzES8lu5LlNQn.jpg",
-      "posterShape": "poster",
-      "description": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
-      "genres": [
-        "Horror",
-        "Fantasy"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5040012"
     }
   ]
 }
