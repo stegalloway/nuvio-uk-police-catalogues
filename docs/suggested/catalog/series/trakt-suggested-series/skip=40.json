@@ -209,21 +209,6 @@
       "imdb_id": "tt7335184"
     },
     {
-      "id": "tt2188671",
-      "type": "series",
-      "name": "Bates Motel",
-      "poster": "https://image.tmdb.org/t/p/w500/xXKcfZE7ulYxgjjYv51s0zDG69s.jpg",
-      "posterShape": "poster",
-      "description": "A \"contemporary prequel\" to the 1960 film Psycho, depicting the life of Norman Bates and his mother Norma prior to the events portrayed in Hitchcock's film, albeit in a different fictional town and in a modern setting. The series begins after the death of Norma's husband, when she purchases a motel located in a coastal Oregon town so she and Norman can start a new life.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2188671"
-    },
-    {
       "id": "tt1442065",
       "type": "series",
       "name": "Rookie Blue",
@@ -292,6 +277,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt9742936"
+    },
+    {
+      "id": "tt6151526",
+      "type": "series",
+      "name": "The Rainmaker",
+      "poster": "https://image.tmdb.org/t/p/w500/q8l0lj20amBFi0SBs8NI9yJpaHq.jpg",
+      "posterShape": "poster",
+      "description": "Fresh out of law school, Rudy Baylor goes head to head with courtroom lion Leo Drummond as well as his law school girlfriend, Sarah. Rudy, along with his boss, Bruiser, and her disheveled paralegal, Deck, uncovers two connected conspiracies surrounding the mysterious death of their client's son.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt6151526"
     }
   ]
 }
