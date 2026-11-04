@@ -82,21 +82,6 @@
       "imdb_id": "tt50389959"
     },
     {
-      "id": "tt34890576",
-      "type": "movie",
-      "name": "Clayface",
-      "poster": "https://image.tmdb.org/t/p/w500/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
-      "posterShape": "poster",
-      "description": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34890576"
-    },
-    {
       "id": "tt32358390",
       "type": "movie",
       "name": "The Cycle",
@@ -110,6 +95,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32358390"
+    },
+    {
+      "id": "tt34890576",
+      "type": "movie",
+      "name": "Clayface",
+      "poster": "https://image.tmdb.org/t/p/w500/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
+      "posterShape": "poster",
+      "description": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34890576"
     },
     {
       "id": "tt32329539",
