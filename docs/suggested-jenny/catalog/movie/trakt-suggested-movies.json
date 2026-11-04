@@ -82,21 +82,6 @@
       "imdb_id": "tt50389959"
     },
     {
-      "id": "tt32358390",
-      "type": "movie",
-      "name": "The Cycle",
-      "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
-      "posterShape": "poster",
-      "description": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32358390"
-    },
-    {
       "id": "tt34890576",
       "type": "movie",
       "name": "Clayface",
@@ -110,6 +95,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt34890576"
+    },
+    {
+      "id": "tt32358390",
+      "type": "movie",
+      "name": "The Cycle",
+      "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
+      "posterShape": "poster",
+      "description": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32358390"
     },
     {
       "id": "tt32329539",
