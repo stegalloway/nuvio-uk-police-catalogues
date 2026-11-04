@@ -119,6 +119,22 @@
       "imdb_id": "tt8236336"
     },
     {
+      "id": "tt3501632",
+      "type": "movie",
+      "name": "Thor: Ragnarok",
+      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "posterShape": "poster",
+      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt3501632"
+    },
+    {
       "id": "tt31050020",
       "type": "movie",
       "name": "Once Upon a Deadpool",
@@ -249,22 +265,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt36042156"
-    },
-    {
-      "id": "tt3501632",
-      "type": "movie",
-      "name": "Thor: Ragnarok",
-      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
-      "posterShape": "poster",
-      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt3501632"
     },
     {
       "id": "tt7181546",
