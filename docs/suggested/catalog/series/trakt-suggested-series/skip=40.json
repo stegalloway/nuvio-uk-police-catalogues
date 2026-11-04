@@ -179,20 +179,6 @@
       "imdb_id": "tt0773262"
     },
     {
-      "id": "tt9698480",
-      "type": "series",
-      "name": "The Stranger",
-      "poster": "https://image.tmdb.org/t/p/w500/qKtjZ6f8ip6M7pYiDcVs0QXUAly.jpg",
-      "posterShape": "poster",
-      "description": "When a stranger makes a shocking claim about his wife, Adam Price's life upends as he becomes entangled in a web of secrets.",
-      "genres": [
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9698480"
-    },
-    {
       "id": "tt5722298",
       "type": "series",
       "name": "Private Eyes",
@@ -221,6 +207,21 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt7335184"
+    },
+    {
+      "id": "tt2188671",
+      "type": "series",
+      "name": "Bates Motel",
+      "poster": "https://image.tmdb.org/t/p/w500/xXKcfZE7ulYxgjjYv51s0zDG69s.jpg",
+      "posterShape": "poster",
+      "description": "A \"contemporary prequel\" to the 1960 film Psycho, depicting the life of Norman Bates and his mother Norma prior to the events portrayed in Hitchcock's film, albeit in a different fictional town and in a modern setting. The series begins after the death of Norma's husband, when she purchases a motel located in a coastal Oregon town so she and Norman can start a new life.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt2188671"
     },
     {
       "id": "tt1442065",
