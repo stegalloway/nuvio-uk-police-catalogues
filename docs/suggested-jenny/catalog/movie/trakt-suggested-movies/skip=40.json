@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt27444133",
+      "type": "movie",
+      "name": "Shades of Desire",
+      "poster": "https://image.tmdb.org/t/p/w500/3E3TAy3fSksFDJ4TS6maL9xNEgU.jpg",
+      "posterShape": "poster",
+      "description": "After her twin sister Aubrey goes missing, Jennifer uncovers the scandalous, secret double-life that Aubrey leads - and that has put both of them in danger.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt27444133"
+    },
+    {
       "id": "tt24807110",
       "type": "movie",
       "name": "Don't Move",
@@ -28,6 +42,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15791034"
+    },
+    {
+      "id": "tt10377864",
+      "type": "movie",
+      "name": "Beware Boiúna",
+      "poster": "https://image.tmdb.org/t/p/w500/uW5YMPxJUzT9bkafrCKHXjPTCoQ.jpg",
+      "posterShape": "poster",
+      "description": "A medical mission deep in the Amazon becomes a desperate fight for survival when a colossal ancient predator awakens, turning the jungle into a deadly battleground where nature decides who lives and dies.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Action"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt10377864"
     },
     {
       "id": "tt32141377",
@@ -264,33 +293,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt26671996"
-    },
-    {
-      "id": "tt34793095",
-      "type": "movie",
-      "name": "Play Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/ixWeYfvXT9AbfM0QPb9kwbVLbLV.jpg",
-      "posterShape": "poster",
-      "description": "A woman wakes up injured in a basement surrounded by corpses. To survive, she pretends to be dead while a grotesque ritual unfolds in the house above.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt34793095"
-    },
-    {
-      "id": "tt6874690",
-      "type": "movie",
-      "name": "The Rule of Jenny Pen",
-      "poster": "https://image.tmdb.org/t/p/w500/5vqK1wbrgmUvqHn6yPt9b6qT9iL.jpg",
-      "posterShape": "poster",
-      "description": "Confined to a secluded rest home and trapped within his stroke-ridden body, a former Judge must stop an elderly psychopath who employs a child's puppet to abuse the home's residents with deadly consequences.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt6874690"
     }
   ]
 }
