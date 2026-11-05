@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt19853270",
-      "type": "series",
-      "name": "Murdaugh: Death in the Family",
-      "poster": "https://image.tmdb.org/t/p/w500/fqNT4hsPdA0999NEMuLVeja4Cm2.jpg",
-      "posterShape": "poster",
-      "description": "Maggie and Alex enjoy a lavish life of privilege as members of one of South Carolina's most powerful legal dynasties. But when their son Paul is involved in a deadly boat crash, the family is faced with a test unlike any they've ever encountered. As details come to light and new challenges emerge, the family's connections to several mysterious deaths raise questions which threaten everything Maggie and Alex hold dear.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt19853270"
-    },
-    {
       "id": "tt32937780",
       "type": "series",
       "name": "Something Very Bad Is Going to Happen",
@@ -27,6 +13,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32937780"
+    },
+    {
+      "id": "tt19853270",
+      "type": "series",
+      "name": "Murdaugh: Death in the Family",
+      "poster": "https://image.tmdb.org/t/p/w500/fqNT4hsPdA0999NEMuLVeja4Cm2.jpg",
+      "posterShape": "poster",
+      "description": "Maggie and Alex enjoy a lavish life of privilege as members of one of South Carolina's most powerful legal dynasties. But when their son Paul is involved in a deadly boat crash, the family is faced with a test unlike any they've ever encountered. As details come to light and new challenges emerge, the family's connections to several mysterious deaths raise questions which threaten everything Maggie and Alex hold dear.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt19853270"
     },
     {
       "id": "tt33043892",
@@ -200,6 +200,20 @@
       "imdb_id": "tt26576161"
     },
     {
+      "id": "tt6548228",
+      "type": "series",
+      "name": "Castle Rock",
+      "poster": "https://image.tmdb.org/t/p/w500/6dnUpv9ghx84pgxlMOb4uuJrWDs.jpg",
+      "posterShape": "poster",
+      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6548228"
+    },
+    {
       "id": "tt19500224",
       "type": "series",
       "name": "Based on a True Story",
@@ -229,20 +243,6 @@
       "imdb_id": "tt8740614"
     },
     {
-      "id": "tt6548228",
-      "type": "series",
-      "name": "Castle Rock",
-      "poster": "https://image.tmdb.org/t/p/w500/6dnUpv9ghx84pgxlMOb4uuJrWDs.jpg",
-      "posterShape": "poster",
-      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6548228"
-    },
-    {
       "id": "tt11794642",
       "type": "series",
       "name": "Big Sky",
@@ -258,20 +258,6 @@
       "imdb_id": "tt11794642"
     },
     {
-      "id": "tt11141900",
-      "type": "series",
-      "name": "Ted Bundy: Falling for a Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
-      "posterShape": "poster",
-      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11141900"
-    },
-    {
       "id": "tt10946316",
       "type": "series",
       "name": "The Institute",
@@ -284,6 +270,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt10946316"
+    },
+    {
+      "id": "tt11324406",
+      "type": "series",
+      "name": "The Staircase",
+      "poster": "https://image.tmdb.org/t/p/w500/jiAcdCyf1UbWYBImcNtVeLW0pRj.jpg",
+      "posterShape": "poster",
+      "description": "An exploration of the life of Michael Peterson, his sprawling North Carolina family, and the suspicious death of his wife, Kathleen Peterson.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11324406"
     }
   ]
 }
