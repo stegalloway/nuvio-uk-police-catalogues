@@ -46,21 +46,6 @@
       "imdb_id": "tt7131622"
     },
     {
-      "id": "tt11083552",
-      "type": "movie",
-      "name": "Wrath of Man",
-      "poster": "https://image.tmdb.org/t/p/w500/M7SUK85sKjaStg4TKhlAVyGlz3.jpg",
-      "posterShape": "poster",
-      "description": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
-      "genres": [
-        "Thriller",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11083552"
-    },
-    {
       "id": "tt3501632",
       "type": "movie",
       "name": "Thor: Ragnarok",
@@ -75,6 +60,21 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt3501632"
+    },
+    {
+      "id": "tt11083552",
+      "type": "movie",
+      "name": "Wrath of Man",
+      "poster": "https://image.tmdb.org/t/p/w500/M7SUK85sKjaStg4TKhlAVyGlz3.jpg",
+      "posterShape": "poster",
+      "description": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11083552"
     },
     {
       "id": "tt0780504",
@@ -107,19 +107,6 @@
       "imdb_id": "tt2872718"
     },
     {
-      "id": "tt8236336",
-      "type": "movie",
-      "name": "The Report",
-      "poster": "https://image.tmdb.org/t/p/w500/sG5NI6TMNR9ftOdTIXmG0hrBYSY.jpg",
-      "posterShape": "poster",
-      "description": "The story of Daniel Jones, lead investigator for the US Senate’s sweeping study into the CIA's Detention and Interrogation Program, which was found to be brutal, immoral and ineffective. With the truth at stake, Jones battled tirelessly to make public what many in power sought to keep hidden.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8236336"
-    },
-    {
       "id": "tt6320628",
       "type": "movie",
       "name": "Spider-Man: Far From Home",
@@ -133,6 +120,19 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt6320628"
+    },
+    {
+      "id": "tt8236336",
+      "type": "movie",
+      "name": "The Report",
+      "poster": "https://image.tmdb.org/t/p/w500/sG5NI6TMNR9ftOdTIXmG0hrBYSY.jpg",
+      "posterShape": "poster",
+      "description": "The story of Daniel Jones, lead investigator for the US Senate’s sweeping study into the CIA's Detention and Interrogation Program, which was found to be brutal, immoral and ineffective. With the truth at stake, Jones battled tirelessly to make public what many in power sought to keep hidden.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt8236336"
     },
     {
       "id": "tt31050020",

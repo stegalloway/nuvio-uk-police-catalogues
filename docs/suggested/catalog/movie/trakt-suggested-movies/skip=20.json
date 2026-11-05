@@ -152,21 +152,6 @@
       "imdb_id": "tt8946378"
     },
     {
-      "id": "tt0325710",
-      "type": "movie",
-      "name": "The Last Samurai",
-      "poster": "https://image.tmdb.org/t/p/w500/a8jmJPs5eZBARmnuEEvZwbjwyz4.jpg",
-      "posterShape": "poster",
-      "description": "Nathan Algren is an American hired to instruct the Japanese army in the ways of modern warfare, which finds him learning to respect the samurai and the honorable principles that rule them. Pressed to destroy the samurai's way of life in the name of modernization and open trade, Algren decides to become an ultimate warrior himself and to fight for their right to exist.",
-      "genres": [
-        "Drama",
-        "Action",
-        "War"
-      ],
-      "releaseInfo": "2003",
-      "imdb_id": "tt0325710"
-    },
-    {
       "id": "tt8579674",
       "type": "movie",
       "name": "1917",
@@ -180,6 +165,21 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt8579674"
+    },
+    {
+      "id": "tt0325710",
+      "type": "movie",
+      "name": "The Last Samurai",
+      "poster": "https://image.tmdb.org/t/p/w500/a8jmJPs5eZBARmnuEEvZwbjwyz4.jpg",
+      "posterShape": "poster",
+      "description": "Nathan Algren is an American hired to instruct the Japanese army in the ways of modern warfare, which finds him learning to respect the samurai and the honorable principles that rule them. Pressed to destroy the samurai's way of life in the name of modernization and open trade, Algren decides to become an ultimate warrior himself and to fight for their right to exist.",
+      "genres": [
+        "Drama",
+        "Action",
+        "War"
+      ],
+      "releaseInfo": "2003",
+      "imdb_id": "tt0325710"
     },
     {
       "id": "tt31434639",
