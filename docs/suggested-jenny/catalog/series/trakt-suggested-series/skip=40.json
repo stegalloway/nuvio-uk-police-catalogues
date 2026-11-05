@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt13729648",
+      "type": "series",
+      "name": "Candy",
+      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
+      "posterShape": "poster",
+      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13729648"
+    },
+    {
       "id": "tt19853270",
       "type": "series",
       "name": "Murdaugh: Death in the Family",
@@ -27,19 +41,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32937780"
-    },
-    {
-      "id": "tt10839422",
-      "type": "series",
-      "name": "Sex/Life",
-      "poster": "https://image.tmdb.org/t/p/w500/kfcJl5e8CRWDU7e4vX6uNABPRbS.jpg",
-      "posterShape": "poster",
-      "description": "A woman's daring sexual past collides with her married-with-kids present when the bad-boy ex she can't stop fantasizing about crashes back into her life.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt10839422"
     },
     {
       "id": "tt33043892",

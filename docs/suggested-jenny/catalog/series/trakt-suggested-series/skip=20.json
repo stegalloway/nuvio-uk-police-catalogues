@@ -272,18 +272,18 @@
       "imdb_id": "tt13365348"
     },
     {
-      "id": "tt13729648",
+      "id": "tt13172612",
       "type": "series",
-      "name": "Candy",
-      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
+      "name": "Happy Face",
+      "poster": "https://image.tmdb.org/t/p/w500/sGHZrYxOU2U2JLrmYO12qGl1VK4.jpg",
       "posterShape": "poster",
-      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
+      "description": "The story of Melissa Reed, daughter of Keith Jesperson, aka the Happy Face Killer. After decades of no contact, Keith forces his way back into his daughter’s life, and Melissa must find out if an innocent man is going to be put to death for a crime her father committed. In the process, she must face a reckoning of her own identity.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13729648"
+      "releaseInfo": "2025",
+      "imdb_id": "tt13172612"
     }
   ]
 }
