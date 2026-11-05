@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt39143902",
+      "type": "movie",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+      "posterShape": "poster",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
+      "genres": [
+        "Horror",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
+    },
+    {
       "id": "tt18412256",
       "type": "movie",
       "name": "Alien: Romulus",
@@ -278,20 +292,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt26671996"
-    },
-    {
-      "id": "tt6874690",
-      "type": "movie",
-      "name": "The Rule of Jenny Pen",
-      "poster": "https://image.tmdb.org/t/p/w500/5vqK1wbrgmUvqHn6yPt9b6qT9iL.jpg",
-      "posterShape": "poster",
-      "description": "Confined to a secluded rest home and trapped within his stroke-ridden body, a former Judge must stop an elderly psychopath who employs a child's puppet to abuse the home's residents with deadly consequences.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt6874690"
     }
   ]
 }
