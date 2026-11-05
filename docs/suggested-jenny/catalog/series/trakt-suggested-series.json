@@ -200,20 +200,6 @@
       "imdb_id": "tt10574558"
     },
     {
-      "id": "tt10148174",
-      "type": "series",
-      "name": "The Walking Dead: World Beyond",
-      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
-      "posterShape": "poster",
-      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
-      "genres": [
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10148174"
-    },
-    {
       "id": "tt6053512",
       "type": "series",
       "name": "Home Before Dark",
@@ -241,6 +227,20 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt9064858"
+    },
+    {
+      "id": "tt10148174",
+      "type": "series",
+      "name": "The Walking Dead: World Beyond",
+      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
+      "posterShape": "poster",
+      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10148174"
     },
     {
       "id": "tt15567174",
