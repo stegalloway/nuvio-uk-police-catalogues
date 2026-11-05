@@ -29,6 +29,19 @@
       "imdb_id": "tt32937780"
     },
     {
+      "id": "tt10839422",
+      "type": "series",
+      "name": "Sex/Life",
+      "poster": "https://image.tmdb.org/t/p/w500/kfcJl5e8CRWDU7e4vX6uNABPRbS.jpg",
+      "posterShape": "poster",
+      "description": "A woman's daring sexual past collides with her married-with-kids present when the bad-boy ex she can't stop fantasizing about crashes back into her life.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt10839422"
+    },
+    {
       "id": "tt33043892",
       "type": "series",
       "name": "Dexter: Resurrection",
@@ -270,20 +283,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11324406"
-    },
-    {
-      "id": "tt11141900",
-      "type": "series",
-      "name": "Ted Bundy: Falling for a Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
-      "posterShape": "poster",
-      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11141900"
     }
   ]
 }
