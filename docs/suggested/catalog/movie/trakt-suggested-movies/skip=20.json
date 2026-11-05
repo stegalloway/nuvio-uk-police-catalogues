@@ -107,6 +107,21 @@
       "imdb_id": "tt0292963"
     },
     {
+      "id": "tt0203119",
+      "type": "movie",
+      "name": "Sexy Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/xTfCZTzhgHNAR1pf5D49WH4buI5.jpg",
+      "posterShape": "poster",
+      "description": "Ex-safecracker Gal Dove has served his time behind bars and is blissfully retired to a Spanish villa paradise with a wife he adores. The idyll is shattered by the arrival of his nemesis Don Logan, intent on persuading Gal to return to London for one last big job.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2001",
+      "imdb_id": "tt0203119"
+    },
+    {
       "id": "tt11539996",
       "type": "movie",
       "name": "Relay",
@@ -152,6 +167,21 @@
       "imdb_id": "tt8946378"
     },
     {
+      "id": "tt0325710",
+      "type": "movie",
+      "name": "The Last Samurai",
+      "poster": "https://image.tmdb.org/t/p/w500/a8jmJPs5eZBARmnuEEvZwbjwyz4.jpg",
+      "posterShape": "poster",
+      "description": "Nathan Algren is an American hired to instruct the Japanese army in the ways of modern warfare, which finds him learning to respect the samurai and the honorable principles that rule them. Pressed to destroy the samurai's way of life in the name of modernization and open trade, Algren decides to become an ultimate warrior himself and to fight for their right to exist.",
+      "genres": [
+        "Drama",
+        "Action",
+        "War"
+      ],
+      "releaseInfo": "2003",
+      "imdb_id": "tt0325710"
+    },
+    {
       "id": "tt8579674",
       "type": "movie",
       "name": "1917",
@@ -181,19 +211,19 @@
       "imdb_id": "tt31434639"
     },
     {
-      "id": "tt0325710",
+      "id": "tt15398776",
       "type": "movie",
-      "name": "The Last Samurai",
-      "poster": "https://image.tmdb.org/t/p/w500/a8jmJPs5eZBARmnuEEvZwbjwyz4.jpg",
+      "name": "Oppenheimer",
+      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
       "posterShape": "poster",
-      "description": "Nathan Algren is an American hired to instruct the Japanese army in the ways of modern warfare, which finds him learning to respect the samurai and the honorable principles that rule them. Pressed to destroy the samurai's way of life in the name of modernization and open trade, Algren decides to become an ultimate warrior himself and to fight for their right to exist.",
+      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
       "genres": [
         "Drama",
-        "Action",
+        "History",
         "War"
       ],
-      "releaseInfo": "2003",
-      "imdb_id": "tt0325710"
+      "releaseInfo": "2023",
+      "imdb_id": "tt15398776"
     },
     {
       "id": "tt2119532",
@@ -209,21 +239,6 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt2119532"
-    },
-    {
-      "id": "tt15398776",
-      "type": "movie",
-      "name": "Oppenheimer",
-      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
-      "posterShape": "poster",
-      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
-      "genres": [
-        "Drama",
-        "History",
-        "War"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15398776"
     },
     {
       "id": "tt30144839",
@@ -283,21 +298,6 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt6924650"
-    },
-    {
-      "id": "tt7693316",
-      "type": "movie",
-      "name": "Devotion",
-      "poster": "https://image.tmdb.org/t/p/w500/26yQPXymbWeCLKwcmyL8dRjAzth.jpg",
-      "posterShape": "poster",
-      "description": "The harrowing true story of two elite US Navy fighter pilots during the Korean War. Their heroic sacrifices would ultimately make them the Navy's most celebrated wingmen.",
-      "genres": [
-        "War",
-        "Drama",
-        "History"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt7693316"
     }
   ]
 }
