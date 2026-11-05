@@ -85,20 +85,6 @@
       "imdb_id": "tt30274401"
     },
     {
-      "id": "tt30955489",
-      "type": "movie",
-      "name": "Until Dawn",
-      "poster": "https://image.tmdb.org/t/p/w500/bLY5yN4MKVynZ2HMZWElTOGBgBe.jpg",
-      "posterShape": "poster",
-      "description": "One year after her sister Melanie mysteriously disappeared, Clover and her friends head into the remote valley where she vanished in search of answers. Exploring an abandoned visitor center, they find themselves stalked by a masked killer and horrifically murdered one by one...only to wake up and find themselves back at the beginning of the same evening.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30955489"
-    },
-    {
       "id": "tt33978029",
       "type": "movie",
       "name": "Ready or Not: Here I Come",
@@ -111,6 +97,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33978029"
+    },
+    {
+      "id": "tt30955489",
+      "type": "movie",
+      "name": "Until Dawn",
+      "poster": "https://image.tmdb.org/t/p/w500/bLY5yN4MKVynZ2HMZWElTOGBgBe.jpg",
+      "posterShape": "poster",
+      "description": "One year after her sister Melanie mysteriously disappeared, Clover and her friends head into the remote valley where she vanished in search of answers. Exploring an abandoned visitor center, they find themselves stalked by a masked killer and horrifically murdered one by one...only to wake up and find themselves back at the beginning of the same evening.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt30955489"
     },
     {
       "id": "tt32362890",
@@ -154,20 +154,6 @@
       "imdb_id": "tt37538172"
     },
     {
-      "id": "tt22796890",
-      "type": "movie",
-      "name": "Hell House LLC Origins: The Carmichael Manor",
-      "poster": "https://image.tmdb.org/t/p/w500/bsd1ovBNOhYpQElhlZAqpMo51q6.jpg",
-      "posterShape": "poster",
-      "description": "A group of cold case investigators stay at the Carmichael Manor, site of the grisly and unsolved murders of the Carmichael family back in the eighties. After four nights, the group was never heard from again. What is discovered on their footage is even more disturbing than anything found on the Hell House tapes.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt22796890"
-    },
-    {
       "id": "tt28129069",
       "type": "movie",
       "name": "Cheat",
@@ -180,6 +166,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt28129069"
+    },
+    {
+      "id": "tt22796890",
+      "type": "movie",
+      "name": "Hell House LLC Origins: The Carmichael Manor",
+      "poster": "https://image.tmdb.org/t/p/w500/bsd1ovBNOhYpQElhlZAqpMo51q6.jpg",
+      "posterShape": "poster",
+      "description": "A group of cold case investigators stay at the Carmichael Manor, site of the grisly and unsolved murders of the Carmichael family back in the eighties. After four nights, the group was never heard from again. What is discovered on their footage is even more disturbing than anything found on the Hell House tapes.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt22796890"
     },
     {
       "id": "tt33028778",
@@ -225,18 +225,18 @@
       "imdb_id": "tt9419056"
     },
     {
-      "id": "tt11242218",
+      "id": "tt27444133",
       "type": "movie",
-      "name": "Books of Blood",
-      "poster": "https://image.tmdb.org/t/p/w500/bXLVZGgLgd7OwbfP6fC5GCfrxuD.jpg",
+      "name": "Shades of Desire",
+      "poster": "https://image.tmdb.org/t/p/w500/3E3TAy3fSksFDJ4TS6maL9xNEgU.jpg",
       "posterShape": "poster",
-      "description": "A journey into uncharted and forbidden territory through three tales tangled in space and time.",
+      "description": "After her twin sister Aubrey goes missing, Jennifer uncovers the scandalous, secret double-life that Aubrey leads - and that has put both of them in danger.",
       "genres": [
         "Horror",
-        "Science Fiction"
+        "Thriller"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11242218"
+      "releaseInfo": "2023",
+      "imdb_id": "tt27444133"
     },
     {
       "id": "tt20198774",
@@ -253,6 +253,20 @@
       "imdb_id": "tt20198774"
     },
     {
+      "id": "tt11242218",
+      "type": "movie",
+      "name": "Books of Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/bXLVZGgLgd7OwbfP6fC5GCfrxuD.jpg",
+      "posterShape": "poster",
+      "description": "A journey into uncharted and forbidden territory through three tales tangled in space and time.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11242218"
+    },
+    {
       "id": "tt39143902",
       "type": "movie",
       "name": "Leviticus",
@@ -265,20 +279,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt39143902"
-    },
-    {
-      "id": "tt18412256",
-      "type": "movie",
-      "name": "Alien: Romulus",
-      "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
-      "posterShape": "poster",
-      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
-      "genres": [
-        "Horror",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt18412256"
     }
   ]
 }
