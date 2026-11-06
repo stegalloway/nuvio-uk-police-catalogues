@@ -164,21 +164,6 @@
       "imdb_id": "tt3647998"
     },
     {
-      "id": "tt2249364",
-      "type": "series",
-      "name": "Broadchurch",
-      "poster": "https://image.tmdb.org/t/p/w500/2NhBFUTg5KVBmGwafxtLwVdsqrr.jpg",
-      "posterShape": "poster",
-      "description": "The murder of a young boy in a small coastal town brings a media frenzy, which threatens to tear the community apart.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2249364"
-    },
-    {
       "id": "tt5722298",
       "type": "series",
       "name": "Private Eyes",
@@ -236,6 +221,21 @@
       ],
       "releaseInfo": "2006",
       "imdb_id": "tt0773262"
+    },
+    {
+      "id": "tt2188671",
+      "type": "series",
+      "name": "Bates Motel",
+      "poster": "https://image.tmdb.org/t/p/w500/xXKcfZE7ulYxgjjYv51s0zDG69s.jpg",
+      "posterShape": "poster",
+      "description": "A \"contemporary prequel\" to the 1960 film Psycho, depicting the life of Norman Bates and his mother Norma prior to the events portrayed in Hitchcock's film, albeit in a different fictional town and in a modern setting. The series begins after the death of Norma's husband, when she purchases a motel located in a coastal Oregon town so she and Norman can start a new life.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt2188671"
     },
     {
       "id": "tt1442065",
