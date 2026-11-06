@@ -238,20 +238,6 @@
       "imdb_id": "tt1442065"
     },
     {
-      "id": "tt14218674",
-      "type": "series",
-      "name": "NCIS: Hawaiʻi",
-      "poster": "https://image.tmdb.org/t/p/w500/4R8xtDx2ge0GjEOnEwoR8V8X82q.jpg",
-      "posterShape": "poster",
-      "description": "Jane Tennant, the first female Special Agent in Charge of NCIS Pearl Harbor, and her unwavering team of specialists balance duty to family and country while investigating high-stakes crimes involving military personnel, national security and the mysteries of the sun-drenched island paradise itself.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt14218674"
-    },
-    {
       "id": "tt23148340",
       "type": "series",
       "name": "Crystal Lake",
@@ -293,6 +279,20 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt3747572"
+    },
+    {
+      "id": "tt27954448",
+      "type": "series",
+      "name": "Law & Order Toronto: Criminal Intent",
+      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+      "posterShape": "poster",
+      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt27954448"
     }
   ]
 }
