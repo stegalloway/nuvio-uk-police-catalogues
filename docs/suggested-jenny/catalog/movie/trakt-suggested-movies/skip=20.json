@@ -15,20 +15,6 @@
       "imdb_id": "tt13405778"
     },
     {
-      "id": "tt8004664",
-      "type": "movie",
-      "name": "Come Play",
-      "poster": "https://image.tmdb.org/t/p/w500/9jy9OzZi0Oy8Hdv603QWujbfCwx.jpg",
-      "posterShape": "poster",
-      "description": "Oliver, a lonely autistic boy, seeks solace and refuge in his ever-present cell phone and tablet. When a mysterious creature uses the boy's devices against him, his parents must fight to save their son from the monster beyond the screen.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt8004664"
-    },
-    {
       "id": "tt21201300",
       "type": "movie",
       "name": "Bagman",
@@ -41,6 +27,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt21201300"
+    },
+    {
+      "id": "tt8004664",
+      "type": "movie",
+      "name": "Come Play",
+      "poster": "https://image.tmdb.org/t/p/w500/9jy9OzZi0Oy8Hdv603QWujbfCwx.jpg",
+      "posterShape": "poster",
+      "description": "Oliver, a lonely autistic boy, seeks solace and refuge in his ever-present cell phone and tablet. When a mysterious creature uses the boy's devices against him, his parents must fight to save their son from the monster beyond the screen.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt8004664"
     },
     {
       "id": "tt34494076",
@@ -57,20 +57,6 @@
       "imdb_id": "tt34494076"
     },
     {
-      "id": "tt15474916",
-      "type": "movie",
-      "name": "Smile",
-      "poster": "https://image.tmdb.org/t/p/w500/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
-      "posterShape": "poster",
-      "description": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15474916"
-    },
-    {
       "id": "tt32268156",
       "type": "movie",
       "name": "The Last House",
@@ -83,6 +69,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32268156"
+    },
+    {
+      "id": "tt15474916",
+      "type": "movie",
+      "name": "Smile",
+      "poster": "https://image.tmdb.org/t/p/w500/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
+      "posterShape": "poster",
+      "description": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15474916"
     },
     {
       "id": "tt30274401",
@@ -99,20 +99,6 @@
       "imdb_id": "tt30274401"
     },
     {
-      "id": "tt30955489",
-      "type": "movie",
-      "name": "Until Dawn",
-      "poster": "https://image.tmdb.org/t/p/w500/bLY5yN4MKVynZ2HMZWElTOGBgBe.jpg",
-      "posterShape": "poster",
-      "description": "One year after her sister Melanie mysteriously disappeared, Clover and her friends head into the remote valley where she vanished in search of answers. Exploring an abandoned visitor center, they find themselves stalked by a masked killer and horrifically murdered one by one...only to wake up and find themselves back at the beginning of the same evening.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30955489"
-    },
-    {
       "id": "tt33978029",
       "type": "movie",
       "name": "Ready or Not: Here I Come",
@@ -125,6 +111,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33978029"
+    },
+    {
+      "id": "tt30955489",
+      "type": "movie",
+      "name": "Until Dawn",
+      "poster": "https://image.tmdb.org/t/p/w500/bLY5yN4MKVynZ2HMZWElTOGBgBe.jpg",
+      "posterShape": "poster",
+      "description": "One year after her sister Melanie mysteriously disappeared, Clover and her friends head into the remote valley where she vanished in search of answers. Exploring an abandoned visitor center, they find themselves stalked by a masked killer and horrifically murdered one by one...only to wake up and find themselves back at the beginning of the same evening.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt30955489"
     },
     {
       "id": "tt32362890",
@@ -141,6 +141,19 @@
       "imdb_id": "tt32362890"
     },
     {
+      "id": "tt37538172",
+      "type": "movie",
+      "name": "Bodycam",
+      "poster": "https://image.tmdb.org/t/p/w500/xFpBNcG3Dlr8mYF5Kz9Tizs3Pxn.jpg",
+      "posterShape": "poster",
+      "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt37538172"
+    },
+    {
       "id": "tt11245972",
       "type": "movie",
       "name": "Scream",
@@ -153,19 +166,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11245972"
-    },
-    {
-      "id": "tt37538172",
-      "type": "movie",
-      "name": "Bodycam",
-      "poster": "https://image.tmdb.org/t/p/w500/xFpBNcG3Dlr8mYF5Kz9Tizs3Pxn.jpg",
-      "posterShape": "poster",
-      "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt37538172"
     },
     {
       "id": "tt22796890",
@@ -253,20 +253,6 @@
       "imdb_id": "tt20198774"
     },
     {
-      "id": "tt27444133",
-      "type": "movie",
-      "name": "Shades of Desire",
-      "poster": "https://image.tmdb.org/t/p/w500/3E3TAy3fSksFDJ4TS6maL9xNEgU.jpg",
-      "posterShape": "poster",
-      "description": "After her twin sister Aubrey goes missing, Jennifer uncovers the scandalous, secret double-life that Aubrey leads - and that has put both of them in danger.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt27444133"
-    },
-    {
       "id": "tt11242218",
       "type": "movie",
       "name": "Books of Blood",
@@ -279,6 +265,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt11242218"
+    },
+    {
+      "id": "tt39143902",
+      "type": "movie",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+      "posterShape": "poster",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
+      "genres": [
+        "Horror",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
     }
   ]
 }

@@ -15,20 +15,6 @@
       "imdb_id": "tt24807110"
     },
     {
-      "id": "tt39143902",
-      "type": "movie",
-      "name": "Leviticus",
-      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
-      "posterShape": "poster",
-      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
-      "genres": [
-        "Horror",
-        "Romance"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt39143902"
-    },
-    {
       "id": "tt18412256",
       "type": "movie",
       "name": "Alien: Romulus",
@@ -41,6 +27,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt18412256"
+    },
+    {
+      "id": "tt27444133",
+      "type": "movie",
+      "name": "Shades of Desire",
+      "poster": "https://image.tmdb.org/t/p/w500/3E3TAy3fSksFDJ4TS6maL9xNEgU.jpg",
+      "posterShape": "poster",
+      "description": "After her twin sister Aubrey goes missing, Jennifer uncovers the scandalous, secret double-life that Aubrey leads - and that has put both of them in danger.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt27444133"
     },
     {
       "id": "tt15791034",
@@ -281,18 +281,18 @@
       "imdb_id": "tt1877830"
     },
     {
-      "id": "tt26671996",
+      "id": "tt5040012",
       "type": "movie",
-      "name": "Locked",
-      "poster": "https://image.tmdb.org/t/p/w500/hhkiqXpfpufwxVrdSftzeKIANl3.jpg",
+      "name": "Nosferatu",
+      "poster": "https://image.tmdb.org/t/p/w500/d0B8xDdqBZlzlPEzES8lu5LlNQn.jpg",
       "posterShape": "poster",
-      "description": "When Eddie breaks into a luxury SUV, he steps into a deadly trap set by William, a self-proclaimed vigilante delivering his own brand of twisted justice. With no means of escape, Eddie must fight to survive in a ride where escape is an illusion, survival is a nightmare, and justice shifts into high gear.",
+      "description": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
       "genres": [
         "Horror",
-        "Thriller"
+        "Fantasy"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt26671996"
+      "releaseInfo": "2024",
+      "imdb_id": "tt5040012"
     }
   ]
 }

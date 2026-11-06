@@ -82,21 +82,6 @@
       "imdb_id": "tt50389959"
     },
     {
-      "id": "tt32358390",
-      "type": "movie",
-      "name": "The Cycle",
-      "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
-      "posterShape": "poster",
-      "description": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32358390"
-    },
-    {
       "id": "tt34890576",
       "type": "movie",
       "name": "Clayface",
@@ -110,6 +95,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt34890576"
+    },
+    {
+      "id": "tt32358390",
+      "type": "movie",
+      "name": "The Cycle",
+      "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
+      "posterShape": "poster",
+      "description": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32358390"
     },
     {
       "id": "tt32329539",
@@ -237,6 +237,20 @@
       "imdb_id": "tt32612507"
     },
     {
+      "id": "tt36958312",
+      "type": "movie",
+      "name": "The Devil's Mouth",
+      "poster": "https://image.tmdb.org/t/p/w500/lH8k9uCWYn2b2gsYleqYBDPbWa8.jpg",
+      "posterShape": "poster",
+      "description": "A group of college friends' Thailand adventure turns deadly when they become trapped in submerged caves with a dangerous predator. As oxygen runs low, past conflicts emerge in their desperate fight for survival.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt36958312"
+    },
+    {
       "id": "tt21807222",
       "type": "movie",
       "name": "Saw X",
@@ -250,20 +264,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt21807222"
-    },
-    {
-      "id": "tt36958312",
-      "type": "movie",
-      "name": "The Devil's Mouth",
-      "poster": "https://image.tmdb.org/t/p/w500/lH8k9uCWYn2b2gsYleqYBDPbWa8.jpg",
-      "posterShape": "poster",
-      "description": "A group of college friends' Thailand adventure turns deadly when they become trapped in submerged caves with a dangerous predator. As oxygen runs low, past conflicts emerge in their desperate fight for survival.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36958312"
     },
     {
       "id": "tt27911000",
