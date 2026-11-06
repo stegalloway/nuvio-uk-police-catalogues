@@ -75,21 +75,6 @@
       "imdb_id": "tt23137390"
     },
     {
-      "id": "tt35538033",
-      "type": "movie",
-      "name": "Resident Evil",
-      "poster": "https://image.tmdb.org/t/p/w500/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
-      "posterShape": "poster",
-      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
-      "genres": [
-        "Horror",
-        "Science Fiction",
-        "Adventure"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35538033"
-    },
-    {
       "id": "tt14364480",
       "type": "movie",
       "name": "Wake Up Dead Man: A Knives Out Mystery",
@@ -103,6 +88,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt14364480"
+    },
+    {
+      "id": "tt35538033",
+      "type": "movie",
+      "name": "Resident Evil",
+      "poster": "https://image.tmdb.org/t/p/w500/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
+      "posterShape": "poster",
+      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35538033"
     },
     {
       "id": "tt8179024",
@@ -134,21 +134,6 @@
       "imdb_id": "tt35672862"
     },
     {
-      "id": "tt29516222",
-      "type": "movie",
-      "name": "Deep Water",
-      "poster": "https://image.tmdb.org/t/p/w500/ZWHxL2ETItcZzeVsVfs6gv3SZ7.jpg",
-      "posterShape": "poster",
-      "description": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences if they hope to escape their sinking plane and the frenzy of sharks drawn to the wreckage.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Adventure"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt29516222"
-    },
-    {
       "id": "tt23642744",
       "type": "movie",
       "name": "Night of the Hunted",
@@ -162,6 +147,21 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt23642744"
+    },
+    {
+      "id": "tt29516222",
+      "type": "movie",
+      "name": "Deep Water",
+      "poster": "https://image.tmdb.org/t/p/w500/ZWHxL2ETItcZzeVsVfs6gv3SZ7.jpg",
+      "posterShape": "poster",
+      "description": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences if they hope to escape their sinking plane and the frenzy of sharks drawn to the wreckage.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt29516222"
     },
     {
       "id": "tt29550683",
