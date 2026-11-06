@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt39143902",
+      "type": "movie",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+      "posterShape": "poster",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
+      "genres": [
+        "Horror",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
+    },
+    {
       "id": "tt18412256",
       "type": "movie",
       "name": "Alien: Romulus",
@@ -279,19 +293,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt26671996"
-    },
-    {
-      "id": "tt34793095",
-      "type": "movie",
-      "name": "Play Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/ixWeYfvXT9AbfM0QPb9kwbVLbLV.jpg",
-      "posterShape": "poster",
-      "description": "A woman wakes up injured in a basement surrounded by corpses. To survive, she pretends to be dead while a grotesque ritual unfolds in the house above.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt34793095"
     }
   ]
 }
