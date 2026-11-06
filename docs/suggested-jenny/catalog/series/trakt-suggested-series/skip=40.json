@@ -232,6 +232,20 @@
       "imdb_id": "tt11794642"
     },
     {
+      "id": "tt10946316",
+      "type": "series",
+      "name": "The Institute",
+      "poster": "https://image.tmdb.org/t/p/w500/7JXZdWifaa6wL0XLRi0GJOlOA8y.jpg",
+      "posterShape": "poster",
+      "description": "When 14 year old genius Luke Ellis is kidnapped, he awakens at The Institute, a facility full of children who all got there the same way he did, and who are all possessed of unusual abilities. In a nearby town, haunted former police officer Tim Jamieson has come looking to start a new life, but the peace and quiet won’t last, as his story and Luke’s are destined to collide.",
+      "genres": [
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt10946316"
+    },
+    {
       "id": "tt11324406",
       "type": "series",
       "name": "The Staircase",
@@ -246,18 +260,18 @@
       "imdb_id": "tt11324406"
     },
     {
-      "id": "tt10946316",
+      "id": "tt6548228",
       "type": "series",
-      "name": "The Institute",
-      "poster": "https://image.tmdb.org/t/p/w500/7JXZdWifaa6wL0XLRi0GJOlOA8y.jpg",
+      "name": "Castle Rock",
+      "poster": "https://image.tmdb.org/t/p/w500/6dnUpv9ghx84pgxlMOb4uuJrWDs.jpg",
       "posterShape": "poster",
-      "description": "When 14 year old genius Luke Ellis is kidnapped, he awakens at The Institute, a facility full of children who all got there the same way he did, and who are all possessed of unusual abilities. In a nearby town, haunted former police officer Tim Jamieson has come looking to start a new life, but the peace and quiet won’t last, as his story and Luke’s are destined to collide.",
+      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
       "genres": [
         "Mystery",
-        "Sci-Fi & Fantasy"
+        "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt10946316"
+      "releaseInfo": "2018",
+      "imdb_id": "tt6548228"
     },
     {
       "id": "tt5611024",
@@ -273,20 +287,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5611024"
-    },
-    {
-      "id": "tt6548228",
-      "type": "series",
-      "name": "Castle Rock",
-      "poster": "https://image.tmdb.org/t/p/w500/6dnUpv9ghx84pgxlMOb4uuJrWDs.jpg",
-      "posterShape": "poster",
-      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6548228"
     }
   ]
 }

@@ -227,20 +227,6 @@
       "imdb_id": "tt11041332"
     },
     {
-      "id": "tt7985576",
-      "type": "series",
-      "name": "The Serpent",
-      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
-      "posterShape": "poster",
-      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt7985576"
-    },
-    {
       "id": "tt33332385",
       "type": "series",
       "name": "Widow's Bay",
@@ -254,6 +240,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33332385"
+    },
+    {
+      "id": "tt7985576",
+      "type": "series",
+      "name": "The Serpent",
+      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "posterShape": "poster",
+      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt7985576"
     },
     {
       "id": "tt13365348",
