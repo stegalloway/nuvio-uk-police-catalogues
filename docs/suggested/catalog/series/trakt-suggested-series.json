@@ -29,21 +29,6 @@
       "imdb_id": "tt0979432"
     },
     {
-      "id": "tt27995113",
-      "type": "series",
-      "name": "Black Doves",
-      "poster": "https://image.tmdb.org/t/p/w500/srlsyEfIBz2MNWBndVc3opOaNGS.jpg",
-      "posterShape": "poster",
-      "description": "Season 2 has started.\n\nWhen a spy posing as a politician's wife learns her lover has been murdered, an old assassin friend joins her on a quest for truth — and vengeance.",
-      "genres": [
-        "Action & Adventure",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt27995113"
-    },
-    {
       "id": "tt3281796",
       "type": "series",
       "name": "Power",
@@ -270,6 +255,20 @@
       ],
       "releaseInfo": "2008",
       "imdb_id": "tt0903747"
+    },
+    {
+      "id": "tt5290382",
+      "type": "series",
+      "name": "MINDHUNTER",
+      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+      "posterShape": "poster",
+      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5290382"
     },
     {
       "id": "tt10732104",
