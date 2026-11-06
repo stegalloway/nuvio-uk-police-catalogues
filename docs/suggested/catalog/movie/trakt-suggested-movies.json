@@ -119,6 +119,21 @@
       "imdb_id": "tt8236336"
     },
     {
+      "id": "tt31050020",
+      "type": "movie",
+      "name": "Once Upon a Deadpool",
+      "poster": "https://image.tmdb.org/t/p/w500/w6Jk8BHohhoKBUcxGeSyDQGWGWc.jpg",
+      "posterShape": "poster",
+      "description": "A kidnapped Fred Savage is forced to endure Deadpool's PG-13 rendition of Deadpool 2, as a Princess Bride-esque story full of magic, wonder, and zero Fs.",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Adventure"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt31050020"
+    },
+    {
       "id": "tt3501632",
       "type": "movie",
       "name": "Thor: Ragnarok",
@@ -133,21 +148,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt3501632"
-    },
-    {
-      "id": "tt31050020",
-      "type": "movie",
-      "name": "Once Upon a Deadpool",
-      "poster": "https://image.tmdb.org/t/p/w500/w6Jk8BHohhoKBUcxGeSyDQGWGWc.jpg",
-      "posterShape": "poster",
-      "description": "A kidnapped Fred Savage is forced to endure Deadpool's PG-13 rendition of Deadpool 2, as a Princess Bride-esque story full of magic, wonder, and zero Fs.",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Adventure"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt31050020"
     },
     {
       "id": "tt0195685",
@@ -224,7 +224,7 @@
       "id": "tt5950044",
       "type": "movie",
       "name": "Superman",
-      "poster": "https://image.tmdb.org/t/p/w500/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg",
       "posterShape": "poster",
       "description": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
       "genres": [
