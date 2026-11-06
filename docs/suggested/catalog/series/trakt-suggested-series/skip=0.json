@@ -29,6 +29,21 @@
       "imdb_id": "tt0979432"
     },
     {
+      "id": "tt27995113",
+      "type": "series",
+      "name": "Black Doves",
+      "poster": "https://image.tmdb.org/t/p/w500/srlsyEfIBz2MNWBndVc3opOaNGS.jpg",
+      "posterShape": "poster",
+      "description": "Season 2 has started.\n\nWhen a spy posing as a politician's wife learns her lover has been murdered, an old assassin friend joins her on a quest for truth — and vengeance.",
+      "genres": [
+        "Action & Adventure",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt27995113"
+    },
+    {
       "id": "tt3281796",
       "type": "series",
       "name": "Power",
@@ -269,20 +284,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt5290382"
-    },
-    {
-      "id": "tt10732104",
-      "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
-      "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
     }
   ]
 }
