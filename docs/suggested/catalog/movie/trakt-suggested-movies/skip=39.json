@@ -1,18 +1,34 @@
 {
   "metas": [
     {
-      "id": "tt0332452",
+      "id": "tt6924650",
       "type": "movie",
-      "name": "Troy",
-      "poster": "https://image.tmdb.org/t/p/w500/a07wLy4ONfpsjnBqMwhlWTJTcm.jpg",
+      "name": "Midway",
+      "poster": "https://image.tmdb.org/t/p/w500/hj8pyoNnynGeJTAbl7jcLZO8Uhx.jpg",
       "posterShape": "poster",
-      "description": "In year 1250 B.C. during the late Bronze age, two emerging nations begin to clash. Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnon to help him get her back. Agamemnon sees this as an opportunity for power. They set off with 1,000 ships holding 50,000 Greeks to Troy.",
+      "description": "The story of the Battle of Midway, and the leaders and soldiers who used their instincts, fortitude and bravery to overcome massive odds.",
       "genres": [
-        "Action",
-        "Adventure"
+        "War",
+        "History",
+        "Action"
       ],
-      "releaseInfo": "2004",
-      "imdb_id": "tt0332452"
+      "releaseInfo": "2019",
+      "imdb_id": "tt6924650"
+    },
+    {
+      "id": "tt7693316",
+      "type": "movie",
+      "name": "Devotion",
+      "poster": "https://image.tmdb.org/t/p/w500/26yQPXymbWeCLKwcmyL8dRjAzth.jpg",
+      "posterShape": "poster",
+      "description": "The harrowing true story of two elite US Navy fighter pilots during the Korean War. Their heroic sacrifices would ultimately make them the Navy's most celebrated wingmen.",
+      "genres": [
+        "War",
+        "Drama",
+        "History"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt7693316"
     },
     {
       "id": "tt15574124",
@@ -70,6 +86,21 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt5726616"
+    },
+    {
+      "id": "tt16431870",
+      "type": "movie",
+      "name": "The Family Plan",
+      "poster": "https://image.tmdb.org/t/p/w500/jLLtx3nTRSLGPAKl4RoIv1FbEBr.jpg",
+      "posterShape": "poster",
+      "description": "Dan Morgan is many things: a devoted husband, a loving father, a celebrated car salesman. He's also a former assassin. And when his past catches up to his present, he's forced to take his unsuspecting family on a road trip unlike any other.",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Adventure"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt16431870"
     },
     {
       "id": "tt33296751",

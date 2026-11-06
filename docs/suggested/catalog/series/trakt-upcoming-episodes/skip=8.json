@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt6473344",
+      "type": "series",
+      "name": "SEAL Team",
+      "poster": "https://image.tmdb.org/t/p/w500/6iSnec83UEMgLOXAtGYwaVNHLjR.jpg",
+      "posterShape": "poster",
+      "description": "S7 E5–10 · out Sun 6 Oct 2024\n\nMilitary drama following the professional and personal lives of the most elite unit of Navy SEALs as they train, plan and execute the most dangerous, high stakes missions our country can ask of them.",
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "War & Politics"
+      ],
+      "releaseInfo": "Out now · S7 E5–10",
+      "imdb_id": "tt6473344"
+    },
+    {
       "id": "tt31510819",
       "type": "series",
       "name": "MobLand",
@@ -13,20 +28,6 @@
       ],
       "releaseInfo": "Today · S2 E8",
       "imdb_id": "tt31510819"
-    },
-    {
-      "id": "tt33246591",
-      "type": "series",
-      "name": "The Assassin",
-      "poster": "https://image.tmdb.org/t/p/w500/3O2UgEszp1CVbL8p9XnKkFDkbk3.jpg",
-      "posterShape": "poster",
-      "description": "On your watchlist · S2 E1 · Today · start at S1 E1\n\nSecluded on a remote Greek island, retired assassin Julie has a somewhat thorny reunion with her estranged son, Edward, visiting from England. Armed with questions around new information on his paternity, Edward battles to find the right time to speak to his frustratingly distant mother. But, when the moment finally presents itself, things take a deadly turn as Julie’s dangerous past catches up with her and they are forced to flee the island and go on the run together.",
-      "genres": [
-        "Drama",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "Today · S2 E1",
-      "imdb_id": "tt33246591"
     },
     {
       "id": "tt7587890",
