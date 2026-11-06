@@ -74,21 +74,6 @@
       "imdb_id": "tt9642938"
     },
     {
-      "id": "tt1998372",
-      "type": "series",
-      "name": "Under the Banner of Heaven",
-      "poster": "https://image.tmdb.org/t/p/w500/gKyXUkyKRg9LdZzZWRzk0eKD5HJ.jpg",
-      "posterShape": "poster",
-      "description": "A devout detective's faith is tested as he investigates a brutal murder that seems to be connected to an esteemed Utah family's spiral into LDS fundamentalism and their distrust in the government.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt1998372"
-    },
-    {
       "id": "tt11343600",
       "type": "series",
       "name": "Brand New Cherry Flavor",
@@ -104,17 +89,19 @@
       "imdb_id": "tt11343600"
     },
     {
-      "id": "tt3581920",
+      "id": "tt1998372",
       "type": "series",
-      "name": "The Last of Us",
-      "poster": "https://image.tmdb.org/t/p/w500/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
+      "name": "Under the Banner of Heaven",
+      "poster": "https://image.tmdb.org/t/p/w500/gKyXUkyKRg9LdZzZWRzk0eKD5HJ.jpg",
       "posterShape": "poster",
-      "description": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
+      "description": "A devout detective's faith is tested as he investigates a brutal murder that seems to be connected to an esteemed Utah family's spiral into LDS fundamentalism and their distrust in the government.",
       "genres": [
-        "Drama"
+        "Crime",
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt3581920"
+      "releaseInfo": "2022",
+      "imdb_id": "tt1998372"
     },
     {
       "id": "tt28118211",
@@ -130,6 +117,19 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt28118211"
+    },
+    {
+      "id": "tt3581920",
+      "type": "series",
+      "name": "The Last of Us",
+      "poster": "https://image.tmdb.org/t/p/w500/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
+      "posterShape": "poster",
+      "description": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt3581920"
     },
     {
       "id": "tt15669534",
