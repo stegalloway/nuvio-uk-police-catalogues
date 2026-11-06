@@ -1,32 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt24807110",
+      "id": "tt39143902",
       "type": "movie",
-      "name": "Don't Move",
-      "poster": "https://image.tmdb.org/t/p/w500/cRDJxdnRb7ikKd6fVJTrGeaL34v.jpg",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
       "posterShape": "poster",
-      "description": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
       "genres": [
         "Horror",
-        "Thriller"
+        "Romance"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt24807110"
-    },
-    {
-      "id": "tt18412256",
-      "type": "movie",
-      "name": "Alien: Romulus",
-      "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
-      "posterShape": "poster",
-      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
-      "genres": [
-        "Horror",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt18412256"
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
     },
     {
       "id": "tt27444133",
@@ -41,6 +27,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt27444133"
+    },
+    {
+      "id": "tt24807110",
+      "type": "movie",
+      "name": "Don't Move",
+      "poster": "https://image.tmdb.org/t/p/w500/cRDJxdnRb7ikKd6fVJTrGeaL34v.jpg",
+      "posterShape": "poster",
+      "description": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt24807110"
     },
     {
       "id": "tt15791034",

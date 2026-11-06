@@ -82,21 +82,6 @@
       "imdb_id": "tt50389959"
     },
     {
-      "id": "tt34890576",
-      "type": "movie",
-      "name": "Clayface",
-      "poster": "https://image.tmdb.org/t/p/w500/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
-      "posterShape": "poster",
-      "description": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34890576"
-    },
-    {
       "id": "tt32358390",
       "type": "movie",
       "name": "The Cycle",
@@ -110,6 +95,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32358390"
+    },
+    {
+      "id": "tt34890576",
+      "type": "movie",
+      "name": "Clayface",
+      "poster": "https://image.tmdb.org/t/p/w500/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
+      "posterShape": "poster",
+      "description": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34890576"
     },
     {
       "id": "tt32329539",
@@ -237,20 +237,6 @@
       "imdb_id": "tt32612507"
     },
     {
-      "id": "tt36958312",
-      "type": "movie",
-      "name": "The Devil's Mouth",
-      "poster": "https://image.tmdb.org/t/p/w500/lH8k9uCWYn2b2gsYleqYBDPbWa8.jpg",
-      "posterShape": "poster",
-      "description": "A group of college friends' Thailand adventure turns deadly when they become trapped in submerged caves with a dangerous predator. As oxygen runs low, past conflicts emerge in their desperate fight for survival.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36958312"
-    },
-    {
       "id": "tt21807222",
       "type": "movie",
       "name": "Saw X",
@@ -264,6 +250,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt21807222"
+    },
+    {
+      "id": "tt36958312",
+      "type": "movie",
+      "name": "The Devil's Mouth",
+      "poster": "https://image.tmdb.org/t/p/w500/lH8k9uCWYn2b2gsYleqYBDPbWa8.jpg",
+      "posterShape": "poster",
+      "description": "A group of college friends' Thailand adventure turns deadly when they become trapped in submerged caves with a dangerous predator. As oxygen runs low, past conflicts emerge in their desperate fight for survival.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt36958312"
     },
     {
       "id": "tt27911000",
