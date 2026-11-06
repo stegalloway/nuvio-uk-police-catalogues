@@ -91,6 +91,20 @@
       "imdb_id": "tt1637727"
     },
     {
+      "id": "tt2433738",
+      "type": "series",
+      "name": "Wentworth",
+      "poster": "https://image.tmdb.org/t/p/w500/3nikr0NE3t8UMgI1Ba6hXaeEgKr.jpg",
+      "posterShape": "poster",
+      "description": "Bea Smith is locked up while awaiting trial for the attempted murder of her husband and must learn how life works in prison. A modern adaptation and sequel of the iconic Prisoner series.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt2433738"
+    },
+    {
       "id": "tt10327354",
       "type": "series",
       "name": "Prodigal Son",
@@ -148,6 +162,20 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt3647998"
+    },
+    {
+      "id": "tt32267726",
+      "type": "series",
+      "name": "The Girlfriend",
+      "poster": "https://image.tmdb.org/t/p/w500/ktrp3tdZ5IQpFux4nLy8z70bt3n.jpg",
+      "posterShape": "poster",
+      "description": "Laura has it all: a glittering career, a loving husband, and her precious son, Daniel. But her perfect life unravels when Daniel brings home Cherry, a girlfriend who changes everything. After a tense introduction, Laura becomes convinced Cherry is hiding something. Is she a manipulative social climber, or is Laura just paranoid? The truth is a matter of perspective.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt32267726"
     },
     {
       "id": "tt5722298",
@@ -238,6 +266,21 @@
       "imdb_id": "tt1442065"
     },
     {
+      "id": "tt0106028",
+      "type": "series",
+      "name": "Homicide: Life on the Street",
+      "poster": "https://image.tmdb.org/t/p/w500/nb5310xlFjx5r9TnpKoaOTQsAlP.jpg",
+      "posterShape": "poster",
+      "description": "An American police procedural chronicling the work of a fictional version of the Baltimore Police Department's Homicide Unit.",
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "1993",
+      "imdb_id": "tt0106028"
+    },
+    {
       "id": "tt23148340",
       "type": "series",
       "name": "Crystal Lake",
@@ -250,49 +293,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt23148340"
-    },
-    {
-      "id": "tt37063558",
-      "type": "series",
-      "name": "R.J. Decker",
-      "poster": "https://image.tmdb.org/t/p/w500/iNOXveSqB5tUTmGKxp5flQuQ72f.jpg",
-      "posterShape": "poster",
-      "description": "Ex-con photographer RJ Decker becomes a PI in South Florida, solving strange cases with help from his journalist ex, her cop wife, and an enigmatic woman from his past who may help or destroy him.",
-      "genres": [
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt37063558"
-    },
-    {
-      "id": "tt3747572",
-      "type": "series",
-      "name": "Grantchester",
-      "poster": "https://image.tmdb.org/t/p/w500/5Itrb1x7OiA5A0XUreRuevR1hA6.jpg",
-      "posterShape": "poster",
-      "description": "In 1953 at the hamlet of Grantchester, Sidney Chambers—a charismatic, charming clergyman—turns investigative vicar when one of his parishioners dies in suspicious circumstances.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt3747572"
-    },
-    {
-      "id": "tt27954448",
-      "type": "series",
-      "name": "Law & Order Toronto: Criminal Intent",
-      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
-      "posterShape": "poster",
-      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt27954448"
     }
   ]
 }
