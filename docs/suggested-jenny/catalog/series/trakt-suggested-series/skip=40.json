@@ -73,19 +73,6 @@
       "imdb_id": "tt9813792"
     },
     {
-      "id": "tt14016500",
-      "type": "series",
-      "name": "The Summer I Turned Pretty",
-      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
-      "posterShape": "poster",
-      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14016500"
-    },
-    {
       "id": "tt9642938",
       "type": "series",
       "name": "Unsolved Mysteries",
@@ -285,6 +272,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt10946316"
+    },
+    {
+      "id": "tt6548228",
+      "type": "series",
+      "name": "Castle Rock",
+      "poster": "https://image.tmdb.org/t/p/w500/6dnUpv9ghx84pgxlMOb4uuJrWDs.jpg",
+      "posterShape": "poster",
+      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6548228"
     }
   ]
 }
