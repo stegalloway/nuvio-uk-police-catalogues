@@ -74,21 +74,6 @@
       "imdb_id": "tt9642938"
     },
     {
-      "id": "tt11343600",
-      "type": "series",
-      "name": "Brand New Cherry Flavor",
-      "poster": "https://image.tmdb.org/t/p/w500/cX4acZbi2l4v051NJZfonqY0E3X.jpg",
-      "posterShape": "poster",
-      "description": "A filmmaker heads to Hollywood in the early ’90s to make her movie but tumbles down a hallucinatory rabbit hole of sex, magic, revenge — and kittens.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11343600"
-    },
-    {
       "id": "tt1998372",
       "type": "series",
       "name": "Under the Banner of Heaven",
@@ -102,6 +87,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt1998372"
+    },
+    {
+      "id": "tt11343600",
+      "type": "series",
+      "name": "Brand New Cherry Flavor",
+      "poster": "https://image.tmdb.org/t/p/w500/cX4acZbi2l4v051NJZfonqY0E3X.jpg",
+      "posterShape": "poster",
+      "description": "A filmmaker heads to Hollywood in the early ’90s to make her movie but tumbles down a hallucinatory rabbit hole of sex, magic, revenge — and kittens.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11343600"
     },
     {
       "id": "tt3581920",
@@ -130,21 +130,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt28118211"
-    },
-    {
-      "id": "tt15669534",
-      "type": "series",
-      "name": "Tales of the Walking Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
-      "posterShape": "poster",
-      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
-      "genres": [
-        "Drama",
-        "Action & Adventure",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15669534"
     },
     {
       "id": "tt11141900",
@@ -188,19 +173,19 @@
       "imdb_id": "tt10936342"
     },
     {
-      "id": "tt8740614",
+      "id": "tt15669534",
       "type": "series",
-      "name": "The Residence",
-      "poster": "https://image.tmdb.org/t/p/w500/cJZbg425I9LF3SlJVQDOg4nJEvq.jpg",
+      "name": "Tales of the Walking Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
       "posterShape": "poster",
-      "description": "A brilliant, eccentric detective must solve a murder in the White House residence — where the staff and guests at a state dinner are all suspects.",
+      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
       "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
+        "Drama",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt8740614"
+      "releaseInfo": "2022",
+      "imdb_id": "tt15669534"
     },
     {
       "id": "tt19500224",
@@ -215,6 +200,21 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt19500224"
+    },
+    {
+      "id": "tt8740614",
+      "type": "series",
+      "name": "The Residence",
+      "poster": "https://image.tmdb.org/t/p/w500/cJZbg425I9LF3SlJVQDOg4nJEvq.jpg",
+      "posterShape": "poster",
+      "description": "A brilliant, eccentric detective must solve a murder in the White House residence — where the staff and guests at a state dinner are all suspects.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt8740614"
     },
     {
       "id": "tt11794642",
@@ -232,20 +232,6 @@
       "imdb_id": "tt11794642"
     },
     {
-      "id": "tt10946316",
-      "type": "series",
-      "name": "The Institute",
-      "poster": "https://image.tmdb.org/t/p/w500/7JXZdWifaa6wL0XLRi0GJOlOA8y.jpg",
-      "posterShape": "poster",
-      "description": "When 14 year old genius Luke Ellis is kidnapped, he awakens at The Institute, a facility full of children who all got there the same way he did, and who are all possessed of unusual abilities. In a nearby town, haunted former police officer Tim Jamieson has come looking to start a new life, but the peace and quiet won’t last, as his story and Luke’s are destined to collide.",
-      "genres": [
-        "Mystery",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt10946316"
-    },
-    {
       "id": "tt11324406",
       "type": "series",
       "name": "The Staircase",
@@ -260,18 +246,18 @@
       "imdb_id": "tt11324406"
     },
     {
-      "id": "tt6548228",
+      "id": "tt10946316",
       "type": "series",
-      "name": "Castle Rock",
-      "poster": "https://image.tmdb.org/t/p/w500/6dnUpv9ghx84pgxlMOb4uuJrWDs.jpg",
+      "name": "The Institute",
+      "poster": "https://image.tmdb.org/t/p/w500/7JXZdWifaa6wL0XLRi0GJOlOA8y.jpg",
       "posterShape": "poster",
-      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
+      "description": "When 14 year old genius Luke Ellis is kidnapped, he awakens at The Institute, a facility full of children who all got there the same way he did, and who are all possessed of unusual abilities. In a nearby town, haunted former police officer Tim Jamieson has come looking to start a new life, but the peace and quiet won’t last, as his story and Luke’s are destined to collide.",
       "genres": [
         "Mystery",
-        "Drama"
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6548228"
+      "releaseInfo": "2025",
+      "imdb_id": "tt10946316"
     },
     {
       "id": "tt5611024",
@@ -287,6 +273,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5611024"
+    },
+    {
+      "id": "tt6548228",
+      "type": "series",
+      "name": "Castle Rock",
+      "poster": "https://image.tmdb.org/t/p/w500/6dnUpv9ghx84pgxlMOb4uuJrWDs.jpg",
+      "posterShape": "poster",
+      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6548228"
     }
   ]
 }
