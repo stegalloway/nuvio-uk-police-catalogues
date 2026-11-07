@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt13918776",
+      "type": "series",
+      "name": "The Night Agent",
+      "poster": "https://image.tmdb.org/t/p/w500/4c5yUNcaff4W4aPrkXE6zr7papX.jpg",
+      "posterShape": "poster",
+      "description": "S3 E1–10 · out Thu 19 Feb\n\nBrought together by a midnight phone call, an FBI agent and a cybersecurity expert must unravel an ever-growing web of political conspiracies.",
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "Out now · S3 E1–10",
+      "imdb_id": "tt13918776"
+    },
+    {
       "id": "tt7661390",
       "type": "series",
       "name": "Gangs of London",

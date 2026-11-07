@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt15314262",
-      "type": "movie",
-      "name": "The Beekeeper",
-      "poster": "https://image.tmdb.org/t/p/w500/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
-      "posterShape": "poster",
-      "description": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15314262"
-    },
-    {
       "id": "tt12593682",
       "type": "movie",
       "name": "Bullet Train",
@@ -90,6 +75,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt11539996"
+    },
+    {
+      "id": "tt7526136",
+      "type": "movie",
+      "name": "Heart of the Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
+      "posterShape": "poster",
+      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "genres": [
+        "Adventure",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt7526136"
     },
     {
       "id": "tt19864802",
