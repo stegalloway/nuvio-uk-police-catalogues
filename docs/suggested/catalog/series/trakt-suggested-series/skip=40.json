@@ -58,6 +58,20 @@
       "imdb_id": "tt4474344"
     },
     {
+      "id": "tt27954448",
+      "type": "series",
+      "name": "Law & Order Toronto: Criminal Intent",
+      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+      "posterShape": "poster",
+      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt27954448"
+    },
+    {
       "id": "tt14379784",
       "type": "series",
       "name": "The Devil's Hour",
@@ -221,21 +235,6 @@
       "imdb_id": "tt5722298"
     },
     {
-      "id": "tt0773262",
-      "type": "series",
-      "name": "Dexter",
-      "poster": "https://image.tmdb.org/t/p/w500/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
-      "posterShape": "poster",
-      "description": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2006",
-      "imdb_id": "tt0773262"
-    },
-    {
       "id": "tt7335184",
       "type": "series",
       "name": "You",
@@ -280,19 +279,19 @@
       "imdb_id": "tt1442065"
     },
     {
-      "id": "tt0106028",
+      "id": "tt0773262",
       "type": "series",
-      "name": "Homicide: Life on the Street",
-      "poster": "https://image.tmdb.org/t/p/w500/nb5310xlFjx5r9TnpKoaOTQsAlP.jpg",
+      "name": "Dexter",
+      "poster": "https://image.tmdb.org/t/p/w500/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
       "posterShape": "poster",
-      "description": "An American police procedural chronicling the work of a fictional version of the Baltimore Police Department's Homicide Unit.",
+      "description": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
       "genres": [
-        "Mystery",
+        "Crime",
         "Drama",
-        "Crime"
+        "Mystery"
       ],
-      "releaseInfo": "1993",
-      "imdb_id": "tt0106028"
+      "releaseInfo": "2006",
+      "imdb_id": "tt0773262"
     }
   ]
 }
