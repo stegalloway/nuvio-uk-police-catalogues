@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt39143902",
-      "type": "movie",
-      "name": "Leviticus",
-      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
-      "posterShape": "poster",
-      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
-      "genres": [
-        "Horror",
-        "Romance"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt39143902"
-    },
-    {
       "id": "tt18412256",
       "type": "movie",
       "name": "Alien: Romulus",
@@ -27,6 +13,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt18412256"
+    },
+    {
+      "id": "tt39143902",
+      "type": "movie",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+      "posterShape": "poster",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
+      "genres": [
+        "Horror",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
     },
     {
       "id": "tt15791034",
@@ -192,21 +192,6 @@
       "imdb_id": "tt29550683"
     },
     {
-      "id": "tt37281055",
-      "type": "movie",
-      "name": "Buddy",
-      "poster": "https://image.tmdb.org/t/p/w500/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
-      "posterShape": "poster",
-      "description": "Inside the colorful world of \"It's Buddy!\", a group of children spend their days singing, dancing, and helping Buddy - bright orange unicorn - spread happiness. But when one child refuses to play along, Buddy is not pleased and cracks begin to appear in this seemingly perfect world.",
-      "genres": [
-        "Horror",
-        "Comedy",
-        "Fantasy"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt37281055"
-    },
-    {
       "id": "tt10954984",
       "type": "movie",
       "name": "Nope",
@@ -220,6 +205,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt10954984"
+    },
+    {
+      "id": "tt37281055",
+      "type": "movie",
+      "name": "Buddy",
+      "poster": "https://image.tmdb.org/t/p/w500/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
+      "posterShape": "poster",
+      "description": "Inside the colorful world of \"It's Buddy!\", a group of children spend their days singing, dancing, and helping Buddy - bright orange unicorn - spread happiness. But when one child refuses to play along, Buddy is not pleased and cracks begin to appear in this seemingly perfect world.",
+      "genres": [
+        "Horror",
+        "Comedy",
+        "Fantasy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt37281055"
     },
     {
       "id": "tt27564844",
@@ -267,20 +267,6 @@
       "imdb_id": "tt1877830"
     },
     {
-      "id": "tt5040012",
-      "type": "movie",
-      "name": "Nosferatu",
-      "poster": "https://image.tmdb.org/t/p/w500/d0B8xDdqBZlzlPEzES8lu5LlNQn.jpg",
-      "posterShape": "poster",
-      "description": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
-      "genres": [
-        "Horror",
-        "Fantasy"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5040012"
-    },
-    {
       "id": "tt26671996",
       "type": "movie",
       "name": "Locked",
@@ -293,6 +279,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt26671996"
+    },
+    {
+      "id": "tt5040012",
+      "type": "movie",
+      "name": "Nosferatu",
+      "poster": "https://image.tmdb.org/t/p/w500/d0B8xDdqBZlzlPEzES8lu5LlNQn.jpg",
+      "posterShape": "poster",
+      "description": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
+      "genres": [
+        "Horror",
+        "Fantasy"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt5040012"
     }
   ]
 }
