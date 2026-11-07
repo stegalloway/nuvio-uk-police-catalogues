@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt8004664",
-      "type": "movie",
-      "name": "Come Play",
-      "poster": "https://image.tmdb.org/t/p/w500/9jy9OzZi0Oy8Hdv603QWujbfCwx.jpg",
-      "posterShape": "poster",
-      "description": "Oliver, a lonely autistic boy, seeks solace and refuge in his ever-present cell phone and tablet. When a mysterious creature uses the boy's devices against him, his parents must fight to save their son from the monster beyond the screen.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt8004664"
-    },
-    {
       "id": "tt21201300",
       "type": "movie",
       "name": "Bagman",
@@ -27,6 +13,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt21201300"
+    },
+    {
+      "id": "tt8004664",
+      "type": "movie",
+      "name": "Come Play",
+      "poster": "https://image.tmdb.org/t/p/w500/9jy9OzZi0Oy8Hdv603QWujbfCwx.jpg",
+      "posterShape": "poster",
+      "description": "Oliver, a lonely autistic boy, seeks solace and refuge in his ever-present cell phone and tablet. When a mysterious creature uses the boy's devices against him, his parents must fight to save their son from the monster beyond the screen.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt8004664"
     },
     {
       "id": "tt34494076",
@@ -154,6 +154,20 @@
       "imdb_id": "tt11245972"
     },
     {
+      "id": "tt28129069",
+      "type": "movie",
+      "name": "Cheat",
+      "poster": "https://image.tmdb.org/t/p/w500/46Um9OTHNA390mMxwpSSc2m35Zp.jpg",
+      "posterShape": "poster",
+      "description": "On the surface it's believed to be another urban legend - a supernatural being from the afterlife is violently killing anyone who cheats on their significant other in the small college town of Silvercreek, Pennsylvania. But the town's unusually high suicide rate is finally convincing both locals and college students that everything is not as it seems. When Maeve - a female college student - sleeps with Charlie, the married man of the host family she is staying with, both sense the deadly curse is closing in on them. Unable to get anyone to believe them, Maeve and Charlie seek out a local history student to help find answers and figure out a way to defend themselves. It all comes undone, however, as several people are horrifically killed by the savage being - one-by-one at a rapid pace. Eventually, Maeve, Charlie and the few survivors band together in an attempt to defeat the monster once and for all.",
+      "genres": [
+        "Thriller",
+        "Horror"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt28129069"
+    },
+    {
       "id": "tt22796890",
       "type": "movie",
       "name": "Hell House LLC Origins: The Carmichael Manor",
@@ -265,20 +279,6 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt11242218"
-    },
-    {
-      "id": "tt24807110",
-      "type": "movie",
-      "name": "Don't Move",
-      "poster": "https://image.tmdb.org/t/p/w500/cRDJxdnRb7ikKd6fVJTrGeaL34v.jpg",
-      "posterShape": "poster",
-      "description": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt24807110"
     }
   ]
 }
