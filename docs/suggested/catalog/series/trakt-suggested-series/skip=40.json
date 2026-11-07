@@ -222,6 +222,20 @@
       "imdb_id": "tt7335184"
     },
     {
+      "id": "tt9698480",
+      "type": "series",
+      "name": "The Stranger",
+      "poster": "https://image.tmdb.org/t/p/w500/qKtjZ6f8ip6M7pYiDcVs0QXUAly.jpg",
+      "posterShape": "poster",
+      "description": "When a stranger makes a shocking claim about his wife, Adam Price's life upends as he becomes entangled in a web of secrets.",
+      "genres": [
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt9698480"
+    },
+    {
       "id": "tt0773262",
       "type": "series",
       "name": "Dexter",
@@ -235,20 +249,6 @@
       ],
       "releaseInfo": "2006",
       "imdb_id": "tt0773262"
-    },
-    {
-      "id": "tt9698480",
-      "type": "series",
-      "name": "The Stranger",
-      "poster": "https://image.tmdb.org/t/p/w500/qKtjZ6f8ip6M7pYiDcVs0QXUAly.jpg",
-      "posterShape": "poster",
-      "description": "When a stranger makes a shocking claim about his wife, Adam Price's life upends as he becomes entangled in a web of secrets.",
-      "genres": [
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9698480"
     },
     {
       "id": "tt2188671",
