@@ -103,6 +103,21 @@
       "imdb_id": "tt1998372"
     },
     {
+      "id": "tt28118211",
+      "type": "series",
+      "name": "A Good Girl's Guide to Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/pVV62HbgLP7JsZv096XmjPZtjdP.jpg",
+      "posterShape": "poster",
+      "description": "Five years after the death of schoolgirl Andie Bell, Pippa Fitz-Amobi sets out to uncover what really happened to her. Sal Singh, Andie's boyfriend, admitted to the murder before taking his own life, but Pip doesn't believe he's responsible and teams up with Sal's brother Ravi to uncover the truth. If Sal Singh isn't a murderer and the real killer is still out there, how far will they go to keep Pip from finding out the truth?",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt28118211"
+    },
+    {
       "id": "tt11343600",
       "type": "series",
       "name": "Brand New Cherry Flavor",
@@ -131,21 +146,6 @@
       "imdb_id": "tt3581920"
     },
     {
-      "id": "tt28118211",
-      "type": "series",
-      "name": "A Good Girl's Guide to Murder",
-      "poster": "https://image.tmdb.org/t/p/w500/pVV62HbgLP7JsZv096XmjPZtjdP.jpg",
-      "posterShape": "poster",
-      "description": "Five years after the death of schoolgirl Andie Bell, Pippa Fitz-Amobi sets out to uncover what really happened to her. Sal Singh, Andie's boyfriend, admitted to the murder before taking his own life, but Pip doesn't believe he's responsible and teams up with Sal's brother Ravi to uncover the truth. If Sal Singh isn't a murderer and the real killer is still out there, how far will they go to keep Pip from finding out the truth?",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt28118211"
-    },
-    {
       "id": "tt11141900",
       "type": "series",
       "name": "Ted Bundy: Falling for a Killer",
@@ -158,6 +158,21 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt11141900"
+    },
+    {
+      "id": "tt15669534",
+      "type": "series",
+      "name": "Tales of the Walking Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
+      "posterShape": "poster",
+      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15669534"
     },
     {
       "id": "tt26576161",
@@ -187,19 +202,19 @@
       "imdb_id": "tt10936342"
     },
     {
-      "id": "tt15669534",
+      "id": "tt8740614",
       "type": "series",
-      "name": "Tales of the Walking Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
+      "name": "The Residence",
+      "poster": "https://image.tmdb.org/t/p/w500/cJZbg425I9LF3SlJVQDOg4nJEvq.jpg",
       "posterShape": "poster",
-      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
+      "description": "A brilliant, eccentric detective must solve a murder in the White House residence — where the staff and guests at a state dinner are all suspects.",
       "genres": [
-        "Drama",
-        "Action & Adventure",
-        "Sci-Fi & Fantasy"
+        "Comedy",
+        "Crime",
+        "Mystery"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15669534"
+      "releaseInfo": "2025",
+      "imdb_id": "tt8740614"
     },
     {
       "id": "tt19500224",
@@ -214,21 +229,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt19500224"
-    },
-    {
-      "id": "tt8740614",
-      "type": "series",
-      "name": "The Residence",
-      "poster": "https://image.tmdb.org/t/p/w500/cJZbg425I9LF3SlJVQDOg4nJEvq.jpg",
-      "posterShape": "poster",
-      "description": "A brilliant, eccentric detective must solve a murder in the White House residence — where the staff and guests at a state dinner are all suspects.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt8740614"
     },
     {
       "id": "tt11794642",
