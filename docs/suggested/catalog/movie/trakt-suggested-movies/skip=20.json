@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt7181546",
-      "type": "movie",
-      "name": "Ballerina",
-      "poster": "https://image.tmdb.org/t/p/w500/2VUmvqsHb6cEtdfscEA6fqqVzLg.jpg",
-      "posterShape": "poster",
-      "description": "Taking place during the events of John Wick: Chapter 3 – Parabellum, Eve Macarro begins her training in the assassin traditions of the Ruska Roma.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt7181546"
-    },
-    {
       "id": "tt15314262",
       "type": "movie",
       "name": "The Beekeeper",
@@ -298,6 +283,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt7693316"
+    },
+    {
+      "id": "tt15574124",
+      "type": "movie",
+      "name": "Peaky Blinders: The Immortal Man",
+      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+      "posterShape": "poster",
+      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt15574124"
     }
   ]
 }

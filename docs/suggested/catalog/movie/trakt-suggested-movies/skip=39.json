@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt7693316",
-      "type": "movie",
-      "name": "Devotion",
-      "poster": "https://image.tmdb.org/t/p/w500/26yQPXymbWeCLKwcmyL8dRjAzth.jpg",
-      "posterShape": "poster",
-      "description": "The harrowing true story of two elite US Navy fighter pilots during the Korean War. Their heroic sacrifices would ultimately make them the Navy's most celebrated wingmen.",
-      "genres": [
-        "War",
-        "Drama",
-        "History"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt7693316"
-    },
-    {
       "id": "tt15574124",
       "type": "movie",
       "name": "Peaky Blinders: The Immortal Man",
