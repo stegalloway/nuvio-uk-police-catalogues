@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt32559610",
-      "type": "series",
-      "name": "Countdown",
-      "poster": "https://image.tmdb.org/t/p/w500/gcSNS5cy1iOmYawIdJCzoc873rQ.jpg",
-      "posterShape": "poster",
-      "description": "When an officer with the Department of Homeland Security is murdered in broad daylight, LAPD detective Mark Meachum is recruited to a secret task force, alongside undercover agents from all branches of law enforcement, to investigate. But the hunt for the killer soon uncovers a plot far more sinister than anyone could have imagined, kicking off a race against time to save a city of millions.",
-      "genres": [
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32559610"
-    },
-    {
       "id": "tt4474344",
       "type": "series",
       "name": "Blindspot",
@@ -292,6 +278,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt23148340"
+    },
+    {
+      "id": "tt37063558",
+      "type": "series",
+      "name": "R.J. Decker",
+      "poster": "https://image.tmdb.org/t/p/w500/iNOXveSqB5tUTmGKxp5flQuQ72f.jpg",
+      "posterShape": "poster",
+      "description": "Ex-con photographer RJ Decker becomes a PI in South Florida, solving strange cases with help from his journalist ex, her cop wife, and an enigmatic woman from his past who may help or destroy him.",
+      "genres": [
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt37063558"
     }
   ]
 }

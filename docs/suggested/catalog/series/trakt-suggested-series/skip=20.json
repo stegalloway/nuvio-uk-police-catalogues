@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt1652216",
-      "type": "series",
-      "name": "DCI Banks",
-      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
-      "posterShape": "poster",
-      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1652216"
-    },
-    {
       "id": "tt6510950",
       "type": "series",
       "name": "Condor",
@@ -288,6 +274,20 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt2356777"
+    },
+    {
+      "id": "tt32559610",
+      "type": "series",
+      "name": "Countdown",
+      "poster": "https://image.tmdb.org/t/p/w500/gcSNS5cy1iOmYawIdJCzoc873rQ.jpg",
+      "posterShape": "poster",
+      "description": "When an officer with the Department of Homeland Security is murdered in broad daylight, LAPD detective Mark Meachum is recruited to a secret task force, alongside undercover agents from all branches of law enforcement, to investigate. But the hunt for the killer soon uncovers a plot far more sinister than anyone could have imagined, kicking off a race against time to save a city of millions.",
+      "genres": [
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt32559610"
     }
   ]
 }
