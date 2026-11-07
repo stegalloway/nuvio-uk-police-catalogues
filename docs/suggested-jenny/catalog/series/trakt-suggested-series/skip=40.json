@@ -88,6 +88,21 @@
       "imdb_id": "tt9642938"
     },
     {
+      "id": "tt11343600",
+      "type": "series",
+      "name": "Brand New Cherry Flavor",
+      "poster": "https://image.tmdb.org/t/p/w500/cX4acZbi2l4v051NJZfonqY0E3X.jpg",
+      "posterShape": "poster",
+      "description": "A filmmaker heads to Hollywood in the early ’90s to make her movie but tumbles down a hallucinatory rabbit hole of sex, magic, revenge — and kittens.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11343600"
+    },
+    {
       "id": "tt1998372",
       "type": "series",
       "name": "Under the Banner of Heaven",
@@ -101,6 +116,19 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt1998372"
+    },
+    {
+      "id": "tt3581920",
+      "type": "series",
+      "name": "The Last of Us",
+      "poster": "https://image.tmdb.org/t/p/w500/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
+      "posterShape": "poster",
+      "description": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt3581920"
     },
     {
       "id": "tt28118211",
@@ -118,32 +146,19 @@
       "imdb_id": "tt28118211"
     },
     {
-      "id": "tt11343600",
+      "id": "tt15669534",
       "type": "series",
-      "name": "Brand New Cherry Flavor",
-      "poster": "https://image.tmdb.org/t/p/w500/cX4acZbi2l4v051NJZfonqY0E3X.jpg",
+      "name": "Tales of the Walking Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
       "posterShape": "poster",
-      "description": "A filmmaker heads to Hollywood in the early ’90s to make her movie but tumbles down a hallucinatory rabbit hole of sex, magic, revenge — and kittens.",
+      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
       "genres": [
         "Drama",
-        "Mystery",
+        "Action & Adventure",
         "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11343600"
-    },
-    {
-      "id": "tt3581920",
-      "type": "series",
-      "name": "The Last of Us",
-      "poster": "https://image.tmdb.org/t/p/w500/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
-      "posterShape": "poster",
-      "description": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt3581920"
+      "releaseInfo": "2022",
+      "imdb_id": "tt15669534"
     },
     {
       "id": "tt11141900",
@@ -158,21 +173,6 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt11141900"
-    },
-    {
-      "id": "tt15669534",
-      "type": "series",
-      "name": "Tales of the Walking Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
-      "posterShape": "poster",
-      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
-      "genres": [
-        "Drama",
-        "Action & Adventure",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15669534"
     },
     {
       "id": "tt26576161",
@@ -246,20 +246,6 @@
       "imdb_id": "tt11794642"
     },
     {
-      "id": "tt11324406",
-      "type": "series",
-      "name": "The Staircase",
-      "poster": "https://image.tmdb.org/t/p/w500/jiAcdCyf1UbWYBImcNtVeLW0pRj.jpg",
-      "posterShape": "poster",
-      "description": "An exploration of the life of Michael Peterson, his sprawling North Carolina family, and the suspicious death of his wife, Kathleen Peterson.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11324406"
-    },
-    {
       "id": "tt10946316",
       "type": "series",
       "name": "The Institute",
@@ -274,19 +260,32 @@
       "imdb_id": "tt10946316"
     },
     {
-      "id": "tt5611024",
+      "id": "tt11324406",
       "type": "series",
-      "name": "Fool Me Once",
-      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "name": "The Staircase",
+      "poster": "https://image.tmdb.org/t/p/w500/jiAcdCyf1UbWYBImcNtVeLW0pRj.jpg",
       "posterShape": "poster",
-      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "description": "An exploration of the life of Michael Peterson, his sprawling North Carolina family, and the suspicious death of his wife, Kathleen Peterson.",
       "genres": [
         "Drama",
-        "Crime",
-        "Mystery"
+        "Crime"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5611024"
+      "releaseInfo": "2022",
+      "imdb_id": "tt11324406"
+    },
+    {
+      "id": "tt6548228",
+      "type": "series",
+      "name": "Castle Rock",
+      "poster": "https://image.tmdb.org/t/p/w500/6dnUpv9ghx84pgxlMOb4uuJrWDs.jpg",
+      "posterShape": "poster",
+      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6548228"
     }
   ]
 }
