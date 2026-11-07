@@ -16,34 +16,6 @@
       "imdb_id": "tt0439100"
     },
     {
-      "id": "tt6510950",
-      "type": "series",
-      "name": "Condor",
-      "poster": "https://image.tmdb.org/t/p/w500/xgmkmT4Uik4QpvRipYUxcqNx5yR.jpg",
-      "posterShape": "poster",
-      "description": "Young CIA analyst Joe Turner has his idealism tested when he learns that the CIA has been using an algorithm he developed to spy on American citizens, leading the organization to a terrorist plot that threatens the lives of millions.  Inspired by Sydney Pollack’s 1975 political thriller Three Days of the Condor.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6510950"
-    },
-    {
-      "id": "tt13018148",
-      "type": "series",
-      "name": "Tell Me Lies",
-      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
-      "posterShape": "poster",
-      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13018148"
-    },
-    {
       "id": "tt14063678",
       "type": "series",
       "name": "The Gold",
@@ -56,6 +28,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt14063678"
+    },
+    {
+      "id": "tt6510950",
+      "type": "series",
+      "name": "Condor",
+      "poster": "https://image.tmdb.org/t/p/w500/xgmkmT4Uik4QpvRipYUxcqNx5yR.jpg",
+      "posterShape": "poster",
+      "description": "Young CIA analyst Joe Turner has his idealism tested when he learns that the CIA has been using an algorithm he developed to spy on American citizens, leading the organization to a terrorist plot that threatens the lives of millions.  Inspired by Sydney Pollack’s 1975 political thriller Three Days of the Condor.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6510950"
     },
     {
       "id": "tt5611024",
@@ -71,6 +57,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5611024"
+    },
+    {
+      "id": "tt13018148",
+      "type": "series",
+      "name": "Tell Me Lies",
+      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
+      "posterShape": "poster",
+      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13018148"
     },
     {
       "id": "tt2788432",
@@ -159,6 +159,21 @@
       "imdb_id": "tt17677860"
     },
     {
+      "id": "tt6037988",
+      "type": "series",
+      "name": "Last Seen",
+      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
+      "posterShape": "poster",
+      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt6037988"
+    },
+    {
       "id": "tt35515227",
       "type": "series",
       "name": "CIA",
@@ -201,21 +216,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt14582876"
-    },
-    {
-      "id": "tt6037988",
-      "type": "series",
-      "name": "Last Seen",
-      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
-      "posterShape": "poster",
-      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt6037988"
     },
     {
       "id": "tt4258440",
@@ -263,18 +263,18 @@
       "imdb_id": "tt16030542"
     },
     {
-      "id": "tt7909970",
+      "id": "tt2356777",
       "type": "series",
-      "name": "Unbelievable",
-      "poster": "https://image.tmdb.org/t/p/w500/jHOrNJNM03Lsjdw7nsw7TlqBOhd.jpg",
+      "name": "True Detective",
+      "poster": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
       "posterShape": "poster",
-      "description": "After a young woman is accused of lying about a rape, two female detectives investigate a spate of eerily similar attacks.",
+      "description": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
       "genres": [
         "Drama",
-        "Crime"
+        "Mystery"
       ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt7909970"
+      "releaseInfo": "2014",
+      "imdb_id": "tt2356777"
     },
     {
       "id": "tt3428912",

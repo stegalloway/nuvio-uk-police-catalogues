@@ -29,18 +29,18 @@
       "imdb_id": "tt0979432"
     },
     {
-      "id": "tt3281796",
+      "id": "tt15435876",
       "type": "series",
-      "name": "Power",
-      "poster": "https://image.tmdb.org/t/p/w500/ctftzvyj8b0odco7EoS9VfJhf7K.jpg",
+      "name": "The Penguin",
+      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
       "posterShape": "poster",
-      "description": "A successful New York entrepreneur lives a double life as the head of a drug empire that serves only the rich and influential, all while wanting to escape the underworld and keep his family safe.",
+      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt3281796"
+      "releaseInfo": "2024",
+      "imdb_id": "tt15435876"
     },
     {
       "id": "tt2243973",
@@ -57,18 +57,18 @@
       "imdb_id": "tt2243973"
     },
     {
-      "id": "tt15435876",
+      "id": "tt3281796",
       "type": "series",
-      "name": "The Penguin",
-      "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
+      "name": "Power",
+      "poster": "https://image.tmdb.org/t/p/w500/ctftzvyj8b0odco7EoS9VfJhf7K.jpg",
       "posterShape": "poster",
-      "description": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
+      "description": "A successful New York entrepreneur lives a double life as the head of a drug empire that serves only the rich and influential, all while wanting to escape the underworld and keep his family safe.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15435876"
+      "releaseInfo": "2014",
+      "imdb_id": "tt3281796"
     },
     {
       "id": "tt3032476",
@@ -185,21 +185,6 @@
       "imdb_id": "tt0306414"
     },
     {
-      "id": "tt30460310",
-      "type": "series",
-      "name": "Spider-Noir",
-      "poster": "https://image.tmdb.org/t/p/w500/oD8WSVqz84ZRfelkr7JPeJwR9Iv.jpg",
-      "posterShape": "poster",
-      "description": "Ben Reilly, an aging and down on his luck private investigator in 1930s New York, is forced to grapple with his past life as the city's one and only superhero.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt30460310"
-    },
-    {
       "id": "tt6439752",
       "type": "series",
       "name": "Snowfall",
@@ -212,20 +197,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt6439752"
-    },
-    {
-      "id": "tt10732104",
-      "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
-      "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
     },
     {
       "id": "tt5071412",
@@ -242,6 +213,20 @@
       "imdb_id": "tt5071412"
     },
     {
+      "id": "tt10732104",
+      "type": "series",
+      "name": "Power Book II: Ghost",
+      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
+      "posterShape": "poster",
+      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10732104"
+    },
+    {
       "id": "tt1489428",
       "type": "series",
       "name": "Justified",
@@ -254,6 +239,21 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1489428"
+    },
+    {
+      "id": "tt30460310",
+      "type": "series",
+      "name": "Spider-Noir",
+      "poster": "https://image.tmdb.org/t/p/w500/oD8WSVqz84ZRfelkr7JPeJwR9Iv.jpg",
+      "posterShape": "poster",
+      "description": "Ben Reilly, an aging and down on his luck private investigator in 1930s New York, is forced to grapple with his past life as the city's one and only superhero.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt30460310"
     },
     {
       "id": "tt1652216",
