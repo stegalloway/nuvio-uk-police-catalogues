@@ -101,6 +101,21 @@
       "imdb_id": "tt9131050"
     },
     {
+      "id": "tt0374463",
+      "type": "series",
+      "name": "The Pacific",
+      "poster": "https://image.tmdb.org/t/p/w500/x9Y1IMFdY8Ma222KcQadFEau0EB.jpg",
+      "posterShape": "poster",
+      "description": "Track the intertwined real-life stories of three U.S. Marines – Robert Leckie, John Basilone, and Eugene Sledge – across the vast canvas of the Pacific Theater during World War II. A companion piece to the 2001 miniseries Band of Brothers.",
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "War & Politics"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt0374463"
+    },
+    {
       "id": "tt5675620",
       "type": "series",
       "name": "Marvel's The Punisher",
@@ -277,21 +292,6 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1442065"
-    },
-    {
-      "id": "tt0773262",
-      "type": "series",
-      "name": "Dexter",
-      "poster": "https://image.tmdb.org/t/p/w500/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
-      "posterShape": "poster",
-      "description": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2006",
-      "imdb_id": "tt0773262"
     }
   ]
 }
