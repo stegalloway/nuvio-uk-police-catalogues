@@ -58,6 +58,20 @@
       "imdb_id": "tt4474344"
     },
     {
+      "id": "tt27954448",
+      "type": "series",
+      "name": "Law & Order Toronto: Criminal Intent",
+      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+      "posterShape": "poster",
+      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt27954448"
+    },
+    {
       "id": "tt14379784",
       "type": "series",
       "name": "The Devil's Hour",
@@ -278,20 +292,6 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1442065"
-    },
-    {
-      "id": "tt23148340",
-      "type": "series",
-      "name": "Crystal Lake",
-      "poster": "https://image.tmdb.org/t/p/w500/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
-      "posterShape": "poster",
-      "description": "Single mother Pam Voorhees has been unable to shake her grief after her young, sickly son Jason tragically drowned in the town lake almost a year before. When two strangers arrive at Pam's door digging into her past, a disturbing chain of events is set into motion, leaving the townspeople of Crystal Lake wondering: just who is Pam Voorhees?",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt23148340"
     }
   ]
 }
