@@ -160,6 +160,20 @@
       "imdb_id": "tt11141900"
     },
     {
+      "id": "tt26576161",
+      "type": "series",
+      "name": "The Terminal List: Dark Wolf",
+      "poster": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg",
+      "posterShape": "poster",
+      "description": "Before The Terminal List, Navy SEAL Ben Edwards finds himself entangled in the black operations side of the CIA. The deeper Ben goes into the 'gray', the harder it will become to not give himself over to his darker impulses. Every man has two wolves inside him – light and dark – fighting for control. Which wolf will Ben Edwards feed?",
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt26576161"
+    },
+    {
       "id": "tt15669534",
       "type": "series",
       "name": "Tales of the Walking Dead",
@@ -173,20 +187,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15669534"
-    },
-    {
-      "id": "tt26576161",
-      "type": "series",
-      "name": "The Terminal List: Dark Wolf",
-      "poster": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg",
-      "posterShape": "poster",
-      "description": "Before The Terminal List, Navy SEAL Ben Edwards finds himself entangled in the black operations side of the CIA. The deeper Ben goes into the 'gray', the harder it will become to not give himself over to his darker impulses. Every man has two wolves inside him – light and dark – fighting for control. Which wolf will Ben Edwards feed?",
-      "genres": [
-        "Action & Adventure",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt26576161"
     },
     {
       "id": "tt10936342",
