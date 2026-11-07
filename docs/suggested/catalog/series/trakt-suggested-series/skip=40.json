@@ -193,21 +193,6 @@
       "imdb_id": "tt5722298"
     },
     {
-      "id": "tt7335184",
-      "type": "series",
-      "name": "You",
-      "poster": "https://image.tmdb.org/t/p/w500/oANi0vEE92nuijiZQgPZ88FSxqQ.jpg",
-      "posterShape": "poster",
-      "description": "A dangerously charming, obsessive man goes to extreme measures to insert himself into the lives of women who fascinate him.",
-      "genres": [
-        "Mystery",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt7335184"
-    },
-    {
       "id": "tt0773262",
       "type": "series",
       "name": "Dexter",
@@ -221,6 +206,21 @@
       ],
       "releaseInfo": "2006",
       "imdb_id": "tt0773262"
+    },
+    {
+      "id": "tt7335184",
+      "type": "series",
+      "name": "You",
+      "poster": "https://image.tmdb.org/t/p/w500/oANi0vEE92nuijiZQgPZ88FSxqQ.jpg",
+      "posterShape": "poster",
+      "description": "A dangerously charming, obsessive man goes to extreme measures to insert himself into the lives of women who fascinate him.",
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt7335184"
     },
     {
       "id": "tt9698480",
