@@ -15,20 +15,6 @@
       "imdb_id": "tt13018148"
     },
     {
-      "id": "tt9174718",
-      "type": "series",
-      "name": "The Lost Flowers of Alice Hart",
-      "poster": "https://image.tmdb.org/t/p/w500/sNeGAamuke1a2I4ndcaE0bnukh4.jpg",
-      "posterShape": "poster",
-      "description": "After losing her parents in a mysterious fire, nine-year-old Alice Hart is raised by her grandmother June on a flower farm where she learns there are secrets within secrets. But years on, an unearthed betrayal sees Alice forced to face her past.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt9174718"
-    },
-    {
       "id": "tt23148340",
       "type": "series",
       "name": "Crystal Lake",
@@ -184,6 +170,19 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt15837600"
+    },
+    {
+      "id": "tt33546863",
+      "type": "series",
+      "name": "Off Campus",
+      "poster": "https://image.tmdb.org/t/p/w500/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
+      "posterShape": "poster",
+      "description": "Hannah Wells tutors hockey captain Garrett Graham to win over her crush. Their deal becomes real connection as they face their pasts. Friends Logan, Dean, Tucker, and Allie navigate college life and love.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33546863"
     },
     {
       "id": "tt10574558",
