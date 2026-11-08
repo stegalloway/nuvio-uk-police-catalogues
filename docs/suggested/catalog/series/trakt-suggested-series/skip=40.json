@@ -133,20 +133,6 @@
       "imdb_id": "tt5743796"
     },
     {
-      "id": "tt2433738",
-      "type": "series",
-      "name": "Wentworth",
-      "poster": "https://image.tmdb.org/t/p/w500/3nikr0NE3t8UMgI1Ba6hXaeEgKr.jpg",
-      "posterShape": "poster",
-      "description": "Bea Smith is locked up while awaiting trial for the attempted murder of her husband and must learn how life works in prison. A modern adaptation and sequel of the iconic Prisoner series.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2433738"
-    },
-    {
       "id": "tt1637727",
       "type": "series",
       "name": "The Killing",
@@ -160,6 +146,20 @@
       ],
       "releaseInfo": "2011",
       "imdb_id": "tt1637727"
+    },
+    {
+      "id": "tt2433738",
+      "type": "series",
+      "name": "Wentworth",
+      "poster": "https://image.tmdb.org/t/p/w500/3nikr0NE3t8UMgI1Ba6hXaeEgKr.jpg",
+      "posterShape": "poster",
+      "description": "Bea Smith is locked up while awaiting trial for the attempted murder of her husband and must learn how life works in prison. A modern adaptation and sequel of the iconic Prisoner series.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt2433738"
     },
     {
       "id": "tt7491982",
