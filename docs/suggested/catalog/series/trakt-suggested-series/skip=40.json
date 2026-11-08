@@ -177,21 +177,6 @@
       "imdb_id": "tt7491982"
     },
     {
-      "id": "tt10327354",
-      "type": "series",
-      "name": "Prodigal Son",
-      "poster": "https://image.tmdb.org/t/p/w500/sp5BL7O4SnnTnXf9ECNrXbJQyqt.jpg",
-      "posterShape": "poster",
-      "description": "The son of a notorious serial killer becomes an acclaimed criminal psychologist who uses his unique insight into how killers think to help the NYPD.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt10327354"
-    },
-    {
       "id": "tt5164196",
       "type": "series",
       "name": "Lethal Weapon",
@@ -206,6 +191,21 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt5164196"
+    },
+    {
+      "id": "tt10327354",
+      "type": "series",
+      "name": "Prodigal Son",
+      "poster": "https://image.tmdb.org/t/p/w500/sp5BL7O4SnnTnXf9ECNrXbJQyqt.jpg",
+      "posterShape": "poster",
+      "description": "The son of a notorious serial killer becomes an acclaimed criminal psychologist who uses his unique insight into how killers think to help the NYPD.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt10327354"
     },
     {
       "id": "tt3647998",
