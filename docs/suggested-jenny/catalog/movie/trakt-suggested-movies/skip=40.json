@@ -1,18 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt27444133",
+      "id": "tt11242218",
       "type": "movie",
-      "name": "Shades of Desire",
-      "poster": "https://image.tmdb.org/t/p/w500/3E3TAy3fSksFDJ4TS6maL9xNEgU.jpg",
+      "name": "Books of Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/bXLVZGgLgd7OwbfP6fC5GCfrxuD.jpg",
       "posterShape": "poster",
-      "description": "After her twin sister Aubrey goes missing, Jennifer uncovers the scandalous, secret double-life that Aubrey leads - and that has put both of them in danger.",
+      "description": "A journey into uncharted and forbidden territory through three tales tangled in space and time.",
       "genres": [
         "Horror",
-        "Thriller"
+        "Science Fiction"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt27444133"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11242218"
     },
     {
       "id": "tt24807110",
