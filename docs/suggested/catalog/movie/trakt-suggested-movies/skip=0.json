@@ -194,6 +194,21 @@
       "imdb_id": "tt3799694"
     },
     {
+      "id": "tt0985699",
+      "type": "movie",
+      "name": "Valkyrie",
+      "poster": "https://image.tmdb.org/t/p/w500/8eoRtXswC8IQDsqW7iJWO56NhAv.jpg",
+      "posterShape": "poster",
+      "description": "Wounded in Africa during World War II, Nazi Col. Claus von Stauffenberg returns to his native Germany and joins the Resistance in a daring plan to create a shadow government and assassinate Adolf Hitler. When events unfold so that he becomes a central player, he finds himself tasked with both leading the coup and personally killing the Führer.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "releaseInfo": "2008",
+      "imdb_id": "tt0985699"
+    },
+    {
       "id": "tt7349662",
       "type": "movie",
       "name": "BlacKkKlansman",
@@ -282,21 +297,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt12593682"
-    },
-    {
-      "id": "tt7181546",
-      "type": "movie",
-      "name": "Ballerina",
-      "poster": "https://image.tmdb.org/t/p/w500/2VUmvqsHb6cEtdfscEA6fqqVzLg.jpg",
-      "posterShape": "poster",
-      "description": "Taking place during the events of John Wick: Chapter 3 – Parabellum, Eve Macarro begins her training in the assassin traditions of the Ruska Roma.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt7181546"
     }
   ]
 }
