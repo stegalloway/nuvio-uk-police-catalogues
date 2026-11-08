@@ -162,6 +162,21 @@
       "imdb_id": "tt1637727"
     },
     {
+      "id": "tt7491982",
+      "type": "series",
+      "name": "FBI",
+      "poster": "https://image.tmdb.org/t/p/w500/br3xWBUu7W0dXsMev0XXVvoMxuE.jpg",
+      "posterShape": "poster",
+      "description": "The New York office of the FBI brings to bear all their talents, intellect and technical expertise on major cases in order to keep their city and the country safe.",
+      "genres": [
+        "Crime",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt7491982"
+    },
+    {
       "id": "tt10327354",
       "type": "series",
       "name": "Prodigal Son",
@@ -278,21 +293,6 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt9698480"
-    },
-    {
-      "id": "tt2188671",
-      "type": "series",
-      "name": "Bates Motel",
-      "poster": "https://image.tmdb.org/t/p/w500/xXKcfZE7ulYxgjjYv51s0zDG69s.jpg",
-      "posterShape": "poster",
-      "description": "A \"contemporary prequel\" to the 1960 film Psycho, depicting the life of Norman Bates and his mother Norma prior to the events portrayed in Hitchcock's film, albeit in a different fictional town and in a modern setting. The series begins after the death of Norma's husband, when she purchases a motel located in a coastal Oregon town so she and Norman can start a new life.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2188671"
     }
   ]
 }
