@@ -162,6 +162,21 @@
       "imdb_id": "tt1637727"
     },
     {
+      "id": "tt7491982",
+      "type": "series",
+      "name": "FBI",
+      "poster": "https://image.tmdb.org/t/p/w500/br3xWBUu7W0dXsMev0XXVvoMxuE.jpg",
+      "posterShape": "poster",
+      "description": "The New York office of the FBI brings to bear all their talents, intellect and technical expertise on major cases in order to keep their city and the country safe.",
+      "genres": [
+        "Crime",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt7491982"
+    },
+    {
       "id": "tt10327354",
       "type": "series",
       "name": "Prodigal Son",
@@ -279,20 +294,6 @@
       ],
       "releaseInfo": "2013",
       "imdb_id": "tt2188671"
-    },
-    {
-      "id": "tt1442065",
-      "type": "series",
-      "name": "Rookie Blue",
-      "poster": "https://image.tmdb.org/t/p/w500/rUINbQ8JKiQwN9g9PYJ6Nu0Iap1.jpg",
-      "posterShape": "poster",
-      "description": "Ambitious young cops try to prove themselves in their high-stakes careers, in which the smallest mistake can have deadly consequences. At the core of the close-knit group is perfectionist Andy McNally, whose father was a homicide detective before he burned out on the job. The series follows Andy and her four colleagues -- Dov Epstein, Gail Peck, Traci Nash and Chris Diaz -- as they experience the trials, triumphs and tribulations of police work, as well as its effect on their personal lives.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1442065"
     }
   ]
 }
