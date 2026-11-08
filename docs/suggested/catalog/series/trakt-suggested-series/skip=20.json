@@ -159,6 +159,21 @@
       "imdb_id": "tt17677860"
     },
     {
+      "id": "tt3205802",
+      "type": "series",
+      "name": "How to Get Away with Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/bJs8Y6T88NcgksxA8UaVl4YX8p8.jpg",
+      "posterShape": "poster",
+      "description": "A sexy, suspense-driven legal thriller about a group of ambitious law students and their brilliant, mysterious criminal defense professor. They become entangled in a murder plot and will shake the entire university and change the course of their lives.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt3205802"
+    },
+    {
       "id": "tt6037988",
       "type": "series",
       "name": "Last Seen",
@@ -186,21 +201,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35515227"
-    },
-    {
-      "id": "tt3205802",
-      "type": "series",
-      "name": "How to Get Away with Murder",
-      "poster": "https://image.tmdb.org/t/p/w500/bJs8Y6T88NcgksxA8UaVl4YX8p8.jpg",
-      "posterShape": "poster",
-      "description": "A sexy, suspense-driven legal thriller about a group of ambitious law students and their brilliant, mysterious criminal defense professor. They become entangled in a murder plot and will shake the entire university and change the course of their lives.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt3205802"
     },
     {
       "id": "tt14582876",
