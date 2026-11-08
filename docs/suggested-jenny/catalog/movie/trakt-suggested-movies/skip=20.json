@@ -127,19 +127,6 @@
       "imdb_id": "tt11245972"
     },
     {
-      "id": "tt37538172",
-      "type": "movie",
-      "name": "Bodycam",
-      "poster": "https://image.tmdb.org/t/p/w500/xFpBNcG3Dlr8mYF5Kz9Tizs3Pxn.jpg",
-      "posterShape": "poster",
-      "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt37538172"
-    },
-    {
       "id": "tt32362890",
       "type": "movie",
       "name": "Thrash",
@@ -152,6 +139,19 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32362890"
+    },
+    {
+      "id": "tt37538172",
+      "type": "movie",
+      "name": "Bodycam",
+      "poster": "https://image.tmdb.org/t/p/w500/xFpBNcG3Dlr8mYF5Kz9Tizs3Pxn.jpg",
+      "posterShape": "poster",
+      "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt37538172"
     },
     {
       "id": "tt22796890",
