@@ -135,20 +135,6 @@
       "imdb_id": "tt31050020"
     },
     {
-      "id": "tt16311594",
-      "type": "movie",
-      "name": "F1",
-      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
-      "posterShape": "poster",
-      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
-      "genres": [
-        "Action",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt16311594"
-    },
-    {
       "id": "tt3799694",
       "type": "movie",
       "name": "The Nice Guys",
@@ -162,6 +148,20 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt3799694"
+    },
+    {
+      "id": "tt16311594",
+      "type": "movie",
+      "name": "F1",
+      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+      "posterShape": "poster",
+      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt16311594"
     },
     {
       "id": "tt0985699",
