@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt7985576",
-      "type": "series",
-      "name": "The Serpent",
-      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
-      "posterShape": "poster",
-      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt7985576"
-    },
-    {
       "id": "tt32937780",
       "type": "series",
       "name": "Something Very Bad Is Going to Happen",
@@ -260,19 +246,6 @@
       "imdb_id": "tt8740614"
     },
     {
-      "id": "tt5151816",
-      "type": "series",
-      "name": "Chesapeake Shores",
-      "poster": "https://image.tmdb.org/t/p/w500/wAWnKnDwrhfUZZ3hKlwr23yBOwM.jpg",
-      "posterShape": "poster",
-      "description": "A divorced mom deals with an old romance and complicated family issues when she returns to her hometown with her twin daughters.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt5151816"
-    },
-    {
       "id": "tt18926116",
       "type": "series",
       "name": "Fear the Walking Dead: Dead in the Water",
@@ -286,6 +259,36 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt18926116"
+    },
+    {
+      "id": "tt5611024",
+      "type": "series",
+      "name": "Fool Me Once",
+      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "posterShape": "poster",
+      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt5611024"
+    },
+    {
+      "id": "tt9174630",
+      "type": "series",
+      "name": "The Horror of Dolores Roach",
+      "poster": "https://image.tmdb.org/t/p/w500/qTYLRBCNyOuyktuTcjqJ7rbXxaF.jpg",
+      "posterShape": "poster",
+      "description": "After an unjust 16-year prison sentence, Dolores Roach returns to a gentrified Washington Heights, where she reunites with an old stoner friend, Luis, who lets her live and work as a masseuse in the basement under his empanada shop. When the promise of her newfound stability is quickly threatened, “Magic Hands” Dolores is driven to shocking extremes to survive.",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Mystery"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt9174630"
     }
   ]
 }
