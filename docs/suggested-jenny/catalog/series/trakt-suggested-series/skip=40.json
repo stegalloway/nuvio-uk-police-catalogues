@@ -15,6 +15,21 @@
       "imdb_id": "tt32937780"
     },
     {
+      "id": "tt4354880",
+      "type": "series",
+      "name": "Mr. Mercedes",
+      "poster": "https://image.tmdb.org/t/p/w500/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
+      "posterShape": "poster",
+      "description": "A demented serial killer taunts a retired police detective with a series of lurid letters and emails, forcing the ex-cop to undertake a private, and potentially felonious, crusade to bring the killer to justice before he can strike again.",
+      "genres": [
+        "Mystery",
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt4354880"
+    },
+    {
       "id": "tt33043892",
       "type": "series",
       "name": "Dexter: Resurrection",
@@ -274,21 +289,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5611024"
-    },
-    {
-      "id": "tt9174630",
-      "type": "series",
-      "name": "The Horror of Dolores Roach",
-      "poster": "https://image.tmdb.org/t/p/w500/qTYLRBCNyOuyktuTcjqJ7rbXxaF.jpg",
-      "posterShape": "poster",
-      "description": "After an unjust 16-year prison sentence, Dolores Roach returns to a gentrified Washington Heights, where she reunites with an old stoner friend, Luis, who lets her live and work as a masseuse in the basement under his empanada shop. When the promise of her newfound stability is quickly threatened, “Magic Hands” Dolores is driven to shocking extremes to survive.",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Mystery"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt9174630"
     }
   ]
 }
