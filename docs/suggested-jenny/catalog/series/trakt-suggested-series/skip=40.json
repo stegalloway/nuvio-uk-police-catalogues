@@ -29,21 +29,6 @@
       "imdb_id": "tt32937780"
     },
     {
-      "id": "tt9813792",
-      "type": "series",
-      "name": "FROM",
-      "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-      "posterShape": "poster",
-      "description": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest – including the terrifying creatures that come out when the sun goes down.",
-      "genres": [
-        "Mystery",
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt9813792"
-    },
-    {
       "id": "tt33043892",
       "type": "series",
       "name": "Dexter: Resurrection",
@@ -57,6 +42,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt33043892"
+    },
+    {
+      "id": "tt9813792",
+      "type": "series",
+      "name": "FROM",
+      "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+      "posterShape": "poster",
+      "description": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest – including the terrifying creatures that come out when the sun goes down.",
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt9813792"
     },
     {
       "id": "tt9642938",
@@ -143,21 +143,6 @@
       "imdb_id": "tt10936342"
     },
     {
-      "id": "tt15669534",
-      "type": "series",
-      "name": "Tales of the Walking Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
-      "posterShape": "poster",
-      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
-      "genres": [
-        "Drama",
-        "Action & Adventure",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15669534"
-    },
-    {
       "id": "tt1998372",
       "type": "series",
       "name": "Under the Banner of Heaven",
@@ -171,6 +156,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt1998372"
+    },
+    {
+      "id": "tt15669534",
+      "type": "series",
+      "name": "Tales of the Walking Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
+      "posterShape": "poster",
+      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15669534"
     },
     {
       "id": "tt19500224",
@@ -244,6 +244,20 @@
       "imdb_id": "tt11055882"
     },
     {
+      "id": "tt11324406",
+      "type": "series",
+      "name": "The Staircase",
+      "poster": "https://image.tmdb.org/t/p/w500/jiAcdCyf1UbWYBImcNtVeLW0pRj.jpg",
+      "posterShape": "poster",
+      "description": "An exploration of the life of Michael Peterson, his sprawling North Carolina family, and the suspicious death of his wife, Kathleen Peterson.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11324406"
+    },
+    {
       "id": "tt8740614",
       "type": "series",
       "name": "The Residence",
@@ -259,33 +273,17 @@
       "imdb_id": "tt8740614"
     },
     {
-      "id": "tt11324406",
+      "id": "tt5151816",
       "type": "series",
-      "name": "The Staircase",
-      "poster": "https://image.tmdb.org/t/p/w500/jiAcdCyf1UbWYBImcNtVeLW0pRj.jpg",
+      "name": "Chesapeake Shores",
+      "poster": "https://image.tmdb.org/t/p/w500/wAWnKnDwrhfUZZ3hKlwr23yBOwM.jpg",
       "posterShape": "poster",
-      "description": "An exploration of the life of Michael Peterson, his sprawling North Carolina family, and the suspicious death of his wife, Kathleen Peterson.",
+      "description": "A divorced mom deals with an old romance and complicated family issues when she returns to her hometown with her twin daughters.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Drama"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11324406"
-    },
-    {
-      "id": "tt18926116",
-      "type": "series",
-      "name": "Fear the Walking Dead: Dead in the Water",
-      "poster": "https://image.tmdb.org/t/p/w500/kayTdmzIZli4S0njuQjhI8i5clf.jpg",
-      "posterShape": "poster",
-      "description": "Riley is serving as a weapons officer aboard the USS Pennsylvania near the Gulf of Mexico when a mysterious outbreak forces the crew to strategize a way off the sub before it becomes their tomb, in this prequel to Fear the Walking Dead.",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt18926116"
+      "releaseInfo": "2016",
+      "imdb_id": "tt5151816"
     }
   ]
 }

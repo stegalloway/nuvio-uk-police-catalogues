@@ -87,20 +87,6 @@
       "imdb_id": "tt11540908"
     },
     {
-      "id": "tt10970552",
-      "type": "series",
-      "name": "The Haunting of Bly Manor",
-      "poster": "https://image.tmdb.org/t/p/w500/vIXQ8UymmQ7zJEPrKJP3s3fSbhR.jpg",
-      "posterShape": "poster",
-      "description": "After an au pair's tragic death, Henry Wingrave hires a young American nanny to care for his orphaned niece and nephew who reside at Bly Manor with the estate's chef Owen, groundskeeper Jamie and housekeeper, Mrs. Grose. But all is not as it seems at the manor, and centuries of dark secrets of love and loss are waiting to be unearthed in this chilling tale.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10970552"
-    },
-    {
       "id": "tt1640719",
       "type": "series",
       "name": "Under the Bridge",
@@ -113,6 +99,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt1640719"
+    },
+    {
+      "id": "tt10970552",
+      "type": "series",
+      "name": "The Haunting of Bly Manor",
+      "poster": "https://image.tmdb.org/t/p/w500/vIXQ8UymmQ7zJEPrKJP3s3fSbhR.jpg",
+      "posterShape": "poster",
+      "description": "After an au pair's tragic death, Henry Wingrave hires a young American nanny to care for his orphaned niece and nephew who reside at Bly Manor with the estate's chef Owen, groundskeeper Jamie and housekeeper, Mrs. Grose. But all is not as it seems at the manor, and centuries of dark secrets of love and loss are waiting to be unearthed in this chilling tale.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10970552"
     },
     {
       "id": "tt19244304",
@@ -171,20 +171,6 @@
       "imdb_id": "tt32252772"
     },
     {
-      "id": "tt10148174",
-      "type": "series",
-      "name": "The Walking Dead: World Beyond",
-      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
-      "posterShape": "poster",
-      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
-      "genres": [
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10148174"
-    },
-    {
       "id": "tt3960394",
       "type": "series",
       "name": "Interview with the Vampire",
@@ -197,6 +183,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt3960394"
+    },
+    {
+      "id": "tt10148174",
+      "type": "series",
+      "name": "The Walking Dead: World Beyond",
+      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
+      "posterShape": "poster",
+      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10148174"
     },
     {
       "id": "tt15837600",
@@ -241,20 +241,6 @@
       "imdb_id": "tt13623632"
     },
     {
-      "id": "tt11285470",
-      "type": "series",
-      "name": "The Expecting",
-      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
-      "posterShape": "poster",
-      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11285470"
-    },
-    {
       "id": "tt6053512",
       "type": "series",
       "name": "Home Before Dark",
@@ -281,6 +267,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt15567174"
+    },
+    {
+      "id": "tt11285470",
+      "type": "series",
+      "name": "The Expecting",
+      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
+      "posterShape": "poster",
+      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11285470"
     }
   ]
 }
