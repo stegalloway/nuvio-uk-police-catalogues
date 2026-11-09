@@ -1,4 +1,23 @@
 {
   "schema": 1,
-  "candidates": []
+  "candidates": [
+    {
+      "tmdbId": 340276,
+      "name": "Dashcam Justice",
+      "category": "police-investigations",
+      "score": 4,
+      "firstAir": "2026-11-09",
+      "lastAir": "2026-11-09",
+      "firstSeen": "2026-11-09",
+      "lastSeen": "2026-11-09",
+      "observations": 1,
+      "status": "pending",
+      "eligibleForAuto": false,
+      "needsArtwork": true,
+      "network": "BBC One",
+      "episodes": 4,
+      "seasons": 1,
+      "overview": "Small cameras. Big consequences. From reckless driving to calculated scams, ordinary road users record the evidence that helps police and investigators deliver justice."
+    }
+  ]
 }
