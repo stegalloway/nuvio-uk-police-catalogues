@@ -162,21 +162,6 @@
       "imdb_id": "tt7491982"
     },
     {
-      "id": "tt10327354",
-      "type": "series",
-      "name": "Prodigal Son",
-      "poster": "https://image.tmdb.org/t/p/w500/sp5BL7O4SnnTnXf9ECNrXbJQyqt.jpg",
-      "posterShape": "poster",
-      "description": "The son of a notorious serial killer becomes an acclaimed criminal psychologist who uses his unique insight into how killers think to help the NYPD.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt10327354"
-    },
-    {
       "id": "tt5164196",
       "type": "series",
       "name": "Lethal Weapon",
@@ -193,18 +178,19 @@
       "imdb_id": "tt5164196"
     },
     {
-      "id": "tt3647998",
+      "id": "tt10327354",
       "type": "series",
-      "name": "Taboo",
-      "poster": "https://image.tmdb.org/t/p/w500/om1wVOuEtwH3krHutIWO9sJzkS5.jpg",
+      "name": "Prodigal Son",
+      "poster": "https://image.tmdb.org/t/p/w500/sp5BL7O4SnnTnXf9ECNrXbJQyqt.jpg",
       "posterShape": "poster",
-      "description": "Adventurer James Keziah Delaney returns to London from Africa in 1814 along with fourteen stolen diamonds to seek vengeance after the death of his father.",
+      "description": "The son of a notorious serial killer becomes an acclaimed criminal psychologist who uses his unique insight into how killers think to help the NYPD.",
       "genres": [
+        "Crime",
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt3647998"
+      "releaseInfo": "2019",
+      "imdb_id": "tt10327354"
     },
     {
       "id": "tt6964748",
@@ -219,6 +205,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt6964748"
+    },
+    {
+      "id": "tt3647998",
+      "type": "series",
+      "name": "Taboo",
+      "poster": "https://image.tmdb.org/t/p/w500/om1wVOuEtwH3krHutIWO9sJzkS5.jpg",
+      "posterShape": "poster",
+      "description": "Adventurer James Keziah Delaney returns to London from Africa in 1814 along with fourteen stolen diamonds to seek vengeance after the death of his father.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt3647998"
     },
     {
       "id": "tt1640719",
