@@ -1,5 +1,5 @@
 {
-  "updatedAtUtc": "2026-11-09T06:52:47+00:00",
+  "updatedAtUtc": "2026-11-09T16:34:49+00:00",
   "counts": {
     "on-duty": 32,
     "police-investigations": 41,
@@ -11,7 +11,7 @@
     "police-investigations": [],
     "true-crime": []
   },
-  "reviewCandidates": 1,
+  "reviewCandidates": 0,
   "scanPages": 235,
   "screenedCandidates": 286,
   "firstAirCutoff": "2021-11-09",
