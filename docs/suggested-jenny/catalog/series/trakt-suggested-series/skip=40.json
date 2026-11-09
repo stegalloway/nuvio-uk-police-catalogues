@@ -74,19 +74,6 @@
       "imdb_id": "tt9642938"
     },
     {
-      "id": "tt11016042",
-      "type": "series",
-      "name": "RIPLEY",
-      "poster": "https://image.tmdb.org/t/p/w500/rpSo8z9alultGVTqQ3dkLEyU8xx.jpg",
-      "posterShape": "poster",
-      "description": "A grifter in 1960s New York is hired to convince a wealthy man's son to return home from Italy and begins a life of deceit, fraud and murder.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt11016042"
-    },
-    {
       "id": "tt26576161",
       "type": "series",
       "name": "The Terminal List: Dark Wolf",
@@ -286,6 +273,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt18926116"
+    },
+    {
+      "id": "tt5611024",
+      "type": "series",
+      "name": "Fool Me Once",
+      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "posterShape": "poster",
+      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt5611024"
     }
   ]
 }
