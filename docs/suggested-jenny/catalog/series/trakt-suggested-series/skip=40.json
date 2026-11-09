@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt7985576",
+      "type": "series",
+      "name": "The Serpent",
+      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "posterShape": "poster",
+      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt7985576"
+    },
+    {
       "id": "tt32937780",
       "type": "series",
       "name": "Something Very Bad Is Going to Happen",
@@ -274,21 +288,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5611024"
-    },
-    {
-      "id": "tt9174630",
-      "type": "series",
-      "name": "The Horror of Dolores Roach",
-      "poster": "https://image.tmdb.org/t/p/w500/qTYLRBCNyOuyktuTcjqJ7rbXxaF.jpg",
-      "posterShape": "poster",
-      "description": "After an unjust 16-year prison sentence, Dolores Roach returns to a gentrified Washington Heights, where she reunites with an old stoner friend, Luis, who lets her live and work as a masseuse in the basement under his empanada shop. When the promise of her newfound stability is quickly threatened, “Magic Hands” Dolores is driven to shocking extremes to survive.",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Mystery"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt9174630"
     }
   ]
 }
