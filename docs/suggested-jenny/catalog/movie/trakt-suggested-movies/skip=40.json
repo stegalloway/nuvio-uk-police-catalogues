@@ -162,21 +162,6 @@
       "imdb_id": "tt35672862"
     },
     {
-      "id": "tt29516222",
-      "type": "movie",
-      "name": "Deep Water",
-      "poster": "https://image.tmdb.org/t/p/w500/ZWHxL2ETItcZzeVsVfs6gv3SZ7.jpg",
-      "posterShape": "poster",
-      "description": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences if they hope to escape their sinking plane and the frenzy of sharks drawn to the wreckage.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Adventure"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt29516222"
-    },
-    {
       "id": "tt23642744",
       "type": "movie",
       "name": "Night of the Hunted",
@@ -190,6 +175,21 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt23642744"
+    },
+    {
+      "id": "tt29516222",
+      "type": "movie",
+      "name": "Deep Water",
+      "poster": "https://image.tmdb.org/t/p/w500/ZWHxL2ETItcZzeVsVfs6gv3SZ7.jpg",
+      "posterShape": "poster",
+      "description": "A group of international passengers on a flight from Los Angeles to Shanghai is forced to make an emergency landing in shark-infested waters. The terrified group is forced to work together and overcome their differences if they hope to escape their sinking plane and the frenzy of sharks drawn to the wreckage.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt29516222"
     },
     {
       "id": "tt29550683",
@@ -281,18 +281,18 @@
       "imdb_id": "tt1877830"
     },
     {
-      "id": "tt5040012",
+      "id": "tt26671996",
       "type": "movie",
-      "name": "Nosferatu",
-      "poster": "https://image.tmdb.org/t/p/w500/d0B8xDdqBZlzlPEzES8lu5LlNQn.jpg",
+      "name": "Locked",
+      "poster": "https://image.tmdb.org/t/p/w500/hhkiqXpfpufwxVrdSftzeKIANl3.jpg",
       "posterShape": "poster",
-      "description": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
+      "description": "When Eddie breaks into a luxury SUV, he steps into a deadly trap set by William, a self-proclaimed vigilante delivering his own brand of twisted justice. With no means of escape, Eddie must fight to survive in a ride where escape is an illusion, survival is a nightmare, and justice shifts into high gear.",
       "genres": [
         "Horror",
-        "Fantasy"
+        "Thriller"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5040012"
+      "releaseInfo": "2025",
+      "imdb_id": "tt26671996"
     }
   ]
 }
