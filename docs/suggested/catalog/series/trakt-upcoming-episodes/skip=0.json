@@ -30,21 +30,6 @@
       "imdb_id": "tt33246591"
     },
     {
-      "id": "tt27995113",
-      "type": "series",
-      "name": "Black Doves",
-      "poster": "https://image.tmdb.org/t/p/w500/srlsyEfIBz2MNWBndVc3opOaNGS.jpg",
-      "posterShape": "poster",
-      "description": "S2 E1–6 · out Thu 5 Nov\n\nWhen a spy posing as a politician's wife learns her lover has been murdered, an old assassin friend joins her on a quest for truth — and vengeance.",
-      "genres": [
-        "Action & Adventure",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "Out now · S2 E1–6",
-      "imdb_id": "tt27995113"
-    },
-    {
       "id": "tt13138834",
       "type": "series",
       "name": "Time",
