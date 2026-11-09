@@ -43,6 +43,20 @@
       "imdb_id": "tt34494076"
     },
     {
+      "id": "tt4196566",
+      "type": "movie",
+      "name": "The Deliverance",
+      "poster": "https://image.tmdb.org/t/p/w500/og1FteMFRInoQnlZeWqEn8XpXHh.jpg",
+      "posterShape": "poster",
+      "description": "Ebony Jackson, a struggling single mother fighting her personal demons, moves her family into a new home for a fresh start. But when strange occurrences inside the home raise the suspicions of Child Protective Services and threaten to tear the family apart, Ebony soon finds herself locked in a battle for her life and the souls of her children.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt4196566"
+    },
+    {
       "id": "tt15474916",
       "type": "movie",
       "name": "Smile",
@@ -265,20 +279,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt27444133"
-    },
-    {
-      "id": "tt11242218",
-      "type": "movie",
-      "name": "Books of Blood",
-      "poster": "https://image.tmdb.org/t/p/w500/bXLVZGgLgd7OwbfP6fC5GCfrxuD.jpg",
-      "posterShape": "poster",
-      "description": "A journey into uncharted and forbidden territory through three tales tangled in space and time.",
-      "genres": [
-        "Horror",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11242218"
     }
   ]
 }

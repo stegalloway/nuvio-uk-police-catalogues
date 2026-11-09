@@ -89,19 +89,6 @@
       "imdb_id": "tt9859436"
     },
     {
-      "id": "tt11173006",
-      "type": "series",
-      "name": "Super Pumped: The Battle for Uber",
-      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
-      "posterShape": "poster",
-      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11173006"
-    },
-    {
       "id": "tt31938062",
       "type": "series",
       "name": "The Pitt",
@@ -113,6 +100,19 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt31938062"
+    },
+    {
+      "id": "tt11173006",
+      "type": "series",
+      "name": "Super Pumped: The Battle for Uber",
+      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
+      "posterShape": "poster",
+      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11173006"
     },
     {
       "id": "tt27031263",
