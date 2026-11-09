@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt0439100",
-      "type": "series",
-      "name": "Weeds",
-      "poster": "https://image.tmdb.org/t/p/w500/gKUsBTa5b0GY7U4iWBseeBalfjO.jpg",
-      "posterShape": "poster",
-      "description": "After the unexpected death of her husband, a suburban mom resorts to selling weed to support her family.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0439100"
-    },
-    {
       "id": "tt1652216",
       "type": "series",
       "name": "DCI Banks",
@@ -171,6 +156,21 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt17677860"
+    },
+    {
+      "id": "tt14379784",
+      "type": "series",
+      "name": "The Devil's Hour",
+      "poster": "https://image.tmdb.org/t/p/w500/mFU6ZPAs6g8Y9Eld28GULJYt3rC.jpg",
+      "posterShape": "poster",
+      "description": "Lucy wakes every night at exactly 3:33am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14379784"
     },
     {
       "id": "tt3205802",

@@ -58,21 +58,6 @@
       "imdb_id": "tt27954448"
     },
     {
-      "id": "tt14379784",
-      "type": "series",
-      "name": "The Devil's Hour",
-      "poster": "https://image.tmdb.org/t/p/w500/mFU6ZPAs6g8Y9Eld28GULJYt3rC.jpg",
-      "posterShape": "poster",
-      "description": "Lucy wakes every night at exactly 3:33am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
-      "genres": [
-        "Mystery",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14379784"
-    },
-    {
       "id": "tt0374463",
       "type": "series",
       "name": "The Pacific",
@@ -234,6 +219,20 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt3647998"
+    },
+    {
+      "id": "tt1640719",
+      "type": "series",
+      "name": "Under the Bridge",
+      "poster": "https://image.tmdb.org/t/p/w500/4YMpCGsAAHXWGScHsK1sbd7wprE.jpg",
+      "posterShape": "poster",
+      "description": "Fourteen-year old Reena Virk went to join friends at a party and never returned home. Through the eyes of Rebecca Godfrey and a local police officer, learn the hidden world of the young girls accused of the murder — revealing startling truths about the unlikely killer.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt1640719"
     },
     {
       "id": "tt5722298",
