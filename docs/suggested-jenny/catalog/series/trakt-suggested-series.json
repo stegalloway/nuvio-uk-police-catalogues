@@ -115,6 +115,20 @@
       "imdb_id": "tt1640719"
     },
     {
+      "id": "tt19244304",
+      "type": "series",
+      "name": "IT: Welcome to Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/nyy3BITeIjviv6PFIXtqvc8i6xi.jpg",
+      "posterShape": "poster",
+      "description": "In 1962, amid a spate of unexplained disappearances of local children, a group of misfit friends begin to suspect a long-buried ancient evil lurking. As the kids set out to determine what's really going on, a rising unease prompts several townspeople to work together to restore peace – all while a U.S. military operation seeks to exploit Derry for its own objectives.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt19244304"
+    },
+    {
       "id": "tt33546863",
       "type": "series",
       "name": "Off Campus",
@@ -267,21 +281,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt15567174"
-    },
-    {
-      "id": "tt9064858",
-      "type": "series",
-      "name": "Them",
-      "poster": "https://image.tmdb.org/t/p/w500/2JIrVunDSjldv7Jv2uNKrrqwfej.jpg",
-      "posterShape": "poster",
-      "description": "A limited anthology series that explores terror in America.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt9064858"
     }
   ]
 }
