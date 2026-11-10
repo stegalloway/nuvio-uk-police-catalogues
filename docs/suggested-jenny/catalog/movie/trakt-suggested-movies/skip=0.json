@@ -154,20 +154,6 @@
       "imdb_id": "tt14415204"
     },
     {
-      "id": "tt39143902",
-      "type": "movie",
-      "name": "Leviticus",
-      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
-      "posterShape": "poster",
-      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
-      "genres": [
-        "Horror",
-        "Romance"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt39143902"
-    },
-    {
       "id": "tt13778486",
       "type": "movie",
       "name": "Succubus",
@@ -180,6 +166,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt13778486"
+    },
+    {
+      "id": "tt39143902",
+      "type": "movie",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+      "posterShape": "poster",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
+      "genres": [
+        "Horror",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
     },
     {
       "id": "tt3515878",
@@ -238,6 +238,20 @@
       "imdb_id": "tt9411972"
     },
     {
+      "id": "tt31511689",
+      "type": "movie",
+      "name": "Vicious",
+      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
+      "posterShape": "poster",
+      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31511689"
+    },
+    {
       "id": "tt21807222",
       "type": "movie",
       "name": "Saw X",
@@ -251,20 +265,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt21807222"
-    },
-    {
-      "id": "tt31511689",
-      "type": "movie",
-      "name": "Vicious",
-      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
-      "posterShape": "poster",
-      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31511689"
     },
     {
       "id": "tt32612507",
