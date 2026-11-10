@@ -72,20 +72,6 @@
       "imdb_id": "tt13405778"
     },
     {
-      "id": "tt21201300",
-      "type": "movie",
-      "name": "Bagman",
-      "poster": "https://image.tmdb.org/t/p/w500/53IK9rlZJbwFYbNnJZiLq7UWxkT.jpg",
-      "posterShape": "poster",
-      "description": "For centuries and across cultures, parents have warned their children of the legendary Bagman, who snatches innocent children and stuffs them into his vile, rotting bag—never to be seen again. Patrick McKee narrowly escaped such an encounter as a boy, which left him with lasting scars throughout his adulthood. Now, Patrick’s childhood tormentor has returned, threatening the safety of his wife Karina and son Jake.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt21201300"
-    },
-    {
       "id": "tt8004664",
       "type": "movie",
       "name": "Come Play",
@@ -98,6 +84,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt8004664"
+    },
+    {
+      "id": "tt21201300",
+      "type": "movie",
+      "name": "Bagman",
+      "poster": "https://image.tmdb.org/t/p/w500/53IK9rlZJbwFYbNnJZiLq7UWxkT.jpg",
+      "posterShape": "poster",
+      "description": "For centuries and across cultures, parents have warned their children of the legendary Bagman, who snatches innocent children and stuffs them into his vile, rotting bag—never to be seen again. Patrick McKee narrowly escaped such an encounter as a boy, which left him with lasting scars throughout his adulthood. Now, Patrick’s childhood tormentor has returned, threatening the safety of his wife Karina and son Jake.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt21201300"
     },
     {
       "id": "tt4196566",
@@ -114,20 +114,6 @@
       "imdb_id": "tt4196566"
     },
     {
-      "id": "tt30274401",
-      "type": "movie",
-      "name": "Five Nights at Freddy's 2",
-      "poster": "https://image.tmdb.org/t/p/w500/udAxQEORq2I5wxI97N2TEqdhzBE.jpg",
-      "posterShape": "poster",
-      "description": "One year since the supernatural nightmare at Freddy Fazbear's Pizza, the stories about what transpired there have been twisted into a campy local legend, inspiring the town's first ever Fazfest. With the truth kept from her, Abby sneaks out to reconnect with Freddy, Bonnie, Chica, and Foxy, setting into motion a terrifying series of events that will reveal dark secrets about the real origin of Freddy's, and unleash a decades-hidden horror.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30274401"
-    },
-    {
       "id": "tt15474916",
       "type": "movie",
       "name": "Smile",
@@ -140,6 +126,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15474916"
+    },
+    {
+      "id": "tt30274401",
+      "type": "movie",
+      "name": "Five Nights at Freddy's 2",
+      "poster": "https://image.tmdb.org/t/p/w500/udAxQEORq2I5wxI97N2TEqdhzBE.jpg",
+      "posterShape": "poster",
+      "description": "One year since the supernatural nightmare at Freddy Fazbear's Pizza, the stories about what transpired there have been twisted into a campy local legend, inspiring the town's first ever Fazfest. With the truth kept from her, Abby sneaks out to reconnect with Freddy, Bonnie, Chica, and Foxy, setting into motion a terrifying series of events that will reveal dark secrets about the real origin of Freddy's, and unleash a decades-hidden horror.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt30274401"
     },
     {
       "id": "tt33978029",
@@ -200,20 +200,6 @@
       "imdb_id": "tt32362890"
     },
     {
-      "id": "tt28129069",
-      "type": "movie",
-      "name": "Cheat",
-      "poster": "https://image.tmdb.org/t/p/w500/46Um9OTHNA390mMxwpSSc2m35Zp.jpg",
-      "posterShape": "poster",
-      "description": "On the surface it's believed to be another urban legend - a supernatural being from the afterlife is violently killing anyone who cheats on their significant other in the small college town of Silvercreek, Pennsylvania. But the town's unusually high suicide rate is finally convincing both locals and college students that everything is not as it seems. When Maeve - a female college student - sleeps with Charlie, the married man of the host family she is staying with, both sense the deadly curse is closing in on them. Unable to get anyone to believe them, Maeve and Charlie seek out a local history student to help find answers and figure out a way to defend themselves. It all comes undone, however, as several people are horrifically killed by the savage being - one-by-one at a rapid pace. Eventually, Maeve, Charlie and the few survivors band together in an attempt to defeat the monster once and for all.",
-      "genres": [
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt28129069"
-    },
-    {
       "id": "tt30955489",
       "type": "movie",
       "name": "Until Dawn",
@@ -226,6 +212,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt30955489"
+    },
+    {
+      "id": "tt28129069",
+      "type": "movie",
+      "name": "Cheat",
+      "poster": "https://image.tmdb.org/t/p/w500/46Um9OTHNA390mMxwpSSc2m35Zp.jpg",
+      "posterShape": "poster",
+      "description": "On the surface it's believed to be another urban legend - a supernatural being from the afterlife is violently killing anyone who cheats on their significant other in the small college town of Silvercreek, Pennsylvania. But the town's unusually high suicide rate is finally convincing both locals and college students that everything is not as it seems. When Maeve - a female college student - sleeps with Charlie, the married man of the host family she is staying with, both sense the deadly curse is closing in on them. Unable to get anyone to believe them, Maeve and Charlie seek out a local history student to help find answers and figure out a way to defend themselves. It all comes undone, however, as several people are horrifically killed by the savage being - one-by-one at a rapid pace. Eventually, Maeve, Charlie and the few survivors band together in an attempt to defeat the monster once and for all.",
+      "genres": [
+        "Thriller",
+        "Horror"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt28129069"
     },
     {
       "id": "tt11245972",
@@ -257,6 +257,20 @@
       "imdb_id": "tt11561116"
     },
     {
+      "id": "tt22796890",
+      "type": "movie",
+      "name": "Hell House LLC Origins: The Carmichael Manor",
+      "poster": "https://image.tmdb.org/t/p/w500/bsd1ovBNOhYpQElhlZAqpMo51q6.jpg",
+      "posterShape": "poster",
+      "description": "A group of cold case investigators stay at the Carmichael Manor, site of the grisly and unsolved murders of the Carmichael family back in the eighties. After four nights, the group was never heard from again. What is discovered on their footage is even more disturbing than anything found on the Hell House tapes.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt22796890"
+    },
+    {
       "id": "tt33028778",
       "type": "movie",
       "name": "Primate",
@@ -269,20 +283,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33028778"
-    },
-    {
-      "id": "tt28498159",
-      "type": "movie",
-      "name": "The Other",
-      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
-      "posterShape": "poster",
-      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt28498159"
     }
   ]
 }
