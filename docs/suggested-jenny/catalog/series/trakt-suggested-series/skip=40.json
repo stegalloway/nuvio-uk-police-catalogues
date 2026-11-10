@@ -29,21 +29,6 @@
       "imdb_id": "tt32937780"
     },
     {
-      "id": "tt9813792",
-      "type": "series",
-      "name": "FROM",
-      "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-      "posterShape": "poster",
-      "description": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest – including the terrifying creatures that come out when the sun goes down.",
-      "genres": [
-        "Mystery",
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt9813792"
-    },
-    {
       "id": "tt33043892",
       "type": "series",
       "name": "Dexter: Resurrection",
@@ -57,6 +42,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt33043892"
+    },
+    {
+      "id": "tt9813792",
+      "type": "series",
+      "name": "FROM",
+      "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+      "posterShape": "poster",
+      "description": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest – including the terrifying creatures that come out when the sun goes down.",
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt9813792"
     },
     {
       "id": "tt9642938",
@@ -130,21 +130,6 @@
       "imdb_id": "tt10936342"
     },
     {
-      "id": "tt15669534",
-      "type": "series",
-      "name": "Tales of the Walking Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
-      "posterShape": "poster",
-      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
-      "genres": [
-        "Drama",
-        "Action & Adventure",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15669534"
-    },
-    {
       "id": "tt1998372",
       "type": "series",
       "name": "Under the Banner of Heaven",
@@ -158,6 +143,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt1998372"
+    },
+    {
+      "id": "tt15669534",
+      "type": "series",
+      "name": "Tales of the Walking Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
+      "posterShape": "poster",
+      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15669534"
     },
     {
       "id": "tt28118211",
