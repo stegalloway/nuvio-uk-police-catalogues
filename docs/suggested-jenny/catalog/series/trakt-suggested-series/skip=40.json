@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt32937780",
+      "type": "series",
+      "name": "Something Very Bad Is Going to Happen",
+      "poster": "https://image.tmdb.org/t/p/w500/tuj37DlqEqib8sTO4h3nHJeTAJ2.jpg",
+      "posterShape": "poster",
+      "description": "A bride has a feeling that something horrifying will happen at her wedding — and the closer to the altar she gets, the worse it becomes.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32937780"
+    },
+    {
       "id": "tt33043892",
       "type": "series",
       "name": "Dexter: Resurrection",
@@ -14,20 +28,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt33043892"
-    },
-    {
-      "id": "tt32937780",
-      "type": "series",
-      "name": "Something Very Bad Is Going to Happen",
-      "poster": "https://image.tmdb.org/t/p/w500/tuj37DlqEqib8sTO4h3nHJeTAJ2.jpg",
-      "posterShape": "poster",
-      "description": "A bride has a feeling that something horrifying will happen at her wedding — and the closer to the altar she gets, the worse it becomes.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32937780"
     },
     {
       "id": "tt9642938",
@@ -116,21 +116,6 @@
       "imdb_id": "tt10936342"
     },
     {
-      "id": "tt11794642",
-      "type": "series",
-      "name": "Big Sky",
-      "poster": "https://image.tmdb.org/t/p/w500/4CUK42x0TvcWvuRXfjAFQlCeRdf.jpg",
-      "posterShape": "poster",
-      "description": "Private detective Cassie Dewell partners with ex-cop Jenny Hoyt on a search for two sisters who have been kidnapped by a truck driver on a remote highway in Montana. When they discover that these are not the only girls who have disappeared in the area, they must race against the clock to stop the perpetrator before another woman is taken.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11794642"
-    },
-    {
       "id": "tt11343600",
       "type": "series",
       "name": "Brand New Cherry Flavor",
@@ -146,18 +131,19 @@
       "imdb_id": "tt11343600"
     },
     {
-      "id": "tt11141900",
+      "id": "tt11794642",
       "type": "series",
-      "name": "Ted Bundy: Falling for a Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
+      "name": "Big Sky",
+      "poster": "https://image.tmdb.org/t/p/w500/4CUK42x0TvcWvuRXfjAFQlCeRdf.jpg",
       "posterShape": "poster",
-      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
+      "description": "Private detective Cassie Dewell partners with ex-cop Jenny Hoyt on a search for two sisters who have been kidnapped by a truck driver on a remote highway in Montana. When they discover that these are not the only girls who have disappeared in the area, they must race against the clock to stop the perpetrator before another woman is taken.",
       "genres": [
-        "Documentary",
-        "Crime"
+        "Crime",
+        "Drama",
+        "Mystery"
       ],
       "releaseInfo": "2020",
-      "imdb_id": "tt11141900"
+      "imdb_id": "tt11794642"
     },
     {
       "id": "tt28118211",
@@ -175,6 +161,21 @@
       "imdb_id": "tt28118211"
     },
     {
+      "id": "tt15669534",
+      "type": "series",
+      "name": "Tales of the Walking Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
+      "posterShape": "poster",
+      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
+      "genres": [
+        "Drama",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15669534"
+    },
+    {
       "id": "tt5611024",
       "type": "series",
       "name": "Fool Me Once",
@@ -190,19 +191,18 @@
       "imdb_id": "tt5611024"
     },
     {
-      "id": "tt15669534",
+      "id": "tt11141900",
       "type": "series",
-      "name": "Tales of the Walking Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
+      "name": "Ted Bundy: Falling for a Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
       "posterShape": "poster",
-      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
+      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
       "genres": [
-        "Drama",
-        "Action & Adventure",
-        "Sci-Fi & Fantasy"
+        "Documentary",
+        "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15669534"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11141900"
     },
     {
       "id": "tt19500224",
@@ -275,19 +275,18 @@
       "imdb_id": "tt11055882"
     },
     {
-      "id": "tt13651632",
+      "id": "tt6548228",
       "type": "series",
-      "name": "Night Stalker: The Hunt for a Serial Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/fOX6cKsDSCRKrDCk4vWFv2MgzM3.jpg",
+      "name": "Castle Rock",
+      "poster": "https://image.tmdb.org/t/p/w500/6dnUpv9ghx84pgxlMOb4uuJrWDs.jpg",
       "posterShape": "poster",
-      "description": "Beneath the sunlit glamour of 1985 L.A. lurks a relentlessly evil serial killer. In this true-crime story, two detectives won't rest until they catch him.",
+      "description": "Based on the stories of Stephen King, the series intertwines characters and themes from the fictional town of Castle Rock.",
       "genres": [
-        "Documentary",
-        "Crime",
-        "Mystery"
+        "Mystery",
+        "Drama"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt13651632"
+      "releaseInfo": "2018",
+      "imdb_id": "tt6548228"
     }
   ]
 }

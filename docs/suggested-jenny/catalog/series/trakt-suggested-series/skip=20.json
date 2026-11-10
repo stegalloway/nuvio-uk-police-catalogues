@@ -129,20 +129,6 @@
       "imdb_id": "tt11656892"
     },
     {
-      "id": "tt31314754",
-      "type": "series",
-      "name": "Devil in Disguise: John Wayne Gacy",
-      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
-      "posterShape": "poster",
-      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31314754"
-    },
-    {
       "id": "tt9859436",
       "type": "series",
       "name": "The Walking Dead: The Ones Who Live",
@@ -172,18 +158,18 @@
       "imdb_id": "tt27031263"
     },
     {
-      "id": "tt13729648",
+      "id": "tt31314754",
       "type": "series",
-      "name": "Candy",
-      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
+      "name": "Devil in Disguise: John Wayne Gacy",
+      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
       "posterShape": "poster",
-      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
+      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13729648"
+      "releaseInfo": "2025",
+      "imdb_id": "tt31314754"
     },
     {
       "id": "tt1831804",
@@ -200,18 +186,18 @@
       "imdb_id": "tt1831804"
     },
     {
-      "id": "tt7985576",
+      "id": "tt13729648",
       "type": "series",
-      "name": "The Serpent",
-      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "name": "Candy",
+      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
       "posterShape": "poster",
-      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt7985576"
+      "releaseInfo": "2022",
+      "imdb_id": "tt13729648"
     },
     {
       "id": "tt13365348",
@@ -243,18 +229,18 @@
       "imdb_id": "tt13444912"
     },
     {
-      "id": "tt34579520",
+      "id": "tt7985576",
       "type": "series",
-      "name": "Murder Before Evensong",
-      "poster": "https://image.tmdb.org/t/p/w500/xn7TFZnR9U2KpJovIg5F1WZ1qs2.jpg",
+      "name": "The Serpent",
+      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
       "posterShape": "poster",
-      "description": "In 1980s England, Canon Daniel Clement, the Rector of Champton, finds himself unexpectedly entangled in a murder case when a dead body turns up in the church. When Daniel announces a plan to modernize the church, the parish is suddenly divided. And then a body is found dead at the back of the church. As the police move in and the bodies start piling up, Daniel is the only one who can try and keep his fractured community together... and catch a killer.",
+      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
       "genres": [
         "Drama",
-        "Mystery"
+        "Crime"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt34579520"
+      "releaseInfo": "2021",
+      "imdb_id": "tt7985576"
     },
     {
       "id": "tt11041332",
@@ -269,6 +255,20 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11041332"
+    },
+    {
+      "id": "tt34579520",
+      "type": "series",
+      "name": "Murder Before Evensong",
+      "poster": "https://image.tmdb.org/t/p/w500/xn7TFZnR9U2KpJovIg5F1WZ1qs2.jpg",
+      "posterShape": "poster",
+      "description": "In 1980s England, Canon Daniel Clement, the Rector of Champton, finds himself unexpectedly entangled in a murder case when a dead body turns up in the church. When Daniel announces a plan to modernize the church, the parish is suddenly divided. And then a body is found dead at the back of the church. As the police move in and the bodies start piling up, Daniel is the only one who can try and keep his fractured community together... and catch a killer.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt34579520"
     },
     {
       "id": "tt33332385",
