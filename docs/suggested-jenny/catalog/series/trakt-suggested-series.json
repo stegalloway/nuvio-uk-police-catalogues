@@ -87,20 +87,6 @@
       "imdb_id": "tt11540908"
     },
     {
-      "id": "tt1640719",
-      "type": "series",
-      "name": "Under the Bridge",
-      "poster": "https://image.tmdb.org/t/p/w500/4YMpCGsAAHXWGScHsK1sbd7wprE.jpg",
-      "posterShape": "poster",
-      "description": "Fourteen-year old Reena Virk went to join friends at a party and never returned home. Through the eyes of Rebecca Godfrey and a local police officer, learn the hidden world of the young girls accused of the murder — revealing startling truths about the unlikely killer.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt1640719"
-    },
-    {
       "id": "tt10970552",
       "type": "series",
       "name": "The Haunting of Bly Manor",
@@ -113,6 +99,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt10970552"
+    },
+    {
+      "id": "tt1640719",
+      "type": "series",
+      "name": "Under the Bridge",
+      "poster": "https://image.tmdb.org/t/p/w500/4YMpCGsAAHXWGScHsK1sbd7wprE.jpg",
+      "posterShape": "poster",
+      "description": "Fourteen-year old Reena Virk went to join friends at a party and never returned home. Through the eyes of Rebecca Godfrey and a local police officer, learn the hidden world of the young girls accused of the murder — revealing startling truths about the unlikely killer.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt1640719"
     },
     {
       "id": "tt19244304",
