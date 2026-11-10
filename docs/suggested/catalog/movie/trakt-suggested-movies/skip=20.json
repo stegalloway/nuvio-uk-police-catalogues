@@ -1,6 +1,22 @@
 {
   "metas": [
     {
+      "id": "tt0373469",
+      "type": "movie",
+      "name": "Kiss Kiss Bang Bang",
+      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
+      "posterShape": "poster",
+      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2005",
+      "imdb_id": "tt0373469"
+    },
+    {
       "id": "tt11539996",
       "type": "movie",
       "name": "Relay",
@@ -280,20 +296,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt31349844"
-    },
-    {
-      "id": "tt15574124",
-      "type": "movie",
-      "name": "Peaky Blinders: The Immortal Man",
-      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
-      "posterShape": "poster",
-      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt15574124"
     }
   ]
 }

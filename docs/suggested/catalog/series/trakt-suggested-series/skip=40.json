@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt32267726",
+      "type": "series",
+      "name": "The Girlfriend",
+      "poster": "https://image.tmdb.org/t/p/w500/ktrp3tdZ5IQpFux4nLy8z70bt3n.jpg",
+      "posterShape": "poster",
+      "description": "Laura has it all: a glittering career, a loving husband, and her precious son, Daniel. But her perfect life unravels when Daniel brings home Cherry, a girlfriend who changes everything. After a tense introduction, Laura becomes convinced Cherry is hiding something. Is she a manipulative social climber, or is Laura just paranoid? The truth is a matter of perspective.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt32267726"
+    },
+    {
       "id": "tt32559610",
       "type": "series",
       "name": "Countdown",
@@ -233,20 +247,6 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt6964748"
-    },
-    {
-      "id": "tt1640719",
-      "type": "series",
-      "name": "Under the Bridge",
-      "poster": "https://image.tmdb.org/t/p/w500/4YMpCGsAAHXWGScHsK1sbd7wprE.jpg",
-      "posterShape": "poster",
-      "description": "Fourteen-year old Reena Virk went to join friends at a party and never returned home. Through the eyes of Rebecca Godfrey and a local police officer, learn the hidden world of the young girls accused of the murder — revealing startling truths about the unlikely killer.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt1640719"
     },
     {
       "id": "tt5722298",
