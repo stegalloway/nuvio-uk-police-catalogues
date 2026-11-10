@@ -134,6 +134,19 @@
       "imdb_id": "tt16311594"
     },
     {
+      "id": "tt0195685",
+      "type": "movie",
+      "name": "Erin Brockovich",
+      "poster": "https://image.tmdb.org/t/p/w500/eMs20iUQyZVs05Ck7Q0LNnRsstr.jpg",
+      "posterShape": "poster",
+      "description": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins -- with a little help from her push-up bra. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2000",
+      "imdb_id": "tt0195685"
+    },
+    {
       "id": "tt3799694",
       "type": "movie",
       "name": "The Nice Guys",
@@ -147,19 +160,6 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt3799694"
-    },
-    {
-      "id": "tt0195685",
-      "type": "movie",
-      "name": "Erin Brockovich",
-      "poster": "https://image.tmdb.org/t/p/w500/eMs20iUQyZVs05Ck7Q0LNnRsstr.jpg",
-      "posterShape": "poster",
-      "description": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins -- with a little help from her push-up bra. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2000",
-      "imdb_id": "tt0195685"
     },
     {
       "id": "tt2057392",
