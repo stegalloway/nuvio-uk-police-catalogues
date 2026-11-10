@@ -214,20 +214,6 @@
       "imdb_id": "tt28129069"
     },
     {
-      "id": "tt11245972",
-      "type": "movie",
-      "name": "Scream",
-      "poster": "https://image.tmdb.org/t/p/w500/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
-      "posterShape": "poster",
-      "description": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11245972"
-    },
-    {
       "id": "tt30955489",
       "type": "movie",
       "name": "Until Dawn",
@@ -240,6 +226,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt30955489"
+    },
+    {
+      "id": "tt11245972",
+      "type": "movie",
+      "name": "Scream",
+      "poster": "https://image.tmdb.org/t/p/w500/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
+      "posterShape": "poster",
+      "description": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11245972"
     },
     {
       "id": "tt11561116",
@@ -257,20 +257,6 @@
       "imdb_id": "tt11561116"
     },
     {
-      "id": "tt33028778",
-      "type": "movie",
-      "name": "Primate",
-      "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
-      "posterShape": "poster",
-      "description": "College student Lucy and her friends spend their vacation at her family's home in Hawaii, which includes her pet chimpanzee, Ben. However, when Ben contracts rabies after being bitten by a rabid animal, the group must fight for their lives in order to avoid the now-violent chimp.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33028778"
-    },
-    {
       "id": "tt28498159",
       "type": "movie",
       "name": "The Other",
@@ -283,6 +269,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt28498159"
+    },
+    {
+      "id": "tt22796890",
+      "type": "movie",
+      "name": "Hell House LLC Origins: The Carmichael Manor",
+      "poster": "https://image.tmdb.org/t/p/w500/bsd1ovBNOhYpQElhlZAqpMo51q6.jpg",
+      "posterShape": "poster",
+      "description": "A group of cold case investigators stay at the Carmichael Manor, site of the grisly and unsolved murders of the Carmichael family back in the eighties. After four nights, the group was never heard from again. What is discovered on their footage is even more disturbing than anything found on the Hell House tapes.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt22796890"
     }
   ]
 }
