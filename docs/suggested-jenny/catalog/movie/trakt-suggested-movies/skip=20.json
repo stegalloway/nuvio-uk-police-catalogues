@@ -170,20 +170,6 @@
       "imdb_id": "tt32268156"
     },
     {
-      "id": "tt32362890",
-      "type": "movie",
-      "name": "Thrash",
-      "poster": "https://image.tmdb.org/t/p/w500/adk8weka3O5648g3de4z3y4aE7G.jpg",
-      "posterShape": "poster",
-      "description": "When a catastrophic hurricane slams a coastal town, stranded residents must survive rapidly rising waters swarming with ravenous sharks.",
-      "genres": [
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32362890"
-    },
-    {
       "id": "tt14270702",
       "type": "movie",
       "name": "God Is a Bullet",
@@ -198,6 +184,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt14270702"
+    },
+    {
+      "id": "tt32362890",
+      "type": "movie",
+      "name": "Thrash",
+      "poster": "https://image.tmdb.org/t/p/w500/adk8weka3O5648g3de4z3y4aE7G.jpg",
+      "posterShape": "poster",
+      "description": "When a catastrophic hurricane slams a coastal town, stranded residents must survive rapidly rising waters swarming with ravenous sharks.",
+      "genres": [
+        "Thriller",
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32362890"
     },
     {
       "id": "tt28129069",
@@ -242,6 +242,21 @@
       "imdb_id": "tt11245972"
     },
     {
+      "id": "tt11561116",
+      "type": "movie",
+      "name": "The Whisper Man",
+      "poster": "https://image.tmdb.org/t/p/w500/ndRs5lADYm0PeVjuOxaMcInY0o2.jpg",
+      "posterShape": "poster",
+      "description": "When his young son vanishes, a widower enlists help from his estranged father, a retired detective who put away the serial killer now linked to the case.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt11561116"
+    },
+    {
       "id": "tt33028778",
       "type": "movie",
       "name": "Primate",
@@ -268,20 +283,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt28498159"
-    },
-    {
-      "id": "tt22796890",
-      "type": "movie",
-      "name": "Hell House LLC Origins: The Carmichael Manor",
-      "poster": "https://image.tmdb.org/t/p/w500/bsd1ovBNOhYpQElhlZAqpMo51q6.jpg",
-      "posterShape": "poster",
-      "description": "A group of cold case investigators stay at the Carmichael Manor, site of the grisly and unsolved murders of the Carmichael family back in the eighties. After four nights, the group was never heard from again. What is discovered on their footage is even more disturbing than anything found on the Hell House tapes.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt22796890"
     }
   ]
 }
