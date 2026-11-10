@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt12593682",
-      "type": "movie",
-      "name": "Bullet Train",
-      "poster": "https://image.tmdb.org/t/p/w500/j8szC8OgrejDQjjMKSVXyaAjw3V.jpg",
-      "posterShape": "poster",
-      "description": "Unlucky assassin Ladybug is determined to do his job peacefully after one too many gigs gone off the rails. Fate, however, may have other plans, as Ladybug's latest mission puts him on a collision course with lethal adversaries from around the globe—all with connected, yet conflicting, objectives—on the world's fastest train.",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt12593682"
-    },
-    {
       "id": "tt7181546",
       "type": "movie",
       "name": "Ballerina",
@@ -297,6 +282,20 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt8579674"
+    },
+    {
+      "id": "tt0332452",
+      "type": "movie",
+      "name": "Troy",
+      "poster": "https://image.tmdb.org/t/p/w500/a07wLy4ONfpsjnBqMwhlWTJTcm.jpg",
+      "posterShape": "poster",
+      "description": "In year 1250 B.C. during the late Bronze age, two emerging nations begin to clash. Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnon to help him get her back. Agamemnon sees this as an opportunity for power. They set off with 1,000 ships holding 50,000 Greeks to Troy.",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "releaseInfo": "2004",
+      "imdb_id": "tt0332452"
     }
   ]
 }
