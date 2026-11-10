@@ -1,18 +1,3 @@
 {
-  "metas": [
-    {
-      "id": "tt11712058",
-      "type": "series",
-      "name": "Mayor of Kingstown",
-      "poster": "https://image.tmdb.org/t/p/w500/6rWIip9MZELAA0SKii5WqsBDCYW.jpg",
-      "posterShape": "poster",
-      "description": "S5 E1 · Fri 15 Jan 2027\n\nIn a small Michigan town where the business of incarceration is the only thriving industry, the McClusky family are the power brokers between the police, criminals, inmates, prison guards and politicians in a city completely dependent on prisons and the prisoners they contain.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "Fri 15 Jan · S5 E1",
-      "imdb_id": "tt11712058"
-    }
-  ]
+  "metas": []
 }
