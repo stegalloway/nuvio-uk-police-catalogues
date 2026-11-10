@@ -74,6 +74,22 @@ class ReviewQueueTests(unittest.TestCase):
 
 
 class TrueCrimeRoutingTests(unittest.TestCase):
+    def test_a_pending_show_already_in_the_seen_list_stays_in_the_queue(self):
+        # 9 Nov: Dashcam Justice was queued, added to the seen list on the same run
+        # and dropped by the next run before it was ever presented.
+        editorial = {"firstAiredWithinYears": 5, "excludedTmdbIds": [],
+                     "categories": {"on-duty": {}, "police-investigations": {}}}
+        _, first, _, _ = update_catalogs.discover(FakeTMDB(), editorial, {"candidates": []}, {}, set())
+        seen = {c["tmdbId"] for c in first["candidates"]}
+        _, second, _, _ = update_catalogs.discover(FakeTMDB(), editorial, first, {}, set(), seen)
+        self.assertEqual([c["tmdbId"] for c in second["candidates"]], [SHOW["id"]])
+
+    def test_a_seen_show_that_has_left_the_queue_does_not_come_back(self):
+        editorial = {"firstAiredWithinYears": 5, "excludedTmdbIds": [],
+                     "categories": {"on-duty": {}, "police-investigations": {}}}
+        _, review, _, _ = update_catalogs.discover(FakeTMDB(), editorial, {"candidates": []}, {}, set(), {SHOW["id"]})
+        self.assertEqual(review["candidates"], [])
+
     def test_police_led_shows_keep_their_police_rows(self):
         self.assertEqual(update_catalogs.confidence(SHOW, true_crime=True)["category"], "police-investigations")
 

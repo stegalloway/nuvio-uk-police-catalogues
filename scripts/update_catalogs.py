@@ -246,7 +246,10 @@ def discover(tmdb, editorial, previous, seeded, already, seen_ids=frozenset()):
             # Keep recently considered shows even if upstream pagination changes.
             if date_or_none(meta.get("lastSeen")) and date_or_none(meta["lastSeen"])>=months_ago(1):
                 matches[tmdb_id]=meta
-    blocked=set(editorial.get("excludedTmdbIds",[]))|seen_ids
+    # The seen list stops shows coming back after they leave the queue; it must not
+    # drop a show that is still waiting in the queue (that lost Dashcam Justice, 9 Nov).
+    pending={i for i,x in previous_by_id.items() if x.get("status")=="pending"}
+    blocked=set(editorial.get("excludedTmdbIds",[]))|(set(seen_ids)-pending)
     name_seen={title_key(x.get("name")) for x in seeded.values()}
     for id in already:
         if id in tmdb.cache:name_seen.add(title_key(tmdb.cache[id].get("name")))
