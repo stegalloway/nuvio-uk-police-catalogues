@@ -1,11 +1,11 @@
 {
-  "updatedAtUtc": "2026-11-10T06:52:49+00:00",
+  "updatedAtUtc": "2026-11-10T11:25:29+00:00",
   "counts": {
     "on-duty": 32,
-    "police-investigations": 41,
+    "police-investigations": 42,
     "true-crime": 33
   },
-  "approvedSeedCount": 106,
+  "approvedSeedCount": 107,
   "newlyAutoAdded": {
     "on-duty": [],
     "police-investigations": [],
