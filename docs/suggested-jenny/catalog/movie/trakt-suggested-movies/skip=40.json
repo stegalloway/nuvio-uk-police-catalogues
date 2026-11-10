@@ -87,21 +87,6 @@
       "imdb_id": "tt32141377"
     },
     {
-      "id": "tt10377864",
-      "type": "movie",
-      "name": "Beware Boiúna",
-      "poster": "https://image.tmdb.org/t/p/w500/uW5YMPxJUzT9bkafrCKHXjPTCoQ.jpg",
-      "posterShape": "poster",
-      "description": "A medical mission deep in the Amazon becomes a desperate fight for survival when a colossal ancient predator awakens, turning the jungle into a deadly battleground where nature decides who lives and dies.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Action"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt10377864"
-    },
-    {
       "id": "tt23137390",
       "type": "movie",
       "name": "Immaculate",
@@ -115,6 +100,21 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt23137390"
+    },
+    {
+      "id": "tt10377864",
+      "type": "movie",
+      "name": "Beware Boiúna",
+      "poster": "https://image.tmdb.org/t/p/w500/uW5YMPxJUzT9bkafrCKHXjPTCoQ.jpg",
+      "posterShape": "poster",
+      "description": "A medical mission deep in the Amazon becomes a desperate fight for survival when a colossal ancient predator awakens, turning the jungle into a deadly battleground where nature decides who lives and dies.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Action"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt10377864"
     },
     {
       "id": "tt14364480",

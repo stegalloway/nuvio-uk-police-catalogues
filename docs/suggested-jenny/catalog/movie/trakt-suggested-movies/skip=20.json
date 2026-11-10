@@ -71,20 +71,6 @@
       "imdb_id": "tt15474916"
     },
     {
-      "id": "tt32268156",
-      "type": "movie",
-      "name": "The Last House",
-      "poster": "https://image.tmdb.org/t/p/w500/wVvLthGKtnBVq1Cov86h8iB1SeQ.jpg",
-      "posterShape": "poster",
-      "description": "A family suddenly sealed inside their home must work together to survive against dwindling resources and the ominous threat keeping them trapped.",
-      "genres": [
-        "Horror",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32268156"
-    },
-    {
       "id": "tt30274401",
       "type": "movie",
       "name": "Five Nights at Freddy's 2",
@@ -97,6 +83,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt30274401"
+    },
+    {
+      "id": "tt32268156",
+      "type": "movie",
+      "name": "The Last House",
+      "poster": "https://image.tmdb.org/t/p/w500/wVvLthGKtnBVq1Cov86h8iB1SeQ.jpg",
+      "posterShape": "poster",
+      "description": "A family suddenly sealed inside their home must work together to survive against dwindling resources and the ominous threat keeping them trapped.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32268156"
     },
     {
       "id": "tt30955489",

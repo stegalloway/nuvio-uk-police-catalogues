@@ -82,21 +82,6 @@
       "imdb_id": "tt32393988"
     },
     {
-      "id": "tt50389959",
-      "type": "movie",
-      "name": "A Story of Derry",
-      "poster": "https://image.tmdb.org/t/p/w500/4PtzGcegF5Po1NmDAW9IklyvAUh.jpg",
-      "posterShape": "poster",
-      "description": "Hundreds of years before Pennywise, three youngsters venture into the Western Wood...where they encounter a terrifying ancient spirit.",
-      "genres": [
-        "Drama",
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt50389959"
-    },
-    {
       "id": "tt32358390",
       "type": "movie",
       "name": "The Cycle",
@@ -110,6 +95,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32358390"
+    },
+    {
+      "id": "tt50389959",
+      "type": "movie",
+      "name": "A Story of Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/4PtzGcegF5Po1NmDAW9IklyvAUh.jpg",
+      "posterShape": "poster",
+      "description": "Hundreds of years before Pennywise, three youngsters venture into the Western Wood...where they encounter a terrifying ancient spirit.",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt50389959"
     },
     {
       "id": "tt32329539",
