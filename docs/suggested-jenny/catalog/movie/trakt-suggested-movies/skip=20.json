@@ -30,17 +30,18 @@
       "imdb_id": "tt8036976"
     },
     {
-      "id": "tt22048412",
+      "id": "tt11242218",
       "type": "movie",
-      "name": "MaXXXine",
-      "poster": "https://image.tmdb.org/t/p/w500/ArvoFK6nlouZRxYmtIOUzKIrg90.jpg",
+      "name": "Books of Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/bXLVZGgLgd7OwbfP6fC5GCfrxuD.jpg",
       "posterShape": "poster",
-      "description": "In 1980s Hollywood, adult film star and aspiring actress Maxine Minx finally gets her big break. But as a mysterious killer stalks the starlets of Hollywood, a trail of blood threatens to reveal her sinister past.",
+      "description": "A journey into uncharted and forbidden territory through three tales tangled in space and time.",
       "genres": [
-        "Horror"
+        "Horror",
+        "Science Fiction"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt22048412"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11242218"
     },
     {
       "id": "tt34494076",

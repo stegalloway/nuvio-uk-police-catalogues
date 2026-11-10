@@ -219,20 +219,6 @@
       "imdb_id": "tt8740614"
     },
     {
-      "id": "tt11324406",
-      "type": "series",
-      "name": "The Staircase",
-      "poster": "https://image.tmdb.org/t/p/w500/jiAcdCyf1UbWYBImcNtVeLW0pRj.jpg",
-      "posterShape": "poster",
-      "description": "An exploration of the life of Michael Peterson, his sprawling North Carolina family, and the suspicious death of his wife, Kathleen Peterson.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11324406"
-    },
-    {
       "id": "tt11055882",
       "type": "series",
       "name": "Good Sam",
@@ -289,6 +275,19 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt9174630"
+    },
+    {
+      "id": "tt3581920",
+      "type": "series",
+      "name": "The Last of Us",
+      "poster": "https://image.tmdb.org/t/p/w500/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
+      "posterShape": "poster",
+      "description": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt3581920"
     }
   ]
 }
