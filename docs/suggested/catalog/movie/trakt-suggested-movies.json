@@ -134,19 +134,6 @@
       "imdb_id": "tt16311594"
     },
     {
-      "id": "tt0195685",
-      "type": "movie",
-      "name": "Erin Brockovich",
-      "poster": "https://image.tmdb.org/t/p/w500/eMs20iUQyZVs05Ck7Q0LNnRsstr.jpg",
-      "posterShape": "poster",
-      "description": "A twice-divorced mother of three who sees an injustice, takes on the bad guy and wins -- with a little help from her push-up bra. Erin goes to work for an attorney and comes across medical records describing illnesses clustered in one nearby town. She starts investigating and soon exposes a monumental cover-up.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2000",
-      "imdb_id": "tt0195685"
-    },
-    {
       "id": "tt3799694",
       "type": "movie",
       "name": "The Nice Guys",
@@ -222,21 +209,6 @@
       "imdb_id": "tt1130884"
     },
     {
-      "id": "tt36042156",
-      "type": "movie",
-      "name": "The Punisher: One Last Kill",
-      "poster": "https://image.tmdb.org/t/p/w500/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
-      "posterShape": "poster",
-      "description": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
-      "genres": [
-        "Action",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36042156"
-    },
-    {
       "id": "tt0478970",
       "type": "movie",
       "name": "Ant-Man",
@@ -295,6 +267,37 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt7181546"
+    },
+    {
+      "id": "tt0373469",
+      "type": "movie",
+      "name": "Kiss Kiss Bang Bang",
+      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
+      "posterShape": "poster",
+      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2005",
+      "imdb_id": "tt0373469"
+    },
+    {
+      "id": "tt11539996",
+      "type": "movie",
+      "name": "Relay",
+      "poster": "https://image.tmdb.org/t/p/w500/mpwccO2L8LUVtVTJTdgUVgoQqAo.jpg",
+      "posterShape": "poster",
+      "description": "A broker of lucrative payoffs between corrupt corporations and the individuals who threaten them breaks his own rules when a new client seeks his protection to stay alive.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt11539996"
     }
   ]
 }
