@@ -30,6 +30,19 @@
       "imdb_id": "tt21807222"
     },
     {
+      "id": "tt30505578",
+      "type": "movie",
+      "name": "Feed",
+      "poster": "https://image.tmdb.org/t/p/w500/8AI6GBlESvZ4RWhreSWHfqg03HA.jpg",
+      "posterShape": "poster",
+      "description": "Five social media influencers spend a weekend at a forest retreat but inadvertently awaken and confront the world's first vampire.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt30505578"
+    },
+    {
       "id": "tt13405778",
       "type": "movie",
       "name": "Insidious: The Red Door",
@@ -157,22 +170,6 @@
       "imdb_id": "tt28129069"
     },
     {
-      "id": "tt14270702",
-      "type": "movie",
-      "name": "God Is a Bullet",
-      "poster": "https://image.tmdb.org/t/p/w500/5kiLS9nsSJxDdlYUyYGiSUt8Fi8.jpg",
-      "posterShape": "poster",
-      "description": "Vice detective Bob Hightower finds his ex-wife murdered and daughter kidnapped by a cult. Frustrated by the botched official investigations, he quits the force and infiltrates the cult to hunt down the leader with the help of the cult’s only female victim escapee, Case Hardin.",
-      "genres": [
-        "Thriller",
-        "Action",
-        "Crime",
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14270702"
-    },
-    {
       "id": "tt33028778",
       "type": "movie",
       "name": "Primate",
@@ -213,6 +210,22 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt10303430"
+    },
+    {
+      "id": "tt14270702",
+      "type": "movie",
+      "name": "God Is a Bullet",
+      "poster": "https://image.tmdb.org/t/p/w500/5kiLS9nsSJxDdlYUyYGiSUt8Fi8.jpg",
+      "posterShape": "poster",
+      "description": "Vice detective Bob Hightower finds his ex-wife murdered and daughter kidnapped by a cult. Frustrated by the botched official investigations, he quits the force and infiltrates the cult to hunt down the leader with the help of the cult’s only female victim escapee, Case Hardin.",
+      "genres": [
+        "Thriller",
+        "Action",
+        "Crime",
+        "Horror"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt14270702"
     },
     {
       "id": "tt37538172",
@@ -268,20 +281,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt24807110"
-    },
-    {
-      "id": "tt12873562",
-      "type": "movie",
-      "name": "The Invitation",
-      "poster": "https://image.tmdb.org/t/p/w500/jcTq6gIskCsHlKDvCKKouEfiU66.jpg",
-      "posterShape": "poster",
-      "description": "After the death of her mother, Evie is approached by an unknown cousin who invites her to a lavish wedding in the English countryside. Soon, she realizes a gothic conspiracy is afoot and must fight for survival as she uncovers twisted secrets in her family’s history.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt12873562"
     }
   ]
 }
