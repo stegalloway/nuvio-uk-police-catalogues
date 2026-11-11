@@ -62,6 +62,21 @@
       "imdb_id": "tt3501632"
     },
     {
+      "id": "tt6791350",
+      "type": "movie",
+      "name": "Guardians of the Galaxy Vol. 3",
+      "poster": "https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+      "posterShape": "poster",
+      "description": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt6791350"
+    },
+    {
       "id": "tt11083552",
       "type": "movie",
       "name": "Wrath of Man",
@@ -133,35 +148,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt3315342"
-    },
-    {
-      "id": "tt16311594",
-      "type": "movie",
-      "name": "F1",
-      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
-      "posterShape": "poster",
-      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
-      "genres": [
-        "Action",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt16311594"
-    },
-    {
-      "id": "tt3799694",
-      "type": "movie",
-      "name": "The Nice Guys",
-      "poster": "https://image.tmdb.org/t/p/w500/clq4So9spa9cXk3MZy2iMdqkxP2.jpg",
-      "posterShape": "poster",
-      "description": "A private eye investigates the apparent suicide of a fading porn star in 1970s Los Angeles and uncovers a conspiracy.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Action"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt3799694"
     },
     {
       "id": "tt0985699",
@@ -297,6 +283,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt7181546"
+    },
+    {
+      "id": "tt16311594",
+      "type": "movie",
+      "name": "F1",
+      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+      "posterShape": "poster",
+      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt16311594"
     }
   ]
 }
