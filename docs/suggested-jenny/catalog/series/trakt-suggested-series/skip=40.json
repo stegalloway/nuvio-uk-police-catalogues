@@ -275,17 +275,19 @@
       "imdb_id": "tt10946316"
     },
     {
-      "id": "tt11055882",
+      "id": "tt8740614",
       "type": "series",
-      "name": "Good Sam",
-      "poster": "https://image.tmdb.org/t/p/w500/3daYD4eYimoQaPyKIgCADKUovcJ.jpg",
+      "name": "The Residence",
+      "poster": "https://image.tmdb.org/t/p/w500/cJZbg425I9LF3SlJVQDOg4nJEvq.jpg",
       "posterShape": "poster",
-      "description": "A gifted heart surgeon excels in her new leadership role as Chief of Surgery after her renowned boss falls into a coma. When her former boss wakes up months later demanding to resume his duties, Sam is tasked with supervising this egotistical expert with a scalpel who never acknowledged her stellar talent.",
+      "description": "A brilliant, eccentric detective must solve a murder in the White House residence — where the staff and guests at a state dinner are all suspects.",
       "genres": [
-        "Drama"
+        "Comedy",
+        "Crime",
+        "Mystery"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11055882"
+      "releaseInfo": "2025",
+      "imdb_id": "tt8740614"
     }
   ]
 }
