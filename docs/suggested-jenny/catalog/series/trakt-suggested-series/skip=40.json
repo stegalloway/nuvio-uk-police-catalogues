@@ -247,21 +247,6 @@
       "imdb_id": "tt16288838"
     },
     {
-      "id": "tt8740614",
-      "type": "series",
-      "name": "The Residence",
-      "poster": "https://image.tmdb.org/t/p/w500/cJZbg425I9LF3SlJVQDOg4nJEvq.jpg",
-      "posterShape": "poster",
-      "description": "A brilliant, eccentric detective must solve a murder in the White House residence — where the staff and guests at a state dinner are all suspects.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt8740614"
-    },
-    {
       "id": "tt10946316",
       "type": "series",
       "name": "The Institute",
@@ -287,6 +272,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11055882"
+    },
+    {
+      "id": "tt8740614",
+      "type": "series",
+      "name": "The Residence",
+      "poster": "https://image.tmdb.org/t/p/w500/cJZbg425I9LF3SlJVQDOg4nJEvq.jpg",
+      "posterShape": "poster",
+      "description": "A brilliant, eccentric detective must solve a murder in the White House residence — where the staff and guests at a state dinner are all suspects.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt8740614"
     }
   ]
 }
