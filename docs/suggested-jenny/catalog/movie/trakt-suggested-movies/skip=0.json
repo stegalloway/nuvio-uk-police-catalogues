@@ -1,19 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt15408560",
-      "type": "movie",
-      "name": "The Chair",
-      "poster": "https://image.tmdb.org/t/p/w500/1amnNMQoEqqSCgJiMlT3cptAe2u.jpg",
-      "posterShape": "poster",
-      "description": "After Reese brings home an antique chair, a series of horrific events follow, leading him to question if it's a malevolent spirit the chair possesses or the darkness inside his own mind.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15408560"
-    },
-    {
       "id": "tt31170389",
       "type": "movie",
       "name": "Evil Dead Burn",
@@ -25,35 +12,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt31170389"
-    },
-    {
-      "id": "tt32393988",
-      "type": "movie",
-      "name": "Insidious: Out of the Further",
-      "poster": "https://image.tmdb.org/t/p/w500/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg",
-      "posterShape": "poster",
-      "description": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32393988"
-    },
-    {
-      "id": "tt50389959",
-      "type": "movie",
-      "name": "A Story of Derry",
-      "poster": "https://image.tmdb.org/t/p/w500/4PtzGcegF5Po1NmDAW9IklyvAUh.jpg",
-      "posterShape": "poster",
-      "description": "Hundreds of years before Pennywise, three youngsters venture into the Western Wood...where they encounter a terrifying ancient spirit.",
-      "genres": [
-        "Drama",
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt50389959"
     },
     {
       "id": "tt34890576",
@@ -69,6 +27,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt34890576"
+    },
+    {
+      "id": "tt32393988",
+      "type": "movie",
+      "name": "Insidious: Out of the Further",
+      "poster": "https://image.tmdb.org/t/p/w500/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg",
+      "posterShape": "poster",
+      "description": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32393988"
     },
     {
       "id": "tt33763941",
@@ -97,6 +69,116 @@
       "imdb_id": "tt35050712"
     },
     {
+      "id": "tt50389959",
+      "type": "movie",
+      "name": "A Story of Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/4PtzGcegF5Po1NmDAW9IklyvAUh.jpg",
+      "posterShape": "poster",
+      "description": "Hundreds of years before Pennywise, three youngsters venture into the Western Wood...where they encounter a terrifying ancient spirit.",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt50389959"
+    },
+    {
+      "id": "tt32329539",
+      "type": "movie",
+      "name": "Crawlers",
+      "poster": "https://image.tmdb.org/t/p/w500/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
+      "posterShape": "poster",
+      "description": "Tenants at Paradiso Palms apartments fight a deadly spider invasion while the cunning building manager might be their only hope for survival.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32329539"
+    },
+    {
+      "id": "tt14415204",
+      "type": "movie",
+      "name": "Never Let Go",
+      "poster": "https://image.tmdb.org/t/p/w500/3EpZ2ksjijmdr8BhISP03PYzNFW.jpg",
+      "posterShape": "poster",
+      "description": "As an evil takes over the world beyond their front doorstep, the only protection for a mother and her twin sons is their house and their family’s protective bond.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt14415204"
+    },
+    {
+      "id": "tt3515878",
+      "type": "movie",
+      "name": "Do Not Enter",
+      "poster": "https://image.tmdb.org/t/p/w500/stM9N7eJmHKLmFR59JG4tLdN7Wk.jpg",
+      "posterShape": "poster",
+      "description": "A group of young explorers investigates an old abandoned hotel, only to encounter a strange supernatural being and a competing group looking for a legendary hidden treasure.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt3515878"
+    },
+    {
+      "id": "tt32881442",
+      "type": "movie",
+      "name": "Monkey’s Magic Merry Go Round",
+      "poster": "https://image.tmdb.org/t/p/w500/g1v1ogfa8PCvcYJ1JSmrqbcHMAP.jpg",
+      "posterShape": "poster",
+      "description": "After a mysterious bout of amnesia, a beloved children’s television host struggles to piece together his fractured memories, only to find his once-cheerful puppet co-stars behaving with sinister intent. As reality unravels, the line between performance and nightmare begins to blur.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32881442"
+    },
+    {
+      "id": "tt11242218",
+      "type": "movie",
+      "name": "Books of Blood",
+      "poster": "https://image.tmdb.org/t/p/w500/bXLVZGgLgd7OwbfP6fC5GCfrxuD.jpg",
+      "posterShape": "poster",
+      "description": "A journey into uncharted and forbidden territory through three tales tangled in space and time.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11242218"
+    },
+    {
+      "id": "tt27444133",
+      "type": "movie",
+      "name": "Shades of Desire",
+      "poster": "https://image.tmdb.org/t/p/w500/3E3TAy3fSksFDJ4TS6maL9xNEgU.jpg",
+      "posterShape": "poster",
+      "description": "After her twin sister Aubrey goes missing, Jennifer uncovers the scandalous, secret double-life that Aubrey leads - and that has put both of them in danger.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt27444133"
+    },
+    {
+      "id": "tt13778486",
+      "type": "movie",
+      "name": "Succubus",
+      "poster": "https://image.tmdb.org/t/p/w500/7AfBMebJS8mEtSV5ymdxEPpgvXb.jpg",
+      "posterShape": "poster",
+      "description": "A new father going through a marital separation joins a dating app and matches with a beautiful but mysterious young woman... whose powers of seduction and manipulation entangle him in a mystery more horrifying than he could have ever imagined.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt13778486"
+    },
+    {
       "id": "tt32358390",
       "type": "movie",
       "name": "The Cycle",
@@ -112,18 +194,18 @@
       "imdb_id": "tt32358390"
     },
     {
-      "id": "tt32329539",
+      "id": "tt31511689",
       "type": "movie",
-      "name": "Crawlers",
-      "poster": "https://image.tmdb.org/t/p/w500/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
+      "name": "Vicious",
+      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
       "posterShape": "poster",
-      "description": "Tenants at Paradiso Palms apartments fight a deadly spider invasion while the cunning building manager might be their only hope for survival.",
+      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
       "genres": [
         "Horror",
         "Thriller"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32329539"
+      "releaseInfo": "2025",
+      "imdb_id": "tt31511689"
     },
     {
       "id": "tt7069210",
@@ -141,144 +223,61 @@
       "imdb_id": "tt7069210"
     },
     {
-      "id": "tt14415204",
+      "id": "tt32268156",
       "type": "movie",
-      "name": "Never Let Go",
-      "poster": "https://image.tmdb.org/t/p/w500/3EpZ2ksjijmdr8BhISP03PYzNFW.jpg",
+      "name": "The Last House",
+      "poster": "https://image.tmdb.org/t/p/w500/wVvLthGKtnBVq1Cov86h8iB1SeQ.jpg",
       "posterShape": "poster",
-      "description": "As an evil takes over the world beyond their front doorstep, the only protection for a mother and her twin sons is their house and their family’s protective bond.",
+      "description": "A family suddenly sealed inside their home must work together to survive against dwindling resources and the ominous threat keeping them trapped.",
       "genres": [
-        "Horror"
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32268156"
+    },
+    {
+      "id": "tt18412256",
+      "type": "movie",
+      "name": "Alien: Romulus",
+      "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
+      "posterShape": "poster",
+      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
       ],
       "releaseInfo": "2024",
-      "imdb_id": "tt14415204"
+      "imdb_id": "tt18412256"
     },
     {
-      "id": "tt39143902",
+      "id": "tt36958312",
       "type": "movie",
-      "name": "Leviticus",
-      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+      "name": "The Devil's Mouth",
+      "poster": "https://image.tmdb.org/t/p/w500/lH8k9uCWYn2b2gsYleqYBDPbWa8.jpg",
       "posterShape": "poster",
-      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
-      "genres": [
-        "Horror",
-        "Romance"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt39143902"
-    },
-    {
-      "id": "tt13778486",
-      "type": "movie",
-      "name": "Succubus",
-      "poster": "https://image.tmdb.org/t/p/w500/7AfBMebJS8mEtSV5ymdxEPpgvXb.jpg",
-      "posterShape": "poster",
-      "description": "A new father going through a marital separation joins a dating app and matches with a beautiful but mysterious young woman... whose powers of seduction and manipulation entangle him in a mystery more horrifying than he could have ever imagined.",
+      "description": "A group of college friends' Thailand adventure turns deadly when they become trapped in submerged caves with a dangerous predator. As oxygen runs low, past conflicts emerge in their desperate fight for survival.",
       "genres": [
         "Horror",
         "Thriller"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt13778486"
-    },
-    {
-      "id": "tt3515878",
-      "type": "movie",
-      "name": "Do Not Enter",
-      "poster": "https://image.tmdb.org/t/p/w500/stM9N7eJmHKLmFR59JG4tLdN7Wk.jpg",
-      "posterShape": "poster",
-      "description": "A group of young explorers investigates an old abandoned hotel, only to encounter a strange supernatural being and a competing group looking for a legendary hidden treasure.",
-      "genres": [
-        "Horror"
-      ],
       "releaseInfo": "2026",
-      "imdb_id": "tt3515878"
+      "imdb_id": "tt36958312"
     },
     {
-      "id": "tt32654916",
+      "id": "tt8036976",
       "type": "movie",
-      "name": "Soulm8te",
-      "poster": "https://image.tmdb.org/t/p/w500/aRfFP8stzodl0bo8ywoNZXdaVwo.jpg",
+      "name": "Send Help",
+      "poster": "https://image.tmdb.org/t/p/w500/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
       "posterShape": "poster",
-      "description": "After a ruthless tech giant acquires a small robotics company, a grieving engineer is tasked with testing their new AI companion. But when he attempts to reprogram her to be a truly sentient soulmate, she develops needs of her own—unleashing a relentless spree of precision-engineered mayhem.",
+      "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
       "genres": [
         "Horror",
-        "Science Fiction",
-        "Thriller"
+        "Thriller",
+        "Comedy"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt32654916"
-    },
-    {
-      "id": "tt32881442",
-      "type": "movie",
-      "name": "Monkey’s Magic Merry Go Round",
-      "poster": "https://image.tmdb.org/t/p/w500/g1v1ogfa8PCvcYJ1JSmrqbcHMAP.jpg",
-      "posterShape": "poster",
-      "description": "After a mysterious bout of amnesia, a beloved children’s television host struggles to piece together his fractured memories, only to find his once-cheerful puppet co-stars behaving with sinister intent. As reality unravels, the line between performance and nightmare begins to blur.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32881442"
-    },
-    {
-      "id": "tt9411972",
-      "type": "movie",
-      "name": "Where the Crawdads Sing",
-      "poster": "https://image.tmdb.org/t/p/w500/n1el846gLDXfhOvrRCsyvaAOQWv.jpg",
-      "posterShape": "poster",
-      "description": "Abandoned by her family, Kya raises herself all alone in the marshes outside of her small town. When her former boyfriend is found dead, Kya is instantly branded by the local townspeople and law enforcement as the prime suspect for his murder.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Romance"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt9411972"
-    },
-    {
-      "id": "tt31511689",
-      "type": "movie",
-      "name": "Vicious",
-      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
-      "posterShape": "poster",
-      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31511689"
-    },
-    {
-      "id": "tt21807222",
-      "type": "movie",
-      "name": "Saw X",
-      "poster": "https://image.tmdb.org/t/p/w500/u7Lp1Hi8aBS73jv4KRMIv5aK4ax.jpg",
-      "posterShape": "poster",
-      "description": "Between the events of 'Saw' and 'Saw II', a sick and desperate John Kramer travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer, only to discover the entire operation is a scam to defraud the most vulnerable. Armed with a newfound purpose, the infamous serial killer returns to his work, turning the tables on the con artists in his signature visceral way through devious, deranged, and ingenious traps.",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt21807222"
-    },
-    {
-      "id": "tt32612507",
-      "type": "movie",
-      "name": "Lee Cronin's The Mummy",
-      "poster": "https://image.tmdb.org/t/p/w500/1q308iixueCU4pFtSYugNOevtNx.jpg",
-      "posterShape": "poster",
-      "description": "The young daughter of a journalist disappears into the desert without a trace—eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32612507"
+      "imdb_id": "tt8036976"
     }
   ]
 }
