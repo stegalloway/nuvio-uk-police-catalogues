@@ -150,21 +150,6 @@
       "imdb_id": "tt3315342"
     },
     {
-      "id": "tt0985699",
-      "type": "movie",
-      "name": "Valkyrie",
-      "poster": "https://image.tmdb.org/t/p/w500/8eoRtXswC8IQDsqW7iJWO56NhAv.jpg",
-      "posterShape": "poster",
-      "description": "Wounded in Africa during World War II, Nazi Col. Claus von Stauffenberg returns to his native Germany and joins the Resistance in a daring plan to create a shadow government and assassinate Adolf Hitler. When events unfold so that he becomes a central player, he finds himself tasked with both leading the coup and personally killing the Führer.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "War"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0985699"
-    },
-    {
       "id": "tt2057392",
       "type": "movie",
       "name": "Eye in the Sky",
@@ -297,6 +282,22 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt7181546"
+    },
+    {
+      "id": "tt0373469",
+      "type": "movie",
+      "name": "Kiss Kiss Bang Bang",
+      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
+      "posterShape": "poster",
+      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2005",
+      "imdb_id": "tt0373469"
     }
   ]
 }
