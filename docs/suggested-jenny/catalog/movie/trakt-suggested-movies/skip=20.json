@@ -231,6 +231,20 @@
       "imdb_id": "tt33978029"
     },
     {
+      "id": "tt32362890",
+      "type": "movie",
+      "name": "Thrash",
+      "poster": "https://image.tmdb.org/t/p/w500/adk8weka3O5648g3de4z3y4aE7G.jpg",
+      "posterShape": "poster",
+      "description": "When a catastrophic hurricane slams a coastal town, stranded residents must survive rapidly rising waters swarming with ravenous sharks.",
+      "genres": [
+        "Thriller",
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32362890"
+    },
+    {
       "id": "tt35538033",
       "type": "movie",
       "name": "Resident Evil",
@@ -244,20 +258,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35538033"
-    },
-    {
-      "id": "tt32362890",
-      "type": "movie",
-      "name": "Thrash",
-      "poster": "https://image.tmdb.org/t/p/w500/adk8weka3O5648g3de4z3y4aE7G.jpg",
-      "posterShape": "poster",
-      "description": "When a catastrophic hurricane slams a coastal town, stranded residents must survive rapidly rising waters swarming with ravenous sharks.",
-      "genres": [
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32362890"
     },
     {
       "id": "tt28129069",
