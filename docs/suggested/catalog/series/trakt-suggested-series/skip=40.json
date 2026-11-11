@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt32267726",
-      "type": "series",
-      "name": "The Girlfriend",
-      "poster": "https://image.tmdb.org/t/p/w500/ktrp3tdZ5IQpFux4nLy8z70bt3n.jpg",
-      "posterShape": "poster",
-      "description": "Laura has it all: a glittering career, a loving husband, and her precious son, Daniel. But her perfect life unravels when Daniel brings home Cherry, a girlfriend who changes everything. After a tense introduction, Laura becomes convinced Cherry is hiding something. Is she a manipulative social climber, or is Laura just paranoid? The truth is a matter of perspective.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32267726"
-    },
-    {
       "id": "tt32559610",
       "type": "series",
       "name": "Countdown",
@@ -250,21 +236,6 @@
       "imdb_id": "tt5722298"
     },
     {
-      "id": "tt7335184",
-      "type": "series",
-      "name": "You",
-      "poster": "https://image.tmdb.org/t/p/w500/oANi0vEE92nuijiZQgPZ88FSxqQ.jpg",
-      "posterShape": "poster",
-      "description": "A dangerously charming, obsessive man goes to extreme measures to insert himself into the lives of women who fascinate him.",
-      "genres": [
-        "Mystery",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt7335184"
-    },
-    {
       "id": "tt1442065",
       "type": "series",
       "name": "Rookie Blue",
@@ -292,6 +263,34 @@
       ],
       "releaseInfo": "2006",
       "imdb_id": "tt0773262"
+    },
+    {
+      "id": "tt0106028",
+      "type": "series",
+      "name": "Homicide: Life on the Street",
+      "poster": "https://image.tmdb.org/t/p/w500/nb5310xlFjx5r9TnpKoaOTQsAlP.jpg",
+      "posterShape": "poster",
+      "description": "An American police procedural chronicling the work of a fictional version of the Baltimore Police Department's Homicide Unit.",
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "1993",
+      "imdb_id": "tt0106028"
+    },
+    {
+      "id": "tt0118437",
+      "type": "series",
+      "name": "The Practice",
+      "poster": "https://image.tmdb.org/t/p/w500/7OKZSUIWhjFP0F2s478zTrAYwDB.jpg",
+      "posterShape": "poster",
+      "description": "A provocative legal drama focused on young associates at a bare-bones Boston firm and their scrappy boss, Bobby Donnell. The show's forte is its storylines about “people who walk a moral tightrope.”",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "1997",
+      "imdb_id": "tt0118437"
     }
   ]
 }

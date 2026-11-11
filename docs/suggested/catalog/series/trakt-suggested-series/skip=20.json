@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt0439100",
-      "type": "series",
-      "name": "Weeds",
-      "poster": "https://image.tmdb.org/t/p/w500/gKUsBTa5b0GY7U4iWBseeBalfjO.jpg",
-      "posterShape": "poster",
-      "description": "After the unexpected death of her husband, a suburban mom resorts to selling weed to support her family.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0439100"
-    },
-    {
       "id": "tt0306414",
       "type": "series",
       "name": "The Wire",
@@ -291,6 +276,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt16030542"
+    },
+    {
+      "id": "tt32267726",
+      "type": "series",
+      "name": "The Girlfriend",
+      "poster": "https://image.tmdb.org/t/p/w500/ktrp3tdZ5IQpFux4nLy8z70bt3n.jpg",
+      "posterShape": "poster",
+      "description": "Laura has it all: a glittering career, a loving husband, and her precious son, Daniel. But her perfect life unravels when Daniel brings home Cherry, a girlfriend who changes everything. After a tense introduction, Laura becomes convinced Cherry is hiding something. Is she a manipulative social climber, or is Laura just paranoid? The truth is a matter of perspective.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt32267726"
     }
   ]
 }
