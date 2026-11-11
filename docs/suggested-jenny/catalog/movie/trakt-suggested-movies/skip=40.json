@@ -58,21 +58,6 @@
       "imdb_id": "tt14509110"
     },
     {
-      "id": "tt4459134",
-      "type": "movie",
-      "name": "Frank and Penelope",
-      "poster": "https://image.tmdb.org/t/p/w500/5NpXoAi3nEQkEgLO09nmotPfyNa.jpg",
-      "posterShape": "poster",
-      "description": "A tale of love and violence when a man on his emotional last legs finds a savior seductively dancing in a run-down strip club. And a life most certainly headed off a cliff suddenly becomes redirected - as everything is now worth dying for.",
-      "genres": [
-        "Thriller",
-        "Horror",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt4459134"
-    },
-    {
       "id": "tt15474916",
       "type": "movie",
       "name": "Smile",
@@ -287,6 +272,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt27564844"
+    },
+    {
+      "id": "tt22048412",
+      "type": "movie",
+      "name": "MaXXXine",
+      "poster": "https://image.tmdb.org/t/p/w500/ArvoFK6nlouZRxYmtIOUzKIrg90.jpg",
+      "posterShape": "poster",
+      "description": "In 1980s Hollywood, adult film star and aspiring actress Maxine Minx finally gets her big break. But as a mysterious killer stalks the starlets of Hollywood, a trail of blood threatens to reveal her sinister past.",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt22048412"
     }
   ]
 }
