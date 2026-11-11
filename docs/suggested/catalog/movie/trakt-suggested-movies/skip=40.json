@@ -1,6 +1,35 @@
 {
   "metas": [
     {
+      "id": "tt0332452",
+      "type": "movie",
+      "name": "Troy",
+      "poster": "https://image.tmdb.org/t/p/w500/a07wLy4ONfpsjnBqMwhlWTJTcm.jpg",
+      "posterShape": "poster",
+      "description": "In year 1250 B.C. during the late Bronze age, two emerging nations begin to clash. Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnon to help him get her back. Agamemnon sees this as an opportunity for power. They set off with 1,000 ships holding 50,000 Greeks to Troy.",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "releaseInfo": "2004",
+      "imdb_id": "tt0332452"
+    },
+    {
+      "id": "tt31349844",
+      "type": "movie",
+      "name": "Runner",
+      "poster": "https://image.tmdb.org/t/p/w500/vJk2TW1QZAmBiD7oj9ZF9EPTYY1.jpg",
+      "posterShape": "poster",
+      "description": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31349844"
+    },
+    {
       "id": "tt15574124",
       "type": "movie",
       "name": "Peaky Blinders: The Immortal Man",

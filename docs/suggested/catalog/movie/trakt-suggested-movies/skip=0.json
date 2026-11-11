@@ -120,6 +120,21 @@
       "imdb_id": "tt31050020"
     },
     {
+      "id": "tt3315342",
+      "type": "movie",
+      "name": "Logan",
+      "poster": "https://image.tmdb.org/t/p/w500/fnbjcRDYn6YviCcePDnGdyAkYsB.jpg",
+      "posterShape": "poster",
+      "description": "In the near future, a weary Logan cares for an ailing Professor X in a hideout on the Mexican border. But Logan's attempts to hide from the world and his legacy are upended when a young mutant arrives, pursued by dark forces.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt3315342"
+    },
+    {
       "id": "tt16311594",
       "type": "movie",
       "name": "F1",
@@ -282,22 +297,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt7181546"
-    },
-    {
-      "id": "tt0373469",
-      "type": "movie",
-      "name": "Kiss Kiss Bang Bang",
-      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
-      "posterShape": "poster",
-      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0373469"
     }
   ]
 }
