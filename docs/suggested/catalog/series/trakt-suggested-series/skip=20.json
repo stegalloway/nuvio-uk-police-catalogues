@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt1652216",
+      "type": "series",
+      "name": "DCI Banks",
+      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
+      "posterShape": "poster",
+      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2011",
+      "imdb_id": "tt1652216"
+    },
+    {
       "id": "tt0306414",
       "type": "series",
       "name": "The Wire",
@@ -158,21 +172,6 @@
       "imdb_id": "tt17677860"
     },
     {
-      "id": "tt14379784",
-      "type": "series",
-      "name": "The Devil's Hour",
-      "poster": "https://image.tmdb.org/t/p/w500/mFU6ZPAs6g8Y9Eld28GULJYt3rC.jpg",
-      "posterShape": "poster",
-      "description": "Lucy wakes every night at exactly 3:33am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
-      "genres": [
-        "Mystery",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14379784"
-    },
-    {
       "id": "tt3205802",
       "type": "series",
       "name": "How to Get Away with Murder",
@@ -278,18 +277,18 @@
       "imdb_id": "tt16030542"
     },
     {
-      "id": "tt32267726",
+      "id": "tt32559610",
       "type": "series",
-      "name": "The Girlfriend",
-      "poster": "https://image.tmdb.org/t/p/w500/ktrp3tdZ5IQpFux4nLy8z70bt3n.jpg",
+      "name": "Countdown",
+      "poster": "https://image.tmdb.org/t/p/w500/gcSNS5cy1iOmYawIdJCzoc873rQ.jpg",
       "posterShape": "poster",
-      "description": "Laura has it all: a glittering career, a loving husband, and her precious son, Daniel. But her perfect life unravels when Daniel brings home Cherry, a girlfriend who changes everything. After a tense introduction, Laura becomes convinced Cherry is hiding something. Is she a manipulative social climber, or is Laura just paranoid? The truth is a matter of perspective.",
+      "description": "When an officer with the Department of Homeland Security is murdered in broad daylight, LAPD detective Mark Meachum is recruited to a secret task force, alongside undercover agents from all branches of law enforcement, to investigate. But the hunt for the killer soon uncovers a plot far more sinister than anyone could have imagined, kicking off a race against time to save a city of millions.",
       "genres": [
-        "Drama",
+        "Crime",
         "Mystery"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt32267726"
+      "imdb_id": "tt32559610"
     }
   ]
 }
