@@ -147,6 +147,21 @@
       "imdb_id": "tt1637727"
     },
     {
+      "id": "tt33043892",
+      "type": "series",
+      "name": "Dexter: Resurrection",
+      "poster": "https://image.tmdb.org/t/p/w500/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
+      "posterShape": "poster",
+      "description": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt33043892"
+    },
+    {
       "id": "tt2433738",
       "type": "series",
       "name": "Wentworth",
@@ -159,21 +174,6 @@
       ],
       "releaseInfo": "2013",
       "imdb_id": "tt2433738"
-    },
-    {
-      "id": "tt7491982",
-      "type": "series",
-      "name": "FBI",
-      "poster": "https://image.tmdb.org/t/p/w500/br3xWBUu7W0dXsMev0XXVvoMxuE.jpg",
-      "posterShape": "poster",
-      "description": "The New York office of the FBI brings to bear all their talents, intellect and technical expertise on major cases in order to keep their city and the country safe.",
-      "genres": [
-        "Crime",
-        "Action & Adventure",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt7491982"
     },
     {
       "id": "tt10327354",
