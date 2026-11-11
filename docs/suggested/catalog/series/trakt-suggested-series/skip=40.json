@@ -15,21 +15,6 @@
       "imdb_id": "tt32559610"
     },
     {
-      "id": "tt4474344",
-      "type": "series",
-      "name": "Blindspot",
-      "poster": "https://image.tmdb.org/t/p/w500/4AeYzamQmd9Fa6hawDmYKbdvBSe.jpg",
-      "posterShape": "poster",
-      "description": "A vast international plot explodes when a beautiful Jane Doe is discovered naked in Times Square, completely covered in mysterious, intricate tattoos with no memory of who she is or how she got there. But there's one tattoo that is impossible to miss: the name of FBI agent Kurt Weller, emblazoned across her back. \"Jane,\" Agent Weller and the rest of the FBI quickly realize that each mark on her body is a crime to solve, leading them closer to the truth about her identity and the mysteries to be revealed.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4474344"
-    },
-    {
       "id": "tt2356777",
       "type": "series",
       "name": "True Detective",
@@ -291,6 +276,20 @@
       ],
       "releaseInfo": "1997",
       "imdb_id": "tt0118437"
+    },
+    {
+      "id": "tt23148340",
+      "type": "series",
+      "name": "Crystal Lake",
+      "poster": "https://image.tmdb.org/t/p/w500/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
+      "posterShape": "poster",
+      "description": "Single mother Pam Voorhees has been unable to shake her grief after her young, sickly son Jason tragically drowned in the town lake almost a year before. When two strangers arrive at Pam's door digging into her past, a disturbing chain of events is set into motion, leaving the townspeople of Crystal Lake wondering: just who is Pam Voorhees?",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt23148340"
     }
   ]
 }
