@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt11656892",
+      "type": "series",
+      "name": "Des",
+      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
+      "posterShape": "poster",
+      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11656892"
+    },
+    {
       "id": "tt2356777",
       "type": "series",
       "name": "True Detective",
@@ -29,19 +43,18 @@
       "imdb_id": "tt27954448"
     },
     {
-      "id": "tt0374463",
+      "id": "tt9131050",
       "type": "series",
-      "name": "The Pacific",
-      "poster": "https://image.tmdb.org/t/p/w500/x9Y1IMFdY8Ma222KcQadFEau0EB.jpg",
+      "name": "A Confession",
+      "poster": "https://image.tmdb.org/t/p/w500/6c6q8m5PCiXv3TlxmM0vIcLylb0.jpg",
       "posterShape": "poster",
-      "description": "Track the intertwined real-life stories of three U.S. Marines – Robert Leckie, John Basilone, and Eugene Sledge – across the vast canvas of the Pacific Theater during World War II. A companion piece to the 2001 miniseries Band of Brothers.",
+      "description": "The story of how Detective Superintendent Steve Fulcher deliberately breached police procedure and protocol to catch a killer, a decision that ultimately cost him his career and reputation.",
       "genres": [
-        "Drama",
-        "Action & Adventure",
-        "War & Politics"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt0374463"
+      "releaseInfo": "2019",
+      "imdb_id": "tt9131050"
     },
     {
       "id": "tt5675620",
@@ -59,34 +72,6 @@
       "imdb_id": "tt5675620"
     },
     {
-      "id": "tt9131050",
-      "type": "series",
-      "name": "A Confession",
-      "poster": "https://image.tmdb.org/t/p/w500/6c6q8m5PCiXv3TlxmM0vIcLylb0.jpg",
-      "posterShape": "poster",
-      "description": "The story of how Detective Superintendent Steve Fulcher deliberately breached police procedure and protocol to catch a killer, a decision that ultimately cost him his career and reputation.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt9131050"
-    },
-    {
-      "id": "tt32267726",
-      "type": "series",
-      "name": "The Girlfriend",
-      "poster": "https://image.tmdb.org/t/p/w500/ktrp3tdZ5IQpFux4nLy8z70bt3n.jpg",
-      "posterShape": "poster",
-      "description": "Laura has it all: a glittering career, a loving husband, and her precious son, Daniel. But her perfect life unravels when Daniel brings home Cherry, a girlfriend who changes everything. After a tense introduction, Laura becomes convinced Cherry is hiding something. Is she a manipulative social climber, or is Laura just paranoid? The truth is a matter of perspective.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32267726"
-    },
-    {
       "id": "tt5743796",
       "type": "series",
       "name": "Warrior",
@@ -101,6 +86,20 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt5743796"
+    },
+    {
+      "id": "tt32267726",
+      "type": "series",
+      "name": "The Girlfriend",
+      "poster": "https://image.tmdb.org/t/p/w500/ktrp3tdZ5IQpFux4nLy8z70bt3n.jpg",
+      "posterShape": "poster",
+      "description": "Laura has it all: a glittering career, a loving husband, and her precious son, Daniel. But her perfect life unravels when Daniel brings home Cherry, a girlfriend who changes everything. After a tense introduction, Laura becomes convinced Cherry is hiding something. Is she a manipulative social climber, or is Laura just paranoid? The truth is a matter of perspective.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt32267726"
     },
     {
       "id": "tt33043892",
@@ -147,21 +146,6 @@
       "imdb_id": "tt2433738"
     },
     {
-      "id": "tt10327354",
-      "type": "series",
-      "name": "Prodigal Son",
-      "poster": "https://image.tmdb.org/t/p/w500/sp5BL7O4SnnTnXf9ECNrXbJQyqt.jpg",
-      "posterShape": "poster",
-      "description": "The son of a notorious serial killer becomes an acclaimed criminal psychologist who uses his unique insight into how killers think to help the NYPD.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt10327354"
-    },
-    {
       "id": "tt5164196",
       "type": "series",
       "name": "Lethal Weapon",
@@ -176,6 +160,21 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt5164196"
+    },
+    {
+      "id": "tt10327354",
+      "type": "series",
+      "name": "Prodigal Son",
+      "poster": "https://image.tmdb.org/t/p/w500/sp5BL7O4SnnTnXf9ECNrXbJQyqt.jpg",
+      "posterShape": "poster",
+      "description": "The son of a notorious serial killer becomes an acclaimed criminal psychologist who uses his unique insight into how killers think to help the NYPD.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt10327354"
     },
     {
       "id": "tt0460627",
@@ -221,20 +220,6 @@
       "imdb_id": "tt5722298"
     },
     {
-      "id": "tt1442065",
-      "type": "series",
-      "name": "Rookie Blue",
-      "poster": "https://image.tmdb.org/t/p/w500/rUINbQ8JKiQwN9g9PYJ6Nu0Iap1.jpg",
-      "posterShape": "poster",
-      "description": "Ambitious young cops try to prove themselves in their high-stakes careers, in which the smallest mistake can have deadly consequences. At the core of the close-knit group is perfectionist Andy McNally, whose father was a homicide detective before he burned out on the job. The series follows Andy and her four colleagues -- Dov Epstein, Gail Peck, Traci Nash and Chris Diaz -- as they experience the trials, triumphs and tribulations of police work, as well as its effect on their personal lives.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1442065"
-    },
-    {
       "id": "tt0773262",
       "type": "series",
       "name": "Dexter",
@@ -263,6 +248,20 @@
       ],
       "releaseInfo": "1993",
       "imdb_id": "tt0106028"
+    },
+    {
+      "id": "tt1442065",
+      "type": "series",
+      "name": "Rookie Blue",
+      "poster": "https://image.tmdb.org/t/p/w500/rUINbQ8JKiQwN9g9PYJ6Nu0Iap1.jpg",
+      "posterShape": "poster",
+      "description": "Ambitious young cops try to prove themselves in their high-stakes careers, in which the smallest mistake can have deadly consequences. At the core of the close-knit group is perfectionist Andy McNally, whose father was a homicide detective before he burned out on the job. The series follows Andy and her four colleagues -- Dov Epstein, Gail Peck, Traci Nash and Chris Diaz -- as they experience the trials, triumphs and tribulations of police work, as well as its effect on their personal lives.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1442065"
     },
     {
       "id": "tt0118437",

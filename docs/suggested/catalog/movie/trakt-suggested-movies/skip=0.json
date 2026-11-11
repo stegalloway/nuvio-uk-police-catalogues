@@ -240,6 +240,21 @@
       "imdb_id": "tt0478970"
     },
     {
+      "id": "tt0203119",
+      "type": "movie",
+      "name": "Sexy Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/xTfCZTzhgHNAR1pf5D49WH4buI5.jpg",
+      "posterShape": "poster",
+      "description": "Ex-safecracker Gal Dove has served his time behind bars and is blissfully retired to a Spanish villa paradise with a wife he adores. The idyll is shattered by the arrival of his nemesis Don Logan, intent on persuading Gal to return to London for one last big job.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2001",
+      "imdb_id": "tt0203119"
+    },
+    {
       "id": "tt12593682",
       "type": "movie",
       "name": "Bullet Train",
@@ -282,22 +297,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt7181546"
-    },
-    {
-      "id": "tt0373469",
-      "type": "movie",
-      "name": "Kiss Kiss Bang Bang",
-      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
-      "posterShape": "poster",
-      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0373469"
     }
   ]
 }
