@@ -201,6 +201,20 @@
       "imdb_id": "tt13729648"
     },
     {
+      "id": "tt13172612",
+      "type": "series",
+      "name": "Happy Face",
+      "poster": "https://image.tmdb.org/t/p/w500/sGHZrYxOU2U2JLrmYO12qGl1VK4.jpg",
+      "posterShape": "poster",
+      "description": "The story of Melissa Reed, daughter of Keith Jesperson, aka the Happy Face Killer. After decades of no contact, Keith forces his way back into his daughter’s life, and Melissa must find out if an innocent man is going to be put to death for a crime her father committed. In the process, she must face a reckoning of her own identity.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt13172612"
+    },
+    {
       "id": "tt1831804",
       "type": "series",
       "name": "The Stand",
@@ -256,20 +270,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt13444912"
-    },
-    {
-      "id": "tt11041332",
-      "type": "series",
-      "name": "Yellowjackets",
-      "poster": "https://image.tmdb.org/t/p/w500/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
-      "posterShape": "poster",
-      "description": "This equal parts survival epic, psychological horror story and coming-of-age drama tells the saga of a team of wildly talented high school girls soccer players who become the (un)lucky survivors of a plane crash deep in the remote northern wilderness. The series chronicles their descent from a complicated but thriving team to savage clans, while also tracking the lives they’ve attempted to piece back together nearly 25 years later.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11041332"
     },
     {
       "id": "tt34579520",

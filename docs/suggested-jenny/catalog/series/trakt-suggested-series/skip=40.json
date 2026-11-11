@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt11041332",
+      "type": "series",
+      "name": "Yellowjackets",
+      "poster": "https://image.tmdb.org/t/p/w500/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
+      "posterShape": "poster",
+      "description": "This equal parts survival epic, psychological horror story and coming-of-age drama tells the saga of a team of wildly talented high school girls soccer players who become the (un)lucky survivors of a plane crash deep in the remote northern wilderness. The series chronicles their descent from a complicated but thriving team to savage clans, while also tracking the lives they’ve attempted to piece back together nearly 25 years later.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11041332"
+    },
+    {
       "id": "tt33332385",
       "type": "series",
       "name": "Widow's Bay",
@@ -272,21 +286,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11055882"
-    },
-    {
-      "id": "tt8740614",
-      "type": "series",
-      "name": "The Residence",
-      "poster": "https://image.tmdb.org/t/p/w500/cJZbg425I9LF3SlJVQDOg4nJEvq.jpg",
-      "posterShape": "poster",
-      "description": "A brilliant, eccentric detective must solve a murder in the White House residence — where the staff and guests at a state dinner are all suspects.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt8740614"
     }
   ]
 }
