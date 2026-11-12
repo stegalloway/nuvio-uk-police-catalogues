@@ -43,19 +43,6 @@
       "imdb_id": "tt20198774"
     },
     {
-      "id": "tt37538172",
-      "type": "movie",
-      "name": "Bodycam",
-      "poster": "https://image.tmdb.org/t/p/w500/xFpBNcG3Dlr8mYF5Kz9Tizs3Pxn.jpg",
-      "posterShape": "poster",
-      "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt37538172"
-    },
-    {
       "id": "tt27564844",
       "type": "movie",
       "name": "Iron Lung",
@@ -113,6 +100,20 @@
       "imdb_id": "tt8004664"
     },
     {
+      "id": "tt15474916",
+      "type": "movie",
+      "name": "Smile",
+      "poster": "https://image.tmdb.org/t/p/w500/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
+      "posterShape": "poster",
+      "description": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15474916"
+    },
+    {
       "id": "tt11561116",
       "type": "movie",
       "name": "The Whisper Man",
@@ -126,20 +127,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt11561116"
-    },
-    {
-      "id": "tt15474916",
-      "type": "movie",
-      "name": "Smile",
-      "poster": "https://image.tmdb.org/t/p/w500/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
-      "posterShape": "poster",
-      "description": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15474916"
     },
     {
       "id": "tt34793095",
@@ -284,6 +271,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt14858658"
+    },
+    {
+      "id": "tt35672862",
+      "type": "movie",
+      "name": "Hokum",
+      "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+      "posterShape": "poster",
+      "description": "When novelist Ohm Bauman retreats to a remote inn to scatter his parents' ashes, he is consumed by tales of a witch haunting the honeymoon suite. Disturbing visions and a shocking disappearance forces him to confront dark corners of his past.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35672862"
     }
   ]
 }

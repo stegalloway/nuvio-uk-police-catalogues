@@ -76,19 +76,6 @@
       "imdb_id": "tt1051906"
     },
     {
-      "id": "tt30505578",
-      "type": "movie",
-      "name": "Feed",
-      "poster": "https://image.tmdb.org/t/p/w500/8AI6GBlESvZ4RWhreSWHfqg03HA.jpg",
-      "posterShape": "poster",
-      "description": "Five social media influencers spend a weekend at a forest retreat but inadvertently awaken and confront the world's first vampire.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt30505578"
-    },
-    {
       "id": "tt21807222",
       "type": "movie",
       "name": "Saw X",
@@ -102,6 +89,19 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt21807222"
+    },
+    {
+      "id": "tt30505578",
+      "type": "movie",
+      "name": "Feed",
+      "poster": "https://image.tmdb.org/t/p/w500/8AI6GBlESvZ4RWhreSWHfqg03HA.jpg",
+      "posterShape": "poster",
+      "description": "Five social media influencers spend a weekend at a forest retreat but inadvertently awaken and confront the world's first vampire.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt30505578"
     },
     {
       "id": "tt12298506",
@@ -160,20 +160,6 @@
       "imdb_id": "tt32612507"
     },
     {
-      "id": "tt21201300",
-      "type": "movie",
-      "name": "Bagman",
-      "poster": "https://image.tmdb.org/t/p/w500/53IK9rlZJbwFYbNnJZiLq7UWxkT.jpg",
-      "posterShape": "poster",
-      "description": "For centuries and across cultures, parents have warned their children of the legendary Bagman, who snatches innocent children and stuffs them into his vile, rotting bag—never to be seen again. Patrick McKee narrowly escaped such an encounter as a boy, which left him with lasting scars throughout his adulthood. Now, Patrick’s childhood tormentor has returned, threatening the safety of his wife Karina and son Jake.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt21201300"
-    },
-    {
       "id": "tt39143902",
       "type": "movie",
       "name": "Leviticus",
@@ -186,6 +172,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt39143902"
+    },
+    {
+      "id": "tt21201300",
+      "type": "movie",
+      "name": "Bagman",
+      "poster": "https://image.tmdb.org/t/p/w500/53IK9rlZJbwFYbNnJZiLq7UWxkT.jpg",
+      "posterShape": "poster",
+      "description": "For centuries and across cultures, parents have warned their children of the legendary Bagman, who snatches innocent children and stuffs them into his vile, rotting bag—never to be seen again. Patrick McKee narrowly escaped such an encounter as a boy, which left him with lasting scars throughout his adulthood. Now, Patrick’s childhood tormentor has returned, threatening the safety of his wife Karina and son Jake.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt21201300"
     },
     {
       "id": "tt4196566",
@@ -245,6 +245,20 @@
       "imdb_id": "tt32362890"
     },
     {
+      "id": "tt28129069",
+      "type": "movie",
+      "name": "Cheat",
+      "poster": "https://image.tmdb.org/t/p/w500/46Um9OTHNA390mMxwpSSc2m35Zp.jpg",
+      "posterShape": "poster",
+      "description": "On the surface it's believed to be another urban legend - a supernatural being from the afterlife is violently killing anyone who cheats on their significant other in the small college town of Silvercreek, Pennsylvania. But the town's unusually high suicide rate is finally convincing both locals and college students that everything is not as it seems. When Maeve - a female college student - sleeps with Charlie, the married man of the host family she is staying with, both sense the deadly curse is closing in on them. Unable to get anyone to believe them, Maeve and Charlie seek out a local history student to help find answers and figure out a way to defend themselves. It all comes undone, however, as several people are horrifically killed by the savage being - one-by-one at a rapid pace. Eventually, Maeve, Charlie and the few survivors band together in an attempt to defeat the monster once and for all.",
+      "genres": [
+        "Thriller",
+        "Horror"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt28129069"
+    },
+    {
       "id": "tt35538033",
       "type": "movie",
       "name": "Resident Evil",
@@ -258,20 +272,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35538033"
-    },
-    {
-      "id": "tt28129069",
-      "type": "movie",
-      "name": "Cheat",
-      "poster": "https://image.tmdb.org/t/p/w500/46Um9OTHNA390mMxwpSSc2m35Zp.jpg",
-      "posterShape": "poster",
-      "description": "On the surface it's believed to be another urban legend - a supernatural being from the afterlife is violently killing anyone who cheats on their significant other in the small college town of Silvercreek, Pennsylvania. But the town's unusually high suicide rate is finally convincing both locals and college students that everything is not as it seems. When Maeve - a female college student - sleeps with Charlie, the married man of the host family she is staying with, both sense the deadly curse is closing in on them. Unable to get anyone to believe them, Maeve and Charlie seek out a local history student to help find answers and figure out a way to defend themselves. It all comes undone, however, as several people are horrifically killed by the savage being - one-by-one at a rapid pace. Eventually, Maeve, Charlie and the few survivors band together in an attempt to defeat the monster once and for all.",
-      "genres": [
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt28129069"
     },
     {
       "id": "tt10377864",
