@@ -180,21 +180,6 @@
       "imdb_id": "tt7349662"
     },
     {
-      "id": "tt5950044",
-      "type": "movie",
-      "name": "Superman",
-      "poster": "https://image.tmdb.org/t/p/w500/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg",
-      "posterShape": "poster",
-      "description": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
-      "genres": [
-        "Science Fiction",
-        "Adventure",
-        "Action"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt5950044"
-    },
-    {
       "id": "tt1130884",
       "type": "movie",
       "name": "Shutter Island",
@@ -208,6 +193,21 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1130884"
+    },
+    {
+      "id": "tt5950044",
+      "type": "movie",
+      "name": "Superman",
+      "poster": "https://image.tmdb.org/t/p/w500/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg",
+      "posterShape": "poster",
+      "description": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt5950044"
     },
     {
       "id": "tt5013056",
