@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt10732104",
-      "type": "series",
-      "name": "Power Book II: Ghost",
-      "poster": "https://image.tmdb.org/t/p/w500/8rbxvwGpPd9MWjdhAoSBj016cns.jpg",
-      "posterShape": "poster",
-      "description": "Picking up just days after the “Power” finale, this sequel series follows Tariq navigating his new life, in which his desire to shed his father’s legacy comes up against the mounting pressure to save his family.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10732104"
-    },
-    {
       "id": "tt0306414",
       "type": "series",
       "name": "The Wire",
@@ -202,6 +188,20 @@
       "imdb_id": "tt6037988"
     },
     {
+      "id": "tt35515227",
+      "type": "series",
+      "name": "CIA",
+      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
+      "posterShape": "poster",
+      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35515227"
+    },
+    {
       "id": "tt14582876",
       "type": "series",
       "name": "On Call",
@@ -247,21 +247,6 @@
       "imdb_id": "tt2304589"
     },
     {
-      "id": "tt16030542",
-      "type": "series",
-      "name": "The Recruit",
-      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
-      "posterShape": "poster",
-      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt16030542"
-    },
-    {
       "id": "tt3428912",
       "type": "series",
       "name": "Happy Valley",
@@ -275,6 +260,21 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt3428912"
+    },
+    {
+      "id": "tt16030542",
+      "type": "series",
+      "name": "The Recruit",
+      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
+      "posterShape": "poster",
+      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt16030542"
     },
     {
       "id": "tt32559610",
