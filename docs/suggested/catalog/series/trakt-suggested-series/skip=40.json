@@ -58,18 +58,18 @@
       "imdb_id": "tt2356777"
     },
     {
-      "id": "tt30796986",
+      "id": "tt27954448",
       "type": "series",
-      "name": "NCIS: Origins",
-      "poster": "https://image.tmdb.org/t/p/w500/mgn4Vxx5PHIcKUBSsSecDlahIBH.jpg",
+      "name": "Law & Order Toronto: Criminal Intent",
+      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
       "posterShape": "poster",
-      "description": "In 1991, years prior to the events of NCIS, Leroy Jethro Gibbs starts his career as a newly minted special agent at the fledgling NCIS Camp Pendleton office, where he forges his place on a gritty, ragtag team led by NCIS legend Mike Franks.",
+      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
       "genres": [
         "Crime",
         "Drama"
       ],
       "releaseInfo": "2024",
-      "imdb_id": "tt30796986"
+      "imdb_id": "tt27954448"
     },
     {
       "id": "tt5675620",
