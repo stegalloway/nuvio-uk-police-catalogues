@@ -1,4 +1,41 @@
 {
   "schema": 1,
-  "candidates": []
+  "candidates": [
+    {
+      "tmdbId": 333396,
+      "name": "World's Most Evil Women",
+      "category": "true-crime",
+      "score": 6,
+      "firstAir": "2026-08-17",
+      "lastAir": "2026-08-17",
+      "firstSeen": "2026-11-12",
+      "lastSeen": "2026-11-12",
+      "observations": 1,
+      "status": "pending",
+      "eligibleForAuto": false,
+      "needsArtwork": false,
+      "network": "FilmRise",
+      "episodes": 1,
+      "seasons": 1,
+      "overview": "World's Most Evil Women unmasks those who traded compassion for cruelty, committing acts so horrific they shattered entire communities."
+    },
+    {
+      "tmdbId": 340784,
+      "name": "The Jigsaw Puzzle Murder",
+      "category": "police-investigations",
+      "score": 5,
+      "firstAir": "2026-11-12",
+      "lastAir": "2026-11-12",
+      "firstSeen": "2026-11-12",
+      "lastSeen": "2026-11-12",
+      "observations": 1,
+      "status": "pending",
+      "eligibleForAuto": false,
+      "needsArtwork": false,
+      "network": "Paramount+",
+      "episodes": 2,
+      "seasons": 1,
+      "overview": "When a dismembered torso is discovered in woodland on the edge of Salford, detectives launch a murder investigation with no DNA match, witnesses or obvious suspects. As a national media storm unfolds, forensic clues, new suspects and…"
+    }
+  ]
 }

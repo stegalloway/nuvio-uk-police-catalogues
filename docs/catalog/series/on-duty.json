@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt42540228",
+      "type": "series",
+      "name": "Peelers: The PSNI for Real",
+      "poster": "https://image.tmdb.org/t/p/w500/nvm6CI0eVywf4ouefsdVjw2yBi6.jpg",
+      "posterShape": "poster",
+      "description": "Unfiltered and up close. The realities and challenges of 24/7 policing in Belfast. Stephen Nolan gets a powerful insight into law and order on the front line.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/4xQsRUTAcqmsh8ZzHNG9Xez7BAd.jpg"
+    },
+    {
       "id": "tt15521024",
       "type": "series",
       "name": "Motorway Cops: Catching Britain's Speeders",
@@ -110,20 +124,6 @@
         "Crime"
       ],
       "background": "https://image.tmdb.org/t/p/w1280/tQFEHpLYuGgMFXiiI46AhnhPnrs.jpg"
-    },
-    {
-      "id": "tt42540228",
-      "type": "series",
-      "name": "Peelers: The PSNI for Real",
-      "poster": "https://image.tmdb.org/t/p/w500/nvm6CI0eVywf4ouefsdVjw2yBi6.jpg",
-      "posterShape": "poster",
-      "description": "Unfiltered and up close. The realities and challenges of 24/7 policing in Belfast. Stephen Nolan gets a powerful insight into law and order on the front line.",
-      "releaseInfo": "2026",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/4xQsRUTAcqmsh8ZzHNG9Xez7BAd.jpg"
     },
     {
       "id": "tt42421353",
