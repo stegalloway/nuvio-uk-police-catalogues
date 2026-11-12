@@ -218,21 +218,6 @@
       "imdb_id": "tt5611024"
     },
     {
-      "id": "tt9148598",
-      "type": "series",
-      "name": "McMillion$",
-      "poster": "https://image.tmdb.org/t/p/w500/xyUciqZC5hGYJqefmbGbTy5fxYh.jpg",
-      "posterShape": "poster",
-      "description": "A detailed account of the McDonald's Monopoly game scam during the 1990s as told by the participants in the case, including the prizewinners and the FBI agents who caught the security officer who orchestrated the entire scheme.",
-      "genres": [
-        "Documentary",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9148598"
-    },
-    {
       "id": "tt15669534",
       "type": "series",
       "name": "Tales of the Walking Dead",
@@ -288,6 +273,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt11822998"
+    },
+    {
+      "id": "tt10946316",
+      "type": "series",
+      "name": "The Institute",
+      "poster": "https://image.tmdb.org/t/p/w500/4MwXkOAMd9ObxdacasPFM32n9dZ.jpg",
+      "posterShape": "poster",
+      "description": "When 14 year old genius Luke Ellis is kidnapped, he awakens at The Institute, a facility full of children who all got there the same way he did, and who are all possessed of unusual abilities. In a nearby town, haunted former police officer Tim Jamieson has come looking to start a new life, but the peace and quiet won’t last, as his story and Luke’s are destined to collide.",
+      "genres": [
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt10946316"
     }
   ]
 }
