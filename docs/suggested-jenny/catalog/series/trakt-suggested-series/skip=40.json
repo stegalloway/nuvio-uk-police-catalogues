@@ -59,19 +59,6 @@
       "imdb_id": "tt9642938"
     },
     {
-      "id": "tt11016042",
-      "type": "series",
-      "name": "RIPLEY",
-      "poster": "https://image.tmdb.org/t/p/w500/rpSo8z9alultGVTqQ3dkLEyU8xx.jpg",
-      "posterShape": "poster",
-      "description": "A grifter in 1960s New York is hired to convince a wealthy man's son to return home from Italy and begins a life of deceit, fraud and murder.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt11016042"
-    },
-    {
       "id": "tt26576161",
       "type": "series",
       "name": "The Terminal List: Dark Wolf",
@@ -287,6 +274,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt16288838"
+    },
+    {
+      "id": "tt11822998",
+      "type": "series",
+      "name": "The Trials of Gabriel Fernandez",
+      "poster": "https://image.tmdb.org/t/p/w500/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
+      "posterShape": "poster",
+      "description": "A boy’s brutal murder and the public trials of his guardians and social workers prompt questions about the system’s protection of vulnerable children.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11822998"
     }
   ]
 }
