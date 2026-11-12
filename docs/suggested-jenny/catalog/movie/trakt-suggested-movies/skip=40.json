@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt28498159",
+      "type": "movie",
+      "name": "The Other",
+      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
+      "posterShape": "poster",
+      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt28498159"
+    },
+    {
       "id": "tt10377864",
       "type": "movie",
       "name": "Beware Boiúna",
@@ -141,21 +155,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt34793095"
-    },
-    {
-      "id": "tt8036976",
-      "type": "movie",
-      "name": "Send Help",
-      "poster": "https://image.tmdb.org/t/p/w500/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
-      "posterShape": "poster",
-      "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt8036976"
     },
     {
       "id": "tt6723592",
