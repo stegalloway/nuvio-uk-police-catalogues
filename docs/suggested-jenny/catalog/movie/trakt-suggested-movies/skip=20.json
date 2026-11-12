@@ -31,21 +31,6 @@
       "imdb_id": "tt14270702"
     },
     {
-      "id": "tt31193180",
-      "type": "movie",
-      "name": "Sinners",
-      "poster": "https://image.tmdb.org/t/p/w500/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
-      "posterShape": "poster",
-      "description": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.",
-      "genres": [
-        "Horror",
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31193180"
-    },
-    {
       "id": "tt14509110",
       "type": "movie",
       "name": "No One Will Save You",
@@ -73,6 +58,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt8036976"
+    },
+    {
+      "id": "tt31193180",
+      "type": "movie",
+      "name": "Sinners",
+      "poster": "https://image.tmdb.org/t/p/w500/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
+      "posterShape": "poster",
+      "description": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.",
+      "genres": [
+        "Horror",
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31193180"
     },
     {
       "id": "tt1051906",
