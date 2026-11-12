@@ -269,18 +269,18 @@
       "imdb_id": "tt15567174"
     },
     {
-      "id": "tt13623632",
+      "id": "tt6053512",
       "type": "series",
-      "name": "Alien: Earth",
-      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
+      "name": "Home Before Dark",
+      "poster": "https://image.tmdb.org/t/p/w500/mt4P2epJrSaqrlkMP9fTUKLP9OE.jpg",
       "posterShape": "poster",
-      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
+      "description": "Young investigative journalist Hilde Lisko moves with her family to the small town her father left behind, only to unearth shocking secrets in her pursuit of the truth.",
       "genres": [
-        "Sci-Fi & Fantasy",
+        "Mystery",
         "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt13623632"
+      "releaseInfo": "2020",
+      "imdb_id": "tt6053512"
     }
   ]
 }
