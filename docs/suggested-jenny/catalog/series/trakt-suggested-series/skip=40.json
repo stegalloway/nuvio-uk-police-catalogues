@@ -59,6 +59,21 @@
       "imdb_id": "tt9642938"
     },
     {
+      "id": "tt9813792",
+      "type": "series",
+      "name": "FROM",
+      "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+      "posterShape": "poster",
+      "description": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest – including the terrifying creatures that come out when the sun goes down.",
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt9813792"
+    },
+    {
       "id": "tt26576161",
       "type": "series",
       "name": "The Terminal List: Dark Wolf",
@@ -73,19 +88,18 @@
       "imdb_id": "tt26576161"
     },
     {
-      "id": "tt9813792",
+      "id": "tt21946032",
       "type": "series",
-      "name": "FROM",
-      "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
       "posterShape": "poster",
-      "description": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest – including the terrifying creatures that come out when the sun goes down.",
+      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
       "genres": [
-        "Mystery",
-        "Drama",
-        "Sci-Fi & Fantasy"
+        "Documentary",
+        "Crime"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt9813792"
+      "imdb_id": "tt21946032"
     },
     {
       "id": "tt1998372",
@@ -103,18 +117,17 @@
       "imdb_id": "tt1998372"
     },
     {
-      "id": "tt21946032",
+      "id": "tt10936342",
       "type": "series",
-      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
+      "name": "Transplant",
+      "poster": "https://image.tmdb.org/t/p/w500/ukvqJZI0XctnLst0CTE2r0AC2eu.jpg",
       "posterShape": "poster",
-      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
+      "description": "Dr. Bashir Hamed, a Syrian doctor with battle-tested skills in emergency medicine, makes the difficult decision to flee his country and build a new life in Canada with his younger sister Amira. Bash works to navigate a new environment after earning a coveted residency in the Emergency Department of one of the best hospitals in Toronto, York Memorial.",
       "genres": [
-        "Documentary",
-        "Crime"
+        "Drama"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt21946032"
+      "releaseInfo": "2020",
+      "imdb_id": "tt10936342"
     },
     {
       "id": "tt5290382",
@@ -129,19 +142,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt5290382"
-    },
-    {
-      "id": "tt10936342",
-      "type": "series",
-      "name": "Transplant",
-      "poster": "https://image.tmdb.org/t/p/w500/ukvqJZI0XctnLst0CTE2r0AC2eu.jpg",
-      "posterShape": "poster",
-      "description": "Dr. Bashir Hamed, a Syrian doctor with battle-tested skills in emergency medicine, makes the difficult decision to flee his country and build a new life in Canada with his younger sister Amira. Bash works to navigate a new environment after earning a coveted residency in the Emergency Department of one of the best hospitals in Toronto, York Memorial.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10936342"
     },
     {
       "id": "tt11794642",
@@ -261,20 +261,6 @@
       "imdb_id": "tt10946316"
     },
     {
-      "id": "tt16288838",
-      "type": "series",
-      "name": "The Irrational",
-      "poster": "https://image.tmdb.org/t/p/w500/jJtOpfgV4iPu9RtxllHwZgn9dqI.jpg",
-      "posterShape": "poster",
-      "description": "Alec Mercer is a world-renowned professor of behavioral psychology with a unique insight into human nature who lends his expertise to an array of high-stakes cases involving governments, corporations and law enforcement. However, he meets his match in a female domestic terror suspect who turns his world upside down.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt16288838"
-    },
-    {
       "id": "tt8740614",
       "type": "series",
       "name": "The Residence",
@@ -288,6 +274,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt8740614"
+    },
+    {
+      "id": "tt11822998",
+      "type": "series",
+      "name": "The Trials of Gabriel Fernandez",
+      "poster": "https://image.tmdb.org/t/p/w500/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
+      "posterShape": "poster",
+      "description": "A boy’s brutal murder and the public trials of his guardians and social workers prompt questions about the system’s protection of vulnerable children.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11822998"
     }
   ]
 }

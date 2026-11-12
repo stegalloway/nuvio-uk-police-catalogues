@@ -200,17 +200,18 @@
       "imdb_id": "tt32252772"
     },
     {
-      "id": "tt33022938",
+      "id": "tt10148174",
       "type": "series",
-      "name": "The House of the Spirits",
-      "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
+      "name": "The Walking Dead: World Beyond",
+      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
       "posterShape": "poster",
-      "description": "The epic tale of a proud and passionate family, secret loves, and bloody revolution. The Trueba family's passions, struggles, and secrets span a century of violent social change, culminating in a crisis that hurls the proud, tyrannical patriarch and his beloved granddaughter towards opposite sides of the fence.",
+      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
       "genres": [
-        "Drama"
+        "Drama",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33022938"
+      "releaseInfo": "2020",
+      "imdb_id": "tt10148174"
     },
     {
       "id": "tt3960394",
@@ -227,18 +228,17 @@
       "imdb_id": "tt3960394"
     },
     {
-      "id": "tt10148174",
+      "id": "tt33022938",
       "type": "series",
-      "name": "The Walking Dead: World Beyond",
-      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
+      "name": "The House of the Spirits",
+      "poster": "https://image.tmdb.org/t/p/w500/yb682O0KCZlS5qRydxOytO5A6co.jpg",
       "posterShape": "poster",
-      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
+      "description": "The epic tale of a proud and passionate family, secret loves, and bloody revolution. The Trueba family's passions, struggles, and secrets span a century of violent social change, culminating in a crisis that hurls the proud, tyrannical patriarch and his beloved granddaughter towards opposite sides of the fence.",
       "genres": [
-        "Drama",
-        "Sci-Fi & Fantasy"
+        "Drama"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10148174"
+      "releaseInfo": "2026",
+      "imdb_id": "tt33022938"
     },
     {
       "id": "tt10574558",
