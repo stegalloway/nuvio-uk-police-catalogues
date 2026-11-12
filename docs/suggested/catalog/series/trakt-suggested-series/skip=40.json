@@ -58,18 +58,18 @@
       "imdb_id": "tt2356777"
     },
     {
-      "id": "tt27954448",
+      "id": "tt30796986",
       "type": "series",
-      "name": "Law & Order Toronto: Criminal Intent",
-      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+      "name": "NCIS: Origins",
+      "poster": "https://image.tmdb.org/t/p/w500/mgn4Vxx5PHIcKUBSsSecDlahIBH.jpg",
       "posterShape": "poster",
-      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
+      "description": "In 1991, years prior to the events of NCIS, Leroy Jethro Gibbs starts his career as a newly minted special agent at the fledgling NCIS Camp Pendleton office, where he forges his place on a gritty, ragtag team led by NCIS legend Mike Franks.",
       "genres": [
         "Crime",
         "Drama"
       ],
       "releaseInfo": "2024",
-      "imdb_id": "tt27954448"
+      "imdb_id": "tt30796986"
     },
     {
       "id": "tt5675620",
@@ -101,6 +101,20 @@
       "imdb_id": "tt9131050"
     },
     {
+      "id": "tt32267726",
+      "type": "series",
+      "name": "The Girlfriend",
+      "poster": "https://image.tmdb.org/t/p/w500/ktrp3tdZ5IQpFux4nLy8z70bt3n.jpg",
+      "posterShape": "poster",
+      "description": "Laura has it all: a glittering career, a loving husband, and her precious son, Daniel. But her perfect life unravels when Daniel brings home Cherry, a girlfriend who changes everything. After a tense introduction, Laura becomes convinced Cherry is hiding something. Is she a manipulative social climber, or is Laura just paranoid? The truth is a matter of perspective.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt32267726"
+    },
+    {
       "id": "tt5743796",
       "type": "series",
       "name": "Warrior",
@@ -115,20 +129,6 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt5743796"
-    },
-    {
-      "id": "tt32267726",
-      "type": "series",
-      "name": "The Girlfriend",
-      "poster": "https://image.tmdb.org/t/p/w500/ktrp3tdZ5IQpFux4nLy8z70bt3n.jpg",
-      "posterShape": "poster",
-      "description": "Laura has it all: a glittering career, a loving husband, and her precious son, Daniel. But her perfect life unravels when Daniel brings home Cherry, a girlfriend who changes everything. After a tense introduction, Laura becomes convinced Cherry is hiding something. Is she a manipulative social climber, or is Laura just paranoid? The truth is a matter of perspective.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32267726"
     },
     {
       "id": "tt1637727",
