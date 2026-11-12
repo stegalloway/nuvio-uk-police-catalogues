@@ -17,18 +17,19 @@
       "imdb_id": "tt14270702"
     },
     {
-      "id": "tt14509110",
+      "id": "tt8036976",
       "type": "movie",
-      "name": "No One Will Save You",
-      "poster": "https://image.tmdb.org/t/p/w500/ehGIDAMaYy6Eg0o8ga0oqflDjqW.jpg",
+      "name": "Send Help",
+      "poster": "https://image.tmdb.org/t/p/w500/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
       "posterShape": "poster",
-      "description": "A lonely woman battles extraterrestrials who threaten her future while forcing her to face her past.",
+      "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
       "genres": [
         "Horror",
-        "Science Fiction"
+        "Thriller",
+        "Comedy"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14509110"
+      "releaseInfo": "2026",
+      "imdb_id": "tt8036976"
     },
     {
       "id": "tt31193180",
@@ -46,19 +47,18 @@
       "imdb_id": "tt31193180"
     },
     {
-      "id": "tt8036976",
+      "id": "tt14509110",
       "type": "movie",
-      "name": "Send Help",
-      "poster": "https://image.tmdb.org/t/p/w500/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
+      "name": "No One Will Save You",
+      "poster": "https://image.tmdb.org/t/p/w500/ehGIDAMaYy6Eg0o8ga0oqflDjqW.jpg",
       "posterShape": "poster",
-      "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
+      "description": "A lonely woman battles extraterrestrials who threaten her future while forcing her to face her past.",
       "genres": [
         "Horror",
-        "Thriller",
-        "Comedy"
+        "Science Fiction"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt8036976"
+      "releaseInfo": "2023",
+      "imdb_id": "tt14509110"
     },
     {
       "id": "tt1051906",
@@ -89,20 +89,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt21807222"
-    },
-    {
-      "id": "tt12298506",
-      "type": "movie",
-      "name": "Black Box",
-      "poster": "https://image.tmdb.org/t/p/w500/ldlpTitpSTBINwgifzlRRXveXUF.jpg",
-      "posterShape": "poster",
-      "description": "After losing his wife and his memory in a car accident, a single father undergoes an experimental treatment that causes him to question who he really is.",
-      "genres": [
-        "Horror",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt12298506"
     },
     {
       "id": "tt30505578",
@@ -144,6 +130,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt13405778"
+    },
+    {
+      "id": "tt12298506",
+      "type": "movie",
+      "name": "Black Box",
+      "poster": "https://image.tmdb.org/t/p/w500/ldlpTitpSTBINwgifzlRRXveXUF.jpg",
+      "posterShape": "poster",
+      "description": "After losing his wife and his memory in a car accident, a single father undergoes an experimental treatment that causes him to question who he really is.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt12298506"
     },
     {
       "id": "tt32612507",
@@ -274,19 +274,18 @@
       "imdb_id": "tt35538033"
     },
     {
-      "id": "tt10377864",
+      "id": "tt28498159",
       "type": "movie",
-      "name": "Beware Boiúna",
-      "poster": "https://image.tmdb.org/t/p/w500/uW5YMPxJUzT9bkafrCKHXjPTCoQ.jpg",
+      "name": "The Other",
+      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
       "posterShape": "poster",
-      "description": "A medical mission deep in the Amazon becomes a desperate fight for survival when a colossal ancient predator awakens, turning the jungle into a deadly battleground where nature decides who lives and dies.",
+      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
       "genres": [
         "Horror",
-        "Thriller",
-        "Action"
+        "Thriller"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt10377864"
+      "releaseInfo": "2025",
+      "imdb_id": "tt28498159"
     }
   ]
 }

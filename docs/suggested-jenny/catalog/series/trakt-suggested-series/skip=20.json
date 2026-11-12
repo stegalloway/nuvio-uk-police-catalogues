@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt13623632",
+      "type": "series",
+      "name": "Alien: Earth",
+      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
+      "posterShape": "poster",
+      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt13623632"
+    },
+    {
       "id": "tt33043892",
       "type": "series",
       "name": "Dexter: Resurrection",
@@ -270,20 +284,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt34579520"
-    },
-    {
-      "id": "tt11041332",
-      "type": "series",
-      "name": "Yellowjackets",
-      "poster": "https://image.tmdb.org/t/p/w500/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
-      "posterShape": "poster",
-      "description": "This equal parts survival epic, psychological horror story and coming-of-age drama tells the saga of a team of wildly talented high school girls soccer players who become the (un)lucky survivors of a plane crash deep in the remote northern wilderness. The series chronicles their descent from a complicated but thriving team to savage clans, while also tracking the lives they’ve attempted to piece back together nearly 25 years later.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11041332"
     }
   ]
 }
