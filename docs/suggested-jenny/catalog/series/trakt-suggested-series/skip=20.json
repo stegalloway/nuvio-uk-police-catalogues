@@ -1,32 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt13623632",
+      "id": "tt6053512",
       "type": "series",
-      "name": "Alien: Earth",
-      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
+      "name": "Home Before Dark",
+      "poster": "https://image.tmdb.org/t/p/w500/mt4P2epJrSaqrlkMP9fTUKLP9OE.jpg",
       "posterShape": "poster",
-      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt13623632"
-    },
-    {
-      "id": "tt11285470",
-      "type": "series",
-      "name": "The Expecting",
-      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
-      "posterShape": "poster",
-      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
+      "description": "Young investigative journalist Hilde Lisko moves with her family to the small town her father left behind, only to unearth shocking secrets in her pursuit of the truth.",
       "genres": [
         "Mystery",
         "Drama"
       ],
       "releaseInfo": "2020",
-      "imdb_id": "tt11285470"
+      "imdb_id": "tt6053512"
     },
     {
       "id": "tt33043892",
@@ -42,6 +28,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt33043892"
+    },
+    {
+      "id": "tt11285470",
+      "type": "series",
+      "name": "The Expecting",
+      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
+      "posterShape": "poster",
+      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11285470"
     },
     {
       "id": "tt11794812",
@@ -89,19 +89,6 @@
       "imdb_id": "tt34771210"
     },
     {
-      "id": "tt31938062",
-      "type": "series",
-      "name": "The Pitt",
-      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
-      "posterShape": "poster",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31938062"
-    },
-    {
       "id": "tt11173006",
       "type": "series",
       "name": "Super Pumped: The Battle for Uber",
@@ -113,6 +100,19 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11173006"
+    },
+    {
+      "id": "tt31938062",
+      "type": "series",
+      "name": "The Pitt",
+      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+      "posterShape": "poster",
+      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31938062"
     },
     {
       "id": "tt8354062",

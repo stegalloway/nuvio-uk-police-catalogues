@@ -30,20 +30,6 @@
       "imdb_id": "tt10377864"
     },
     {
-      "id": "tt33028778",
-      "type": "movie",
-      "name": "Primate",
-      "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
-      "posterShape": "poster",
-      "description": "College student Lucy and her friends spend their vacation at her family's home in Hawaii, which includes her pet chimpanzee, Ben. However, when Ben contracts rabies after being bitten by a rabid animal, the group must fight for their lives in order to avoid the now-violent chimp.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33028778"
-    },
-    {
       "id": "tt10303430",
       "type": "movie",
       "name": "Sightless",
@@ -286,6 +272,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15791034"
+    },
+    {
+      "id": "tt14858658",
+      "type": "movie",
+      "name": "Blink Twice",
+      "poster": "https://image.tmdb.org/t/p/w500/lZGOK0I2DJSRlEPNOAFTSNxSjDD.jpg",
+      "posterShape": "poster",
+      "description": "When tech billionaire Slater King meets cocktail waitress Frida at his fundraising gala, he invites her to join him and his friends on a dream vacation on his private island. But despite the epic setting, beautiful people, ever-flowing champagne, and late-night dance parties, Frida can sense that there’s something sinister hiding beneath the island’s lush façade.",
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Horror"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt14858658"
     }
   ]
 }
