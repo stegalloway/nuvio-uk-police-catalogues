@@ -16,20 +16,6 @@
       "imdb_id": "tt0439100"
     },
     {
-      "id": "tt1652216",
-      "type": "series",
-      "name": "DCI Banks",
-      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
-      "posterShape": "poster",
-      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1652216"
-    },
-    {
       "id": "tt10732104",
       "type": "series",
       "name": "Power Book II: Ghost",
@@ -215,6 +201,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt6037988"
+    },
+    {
+      "id": "tt35515227",
+      "type": "series",
+      "name": "CIA",
+      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
+      "posterShape": "poster",
+      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35515227"
     },
     {
       "id": "tt14582876",
