@@ -112,6 +112,20 @@
       "imdb_id": "tt50389959"
     },
     {
+      "id": "tt27444133",
+      "type": "movie",
+      "name": "Shades of Desire",
+      "poster": "https://image.tmdb.org/t/p/w500/3E3TAy3fSksFDJ4TS6maL9xNEgU.jpg",
+      "posterShape": "poster",
+      "description": "After her twin sister Aubrey goes missing, Jennifer uncovers the scandalous, secret double-life that Aubrey leads - and that has put both of them in danger.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt27444133"
+    },
+    {
       "id": "tt32268156",
       "type": "movie",
       "name": "The Last House",
@@ -137,20 +151,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt14415204"
-    },
-    {
-      "id": "tt27444133",
-      "type": "movie",
-      "name": "Shades of Desire",
-      "poster": "https://image.tmdb.org/t/p/w500/3E3TAy3fSksFDJ4TS6maL9xNEgU.jpg",
-      "posterShape": "poster",
-      "description": "After her twin sister Aubrey goes missing, Jennifer uncovers the scandalous, secret double-life that Aubrey leads - and that has put both of them in danger.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt27444133"
     },
     {
       "id": "tt32329539",
@@ -266,18 +266,17 @@
       "imdb_id": "tt31511689"
     },
     {
-      "id": "tt36958312",
+      "id": "tt10963926",
       "type": "movie",
-      "name": "The Devil's Mouth",
-      "poster": "https://image.tmdb.org/t/p/w500/lH8k9uCWYn2b2gsYleqYBDPbWa8.jpg",
+      "name": "Two Witches",
+      "poster": "https://image.tmdb.org/t/p/w500/a6JHz23BOfbzWxL5JsrBWQHqMuh.jpg",
       "posterShape": "poster",
-      "description": "A group of college friends' Thailand adventure turns deadly when they become trapped in submerged caves with a dangerous predator. As oxygen runs low, past conflicts emerge in their desperate fight for survival.",
+      "description": "A matriarchal witch passes on her sinister inheritance to her grand-daughter, triggering the most horrific curses.",
       "genres": [
-        "Horror",
-        "Thriller"
+        "Horror"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36958312"
+      "releaseInfo": "2023",
+      "imdb_id": "tt10963926"
     }
   ]
 }
