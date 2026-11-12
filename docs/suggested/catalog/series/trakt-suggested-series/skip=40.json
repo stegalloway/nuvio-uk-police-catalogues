@@ -72,20 +72,6 @@
       "imdb_id": "tt27954448"
     },
     {
-      "id": "tt9131050",
-      "type": "series",
-      "name": "A Confession",
-      "poster": "https://image.tmdb.org/t/p/w500/6c6q8m5PCiXv3TlxmM0vIcLylb0.jpg",
-      "posterShape": "poster",
-      "description": "The story of how Detective Superintendent Steve Fulcher deliberately breached police procedure and protocol to catch a killer, a decision that ultimately cost him his career and reputation.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt9131050"
-    },
-    {
       "id": "tt5675620",
       "type": "series",
       "name": "Marvel's The Punisher",
@@ -101,18 +87,18 @@
       "imdb_id": "tt5675620"
     },
     {
-      "id": "tt32267726",
+      "id": "tt9131050",
       "type": "series",
-      "name": "The Girlfriend",
-      "poster": "https://image.tmdb.org/t/p/w500/ktrp3tdZ5IQpFux4nLy8z70bt3n.jpg",
+      "name": "A Confession",
+      "poster": "https://image.tmdb.org/t/p/w500/6c6q8m5PCiXv3TlxmM0vIcLylb0.jpg",
       "posterShape": "poster",
-      "description": "Laura has it all: a glittering career, a loving husband, and her precious son, Daniel. But her perfect life unravels when Daniel brings home Cherry, a girlfriend who changes everything. After a tense introduction, Laura becomes convinced Cherry is hiding something. Is she a manipulative social climber, or is Laura just paranoid? The truth is a matter of perspective.",
+      "description": "The story of how Detective Superintendent Steve Fulcher deliberately breached police procedure and protocol to catch a killer, a decision that ultimately cost him his career and reputation.",
       "genres": [
-        "Drama",
-        "Mystery"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32267726"
+      "releaseInfo": "2019",
+      "imdb_id": "tt9131050"
     },
     {
       "id": "tt5743796",
@@ -129,6 +115,20 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt5743796"
+    },
+    {
+      "id": "tt32267726",
+      "type": "series",
+      "name": "The Girlfriend",
+      "poster": "https://image.tmdb.org/t/p/w500/ktrp3tdZ5IQpFux4nLy8z70bt3n.jpg",
+      "posterShape": "poster",
+      "description": "Laura has it all: a glittering career, a loving husband, and her precious son, Daniel. But her perfect life unravels when Daniel brings home Cherry, a girlfriend who changes everything. After a tense introduction, Laura becomes convinced Cherry is hiding something. Is she a manipulative social climber, or is Laura just paranoid? The truth is a matter of perspective.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt32267726"
     },
     {
       "id": "tt1637727",
