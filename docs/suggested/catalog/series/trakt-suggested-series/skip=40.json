@@ -235,21 +235,6 @@
       "imdb_id": "tt0773262"
     },
     {
-      "id": "tt0106028",
-      "type": "series",
-      "name": "Homicide: Life on the Street",
-      "poster": "https://image.tmdb.org/t/p/w500/nb5310xlFjx5r9TnpKoaOTQsAlP.jpg",
-      "posterShape": "poster",
-      "description": "An American police procedural chronicling the work of a fictional version of the Baltimore Police Department's Homicide Unit.",
-      "genres": [
-        "Mystery",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "1993",
-      "imdb_id": "tt0106028"
-    },
-    {
       "id": "tt1442065",
       "type": "series",
       "name": "Rookie Blue",
@@ -289,6 +274,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt23148340"
+    },
+    {
+      "id": "tt0364845",
+      "type": "series",
+      "name": "NCIS",
+      "poster": "https://image.tmdb.org/t/p/w500/y4fGncqELtnvRQuwSpuH8LncZqU.jpg",
+      "posterShape": "poster",
+      "description": "From murder and espionage to terrorism and stolen submarines, a team of special agents investigates any crime that has any connection to Navy and Marine Corps personnel, regardless of rank or position.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2003",
+      "imdb_id": "tt0364845"
     }
   ]
 }
