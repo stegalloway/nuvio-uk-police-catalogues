@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt10377864",
-      "type": "movie",
-      "name": "Beware Boiúna",
-      "poster": "https://image.tmdb.org/t/p/w500/uW5YMPxJUzT9bkafrCKHXjPTCoQ.jpg",
-      "posterShape": "poster",
-      "description": "A medical mission deep in the Amazon becomes a desperate fight for survival when a colossal ancient predator awakens, turning the jungle into a deadly battleground where nature decides who lives and dies.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Action"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt10377864"
-    },
-    {
       "id": "tt28498159",
       "type": "movie",
       "name": "The Other",
@@ -28,6 +13,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt28498159"
+    },
+    {
+      "id": "tt33028778",
+      "type": "movie",
+      "name": "Primate",
+      "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
+      "posterShape": "poster",
+      "description": "College student Lucy and her friends spend their vacation at her family's home in Hawaii, which includes her pet chimpanzee, Ben. However, when Ben contracts rabies after being bitten by a rabid animal, the group must fight for their lives in order to avoid the now-violent chimp.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33028778"
     },
     {
       "id": "tt10303430",
@@ -157,6 +156,21 @@
       "imdb_id": "tt34793095"
     },
     {
+      "id": "tt8036976",
+      "type": "movie",
+      "name": "Send Help",
+      "poster": "https://image.tmdb.org/t/p/w500/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
+      "posterShape": "poster",
+      "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt8036976"
+    },
+    {
       "id": "tt6723592",
       "type": "movie",
       "name": "Tenet",
@@ -227,22 +241,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt30851137"
-    },
-    {
-      "id": "tt15353964",
-      "type": "movie",
-      "name": "Significant Other",
-      "poster": "https://image.tmdb.org/t/p/w500/liGvBdUsyOfiTJjNCD55JJfISzb.jpg",
-      "posterShape": "poster",
-      "description": "Ruth and Harry decide to take a romantic backpacking trip through the Pacific Northwest, but amongst the beautiful scenery, Ruth makes an unexpected discovery that sets her off on a strange, frightening new path. The couple aren't alone in the woods, and they might not be the same when they come out...if they come out.",
-      "genres": [
-        "Science Fiction",
-        "Mystery",
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15353964"
     },
     {
       "id": "tt9419056",
