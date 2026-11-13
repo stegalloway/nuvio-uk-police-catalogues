@@ -44,19 +44,6 @@
       "imdb_id": "tt13138834"
     },
     {
-      "id": "tt35051210",
-      "type": "series",
-      "name": "TYSON",
-      "poster": "https://image.tmdb.org/t/p/w500/mdtpJEWW1j5Ns7bIcbw1UeIdvhp.jpg",
-      "posterShape": "poster",
-      "description": "On your watchlist · S1 E1–4 · out Tue 13 Oct\n\nThis gripping four-part documentary series explores the explosive life of Mike Tyson — one of the most feared and fascinating figures in sports history.",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "Out now · S1 E1–4",
-      "imdb_id": "tt35051210"
-    },
-    {
       "id": "tt13918776",
       "type": "series",
       "name": "The Night Agent",
@@ -121,12 +108,12 @@
       "name": "MobLand",
       "poster": "https://image.tmdb.org/t/p/w500/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
       "posterShape": "poster",
-      "description": "S2 E9 · Nervous Breakdown · Tomorrow\n\nTwo mob families clash in a war that threatens to topple empires and lives.",
+      "description": "S2 E9 · Nervous Breakdown · Today\n\nTwo mob families clash in a war that threatens to topple empires and lives.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "Tomorrow · S2 E9",
+      "releaseInfo": "Today · S2 E9",
       "imdb_id": "tt31510819"
     },
     {

@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt31510819",
-      "type": "series",
-      "name": "MobLand",
-      "poster": "https://image.tmdb.org/t/p/w500/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
-      "posterShape": "poster",
-      "description": "S2 E9 · Nervous Breakdown · Tomorrow\n\nTwo mob families clash in a war that threatens to topple empires and lives.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "Tomorrow · S2 E9",
-      "imdb_id": "tt31510819"
-    },
-    {
       "id": "tt31438328",
       "type": "series",
       "name": "This City Is Ours",

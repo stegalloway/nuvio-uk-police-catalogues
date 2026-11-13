@@ -207,20 +207,6 @@
       "imdb_id": "tt5164196"
     },
     {
-      "id": "tt0460627",
-      "type": "series",
-      "name": "Bones",
-      "poster": "https://image.tmdb.org/t/p/w500/eyTu5c8LniVciRZIOSHTvvkkgJa.jpg",
-      "posterShape": "poster",
-      "description": "Dr. Temperance Brennan and her colleagues at the Jeffersonian's Medico-Legal Lab assist Special Agent Seeley Booth with murder investigations when the remains are so badly decomposed, burned or destroyed that the standard identification methods are useless.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0460627"
-    },
-    {
       "id": "tt3647998",
       "type": "series",
       "name": "Taboo",
@@ -233,6 +219,20 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt3647998"
+    },
+    {
+      "id": "tt0460627",
+      "type": "series",
+      "name": "Bones",
+      "poster": "https://image.tmdb.org/t/p/w500/eyTu5c8LniVciRZIOSHTvvkkgJa.jpg",
+      "posterShape": "poster",
+      "description": "Dr. Temperance Brennan and her colleagues at the Jeffersonian's Medico-Legal Lab assist Special Agent Seeley Booth with murder investigations when the remains are so badly decomposed, burned or destroyed that the standard identification methods are useless.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2005",
+      "imdb_id": "tt0460627"
     },
     {
       "id": "tt5722298",
