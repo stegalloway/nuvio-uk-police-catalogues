@@ -220,6 +220,21 @@
       "imdb_id": "tt5164196"
     },
     {
+      "id": "tt7942796",
+      "type": "series",
+      "name": "Magnum P.I.",
+      "poster": "https://image.tmdb.org/t/p/w500/hN7DKusbmKPqSZnMG5hemioMAiE.jpg",
+      "posterShape": "poster",
+      "description": "Thomas Magnum, a decorated former Navy SEAL, returns home from Afghanistan and applies his military skills to become a private investigator in Hawaii taking jobs no one else will—with the help of fellow vets T.C. Calvin and Rick Wright, and former MI:6 agent, Juliet Higgins.",
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt7942796"
+    },
+    {
       "id": "tt3647998",
       "type": "series",
       "name": "Taboo",
@@ -275,21 +290,6 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1442065"
-    },
-    {
-      "id": "tt0773262",
-      "type": "series",
-      "name": "Dexter",
-      "poster": "https://image.tmdb.org/t/p/w500/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
-      "posterShape": "poster",
-      "description": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2006",
-      "imdb_id": "tt0773262"
     }
   ]
 }
