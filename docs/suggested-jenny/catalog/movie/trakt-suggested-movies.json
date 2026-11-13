@@ -125,20 +125,6 @@
       "imdb_id": "tt50389959"
     },
     {
-      "id": "tt27444133",
-      "type": "movie",
-      "name": "Shades of Desire",
-      "poster": "https://image.tmdb.org/t/p/w500/3E3TAy3fSksFDJ4TS6maL9xNEgU.jpg",
-      "posterShape": "poster",
-      "description": "After her twin sister Aubrey goes missing, Jennifer uncovers the scandalous, secret double-life that Aubrey leads - and that has put both of them in danger.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt27444133"
-    },
-    {
       "id": "tt14415204",
       "type": "movie",
       "name": "Never Let Go",
@@ -164,6 +150,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32268156"
+    },
+    {
+      "id": "tt27444133",
+      "type": "movie",
+      "name": "Shades of Desire",
+      "poster": "https://image.tmdb.org/t/p/w500/3E3TAy3fSksFDJ4TS6maL9xNEgU.jpg",
+      "posterShape": "poster",
+      "description": "After her twin sister Aubrey goes missing, Jennifer uncovers the scandalous, secret double-life that Aubrey leads - and that has put both of them in danger.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt27444133"
     },
     {
       "id": "tt32329539",
@@ -264,19 +264,17 @@
       "imdb_id": "tt31511689"
     },
     {
-      "id": "tt7069210",
+      "id": "tt5737388",
       "type": "movie",
-      "name": "The Conjuring: The Devil Made Me Do It",
-      "poster": "https://image.tmdb.org/t/p/w500/xbSuFiJbbBWCkyCCKIMfuDCA4yV.jpg",
+      "name": "The Accursed",
+      "poster": "https://image.tmdb.org/t/p/w500/kBPkV6Gqvbmq6z25bpw3ofsk5ue.jpg",
       "posterShape": "poster",
-      "description": "Paranormal investigators Ed and Lorraine Warren encounter what would become one of the most sensational cases from their files. The fight for the soul of a young boy takes them beyond anything they'd ever seen before, to mark the first time in U.S. history that a murder suspect would claim demonic possession as a defense.",
+      "description": "Hana spends twenty years suppressing a maleficent curse that was placed upon her bloodline, only to have a family member knowingly release it forcing her to kill or to be killed.",
       "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
+        "Horror"
       ],
       "releaseInfo": "2021",
-      "imdb_id": "tt7069210"
+      "imdb_id": "tt5737388"
     }
   ]
 }
