@@ -188,20 +188,6 @@
       "imdb_id": "tt21201300"
     },
     {
-      "id": "tt39143902",
-      "type": "movie",
-      "name": "Leviticus",
-      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
-      "posterShape": "poster",
-      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
-      "genres": [
-        "Horror",
-        "Romance"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt39143902"
-    },
-    {
       "id": "tt4196566",
       "type": "movie",
       "name": "The Deliverance",
@@ -214,6 +200,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt4196566"
+    },
+    {
+      "id": "tt39143902",
+      "type": "movie",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+      "posterShape": "poster",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
+      "genres": [
+        "Horror",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
     },
     {
       "id": "tt10954984",

@@ -158,6 +158,19 @@
       "imdb_id": "tt11561116"
     },
     {
+      "id": "tt34793095",
+      "type": "movie",
+      "name": "Play Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/ixWeYfvXT9AbfM0QPb9kwbVLbLV.jpg",
+      "posterShape": "poster",
+      "description": "A woman wakes up injured in a basement surrounded by corpses. To survive, she pretends to be dead while a grotesque ritual unfolds in the house above.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt34793095"
+    },
+    {
       "id": "tt8036976",
       "type": "movie",
       "name": "Send Help",
@@ -171,19 +184,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt8036976"
-    },
-    {
-      "id": "tt34793095",
-      "type": "movie",
-      "name": "Play Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/ixWeYfvXT9AbfM0QPb9kwbVLbLV.jpg",
-      "posterShape": "poster",
-      "description": "A woman wakes up injured in a basement surrounded by corpses. To survive, she pretends to be dead while a grotesque ritual unfolds in the house above.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt34793095"
     },
     {
       "id": "tt6723592",
