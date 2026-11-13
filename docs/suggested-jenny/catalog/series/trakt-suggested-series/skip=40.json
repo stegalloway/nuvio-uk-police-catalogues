@@ -73,6 +73,19 @@
       "imdb_id": "tt9642938"
     },
     {
+      "id": "tt11016042",
+      "type": "series",
+      "name": "RIPLEY",
+      "poster": "https://image.tmdb.org/t/p/w500/rpSo8z9alultGVTqQ3dkLEyU8xx.jpg",
+      "posterShape": "poster",
+      "description": "A grifter in 1960s New York is hired to convince a wealthy man's son to return home from Italy and begins a life of deceit, fraud and murder.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt11016042"
+    },
+    {
       "id": "tt26576161",
       "type": "series",
       "name": "The Terminal List: Dark Wolf",
@@ -102,20 +115,6 @@
       "imdb_id": "tt9813792"
     },
     {
-      "id": "tt21946032",
-      "type": "series",
-      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
-      "posterShape": "poster",
-      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt21946032"
-    },
-    {
       "id": "tt1998372",
       "type": "series",
       "name": "Under the Banner of Heaven",
@@ -129,6 +128,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt1998372"
+    },
+    {
+      "id": "tt21946032",
+      "type": "series",
+      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
+      "posterShape": "poster",
+      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt21946032"
     },
     {
       "id": "tt5290382",
@@ -261,32 +274,18 @@
       "imdb_id": "tt19500224"
     },
     {
-      "id": "tt16288838",
+      "id": "tt10946316",
       "type": "series",
-      "name": "The Irrational",
-      "poster": "https://image.tmdb.org/t/p/w500/jJtOpfgV4iPu9RtxllHwZgn9dqI.jpg",
+      "name": "The Institute",
+      "poster": "https://image.tmdb.org/t/p/w500/4MwXkOAMd9ObxdacasPFM32n9dZ.jpg",
       "posterShape": "poster",
-      "description": "Alec Mercer is a world-renowned professor of behavioral psychology with a unique insight into human nature who lends his expertise to an array of high-stakes cases involving governments, corporations and law enforcement. However, he meets his match in a female domestic terror suspect who turns his world upside down.",
+      "description": "When 14 year old genius Luke Ellis is kidnapped, he awakens at The Institute, a facility full of children who all got there the same way he did, and who are all possessed of unusual abilities. In a nearby town, haunted former police officer Tim Jamieson has come looking to start a new life, but the peace and quiet won’t last, as his story and Luke’s are destined to collide.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Mystery",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt16288838"
-    },
-    {
-      "id": "tt11822998",
-      "type": "series",
-      "name": "The Trials of Gabriel Fernandez",
-      "poster": "https://image.tmdb.org/t/p/w500/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
-      "posterShape": "poster",
-      "description": "A boy’s brutal murder and the public trials of his guardians and social workers prompt questions about the system’s protection of vulnerable children.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11822998"
+      "releaseInfo": "2025",
+      "imdb_id": "tt10946316"
     }
   ]
 }
