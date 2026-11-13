@@ -1,18 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt28498159",
+      "id": "tt10377864",
       "type": "movie",
-      "name": "The Other",
-      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
+      "name": "Beware Boiúna",
+      "poster": "https://image.tmdb.org/t/p/w500/uW5YMPxJUzT9bkafrCKHXjPTCoQ.jpg",
       "posterShape": "poster",
-      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
+      "description": "A medical mission deep in the Amazon becomes a desperate fight for survival when a colossal ancient predator awakens, turning the jungle into a deadly battleground where nature decides who lives and dies.",
       "genres": [
         "Horror",
-        "Thriller"
+        "Thriller",
+        "Action"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt28498159"
+      "releaseInfo": "2026",
+      "imdb_id": "tt10377864"
     },
     {
       "id": "tt33028778",

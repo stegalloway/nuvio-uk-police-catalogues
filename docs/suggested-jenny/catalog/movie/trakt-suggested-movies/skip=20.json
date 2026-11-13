@@ -146,20 +146,6 @@
       "imdb_id": "tt34494076"
     },
     {
-      "id": "tt13405778",
-      "type": "movie",
-      "name": "Insidious: The Red Door",
-      "poster": "https://image.tmdb.org/t/p/w500/d07phJqCx6z5wILDYqkyraorDPi.jpg",
-      "posterShape": "poster",
-      "description": "To put their demons to rest once and for all, Josh Lambert and a college-aged Dalton Lambert must go deeper into The Further than ever before, facing their family's dark past and a host of new and more horrifying terrors that lurk behind the red door.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt13405778"
-    },
-    {
       "id": "tt32612507",
       "type": "movie",
       "name": "Lee Cronin's The Mummy",
@@ -174,18 +160,18 @@
       "imdb_id": "tt32612507"
     },
     {
-      "id": "tt21201300",
+      "id": "tt13405778",
       "type": "movie",
-      "name": "Bagman",
-      "poster": "https://image.tmdb.org/t/p/w500/53IK9rlZJbwFYbNnJZiLq7UWxkT.jpg",
+      "name": "Insidious: The Red Door",
+      "poster": "https://image.tmdb.org/t/p/w500/d07phJqCx6z5wILDYqkyraorDPi.jpg",
       "posterShape": "poster",
-      "description": "For centuries and across cultures, parents have warned their children of the legendary Bagman, who snatches innocent children and stuffs them into his vile, rotting bag—never to be seen again. Patrick McKee narrowly escaped such an encounter as a boy, which left him with lasting scars throughout his adulthood. Now, Patrick’s childhood tormentor has returned, threatening the safety of his wife Karina and son Jake.",
+      "description": "To put their demons to rest once and for all, Josh Lambert and a college-aged Dalton Lambert must go deeper into The Further than ever before, facing their family's dark past and a host of new and more horrifying terrors that lurk behind the red door.",
       "genres": [
         "Horror",
         "Thriller"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt21201300"
+      "releaseInfo": "2023",
+      "imdb_id": "tt13405778"
     },
     {
       "id": "tt39143902",
@@ -200,6 +186,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt39143902"
+    },
+    {
+      "id": "tt21201300",
+      "type": "movie",
+      "name": "Bagman",
+      "poster": "https://image.tmdb.org/t/p/w500/53IK9rlZJbwFYbNnJZiLq7UWxkT.jpg",
+      "posterShape": "poster",
+      "description": "For centuries and across cultures, parents have warned their children of the legendary Bagman, who snatches innocent children and stuffs them into his vile, rotting bag—never to be seen again. Patrick McKee narrowly escaped such an encounter as a boy, which left him with lasting scars throughout his adulthood. Now, Patrick’s childhood tormentor has returned, threatening the safety of his wife Karina and son Jake.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt21201300"
     },
     {
       "id": "tt4196566",
@@ -273,19 +273,18 @@
       "imdb_id": "tt28129069"
     },
     {
-      "id": "tt10377864",
+      "id": "tt28498159",
       "type": "movie",
-      "name": "Beware Boiúna",
-      "poster": "https://image.tmdb.org/t/p/w500/uW5YMPxJUzT9bkafrCKHXjPTCoQ.jpg",
+      "name": "The Other",
+      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
       "posterShape": "poster",
-      "description": "A medical mission deep in the Amazon becomes a desperate fight for survival when a colossal ancient predator awakens, turning the jungle into a deadly battleground where nature decides who lives and dies.",
+      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
       "genres": [
         "Horror",
-        "Thriller",
-        "Action"
+        "Thriller"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt10377864"
+      "releaseInfo": "2025",
+      "imdb_id": "tt28498159"
     }
   ]
 }
