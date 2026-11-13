@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt28498159",
+      "type": "movie",
+      "name": "The Other",
+      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
+      "posterShape": "poster",
+      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt28498159"
+    },
+    {
       "id": "tt33028778",
       "type": "movie",
       "name": "Primate",
@@ -271,21 +285,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15791034"
-    },
-    {
-      "id": "tt9411972",
-      "type": "movie",
-      "name": "Where the Crawdads Sing",
-      "poster": "https://image.tmdb.org/t/p/w500/n1el846gLDXfhOvrRCsyvaAOQWv.jpg",
-      "posterShape": "poster",
-      "description": "Abandoned by her family, Kya raises herself all alone in the marshes outside of her small town. When her former boyfriend is found dead, Kya is instantly branded by the local townspeople and law enforcement as the prime suspect for his murder.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Romance"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt9411972"
     }
   ]
 }

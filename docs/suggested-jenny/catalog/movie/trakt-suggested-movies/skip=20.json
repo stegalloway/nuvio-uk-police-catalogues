@@ -273,18 +273,19 @@
       "imdb_id": "tt28129069"
     },
     {
-      "id": "tt28498159",
+      "id": "tt4459134",
       "type": "movie",
-      "name": "The Other",
-      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
+      "name": "Frank and Penelope",
+      "poster": "https://image.tmdb.org/t/p/w500/5NpXoAi3nEQkEgLO09nmotPfyNa.jpg",
       "posterShape": "poster",
-      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
+      "description": "A tale of love and violence when a man on his emotional last legs finds a savior seductively dancing in a run-down strip club. And a life most certainly headed off a cliff suddenly becomes redirected - as everything is now worth dying for.",
       "genres": [
+        "Thriller",
         "Horror",
-        "Thriller"
+        "Crime"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt28498159"
+      "releaseInfo": "2022",
+      "imdb_id": "tt4459134"
     }
   ]
 }
