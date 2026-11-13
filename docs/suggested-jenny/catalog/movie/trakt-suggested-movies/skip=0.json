@@ -252,6 +252,19 @@
       "imdb_id": "tt7069210"
     },
     {
+      "id": "tt5737388",
+      "type": "movie",
+      "name": "The Accursed",
+      "poster": "https://image.tmdb.org/t/p/w500/kBPkV6Gqvbmq6z25bpw3ofsk5ue.jpg",
+      "posterShape": "poster",
+      "description": "Hana spends twenty years suppressing a maleficent curse that was placed upon her bloodline, only to have a family member knowingly release it forcing her to kill or to be killed.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt5737388"
+    },
+    {
       "id": "tt31511689",
       "type": "movie",
       "name": "Vicious",
@@ -264,19 +277,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt31511689"
-    },
-    {
-      "id": "tt10963926",
-      "type": "movie",
-      "name": "Two Witches",
-      "poster": "https://image.tmdb.org/t/p/w500/a6JHz23BOfbzWxL5JsrBWQHqMuh.jpg",
-      "posterShape": "poster",
-      "description": "A matriarchal witch passes on her sinister inheritance to her grand-daughter, triggering the most horrific curses.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt10963926"
     }
   ]
 }
