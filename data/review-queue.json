@@ -9,8 +9,8 @@
       "firstAir": "2026-08-17",
       "lastAir": "2026-08-17",
       "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-12",
-      "observations": 2,
+      "lastSeen": "2026-11-13",
+      "observations": 3,
       "status": "pending",
       "eligibleForAuto": false,
       "needsArtwork": false,
@@ -27,8 +27,8 @@
       "firstAir": "2026-11-12",
       "lastAir": "2026-11-12",
       "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-12",
-      "observations": 2,
+      "lastSeen": "2026-11-13",
+      "observations": 3,
       "status": "pending",
       "eligibleForAuto": false,
       "needsArtwork": false,
@@ -36,6 +36,24 @@
       "episodes": 2,
       "seasons": 1,
       "overview": "When a dismembered torso is discovered in woodland on the edge of Salford, detectives launch a murder investigation with no DNA match, witnesses or obvious suspects. As a national media storm unfolds, forensic clues, new suspects and…"
+    },
+    {
+      "tmdbId": 341859,
+      "name": "Jordan & Sophie: A TOWIE Baby",
+      "category": "true-crime",
+      "score": 1,
+      "firstAir": "2026-11-08",
+      "lastAir": "2026-11-09",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "observations": 1,
+      "status": "pending",
+      "eligibleForAuto": false,
+      "needsArtwork": false,
+      "network": "",
+      "episodes": 2,
+      "seasons": 1,
+      "overview": "Oh, baby! Jordan and Sophie take a crash course in parenthood with their miracle baby, Brody. Everyone pitches in as Dan and Diags babysit, and the gang celebrates with a party."
     }
   ]
 }
