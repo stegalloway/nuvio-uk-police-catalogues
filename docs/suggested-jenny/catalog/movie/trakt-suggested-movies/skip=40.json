@@ -273,19 +273,19 @@
       "imdb_id": "tt9419056"
     },
     {
-      "id": "tt15791034",
+      "id": "tt9411972",
       "type": "movie",
-      "name": "Barbarian",
-      "poster": "https://image.tmdb.org/t/p/w500/idT5mnqPcJgSkvpDX7pJffBzdVH.jpg",
+      "name": "Where the Crawdads Sing",
+      "poster": "https://image.tmdb.org/t/p/w500/n1el846gLDXfhOvrRCsyvaAOQWv.jpg",
       "posterShape": "poster",
-      "description": "In town for a job interview, a young woman arrives at her Airbnb late at night only to find that it has been mistakenly double-booked and a strange man is already staying there. Against her better judgement, she decides to stay the night anyway.",
+      "description": "Abandoned by her family, Kya raises herself all alone in the marshes outside of her small town. When her former boyfriend is found dead, Kya is instantly branded by the local townspeople and law enforcement as the prime suspect for his murder.",
       "genres": [
-        "Horror",
+        "Drama",
         "Mystery",
-        "Thriller"
+        "Romance"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt15791034"
+      "imdb_id": "tt9411972"
     }
   ]
 }
