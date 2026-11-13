@@ -28,6 +28,20 @@
       "imdb_id": "tt36958312"
     },
     {
+      "id": "tt26581740",
+      "type": "movie",
+      "name": "Weapons",
+      "poster": "https://image.tmdb.org/t/p/w500/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg",
+      "posterShape": "poster",
+      "description": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt26581740"
+    },
+    {
       "id": "tt14270702",
       "type": "movie",
       "name": "God Is a Bullet",
@@ -270,20 +284,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33978029"
-    },
-    {
-      "id": "tt28129069",
-      "type": "movie",
-      "name": "Cheat",
-      "poster": "https://image.tmdb.org/t/p/w500/46Um9OTHNA390mMxwpSSc2m35Zp.jpg",
-      "posterShape": "poster",
-      "description": "On the surface it's believed to be another urban legend - a supernatural being from the afterlife is violently killing anyone who cheats on their significant other in the small college town of Silvercreek, Pennsylvania. But the town's unusually high suicide rate is finally convincing both locals and college students that everything is not as it seems. When Maeve - a female college student - sleeps with Charlie, the married man of the host family she is staying with, both sense the deadly curse is closing in on them. Unable to get anyone to believe them, Maeve and Charlie seek out a local history student to help find answers and figure out a way to defend themselves. It all comes undone, however, as several people are horrifically killed by the savage being - one-by-one at a rapid pace. Eventually, Maeve, Charlie and the few survivors band together in an attempt to defeat the monster once and for all.",
-      "genres": [
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt28129069"
     }
   ]
 }

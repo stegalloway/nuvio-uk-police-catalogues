@@ -186,6 +186,20 @@
       "imdb_id": "tt27031263"
     },
     {
+      "id": "tt8014982",
+      "type": "series",
+      "name": "The Body",
+      "poster": "https://image.tmdb.org/t/p/w500/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
+      "posterShape": "poster",
+      "description": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt8014982"
+    },
+    {
       "id": "tt13729648",
       "type": "series",
       "name": "Candy",
@@ -269,20 +283,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt13444912"
-    },
-    {
-      "id": "tt11041332",
-      "type": "series",
-      "name": "Yellowjackets",
-      "poster": "https://image.tmdb.org/t/p/w500/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
-      "posterShape": "poster",
-      "description": "This equal parts survival epic, psychological horror story and coming-of-age drama tells the saga of a team of wildly talented high school girls soccer players who become the (un)lucky survivors of a plane crash deep in the remote northern wilderness. The series chronicles their descent from a complicated but thriving team to savage clans, while also tracking the lives they’ve attempted to piece back together nearly 25 years later.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11041332"
     }
   ]
 }
