@@ -29,20 +29,6 @@
       "imdb_id": "tt2356777"
     },
     {
-      "id": "tt37063558",
-      "type": "series",
-      "name": "R.J. Decker",
-      "poster": "https://image.tmdb.org/t/p/w500/iNOXveSqB5tUTmGKxp5flQuQ72f.jpg",
-      "posterShape": "poster",
-      "description": "Ex-con photographer RJ Decker becomes a PI in South Florida, solving strange cases with help from his journalist ex, her cop wife, and an enigmatic woman from his past who may help or destroy him.",
-      "genres": [
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt37063558"
-    },
-    {
       "id": "tt30796986",
       "type": "series",
       "name": "NCIS: Origins",
@@ -55,6 +41,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt30796986"
+    },
+    {
+      "id": "tt37063558",
+      "type": "series",
+      "name": "R.J. Decker",
+      "poster": "https://image.tmdb.org/t/p/w500/iNOXveSqB5tUTmGKxp5flQuQ72f.jpg",
+      "posterShape": "poster",
+      "description": "Ex-con photographer RJ Decker becomes a PI in South Florida, solving strange cases with help from his journalist ex, her cop wife, and an enigmatic woman from his past who may help or destroy him.",
+      "genres": [
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt37063558"
     },
     {
       "id": "tt27954448",
