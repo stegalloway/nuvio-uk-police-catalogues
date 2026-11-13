@@ -145,21 +145,6 @@
       "imdb_id": "tt5743796"
     },
     {
-      "id": "tt1637727",
-      "type": "series",
-      "name": "The Killing",
-      "poster": "https://image.tmdb.org/t/p/w500/3yiwAUNGn1rsPSVmFgVwPVJFtYf.jpg",
-      "posterShape": "poster",
-      "description": "The Killing is an American crime drama television series based upon the Danish television series Forbrydelsen. Set in Seattle, Washington, the series follows the various murder investigations by homicide detectives Sarah Linden and Stephen Holder.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2011",
-      "imdb_id": "tt1637727"
-    },
-    {
       "id": "tt33043892",
       "type": "series",
       "name": "Dexter: Resurrection",
@@ -173,6 +158,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt33043892"
+    },
+    {
+      "id": "tt1637727",
+      "type": "series",
+      "name": "The Killing",
+      "poster": "https://image.tmdb.org/t/p/w500/3yiwAUNGn1rsPSVmFgVwPVJFtYf.jpg",
+      "posterShape": "poster",
+      "description": "The Killing is an American crime drama television series based upon the Danish television series Forbrydelsen. Set in Seattle, Washington, the series follows the various murder investigations by homicide detectives Sarah Linden and Stephen Holder.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2011",
+      "imdb_id": "tt1637727"
     },
     {
       "id": "tt2433738",
