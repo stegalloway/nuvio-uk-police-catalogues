@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt4459134",
+      "type": "movie",
+      "name": "Frank and Penelope",
+      "poster": "https://image.tmdb.org/t/p/w500/5NpXoAi3nEQkEgLO09nmotPfyNa.jpg",
+      "posterShape": "poster",
+      "description": "A tale of love and violence when a man on his emotional last legs finds a savior seductively dancing in a run-down strip club. And a life most certainly headed off a cliff suddenly becomes redirected - as everything is now worth dying for.",
+      "genres": [
+        "Thriller",
+        "Horror",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt4459134"
+    },
+    {
       "id": "tt28498159",
       "type": "movie",
       "name": "The Other",
@@ -13,20 +28,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt28498159"
-    },
-    {
-      "id": "tt33028778",
-      "type": "movie",
-      "name": "Primate",
-      "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
-      "posterShape": "poster",
-      "description": "College student Lucy and her friends spend their vacation at her family's home in Hawaii, which includes her pet chimpanzee, Ben. However, when Ben contracts rabies after being bitten by a rabid animal, the group must fight for their lives in order to avoid the now-violent chimp.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33028778"
     },
     {
       "id": "tt10303430",

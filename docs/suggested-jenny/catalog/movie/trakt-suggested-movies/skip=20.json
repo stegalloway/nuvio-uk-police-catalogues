@@ -1,6 +1,19 @@
 {
   "metas": [
     {
+      "id": "tt5737388",
+      "type": "movie",
+      "name": "The Accursed",
+      "poster": "https://image.tmdb.org/t/p/w500/kBPkV6Gqvbmq6z25bpw3ofsk5ue.jpg",
+      "posterShape": "poster",
+      "description": "Hana spends twenty years suppressing a maleficent curse that was placed upon her bloodline, only to have a family member knowingly release it forcing her to kill or to be killed.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt5737388"
+    },
+    {
       "id": "tt36958312",
       "type": "movie",
       "name": "The Devil's Mouth",
@@ -271,21 +284,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt28129069"
-    },
-    {
-      "id": "tt4459134",
-      "type": "movie",
-      "name": "Frank and Penelope",
-      "poster": "https://image.tmdb.org/t/p/w500/5NpXoAi3nEQkEgLO09nmotPfyNa.jpg",
-      "posterShape": "poster",
-      "description": "A tale of love and violence when a man on his emotional last legs finds a savior seductively dancing in a run-down strip club. And a life most certainly headed off a cliff suddenly becomes redirected - as everything is now worth dying for.",
-      "genres": [
-        "Thriller",
-        "Horror",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt4459134"
     }
   ]
 }
