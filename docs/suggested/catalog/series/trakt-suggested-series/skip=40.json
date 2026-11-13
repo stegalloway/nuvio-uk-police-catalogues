@@ -278,19 +278,17 @@
       "imdb_id": "tt0773262"
     },
     {
-      "id": "tt2396135",
+      "id": "tt0118437",
       "type": "series",
-      "name": "Shetland",
-      "poster": "https://image.tmdb.org/t/p/w500/rKnxmir8m5I3RdSTdZr3jaQaCZi.jpg",
+      "name": "The Practice",
+      "poster": "https://image.tmdb.org/t/p/w500/7OKZSUIWhjFP0F2s478zTrAYwDB.jpg",
       "posterShape": "poster",
-      "description": "Created from the novels by award winning crime writer Ann Cleeves, Shetland follows DI Jimmy Perez and his team as they investigate crime within the close knit island community. In this isolated and sometimes inhospitable environment, the team have to rely on a uniquely resourceful style of policing.",
+      "description": "A provocative legal drama focused on young associates at a bare-bones Boston firm and their scrappy boss, Bobby Donnell. The show's forte is its storylines about “people who walk a moral tightrope.”",
       "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
+        "Drama"
       ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2396135"
+      "releaseInfo": "1997",
+      "imdb_id": "tt0118437"
     }
   ]
 }
