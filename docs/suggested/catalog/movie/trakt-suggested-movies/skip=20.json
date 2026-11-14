@@ -107,20 +107,6 @@
       "imdb_id": "tt0144084"
     },
     {
-      "id": "tt7526136",
-      "type": "movie",
-      "name": "Heart of the Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
-      "posterShape": "poster",
-      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "genres": [
-        "Adventure",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt7526136"
-    },
-    {
       "id": "tt0477348",
       "type": "movie",
       "name": "No Country for Old Men",
@@ -295,6 +281,20 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt6924650"
+    },
+    {
+      "id": "tt15574124",
+      "type": "movie",
+      "name": "Peaky Blinders: The Immortal Man",
+      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+      "posterShape": "poster",
+      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt15574124"
     }
   ]
 }
