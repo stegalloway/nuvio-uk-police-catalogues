@@ -1,34 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt28498159",
-      "type": "movie",
-      "name": "The Other",
-      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
-      "posterShape": "poster",
-      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt28498159"
-    },
-    {
-      "id": "tt10303430",
-      "type": "movie",
-      "name": "Sightless",
-      "poster": "https://image.tmdb.org/t/p/w500/rYCVKmkl1l9tbcCvrDSMERsRpmE.jpg",
-      "posterShape": "poster",
-      "description": "After an attack renders her blind, Ellen withdraws from the world to recover. But soon she plunges into paranoia, unable to convince anyone that her assailant has returned to terrorize her by hiding in plain sight.",
-      "genres": [
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10303430"
-    },
-    {
       "id": "tt10377864",
       "type": "movie",
       "name": "Beware Boiúna",
@@ -130,19 +102,19 @@
       "imdb_id": "tt11561116"
     },
     {
-      "id": "tt6723592",
+      "id": "tt8036976",
       "type": "movie",
-      "name": "Tenet",
-      "poster": "https://image.tmdb.org/t/p/w500/rrKH3VhHssGTCfPuaEQkxvEoElv.jpg",
+      "name": "Send Help",
+      "poster": "https://image.tmdb.org/t/p/w500/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
       "posterShape": "poster",
-      "description": "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+      "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
       "genres": [
-        "Action",
+        "Horror",
         "Thriller",
-        "Science Fiction"
+        "Comedy"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt6723592"
+      "releaseInfo": "2026",
+      "imdb_id": "tt8036976"
     },
     {
       "id": "tt34793095",
@@ -158,19 +130,19 @@
       "imdb_id": "tt34793095"
     },
     {
-      "id": "tt8036976",
+      "id": "tt6723592",
       "type": "movie",
-      "name": "Send Help",
-      "poster": "https://image.tmdb.org/t/p/w500/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
+      "name": "Tenet",
+      "poster": "https://image.tmdb.org/t/p/w500/rrKH3VhHssGTCfPuaEQkxvEoElv.jpg",
       "posterShape": "poster",
-      "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
+      "description": "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
       "genres": [
-        "Horror",
+        "Action",
         "Thriller",
-        "Comedy"
+        "Science Fiction"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt8036976"
+      "releaseInfo": "2020",
+      "imdb_id": "tt6723592"
     },
     {
       "id": "tt30955489",
@@ -230,6 +202,21 @@
       "imdb_id": "tt30851137"
     },
     {
+      "id": "tt21807222",
+      "type": "movie",
+      "name": "Saw X",
+      "poster": "https://image.tmdb.org/t/p/w500/u7Lp1Hi8aBS73jv4KRMIv5aK4ax.jpg",
+      "posterShape": "poster",
+      "description": "Between the events of 'Saw' and 'Saw II', a sick and desperate John Kramer travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer, only to discover the entire operation is a scam to defraud the most vulnerable. Armed with a newfound purpose, the infamous serial killer returns to his work, turning the tables on the con artists in his signature visceral way through devious, deranged, and ingenious traps.",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt21807222"
+    },
+    {
       "id": "tt9419056",
       "type": "movie",
       "name": "The Unholy",
@@ -286,6 +273,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35672862"
+    },
+    {
+      "id": "tt22048412",
+      "type": "movie",
+      "name": "MaXXXine",
+      "poster": "https://image.tmdb.org/t/p/w500/ArvoFK6nlouZRxYmtIOUzKIrg90.jpg",
+      "posterShape": "poster",
+      "description": "In 1980s Hollywood, adult film star and aspiring actress Maxine Minx finally gets her big break. But as a mysterious killer stalks the starlets of Hollywood, a trail of blood threatens to reveal her sinister past.",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt22048412"
     }
   ]
 }
