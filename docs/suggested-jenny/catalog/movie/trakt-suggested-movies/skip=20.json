@@ -75,6 +75,21 @@
       "imdb_id": "tt1051906"
     },
     {
+      "id": "tt35538033",
+      "type": "movie",
+      "name": "Resident Evil",
+      "poster": "https://image.tmdb.org/t/p/w500/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
+      "posterShape": "poster",
+      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35538033"
+    },
+    {
       "id": "tt12298506",
       "type": "movie",
       "name": "Black Box",
@@ -242,21 +257,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt28129069"
-    },
-    {
-      "id": "tt35538033",
-      "type": "movie",
-      "name": "Resident Evil",
-      "poster": "https://image.tmdb.org/t/p/w500/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
-      "posterShape": "poster",
-      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
-      "genres": [
-        "Horror",
-        "Science Fiction",
-        "Adventure"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35538033"
     },
     {
       "id": "tt28498159",
