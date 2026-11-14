@@ -118,20 +118,6 @@
       "imdb_id": "tt12298506"
     },
     {
-      "id": "tt34494076",
-      "type": "movie",
-      "name": "Hungry",
-      "poster": "https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg",
-      "posterShape": "poster",
-      "description": "A group of holidaymakers must fight for their lives against a rampaging hippo on the loose after becoming lost in the Louisiana swamplands.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34494076"
-    },
-    {
       "id": "tt13405778",
       "type": "movie",
       "name": "Insidious: The Red Door",
@@ -144,6 +130,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt13405778"
+    },
+    {
+      "id": "tt34494076",
+      "type": "movie",
+      "name": "Hungry",
+      "poster": "https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg",
+      "posterShape": "poster",
+      "description": "A group of holidaymakers must fight for their lives against a rampaging hippo on the loose after becoming lost in the Louisiana swamplands.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34494076"
     },
     {
       "id": "tt30505578",
@@ -187,20 +187,6 @@
       "imdb_id": "tt21201300"
     },
     {
-      "id": "tt39143902",
-      "type": "movie",
-      "name": "Leviticus",
-      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
-      "posterShape": "poster",
-      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
-      "genres": [
-        "Horror",
-        "Romance"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt39143902"
-    },
-    {
       "id": "tt4196566",
       "type": "movie",
       "name": "The Deliverance",
@@ -213,6 +199,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt4196566"
+    },
+    {
+      "id": "tt39143902",
+      "type": "movie",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+      "posterShape": "poster",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
+      "genres": [
+        "Horror",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
     },
     {
       "id": "tt10954984",
@@ -230,20 +230,6 @@
       "imdb_id": "tt10954984"
     },
     {
-      "id": "tt32362890",
-      "type": "movie",
-      "name": "Thrash",
-      "poster": "https://image.tmdb.org/t/p/w500/adk8weka3O5648g3de4z3y4aE7G.jpg",
-      "posterShape": "poster",
-      "description": "When a catastrophic hurricane slams a coastal town, stranded residents must survive rapidly rising waters swarming with ravenous sharks.",
-      "genres": [
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32362890"
-    },
-    {
       "id": "tt33978029",
       "type": "movie",
       "name": "Ready or Not: Here I Come",
@@ -256,6 +242,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33978029"
+    },
+    {
+      "id": "tt32362890",
+      "type": "movie",
+      "name": "Thrash",
+      "poster": "https://image.tmdb.org/t/p/w500/adk8weka3O5648g3de4z3y4aE7G.jpg",
+      "posterShape": "poster",
+      "description": "When a catastrophic hurricane slams a coastal town, stranded residents must survive rapidly rising waters swarming with ravenous sharks.",
+      "genres": [
+        "Thriller",
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32362890"
     },
     {
       "id": "tt28129069",
