@@ -1,17 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt5737388",
+      "id": "tt31511689",
       "type": "movie",
-      "name": "The Accursed",
-      "poster": "https://image.tmdb.org/t/p/w500/kBPkV6Gqvbmq6z25bpw3ofsk5ue.jpg",
+      "name": "Vicious",
+      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
       "posterShape": "poster",
-      "description": "Hana spends twenty years suppressing a maleficent curse that was placed upon her bloodline, only to have a family member knowingly release it forcing her to kill or to be killed.",
+      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
       "genres": [
-        "Horror"
+        "Horror",
+        "Thriller"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt5737388"
+      "releaseInfo": "2025",
+      "imdb_id": "tt31511689"
     },
     {
       "id": "tt36958312",
@@ -229,20 +230,6 @@
       "imdb_id": "tt10954984"
     },
     {
-      "id": "tt33978029",
-      "type": "movie",
-      "name": "Ready or Not: Here I Come",
-      "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
-      "posterShape": "poster",
-      "description": "Moments after surviving an all-out attack from the Le Domas family, Grace discovers she’s reached the next level of the nightmarish game — and this time with her estranged sister Faith at her side. Grace has one chance to survive, keep her sister alive, and claim the High Seat of the Council that controls the world. Four rival families are hunting her for the throne, and whoever wins rules it all.",
-      "genres": [
-        "Horror",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33978029"
-    },
-    {
       "id": "tt32362890",
       "type": "movie",
       "name": "Thrash",
@@ -255,6 +242,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32362890"
+    },
+    {
+      "id": "tt33978029",
+      "type": "movie",
+      "name": "Ready or Not: Here I Come",
+      "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+      "posterShape": "poster",
+      "description": "Moments after surviving an all-out attack from the Le Domas family, Grace discovers she’s reached the next level of the nightmarish game — and this time with her estranged sister Faith at her side. Grace has one chance to survive, keep her sister alive, and claim the High Seat of the Council that controls the world. Four rival families are hunting her for the throne, and whoever wins rules it all.",
+      "genres": [
+        "Horror",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33978029"
     },
     {
       "id": "tt28129069",
