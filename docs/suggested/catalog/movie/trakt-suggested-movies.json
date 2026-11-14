@@ -46,21 +46,6 @@
       "imdb_id": "tt11083552"
     },
     {
-      "id": "tt9603208",
-      "type": "movie",
-      "name": "Mission: Impossible - The Final Reckoning",
-      "poster": "https://image.tmdb.org/t/p/w500/iKPsC9EFUafRP9SrUznI61getVP.jpg",
-      "posterShape": "poster",
-      "description": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
-      "genres": [
-        "Action",
-        "Thriller",
-        "Adventure"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt9603208"
-    },
-    {
       "id": "tt3501632",
       "type": "movie",
       "name": "Thor: Ragnarok",
@@ -133,6 +118,21 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt8236336"
+    },
+    {
+      "id": "tt9603208",
+      "type": "movie",
+      "name": "Mission: Impossible - The Final Reckoning",
+      "poster": "https://image.tmdb.org/t/p/w500/iKPsC9EFUafRP9SrUznI61getVP.jpg",
+      "posterShape": "poster",
+      "description": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity — which has infiltrated intelligence networks all over the globe — with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Adventure"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt9603208"
     },
     {
       "id": "tt1130884",
@@ -224,6 +224,21 @@
       "imdb_id": "tt5950044"
     },
     {
+      "id": "tt11539996",
+      "type": "movie",
+      "name": "Relay",
+      "poster": "https://image.tmdb.org/t/p/w500/mpwccO2L8LUVtVTJTdgUVgoQqAo.jpg",
+      "posterShape": "poster",
+      "description": "A broker of lucrative payoffs between corrupt corporations and the individuals who threaten them breaks his own rules when a new client seeks his protection to stay alive.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt11539996"
+    },
+    {
       "id": "tt7181546",
       "type": "movie",
       "name": "Ballerina",
@@ -281,22 +296,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt7526136"
-    },
-    {
-      "id": "tt0373469",
-      "type": "movie",
-      "name": "Kiss Kiss Bang Bang",
-      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
-      "posterShape": "poster",
-      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0373469"
     }
   ]
 }
