@@ -29,20 +29,6 @@
       "imdb_id": "tt36303968"
     },
     {
-      "id": "tt23148340",
-      "type": "series",
-      "name": "Crystal Lake",
-      "poster": "https://image.tmdb.org/t/p/w500/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
-      "posterShape": "poster",
-      "description": "Single mother Pam Voorhees has been unable to shake her grief after her young, sickly son Jason tragically drowned in the town lake almost a year before. When two strangers arrive at Pam's door digging into her past, a disturbing chain of events is set into motion, leaving the townspeople of Crystal Lake wondering: just who is Pam Voorhees?",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt23148340"
-    },
-    {
       "id": "tt2953250",
       "type": "series",
       "name": "Shining Girls",
@@ -56,6 +42,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt2953250"
+    },
+    {
+      "id": "tt23148340",
+      "type": "series",
+      "name": "Crystal Lake",
+      "poster": "https://image.tmdb.org/t/p/w500/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
+      "posterShape": "poster",
+      "description": "Single mother Pam Voorhees has been unable to shake her grief after her young, sickly son Jason tragically drowned in the town lake almost a year before. When two strangers arrive at Pam's door digging into her past, a disturbing chain of events is set into motion, leaving the townspeople of Crystal Lake wondering: just who is Pam Voorhees?",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt23148340"
     },
     {
       "id": "tt11794812",
@@ -143,19 +143,6 @@
       "imdb_id": "tt10970552"
     },
     {
-      "id": "tt33546863",
-      "type": "series",
-      "name": "Off Campus",
-      "poster": "https://image.tmdb.org/t/p/w500/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
-      "posterShape": "poster",
-      "description": "Hannah Wells tutors hockey captain Garrett Graham to win over her crush. Their deal becomes real connection as they face their pasts. Friends Logan, Dean, Tucker, and Allie navigate college life and love.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33546863"
-    },
-    {
       "id": "tt19244304",
       "type": "series",
       "name": "IT: Welcome to Derry",
@@ -168,6 +155,19 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt19244304"
+    },
+    {
+      "id": "tt33546863",
+      "type": "series",
+      "name": "Off Campus",
+      "poster": "https://image.tmdb.org/t/p/w500/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
+      "posterShape": "poster",
+      "description": "Hannah Wells tutors hockey captain Garrett Graham to win over her crush. Their deal becomes real connection as they face their pasts. Friends Logan, Dean, Tucker, and Allie navigate college life and love.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33546863"
     },
     {
       "id": "tt11540908",
@@ -242,20 +242,6 @@
       "imdb_id": "tt10574558"
     },
     {
-      "id": "tt15567174",
-      "type": "series",
-      "name": "The Fall of the House of Usher",
-      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
-      "posterShape": "poster",
-      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15567174"
-    },
-    {
       "id": "tt9064858",
       "type": "series",
       "name": "Them",
@@ -271,18 +257,32 @@
       "imdb_id": "tt9064858"
     },
     {
-      "id": "tt13623632",
+      "id": "tt15567174",
       "type": "series",
-      "name": "Alien: Earth",
-      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
+      "name": "The Fall of the House of Usher",
+      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
       "posterShape": "poster",
-      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
+      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
       "genres": [
-        "Sci-Fi & Fantasy",
+        "Mystery",
         "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt13623632"
+      "releaseInfo": "2023",
+      "imdb_id": "tt15567174"
+    },
+    {
+      "id": "tt6053512",
+      "type": "series",
+      "name": "Home Before Dark",
+      "poster": "https://image.tmdb.org/t/p/w500/mt4P2epJrSaqrlkMP9fTUKLP9OE.jpg",
+      "posterShape": "poster",
+      "description": "Young investigative journalist Hilde Lisko moves with her family to the small town her father left behind, only to unearth shocking secrets in her pursuit of the truth.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt6053512"
     }
   ]
 }

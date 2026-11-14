@@ -1,33 +1,17 @@
 {
   "metas": [
     {
-      "id": "tt7069210",
+      "id": "tt5737388",
       "type": "movie",
-      "name": "The Conjuring: The Devil Made Me Do It",
-      "poster": "https://image.tmdb.org/t/p/w500/xbSuFiJbbBWCkyCCKIMfuDCA4yV.jpg",
+      "name": "The Accursed",
+      "poster": "https://image.tmdb.org/t/p/w500/kBPkV6Gqvbmq6z25bpw3ofsk5ue.jpg",
       "posterShape": "poster",
-      "description": "Paranormal investigators Ed and Lorraine Warren encounter what would become one of the most sensational cases from their files. The fight for the soul of a young boy takes them beyond anything they'd ever seen before, to mark the first time in U.S. history that a murder suspect would claim demonic possession as a defense.",
+      "description": "Hana spends twenty years suppressing a maleficent curse that was placed upon her bloodline, only to have a family member knowingly release it forcing her to kill or to be killed.",
       "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
+        "Horror"
       ],
       "releaseInfo": "2021",
-      "imdb_id": "tt7069210"
-    },
-    {
-      "id": "tt36958312",
-      "type": "movie",
-      "name": "The Devil's Mouth",
-      "poster": "https://image.tmdb.org/t/p/w500/lH8k9uCWYn2b2gsYleqYBDPbWa8.jpg",
-      "posterShape": "poster",
-      "description": "A group of college friends' Thailand adventure turns deadly when they become trapped in submerged caves with a dangerous predator. As oxygen runs low, past conflicts emerge in their desperate fight for survival.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36958312"
+      "imdb_id": "tt5737388"
     },
     {
       "id": "tt26581740",
@@ -42,6 +26,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt26581740"
+    },
+    {
+      "id": "tt36958312",
+      "type": "movie",
+      "name": "The Devil's Mouth",
+      "poster": "https://image.tmdb.org/t/p/w500/lH8k9uCWYn2b2gsYleqYBDPbWa8.jpg",
+      "posterShape": "poster",
+      "description": "A group of college friends' Thailand adventure turns deadly when they become trapped in submerged caves with a dangerous predator. As oxygen runs low, past conflicts emerge in their desperate fight for survival.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt36958312"
     },
     {
       "id": "tt14270702",
@@ -89,21 +87,6 @@
       "imdb_id": "tt31193180"
     },
     {
-      "id": "tt35538033",
-      "type": "movie",
-      "name": "Resident Evil",
-      "poster": "https://image.tmdb.org/t/p/w500/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
-      "posterShape": "poster",
-      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
-      "genres": [
-        "Horror",
-        "Science Fiction",
-        "Adventure"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35538033"
-    },
-    {
       "id": "tt1051906",
       "type": "movie",
       "name": "The Invisible Man",
@@ -117,6 +100,21 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt1051906"
+    },
+    {
+      "id": "tt35538033",
+      "type": "movie",
+      "name": "Resident Evil",
+      "poster": "https://image.tmdb.org/t/p/w500/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
+      "posterShape": "poster",
+      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35538033"
     },
     {
       "id": "tt21807222",
@@ -162,19 +160,6 @@
       "imdb_id": "tt34494076"
     },
     {
-      "id": "tt30505578",
-      "type": "movie",
-      "name": "Feed",
-      "poster": "https://image.tmdb.org/t/p/w500/8AI6GBlESvZ4RWhreSWHfqg03HA.jpg",
-      "posterShape": "poster",
-      "description": "Five social media influencers spend a weekend at a forest retreat but inadvertently awaken and confront the world's first vampire.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt30505578"
-    },
-    {
       "id": "tt13405778",
       "type": "movie",
       "name": "Insidious: The Red Door",
@@ -187,6 +172,19 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt13405778"
+    },
+    {
+      "id": "tt30505578",
+      "type": "movie",
+      "name": "Feed",
+      "poster": "https://image.tmdb.org/t/p/w500/8AI6GBlESvZ4RWhreSWHfqg03HA.jpg",
+      "posterShape": "poster",
+      "description": "Five social media influencers spend a weekend at a forest retreat but inadvertently awaken and confront the world's first vampire.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt30505578"
     },
     {
       "id": "tt32612507",

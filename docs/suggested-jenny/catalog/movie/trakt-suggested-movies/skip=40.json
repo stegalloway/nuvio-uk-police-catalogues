@@ -61,7 +61,7 @@
       "id": "tt10377864",
       "type": "movie",
       "name": "Beware Boiúna",
-      "poster": "https://image.tmdb.org/t/p/w500/uW5YMPxJUzT9bkafrCKHXjPTCoQ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/7mI13sTZcuwWEIUK9fckAb8Zmba.jpg",
       "posterShape": "poster",
       "description": "A medical mission deep in the Amazon becomes a desperate fight for survival when a colossal ancient predator awakens, turning the jungle into a deadly battleground where nature decides who lives and dies.",
       "genres": [
@@ -87,20 +87,6 @@
       "imdb_id": "tt20198774"
     },
     {
-      "id": "tt24807110",
-      "type": "movie",
-      "name": "Don't Move",
-      "poster": "https://image.tmdb.org/t/p/w500/cRDJxdnRb7ikKd6fVJTrGeaL34v.jpg",
-      "posterShape": "poster",
-      "description": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt24807110"
-    },
-    {
       "id": "tt27564844",
       "type": "movie",
       "name": "Iron Lung",
@@ -114,6 +100,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt27564844"
+    },
+    {
+      "id": "tt24807110",
+      "type": "movie",
+      "name": "Don't Move",
+      "poster": "https://image.tmdb.org/t/p/w500/cRDJxdnRb7ikKd6fVJTrGeaL34v.jpg",
+      "posterShape": "poster",
+      "description": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt24807110"
     },
     {
       "id": "tt8004664",
