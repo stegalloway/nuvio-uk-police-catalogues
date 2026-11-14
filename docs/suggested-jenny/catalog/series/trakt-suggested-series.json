@@ -143,6 +143,19 @@
       "imdb_id": "tt10970552"
     },
     {
+      "id": "tt33546863",
+      "type": "series",
+      "name": "Off Campus",
+      "poster": "https://image.tmdb.org/t/p/w500/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
+      "posterShape": "poster",
+      "description": "Hannah Wells tutors hockey captain Garrett Graham to win over her crush. Their deal becomes real connection as they face their pasts. Friends Logan, Dean, Tucker, and Allie navigate college life and love.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33546863"
+    },
+    {
       "id": "tt19244304",
       "type": "series",
       "name": "IT: Welcome to Derry",
@@ -155,19 +168,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt19244304"
-    },
-    {
-      "id": "tt33546863",
-      "type": "series",
-      "name": "Off Campus",
-      "poster": "https://image.tmdb.org/t/p/w500/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
-      "posterShape": "poster",
-      "description": "Hannah Wells tutors hockey captain Garrett Graham to win over her crush. Their deal becomes real connection as they face their pasts. Friends Logan, Dean, Tucker, and Allie navigate college life and love.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33546863"
     },
     {
       "id": "tt11540908",
@@ -242,6 +242,20 @@
       "imdb_id": "tt10574558"
     },
     {
+      "id": "tt15567174",
+      "type": "series",
+      "name": "The Fall of the House of Usher",
+      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
+      "posterShape": "poster",
+      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15567174"
+    },
+    {
       "id": "tt9064858",
       "type": "series",
       "name": "Them",
@@ -255,20 +269,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt9064858"
-    },
-    {
-      "id": "tt15567174",
-      "type": "series",
-      "name": "The Fall of the House of Usher",
-      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
-      "posterShape": "poster",
-      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15567174"
     },
     {
       "id": "tt6053512",
