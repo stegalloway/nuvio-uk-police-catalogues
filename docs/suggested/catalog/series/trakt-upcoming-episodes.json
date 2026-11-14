@@ -16,6 +16,20 @@
       "imdb_id": "tt16358384"
     },
     {
+      "id": "tt31510819",
+      "type": "series",
+      "name": "MobLand",
+      "poster": "https://image.tmdb.org/t/p/w500/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
+      "posterShape": "poster",
+      "description": "S2 E9 · Nervous Breakdown · out yesterday\n\nTwo mob families clash in a war that threatens to topple empires and lives.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "Out now · S2 E9",
+      "imdb_id": "tt31510819"
+    },
+    {
       "id": "tt32375763",
       "type": "series",
       "name": "12 12 12",
