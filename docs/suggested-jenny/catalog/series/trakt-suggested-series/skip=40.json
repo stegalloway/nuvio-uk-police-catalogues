@@ -102,21 +102,6 @@
       "imdb_id": "tt21946032"
     },
     {
-      "id": "tt1998372",
-      "type": "series",
-      "name": "Under the Banner of Heaven",
-      "poster": "https://image.tmdb.org/t/p/w500/gKyXUkyKRg9LdZzZWRzk0eKD5HJ.jpg",
-      "posterShape": "poster",
-      "description": "A devout detective's faith is tested as he investigates a brutal murder that seems to be connected to an esteemed Utah family's spiral into LDS fundamentalism and their distrust in the government.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt1998372"
-    },
-    {
       "id": "tt5290382",
       "type": "series",
       "name": "MINDHUNTER",
@@ -287,6 +272,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt10946316"
+    },
+    {
+      "id": "tt8740614",
+      "type": "series",
+      "name": "The Residence",
+      "poster": "https://image.tmdb.org/t/p/w500/cJZbg425I9LF3SlJVQDOg4nJEvq.jpg",
+      "posterShape": "poster",
+      "description": "A brilliant, eccentric detective must solve a murder in the White House residence — where the staff and guests at a state dinner are all suspects.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt8740614"
     }
   ]
 }
