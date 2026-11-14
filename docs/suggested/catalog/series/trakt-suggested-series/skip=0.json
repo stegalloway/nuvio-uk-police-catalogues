@@ -15,22 +15,6 @@
       "imdb_id": "tt13444408"
     },
     {
-      "id": "tt0078657",
-      "type": "series",
-      "name": "Minder",
-      "poster": "https://image.tmdb.org/t/p/w500/4s9hiyQvTaMe1bK91HRCTgDTAoF.jpg",
-      "posterShape": "poster",
-      "description": "Roguish comedy drama following the misadventures of small-time crook Arthur Daley.",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Action & Adventure",
-        "Crime"
-      ],
-      "releaseInfo": "1979",
-      "imdb_id": "tt0078657"
-    },
-    {
       "id": "tt0979432",
       "type": "series",
       "name": "Boardwalk Empire",
@@ -144,19 +128,19 @@
       "imdb_id": "tt5715524"
     },
     {
-      "id": "tt14379784",
+      "id": "tt26598805",
       "type": "series",
-      "name": "The Devil's Hour",
-      "poster": "https://image.tmdb.org/t/p/w500/mFU6ZPAs6g8Y9Eld28GULJYt3rC.jpg",
+      "name": "Nocturne",
+      "poster": "https://image.tmdb.org/t/p/w500/nyvXVcPnHEwVmqCdzjjCsu1jqhm.jpg",
       "posterShape": "poster",
-      "description": "Lucy wakes every night at exactly 3:33am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
+      "description": "When a victim of notorious serial killer Jurek Walter unexpectedly turns up alive, detective Jonah Lynn races against time to find the one person still missing, while his protégé Saga Bauer goes undercover to get answers from the killer himself.",
       "genres": [
-        "Mystery",
         "Crime",
-        "Drama"
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14379784"
+      "releaseInfo": "2026",
+      "imdb_id": "tt26598805"
     },
     {
       "id": "tt1064899",
@@ -173,35 +157,6 @@
       "imdb_id": "tt1064899"
     },
     {
-      "id": "tt11761194",
-      "type": "series",
-      "name": "Power Book IV: Force",
-      "poster": "https://image.tmdb.org/t/p/w500/yzL4Tqbw2JA9MCsHJWFC4xV1IYU.jpg",
-      "posterShape": "poster",
-      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11761194"
-    },
-    {
-      "id": "tt26598805",
-      "type": "series",
-      "name": "Nocturne",
-      "poster": "https://image.tmdb.org/t/p/w500/nyvXVcPnHEwVmqCdzjjCsu1jqhm.jpg",
-      "posterShape": "poster",
-      "description": "When a victim of notorious serial killer Jurek Walter unexpectedly turns up alive, detective Jonah Lynn races against time to find the one person still missing, while his protégé Saga Bauer goes undercover to get answers from the killer himself.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt26598805"
-    },
-    {
       "id": "tt6439752",
       "type": "series",
       "name": "Snowfall",
@@ -214,6 +169,35 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt6439752"
+    },
+    {
+      "id": "tt14379784",
+      "type": "series",
+      "name": "The Devil's Hour",
+      "poster": "https://image.tmdb.org/t/p/w500/mFU6ZPAs6g8Y9Eld28GULJYt3rC.jpg",
+      "posterShape": "poster",
+      "description": "Lucy wakes every night at exactly 3:33am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14379784"
+    },
+    {
+      "id": "tt11761194",
+      "type": "series",
+      "name": "Power Book IV: Force",
+      "poster": "https://image.tmdb.org/t/p/w500/yzL4Tqbw2JA9MCsHJWFC4xV1IYU.jpg",
+      "posterShape": "poster",
+      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11761194"
     },
     {
       "id": "tt30460310",
@@ -285,6 +269,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt10732104"
+    },
+    {
+      "id": "tt0903747",
+      "type": "series",
+      "name": "Breaking Bad",
+      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+      "posterShape": "poster",
+      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2008",
+      "imdb_id": "tt0903747"
     }
   ]
 }
