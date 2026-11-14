@@ -6,7 +6,7 @@
       "name": "Tulsa King",
       "poster": "https://image.tmdb.org/t/p/w500/y13WOeZ2rz2Ezpws0RJ0I8sQpG4.jpg",
       "posterShape": "poster",
-      "description": "S4 E2–5 · out today\n\nNew York mafia capo Dwight \"The General\" Manfredi is released from prison after 25 years and exiled by his boss to set up shop in Tulsa, Oklahoma. Realizing that his mob family may not have his best interests in mind, Dwight slowly builds a crew.",
+      "description": "S4 E2–5 · out yesterday\n\nNew York mafia capo Dwight \"The General\" Manfredi is released from prison after 25 years and exiled by his boss to set up shop in Tulsa, Oklahoma. Realizing that his mob family may not have his best interests in mind, Dwight slowly builds a crew.",
       "genres": [
         "Crime",
         "Drama",
@@ -21,7 +21,7 @@
       "name": "12 12 12",
       "poster": "https://image.tmdb.org/t/p/w500/8q6BvFQuKM1Rud4E9NQDaMGy9EL.jpg",
       "posterShape": "poster",
-      "description": "On your watchlist · S1 E1–2 · out yesterday\n\nA heist takes 12 months to plan, 12 hours to execute—and a thief not caught within 12 days won't be caught at all. Across three pulse-pounding timelines, an FBI agent and a career criminal face off in a deadly game of cat and mouse through Europe.",
+      "description": "On your watchlist · S1 E1–2 · out Thu 12 Nov\n\nA heist takes 12 months to plan, 12 hours to execute—and a thief not caught within 12 days won't be caught at all. Across three pulse-pounding timelines, an FBI agent and a career criminal face off in a deadly game of cat and mouse through Europe.",
       "genres": [
         "Action & Adventure",
         "Crime",
@@ -118,31 +118,17 @@
       "imdb_id": "tt6473344"
     },
     {
-      "id": "tt31510819",
-      "type": "series",
-      "name": "MobLand",
-      "poster": "https://image.tmdb.org/t/p/w500/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
-      "posterShape": "poster",
-      "description": "S2 E9 · Nervous Breakdown · Today\n\nTwo mob families clash in a war that threatens to topple empires and lives.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "Today · S2 E9",
-      "imdb_id": "tt31510819"
-    },
-    {
       "id": "tt31438328",
       "type": "series",
       "name": "This City Is Ours",
       "poster": "https://image.tmdb.org/t/p/w500/75BwofwAZbf6GlhP2m6NPpP3bW2.jpg",
       "posterShape": "poster",
-      "description": "S2 E7 · Sun 15 Nov\n\nAfter trying to leave a world of crime, Michael is dragged back into the fold to answer questions. Back in Liverpool tensions continue to bubble amongst the remaining members of the gang, and a gangster who's just been let out of prison wants answers.",
+      "description": "S2 E7 · Tomorrow\n\nAfter trying to leave a world of crime, Michael is dragged back into the fold to answer questions. Back in Liverpool tensions continue to bubble amongst the remaining members of the gang, and a gangster who's just been let out of prison wants answers.",
       "genres": [
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "Sun 15 Nov · S2 E7",
+      "releaseInfo": "Tomorrow · S2 E7",
       "imdb_id": "tt31438328"
     },
     {

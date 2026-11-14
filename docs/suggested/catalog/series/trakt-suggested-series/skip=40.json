@@ -220,21 +220,6 @@
       "imdb_id": "tt10327354"
     },
     {
-      "id": "tt7942796",
-      "type": "series",
-      "name": "Magnum P.I.",
-      "poster": "https://image.tmdb.org/t/p/w500/hN7DKusbmKPqSZnMG5hemioMAiE.jpg",
-      "posterShape": "poster",
-      "description": "Thomas Magnum, a decorated former Navy SEAL, returns home from Afghanistan and applies his military skills to become a private investigator in Hawaii taking jobs no one else will—with the help of fellow vets T.C. Calvin and Rick Wright, and former MI:6 agent, Juliet Higgins.",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt7942796"
-    },
-    {
       "id": "tt0460627",
       "type": "series",
       "name": "Bones",
@@ -291,6 +276,20 @@
       ],
       "releaseInfo": "2006",
       "imdb_id": "tt0773262"
+    },
+    {
+      "id": "tt1442065",
+      "type": "series",
+      "name": "Rookie Blue",
+      "poster": "https://image.tmdb.org/t/p/w500/rUINbQ8JKiQwN9g9PYJ6Nu0Iap1.jpg",
+      "posterShape": "poster",
+      "description": "Ambitious young cops try to prove themselves in their high-stakes careers, in which the smallest mistake can have deadly consequences. At the core of the close-knit group is perfectionist Andy McNally, whose father was a homicide detective before he burned out on the job. The series follows Andy and her four colleagues -- Dov Epstein, Gail Peck, Traci Nash and Chris Diaz -- as they experience the trials, triumphs and tribulations of police work, as well as its effect on their personal lives.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1442065"
     }
   ]
 }
