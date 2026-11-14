@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt10303430",
+      "type": "movie",
+      "name": "Sightless",
+      "poster": "https://image.tmdb.org/t/p/w500/rYCVKmkl1l9tbcCvrDSMERsRpmE.jpg",
+      "posterShape": "poster",
+      "description": "After an attack renders her blind, Ellen withdraws from the world to recover. But soon she plunges into paranoia, unable to convince anyone that her assailant has returned to terrorize her by hiding in plain sight.",
+      "genres": [
+        "Thriller",
+        "Horror"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10303430"
+    },
+    {
       "id": "tt10377864",
       "type": "movie",
       "name": "Beware Boiúna",
@@ -273,21 +287,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35672862"
-    },
-    {
-      "id": "tt22048412",
-      "type": "movie",
-      "name": "MaXXXine",
-      "poster": "https://image.tmdb.org/t/p/w500/ArvoFK6nlouZRxYmtIOUzKIrg90.jpg",
-      "posterShape": "poster",
-      "description": "In 1980s Hollywood, adult film star and aspiring actress Maxine Minx finally gets her big break. But as a mysterious killer stalks the starlets of Hollywood, a trail of blood threatens to reveal her sinister past.",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt22048412"
     }
   ]
 }
