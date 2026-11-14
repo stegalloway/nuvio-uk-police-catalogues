@@ -15,6 +15,19 @@
       "background": "https://image.tmdb.org/t/p/w1280/7XR9rbE6eKSluyPRPg1XPv27AHb.jpg"
     },
     {
+      "id": "tt50940908",
+      "type": "series",
+      "name": "The Jigsaw Puzzle Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/qRlAfJ2wyxEp6MQkX47fhet5Ls9.jpg",
+      "posterShape": "poster",
+      "description": "When a dismembered torso is discovered in woodland on the edge of Salford, detectives launch a murder investigation with no DNA match, witnesses or obvious suspects. As a national media storm unfolds, forensic clues, new suspects and further discoveries across Greater Manchester begin to reveal the shocking truth behind the killing",
+      "releaseInfo": "2026",
+      "genres": [
+        "Documentary"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/gLd9r8JtcJDMuUopR8ciy6yHiI5.jpg"
+    },
+    {
       "id": "tt48388084",
       "type": "series",
       "name": "The Incident Room",
@@ -261,20 +274,6 @@
         "Documentary"
       ],
       "background": "https://image.tmdb.org/t/p/w1280/AnsgEm0mkcZFvpfADtPamMX2HuO.jpg"
-    },
-    {
-      "id": "tt31108835",
-      "type": "series",
-      "name": "TikTok: Murder Gone Viral",
-      "poster": "https://image.tmdb.org/t/p/w500/fgaOFLbBtmFgYkStkqixHmDNmHZ.jpg",
-      "posterShape": "poster",
-      "description": "Explores tragic murders that went viral on the social media app, TikTok, with exclusive access to the victim’s families and the police investigation.",
-      "releaseInfo": "2024",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/i14zqii0nLXl4iWtTObRGDfgovb.jpg"
     }
   ]
 }

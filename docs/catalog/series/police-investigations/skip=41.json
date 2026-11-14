@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt4116046",
+      "type": "series",
+      "name": "24 Hours in Police Custody",
+      "poster": "https://image.tmdb.org/t/p/w500/AfBPcLfNNUsBgANxbKWFxh4zMIQ.jpg",
+      "posterShape": "poster",
+      "description": "The landmark documentary series that captures real life drama at its most intense, following police detectives around the clock as they investigate major crimes.",
+      "releaseInfo": "2014",
+      "genres": [
+        "Documentary",
+        "Crime",
+        "Reality"
+      ],
+      "background": "https://image.tmdb.org/t/p/w1280/bzlyoFoh8dyjwr3wQCuT56Y5m24.jpg"
+    },
+    {
       "id": "tt14536022",
       "type": "series",
       "name": "Bent Coppers: Crossing the Line of Duty",
