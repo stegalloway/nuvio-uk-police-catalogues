@@ -150,21 +150,6 @@
       "imdb_id": "tt1130884"
     },
     {
-      "id": "tt0985699",
-      "type": "movie",
-      "name": "Valkyrie",
-      "poster": "https://image.tmdb.org/t/p/w500/8eoRtXswC8IQDsqW7iJWO56NhAv.jpg",
-      "posterShape": "poster",
-      "description": "Wounded in Africa during World War II, Nazi Col. Claus von Stauffenberg returns to his native Germany and joins the Resistance in a daring plan to create a shadow government and assassinate Adolf Hitler. When events unfold so that he becomes a central player, he finds himself tasked with both leading the coup and personally killing the Führer.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "War"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0985699"
-    },
-    {
       "id": "tt12593682",
       "type": "movie",
       "name": "Bullet Train",
@@ -222,6 +207,21 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt5013056"
+    },
+    {
+      "id": "tt2057392",
+      "type": "movie",
+      "name": "Eye in the Sky",
+      "poster": "https://image.tmdb.org/t/p/w500/faRGb9SuyGuZpsNRoIxoVSLLCId.jpg",
+      "posterShape": "poster",
+      "description": "A UK-based military officer in command of a top secret drone operation to capture terrorists in Kenya discovers the targets are planning a suicide bombing and the mission escalates from “capture” to “kill.” As American pilot Steve Watts is about to engage, a nine-year old girl enters the kill zone, triggering an international dispute reaching the highest levels of US and British government over the moral, political, and personal implications of modern warfare.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt2057392"
     },
     {
       "id": "tt5950044",
