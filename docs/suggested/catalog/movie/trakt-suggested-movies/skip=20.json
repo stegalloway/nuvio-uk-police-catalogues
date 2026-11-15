@@ -1,19 +1,49 @@
 {
   "metas": [
     {
-      "id": "tt0203119",
+      "id": "tt7526136",
       "type": "movie",
-      "name": "Sexy Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/xTfCZTzhgHNAR1pf5D49WH4buI5.jpg",
+      "name": "Heart of the Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
       "posterShape": "poster",
-      "description": "Ex-safecracker Gal Dove has served his time behind bars and is blissfully retired to a Spanish villa paradise with a wife he adores. The idyll is shattered by the arrival of his nemesis Don Logan, intent on persuading Gal to return to London for one last big job.",
+      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
       "genres": [
-        "Crime",
-        "Thriller",
-        "Drama"
+        "Adventure",
+        "Thriller"
       ],
-      "releaseInfo": "2001",
-      "imdb_id": "tt0203119"
+      "releaseInfo": "2026",
+      "imdb_id": "tt7526136"
+    },
+    {
+      "id": "tt0373469",
+      "type": "movie",
+      "name": "Kiss Kiss Bang Bang",
+      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
+      "posterShape": "poster",
+      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2005",
+      "imdb_id": "tt0373469"
+    },
+    {
+      "id": "tt10872600",
+      "type": "movie",
+      "name": "Spider-Man: No Way Home",
+      "poster": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+      "posterShape": "poster",
+      "description": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt10872600"
     },
     {
       "id": "tt0172495",
@@ -46,34 +76,63 @@
       "imdb_id": "tt36042156"
     },
     {
-      "id": "tt7526136",
+      "id": "tt19864802",
       "type": "movie",
-      "name": "Heart of the Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
+      "name": "Land of Bad",
+      "poster": "https://image.tmdb.org/t/p/w500/h3jYanWMEJq6JJsCopy1h7cT2Hs.jpg",
       "posterShape": "poster",
-      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "description": "When a Delta Force special ops mission goes terribly wrong, Air Force drone pilot Reaper has 48 hours to remedy what has devolved into a wild rescue operation. With no weapons and no communication other than the drone above, the ground mission suddenly becomes a full-scale battle when the team is discovered by the enemy.",
       "genres": [
-        "Adventure",
+        "Action",
+        "War",
         "Thriller"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt7526136"
+      "releaseInfo": "2024",
+      "imdb_id": "tt19864802"
     },
     {
-      "id": "tt0373469",
+      "id": "tt31434639",
       "type": "movie",
-      "name": "Kiss Kiss Bang Bang",
-      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
+      "name": "Warfare",
+      "poster": "https://image.tmdb.org/t/p/w500/l39TlELomwysfsr37vrvCV6rmaQ.jpg",
       "posterShape": "poster",
-      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
+      "description": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
       "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery",
-        "Thriller"
+        "War",
+        "Action"
       ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0373469"
+      "releaseInfo": "2025",
+      "imdb_id": "tt31434639"
+    },
+    {
+      "id": "tt0203119",
+      "type": "movie",
+      "name": "Sexy Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/xTfCZTzhgHNAR1pf5D49WH4buI5.jpg",
+      "posterShape": "poster",
+      "description": "Ex-safecracker Gal Dove has served his time behind bars and is blissfully retired to a Spanish villa paradise with a wife he adores. The idyll is shattered by the arrival of his nemesis Don Logan, intent on persuading Gal to return to London for one last big job.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Drama"
+      ],
+      "releaseInfo": "2001",
+      "imdb_id": "tt0203119"
+    },
+    {
+      "id": "tt15398776",
+      "type": "movie",
+      "name": "Oppenheimer",
+      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "posterShape": "poster",
+      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15398776"
     },
     {
       "id": "tt1392170",
@@ -92,124 +151,6 @@
       "imdb_id": "tt1392170"
     },
     {
-      "id": "tt15398776",
-      "type": "movie",
-      "name": "Oppenheimer",
-      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
-      "posterShape": "poster",
-      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
-      "genres": [
-        "Drama",
-        "History",
-        "War"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15398776"
-    },
-    {
-      "id": "tt10872600",
-      "type": "movie",
-      "name": "Spider-Man: No Way Home",
-      "poster": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
-      "posterShape": "poster",
-      "description": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt10872600"
-    },
-    {
-      "id": "tt8946378",
-      "type": "movie",
-      "name": "Knives Out",
-      "poster": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
-      "posterShape": "poster",
-      "description": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8946378"
-    },
-    {
-      "id": "tt0144084",
-      "type": "movie",
-      "name": "American Psycho",
-      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
-      "posterShape": "poster",
-      "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
-      "genres": [
-        "Thriller",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2000",
-      "imdb_id": "tt0144084"
-    },
-    {
-      "id": "tt31434639",
-      "type": "movie",
-      "name": "Warfare",
-      "poster": "https://image.tmdb.org/t/p/w500/l39TlELomwysfsr37vrvCV6rmaQ.jpg",
-      "posterShape": "poster",
-      "description": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
-      "genres": [
-        "War",
-        "Action"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31434639"
-    },
-    {
-      "id": "tt0477348",
-      "type": "movie",
-      "name": "No Country for Old Men",
-      "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
-      "posterShape": "poster",
-      "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Western"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0477348"
-    },
-    {
-      "id": "tt3281548",
-      "type": "movie",
-      "name": "Little Women",
-      "poster": "https://image.tmdb.org/t/p/w500/yn5ihODtZ7ofn8pDYfxCmxh8AXI.jpg",
-      "posterShape": "poster",
-      "description": "Four sisters come of age in America in the aftermath of the Civil War.",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt3281548"
-    },
-    {
-      "id": "tt19864802",
-      "type": "movie",
-      "name": "Land of Bad",
-      "poster": "https://image.tmdb.org/t/p/w500/h3jYanWMEJq6JJsCopy1h7cT2Hs.jpg",
-      "posterShape": "poster",
-      "description": "When a Delta Force special ops mission goes terribly wrong, Air Force drone pilot Reaper has 48 hours to remedy what has devolved into a wild rescue operation. With no weapons and no communication other than the drone above, the ground mission suddenly becomes a full-scale battle when the team is discovered by the enemy.",
-      "genres": [
-        "Action",
-        "War",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt19864802"
-    },
-    {
       "id": "tt2119532",
       "type": "movie",
       "name": "Hacksaw Ridge",
@@ -225,33 +166,19 @@
       "imdb_id": "tt2119532"
     },
     {
-      "id": "tt30144839",
+      "id": "tt8946378",
       "type": "movie",
-      "name": "One Battle After Another",
-      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
+      "name": "Knives Out",
+      "poster": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
       "posterShape": "poster",
-      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+      "description": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
       "genres": [
-        "Thriller",
+        "Comedy",
         "Crime",
-        "Comedy"
+        "Mystery"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30144839"
-    },
-    {
-      "id": "tt0332452",
-      "type": "movie",
-      "name": "Troy",
-      "poster": "https://image.tmdb.org/t/p/w500/a07wLy4ONfpsjnBqMwhlWTJTcm.jpg",
-      "posterShape": "poster",
-      "description": "In year 1250 B.C. during the late Bronze age, two emerging nations begin to clash. Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnon to help him get her back. Agamemnon sees this as an opportunity for power. They set off with 1,000 ships holding 50,000 Greeks to Troy.",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseInfo": "2004",
-      "imdb_id": "tt0332452"
+      "releaseInfo": "2019",
+      "imdb_id": "tt8946378"
     },
     {
       "id": "tt15799564",
@@ -282,6 +209,79 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt6924650"
+    },
+    {
+      "id": "tt3281548",
+      "type": "movie",
+      "name": "Little Women",
+      "poster": "https://image.tmdb.org/t/p/w500/yn5ihODtZ7ofn8pDYfxCmxh8AXI.jpg",
+      "posterShape": "poster",
+      "description": "Four sisters come of age in America in the aftermath of the Civil War.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt3281548"
+    },
+    {
+      "id": "tt0144084",
+      "type": "movie",
+      "name": "American Psycho",
+      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
+      "posterShape": "poster",
+      "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2000",
+      "imdb_id": "tt0144084"
+    },
+    {
+      "id": "tt0477348",
+      "type": "movie",
+      "name": "No Country for Old Men",
+      "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+      "posterShape": "poster",
+      "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Western"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0477348"
+    },
+    {
+      "id": "tt7693316",
+      "type": "movie",
+      "name": "Devotion",
+      "poster": "https://image.tmdb.org/t/p/w500/26yQPXymbWeCLKwcmyL8dRjAzth.jpg",
+      "posterShape": "poster",
+      "description": "The harrowing true story of two elite US Navy fighter pilots during the Korean War. Their heroic sacrifices would ultimately make them the Navy's most celebrated wingmen.",
+      "genres": [
+        "War",
+        "Drama",
+        "History"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt7693316"
+    },
+    {
+      "id": "tt33296751",
+      "type": "movie",
+      "name": "Tuner",
+      "poster": "https://image.tmdb.org/t/p/w500/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
+      "posterShape": "poster",
+      "description": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33296751"
     },
     {
       "id": "tt1392190",
