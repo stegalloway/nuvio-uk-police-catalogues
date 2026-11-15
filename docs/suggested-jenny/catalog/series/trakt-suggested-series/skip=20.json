@@ -29,21 +29,6 @@
       "imdb_id": "tt11285470"
     },
     {
-      "id": "tt33043892",
-      "type": "series",
-      "name": "Dexter: Resurrection",
-      "poster": "https://image.tmdb.org/t/p/w500/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
-      "posterShape": "poster",
-      "description": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt33043892"
-    },
-    {
       "id": "tt31458276",
       "type": "series",
       "name": "Grotesquerie",
@@ -284,6 +269,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt34579520"
+    },
+    {
+      "id": "tt33332385",
+      "type": "series",
+      "name": "Widow's Bay",
+      "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
+      "posterShape": "poster",
+      "description": "The mayor of a New England town resolves to turn it into the next tourist hot spot, despite local warnings that it's cursed.",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33332385"
     }
   ]
 }
