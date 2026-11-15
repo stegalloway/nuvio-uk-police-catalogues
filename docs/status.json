@@ -1,5 +1,5 @@
 {
-  "updatedAtUtc": "2026-11-14T20:44:29+00:00",
+  "updatedAtUtc": "2026-11-15T06:52:47+00:00",
   "counts": {
     "on-duty": 32,
     "police-investigations": 43,
@@ -13,9 +13,9 @@
   },
   "reviewCandidates": 0,
   "scanPages": 235,
-  "screenedCandidates": 285,
-  "firstAirCutoff": "2021-11-14",
-  "oldSeriesLastAirCutoff": "2024-11-14",
+  "screenedCandidates": 288,
+  "firstAirCutoff": "2021-11-15",
+  "oldSeriesLastAirCutoff": "2024-11-15",
   "discoveryPolicy": "New high-confidence UK police documentaries need two daily observations; ambiguous matches require review.",
   "source": "TMDB"
 }
