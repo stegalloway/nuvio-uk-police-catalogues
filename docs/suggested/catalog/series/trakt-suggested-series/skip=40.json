@@ -220,6 +220,21 @@
       "imdb_id": "tt5164196"
     },
     {
+      "id": "tt7335184",
+      "type": "series",
+      "name": "You",
+      "poster": "https://image.tmdb.org/t/p/w500/oANi0vEE92nuijiZQgPZ88FSxqQ.jpg",
+      "posterShape": "poster",
+      "description": "A dangerously charming, obsessive man goes to extreme measures to insert himself into the lives of women who fascinate him.",
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt7335184"
+    },
+    {
       "id": "tt3647998",
       "type": "series",
       "name": "Taboo",
@@ -275,20 +290,6 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt7491982"
-    },
-    {
-      "id": "tt8014982",
-      "type": "series",
-      "name": "The Body",
-      "poster": "https://image.tmdb.org/t/p/w500/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
-      "posterShape": "poster",
-      "description": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt8014982"
     }
   ]
 }
