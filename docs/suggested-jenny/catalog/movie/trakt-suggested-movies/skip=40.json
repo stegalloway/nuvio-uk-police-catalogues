@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt10377864",
+      "type": "movie",
+      "name": "Beware Boiúna",
+      "poster": "https://image.tmdb.org/t/p/w500/7mI13sTZcuwWEIUK9fckAb8Zmba.jpg",
+      "posterShape": "poster",
+      "description": "A medical mission deep in the Amazon becomes a desperate fight for survival when a colossal ancient predator awakens, turning the jungle into a deadly battleground where nature decides who lives and dies.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Action"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt10377864"
+    },
+    {
       "id": "tt20198774",
       "type": "movie",
       "name": "Play Dead",
@@ -273,21 +288,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt17023012"
-    },
-    {
-      "id": "tt22375054",
-      "type": "movie",
-      "name": "Strange Darling",
-      "poster": "https://image.tmdb.org/t/p/w500/kWNCRgt3ocv19bYO0sk7TRuZuFY.jpg",
-      "posterShape": "poster",
-      "description": "Nothing is what it seems when a twisted one-night stand spirals into a serial killer’s vicious murder spree.",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt22375054"
     }
   ]
 }
