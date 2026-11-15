@@ -29,20 +29,6 @@
       "imdb_id": "tt0306414"
     },
     {
-      "id": "tt13018148",
-      "type": "series",
-      "name": "Tell Me Lies",
-      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
-      "posterShape": "poster",
-      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13018148"
-    },
-    {
       "id": "tt14063678",
       "type": "series",
       "name": "The Gold",
@@ -70,6 +56,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5611024"
+    },
+    {
+      "id": "tt13018148",
+      "type": "series",
+      "name": "Tell Me Lies",
+      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
+      "posterShape": "poster",
+      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13018148"
     },
     {
       "id": "tt2788432",
@@ -158,6 +158,20 @@
       "imdb_id": "tt6510950"
     },
     {
+      "id": "tt35515227",
+      "type": "series",
+      "name": "CIA",
+      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
+      "posterShape": "poster",
+      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35515227"
+    },
+    {
       "id": "tt3205802",
       "type": "series",
       "name": "How to Get Away with Murder",
@@ -171,20 +185,6 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt3205802"
-    },
-    {
-      "id": "tt35515227",
-      "type": "series",
-      "name": "CIA",
-      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
-      "posterShape": "poster",
-      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35515227"
     },
     {
       "id": "tt14582876",
@@ -202,21 +202,6 @@
       "imdb_id": "tt14582876"
     },
     {
-      "id": "tt4258440",
-      "type": "series",
-      "name": "River",
-      "poster": "https://image.tmdb.org/t/p/w500/fhiVcu9RA3MEVQtMowwQUsHJfJR.jpg",
-      "posterShape": "poster",
-      "description": "Respected police officer John River, a gifted cop with a troubled mind, struggles to come to terms with the recent loss of a colleague, and chases a suspect across London - with tragic consequences. Now at odds with the authorities, River ends up in a precarious position as he seeks to bring closure to the mother of murdered teenager, who blames him for failing to keep his promise.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4258440"
-    },
-    {
       "id": "tt6037988",
       "type": "series",
       "name": "Last Seen",
@@ -230,6 +215,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt6037988"
+    },
+    {
+      "id": "tt4258440",
+      "type": "series",
+      "name": "River",
+      "poster": "https://image.tmdb.org/t/p/w500/fhiVcu9RA3MEVQtMowwQUsHJfJR.jpg",
+      "posterShape": "poster",
+      "description": "Respected police officer John River, a gifted cop with a troubled mind, struggles to come to terms with the recent loss of a colleague, and chases a suspect across London - with tragic consequences. Now at odds with the authorities, River ends up in a precarious position as he seeks to bring closure to the mother of murdered teenager, who blames him for failing to keep his promise.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt4258440"
     },
     {
       "id": "tt2304589",
