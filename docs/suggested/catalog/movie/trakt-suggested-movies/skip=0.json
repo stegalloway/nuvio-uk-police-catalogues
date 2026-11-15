@@ -150,6 +150,21 @@
       "imdb_id": "tt1130884"
     },
     {
+      "id": "tt0985699",
+      "type": "movie",
+      "name": "Valkyrie",
+      "poster": "https://image.tmdb.org/t/p/w500/8eoRtXswC8IQDsqW7iJWO56NhAv.jpg",
+      "posterShape": "poster",
+      "description": "Wounded in Africa during World War II, Nazi Col. Claus von Stauffenberg returns to his native Germany and joins the Resistance in a daring plan to create a shadow government and assassinate Adolf Hitler. When events unfold so that he becomes a central player, he finds himself tasked with both leading the coup and personally killing the Führer.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "releaseInfo": "2008",
+      "imdb_id": "tt0985699"
+    },
+    {
       "id": "tt12593682",
       "type": "movie",
       "name": "Bullet Train",
@@ -269,33 +284,19 @@
       "imdb_id": "tt0203119"
     },
     {
-      "id": "tt36042156",
+      "id": "tt0172495",
       "type": "movie",
-      "name": "The Punisher: One Last Kill",
-      "poster": "https://image.tmdb.org/t/p/w500/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
+      "name": "Gladiator",
+      "poster": "https://image.tmdb.org/t/p/w500/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg",
       "posterShape": "poster",
-      "description": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
+      "description": "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences.",
       "genres": [
         "Action",
         "Drama",
-        "Crime"
+        "Adventure"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36042156"
-    },
-    {
-      "id": "tt7526136",
-      "type": "movie",
-      "name": "Heart of the Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
-      "posterShape": "poster",
-      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "genres": [
-        "Adventure",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt7526136"
+      "releaseInfo": "2000",
+      "imdb_id": "tt0172495"
     }
   ]
 }

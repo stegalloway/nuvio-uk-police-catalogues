@@ -262,33 +262,33 @@
       "imdb_id": "tt0460627"
     },
     {
-      "id": "tt5722298",
+      "id": "tt7491982",
       "type": "series",
-      "name": "Private Eyes",
-      "poster": "https://image.tmdb.org/t/p/w500/yPt9IuY2D8g6Lpwh8O8wCDixzt9.jpg",
+      "name": "FBI",
+      "poster": "https://image.tmdb.org/t/p/w500/br3xWBUu7W0dXsMev0XXVvoMxuE.jpg",
       "posterShape": "poster",
-      "description": "Ex-pro hockey player Matt Shade irrevocably changes his life when he teams up with fierce P.I. Angie Everett to form an unlikely investigative powerhouse.",
+      "description": "The New York office of the FBI brings to bear all their talents, intellect and technical expertise on major cases in order to keep their city and the country safe.",
       "genres": [
         "Crime",
-        "Drama",
-        "Comedy"
+        "Action & Adventure",
+        "Drama"
       ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt5722298"
+      "releaseInfo": "2018",
+      "imdb_id": "tt7491982"
     },
     {
-      "id": "tt1442065",
+      "id": "tt8014982",
       "type": "series",
-      "name": "Rookie Blue",
-      "poster": "https://image.tmdb.org/t/p/w500/rUINbQ8JKiQwN9g9PYJ6Nu0Iap1.jpg",
+      "name": "The Body",
+      "poster": "https://image.tmdb.org/t/p/w500/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
       "posterShape": "poster",
-      "description": "Ambitious young cops try to prove themselves in their high-stakes careers, in which the smallest mistake can have deadly consequences. At the core of the close-knit group is perfectionist Andy McNally, whose father was a homicide detective before he burned out on the job. The series follows Andy and her four colleagues -- Dov Epstein, Gail Peck, Traci Nash and Chris Diaz -- as they experience the trials, triumphs and tribulations of police work, as well as its effect on their personal lives.",
+      "description": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Mystery",
+        "Drama"
       ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1442065"
+      "releaseInfo": "2026",
+      "imdb_id": "tt8014982"
     }
   ]
 }

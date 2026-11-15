@@ -1,6 +1,35 @@
 {
   "metas": [
     {
+      "id": "tt15574124",
+      "type": "movie",
+      "name": "Peaky Blinders: The Immortal Man",
+      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+      "posterShape": "poster",
+      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt15574124"
+    },
+    {
+      "id": "tt29028515",
+      "type": "movie",
+      "name": "Wasteman",
+      "poster": "https://image.tmdb.org/t/p/w500/lKK9ImwpoTCwDZKgYpjIIJCnlf0.jpg",
+      "posterShape": "poster",
+      "description": "Taylor's hopes for a fresh start post-parole are jeopardised by cellmate Dee's arrival. As Dee takes Taylor under his wing, a vicious attack tests their bond, forcing Taylor to choose between protecting Dee and his own chances at freedom.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt29028515"
+    },
+    {
       "id": "tt5726616",
       "type": "movie",
       "name": "Call Me by Your Name",
