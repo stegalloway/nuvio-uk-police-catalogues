@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt0172495",
+      "type": "movie",
+      "name": "Gladiator",
+      "poster": "https://image.tmdb.org/t/p/w500/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg",
+      "posterShape": "poster",
+      "description": "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Adventure"
+      ],
+      "releaseInfo": "2000",
+      "imdb_id": "tt0172495"
+    },
+    {
       "id": "tt36042156",
       "type": "movie",
       "name": "The Punisher: One Last Kill",
@@ -281,21 +296,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33296751"
-    },
-    {
-      "id": "tt7693316",
-      "type": "movie",
-      "name": "Devotion",
-      "poster": "https://image.tmdb.org/t/p/w500/26yQPXymbWeCLKwcmyL8dRjAzth.jpg",
-      "posterShape": "poster",
-      "description": "The harrowing true story of two elite US Navy fighter pilots during the Korean War. Their heroic sacrifices would ultimately make them the Navy's most celebrated wingmen.",
-      "genres": [
-        "War",
-        "Drama",
-        "History"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt7693316"
     }
   ]
 }

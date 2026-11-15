@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt16030542",
-      "type": "series",
-      "name": "The Recruit",
-      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
-      "posterShape": "poster",
-      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt16030542"
-    },
-    {
       "id": "tt32559610",
       "type": "series",
       "name": "Countdown",
@@ -290,6 +275,20 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt7491982"
+    },
+    {
+      "id": "tt8014982",
+      "type": "series",
+      "name": "The Body",
+      "poster": "https://image.tmdb.org/t/p/w500/u2iDoQmXu86tMhMZSN1EPp0PHKQ.jpg",
+      "posterShape": "poster",
+      "description": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt8014982"
     }
   ]
 }
