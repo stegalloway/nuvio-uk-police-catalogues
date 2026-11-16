@@ -1,90 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt10306450",
-      "type": "movie",
-      "name": "The Kindred",
-      "poster": "https://image.tmdb.org/t/p/w500/jDXAaMLk7NNXdXZkeTMtr4xo6f5.jpg",
-      "posterShape": "poster",
-      "description": "After her father’s suicide, a young mother investigates what led to his death. But when she is haunted by spirits and unearths an unsolved mystery from 30 years ago, she discovers a dark family history that could prove deadly for her child.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt10306450"
-    },
-    {
-      "id": "tt3065204",
-      "type": "movie",
-      "name": "The Conjuring 2",
-      "poster": "https://image.tmdb.org/t/p/w500/zEqyD0SBt6HL7W9JQoWwtd5Do1T.jpg",
-      "posterShape": "poster",
-      "description": "Lorraine and Ed Warren travel to north London to help a single mother raising four children alone in a house plagued by malicious spirits.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt3065204"
-    },
-    {
-      "id": "tt4196566",
-      "type": "movie",
-      "name": "The Deliverance",
-      "poster": "https://image.tmdb.org/t/p/w500/og1FteMFRInoQnlZeWqEn8XpXHh.jpg",
-      "posterShape": "poster",
-      "description": "Ebony Jackson, a struggling single mother fighting her personal demons, moves her family into a new home for a fresh start. But when strange occurrences inside the home raise the suspicions of Child Protective Services and threaten to tear the family apart, Ebony soon finds herself locked in a battle for her life and the souls of her children.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt4196566"
-    },
-    {
-      "id": "tt27564844",
-      "type": "movie",
-      "name": "Iron Lung",
-      "poster": "https://image.tmdb.org/t/p/w500/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
-      "posterShape": "poster",
-      "description": "In a post-apocalyptic future where an event known as \"The Quiet Rapture\" caused all known stars and habitable planets in the universe to disappear, a convict is sent to search an ocean of blood discovered on a desolate moon, using a small submarine nicknamed the \"Iron Lung\".",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt27564844"
-    },
-    {
-      "id": "tt32362890",
-      "type": "movie",
-      "name": "Thrash",
-      "poster": "https://image.tmdb.org/t/p/w500/adk8weka3O5648g3de4z3y4aE7G.jpg",
-      "posterShape": "poster",
-      "description": "When a catastrophic hurricane slams a coastal town, stranded residents must survive rapidly rising waters swarming with ravenous sharks.",
-      "genres": [
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32362890"
-    },
-    {
-      "id": "tt1051906",
-      "type": "movie",
-      "name": "The Invisible Man",
-      "poster": "https://image.tmdb.org/t/p/w500/5EufsDwXdY2CVttYOk2WtYhgKpa.jpg",
-      "posterShape": "poster",
-      "description": "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
-      "genres": [
-        "Thriller",
-        "Science Fiction",
-        "Horror"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt1051906"
-    },
-    {
       "id": "tt28129069",
       "type": "movie",
       "name": "Cheat",
@@ -184,19 +100,18 @@
       "imdb_id": "tt20198774"
     },
     {
-      "id": "tt10377864",
+      "id": "tt15474916",
       "type": "movie",
-      "name": "Beware Boiúna",
-      "poster": "https://image.tmdb.org/t/p/w500/7mI13sTZcuwWEIUK9fckAb8Zmba.jpg",
+      "name": "Smile",
+      "poster": "https://image.tmdb.org/t/p/w500/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
       "posterShape": "poster",
-      "description": "A medical mission deep in the Amazon becomes a desperate fight for survival when a colossal ancient predator awakens, turning the jungle into a deadly battleground where nature decides who lives and dies.",
+      "description": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain.",
       "genres": [
         "Horror",
-        "Thriller",
-        "Action"
+        "Mystery"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt10377864"
+      "releaseInfo": "2022",
+      "imdb_id": "tt15474916"
     },
     {
       "id": "tt24807110",
@@ -213,18 +128,19 @@
       "imdb_id": "tt24807110"
     },
     {
-      "id": "tt29550683",
+      "id": "tt10377864",
       "type": "movie",
-      "name": "Whistle",
-      "poster": "https://image.tmdb.org/t/p/w500/vgonf5kGsiijUBjzxKTvechhT28.jpg",
+      "name": "Beware Boiúna",
+      "poster": "https://image.tmdb.org/t/p/w500/7mI13sTZcuwWEIUK9fckAb8Zmba.jpg",
       "posterShape": "poster",
-      "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
+      "description": "A medical mission deep in the Amazon becomes a desperate fight for survival when a colossal ancient predator awakens, turning the jungle into a deadly battleground where nature decides who lives and dies.",
       "genres": [
         "Horror",
-        "Mystery"
+        "Thriller",
+        "Action"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt29550683"
+      "imdb_id": "tt10377864"
     },
     {
       "id": "tt13345606",
@@ -241,49 +157,132 @@
       "imdb_id": "tt13345606"
     },
     {
-      "id": "tt21807222",
+      "id": "tt30955489",
       "type": "movie",
-      "name": "Saw X",
-      "poster": "https://image.tmdb.org/t/p/w500/u7Lp1Hi8aBS73jv4KRMIv5aK4ax.jpg",
+      "name": "Until Dawn",
+      "poster": "https://image.tmdb.org/t/p/w500/bLY5yN4MKVynZ2HMZWElTOGBgBe.jpg",
       "posterShape": "poster",
-      "description": "Between the events of 'Saw' and 'Saw II', a sick and desperate John Kramer travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer, only to discover the entire operation is a scam to defraud the most vulnerable. Armed with a newfound purpose, the infamous serial killer returns to his work, turning the tables on the con artists in his signature visceral way through devious, deranged, and ingenious traps.",
+      "description": "One year after her sister Melanie mysteriously disappeared, Clover and her friends head into the remote valley where she vanished in search of answers. Exploring an abandoned visitor center, they find themselves stalked by a masked killer and horrifically murdered one by one...only to wake up and find themselves back at the beginning of the same evening.",
       "genres": [
         "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt21807222"
-    },
-    {
-      "id": "tt15791034",
-      "type": "movie",
-      "name": "Barbarian",
-      "poster": "https://image.tmdb.org/t/p/w500/idT5mnqPcJgSkvpDX7pJffBzdVH.jpg",
-      "posterShape": "poster",
-      "description": "In town for a job interview, a young woman arrives at her Airbnb late at night only to find that it has been mistakenly double-booked and a strange man is already staying there. Against her better judgement, she decides to stay the night anyway.",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15791034"
-    },
-    {
-      "id": "tt17023012",
-      "type": "movie",
-      "name": "The Home",
-      "poster": "https://image.tmdb.org/t/p/w500/qyGY1k5GqAORsVhfZA3gFKirZWD.jpg",
-      "posterShape": "poster",
-      "description": "A troubled man starts working at a retirement home and realizes its residents and caretakers harbor sinister secrets. As he investigates the building and its forbidden fourth floor, he starts to uncover connections to his own past and upbringing as a foster child.",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
+        "Mystery"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt17023012"
+      "imdb_id": "tt30955489"
+    },
+    {
+      "id": "tt0070047",
+      "type": "movie",
+      "name": "The Exorcist",
+      "poster": "https://image.tmdb.org/t/p/w500/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
+      "posterShape": "poster",
+      "description": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "1973",
+      "imdb_id": "tt0070047"
+    },
+    {
+      "id": "tt11245972",
+      "type": "movie",
+      "name": "Scream",
+      "poster": "https://image.tmdb.org/t/p/w500/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
+      "posterShape": "poster",
+      "description": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11245972"
+    },
+    {
+      "id": "tt9419056",
+      "type": "movie",
+      "name": "The Unholy",
+      "poster": "https://image.tmdb.org/t/p/w500/bShgiEQoPnWdw4LBrYT5u18JF34.jpg",
+      "posterShape": "poster",
+      "description": "Alice is a young hearing-impaired girl who, after a supposed visitation from the Virgin Mary, is inexplicably able to hear, speak and heal the sick. As word spreads and people from near and far flock to witness her miracles, a disgraced journalist hoping to revive his career visits the small New England town to investigate. When terrifying events begin to happen all around, he starts to question if these phenomena are the works of the Virgin Mary or something much more sinister.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt9419056"
+    },
+    {
+      "id": "tt22796890",
+      "type": "movie",
+      "name": "Hell House LLC Origins: The Carmichael Manor",
+      "poster": "https://image.tmdb.org/t/p/w500/bsd1ovBNOhYpQElhlZAqpMo51q6.jpg",
+      "posterShape": "poster",
+      "description": "A group of cold case investigators stay at the Carmichael Manor, site of the grisly and unsolved murders of the Carmichael family back in the eighties. After four nights, the group was never heard from again. What is discovered on their footage is even more disturbing than anything found on the Hell House tapes.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt22796890"
+    },
+    {
+      "id": "tt27564844",
+      "type": "movie",
+      "name": "Iron Lung",
+      "poster": "https://image.tmdb.org/t/p/w500/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
+      "posterShape": "poster",
+      "description": "In a post-apocalyptic future where an event known as \"The Quiet Rapture\" caused all known stars and habitable planets in the universe to disappear, a convict is sent to search an ocean of blood discovered on a desolate moon, using a small submarine nicknamed the \"Iron Lung\".",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt27564844"
+    },
+    {
+      "id": "tt8036976",
+      "type": "movie",
+      "name": "Send Help",
+      "poster": "https://image.tmdb.org/t/p/w500/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
+      "posterShape": "poster",
+      "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt8036976"
+    },
+    {
+      "id": "tt5040012",
+      "type": "movie",
+      "name": "Nosferatu",
+      "poster": "https://image.tmdb.org/t/p/w500/d0B8xDdqBZlzlPEzES8lu5LlNQn.jpg",
+      "posterShape": "poster",
+      "description": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
+      "genres": [
+        "Horror",
+        "Fantasy"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt5040012"
+    },
+    {
+      "id": "tt11561116",
+      "type": "movie",
+      "name": "The Whisper Man",
+      "poster": "https://image.tmdb.org/t/p/w500/ndRs5lADYm0PeVjuOxaMcInY0o2.jpg",
+      "posterShape": "poster",
+      "description": "When his young son vanishes, a widower enlists help from his estranged father, a retired detective who put away the serial killer now linked to the case.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt11561116"
     }
   ]
 }

@@ -95,21 +95,6 @@
       "imdb_id": "tt14415204"
     },
     {
-      "id": "tt50389959",
-      "type": "movie",
-      "name": "A Story of Derry",
-      "poster": "https://image.tmdb.org/t/p/w500/4PtzGcegF5Po1NmDAW9IklyvAUh.jpg",
-      "posterShape": "poster",
-      "description": "Hundreds of years before Pennywise, three youngsters venture into the Western Wood...where they encounter a terrifying ancient spirit.",
-      "genres": [
-        "Drama",
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt50389959"
-    },
-    {
       "id": "tt32246771",
       "type": "movie",
       "name": "Bring Her Back",
@@ -163,6 +148,21 @@
       "imdb_id": "tt32881442"
     },
     {
+      "id": "tt50389959",
+      "type": "movie",
+      "name": "A Story of Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/4PtzGcegF5Po1NmDAW9IklyvAUh.jpg",
+      "posterShape": "poster",
+      "description": "Hundreds of years before Pennywise, three youngsters venture into the Western Wood...where they encounter a terrifying ancient spirit.",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt50389959"
+    },
+    {
       "id": "tt32268156",
       "type": "movie",
       "name": "The Last House",
@@ -204,21 +204,6 @@
       "imdb_id": "tt32329539"
     },
     {
-      "id": "tt32358390",
-      "type": "movie",
-      "name": "The Cycle",
-      "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
-      "posterShape": "poster",
-      "description": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32358390"
-    },
-    {
       "id": "tt18412256",
       "type": "movie",
       "name": "Alien: Romulus",
@@ -246,18 +231,33 @@
       "imdb_id": "tt10963926"
     },
     {
-      "id": "tt32612507",
+      "id": "tt13778486",
       "type": "movie",
-      "name": "Lee Cronin's The Mummy",
-      "poster": "https://image.tmdb.org/t/p/w500/1q308iixueCU4pFtSYugNOevtNx.jpg",
+      "name": "Succubus",
+      "poster": "https://image.tmdb.org/t/p/w500/7AfBMebJS8mEtSV5ymdxEPpgvXb.jpg",
       "posterShape": "poster",
-      "description": "The young daughter of a journalist disappears into the desert without a trace—eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare.",
+      "description": "A new father going through a marital separation joins a dating app and matches with a beautiful but mysterious young woman... whose powers of seduction and manipulation entangle him in a mystery more horrifying than he could have ever imagined.",
       "genres": [
         "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt13778486"
+    },
+    {
+      "id": "tt32358390",
+      "type": "movie",
+      "name": "The Cycle",
+      "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
+      "posterShape": "poster",
+      "description": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
+      "genres": [
+        "Horror",
+        "Thriller",
         "Mystery"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt32612507"
+      "imdb_id": "tt32358390"
     },
     {
       "id": "tt7069210",
