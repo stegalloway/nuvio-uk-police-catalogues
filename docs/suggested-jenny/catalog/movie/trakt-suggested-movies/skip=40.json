@@ -241,6 +241,21 @@
       "imdb_id": "tt27564844"
     },
     {
+      "id": "tt24248198",
+      "type": "movie",
+      "name": "Adult Swim Yule Log",
+      "poster": "https://image.tmdb.org/t/p/w500/faELFruDaoZQzOKLhrRDBheCSx3.jpg",
+      "posterShape": "poster",
+      "description": "Get in the holiday spirit with this cozy, crackling fire.",
+      "genres": [
+        "Comedy",
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt24248198"
+    },
+    {
       "id": "tt8036976",
       "type": "movie",
       "name": "Send Help",
@@ -268,21 +283,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5040012"
-    },
-    {
-      "id": "tt11561116",
-      "type": "movie",
-      "name": "The Whisper Man",
-      "poster": "https://image.tmdb.org/t/p/w500/ndRs5lADYm0PeVjuOxaMcInY0o2.jpg",
-      "posterShape": "poster",
-      "description": "When his young son vanishes, a widower enlists help from his estranged father, a retired detective who put away the serial killer now linked to the case.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt11561116"
     }
   ]
 }
