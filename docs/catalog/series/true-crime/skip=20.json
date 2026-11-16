@@ -1,19 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:255054",
-      "type": "series",
-      "name": "Cold Case Investigators: Solving Britain’s Sex Crimes",
-      "poster": "https://image.tmdb.org/t/p/w500/tDiDOJVBSqdEOY4eNOUAUhZoPPS.jpg",
-      "posterShape": "poster",
-      "description": "Every contact leaves a trace. How the latest forensic science is helping detectives catch criminals who have evaded the law for decades. Can their victims finally get justice?",
-      "releaseInfo": "2024",
-      "genres": [
-        "Documentary"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/ygA4yHIswraZWJmj7QcieXo0CBB.jpg"
-    },
-    {
       "id": "tt31494137",
       "type": "series",
       "name": "The British Airways Killer",

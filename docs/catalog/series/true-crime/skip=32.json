@@ -1,18 +1,3 @@
 {
-  "metas": [
-    {
-      "id": "tt16442836",
-      "type": "series",
-      "name": "The Lie Murder in Suburbia",
-      "poster": "https://image.tmdb.org/t/p/w500/qK4MWoriDczydTEo7HOOiV4oshl.jpg",
-      "posterShape": "poster",
-      "description": "The dramatic twists and turns of the investigation into Rachel O’Reilly’s murder in 2004, and the devastating impact it had on her loved ones, featuring testimony from those who were closest to the case.",
-      "releaseInfo": "2021",
-      "genres": [
-        "Crime",
-        "Documentary"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/cVIzC28Jg1GSGwos9tmFvCIxa0n.jpg"
-    }
-  ]
+  "metas": []
 }

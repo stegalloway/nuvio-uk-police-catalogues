@@ -1,19 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt23858830",
-      "type": "series",
-      "name": "Police, Camera, Murder",
-      "poster": "https://image.tmdb.org/t/p/w500/6V5k2a7rNEVMXrJXCn3ij5F2qVU.jpg",
-      "posterShape": "poster",
-      "description": "Unprecedented access reveals the critical role of digital forensics in modern murder investigations.",
-      "releaseInfo": "2022",
-      "genres": [
-        "Documentary"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/rKWa85nM1YP4703XXSgUZcpOIID.jpg"
-    },
-    {
       "id": "tt21442032",
       "type": "series",
       "name": "Murder in the Badlands",
