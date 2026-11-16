@@ -1,18 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt32937780",
+      "id": "tt33332385",
       "type": "series",
-      "name": "Something Very Bad Is Going to Happen",
-      "poster": "https://image.tmdb.org/t/p/w500/tuj37DlqEqib8sTO4h3nHJeTAJ2.jpg",
+      "name": "Widow's Bay",
+      "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
       "posterShape": "poster",
-      "description": "A bride has a feeling that something horrifying will happen at her wedding — and the closer to the altar she gets, the worse it becomes.",
+      "description": "The mayor of a New England town resolves to turn it into the next tourist hot spot, despite local warnings that it's cursed.",
       "genres": [
         "Drama",
+        "Comedy",
         "Mystery"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt32937780"
+      "imdb_id": "tt33332385"
     },
     {
       "id": "tt33043892",
@@ -28,6 +29,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt33043892"
+    },
+    {
+      "id": "tt32937780",
+      "type": "series",
+      "name": "Something Very Bad Is Going to Happen",
+      "poster": "https://image.tmdb.org/t/p/w500/tuj37DlqEqib8sTO4h3nHJeTAJ2.jpg",
+      "posterShape": "poster",
+      "description": "A bride has a feeling that something horrifying will happen at her wedding — and the closer to the altar she gets, the worse it becomes.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32937780"
     },
     {
       "id": "tt9642938",
@@ -272,21 +287,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11055882"
-    },
-    {
-      "id": "tt8740614",
-      "type": "series",
-      "name": "The Residence",
-      "poster": "https://image.tmdb.org/t/p/w500/cJZbg425I9LF3SlJVQDOg4nJEvq.jpg",
-      "posterShape": "poster",
-      "description": "A brilliant, eccentric detective must solve a murder in the White House residence — where the staff and guests at a state dinner are all suspects.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt8740614"
     }
   ]
 }
