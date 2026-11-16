@@ -15,6 +15,22 @@
       "imdb_id": "tt13444408"
     },
     {
+      "id": "tt0078657",
+      "type": "series",
+      "name": "Minder",
+      "poster": "https://image.tmdb.org/t/p/w500/4s9hiyQvTaMe1bK91HRCTgDTAoF.jpg",
+      "posterShape": "poster",
+      "description": "Roguish comedy drama following the misadventures of small-time crook Arthur Daley.",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Action & Adventure",
+        "Crime"
+      ],
+      "releaseInfo": "1979",
+      "imdb_id": "tt0078657"
+    },
+    {
       "id": "tt0979432",
       "type": "series",
       "name": "Boardwalk Empire",
@@ -186,20 +202,6 @@
       "imdb_id": "tt14379784"
     },
     {
-      "id": "tt6439752",
-      "type": "series",
-      "name": "Snowfall",
-      "poster": "https://image.tmdb.org/t/p/w500/y7ntzl7msiaS6o7dvDbNG7XFYcR.jpg",
-      "posterShape": "poster",
-      "description": "Los Angeles. 1983. A storm is coming and its name is crack. Set against the infancy of the crack cocaine epidemic and its ultimate radical impact on the culture as we know it, the story follows numerous characters on a violent collision course.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt6439752"
-    },
-    {
       "id": "tt30460310",
       "type": "series",
       "name": "Spider-Noir",
@@ -213,6 +215,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt30460310"
+    },
+    {
+      "id": "tt6439752",
+      "type": "series",
+      "name": "Snowfall",
+      "poster": "https://image.tmdb.org/t/p/w500/y7ntzl7msiaS6o7dvDbNG7XFYcR.jpg",
+      "posterShape": "poster",
+      "description": "Los Angeles. 1983. A storm is coming and its name is crack. Set against the infancy of the crack cocaine epidemic and its ultimate radical impact on the culture as we know it, the story follows numerous characters on a violent collision course.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt6439752"
     },
     {
       "id": "tt10732104",
@@ -269,20 +285,6 @@
       ],
       "releaseInfo": "2011",
       "imdb_id": "tt1652216"
-    },
-    {
-      "id": "tt0903747",
-      "type": "series",
-      "name": "Breaking Bad",
-      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
-      "posterShape": "poster",
-      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0903747"
     }
   ]
 }

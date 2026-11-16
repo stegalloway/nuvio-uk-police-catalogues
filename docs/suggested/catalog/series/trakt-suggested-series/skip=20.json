@@ -1,32 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt14063678",
+      "id": "tt0903747",
       "type": "series",
-      "name": "The Gold",
-      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
+      "name": "Breaking Bad",
+      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
       "posterShape": "poster",
-      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14063678"
-    },
-    {
-      "id": "tt13018148",
-      "type": "series",
-      "name": "Tell Me Lies",
-      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
-      "posterShape": "poster",
-      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
+      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
       "genres": [
         "Drama",
-        "Mystery"
+        "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13018148"
+      "releaseInfo": "2008",
+      "imdb_id": "tt0903747"
     },
     {
       "id": "tt0306414",
@@ -43,6 +29,20 @@
       "imdb_id": "tt0306414"
     },
     {
+      "id": "tt14063678",
+      "type": "series",
+      "name": "The Gold",
+      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
+      "posterShape": "poster",
+      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt14063678"
+    },
+    {
       "id": "tt5611024",
       "type": "series",
       "name": "Fool Me Once",
@@ -56,6 +56,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5611024"
+    },
+    {
+      "id": "tt13018148",
+      "type": "series",
+      "name": "Tell Me Lies",
+      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
+      "posterShape": "poster",
+      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13018148"
     },
     {
       "id": "tt2788432",
@@ -158,18 +172,19 @@
       "imdb_id": "tt6510950"
     },
     {
-      "id": "tt35515227",
+      "id": "tt3205802",
       "type": "series",
-      "name": "CIA",
-      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
+      "name": "How to Get Away with Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/bJs8Y6T88NcgksxA8UaVl4YX8p8.jpg",
       "posterShape": "poster",
-      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
+      "description": "A sexy, suspense-driven legal thriller about a group of ambitious law students and their brilliant, mysterious criminal defense professor. They become entangled in a murder plot and will shake the entire university and change the course of their lives.",
       "genres": [
         "Crime",
-        "Drama"
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35515227"
+      "releaseInfo": "2014",
+      "imdb_id": "tt3205802"
     },
     {
       "id": "tt14582876",
@@ -187,34 +202,18 @@
       "imdb_id": "tt14582876"
     },
     {
-      "id": "tt3205802",
+      "id": "tt35515227",
       "type": "series",
-      "name": "How to Get Away with Murder",
-      "poster": "https://image.tmdb.org/t/p/w500/bJs8Y6T88NcgksxA8UaVl4YX8p8.jpg",
+      "name": "CIA",
+      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
       "posterShape": "poster",
-      "description": "A sexy, suspense-driven legal thriller about a group of ambitious law students and their brilliant, mysterious criminal defense professor. They become entangled in a murder plot and will shake the entire university and change the course of their lives.",
+      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
       "genres": [
         "Crime",
-        "Drama",
-        "Mystery"
+        "Drama"
       ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt3205802"
-    },
-    {
-      "id": "tt4258440",
-      "type": "series",
-      "name": "River",
-      "poster": "https://image.tmdb.org/t/p/w500/fhiVcu9RA3MEVQtMowwQUsHJfJR.jpg",
-      "posterShape": "poster",
-      "description": "Respected police officer John River, a gifted cop with a troubled mind, struggles to come to terms with the recent loss of a colleague, and chases a suspect across London - with tragic consequences. Now at odds with the authorities, River ends up in a precarious position as he seeks to bring closure to the mother of murdered teenager, who blames him for failing to keep his promise.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4258440"
+      "releaseInfo": "2026",
+      "imdb_id": "tt35515227"
     },
     {
       "id": "tt6037988",
@@ -230,6 +229,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt6037988"
+    },
+    {
+      "id": "tt4258440",
+      "type": "series",
+      "name": "River",
+      "poster": "https://image.tmdb.org/t/p/w500/fhiVcu9RA3MEVQtMowwQUsHJfJR.jpg",
+      "posterShape": "poster",
+      "description": "Respected police officer John River, a gifted cop with a troubled mind, struggles to come to terms with the recent loss of a colleague, and chases a suspect across London - with tragic consequences. Now at odds with the authorities, River ends up in a precarious position as he seeks to bring closure to the mother of murdered teenager, who blames him for failing to keep his promise.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt4258440"
     },
     {
       "id": "tt2304589",
@@ -273,21 +287,6 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt3428912"
-    },
-    {
-      "id": "tt16030542",
-      "type": "series",
-      "name": "The Recruit",
-      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
-      "posterShape": "poster",
-      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt16030542"
     }
   ]
 }
