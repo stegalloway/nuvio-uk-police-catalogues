@@ -142,6 +142,22 @@
       "imdb_id": "tt39143902"
     },
     {
+      "id": "tt14270702",
+      "type": "movie",
+      "name": "God Is a Bullet",
+      "poster": "https://image.tmdb.org/t/p/w500/5kiLS9nsSJxDdlYUyYGiSUt8Fi8.jpg",
+      "posterShape": "poster",
+      "description": "Vice detective Bob Hightower finds his ex-wife murdered and daughter kidnapped by a cult. Frustrated by the botched official investigations, he quits the force and infiltrates the cult to hunt down the leader with the help of the cult’s only female victim escapee, Case Hardin.",
+      "genres": [
+        "Thriller",
+        "Action",
+        "Crime",
+        "Horror"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt14270702"
+    },
+    {
       "id": "tt30955489",
       "type": "movie",
       "name": "Until Dawn",
@@ -253,21 +269,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt22796890"
-    },
-    {
-      "id": "tt35538033",
-      "type": "movie",
-      "name": "Resident Evil",
-      "poster": "https://image.tmdb.org/t/p/w500/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
-      "posterShape": "poster",
-      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
-      "genres": [
-        "Horror",
-        "Science Fiction",
-        "Adventure"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35538033"
     },
     {
       "id": "tt12298506",
