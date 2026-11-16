@@ -57,20 +57,6 @@
       "imdb_id": "tt36958312"
     },
     {
-      "id": "tt15474916",
-      "type": "movie",
-      "name": "Smile",
-      "poster": "https://image.tmdb.org/t/p/w500/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
-      "posterShape": "poster",
-      "description": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15474916"
-    },
-    {
       "id": "tt13405778",
       "type": "movie",
       "name": "Insidious: The Red Door",
@@ -85,18 +71,18 @@
       "imdb_id": "tt13405778"
     },
     {
-      "id": "tt31511689",
+      "id": "tt15474916",
       "type": "movie",
-      "name": "Vicious",
-      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
+      "name": "Smile",
+      "poster": "https://image.tmdb.org/t/p/w500/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
       "posterShape": "poster",
-      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
+      "description": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain.",
       "genres": [
         "Horror",
-        "Thriller"
+        "Mystery"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31511689"
+      "releaseInfo": "2022",
+      "imdb_id": "tt15474916"
     },
     {
       "id": "tt31193180",
@@ -112,6 +98,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt31193180"
+    },
+    {
+      "id": "tt31511689",
+      "type": "movie",
+      "name": "Vicious",
+      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
+      "posterShape": "poster",
+      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31511689"
     },
     {
       "id": "tt39143902",
