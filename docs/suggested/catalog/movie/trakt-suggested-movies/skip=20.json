@@ -31,21 +31,6 @@
       "imdb_id": "tt0373469"
     },
     {
-      "id": "tt0172495",
-      "type": "movie",
-      "name": "Gladiator",
-      "poster": "https://image.tmdb.org/t/p/w500/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg",
-      "posterShape": "poster",
-      "description": "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences.",
-      "genres": [
-        "Action",
-        "Drama",
-        "Adventure"
-      ],
-      "releaseInfo": "2000",
-      "imdb_id": "tt0172495"
-    },
-    {
       "id": "tt10872600",
       "type": "movie",
       "name": "Spider-Man: No Way Home",
@@ -59,6 +44,21 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt10872600"
+    },
+    {
+      "id": "tt0172495",
+      "type": "movie",
+      "name": "Gladiator",
+      "poster": "https://image.tmdb.org/t/p/w500/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg",
+      "posterShape": "poster",
+      "description": "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Adventure"
+      ],
+      "releaseInfo": "2000",
+      "imdb_id": "tt0172495"
     },
     {
       "id": "tt36042156",
