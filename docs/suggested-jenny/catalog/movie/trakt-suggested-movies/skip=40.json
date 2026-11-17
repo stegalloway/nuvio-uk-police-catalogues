@@ -16,20 +16,6 @@
       "imdb_id": "tt1051906"
     },
     {
-      "id": "tt38213251",
-      "type": "movie",
-      "name": "Heartland",
-      "poster": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
-      "posterShape": "poster",
-      "description": "Former country music legend Misty Jones returns to Nashville to unravel the truth behind her rising-star niece's disappearance.",
-      "genres": [
-        "Thriller",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt38213251"
-    },
-    {
       "id": "tt32362890",
       "type": "movie",
       "name": "Thrash",
@@ -42,6 +28,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32362890"
+    },
+    {
+      "id": "tt38213251",
+      "type": "movie",
+      "name": "Heartland",
+      "poster": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
+      "posterShape": "poster",
+      "description": "Former country music legend Misty Jones returns to Nashville to unravel the truth behind her rising-star niece's disappearance.",
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt38213251"
     },
     {
       "id": "tt28129069",
@@ -71,6 +71,20 @@
       "imdb_id": "tt34793095"
     },
     {
+      "id": "tt28498159",
+      "type": "movie",
+      "name": "The Other",
+      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
+      "posterShape": "poster",
+      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt28498159"
+    },
+    {
       "id": "tt35538033",
       "type": "movie",
       "name": "Resident Evil",
@@ -84,20 +98,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35538033"
-    },
-    {
-      "id": "tt28498159",
-      "type": "movie",
-      "name": "The Other",
-      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
-      "posterShape": "poster",
-      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt28498159"
     },
     {
       "id": "tt10303430",
@@ -256,21 +256,6 @@
       "imdb_id": "tt27564844"
     },
     {
-      "id": "tt24248198",
-      "type": "movie",
-      "name": "Adult Swim Yule Log",
-      "poster": "https://image.tmdb.org/t/p/w500/faELFruDaoZQzOKLhrRDBheCSx3.jpg",
-      "posterShape": "poster",
-      "description": "Get in the holiday spirit with this cozy, crackling fire.",
-      "genres": [
-        "Comedy",
-        "Horror",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt24248198"
-    },
-    {
       "id": "tt9419056",
       "type": "movie",
       "name": "The Unholy",
@@ -283,6 +268,20 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt9419056"
+    },
+    {
+      "id": "tt22796890",
+      "type": "movie",
+      "name": "Hell House LLC Origins: The Carmichael Manor",
+      "poster": "https://image.tmdb.org/t/p/w500/bsd1ovBNOhYpQElhlZAqpMo51q6.jpg",
+      "posterShape": "poster",
+      "description": "A group of cold case investigators stay at the Carmichael Manor, site of the grisly and unsolved murders of the Carmichael family back in the eighties. After four nights, the group was never heard from again. What is discovered on their footage is even more disturbing than anything found on the Hell House tapes.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt22796890"
     }
   ]
 }
