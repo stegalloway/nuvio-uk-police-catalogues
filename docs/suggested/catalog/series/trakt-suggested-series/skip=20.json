@@ -30,18 +30,18 @@
       "imdb_id": "tt0439100"
     },
     {
-      "id": "tt0306414",
+      "id": "tt1652216",
       "type": "series",
-      "name": "The Wire",
-      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
+      "name": "DCI Banks",
+      "poster": "https://image.tmdb.org/t/p/w500/5TKwpU4Q04dyZwg5jN80zOrzGgP.jpg",
       "posterShape": "poster",
-      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
+      "description": "A thrilling drama based on the novels by Peter Robinson. Stephen Tompkinson and Andrea Lowe star as the tenacious and stubborn Chief Inspector Alan Banks and the feisty and headstrong Detective Sergeant Annie Cabbot.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0306414"
+      "releaseInfo": "2011",
+      "imdb_id": "tt1652216"
     },
     {
       "id": "tt14063678",
@@ -71,6 +71,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5611024"
+    },
+    {
+      "id": "tt6510950",
+      "type": "series",
+      "name": "Condor",
+      "poster": "https://image.tmdb.org/t/p/w500/xgmkmT4Uik4QpvRipYUxcqNx5yR.jpg",
+      "posterShape": "poster",
+      "description": "Young CIA analyst Joe Turner has his idealism tested when he learns that the CIA has been using an algorithm he developed to spy on American citizens, leading the organization to a terrorist plot that threatens the lives of millions.  Inspired by Sydney Pollack’s 1975 political thriller Three Days of the Condor.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6510950"
     },
     {
       "id": "tt13018148",
@@ -186,20 +200,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt5290382"
-    },
-    {
-      "id": "tt6510950",
-      "type": "series",
-      "name": "Condor",
-      "poster": "https://image.tmdb.org/t/p/w500/xgmkmT4Uik4QpvRipYUxcqNx5yR.jpg",
-      "posterShape": "poster",
-      "description": "Young CIA analyst Joe Turner has his idealism tested when he learns that the CIA has been using an algorithm he developed to spy on American citizens, leading the organization to a terrorist plot that threatens the lives of millions.  Inspired by Sydney Pollack’s 1975 political thriller Three Days of the Condor.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6510950"
     },
     {
       "id": "tt3205802",
