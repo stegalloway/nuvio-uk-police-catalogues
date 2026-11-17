@@ -15,6 +15,21 @@
       "imdb_id": "tt13778486"
     },
     {
+      "id": "tt38773219",
+      "type": "movie",
+      "name": "Ebenezer",
+      "poster": "https://image.tmdb.org/t/p/w500/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
+      "posterShape": "poster",
+      "description": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness.",
+      "genres": [
+        "Fantasy",
+        "Comedy",
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt38773219"
+    },
+    {
       "id": "tt7069210",
       "type": "movie",
       "name": "The Conjuring: The Devil Made Me Do It",
@@ -72,6 +87,20 @@
       "imdb_id": "tt32612507"
     },
     {
+      "id": "tt31511689",
+      "type": "movie",
+      "name": "Vicious",
+      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
+      "posterShape": "poster",
+      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31511689"
+    },
+    {
       "id": "tt33978029",
       "type": "movie",
       "name": "Ready or Not: Here I Come",
@@ -101,36 +130,6 @@
       "imdb_id": "tt31193180"
     },
     {
-      "id": "tt31511689",
-      "type": "movie",
-      "name": "Vicious",
-      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
-      "posterShape": "poster",
-      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31511689"
-    },
-    {
-      "id": "tt14270702",
-      "type": "movie",
-      "name": "God Is a Bullet",
-      "poster": "https://image.tmdb.org/t/p/w500/5kiLS9nsSJxDdlYUyYGiSUt8Fi8.jpg",
-      "posterShape": "poster",
-      "description": "Vice detective Bob Hightower finds his ex-wife murdered and daughter kidnapped by a cult. Frustrated by the botched official investigations, he quits the force and infiltrates the cult to hunt down the leader with the help of the cult’s only female victim escapee, Case Hardin.",
-      "genres": [
-        "Thriller",
-        "Action",
-        "Crime",
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14270702"
-    },
-    {
       "id": "tt39143902",
       "type": "movie",
       "name": "Leviticus",
@@ -157,6 +156,22 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt21201300"
+    },
+    {
+      "id": "tt14270702",
+      "type": "movie",
+      "name": "God Is a Bullet",
+      "poster": "https://image.tmdb.org/t/p/w500/5kiLS9nsSJxDdlYUyYGiSUt8Fi8.jpg",
+      "posterShape": "poster",
+      "description": "Vice detective Bob Hightower finds his ex-wife murdered and daughter kidnapped by a cult. Frustrated by the botched official investigations, he quits the force and infiltrates the cult to hunt down the leader with the help of the cult’s only female victim escapee, Case Hardin.",
+      "genres": [
+        "Thriller",
+        "Action",
+        "Crime",
+        "Horror"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt14270702"
     },
     {
       "id": "tt34494076",
@@ -268,21 +283,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt4196566"
-    },
-    {
-      "id": "tt1051906",
-      "type": "movie",
-      "name": "The Invisible Man",
-      "poster": "https://image.tmdb.org/t/p/w500/5EufsDwXdY2CVttYOk2WtYhgKpa.jpg",
-      "posterShape": "poster",
-      "description": "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
-      "genres": [
-        "Thriller",
-        "Science Fiction",
-        "Horror"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt1051906"
     }
   ]
 }
