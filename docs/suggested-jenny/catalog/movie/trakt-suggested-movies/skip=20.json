@@ -87,20 +87,6 @@
       "imdb_id": "tt13405778"
     },
     {
-      "id": "tt33978029",
-      "type": "movie",
-      "name": "Ready or Not: Here I Come",
-      "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
-      "posterShape": "poster",
-      "description": "Moments after surviving an all-out attack from the Le Domas family, Grace discovers she’s reached the next level of the nightmarish game — and this time with her estranged sister Faith at her side. Grace has one chance to survive, keep her sister alive, and claim the High Seat of the Council that controls the world. Four rival families are hunting her for the throne, and whoever wins rules it all.",
-      "genres": [
-        "Horror",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33978029"
-    },
-    {
       "id": "tt31511689",
       "type": "movie",
       "name": "Vicious",
@@ -113,6 +99,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt31511689"
+    },
+    {
+      "id": "tt33978029",
+      "type": "movie",
+      "name": "Ready or Not: Here I Come",
+      "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+      "posterShape": "poster",
+      "description": "Moments after surviving an all-out attack from the Le Domas family, Grace discovers she’s reached the next level of the nightmarish game — and this time with her estranged sister Faith at her side. Grace has one chance to survive, keep her sister alive, and claim the High Seat of the Council that controls the world. Four rival families are hunting her for the throne, and whoever wins rules it all.",
+      "genres": [
+        "Horror",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33978029"
     },
     {
       "id": "tt31193180",
@@ -160,20 +160,6 @@
       "imdb_id": "tt39143902"
     },
     {
-      "id": "tt21201300",
-      "type": "movie",
-      "name": "Bagman",
-      "poster": "https://image.tmdb.org/t/p/w500/53IK9rlZJbwFYbNnJZiLq7UWxkT.jpg",
-      "posterShape": "poster",
-      "description": "For centuries and across cultures, parents have warned their children of the legendary Bagman, who snatches innocent children and stuffs them into his vile, rotting bag—never to be seen again. Patrick McKee narrowly escaped such an encounter as a boy, which left him with lasting scars throughout his adulthood. Now, Patrick’s childhood tormentor has returned, threatening the safety of his wife Karina and son Jake.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt21201300"
-    },
-    {
       "id": "tt27444133",
       "type": "movie",
       "name": "Shades of Desire",
@@ -186,6 +172,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt27444133"
+    },
+    {
+      "id": "tt21201300",
+      "type": "movie",
+      "name": "Bagman",
+      "poster": "https://image.tmdb.org/t/p/w500/53IK9rlZJbwFYbNnJZiLq7UWxkT.jpg",
+      "posterShape": "poster",
+      "description": "For centuries and across cultures, parents have warned their children of the legendary Bagman, who snatches innocent children and stuffs them into his vile, rotting bag—never to be seen again. Patrick McKee narrowly escaped such an encounter as a boy, which left him with lasting scars throughout his adulthood. Now, Patrick’s childhood tormentor has returned, threatening the safety of his wife Karina and son Jake.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt21201300"
     },
     {
       "id": "tt34494076",

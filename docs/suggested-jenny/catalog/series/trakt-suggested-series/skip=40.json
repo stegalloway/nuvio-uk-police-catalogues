@@ -30,20 +30,6 @@
       "imdb_id": "tt13444912"
     },
     {
-      "id": "tt7985576",
-      "type": "series",
-      "name": "The Serpent",
-      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
-      "posterShape": "poster",
-      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt7985576"
-    },
-    {
       "id": "tt33332385",
       "type": "series",
       "name": "Widow's Bay",
@@ -57,6 +43,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33332385"
+    },
+    {
+      "id": "tt7985576",
+      "type": "series",
+      "name": "The Serpent",
+      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "posterShape": "poster",
+      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt7985576"
     },
     {
       "id": "tt11041332",
@@ -115,19 +115,17 @@
       "imdb_id": "tt32937780"
     },
     {
-      "id": "tt13651632",
+      "id": "tt18970124",
       "type": "series",
-      "name": "Night Stalker: The Hunt for a Serial Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/fOX6cKsDSCRKrDCk4vWFv2MgzM3.jpg",
+      "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/dSwfINzvtVJZYy1L7fsrRfOetAm.jpg",
       "posterShape": "poster",
-      "description": "Beneath the sunlit glamour of 1985 L.A. lurks a relentlessly evil serial killer. In this true-crime story, two detectives won't rest until they catch him.",
+      "description": "He dined with the powerful. He preyed on the vulnerable. Beneath a smiling exterior was the horrifying darkness of a sadistic serial killer.",
       "genres": [
-        "Documentary",
-        "Crime",
-        "Mystery"
+        "Documentary"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt13651632"
+      "releaseInfo": "2022",
+      "imdb_id": "tt18970124"
     },
     {
       "id": "tt43476716",
@@ -144,17 +142,19 @@
       "imdb_id": "tt43476716"
     },
     {
-      "id": "tt18970124",
+      "id": "tt13651632",
       "type": "series",
-      "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/dSwfINzvtVJZYy1L7fsrRfOetAm.jpg",
+      "name": "Night Stalker: The Hunt for a Serial Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/fOX6cKsDSCRKrDCk4vWFv2MgzM3.jpg",
       "posterShape": "poster",
-      "description": "He dined with the powerful. He preyed on the vulnerable. Beneath a smiling exterior was the horrifying darkness of a sadistic serial killer.",
+      "description": "Beneath the sunlit glamour of 1985 L.A. lurks a relentlessly evil serial killer. In this true-crime story, two detectives won't rest until they catch him.",
       "genres": [
-        "Documentary"
+        "Documentary",
+        "Crime",
+        "Mystery"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt18970124"
+      "releaseInfo": "2021",
+      "imdb_id": "tt13651632"
     },
     {
       "id": "tt14111774",
@@ -171,6 +171,20 @@
       "imdb_id": "tt14111774"
     },
     {
+      "id": "tt20560404",
+      "type": "series",
+      "name": "Keep Sweet: Pray and Obey",
+      "poster": "https://image.tmdb.org/t/p/w500/4Nmb8R9fO9ezzTDZKE5hwkPhu7M.jpg",
+      "posterShape": "poster",
+      "description": "In interviews and rare home video footage, ex-FLDS members share the truth about their isolated community — and the events that pushed them to leave.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt20560404"
+    },
+    {
       "id": "tt9813792",
       "type": "series",
       "name": "FROM",
@@ -184,20 +198,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt9813792"
-    },
-    {
-      "id": "tt20560404",
-      "type": "series",
-      "name": "Keep Sweet: Pray and Obey",
-      "poster": "https://image.tmdb.org/t/p/w500/4Nmb8R9fO9ezzTDZKE5hwkPhu7M.jpg",
-      "posterShape": "poster",
-      "description": "In interviews and rare home video footage, ex-FLDS members share the truth about their isolated community — and the events that pushed them to leave.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt20560404"
     },
     {
       "id": "tt26576161",
@@ -228,6 +228,20 @@
       "imdb_id": "tt35590630"
     },
     {
+      "id": "tt11600174",
+      "type": "series",
+      "name": "The Pharmacist",
+      "poster": "https://image.tmdb.org/t/p/w500/kbh8VyM5SVG0P3ingHK8xOlArSw.jpg",
+      "posterShape": "poster",
+      "description": "After his son's tragic death, a Louisiana pharmacist goes to extremes to expose the rampant corruption behind the opioid addiction crisis.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11600174"
+    },
+    {
       "id": "tt1998372",
       "type": "series",
       "name": "Under the Banner of Heaven",
@@ -241,20 +255,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt1998372"
-    },
-    {
-      "id": "tt11600174",
-      "type": "series",
-      "name": "The Pharmacist",
-      "poster": "https://image.tmdb.org/t/p/w500/kbh8VyM5SVG0P3ingHK8xOlArSw.jpg",
-      "posterShape": "poster",
-      "description": "After his son's tragic death, a Louisiana pharmacist goes to extremes to expose the rampant corruption behind the opioid addiction crisis.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11600174"
     },
     {
       "id": "tt11343600",
@@ -272,19 +272,18 @@
       "imdb_id": "tt11343600"
     },
     {
-      "id": "tt11794642",
+      "id": "tt35629774",
       "type": "series",
-      "name": "Big Sky",
-      "poster": "https://image.tmdb.org/t/p/w500/4CUK42x0TvcWvuRXfjAFQlCeRdf.jpg",
+      "name": "Gone Girls: The Long Island Serial Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/vWTep5omXCxFtf5hlUc8VlmFI0u.jpg",
       "posterShape": "poster",
-      "description": "Private detective Cassie Dewell partners with ex-cop Jenny Hoyt on a search for two sisters who have been kidnapped by a truck driver on a remote highway in Montana. When they discover that these are not the only girls who have disappeared in the area, they must race against the clock to stop the perpetrator before another woman is taken.",
+      "description": "This tense true-crime series examines the hunt for the Long Island serial killer through the perspective of his victims, their loved ones and the police.",
       "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
+        "Documentary",
+        "Crime"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11794642"
+      "releaseInfo": "2025",
+      "imdb_id": "tt35629774"
     }
   ]
 }

@@ -44,20 +44,6 @@
       "imdb_id": "tt32362890"
     },
     {
-      "id": "tt38213251",
-      "type": "movie",
-      "name": "Heartland",
-      "poster": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
-      "posterShape": "poster",
-      "description": "Former country music legend Misty Jones returns to Nashville to unravel the truth behind her rising-star niece's disappearance.",
-      "genres": [
-        "Thriller",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt38213251"
-    },
-    {
       "id": "tt28129069",
       "type": "movie",
       "name": "Cheat",
@@ -70,6 +56,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt28129069"
+    },
+    {
+      "id": "tt38213251",
+      "type": "movie",
+      "name": "Heartland",
+      "poster": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
+      "posterShape": "poster",
+      "description": "Former country music legend Misty Jones returns to Nashville to unravel the truth behind her rising-star niece's disappearance.",
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt38213251"
     },
     {
       "id": "tt34793095",
@@ -228,19 +228,6 @@
       "imdb_id": "tt30955489"
     },
     {
-      "id": "tt0070047",
-      "type": "movie",
-      "name": "The Exorcist",
-      "poster": "https://image.tmdb.org/t/p/w500/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
-      "posterShape": "poster",
-      "description": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "1973",
-      "imdb_id": "tt0070047"
-    },
-    {
       "id": "tt11245972",
       "type": "movie",
       "name": "Scream",
@@ -253,6 +240,19 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11245972"
+    },
+    {
+      "id": "tt0070047",
+      "type": "movie",
+      "name": "The Exorcist",
+      "poster": "https://image.tmdb.org/t/p/w500/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
+      "posterShape": "poster",
+      "description": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "1973",
+      "imdb_id": "tt0070047"
     },
     {
       "id": "tt9419056",
@@ -269,19 +269,18 @@
       "imdb_id": "tt9419056"
     },
     {
-      "id": "tt27564844",
+      "id": "tt22796890",
       "type": "movie",
-      "name": "Iron Lung",
-      "poster": "https://image.tmdb.org/t/p/w500/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
+      "name": "Hell House LLC Origins: The Carmichael Manor",
+      "poster": "https://image.tmdb.org/t/p/w500/bsd1ovBNOhYpQElhlZAqpMo51q6.jpg",
       "posterShape": "poster",
-      "description": "In a post-apocalyptic future where an event known as \"The Quiet Rapture\" caused all known stars and habitable planets in the universe to disappear, a convict is sent to search an ocean of blood discovered on a desolate moon, using a small submarine nicknamed the \"Iron Lung\".",
+      "description": "A group of cold case investigators stay at the Carmichael Manor, site of the grisly and unsolved murders of the Carmichael family back in the eighties. After four nights, the group was never heard from again. What is discovered on their footage is even more disturbing than anything found on the Hell House tapes.",
       "genres": [
         "Horror",
-        "Mystery",
-        "Science Fiction"
+        "Mystery"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt27564844"
+      "releaseInfo": "2023",
+      "imdb_id": "tt22796890"
     }
   ]
 }
