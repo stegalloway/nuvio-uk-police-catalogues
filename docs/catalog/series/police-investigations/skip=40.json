@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tmdb:222449",
-      "type": "series",
-      "name": "Cold Case Detectives",
-      "poster": "https://image.tmdb.org/t/p/w500/r4FIgbAOpSO0q04AGhRpOFhTu86.jpg",
-      "posterShape": "poster",
-      "description": "Using the latest developments in forensic science to uncover new evidence, a specialist team of cold case detectives from South Wales Police are determined to finally get justice for six-year-old Carol Ann Stephens.",
-      "releaseInfo": "2023",
-      "genres": [
-        "Crime",
-        "Documentary"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/8kix6aEkdO3f1vW9lFws04AjMhO.jpg"
-    },
-    {
       "id": "tt4116046",
       "type": "series",
       "name": "24 Hours in Police Custody",

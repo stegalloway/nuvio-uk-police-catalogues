@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt34581163",
-      "type": "series",
-      "name": "Merseyside Detectives: The Murders of Ashley and Olivia",
-      "poster": "https://image.tmdb.org/t/p/w500/92tA7HtLO5NZrsNQCbybOCXVzuc.jpg",
-      "posterShape": "poster",
-      "description": "Liverpool, 2022 - Ashley Dale and nine-year-old Olivia Pratt-Korbel are shot dead at home, victims of feuding gangs. Can the police bring the killers to justice?",
-      "releaseInfo": "2024",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "background": "https://image.tmdb.org/t/p/w1280/7PkwDNKdWFWNeyebbNY7WoZsKIT.jpg"
-    },
-    {
       "id": "tt24805866",
       "type": "series",
       "name": "Big Little Crimes",
