@@ -176,6 +176,21 @@
       "imdb_id": "tt5743796"
     },
     {
+      "id": "tt33043892",
+      "type": "series",
+      "name": "Dexter: Resurrection",
+      "poster": "https://image.tmdb.org/t/p/w500/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
+      "posterShape": "poster",
+      "description": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt33043892"
+    },
+    {
       "id": "tt1637727",
       "type": "series",
       "name": "The Killing",
@@ -277,20 +292,6 @@
       ],
       "releaseInfo": "2005",
       "imdb_id": "tt0460627"
-    },
-    {
-      "id": "tt8014982",
-      "type": "series",
-      "name": "The Body",
-      "poster": "https://image.tmdb.org/t/p/w500/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
-      "posterShape": "poster",
-      "description": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt8014982"
     }
   ]
 }
