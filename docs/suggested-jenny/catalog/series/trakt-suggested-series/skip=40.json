@@ -274,18 +274,17 @@
       "imdb_id": "tt11822998"
     },
     {
-      "id": "tt10946316",
+      "id": "tt11055882",
       "type": "series",
-      "name": "The Institute",
-      "poster": "https://image.tmdb.org/t/p/w500/4MwXkOAMd9ObxdacasPFM32n9dZ.jpg",
+      "name": "Good Sam",
+      "poster": "https://image.tmdb.org/t/p/w500/3daYD4eYimoQaPyKIgCADKUovcJ.jpg",
       "posterShape": "poster",
-      "description": "When 14 year old genius Luke Ellis is kidnapped, he awakens at The Institute, a facility full of children who all got there the same way he did, and who are all possessed of unusual abilities. In a nearby town, haunted former police officer Tim Jamieson has come looking to start a new life, but the peace and quiet won’t last, as his story and Luke’s are destined to collide.",
+      "description": "A gifted heart surgeon excels in her new leadership role as Chief of Surgery after her renowned boss falls into a coma. When her former boss wakes up months later demanding to resume his duties, Sam is tasked with supervising this egotistical expert with a scalpel who never acknowledged her stellar talent.",
       "genres": [
-        "Mystery",
-        "Sci-Fi & Fantasy"
+        "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt10946316"
+      "releaseInfo": "2022",
+      "imdb_id": "tt11055882"
     }
   ]
 }
