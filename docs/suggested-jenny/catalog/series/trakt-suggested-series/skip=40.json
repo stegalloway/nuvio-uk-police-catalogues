@@ -1,18 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt34579520",
+      "id": "tt11041332",
       "type": "series",
-      "name": "Murder Before Evensong",
-      "poster": "https://image.tmdb.org/t/p/w500/xn7TFZnR9U2KpJovIg5F1WZ1qs2.jpg",
+      "name": "Yellowjackets",
+      "poster": "https://image.tmdb.org/t/p/w500/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
       "posterShape": "poster",
-      "description": "In 1980s England, Canon Daniel Clement, the Rector of Champton, finds himself unexpectedly entangled in a murder case when a dead body turns up in the church. When Daniel announces a plan to modernize the church, the parish is suddenly divided. And then a body is found dead at the back of the church. As the police move in and the bodies start piling up, Daniel is the only one who can try and keep his fractured community together... and catch a killer.",
+      "description": "This equal parts survival epic, psychological horror story and coming-of-age drama tells the saga of a team of wildly talented high school girls soccer players who become the (un)lucky survivors of a plane crash deep in the remote northern wilderness. The series chronicles their descent from a complicated but thriving team to savage clans, while also tracking the lives they’ve attempted to piece back together nearly 25 years later.",
       "genres": [
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt34579520"
+      "releaseInfo": "2021",
+      "imdb_id": "tt11041332"
     },
     {
       "id": "tt33332385",
@@ -274,17 +274,18 @@
       "imdb_id": "tt11822998"
     },
     {
-      "id": "tt11055882",
+      "id": "tt10946316",
       "type": "series",
-      "name": "Good Sam",
-      "poster": "https://image.tmdb.org/t/p/w500/3daYD4eYimoQaPyKIgCADKUovcJ.jpg",
+      "name": "The Institute",
+      "poster": "https://image.tmdb.org/t/p/w500/4MwXkOAMd9ObxdacasPFM32n9dZ.jpg",
       "posterShape": "poster",
-      "description": "A gifted heart surgeon excels in her new leadership role as Chief of Surgery after her renowned boss falls into a coma. When her former boss wakes up months later demanding to resume his duties, Sam is tasked with supervising this egotistical expert with a scalpel who never acknowledged her stellar talent.",
+      "description": "When 14 year old genius Luke Ellis is kidnapped, he awakens at The Institute, a facility full of children who all got there the same way he did, and who are all possessed of unusual abilities. In a nearby town, haunted former police officer Tim Jamieson has come looking to start a new life, but the peace and quiet won’t last, as his story and Luke’s are destined to collide.",
       "genres": [
-        "Drama"
+        "Mystery",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11055882"
+      "releaseInfo": "2025",
+      "imdb_id": "tt10946316"
     }
   ]
 }
