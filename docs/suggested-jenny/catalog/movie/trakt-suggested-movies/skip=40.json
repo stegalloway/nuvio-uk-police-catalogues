@@ -99,20 +99,6 @@
       "imdb_id": "tt28498159"
     },
     {
-      "id": "tt10303430",
-      "type": "movie",
-      "name": "Sightless",
-      "poster": "https://image.tmdb.org/t/p/w500/rYCVKmkl1l9tbcCvrDSMERsRpmE.jpg",
-      "posterShape": "poster",
-      "description": "After an attack renders her blind, Ellen withdraws from the world to recover. But soon she plunges into paranoia, unable to convince anyone that her assailant has returned to terrorize her by hiding in plain sight.",
-      "genres": [
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10303430"
-    },
-    {
       "id": "tt35538033",
       "type": "movie",
       "name": "Resident Evil",
@@ -126,6 +112,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35538033"
+    },
+    {
+      "id": "tt10303430",
+      "type": "movie",
+      "name": "Sightless",
+      "poster": "https://image.tmdb.org/t/p/w500/rYCVKmkl1l9tbcCvrDSMERsRpmE.jpg",
+      "posterShape": "poster",
+      "description": "After an attack renders her blind, Ellen withdraws from the world to recover. But soon she plunges into paranoia, unable to convince anyone that her assailant has returned to terrorize her by hiding in plain sight.",
+      "genres": [
+        "Thriller",
+        "Horror"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10303430"
     },
     {
       "id": "tt10954984",

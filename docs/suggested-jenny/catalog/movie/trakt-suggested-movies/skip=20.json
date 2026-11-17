@@ -59,20 +59,6 @@
       "imdb_id": "tt36958312"
     },
     {
-      "id": "tt13405778",
-      "type": "movie",
-      "name": "Insidious: The Red Door",
-      "poster": "https://image.tmdb.org/t/p/w500/d07phJqCx6z5wILDYqkyraorDPi.jpg",
-      "posterShape": "poster",
-      "description": "To put their demons to rest once and for all, Josh Lambert and a college-aged Dalton Lambert must go deeper into The Further than ever before, facing their family's dark past and a host of new and more horrifying terrors that lurk behind the red door.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt13405778"
-    },
-    {
       "id": "tt32612507",
       "type": "movie",
       "name": "Lee Cronin's The Mummy",
@@ -87,18 +73,18 @@
       "imdb_id": "tt32612507"
     },
     {
-      "id": "tt31511689",
+      "id": "tt13405778",
       "type": "movie",
-      "name": "Vicious",
-      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
+      "name": "Insidious: The Red Door",
+      "poster": "https://image.tmdb.org/t/p/w500/d07phJqCx6z5wILDYqkyraorDPi.jpg",
       "posterShape": "poster",
-      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
+      "description": "To put their demons to rest once and for all, Josh Lambert and a college-aged Dalton Lambert must go deeper into The Further than ever before, facing their family's dark past and a host of new and more horrifying terrors that lurk behind the red door.",
       "genres": [
         "Horror",
         "Thriller"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31511689"
+      "releaseInfo": "2023",
+      "imdb_id": "tt13405778"
     },
     {
       "id": "tt33978029",
@@ -113,6 +99,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33978029"
+    },
+    {
+      "id": "tt31511689",
+      "type": "movie",
+      "name": "Vicious",
+      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
+      "posterShape": "poster",
+      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31511689"
     },
     {
       "id": "tt31193180",
@@ -130,20 +130,6 @@
       "imdb_id": "tt31193180"
     },
     {
-      "id": "tt39143902",
-      "type": "movie",
-      "name": "Leviticus",
-      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
-      "posterShape": "poster",
-      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
-      "genres": [
-        "Horror",
-        "Romance"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt39143902"
-    },
-    {
       "id": "tt14270702",
       "type": "movie",
       "name": "God Is a Bullet",
@@ -158,6 +144,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt14270702"
+    },
+    {
+      "id": "tt39143902",
+      "type": "movie",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+      "posterShape": "poster",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
+      "genres": [
+        "Horror",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
     },
     {
       "id": "tt21201300",
@@ -216,20 +216,6 @@
       "imdb_id": "tt14509110"
     },
     {
-      "id": "tt8004664",
-      "type": "movie",
-      "name": "Come Play",
-      "poster": "https://image.tmdb.org/t/p/w500/9jy9OzZi0Oy8Hdv603QWujbfCwx.jpg",
-      "posterShape": "poster",
-      "description": "Oliver, a lonely autistic boy, seeks solace and refuge in his ever-present cell phone and tablet. When a mysterious creature uses the boy's devices against him, his parents must fight to save their son from the monster beyond the screen.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt8004664"
-    },
-    {
       "id": "tt12298506",
       "type": "movie",
       "name": "Black Box",
@@ -242,6 +228,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt12298506"
+    },
+    {
+      "id": "tt8004664",
+      "type": "movie",
+      "name": "Come Play",
+      "poster": "https://image.tmdb.org/t/p/w500/9jy9OzZi0Oy8Hdv603QWujbfCwx.jpg",
+      "posterShape": "poster",
+      "description": "Oliver, a lonely autistic boy, seeks solace and refuge in his ever-present cell phone and tablet. When a mysterious creature uses the boy's devices against him, his parents must fight to save their son from the monster beyond the screen.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt8004664"
     },
     {
       "id": "tt10306450",

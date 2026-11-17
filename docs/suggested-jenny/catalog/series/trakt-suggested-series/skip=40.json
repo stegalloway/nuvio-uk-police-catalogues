@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt34579520",
+      "type": "series",
+      "name": "Murder Before Evensong",
+      "poster": "https://image.tmdb.org/t/p/w500/xn7TFZnR9U2KpJovIg5F1WZ1qs2.jpg",
+      "posterShape": "poster",
+      "description": "In 1980s England, Canon Daniel Clement, the Rector of Champton, finds himself unexpectedly entangled in a murder case when a dead body turns up in the church. When Daniel announces a plan to modernize the church, the parish is suddenly divided. And then a body is found dead at the back of the church. As the police move in and the bodies start piling up, Daniel is the only one who can try and keep his fractured community together... and catch a killer.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt34579520"
+    },
+    {
       "id": "tt11041332",
       "type": "series",
       "name": "Yellowjackets",
@@ -30,6 +44,20 @@
       "imdb_id": "tt33332385"
     },
     {
+      "id": "tt21946032",
+      "type": "series",
+      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
+      "posterShape": "poster",
+      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt21946032"
+    },
+    {
       "id": "tt32937780",
       "type": "series",
       "name": "Something Very Bad Is Going to Happen",
@@ -44,21 +72,6 @@
       "imdb_id": "tt32937780"
     },
     {
-      "id": "tt9642938",
-      "type": "series",
-      "name": "Unsolved Mysteries",
-      "poster": "https://image.tmdb.org/t/p/w500/5Gn9hoJZUiJX5yb4datIcoq3Day.jpg",
-      "posterShape": "poster",
-      "description": "Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this gripping revival of the iconic documentary series.",
-      "genres": [
-        "Documentary",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9642938"
-    },
-    {
       "id": "tt26576161",
       "type": "series",
       "name": "The Terminal List: Dark Wolf",
@@ -71,6 +84,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt26576161"
+    },
+    {
+      "id": "tt11141900",
+      "type": "series",
+      "name": "Ted Bundy: Falling for a Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
+      "posterShape": "poster",
+      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11141900"
     },
     {
       "id": "tt9813792",
@@ -88,18 +115,18 @@
       "imdb_id": "tt9813792"
     },
     {
-      "id": "tt21946032",
+      "id": "tt11822998",
       "type": "series",
-      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
+      "name": "The Trials of Gabriel Fernandez",
+      "poster": "https://image.tmdb.org/t/p/w500/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
       "posterShape": "poster",
-      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
+      "description": "A boy’s brutal murder and the public trials of his guardians and social workers prompt questions about the system’s protection of vulnerable children.",
       "genres": [
         "Documentary",
         "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt21946032"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11822998"
     },
     {
       "id": "tt1998372",
@@ -145,6 +172,21 @@
       "imdb_id": "tt11794642"
     },
     {
+      "id": "tt13651632",
+      "type": "series",
+      "name": "Night Stalker: The Hunt for a Serial Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/fOX6cKsDSCRKrDCk4vWFv2MgzM3.jpg",
+      "posterShape": "poster",
+      "description": "Beneath the sunlit glamour of 1985 L.A. lurks a relentlessly evil serial killer. In this true-crime story, two detectives won't rest until they catch him.",
+      "genres": [
+        "Documentary",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt13651632"
+    },
+    {
       "id": "tt11343600",
       "type": "series",
       "name": "Brand New Cherry Flavor",
@@ -160,33 +202,32 @@
       "imdb_id": "tt11343600"
     },
     {
-      "id": "tt11141900",
+      "id": "tt11475228",
       "type": "series",
-      "name": "Ted Bundy: Falling for a Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
+      "name": "Killer Inside: The Mind of Aaron Hernandez",
+      "poster": "https://image.tmdb.org/t/p/w500/2MfrqxkMGIqsCHYTz2pMhEoOJpB.jpg",
       "posterShape": "poster",
-      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
+      "description": "Via interviews with friends, players and insiders, this docuseries examines how Aaron Hernandez went from an NFL star to a convicted killer.",
       "genres": [
         "Documentary",
         "Crime"
       ],
       "releaseInfo": "2020",
-      "imdb_id": "tt11141900"
+      "imdb_id": "tt11475228"
     },
     {
-      "id": "tt28118211",
+      "id": "tt35590630",
       "type": "series",
-      "name": "A Good Girl's Guide to Murder",
-      "poster": "https://image.tmdb.org/t/p/w500/pVV62HbgLP7JsZv096XmjPZtjdP.jpg",
+      "name": "American Murder: Gabby Petito",
+      "poster": "https://image.tmdb.org/t/p/w500/83PrIV5PH124m1sR4UIubm7E9sO.jpg",
       "posterShape": "poster",
-      "description": "Five years after the death of schoolgirl Andie Bell, Pippa Fitz-Amobi sets out to uncover what really happened to her. Sal Singh, Andie's boyfriend, admitted to the murder before taking his own life, but Pip doesn't believe he's responsible and teams up with Sal's brother Ravi to uncover the truth. If Sal Singh isn't a murderer and the real killer is still out there, how far will they go to keep Pip from finding out the truth?",
+      "description": "What happened in the final days of Gabby Petito's life? In this gripping true-crime series, her loved ones reveal the untold story of her tragic murder.",
       "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
+        "Documentary",
+        "Crime"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt28118211"
+      "releaseInfo": "2025",
+      "imdb_id": "tt35590630"
     },
     {
       "id": "tt5611024",
@@ -204,33 +245,19 @@
       "imdb_id": "tt5611024"
     },
     {
-      "id": "tt15669534",
+      "id": "tt28118211",
       "type": "series",
-      "name": "Tales of the Walking Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
+      "name": "A Good Girl's Guide to Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/pVV62HbgLP7JsZv096XmjPZtjdP.jpg",
       "posterShape": "poster",
-      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
+      "description": "Five years after the death of schoolgirl Andie Bell, Pippa Fitz-Amobi sets out to uncover what really happened to her. Sal Singh, Andie's boyfriend, admitted to the murder before taking his own life, but Pip doesn't believe he's responsible and teams up with Sal's brother Ravi to uncover the truth. If Sal Singh isn't a murderer and the real killer is still out there, how far will they go to keep Pip from finding out the truth?",
       "genres": [
         "Drama",
-        "Action & Adventure",
-        "Sci-Fi & Fantasy"
+        "Crime",
+        "Mystery"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15669534"
-    },
-    {
-      "id": "tt19500224",
-      "type": "series",
-      "name": "Based on a True Story",
-      "poster": "https://image.tmdb.org/t/p/w500/5xPLk78TFStBi1dQAlG2mnoSK60.jpg",
-      "posterShape": "poster",
-      "description": "The lives of a realtor, a plumber and a former tennis star unexpectedly collide, exposing America’s obsession with true crime, murder and the slow-close toilet seat.",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt19500224"
+      "releaseInfo": "2024",
+      "imdb_id": "tt28118211"
     },
     {
       "id": "tt14016500",
@@ -246,46 +273,19 @@
       "imdb_id": "tt14016500"
     },
     {
-      "id": "tt16288838",
+      "id": "tt15669534",
       "type": "series",
-      "name": "The Irrational",
-      "poster": "https://image.tmdb.org/t/p/w500/jJtOpfgV4iPu9RtxllHwZgn9dqI.jpg",
+      "name": "Tales of the Walking Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/zRMUHvTgQ79zteQafNI46Nd9XFm.jpg",
       "posterShape": "poster",
-      "description": "Alec Mercer is a world-renowned professor of behavioral psychology with a unique insight into human nature who lends his expertise to an array of high-stakes cases involving governments, corporations and law enforcement. However, he meets his match in a female domestic terror suspect who turns his world upside down.",
+      "description": "An episodic anthology series focused on both new and established characters set in the world of \"The Walking Dead.\"",
       "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt16288838"
-    },
-    {
-      "id": "tt11822998",
-      "type": "series",
-      "name": "The Trials of Gabriel Fernandez",
-      "poster": "https://image.tmdb.org/t/p/w500/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
-      "posterShape": "poster",
-      "description": "A boy’s brutal murder and the public trials of his guardians and social workers prompt questions about the system’s protection of vulnerable children.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11822998"
-    },
-    {
-      "id": "tt10946316",
-      "type": "series",
-      "name": "The Institute",
-      "poster": "https://image.tmdb.org/t/p/w500/4MwXkOAMd9ObxdacasPFM32n9dZ.jpg",
-      "posterShape": "poster",
-      "description": "When 14 year old genius Luke Ellis is kidnapped, he awakens at The Institute, a facility full of children who all got there the same way he did, and who are all possessed of unusual abilities. In a nearby town, haunted former police officer Tim Jamieson has come looking to start a new life, but the peace and quiet won’t last, as his story and Luke’s are destined to collide.",
-      "genres": [
-        "Mystery",
+        "Drama",
+        "Action & Adventure",
         "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt10946316"
+      "releaseInfo": "2022",
+      "imdb_id": "tt15669534"
     }
   ]
 }
