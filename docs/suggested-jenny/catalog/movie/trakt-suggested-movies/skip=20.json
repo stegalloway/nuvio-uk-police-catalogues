@@ -173,6 +173,20 @@
       "imdb_id": "tt21201300"
     },
     {
+      "id": "tt27444133",
+      "type": "movie",
+      "name": "Shades of Desire",
+      "poster": "https://image.tmdb.org/t/p/w500/3E3TAy3fSksFDJ4TS6maL9xNEgU.jpg",
+      "posterShape": "poster",
+      "description": "After her twin sister Aubrey goes missing, Jennifer uncovers the scandalous, secret double-life that Aubrey leads - and that has put both of them in danger.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt27444133"
+    },
+    {
       "id": "tt14270702",
       "type": "movie",
       "name": "God Is a Bullet",
@@ -217,20 +231,6 @@
       "imdb_id": "tt14509110"
     },
     {
-      "id": "tt12298506",
-      "type": "movie",
-      "name": "Black Box",
-      "poster": "https://image.tmdb.org/t/p/w500/ldlpTitpSTBINwgifzlRRXveXUF.jpg",
-      "posterShape": "poster",
-      "description": "After losing his wife and his memory in a car accident, a single father undergoes an experimental treatment that causes him to question who he really is.",
-      "genres": [
-        "Horror",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt12298506"
-    },
-    {
       "id": "tt8004664",
       "type": "movie",
       "name": "Come Play",
@@ -243,6 +243,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt8004664"
+    },
+    {
+      "id": "tt12298506",
+      "type": "movie",
+      "name": "Black Box",
+      "poster": "https://image.tmdb.org/t/p/w500/ldlpTitpSTBINwgifzlRRXveXUF.jpg",
+      "posterShape": "poster",
+      "description": "After losing his wife and his memory in a car accident, a single father undergoes an experimental treatment that causes him to question who he really is.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt12298506"
     },
     {
       "id": "tt10306450",
@@ -271,19 +285,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32358390"
-    },
-    {
-      "id": "tt3065204",
-      "type": "movie",
-      "name": "The Conjuring 2",
-      "poster": "https://image.tmdb.org/t/p/w500/zEqyD0SBt6HL7W9JQoWwtd5Do1T.jpg",
-      "posterShape": "poster",
-      "description": "Lorraine and Ed Warren travel to north London to help a single mother raising four children alone in a house plagued by malicious spirits.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt3065204"
     }
   ]
 }
