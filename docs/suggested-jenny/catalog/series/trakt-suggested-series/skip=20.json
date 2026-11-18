@@ -74,20 +74,6 @@
       "imdb_id": "tt31458276"
     },
     {
-      "id": "tt8354062",
-      "type": "series",
-      "name": "One of Us Is Lying",
-      "poster": "https://image.tmdb.org/t/p/w500/hKMpbHY7xqFKaBR8W7jE61JlQB6.jpg",
-      "posterShape": "poster",
-      "description": "The story of what happens when five high schoolers walk into detention and only four make it out alive. Everyone is a suspect, and everyone has something to hide.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt8354062"
-    },
-    {
       "id": "tt34771210",
       "type": "series",
       "name": "I Will Find You",
@@ -103,17 +89,18 @@
       "imdb_id": "tt34771210"
     },
     {
-      "id": "tt31938062",
+      "id": "tt8354062",
       "type": "series",
-      "name": "The Pitt",
-      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+      "name": "One of Us Is Lying",
+      "poster": "https://image.tmdb.org/t/p/w500/hKMpbHY7xqFKaBR8W7jE61JlQB6.jpg",
       "posterShape": "poster",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "description": "The story of what happens when five high schoolers walk into detention and only four make it out alive. Everyone is a suspect, and everyone has something to hide.",
       "genres": [
-        "Drama"
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31938062"
+      "releaseInfo": "2021",
+      "imdb_id": "tt8354062"
     },
     {
       "id": "tt11173006",
@@ -127,6 +114,19 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11173006"
+    },
+    {
+      "id": "tt31938062",
+      "type": "series",
+      "name": "The Pitt",
+      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+      "posterShape": "poster",
+      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31938062"
     },
     {
       "id": "tt8415836",
@@ -233,7 +233,7 @@
       "id": "tt8014982",
       "type": "series",
       "name": "The Body",
-      "poster": "https://image.tmdb.org/t/p/w500/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/zleCYDRbW5mKwgZwVK4SNIrKXWx.jpg",
       "posterShape": "poster",
       "description": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
       "genres": [
