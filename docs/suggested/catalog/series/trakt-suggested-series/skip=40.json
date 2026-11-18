@@ -73,20 +73,6 @@
       "imdb_id": "tt37063558"
     },
     {
-      "id": "tt30796986",
-      "type": "series",
-      "name": "NCIS: Origins",
-      "poster": "https://image.tmdb.org/t/p/w500/mgn4Vxx5PHIcKUBSsSecDlahIBH.jpg",
-      "posterShape": "poster",
-      "description": "In 1991, years prior to the events of NCIS, Leroy Jethro Gibbs starts his career as a newly minted special agent at the fledgling NCIS Camp Pendleton office, where he forges his place on a gritty, ragtag team led by NCIS legend Mike Franks.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt30796986"
-    },
-    {
       "id": "tt5675620",
       "type": "series",
       "name": "Marvel's The Punisher",
@@ -177,20 +163,6 @@
       "imdb_id": "tt5164196"
     },
     {
-      "id": "tt2433738",
-      "type": "series",
-      "name": "Wentworth",
-      "poster": "https://image.tmdb.org/t/p/w500/3nikr0NE3t8UMgI1Ba6hXaeEgKr.jpg",
-      "posterShape": "poster",
-      "description": "Bea Smith is locked up while awaiting trial for the attempted murder of her husband and must learn how life works in prison. A modern adaptation and sequel of the iconic Prisoner series.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2433738"
-    },
-    {
       "id": "tt10327354",
       "type": "series",
       "name": "Prodigal Son",
@@ -204,6 +176,20 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt10327354"
+    },
+    {
+      "id": "tt2433738",
+      "type": "series",
+      "name": "Wentworth",
+      "poster": "https://image.tmdb.org/t/p/w500/3nikr0NE3t8UMgI1Ba6hXaeEgKr.jpg",
+      "posterShape": "poster",
+      "description": "Bea Smith is locked up while awaiting trial for the attempted murder of her husband and must learn how life works in prison. A modern adaptation and sequel of the iconic Prisoner series.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2013",
+      "imdb_id": "tt2433738"
     },
     {
       "id": "tt33043892",
@@ -291,6 +277,21 @@
       ],
       "releaseInfo": "2013",
       "imdb_id": "tt2188671"
+    },
+    {
+      "id": "tt5722298",
+      "type": "series",
+      "name": "Private Eyes",
+      "poster": "https://image.tmdb.org/t/p/w500/yPt9IuY2D8g6Lpwh8O8wCDixzt9.jpg",
+      "posterShape": "poster",
+      "description": "Ex-pro hockey player Matt Shade irrevocably changes his life when he teams up with fierce P.I. Angie Everett to form an unlikely investigative powerhouse.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Comedy"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt5722298"
     }
   ]
 }
