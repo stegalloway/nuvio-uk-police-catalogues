@@ -72,20 +72,6 @@
       "imdb_id": "tt34793095"
     },
     {
-      "id": "tt38213251",
-      "type": "movie",
-      "name": "Heartland",
-      "poster": "https://image.tmdb.org/t/p/w500/azArOQaVxKa3367XJv2l4ewjsdB.jpg",
-      "posterShape": "poster",
-      "description": "Former country music legend Misty Jones returns to Nashville to unravel the truth behind her rising-star niece's disappearance.",
-      "genres": [
-        "Thriller",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt38213251"
-    },
-    {
       "id": "tt10303430",
       "type": "movie",
       "name": "Sightless",
@@ -98,6 +84,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt10303430"
+    },
+    {
+      "id": "tt38213251",
+      "type": "movie",
+      "name": "Heartland",
+      "poster": "https://image.tmdb.org/t/p/w500/azArOQaVxKa3367XJv2l4ewjsdB.jpg",
+      "posterShape": "poster",
+      "description": "Former country music legend Misty Jones returns to Nashville to unravel the truth behind her rising-star niece's disappearance.",
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt38213251"
     },
     {
       "id": "tt10954984",
@@ -143,6 +143,20 @@
       "imdb_id": "tt24807110"
     },
     {
+      "id": "tt13345606",
+      "type": "movie",
+      "name": "Evil Dead Rise",
+      "poster": "https://image.tmdb.org/t/p/w500/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg",
+      "posterShape": "poster",
+      "description": "A reunion between two estranged sisters gets cut short by the rise of flesh-possessing demons, thrusting them into a primal battle for survival as they face the most nightmarish version of family imaginable.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt13345606"
+    },
+    {
       "id": "tt10377864",
       "type": "movie",
       "name": "Beware Boiúna",
@@ -156,20 +170,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt10377864"
-    },
-    {
-      "id": "tt13345606",
-      "type": "movie",
-      "name": "Evil Dead Rise",
-      "poster": "https://image.tmdb.org/t/p/w500/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg",
-      "posterShape": "poster",
-      "description": "A reunion between two estranged sisters gets cut short by the rise of flesh-possessing demons, thrusting them into a primal battle for survival as they face the most nightmarish version of family imaginable.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt13345606"
     },
     {
       "id": "tt30955489",
@@ -186,19 +186,6 @@
       "imdb_id": "tt30955489"
     },
     {
-      "id": "tt0070047",
-      "type": "movie",
-      "name": "The Exorcist",
-      "poster": "https://image.tmdb.org/t/p/w500/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
-      "posterShape": "poster",
-      "description": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "1973",
-      "imdb_id": "tt0070047"
-    },
-    {
       "id": "tt11245972",
       "type": "movie",
       "name": "Scream",
@@ -211,6 +198,19 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11245972"
+    },
+    {
+      "id": "tt0070047",
+      "type": "movie",
+      "name": "The Exorcist",
+      "poster": "https://image.tmdb.org/t/p/w500/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
+      "posterShape": "poster",
+      "description": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "1973",
+      "imdb_id": "tt0070047"
     },
     {
       "id": "tt9419056",
