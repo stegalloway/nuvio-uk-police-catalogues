@@ -58,6 +58,19 @@
       "imdb_id": "tt28129069"
     },
     {
+      "id": "tt34793095",
+      "type": "movie",
+      "name": "Play Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/ixWeYfvXT9AbfM0QPb9kwbVLbLV.jpg",
+      "posterShape": "poster",
+      "description": "A woman wakes up injured in a basement surrounded by corpses. To survive, she pretends to be dead while a grotesque ritual unfolds in the house above.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt34793095"
+    },
+    {
       "id": "tt38213251",
       "type": "movie",
       "name": "Heartland",
@@ -70,19 +83,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt38213251"
-    },
-    {
-      "id": "tt34793095",
-      "type": "movie",
-      "name": "Play Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/ixWeYfvXT9AbfM0QPb9kwbVLbLV.jpg",
-      "posterShape": "poster",
-      "description": "A woman wakes up injured in a basement surrounded by corpses. To survive, she pretends to be dead while a grotesque ritual unfolds in the house above.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt34793095"
     },
     {
       "id": "tt28498159",
@@ -99,6 +99,20 @@
       "imdb_id": "tt28498159"
     },
     {
+      "id": "tt10303430",
+      "type": "movie",
+      "name": "Sightless",
+      "poster": "https://image.tmdb.org/t/p/w500/rYCVKmkl1l9tbcCvrDSMERsRpmE.jpg",
+      "posterShape": "poster",
+      "description": "After an attack renders her blind, Ellen withdraws from the world to recover. But soon she plunges into paranoia, unable to convince anyone that her assailant has returned to terrorize her by hiding in plain sight.",
+      "genres": [
+        "Thriller",
+        "Horror"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10303430"
+    },
+    {
       "id": "tt35538033",
       "type": "movie",
       "name": "Resident Evil",
@@ -112,20 +126,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35538033"
-    },
-    {
-      "id": "tt10303430",
-      "type": "movie",
-      "name": "Sightless",
-      "poster": "https://image.tmdb.org/t/p/w500/rYCVKmkl1l9tbcCvrDSMERsRpmE.jpg",
-      "posterShape": "poster",
-      "description": "After an attack renders her blind, Ellen withdraws from the world to recover. But soon she plunges into paranoia, unable to convince anyone that her assailant has returned to terrorize her by hiding in plain sight.",
-      "genres": [
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10303430"
     },
     {
       "id": "tt10954984",
