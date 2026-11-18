@@ -259,19 +259,6 @@
       "imdb_id": "tt8004664"
     },
     {
-      "id": "tt10306450",
-      "type": "movie",
-      "name": "The Kindred",
-      "poster": "https://image.tmdb.org/t/p/w500/jDXAaMLk7NNXdXZkeTMtr4xo6f5.jpg",
-      "posterShape": "poster",
-      "description": "After her father’s suicide, a young mother investigates what led to his death. But when she is haunted by spirits and unearths an unsolved mystery from 30 years ago, she discovers a dark family history that could prove deadly for her child.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt10306450"
-    },
-    {
       "id": "tt3065204",
       "type": "movie",
       "name": "The Conjuring 2",
@@ -283,6 +270,20 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt3065204"
+    },
+    {
+      "id": "tt4196566",
+      "type": "movie",
+      "name": "The Deliverance",
+      "poster": "https://image.tmdb.org/t/p/w500/og1FteMFRInoQnlZeWqEn8XpXHh.jpg",
+      "posterShape": "poster",
+      "description": "Ebony Jackson, a struggling single mother fighting her personal demons, moves her family into a new home for a fresh start. But when strange occurrences inside the home raise the suspicions of Child Protective Services and threaten to tear the family apart, Ebony soon finds herself locked in a battle for her life and the souls of her children.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt4196566"
     }
   ]
 }
