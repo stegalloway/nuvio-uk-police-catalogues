@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt36042156",
-      "type": "movie",
-      "name": "The Punisher: One Last Kill",
-      "poster": "https://image.tmdb.org/t/p/w500/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
-      "posterShape": "poster",
-      "description": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
-      "genres": [
-        "Action",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36042156"
-    },
-    {
       "id": "tt0373469",
       "type": "movie",
       "name": "Kiss Kiss Bang Bang",
@@ -46,80 +31,19 @@
       "imdb_id": "tt7526136"
     },
     {
-      "id": "tt1392170",
+      "id": "tt15398776",
       "type": "movie",
-      "name": "The Hunger Games",
-      "poster": "https://image.tmdb.org/t/p/w500/apa5G43Hha7kH7wJG0gkkHT7FA9.jpg",
+      "name": "Oppenheimer",
+      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
       "posterShape": "poster",
-      "description": "In a dystopian society where the Capitol forces each district to send two young tributes to fight to the death in a televised spectacle, a girl volunteers to take her sister’s place, setting the stage for a struggle of survival and defiance.",
+      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
       "genres": [
-        "Science Fiction",
-        "Adventure",
-        "Action",
-        "Thriller"
-      ],
-      "releaseInfo": "2012",
-      "imdb_id": "tt1392170"
-    },
-    {
-      "id": "tt0203119",
-      "type": "movie",
-      "name": "Sexy Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/xTfCZTzhgHNAR1pf5D49WH4buI5.jpg",
-      "posterShape": "poster",
-      "description": "Ex-safecracker Gal Dove has served his time behind bars and is blissfully retired to a Spanish villa paradise with a wife he adores. The idyll is shattered by the arrival of his nemesis Don Logan, intent on persuading Gal to return to London for one last big job.",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "2001",
-      "imdb_id": "tt0203119"
-    },
-    {
-      "id": "tt0144084",
-      "type": "movie",
-      "name": "American Psycho",
-      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
-      "posterShape": "poster",
-      "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
-      "genres": [
-        "Thriller",
         "Drama",
-        "Crime"
+        "History",
+        "War"
       ],
-      "releaseInfo": "2000",
-      "imdb_id": "tt0144084"
-    },
-    {
-      "id": "tt8946378",
-      "type": "movie",
-      "name": "Knives Out",
-      "poster": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
-      "posterShape": "poster",
-      "description": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8946378"
-    },
-    {
-      "id": "tt0477348",
-      "type": "movie",
-      "name": "No Country for Old Men",
-      "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
-      "posterShape": "poster",
-      "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Western"
-      ],
-      "releaseInfo": "2007",
-      "imdb_id": "tt0477348"
+      "releaseInfo": "2023",
+      "imdb_id": "tt15398776"
     },
     {
       "id": "tt31434639",
@@ -136,33 +60,19 @@
       "imdb_id": "tt31434639"
     },
     {
-      "id": "tt3281548",
+      "id": "tt36042156",
       "type": "movie",
-      "name": "Little Women",
-      "poster": "https://image.tmdb.org/t/p/w500/yn5ihODtZ7ofn8pDYfxCmxh8AXI.jpg",
+      "name": "The Punisher: One Last Kill",
+      "poster": "https://image.tmdb.org/t/p/w500/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
       "posterShape": "poster",
-      "description": "Four sisters come of age in America in the aftermath of the Civil War.",
+      "description": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
       "genres": [
+        "Action",
         "Drama",
-        "Romance"
+        "Crime"
       ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt3281548"
-    },
-    {
-      "id": "tt30144839",
-      "type": "movie",
-      "name": "One Battle After Another",
-      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
-      "posterShape": "poster",
-      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
-      "genres": [
-        "Thriller",
-        "Crime",
-        "Comedy"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30144839"
+      "releaseInfo": "2026",
+      "imdb_id": "tt36042156"
     },
     {
       "id": "tt19864802",
@@ -180,6 +90,22 @@
       "imdb_id": "tt19864802"
     },
     {
+      "id": "tt1392170",
+      "type": "movie",
+      "name": "The Hunger Games",
+      "poster": "https://image.tmdb.org/t/p/w500/apa5G43Hha7kH7wJG0gkkHT7FA9.jpg",
+      "posterShape": "poster",
+      "description": "In a dystopian society where the Capitol forces each district to send two young tributes to fight to the death in a televised spectacle, a girl volunteers to take her sister’s place, setting the stage for a struggle of survival and defiance.",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action",
+        "Thriller"
+      ],
+      "releaseInfo": "2012",
+      "imdb_id": "tt1392170"
+    },
+    {
       "id": "tt2119532",
       "type": "movie",
       "name": "Hacksaw Ridge",
@@ -195,18 +121,19 @@
       "imdb_id": "tt2119532"
     },
     {
-      "id": "tt0332452",
+      "id": "tt8946378",
       "type": "movie",
-      "name": "Troy",
-      "poster": "https://image.tmdb.org/t/p/w500/a07wLy4ONfpsjnBqMwhlWTJTcm.jpg",
+      "name": "Knives Out",
+      "poster": "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
       "posterShape": "poster",
-      "description": "In year 1250 B.C. during the late Bronze age, two emerging nations begin to clash. Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnon to help him get her back. Agamemnon sees this as an opportunity for power. They set off with 1,000 ships holding 50,000 Greeks to Troy.",
+      "description": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.",
       "genres": [
-        "Action",
-        "Adventure"
+        "Comedy",
+        "Crime",
+        "Mystery"
       ],
-      "releaseInfo": "2004",
-      "imdb_id": "tt0332452"
+      "releaseInfo": "2019",
+      "imdb_id": "tt8946378"
     },
     {
       "id": "tt6924650",
@@ -239,6 +166,65 @@
       "imdb_id": "tt15799564"
     },
     {
+      "id": "tt0477348",
+      "type": "movie",
+      "name": "No Country for Old Men",
+      "poster": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+      "posterShape": "poster",
+      "description": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide.",
+      "genres": [
+        "Crime",
+        "Thriller",
+        "Western"
+      ],
+      "releaseInfo": "2007",
+      "imdb_id": "tt0477348"
+    },
+    {
+      "id": "tt3281548",
+      "type": "movie",
+      "name": "Little Women",
+      "poster": "https://image.tmdb.org/t/p/w500/yn5ihODtZ7ofn8pDYfxCmxh8AXI.jpg",
+      "posterShape": "poster",
+      "description": "Four sisters come of age in America in the aftermath of the Civil War.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt3281548"
+    },
+    {
+      "id": "tt30144839",
+      "type": "movie",
+      "name": "One Battle After Another",
+      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
+      "posterShape": "poster",
+      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Comedy"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt30144839"
+    },
+    {
+      "id": "tt0144084",
+      "type": "movie",
+      "name": "American Psycho",
+      "poster": "https://image.tmdb.org/t/p/w500/9uGHEgsiUXjCNq8wdq4r49YL8A1.jpg",
+      "posterShape": "poster",
+      "description": "A wealthy New York investment banking executive hides his alternate psychopathic ego from his co-workers and friends as he escalates deeper into his illogical, gratuitous fantasies.",
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2000",
+      "imdb_id": "tt0144084"
+    },
+    {
       "id": "tt7693316",
       "type": "movie",
       "name": "Devotion",
@@ -268,6 +254,20 @@
       "imdb_id": "tt33296751"
     },
     {
+      "id": "tt0332452",
+      "type": "movie",
+      "name": "Troy",
+      "poster": "https://image.tmdb.org/t/p/w500/a07wLy4ONfpsjnBqMwhlWTJTcm.jpg",
+      "posterShape": "poster",
+      "description": "In year 1250 B.C. during the late Bronze age, two emerging nations begin to clash. Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnon to help him get her back. Agamemnon sees this as an opportunity for power. They set off with 1,000 ships holding 50,000 Greeks to Troy.",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "releaseInfo": "2004",
+      "imdb_id": "tt0332452"
+    },
+    {
       "id": "tt31349844",
       "type": "movie",
       "name": "Runner",
@@ -283,18 +283,19 @@
       "imdb_id": "tt31349844"
     },
     {
-      "id": "tt15574124",
+      "id": "tt8579674",
       "type": "movie",
-      "name": "Peaky Blinders: The Immortal Man",
-      "poster": "https://image.tmdb.org/t/p/w500/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+      "name": "1917",
+      "poster": "https://image.tmdb.org/t/p/w500/iZf0KyrE25z1sage4SYFLCCrMi9.jpg",
       "posterShape": "poster",
-      "description": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
+      "description": "At the height of the First World War, two young British soldiers must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers.",
       "genres": [
-        "Crime",
-        "Drama"
+        "War",
+        "Drama",
+        "History"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt15574124"
+      "releaseInfo": "2019",
+      "imdb_id": "tt8579674"
     }
   ]
 }
