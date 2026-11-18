@@ -122,21 +122,6 @@
       "imdb_id": "tt0780504"
     },
     {
-      "id": "tt6791350",
-      "type": "movie",
-      "name": "Guardians of the Galaxy Vol. 3",
-      "poster": "https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
-      "posterShape": "poster",
-      "description": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
-      "genres": [
-        "Science Fiction",
-        "Adventure",
-        "Action"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt6791350"
-    },
-    {
       "id": "tt8236336",
       "type": "movie",
       "name": "The Report",
@@ -148,6 +133,20 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt8236336"
+    },
+    {
+      "id": "tt16311594",
+      "type": "movie",
+      "name": "F1",
+      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+      "posterShape": "poster",
+      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt16311594"
     },
     {
       "id": "tt1130884",
@@ -165,6 +164,21 @@
       "imdb_id": "tt1130884"
     },
     {
+      "id": "tt3799694",
+      "type": "movie",
+      "name": "The Nice Guys",
+      "poster": "https://image.tmdb.org/t/p/w500/clq4So9spa9cXk3MZy2iMdqkxP2.jpg",
+      "posterShape": "poster",
+      "description": "A private eye investigates the apparent suicide of a fading porn star in 1970s Los Angeles and uncovers a conspiracy.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Action"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt3799694"
+    },
+    {
       "id": "tt12593682",
       "type": "movie",
       "name": "Bullet Train",
@@ -180,18 +194,19 @@
       "imdb_id": "tt12593682"
     },
     {
-      "id": "tt16311594",
+      "id": "tt7349662",
       "type": "movie",
-      "name": "F1",
-      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+      "name": "BlacKkKlansman",
+      "poster": "https://image.tmdb.org/t/p/w500/8jxqAvSDoneSKRczaK8v9X5gqBp.jpg",
       "posterShape": "poster",
-      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
+      "description": "Colorado Springs, late 1970s. Ron Stallworth, an African American police officer, and Flip Zimmerman, his Jewish colleague, run an undercover operation to infiltrate the Ku Klux Klan.",
       "genres": [
-        "Action",
-        "Drama"
+        "Crime",
+        "Drama",
+        "History"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt16311594"
+      "releaseInfo": "2018",
+      "imdb_id": "tt7349662"
     },
     {
       "id": "tt5013056",
@@ -207,21 +222,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt5013056"
-    },
-    {
-      "id": "tt7349662",
-      "type": "movie",
-      "name": "BlacKkKlansman",
-      "poster": "https://image.tmdb.org/t/p/w500/8jxqAvSDoneSKRczaK8v9X5gqBp.jpg",
-      "posterShape": "poster",
-      "description": "Colorado Springs, late 1970s. Ron Stallworth, an African American police officer, and Flip Zimmerman, his Jewish colleague, run an undercover operation to infiltrate the Ku Klux Klan.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "History"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt7349662"
     },
     {
       "id": "tt2057392",

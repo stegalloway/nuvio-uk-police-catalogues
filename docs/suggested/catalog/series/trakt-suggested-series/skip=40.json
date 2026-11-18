@@ -1,19 +1,17 @@
 {
   "metas": [
     {
-      "id": "tt3428912",
+      "id": "tt37972251",
       "type": "series",
-      "name": "Happy Valley",
-      "poster": "https://image.tmdb.org/t/p/w500/xZK5iQSrn2mouZEk2PwyLPCwa4u.jpg",
+      "name": "WAR",
+      "poster": "https://image.tmdb.org/t/p/w500/AtCR5LMuvwepTi1kipKq878Rbuq.jpg",
       "posterShape": "poster",
-      "description": "Happy Valley is a dark, funny, multi-layered thriller revolving around the personal and professional life of Catherine, a dedicated, experienced, hard-working copper. She is also a bereaved mother who looks after her orphaned grandchild.",
+      "description": "An anthology series set in the elite world of London law following two rival firms, Cathcarts and Taylor & Byrne, as they face off in a different headline-making legal battle each season.",
       "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
+        "Drama"
       ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt3428912"
+      "releaseInfo": "2026",
+      "imdb_id": "tt37972251"
     },
     {
       "id": "tt16030542",
