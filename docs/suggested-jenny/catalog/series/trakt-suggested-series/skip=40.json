@@ -129,19 +129,6 @@
       "imdb_id": "tt32937780"
     },
     {
-      "id": "tt18970124",
-      "type": "series",
-      "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/dSwfINzvtVJZYy1L7fsrRfOetAm.jpg",
-      "posterShape": "poster",
-      "description": "He dined with the powerful. He preyed on the vulnerable. Beneath a smiling exterior was the horrifying darkness of a sadistic serial killer.",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt18970124"
-    },
-    {
       "id": "tt13651632",
       "type": "series",
       "name": "Night Stalker: The Hunt for a Serial Killer",
@@ -155,6 +142,19 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt13651632"
+    },
+    {
+      "id": "tt18970124",
+      "type": "series",
+      "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/dSwfINzvtVJZYy1L7fsrRfOetAm.jpg",
+      "posterShape": "poster",
+      "description": "He dined with the powerful. He preyed on the vulnerable. Beneath a smiling exterior was the horrifying darkness of a sadistic serial killer.",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt18970124"
     },
     {
       "id": "tt43476716",
@@ -185,20 +185,6 @@
       "imdb_id": "tt14111774"
     },
     {
-      "id": "tt20560404",
-      "type": "series",
-      "name": "Keep Sweet: Pray and Obey",
-      "poster": "https://image.tmdb.org/t/p/w500/4Nmb8R9fO9ezzTDZKE5hwkPhu7M.jpg",
-      "posterShape": "poster",
-      "description": "In interviews and rare home video footage, ex-FLDS members share the truth about their isolated community — and the events that pushed them to leave.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt20560404"
-    },
-    {
       "id": "tt9813792",
       "type": "series",
       "name": "FROM",
@@ -212,6 +198,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt9813792"
+    },
+    {
+      "id": "tt20560404",
+      "type": "series",
+      "name": "Keep Sweet: Pray and Obey",
+      "poster": "https://image.tmdb.org/t/p/w500/4Nmb8R9fO9ezzTDZKE5hwkPhu7M.jpg",
+      "posterShape": "poster",
+      "description": "In interviews and rare home video footage, ex-FLDS members share the truth about their isolated community — and the events that pushed them to leave.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt20560404"
     },
     {
       "id": "tt26576161",
@@ -271,18 +271,19 @@
       "imdb_id": "tt11600174"
     },
     {
-      "id": "tt35629774",
+      "id": "tt11343600",
       "type": "series",
-      "name": "Gone Girls: The Long Island Serial Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/vWTep5omXCxFtf5hlUc8VlmFI0u.jpg",
+      "name": "Brand New Cherry Flavor",
+      "poster": "https://image.tmdb.org/t/p/w500/cX4acZbi2l4v051NJZfonqY0E3X.jpg",
       "posterShape": "poster",
-      "description": "This tense true-crime series examines the hunt for the Long Island serial killer through the perspective of his victims, their loved ones and the police.",
+      "description": "A filmmaker heads to Hollywood in the early ’90s to make her movie but tumbles down a hallucinatory rabbit hole of sex, magic, revenge — and kittens.",
       "genres": [
-        "Documentary",
-        "Crime"
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35629774"
+      "releaseInfo": "2021",
+      "imdb_id": "tt11343600"
     }
   ]
 }
