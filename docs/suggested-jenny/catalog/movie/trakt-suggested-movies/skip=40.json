@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt32362890",
+      "type": "movie",
+      "name": "Thrash",
+      "poster": "https://image.tmdb.org/t/p/w500/adk8weka3O5648g3de4z3y4aE7G.jpg",
+      "posterShape": "poster",
+      "description": "When a catastrophic hurricane slams a coastal town, stranded residents must survive rapidly rising waters swarming with ravenous sharks.",
+      "genres": [
+        "Thriller",
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32362890"
+    },
+    {
       "id": "tt28129069",
       "type": "movie",
       "name": "Cheat",
@@ -41,6 +55,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt34793095"
+    },
+    {
+      "id": "tt28498159",
+      "type": "movie",
+      "name": "The Other",
+      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
+      "posterShape": "poster",
+      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt28498159"
     },
     {
       "id": "tt10954984",
@@ -255,35 +283,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt8036976"
-    },
-    {
-      "id": "tt5040012",
-      "type": "movie",
-      "name": "Nosferatu",
-      "poster": "https://image.tmdb.org/t/p/w500/d0B8xDdqBZlzlPEzES8lu5LlNQn.jpg",
-      "posterShape": "poster",
-      "description": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
-      "genres": [
-        "Horror",
-        "Fantasy"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5040012"
-    },
-    {
-      "id": "tt11561116",
-      "type": "movie",
-      "name": "The Whisper Man",
-      "poster": "https://image.tmdb.org/t/p/w500/ndRs5lADYm0PeVjuOxaMcInY0o2.jpg",
-      "posterShape": "poster",
-      "description": "When his young son vanishes, a widower enlists help from his estranged father, a retired detective who put away the serial killer now linked to the case.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt11561116"
     }
   ]
 }
