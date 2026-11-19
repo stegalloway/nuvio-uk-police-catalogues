@@ -72,21 +72,6 @@
       "imdb_id": "tt34793095"
     },
     {
-      "id": "tt35538033",
-      "type": "movie",
-      "name": "Resident Evil",
-      "poster": "https://image.tmdb.org/t/p/w500/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
-      "posterShape": "poster",
-      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
-      "genres": [
-        "Horror",
-        "Science Fiction",
-        "Adventure"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35538033"
-    },
-    {
       "id": "tt28498159",
       "type": "movie",
       "name": "The Other",
@@ -113,6 +98,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt38213251"
+    },
+    {
+      "id": "tt35538033",
+      "type": "movie",
+      "name": "Resident Evil",
+      "poster": "https://image.tmdb.org/t/p/w500/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
+      "posterShape": "poster",
+      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+      "genres": [
+        "Horror",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35538033"
     },
     {
       "id": "tt10954984",
@@ -270,19 +270,19 @@
       "imdb_id": "tt22796890"
     },
     {
-      "id": "tt24248198",
+      "id": "tt27564844",
       "type": "movie",
-      "name": "Adult Swim Yule Log",
-      "poster": "https://image.tmdb.org/t/p/w500/faELFruDaoZQzOKLhrRDBheCSx3.jpg",
+      "name": "Iron Lung",
+      "poster": "https://image.tmdb.org/t/p/w500/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
       "posterShape": "poster",
-      "description": "Get in the holiday spirit with this cozy, crackling fire.",
+      "description": "In a post-apocalyptic future where an event known as \"The Quiet Rapture\" caused all known stars and habitable planets in the universe to disappear, a convict is sent to search an ocean of blood discovered on a desolate moon, using a small submarine nicknamed the \"Iron Lung\".",
       "genres": [
-        "Comedy",
         "Horror",
+        "Mystery",
         "Science Fiction"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt24248198"
+      "releaseInfo": "2026",
+      "imdb_id": "tt27564844"
     }
   ]
 }
