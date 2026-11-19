@@ -44,6 +44,20 @@
       "imdb_id": "tt13444912"
     },
     {
+      "id": "tt7985576",
+      "type": "series",
+      "name": "The Serpent",
+      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "posterShape": "poster",
+      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt7985576"
+    },
+    {
       "id": "tt33332385",
       "type": "series",
       "name": "Widow's Bay",
@@ -57,20 +71,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33332385"
-    },
-    {
-      "id": "tt7985576",
-      "type": "series",
-      "name": "The Serpent",
-      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
-      "posterShape": "poster",
-      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt7985576"
     },
     {
       "id": "tt11041332",
@@ -271,19 +271,18 @@
       "imdb_id": "tt1998372"
     },
     {
-      "id": "tt11343600",
+      "id": "tt35629774",
       "type": "series",
-      "name": "Brand New Cherry Flavor",
-      "poster": "https://image.tmdb.org/t/p/w500/cX4acZbi2l4v051NJZfonqY0E3X.jpg",
+      "name": "Gone Girls: The Long Island Serial Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/vWTep5omXCxFtf5hlUc8VlmFI0u.jpg",
       "posterShape": "poster",
-      "description": "A filmmaker heads to Hollywood in the early ’90s to make her movie but tumbles down a hallucinatory rabbit hole of sex, magic, revenge — and kittens.",
+      "description": "This tense true-crime series examines the hunt for the Long Island serial killer through the perspective of his victims, their loved ones and the police.",
       "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
+        "Documentary",
+        "Crime"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11343600"
+      "releaseInfo": "2025",
+      "imdb_id": "tt35629774"
     }
   ]
 }
