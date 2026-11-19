@@ -142,20 +142,6 @@
       "imdb_id": "tt18970124"
     },
     {
-      "id": "tt43476716",
-      "type": "series",
-      "name": "Worst Neighbor Ever",
-      "poster": "https://image.tmdb.org/t/p/w500/1WarGMl1xR0l7ut72putZcgrCJS.jpg",
-      "posterShape": "poster",
-      "description": "This intense documentary series details true stories of neighbors gone bad, from heinous fraud schemes to senseless acts of violent retribution.",
-      "genres": [
-        "Crime",
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt43476716"
-    },
-    {
       "id": "tt13651632",
       "type": "series",
       "name": "Night Stalker: The Hunt for a Serial Killer",
@@ -169,6 +155,20 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt13651632"
+    },
+    {
+      "id": "tt43476716",
+      "type": "series",
+      "name": "Worst Neighbor Ever",
+      "poster": "https://image.tmdb.org/t/p/w500/1WarGMl1xR0l7ut72putZcgrCJS.jpg",
+      "posterShape": "poster",
+      "description": "This intense documentary series details true stories of neighbors gone bad, from heinous fraud schemes to senseless acts of violent retribution.",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt43476716"
     },
     {
       "id": "tt14111774",

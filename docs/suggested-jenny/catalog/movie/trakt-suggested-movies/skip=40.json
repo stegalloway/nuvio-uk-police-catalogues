@@ -86,20 +86,6 @@
       "imdb_id": "tt10303430"
     },
     {
-      "id": "tt38213251",
-      "type": "movie",
-      "name": "Heartland",
-      "poster": "https://image.tmdb.org/t/p/w500/azArOQaVxKa3367XJv2l4ewjsdB.jpg",
-      "posterShape": "poster",
-      "description": "Former country music legend Misty Jones returns to Nashville to unravel the truth behind her rising-star niece's disappearance.",
-      "genres": [
-        "Thriller",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt38213251"
-    },
-    {
       "id": "tt10954984",
       "type": "movie",
       "name": "Nope",
@@ -113,6 +99,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt10954984"
+    },
+    {
+      "id": "tt38213251",
+      "type": "movie",
+      "name": "Heartland",
+      "poster": "https://image.tmdb.org/t/p/w500/azArOQaVxKa3367XJv2l4ewjsdB.jpg",
+      "posterShape": "poster",
+      "description": "Former country music legend Misty Jones returns to Nashville to unravel the truth behind her rising-star niece's disappearance.",
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt38213251"
     },
     {
       "id": "tt15474916",
@@ -143,20 +143,6 @@
       "imdb_id": "tt24807110"
     },
     {
-      "id": "tt13345606",
-      "type": "movie",
-      "name": "Evil Dead Rise",
-      "poster": "https://image.tmdb.org/t/p/w500/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg",
-      "posterShape": "poster",
-      "description": "A reunion between two estranged sisters gets cut short by the rise of flesh-possessing demons, thrusting them into a primal battle for survival as they face the most nightmarish version of family imaginable.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt13345606"
-    },
-    {
       "id": "tt10377864",
       "type": "movie",
       "name": "Beware Boiúna",
@@ -170,6 +156,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt10377864"
+    },
+    {
+      "id": "tt13345606",
+      "type": "movie",
+      "name": "Evil Dead Rise",
+      "poster": "https://image.tmdb.org/t/p/w500/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg",
+      "posterShape": "poster",
+      "description": "A reunion between two estranged sisters gets cut short by the rise of flesh-possessing demons, thrusting them into a primal battle for survival as they face the most nightmarish version of family imaginable.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt13345606"
     },
     {
       "id": "tt30955489",
