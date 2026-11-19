@@ -115,6 +115,19 @@
       "imdb_id": "tt11475228"
     },
     {
+      "id": "tt18970124",
+      "type": "series",
+      "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/dSwfINzvtVJZYy1L7fsrRfOetAm.jpg",
+      "posterShape": "poster",
+      "description": "He dined with the powerful. He preyed on the vulnerable. Beneath a smiling exterior was the horrifying darkness of a sadistic serial killer.",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt18970124"
+    },
+    {
       "id": "tt32937780",
       "type": "series",
       "name": "Something Very Bad Is Going to Happen",
@@ -127,19 +140,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32937780"
-    },
-    {
-      "id": "tt18970124",
-      "type": "series",
-      "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/dSwfINzvtVJZYy1L7fsrRfOetAm.jpg",
-      "posterShape": "poster",
-      "description": "He dined with the powerful. He preyed on the vulnerable. Beneath a smiling exterior was the horrifying darkness of a sadistic serial killer.",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt18970124"
     },
     {
       "id": "tt13651632",
