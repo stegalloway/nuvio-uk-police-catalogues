@@ -16,21 +16,6 @@
       "imdb_id": "tt16030542"
     },
     {
-      "id": "tt7491982",
-      "type": "series",
-      "name": "FBI",
-      "poster": "https://image.tmdb.org/t/p/w500/br3xWBUu7W0dXsMev0XXVvoMxuE.jpg",
-      "posterShape": "poster",
-      "description": "The New York office of the FBI brings to bear all their talents, intellect and technical expertise on major cases in order to keep their city and the country safe.",
-      "genres": [
-        "Crime",
-        "Action & Adventure",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt7491982"
-    },
-    {
       "id": "tt32267726",
       "type": "series",
       "name": "The Girlfriend",
@@ -175,6 +160,21 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt5164196"
+    },
+    {
+      "id": "tt7491982",
+      "type": "series",
+      "name": "FBI",
+      "poster": "https://image.tmdb.org/t/p/w500/br3xWBUu7W0dXsMev0XXVvoMxuE.jpg",
+      "posterShape": "poster",
+      "description": "The New York office of the FBI brings to bear all their talents, intellect and technical expertise on major cases in order to keep their city and the country safe.",
+      "genres": [
+        "Crime",
+        "Action & Adventure",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt7491982"
     },
     {
       "id": "tt10327354",
