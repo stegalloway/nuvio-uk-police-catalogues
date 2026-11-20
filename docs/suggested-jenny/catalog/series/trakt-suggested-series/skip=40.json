@@ -87,6 +87,20 @@
       "imdb_id": "tt11041332"
     },
     {
+      "id": "tt11475228",
+      "type": "series",
+      "name": "Killer Inside: The Mind of Aaron Hernandez",
+      "poster": "https://image.tmdb.org/t/p/w500/2MfrqxkMGIqsCHYTz2pMhEoOJpB.jpg",
+      "posterShape": "poster",
+      "description": "Via interviews with friends, players and insiders, this docuseries examines how Aaron Hernandez went from an NFL star to a convicted killer.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11475228"
+    },
+    {
       "id": "tt32937780",
       "type": "series",
       "name": "Something Very Bad Is Going to Happen",
@@ -270,21 +284,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11343600"
-    },
-    {
-      "id": "tt11794642",
-      "type": "series",
-      "name": "Big Sky",
-      "poster": "https://image.tmdb.org/t/p/w500/4CUK42x0TvcWvuRXfjAFQlCeRdf.jpg",
-      "posterShape": "poster",
-      "description": "Private detective Cassie Dewell partners with ex-cop Jenny Hoyt on a search for two sisters who have been kidnapped by a truck driver on a remote highway in Montana. When they discover that these are not the only girls who have disappeared in the area, they must race against the clock to stop the perpetrator before another woman is taken.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11794642"
     }
   ]
 }
