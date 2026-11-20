@@ -135,19 +135,6 @@
       "imdb_id": "tt11242218"
     },
     {
-      "id": "tt32881442",
-      "type": "movie",
-      "name": "Monkey’s Magic Merry Go Round",
-      "poster": "https://image.tmdb.org/t/p/w500/g1v1ogfa8PCvcYJ1JSmrqbcHMAP.jpg",
-      "posterShape": "poster",
-      "description": "After a mysterious bout of amnesia, a beloved children’s television host struggles to piece together his fractured memories, only to find his once-cheerful puppet co-stars behaving with sinister intent. As reality unravels, the line between performance and nightmare begins to blur.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32881442"
-    },
-    {
       "id": "tt13515258",
       "type": "movie",
       "name": "Oracle",
@@ -268,6 +255,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt10638522"
+    },
+    {
+      "id": "tt13778486",
+      "type": "movie",
+      "name": "Succubus",
+      "poster": "https://image.tmdb.org/t/p/w500/7AfBMebJS8mEtSV5ymdxEPpgvXb.jpg",
+      "posterShape": "poster",
+      "description": "A new father going through a marital separation joins a dating app and matches with a beautiful but mysterious young woman... whose powers of seduction and manipulation entangle him in a mystery more horrifying than he could have ever imagined.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt13778486"
     }
   ]
 }

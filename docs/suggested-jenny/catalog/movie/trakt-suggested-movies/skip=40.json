@@ -1,33 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt3065204",
-      "type": "movie",
-      "name": "The Conjuring 2",
-      "poster": "https://image.tmdb.org/t/p/w500/zEqyD0SBt6HL7W9JQoWwtd5Do1T.jpg",
-      "posterShape": "poster",
-      "description": "Lorraine and Ed Warren travel to north London to help a single mother raising four children alone in a house plagued by malicious spirits.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt3065204"
-    },
-    {
-      "id": "tt4196566",
-      "type": "movie",
-      "name": "The Deliverance",
-      "poster": "https://image.tmdb.org/t/p/w500/og1FteMFRInoQnlZeWqEn8XpXHh.jpg",
-      "posterShape": "poster",
-      "description": "Ebony Jackson, a struggling single mother fighting her personal demons, moves her family into a new home for a fresh start. But when strange occurrences inside the home raise the suspicions of Child Protective Services and threaten to tear the family apart, Ebony soon finds herself locked in a battle for her life and the souls of her children.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt4196566"
-    },
-    {
       "id": "tt1051906",
       "type": "movie",
       "name": "The Invisible Man",
@@ -125,6 +98,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt10303430"
+    },
+    {
+      "id": "tt33028778",
+      "type": "movie",
+      "name": "Primate",
+      "poster": "https://image.tmdb.org/t/p/w500/rKleYiEj4pFqxedTRWfujLooi84.jpg",
+      "posterShape": "poster",
+      "description": "College student Lucy and her friends spend their vacation at her family's home in Hawaii, which includes her pet chimpanzee, Ben. However, when Ben contracts rabies after being bitten by a rabid animal, the group must fight for their lives in order to avoid the now-violent chimp.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33028778"
     },
     {
       "id": "tt10954984",
@@ -281,6 +268,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt27564844"
+    },
+    {
+      "id": "tt22796890",
+      "type": "movie",
+      "name": "Hell House LLC Origins: The Carmichael Manor",
+      "poster": "https://image.tmdb.org/t/p/w500/bsd1ovBNOhYpQElhlZAqpMo51q6.jpg",
+      "posterShape": "poster",
+      "description": "A group of cold case investigators stay at the Carmichael Manor, site of the grisly and unsolved murders of the Carmichael family back in the eighties. After four nights, the group was never heard from again. What is discovered on their footage is even more disturbing than anything found on the Hell House tapes.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt22796890"
     }
   ]
 }

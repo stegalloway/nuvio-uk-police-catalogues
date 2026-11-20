@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt13778486",
-      "type": "movie",
-      "name": "Succubus",
-      "poster": "https://image.tmdb.org/t/p/w500/7AfBMebJS8mEtSV5ymdxEPpgvXb.jpg",
-      "posterShape": "poster",
-      "description": "A new father going through a marital separation joins a dating app and matches with a beautiful but mysterious young woman... whose powers of seduction and manipulation entangle him in a mystery more horrifying than he could have ever imagined.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt13778486"
-    },
-    {
       "id": "tt7069210",
       "type": "movie",
       "name": "The Conjuring: The Devil Made Me Do It",
@@ -83,21 +69,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32612507"
-    },
-    {
-      "id": "tt8036976",
-      "type": "movie",
-      "name": "Send Help",
-      "poster": "https://image.tmdb.org/t/p/w500/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
-      "posterShape": "poster",
-      "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt8036976"
     },
     {
       "id": "tt31511689",
@@ -283,6 +254,33 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32358390"
+    },
+    {
+      "id": "tt3065204",
+      "type": "movie",
+      "name": "The Conjuring 2",
+      "poster": "https://image.tmdb.org/t/p/w500/zEqyD0SBt6HL7W9JQoWwtd5Do1T.jpg",
+      "posterShape": "poster",
+      "description": "Lorraine and Ed Warren travel to north London to help a single mother raising four children alone in a house plagued by malicious spirits.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt3065204"
+    },
+    {
+      "id": "tt4196566",
+      "type": "movie",
+      "name": "The Deliverance",
+      "poster": "https://image.tmdb.org/t/p/w500/og1FteMFRInoQnlZeWqEn8XpXHh.jpg",
+      "posterShape": "poster",
+      "description": "Ebony Jackson, a struggling single mother fighting her personal demons, moves her family into a new home for a fresh start. But when strange occurrences inside the home raise the suspicions of Child Protective Services and threaten to tear the family apart, Ebony soon finds herself locked in a battle for her life and the souls of her children.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt4196566"
     }
   ]
 }
