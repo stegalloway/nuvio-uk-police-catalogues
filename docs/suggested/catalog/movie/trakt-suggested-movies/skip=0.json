@@ -164,6 +164,21 @@
       "imdb_id": "tt5013056"
     },
     {
+      "id": "tt2057392",
+      "type": "movie",
+      "name": "Eye in the Sky",
+      "poster": "https://image.tmdb.org/t/p/w500/faRGb9SuyGuZpsNRoIxoVSLLCId.jpg",
+      "posterShape": "poster",
+      "description": "A UK-based military officer in command of a top secret drone operation to capture terrorists in Kenya discovers the targets are planning a suicide bombing and the mission escalates from “capture” to “kill.” As American pilot Steve Watts is about to engage, a nine-year old girl enters the kill zone, triggering an international dispute reaching the highest levels of US and British government over the moral, political, and personal implications of modern warfare.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt2057392"
+    },
+    {
       "id": "tt7349662",
       "type": "movie",
       "name": "BlacKkKlansman",
@@ -283,21 +298,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt7181546"
-    },
-    {
-      "id": "tt15398776",
-      "type": "movie",
-      "name": "Oppenheimer",
-      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
-      "posterShape": "poster",
-      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
-      "genres": [
-        "Drama",
-        "History",
-        "War"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15398776"
     }
   ]
 }

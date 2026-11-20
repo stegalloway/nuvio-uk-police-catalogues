@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt15398776",
+      "type": "movie",
+      "name": "Oppenheimer",
+      "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "posterShape": "poster",
+      "description": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+      "genres": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15398776"
+    },
+    {
       "id": "tt0172495",
       "type": "movie",
       "name": "Gladiator",
@@ -91,20 +106,6 @@
       "imdb_id": "tt1392170"
     },
     {
-      "id": "tt7526136",
-      "type": "movie",
-      "name": "Heart of the Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
-      "posterShape": "poster",
-      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "genres": [
-        "Adventure",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt7526136"
-    },
-    {
       "id": "tt2119532",
       "type": "movie",
       "name": "Hacksaw Ridge",
@@ -118,6 +119,20 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt2119532"
+    },
+    {
+      "id": "tt7526136",
+      "type": "movie",
+      "name": "Heart of the Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
+      "posterShape": "poster",
+      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "genres": [
+        "Adventure",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt7526136"
     },
     {
       "id": "tt6924650",
@@ -282,21 +297,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt31349844"
-    },
-    {
-      "id": "tt8579674",
-      "type": "movie",
-      "name": "1917",
-      "poster": "https://image.tmdb.org/t/p/w500/iZf0KyrE25z1sage4SYFLCCrMi9.jpg",
-      "posterShape": "poster",
-      "description": "At the height of the First World War, two young British soldiers must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers.",
-      "genres": [
-        "War",
-        "Drama",
-        "History"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8579674"
     }
   ]
 }
