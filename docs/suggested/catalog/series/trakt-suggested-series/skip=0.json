@@ -15,22 +15,6 @@
       "imdb_id": "tt13444408"
     },
     {
-      "id": "tt0078657",
-      "type": "series",
-      "name": "Minder",
-      "poster": "https://image.tmdb.org/t/p/w500/4s9hiyQvTaMe1bK91HRCTgDTAoF.jpg",
-      "posterShape": "poster",
-      "description": "Roguish comedy drama following the misadventures of small-time crook Arthur Daley.",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Action & Adventure",
-        "Crime"
-      ],
-      "releaseInfo": "1979",
-      "imdb_id": "tt0078657"
-    },
-    {
       "id": "tt0979432",
       "type": "series",
       "name": "Boardwalk Empire",
@@ -59,19 +43,18 @@
       "imdb_id": "tt3281796"
     },
     {
-      "id": "tt4276618",
+      "id": "tt2243973",
       "type": "series",
-      "name": "Strike",
-      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
+      "name": "Hannibal",
+      "poster": "https://image.tmdb.org/t/p/w500/pbV2eLnKSIm1epSZt473UYfqaeZ.jpg",
       "posterShape": "poster",
-      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
+      "description": "Both a gift and a curse, Graham has the extraordinary ability to think like his prey—he sees what they see, feels what they feel. But while Graham is pursuing an especially troubling, cannibalistic murderer, Special Agent Jack Crawford teams him with a highly respected psychiatrist – a man with a taste for the criminal minded – Dr. Hannibal Lecter.",
       "genres": [
-        "Crime",
         "Drama",
-        "Mystery"
+        "Crime"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt4276618"
+      "releaseInfo": "2013",
+      "imdb_id": "tt2243973"
     },
     {
       "id": "tt15435876",
@@ -102,18 +85,19 @@
       "imdb_id": "tt3032476"
     },
     {
-      "id": "tt2243973",
+      "id": "tt4276618",
       "type": "series",
-      "name": "Hannibal",
-      "poster": "https://image.tmdb.org/t/p/w500/pbV2eLnKSIm1epSZt473UYfqaeZ.jpg",
+      "name": "Strike",
+      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
       "posterShape": "poster",
-      "description": "Both a gift and a curse, Graham has the extraordinary ability to think like his prey—he sees what they see, feels what they feel. But while Graham is pursuing an especially troubling, cannibalistic murderer, Special Agent Jack Crawford teams him with a highly respected psychiatrist – a man with a taste for the criminal minded – Dr. Hannibal Lecter.",
+      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
       "genres": [
+        "Crime",
         "Drama",
-        "Crime"
+        "Mystery"
       ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2243973"
+      "releaseInfo": "2017",
+      "imdb_id": "tt4276618"
     },
     {
       "id": "tt5011816",
@@ -187,48 +171,6 @@
       "imdb_id": "tt6439752"
     },
     {
-      "id": "tt2788432",
-      "type": "series",
-      "name": "American Crime Story",
-      "poster": "https://image.tmdb.org/t/p/w500/dtIS3Qk8ny1FWQLiuJ77MTDX5bZ.jpg",
-      "posterShape": "poster",
-      "description": "An anthology series centered around some of history's most famous criminal investigations.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt2788432"
-    },
-    {
-      "id": "tt11761194",
-      "type": "series",
-      "name": "Power Book IV: Force",
-      "poster": "https://image.tmdb.org/t/p/w500/yzL4Tqbw2JA9MCsHJWFC4xV1IYU.jpg",
-      "posterShape": "poster",
-      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11761194"
-    },
-    {
-      "id": "tt5071412",
-      "type": "series",
-      "name": "Ozark",
-      "poster": "https://image.tmdb.org/t/p/w500/pCGyPVrI9Fzw6rE1Pvi4BIXF6ET.jpg",
-      "posterShape": "poster",
-      "description": "A financial adviser drags his family from Chicago to the Missouri Ozarks, where he must launder $500 million in five years to appease a drug boss.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt5071412"
-    },
-    {
       "id": "tt10732104",
       "type": "series",
       "name": "Power Book II: Ghost",
@@ -243,18 +185,18 @@
       "imdb_id": "tt10732104"
     },
     {
-      "id": "tt1489428",
+      "id": "tt11761194",
       "type": "series",
-      "name": "Justified",
-      "poster": "https://image.tmdb.org/t/p/w500/ie1quhMk09lDtvtAyQAHTu09R9Z.jpg",
+      "name": "Power Book IV: Force",
+      "poster": "https://image.tmdb.org/t/p/w500/yzL4Tqbw2JA9MCsHJWFC4xV1IYU.jpg",
       "posterShape": "poster",
-      "description": "A character drama based on the 2001 Elmore Leonard short story \"Fire in the Hole.\" Leonard's tale centers around U.S. Marshal Raylan Givens of Kentucky, a quiet but strong-willed official of the law. The tale covers his high-stakes job, as well as his strained relationships with his ex-wife and father.",
+      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2010",
-      "imdb_id": "tt1489428"
+      "releaseInfo": "2022",
+      "imdb_id": "tt11761194"
     },
     {
       "id": "tt30460310",
@@ -284,6 +226,62 @@
       ],
       "releaseInfo": "2011",
       "imdb_id": "tt1652216"
+    },
+    {
+      "id": "tt5071412",
+      "type": "series",
+      "name": "Ozark",
+      "poster": "https://image.tmdb.org/t/p/w500/pCGyPVrI9Fzw6rE1Pvi4BIXF6ET.jpg",
+      "posterShape": "poster",
+      "description": "A financial adviser drags his family from Chicago to the Missouri Ozarks, where he must launder $500 million in five years to appease a drug boss.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5071412"
+    },
+    {
+      "id": "tt1489428",
+      "type": "series",
+      "name": "Justified",
+      "poster": "https://image.tmdb.org/t/p/w500/ie1quhMk09lDtvtAyQAHTu09R9Z.jpg",
+      "posterShape": "poster",
+      "description": "A character drama based on the 2001 Elmore Leonard short story \"Fire in the Hole.\" Leonard's tale centers around U.S. Marshal Raylan Givens of Kentucky, a quiet but strong-willed official of the law. The tale covers his high-stakes job, as well as his strained relationships with his ex-wife and father.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2010",
+      "imdb_id": "tt1489428"
+    },
+    {
+      "id": "tt13018148",
+      "type": "series",
+      "name": "Tell Me Lies",
+      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
+      "posterShape": "poster",
+      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13018148"
+    },
+    {
+      "id": "tt0903747",
+      "type": "series",
+      "name": "Breaking Bad",
+      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+      "posterShape": "poster",
+      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2008",
+      "imdb_id": "tt0903747"
     }
   ]
 }

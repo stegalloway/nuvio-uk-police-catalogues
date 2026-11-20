@@ -1,18 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt0903747",
+      "id": "tt6510950",
       "type": "series",
-      "name": "Breaking Bad",
-      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+      "name": "Condor",
+      "poster": "https://image.tmdb.org/t/p/w500/xgmkmT4Uik4QpvRipYUxcqNx5yR.jpg",
       "posterShape": "poster",
-      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+      "description": "Young CIA analyst Joe Turner has his idealism tested when he learns that the CIA has been using an algorithm he developed to spy on American citizens, leading the organization to a terrorist plot that threatens the lives of millions.  Inspired by Sydney Pollack’s 1975 political thriller Three Days of the Condor.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0903747"
+      "releaseInfo": "2018",
+      "imdb_id": "tt6510950"
     },
     {
       "id": "tt14063678",
@@ -29,6 +29,21 @@
       "imdb_id": "tt14063678"
     },
     {
+      "id": "tt5611024",
+      "type": "series",
+      "name": "Fool Me Once",
+      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
+      "posterShape": "poster",
+      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt5611024"
+    },
+    {
       "id": "tt0306414",
       "type": "series",
       "name": "The Wire",
@@ -43,47 +58,18 @@
       "imdb_id": "tt0306414"
     },
     {
-      "id": "tt6510950",
+      "id": "tt2788432",
       "type": "series",
-      "name": "Condor",
-      "poster": "https://image.tmdb.org/t/p/w500/xgmkmT4Uik4QpvRipYUxcqNx5yR.jpg",
+      "name": "American Crime Story",
+      "poster": "https://image.tmdb.org/t/p/w500/dtIS3Qk8ny1FWQLiuJ77MTDX5bZ.jpg",
       "posterShape": "poster",
-      "description": "Young CIA analyst Joe Turner has his idealism tested when he learns that the CIA has been using an algorithm he developed to spy on American citizens, leading the organization to a terrorist plot that threatens the lives of millions.  Inspired by Sydney Pollack’s 1975 political thriller Three Days of the Condor.",
+      "description": "An anthology series centered around some of history's most famous criminal investigations.",
       "genres": [
         "Crime",
         "Drama"
       ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6510950"
-    },
-    {
-      "id": "tt13018148",
-      "type": "series",
-      "name": "Tell Me Lies",
-      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
-      "posterShape": "poster",
-      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13018148"
-    },
-    {
-      "id": "tt5611024",
-      "type": "series",
-      "name": "Fool Me Once",
-      "poster": "https://image.tmdb.org/t/p/w500/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
-      "posterShape": "poster",
-      "description": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt5611024"
+      "releaseInfo": "2016",
+      "imdb_id": "tt2788432"
     },
     {
       "id": "tt34771210",
@@ -232,6 +218,21 @@
       "imdb_id": "tt4258440"
     },
     {
+      "id": "tt2304589",
+      "type": "series",
+      "name": "Defending Jacob",
+      "poster": "https://image.tmdb.org/t/p/w500/JTmkzwSDRiS9nvSPwpDB9fmZj2.jpg",
+      "posterShape": "poster",
+      "description": "A family's lives are irreparably disrupted when the 14-year-old son is accused of murdering a fellow classmate.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt2304589"
+    },
+    {
       "id": "tt37972251",
       "type": "series",
       "name": "WAR",
@@ -243,6 +244,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt37972251"
+    },
+    {
+      "id": "tt3428912",
+      "type": "series",
+      "name": "Happy Valley",
+      "poster": "https://image.tmdb.org/t/p/w500/xZK5iQSrn2mouZEk2PwyLPCwa4u.jpg",
+      "posterShape": "poster",
+      "description": "Happy Valley is a dark, funny, multi-layered thriller revolving around the personal and professional life of Catherine, a dedicated, experienced, hard-working copper. She is also a bereaved mother who looks after her orphaned grandchild.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt3428912"
     },
     {
       "id": "tt6037988",
@@ -260,34 +276,19 @@
       "imdb_id": "tt6037988"
     },
     {
-      "id": "tt2304589",
+      "id": "tt16030542",
       "type": "series",
-      "name": "Defending Jacob",
-      "poster": "https://image.tmdb.org/t/p/w500/JTmkzwSDRiS9nvSPwpDB9fmZj2.jpg",
+      "name": "The Recruit",
+      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
       "posterShape": "poster",
-      "description": "A family's lives are irreparably disrupted when the 14-year-old son is accused of murdering a fellow classmate.",
+      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
       "genres": [
         "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt2304589"
-    },
-    {
-      "id": "tt3428912",
-      "type": "series",
-      "name": "Happy Valley",
-      "poster": "https://image.tmdb.org/t/p/w500/xZK5iQSrn2mouZEk2PwyLPCwa4u.jpg",
-      "posterShape": "poster",
-      "description": "Happy Valley is a dark, funny, multi-layered thriller revolving around the personal and professional life of Catherine, a dedicated, experienced, hard-working copper. She is also a bereaved mother who looks after her orphaned grandchild.",
-      "genres": [
         "Crime",
-        "Drama",
-        "Mystery"
+        "Action & Adventure"
       ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt3428912"
+      "releaseInfo": "2022",
+      "imdb_id": "tt16030542"
     }
   ]
 }
