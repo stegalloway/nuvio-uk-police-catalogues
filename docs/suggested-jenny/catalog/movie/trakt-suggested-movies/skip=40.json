@@ -1,6 +1,19 @@
 {
   "metas": [
     {
+      "id": "tt3065204",
+      "type": "movie",
+      "name": "The Conjuring 2",
+      "poster": "https://image.tmdb.org/t/p/w500/zEqyD0SBt6HL7W9JQoWwtd5Do1T.jpg",
+      "posterShape": "poster",
+      "description": "Lorraine and Ed Warren travel to north London to help a single mother raising four children alone in a house plagued by malicious spirits.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt3065204"
+    },
+    {
       "id": "tt4196566",
       "type": "movie",
       "name": "The Deliverance",
@@ -268,20 +281,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11245972"
-    },
-    {
-      "id": "tt22796890",
-      "type": "movie",
-      "name": "Hell House LLC Origins: The Carmichael Manor",
-      "poster": "https://image.tmdb.org/t/p/w500/bsd1ovBNOhYpQElhlZAqpMo51q6.jpg",
-      "posterShape": "poster",
-      "description": "A group of cold case investigators stay at the Carmichael Manor, site of the grisly and unsolved murders of the Carmichael family back in the eighties. After four nights, the group was never heard from again. What is discovered on their footage is even more disturbing than anything found on the Hell House tapes.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt22796890"
     }
   ]
 }
