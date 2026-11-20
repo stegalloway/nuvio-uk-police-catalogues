@@ -72,20 +72,6 @@
       "imdb_id": "tt11656892"
     },
     {
-      "id": "tt37063558",
-      "type": "series",
-      "name": "R.J. Decker",
-      "poster": "https://image.tmdb.org/t/p/w500/iNOXveSqB5tUTmGKxp5flQuQ72f.jpg",
-      "posterShape": "poster",
-      "description": "Ex-con photographer RJ Decker becomes a PI in South Florida, solving strange cases with help from his journalist ex, her cop wife, and an enigmatic woman from his past who may help or destroy him.",
-      "genres": [
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt37063558"
-    },
-    {
       "id": "tt5675620",
       "type": "series",
       "name": "Marvel's The Punisher",
@@ -289,6 +275,21 @@
       ],
       "releaseInfo": "1997",
       "imdb_id": "tt0118437"
+    },
+    {
+      "id": "tt5722298",
+      "type": "series",
+      "name": "Private Eyes",
+      "poster": "https://image.tmdb.org/t/p/w500/yPt9IuY2D8g6Lpwh8O8wCDixzt9.jpg",
+      "posterShape": "poster",
+      "description": "Ex-pro hockey player Matt Shade irrevocably changes his life when he teams up with fierce P.I. Angie Everett to form an unlikely investigative powerhouse.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Comedy"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt5722298"
     }
   ]
 }
