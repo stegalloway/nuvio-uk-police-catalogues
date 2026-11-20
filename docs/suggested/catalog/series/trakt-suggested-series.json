@@ -59,18 +59,19 @@
       "imdb_id": "tt3281796"
     },
     {
-      "id": "tt2243973",
+      "id": "tt4276618",
       "type": "series",
-      "name": "Hannibal",
-      "poster": "https://image.tmdb.org/t/p/w500/pbV2eLnKSIm1epSZt473UYfqaeZ.jpg",
+      "name": "Strike",
+      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
       "posterShape": "poster",
-      "description": "Both a gift and a curse, Graham has the extraordinary ability to think like his prey—he sees what they see, feels what they feel. But while Graham is pursuing an especially troubling, cannibalistic murderer, Special Agent Jack Crawford teams him with a highly respected psychiatrist – a man with a taste for the criminal minded – Dr. Hannibal Lecter.",
+      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
       "genres": [
+        "Crime",
         "Drama",
-        "Crime"
+        "Mystery"
       ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2243973"
+      "releaseInfo": "2017",
+      "imdb_id": "tt4276618"
     },
     {
       "id": "tt15435876",
@@ -101,19 +102,18 @@
       "imdb_id": "tt3032476"
     },
     {
-      "id": "tt4276618",
+      "id": "tt2243973",
       "type": "series",
-      "name": "Strike",
-      "poster": "https://image.tmdb.org/t/p/w500/9IF5DMeUcEaPXclFAfyMGP8CRg5.jpg",
+      "name": "Hannibal",
+      "poster": "https://image.tmdb.org/t/p/w500/pbV2eLnKSIm1epSZt473UYfqaeZ.jpg",
       "posterShape": "poster",
-      "description": "A war veteran turned private detective operates out of a tiny office in London’s Denmark Street. Although wounded both physically and psychologically, his unique insight and background as a military police investigator prove crucial in solving complex crimes that have baffled the police. Based on the bestselling novels written by J.K. Rowling under the pseudonym Robert Galbraith.",
+      "description": "Both a gift and a curse, Graham has the extraordinary ability to think like his prey—he sees what they see, feels what they feel. But while Graham is pursuing an especially troubling, cannibalistic murderer, Special Agent Jack Crawford teams him with a highly respected psychiatrist – a man with a taste for the criminal minded – Dr. Hannibal Lecter.",
       "genres": [
-        "Crime",
         "Drama",
-        "Mystery"
+        "Crime"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt4276618"
+      "releaseInfo": "2013",
+      "imdb_id": "tt2243973"
     },
     {
       "id": "tt5011816",
