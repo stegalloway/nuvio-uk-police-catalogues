@@ -114,6 +114,20 @@
       "imdb_id": "tt10303430"
     },
     {
+      "id": "tt38213251",
+      "type": "movie",
+      "name": "Heartland",
+      "poster": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
+      "posterShape": "poster",
+      "description": "Former country music legend Misty Jones returns to Nashville to unravel the truth behind her rising-star niece's disappearance.",
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt38213251"
+    },
+    {
       "id": "tt10954984",
       "type": "movie",
       "name": "Nope",
@@ -156,20 +170,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt20198774"
-    },
-    {
-      "id": "tt38213251",
-      "type": "movie",
-      "name": "Heartland",
-      "poster": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
-      "posterShape": "poster",
-      "description": "Former country music legend Misty Jones returns to Nashville to unravel the truth behind her rising-star niece's disappearance.",
-      "genres": [
-        "Thriller",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt38213251"
     },
     {
       "id": "tt15474916",
@@ -243,6 +243,19 @@
       "imdb_id": "tt30955489"
     },
     {
+      "id": "tt0070047",
+      "type": "movie",
+      "name": "The Exorcist",
+      "poster": "https://image.tmdb.org/t/p/w500/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
+      "posterShape": "poster",
+      "description": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "1973",
+      "imdb_id": "tt0070047"
+    },
+    {
       "id": "tt11245972",
       "type": "movie",
       "name": "Scream",
@@ -255,19 +268,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11245972"
-    },
-    {
-      "id": "tt0070047",
-      "type": "movie",
-      "name": "The Exorcist",
-      "poster": "https://image.tmdb.org/t/p/w500/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
-      "posterShape": "poster",
-      "description": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "1973",
-      "imdb_id": "tt0070047"
     },
     {
       "id": "tt9419056",
