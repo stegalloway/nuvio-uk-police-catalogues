@@ -57,20 +57,6 @@
       "imdb_id": "tt7413600"
     },
     {
-      "id": "tt32612507",
-      "type": "movie",
-      "name": "Lee Cronin's The Mummy",
-      "poster": "https://image.tmdb.org/t/p/w500/1q308iixueCU4pFtSYugNOevtNx.jpg",
-      "posterShape": "poster",
-      "description": "The young daughter of a journalist disappears into the desert without a trace—eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32612507"
-    },
-    {
       "id": "tt13405778",
       "type": "movie",
       "name": "Insidious: The Red Door",
@@ -85,18 +71,18 @@
       "imdb_id": "tt13405778"
     },
     {
-      "id": "tt31511689",
+      "id": "tt32612507",
       "type": "movie",
-      "name": "Vicious",
-      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
+      "name": "Lee Cronin's The Mummy",
+      "poster": "https://image.tmdb.org/t/p/w500/1q308iixueCU4pFtSYugNOevtNx.jpg",
       "posterShape": "poster",
-      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
+      "description": "The young daughter of a journalist disappears into the desert without a trace—eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare.",
       "genres": [
         "Horror",
-        "Thriller"
+        "Mystery"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31511689"
+      "releaseInfo": "2026",
+      "imdb_id": "tt32612507"
     },
     {
       "id": "tt31193180",
@@ -112,6 +98,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt31193180"
+    },
+    {
+      "id": "tt31511689",
+      "type": "movie",
+      "name": "Vicious",
+      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
+      "posterShape": "poster",
+      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31511689"
     },
     {
       "id": "tt33978029",

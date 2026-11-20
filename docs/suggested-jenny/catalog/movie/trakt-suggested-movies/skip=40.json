@@ -130,20 +130,6 @@
       "imdb_id": "tt20198774"
     },
     {
-      "id": "tt15474916",
-      "type": "movie",
-      "name": "Smile",
-      "poster": "https://image.tmdb.org/t/p/w500/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
-      "posterShape": "poster",
-      "description": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15474916"
-    },
-    {
       "id": "tt38213251",
       "type": "movie",
       "name": "Heartland",
@@ -156,6 +142,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt38213251"
+    },
+    {
+      "id": "tt15474916",
+      "type": "movie",
+      "name": "Smile",
+      "poster": "https://image.tmdb.org/t/p/w500/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
+      "posterShape": "poster",
+      "description": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15474916"
     },
     {
       "id": "tt24807110",
@@ -193,9 +193,9 @@
       "posterShape": "poster",
       "description": "A medical mission deep in the Amazon becomes a desperate fight for survival when a colossal ancient predator awakens, turning the jungle into a deadly battleground where nature decides who lives and dies.",
       "genres": [
+        "Adventure",
         "Horror",
-        "Thriller",
-        "Action"
+        "Thriller"
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt10377864"
