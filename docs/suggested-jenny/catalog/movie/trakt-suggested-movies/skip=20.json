@@ -156,6 +156,20 @@
       "imdb_id": "tt21201300"
     },
     {
+      "id": "tt27444133",
+      "type": "movie",
+      "name": "Shades of Desire",
+      "poster": "https://image.tmdb.org/t/p/w500/3E3TAy3fSksFDJ4TS6maL9xNEgU.jpg",
+      "posterShape": "poster",
+      "description": "After her twin sister Aubrey goes missing, Jennifer uncovers the scandalous, secret double-life that Aubrey leads - and that has put both of them in danger.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt27444133"
+    },
+    {
       "id": "tt32141377",
       "type": "movie",
       "name": "28 Years Later: The Bone Temple",
@@ -267,20 +281,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32358390"
-    },
-    {
-      "id": "tt4196566",
-      "type": "movie",
-      "name": "The Deliverance",
-      "poster": "https://image.tmdb.org/t/p/w500/og1FteMFRInoQnlZeWqEn8XpXHh.jpg",
-      "posterShape": "poster",
-      "description": "Ebony Jackson, a struggling single mother fighting her personal demons, moves her family into a new home for a fresh start. But when strange occurrences inside the home raise the suspicions of Child Protective Services and threaten to tear the family apart, Ebony soon finds herself locked in a battle for her life and the souls of her children.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt4196566"
     }
   ]
 }
