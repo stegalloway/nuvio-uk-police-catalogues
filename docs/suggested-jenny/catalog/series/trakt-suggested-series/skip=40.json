@@ -157,20 +157,6 @@
       "imdb_id": "tt13651632"
     },
     {
-      "id": "tt43476716",
-      "type": "series",
-      "name": "Worst Neighbor Ever",
-      "poster": "https://image.tmdb.org/t/p/w500/1WarGMl1xR0l7ut72putZcgrCJS.jpg",
-      "posterShape": "poster",
-      "description": "This intense documentary series details true stories of neighbors gone bad, from heinous fraud schemes to senseless acts of violent retribution.",
-      "genres": [
-        "Crime",
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt43476716"
-    },
-    {
       "id": "tt14111774",
       "type": "series",
       "name": "John Wayne Gacy: Devil in Disguise",
@@ -183,6 +169,20 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt14111774"
+    },
+    {
+      "id": "tt43476716",
+      "type": "series",
+      "name": "Worst Neighbor Ever",
+      "poster": "https://image.tmdb.org/t/p/w500/1WarGMl1xR0l7ut72putZcgrCJS.jpg",
+      "posterShape": "poster",
+      "description": "This intense documentary series details true stories of neighbors gone bad, from heinous fraud schemes to senseless acts of violent retribution.",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt43476716"
     },
     {
       "id": "tt20560404",

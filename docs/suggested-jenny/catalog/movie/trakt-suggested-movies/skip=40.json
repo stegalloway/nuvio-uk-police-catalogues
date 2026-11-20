@@ -268,18 +268,19 @@
       "imdb_id": "tt11245972"
     },
     {
-      "id": "tt22796890",
+      "id": "tt27564844",
       "type": "movie",
-      "name": "Hell House LLC Origins: The Carmichael Manor",
-      "poster": "https://image.tmdb.org/t/p/w500/bsd1ovBNOhYpQElhlZAqpMo51q6.jpg",
+      "name": "Iron Lung",
+      "poster": "https://image.tmdb.org/t/p/w500/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
       "posterShape": "poster",
-      "description": "A group of cold case investigators stay at the Carmichael Manor, site of the grisly and unsolved murders of the Carmichael family back in the eighties. After four nights, the group was never heard from again. What is discovered on their footage is even more disturbing than anything found on the Hell House tapes.",
+      "description": "In a post-apocalyptic future where an event known as \"The Quiet Rapture\" caused all known stars and habitable planets in the universe to disappear, a convict is sent to search an ocean of blood discovered on a desolate moon, using a small submarine nicknamed the \"Iron Lung\".",
       "genres": [
         "Horror",
-        "Mystery"
+        "Mystery",
+        "Science Fiction"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt22796890"
+      "releaseInfo": "2026",
+      "imdb_id": "tt27564844"
     }
   ]
 }
