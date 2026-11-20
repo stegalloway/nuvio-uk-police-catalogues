@@ -44,19 +44,6 @@
       "imdb_id": "tt36958312"
     },
     {
-      "id": "tt7413600",
-      "type": "movie",
-      "name": "Martyrs Lane",
-      "poster": "https://image.tmdb.org/t/p/w500/2p9ATFUEiXT75LmMsSCBicnpX8e.jpg",
-      "posterShape": "poster",
-      "description": "Leah, 10, has terrible nightmares. Her mother seems distant somehow, lost in her thoughts.  A small, nightly visitor brings Leah comfort, but soon Leah will realize that her little visitor offers knowledge that might be very, very dangerous.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt7413600"
-    },
-    {
       "id": "tt13405778",
       "type": "movie",
       "name": "Insidious: The Red Door",
@@ -69,6 +56,19 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt13405778"
+    },
+    {
+      "id": "tt7413600",
+      "type": "movie",
+      "name": "Martyrs Lane",
+      "poster": "https://image.tmdb.org/t/p/w500/2p9ATFUEiXT75LmMsSCBicnpX8e.jpg",
+      "posterShape": "poster",
+      "description": "Leah, 10, has terrible nightmares. Her mother seems distant somehow, lost in her thoughts.  A small, nightly visitor brings Leah comfort, but soon Leah will realize that her little visitor offers knowledge that might be very, very dangerous.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt7413600"
     },
     {
       "id": "tt32612507",
@@ -142,20 +142,6 @@
       "imdb_id": "tt39143902"
     },
     {
-      "id": "tt21201300",
-      "type": "movie",
-      "name": "Bagman",
-      "poster": "https://image.tmdb.org/t/p/w500/53IK9rlZJbwFYbNnJZiLq7UWxkT.jpg",
-      "posterShape": "poster",
-      "description": "For centuries and across cultures, parents have warned their children of the legendary Bagman, who snatches innocent children and stuffs them into his vile, rotting bag—never to be seen again. Patrick McKee narrowly escaped such an encounter as a boy, which left him with lasting scars throughout his adulthood. Now, Patrick’s childhood tormentor has returned, threatening the safety of his wife Karina and son Jake.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt21201300"
-    },
-    {
       "id": "tt27444133",
       "type": "movie",
       "name": "Shades of Desire",
@@ -168,6 +154,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt27444133"
+    },
+    {
+      "id": "tt21201300",
+      "type": "movie",
+      "name": "Bagman",
+      "poster": "https://image.tmdb.org/t/p/w500/53IK9rlZJbwFYbNnJZiLq7UWxkT.jpg",
+      "posterShape": "poster",
+      "description": "For centuries and across cultures, parents have warned their children of the legendary Bagman, who snatches innocent children and stuffs them into his vile, rotting bag—never to be seen again. Patrick McKee narrowly escaped such an encounter as a boy, which left him with lasting scars throughout his adulthood. Now, Patrick’s childhood tormentor has returned, threatening the safety of his wife Karina and son Jake.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt21201300"
     },
     {
       "id": "tt32141377",
