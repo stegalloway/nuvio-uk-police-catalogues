@@ -1,6 +1,48 @@
 {
   "metas": [
     {
+      "id": "tt10306450",
+      "type": "movie",
+      "name": "The Kindred",
+      "poster": "https://image.tmdb.org/t/p/w500/jDXAaMLk7NNXdXZkeTMtr4xo6f5.jpg",
+      "posterShape": "poster",
+      "description": "After her father’s suicide, a young mother investigates what led to his death. But when she is haunted by spirits and unearths an unsolved mystery from 30 years ago, she discovers a dark family history that could prove deadly for her child.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt10306450"
+    },
+    {
+      "id": "tt39143902",
+      "type": "movie",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+      "posterShape": "poster",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
+      "genres": [
+        "Horror",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
+    },
+    {
+      "id": "tt32358390",
+      "type": "movie",
+      "name": "The Cycle",
+      "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
+      "posterShape": "poster",
+      "description": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32358390"
+    },
+    {
       "id": "tt32362890",
       "type": "movie",
       "name": "Thrash",
@@ -237,47 +279,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15474916"
-    },
-    {
-      "id": "tt11245972",
-      "type": "movie",
-      "name": "Scream",
-      "poster": "https://image.tmdb.org/t/p/w500/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
-      "posterShape": "poster",
-      "description": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11245972"
-    },
-    {
-      "id": "tt0070047",
-      "type": "movie",
-      "name": "The Exorcist",
-      "poster": "https://image.tmdb.org/t/p/w500/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
-      "posterShape": "poster",
-      "description": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "1973",
-      "imdb_id": "tt0070047"
-    },
-    {
-      "id": "tt30955489",
-      "type": "movie",
-      "name": "Until Dawn",
-      "poster": "https://image.tmdb.org/t/p/w500/bLY5yN4MKVynZ2HMZWElTOGBgBe.jpg",
-      "posterShape": "poster",
-      "description": "One year after her sister Melanie mysteriously disappeared, Clover and her friends head into the remote valley where she vanished in search of answers. Exploring an abandoned visitor center, they find themselves stalked by a masked killer and horrifically murdered one by one...only to wake up and find themselves back at the beginning of the same evening.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30955489"
     }
   ]
 }
