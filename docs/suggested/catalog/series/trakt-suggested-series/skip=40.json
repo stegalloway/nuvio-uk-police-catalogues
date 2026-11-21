@@ -58,6 +58,20 @@
       "imdb_id": "tt2356777"
     },
     {
+      "id": "tt27954448",
+      "type": "series",
+      "name": "Law & Order Toronto: Criminal Intent",
+      "poster": "https://image.tmdb.org/t/p/w500/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
+      "posterShape": "poster",
+      "description": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt27954448"
+    },
+    {
       "id": "tt5675620",
       "type": "series",
       "name": "Marvel's The Punisher",
@@ -276,20 +290,6 @@
       ],
       "releaseInfo": "2013",
       "imdb_id": "tt2188671"
-    },
-    {
-      "id": "tt8014982",
-      "type": "series",
-      "name": "The Body",
-      "poster": "https://image.tmdb.org/t/p/w500/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
-      "posterShape": "poster",
-      "description": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt8014982"
     }
   ]
 }
