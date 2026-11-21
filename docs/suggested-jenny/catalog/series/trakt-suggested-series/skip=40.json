@@ -115,21 +115,6 @@
       "imdb_id": "tt32937780"
     },
     {
-      "id": "tt13651632",
-      "type": "series",
-      "name": "Night Stalker: The Hunt for a Serial Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/fOX6cKsDSCRKrDCk4vWFv2MgzM3.jpg",
-      "posterShape": "poster",
-      "description": "Beneath the sunlit glamour of 1985 L.A. lurks a relentlessly evil serial killer. In this true-crime story, two detectives won't rest until they catch him.",
-      "genres": [
-        "Documentary",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt13651632"
-    },
-    {
       "id": "tt18970124",
       "type": "series",
       "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
@@ -143,18 +128,19 @@
       "imdb_id": "tt18970124"
     },
     {
-      "id": "tt14111774",
+      "id": "tt13651632",
       "type": "series",
-      "name": "John Wayne Gacy: Devil in Disguise",
-      "poster": "https://image.tmdb.org/t/p/w500/3LZHmVND6WyY0bhoLlyWPRl5Pa1.jpg",
+      "name": "Night Stalker: The Hunt for a Serial Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/fOX6cKsDSCRKrDCk4vWFv2MgzM3.jpg",
       "posterShape": "poster",
-      "description": "The chilling story of one of the world’s most notorious serial killers told through the words of Gacy himself, those who were forever changed by his unspeakable deeds and those who believe that the full truth remains concealed to this day.",
+      "description": "Beneath the sunlit glamour of 1985 L.A. lurks a relentlessly evil serial killer. In this true-crime story, two detectives won't rest until they catch him.",
       "genres": [
         "Documentary",
-        "Crime"
+        "Crime",
+        "Mystery"
       ],
       "releaseInfo": "2021",
-      "imdb_id": "tt14111774"
+      "imdb_id": "tt13651632"
     },
     {
       "id": "tt43476716",
@@ -171,19 +157,18 @@
       "imdb_id": "tt43476716"
     },
     {
-      "id": "tt9813792",
+      "id": "tt14111774",
       "type": "series",
-      "name": "FROM",
-      "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+      "name": "John Wayne Gacy: Devil in Disguise",
+      "poster": "https://image.tmdb.org/t/p/w500/3LZHmVND6WyY0bhoLlyWPRl5Pa1.jpg",
       "posterShape": "poster",
-      "description": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest – including the terrifying creatures that come out when the sun goes down.",
+      "description": "The chilling story of one of the world’s most notorious serial killers told through the words of Gacy himself, those who were forever changed by his unspeakable deeds and those who believe that the full truth remains concealed to this day.",
       "genres": [
-        "Mystery",
-        "Drama",
-        "Sci-Fi & Fantasy"
+        "Documentary",
+        "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt9813792"
+      "releaseInfo": "2021",
+      "imdb_id": "tt14111774"
     },
     {
       "id": "tt20560404",
@@ -198,6 +183,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt20560404"
+    },
+    {
+      "id": "tt9813792",
+      "type": "series",
+      "name": "FROM",
+      "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+      "posterShape": "poster",
+      "description": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest – including the terrifying creatures that come out when the sun goes down.",
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt9813792"
     },
     {
       "id": "tt26576161",
@@ -272,19 +272,18 @@
       "imdb_id": "tt11343600"
     },
     {
-      "id": "tt11794642",
+      "id": "tt35629774",
       "type": "series",
-      "name": "Big Sky",
-      "poster": "https://image.tmdb.org/t/p/w500/4CUK42x0TvcWvuRXfjAFQlCeRdf.jpg",
+      "name": "Gone Girls: The Long Island Serial Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/vWTep5omXCxFtf5hlUc8VlmFI0u.jpg",
       "posterShape": "poster",
-      "description": "Private detective Cassie Dewell partners with ex-cop Jenny Hoyt on a search for two sisters who have been kidnapped by a truck driver on a remote highway in Montana. When they discover that these are not the only girls who have disappeared in the area, they must race against the clock to stop the perpetrator before another woman is taken.",
+      "description": "This tense true-crime series examines the hunt for the Long Island serial killer through the perspective of his victims, their loved ones and the police.",
       "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
+        "Documentary",
+        "Crime"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11794642"
+      "releaseInfo": "2025",
+      "imdb_id": "tt35629774"
     }
   ]
 }
