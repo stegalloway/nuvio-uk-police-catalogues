@@ -6,7 +6,7 @@
       "name": "Tulsa King",
       "poster": "https://image.tmdb.org/t/p/w500/y13WOeZ2rz2Ezpws0RJ0I8sQpG4.jpg",
       "posterShape": "poster",
-      "description": "S4 E2–6 · out today\n\nNew York mafia capo Dwight \"The General\" Manfredi is released from prison after 25 years and exiled by his boss to set up shop in Tulsa, Oklahoma. Realizing that his mob family may not have his best interests in mind, Dwight slowly builds a crew.",
+      "description": "S4 E2–6 · out yesterday\n\nNew York mafia capo Dwight \"The General\" Manfredi is released from prison after 25 years and exiled by his boss to set up shop in Tulsa, Oklahoma. Realizing that his mob family may not have his best interests in mind, Dwight slowly builds a crew.",
       "genres": [
         "Crime",
         "Drama",
@@ -116,20 +116,6 @@
       ],
       "releaseInfo": "Out now · S7 E5–10",
       "imdb_id": "tt6473344"
-    },
-    {
-      "id": "tt31510819",
-      "type": "series",
-      "name": "MobLand",
-      "poster": "https://image.tmdb.org/t/p/w500/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
-      "posterShape": "poster",
-      "description": "S2 E10 · The Queen Is Dead · Today\n\nTwo mob families clash in a war that threatens to topple empires and lives.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "Today · S2 E10",
-      "imdb_id": "tt31510819"
     },
     {
       "id": "tt7587890",

@@ -16,6 +16,21 @@
       "imdb_id": "tt0387131"
     },
     {
+      "id": "tt32565993",
+      "type": "movie",
+      "name": "The Sheep Detectives",
+      "poster": "https://image.tmdb.org/t/p/w500/iKy5460GdsoknM8ppmGlJbKxAKa.jpg",
+      "posterShape": "poster",
+      "description": "George Hardy is a shepherd who reads detective novels to his beloved sheep every night, assuming they can't possibly understand. But when a mysterious incident disrupts life on the farm, the sheep realize they must become the detectives. As they follow the clues and investigate human suspects, they prove that even sheep can be brilliant crime-solvers.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32565993"
+    },
+    {
       "id": "tt16431870",
       "type": "movie",
       "name": "The Family Plan",
