@@ -159,21 +159,6 @@
       "imdb_id": "tt3205802"
     },
     {
-      "id": "tt14379784",
-      "type": "series",
-      "name": "The Devil's Hour",
-      "poster": "https://image.tmdb.org/t/p/w500/mFU6ZPAs6g8Y9Eld28GULJYt3rC.jpg",
-      "posterShape": "poster",
-      "description": "Lucy wakes every night at exactly 3:33am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
-      "genres": [
-        "Mystery",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14379784"
-    },
-    {
       "id": "tt14582876",
       "type": "series",
       "name": "On Call",
@@ -187,6 +172,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt14582876"
+    },
+    {
+      "id": "tt14379784",
+      "type": "series",
+      "name": "The Devil's Hour",
+      "poster": "https://image.tmdb.org/t/p/w500/mFU6ZPAs6g8Y9Eld28GULJYt3rC.jpg",
+      "posterShape": "poster",
+      "description": "Lucy wakes every night at exactly 3:33am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14379784"
     },
     {
       "id": "tt35515227",
@@ -233,6 +233,19 @@
       "imdb_id": "tt2304589"
     },
     {
+      "id": "tt37972251",
+      "type": "series",
+      "name": "WAR",
+      "poster": "https://image.tmdb.org/t/p/w500/AtCR5LMuvwepTi1kipKq878Rbuq.jpg",
+      "posterShape": "poster",
+      "description": "An anthology series set in the elite world of London law following two rival firms, Cathcarts and Taylor & Byrne, as they face off in a different headline-making legal battle each season.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt37972251"
+    },
+    {
       "id": "tt3428912",
       "type": "series",
       "name": "Happy Valley",
@@ -246,19 +259,6 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt3428912"
-    },
-    {
-      "id": "tt37972251",
-      "type": "series",
-      "name": "WAR",
-      "poster": "https://image.tmdb.org/t/p/w500/AtCR5LMuvwepTi1kipKq878Rbuq.jpg",
-      "posterShape": "poster",
-      "description": "An anthology series set in the elite world of London law following two rival firms, Cathcarts and Taylor & Byrne, as they face off in a different headline-making legal battle each season.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt37972251"
     },
     {
       "id": "tt6037988",
