@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt7661390",
+      "type": "series",
+      "name": "Gangs of London",
+      "poster": "https://image.tmdb.org/t/p/w500/fVgwa6wGw9ddGM5O7mqrrwB6gHK.jpg",
+      "posterShape": "poster",
+      "description": "S3 E1–8 · out Thu 8 May 2025\n\nWhen the head of a criminal organisation, Finn Wallace is assassinated, the sudden power vacuum his death creates threatens the fragile peace between the intricate web of gangs operating on the streets of the city. Now it’s up to the grieving, volatile and impulsive Sean Wallace to restore control and find those responsible for killing his father.",
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "Out now · S3 E1–8",
+      "imdb_id": "tt7661390"
+    },
+    {
       "id": "tt5645432",
       "type": "series",
       "name": "The Old Man",
