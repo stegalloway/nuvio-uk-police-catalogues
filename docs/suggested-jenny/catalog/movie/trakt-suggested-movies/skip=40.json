@@ -44,17 +44,75 @@
       "imdb_id": "tt4459134"
     },
     {
-      "id": "tt34793095",
+      "id": "tt4196566",
       "type": "movie",
-      "name": "Play Dead",
-      "poster": "https://image.tmdb.org/t/p/w500/ixWeYfvXT9AbfM0QPb9kwbVLbLV.jpg",
+      "name": "The Deliverance",
+      "poster": "https://image.tmdb.org/t/p/w500/og1FteMFRInoQnlZeWqEn8XpXHh.jpg",
       "posterShape": "poster",
-      "description": "A woman wakes up injured in a basement surrounded by corpses. To survive, she pretends to be dead while a grotesque ritual unfolds in the house above.",
+      "description": "Ebony Jackson, a struggling single mother fighting her personal demons, moves her family into a new home for a fresh start. But when strange occurrences inside the home raise the suspicions of Child Protective Services and threaten to tear the family apart, Ebony soon finds herself locked in a battle for her life and the souls of her children.",
       "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt4196566"
+    },
+    {
+      "id": "tt30851137",
+      "type": "movie",
+      "name": "The Bride!",
+      "poster": "https://image.tmdb.org/t/p/w500/lV8YHwGkYZsm6EfIqnhaSz2avKt.jpg",
+      "posterShape": "poster",
+      "description": "A lonely Frankenstein travels to 1930s Chicago to ask groundbreaking scientist Dr. Euphronious to create a companion for him. The two revive a murdered young woman and The Bride is born. But what ensues is beyond what either of them imagined.",
+      "genres": [
+        "Science Fiction",
+        "Horror",
+        "Fantasy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt30851137"
+    },
+    {
+      "id": "tt8429394",
+      "type": "movie",
+      "name": "The Return",
+      "poster": "https://image.tmdb.org/t/p/w500/rK2gW2kOIC5hG3JjVB81vU9v8gC.jpg",
+      "posterShape": "poster",
+      "description": "After the death of his father, a brilliant college student returns to his family home where he learns that the horrors from his childhood aren't as dead and gone as he once thought.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt8429394"
+    },
+    {
+      "id": "tt18482470",
+      "type": "movie",
+      "name": "Blood and Snow",
+      "poster": "https://image.tmdb.org/t/p/w500/dgKnID0LCGlAb5TXi8WKVTRnPaX.jpg",
+      "posterShape": "poster",
+      "description": "When researchers rescue a fellow scientist who survived a meteorite strike in the Arctic, they discover she may not be who they think she is. Is she some-how changed?",
+      "genres": [
+        "Science Fiction",
         "Horror"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt34793095"
+      "releaseInfo": "2023",
+      "imdb_id": "tt18482470"
+    },
+    {
+      "id": "tt8004664",
+      "type": "movie",
+      "name": "Come Play",
+      "poster": "https://image.tmdb.org/t/p/w500/9jy9OzZi0Oy8Hdv603QWujbfCwx.jpg",
+      "posterShape": "poster",
+      "description": "Oliver, a lonely autistic boy, seeks solace and refuge in his ever-present cell phone and tablet. When a mysterious creature uses the boy's devices against him, his parents must fight to save their son from the monster beyond the screen.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt8004664"
     },
     {
       "id": "tt28498159",
@@ -85,6 +143,19 @@
       "imdb_id": "tt10303430"
     },
     {
+      "id": "tt3065204",
+      "type": "movie",
+      "name": "The Conjuring 2",
+      "poster": "https://image.tmdb.org/t/p/w500/zEqyD0SBt6HL7W9JQoWwtd5Do1T.jpg",
+      "posterShape": "poster",
+      "description": "Lorraine and Ed Warren travel to north London to help a single mother raising four children alone in a house plagued by malicious spirits.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt3065204"
+    },
+    {
       "id": "tt33028778",
       "type": "movie",
       "name": "Primate",
@@ -97,6 +168,19 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt33028778"
+    },
+    {
+      "id": "tt34793095",
+      "type": "movie",
+      "name": "Play Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/ixWeYfvXT9AbfM0QPb9kwbVLbLV.jpg",
+      "posterShape": "poster",
+      "description": "A woman wakes up injured in a basement surrounded by corpses. To survive, she pretends to be dead while a grotesque ritual unfolds in the house above.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt34793095"
     },
     {
       "id": "tt20198774",
@@ -113,21 +197,6 @@
       "imdb_id": "tt20198774"
     },
     {
-      "id": "tt35538033",
-      "type": "movie",
-      "name": "Resident Evil",
-      "poster": "https://image.tmdb.org/t/p/w500/gAgWJhUSQWCgtKR8170nMkYlBda.jpg",
-      "posterShape": "poster",
-      "description": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
-      "genres": [
-        "Horror",
-        "Science Fiction",
-        "Adventure"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35538033"
-    },
-    {
       "id": "tt24807110",
       "type": "movie",
       "name": "Don't Move",
@@ -142,33 +211,18 @@
       "imdb_id": "tt24807110"
     },
     {
-      "id": "tt38213251",
+      "id": "tt27444133",
       "type": "movie",
-      "name": "Heartland",
-      "poster": "https://image.tmdb.org/t/p/w500/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg",
+      "name": "Shades of Desire",
+      "poster": "https://image.tmdb.org/t/p/w500/3E3TAy3fSksFDJ4TS6maL9xNEgU.jpg",
       "posterShape": "poster",
-      "description": "Former country music legend Misty Jones returns to Nashville to unravel the truth behind her rising-star niece's disappearance.",
-      "genres": [
-        "Thriller",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt38213251"
-    },
-    {
-      "id": "tt10954984",
-      "type": "movie",
-      "name": "Nope",
-      "poster": "https://image.tmdb.org/t/p/w500/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg",
-      "posterShape": "poster",
-      "description": "Residents in a lonely gulch of inland California bear witness to an uncanny, chilling discovery.",
+      "description": "After her twin sister Aubrey goes missing, Jennifer uncovers the scandalous, secret double-life that Aubrey leads - and that has put both of them in danger.",
       "genres": [
         "Horror",
-        "Science Fiction",
         "Thriller"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt10954984"
+      "releaseInfo": "2023",
+      "imdb_id": "tt27444133"
     },
     {
       "id": "tt15474916",
@@ -185,18 +239,18 @@
       "imdb_id": "tt15474916"
     },
     {
-      "id": "tt13345606",
+      "id": "tt11245972",
       "type": "movie",
-      "name": "Evil Dead Rise",
-      "poster": "https://image.tmdb.org/t/p/w500/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg",
+      "name": "Scream",
+      "poster": "https://image.tmdb.org/t/p/w500/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
       "posterShape": "poster",
-      "description": "A reunion between two estranged sisters gets cut short by the rise of flesh-possessing demons, thrusting them into a primal battle for survival as they face the most nightmarish version of family imaginable.",
+      "description": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
       "genres": [
         "Horror",
-        "Thriller"
+        "Mystery"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt13345606"
+      "releaseInfo": "2022",
+      "imdb_id": "tt11245972"
     },
     {
       "id": "tt0070047",
@@ -224,63 +278,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt30955489"
-    },
-    {
-      "id": "tt11245972",
-      "type": "movie",
-      "name": "Scream",
-      "poster": "https://image.tmdb.org/t/p/w500/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
-      "posterShape": "poster",
-      "description": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11245972"
-    },
-    {
-      "id": "tt9419056",
-      "type": "movie",
-      "name": "The Unholy",
-      "poster": "https://image.tmdb.org/t/p/w500/bShgiEQoPnWdw4LBrYT5u18JF34.jpg",
-      "posterShape": "poster",
-      "description": "Alice is a young hearing-impaired girl who, after a supposed visitation from the Virgin Mary, is inexplicably able to hear, speak and heal the sick. As word spreads and people from near and far flock to witness her miracles, a disgraced journalist hoping to revive his career visits the small New England town to investigate. When terrifying events begin to happen all around, he starts to question if these phenomena are the works of the Virgin Mary or something much more sinister.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt9419056"
-    },
-    {
-      "id": "tt22796890",
-      "type": "movie",
-      "name": "Hell House LLC Origins: The Carmichael Manor",
-      "poster": "https://image.tmdb.org/t/p/w500/bsd1ovBNOhYpQElhlZAqpMo51q6.jpg",
-      "posterShape": "poster",
-      "description": "A group of cold case investigators stay at the Carmichael Manor, site of the grisly and unsolved murders of the Carmichael family back in the eighties. After four nights, the group was never heard from again. What is discovered on their footage is even more disturbing than anything found on the Hell House tapes.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt22796890"
-    },
-    {
-      "id": "tt27564844",
-      "type": "movie",
-      "name": "Iron Lung",
-      "poster": "https://image.tmdb.org/t/p/w500/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
-      "posterShape": "poster",
-      "description": "In a post-apocalyptic future where an event known as \"The Quiet Rapture\" caused all known stars and habitable planets in the universe to disappear, a convict is sent to search an ocean of blood discovered on a desolate moon, using a small submarine nicknamed the \"Iron Lung\".",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt27564844"
     }
   ]
 }
