@@ -143,20 +143,6 @@
       "imdb_id": "tt31314754"
     },
     {
-      "id": "tt21946032",
-      "type": "series",
-      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
-      "posterShape": "poster",
-      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt21946032"
-    },
-    {
       "id": "tt27031263",
       "type": "series",
       "name": "Teacup",
@@ -184,6 +170,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt9859436"
+    },
+    {
+      "id": "tt21946032",
+      "type": "series",
+      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
+      "posterShape": "poster",
+      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt21946032"
     },
     {
       "id": "tt11656892",
