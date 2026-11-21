@@ -29,19 +29,6 @@
       "imdb_id": "tt13405778"
     },
     {
-      "id": "tt7413600",
-      "type": "movie",
-      "name": "Martyrs Lane",
-      "poster": "https://image.tmdb.org/t/p/w500/2p9ATFUEiXT75LmMsSCBicnpX8e.jpg",
-      "posterShape": "poster",
-      "description": "Leah, 10, has terrible nightmares. Her mother seems distant somehow, lost in her thoughts.  A small, nightly visitor brings Leah comfort, but soon Leah will realize that her little visitor offers knowledge that might be very, very dangerous.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt7413600"
-    },
-    {
       "id": "tt32612507",
       "type": "movie",
       "name": "Lee Cronin's The Mummy",
@@ -54,6 +41,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32612507"
+    },
+    {
+      "id": "tt31511689",
+      "type": "movie",
+      "name": "Vicious",
+      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
+      "posterShape": "poster",
+      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31511689"
     },
     {
       "id": "tt31193180",
@@ -69,20 +70,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt31193180"
-    },
-    {
-      "id": "tt31511689",
-      "type": "movie",
-      "name": "Vicious",
-      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
-      "posterShape": "poster",
-      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31511689"
     },
     {
       "id": "tt33978029",
@@ -281,6 +268,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt1051906"
+    },
+    {
+      "id": "tt32362890",
+      "type": "movie",
+      "name": "Thrash",
+      "poster": "https://image.tmdb.org/t/p/w500/adk8weka3O5648g3de4z3y4aE7G.jpg",
+      "posterShape": "poster",
+      "description": "When a catastrophic hurricane slams a coastal town, stranded residents must survive rapidly rising waters swarming with ravenous sharks.",
+      "genres": [
+        "Thriller",
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32362890"
     }
   ]
 }
