@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt13365348",
-      "type": "series",
-      "name": "Archive 81",
-      "poster": "https://image.tmdb.org/t/p/w500/l1jeSEm6a88GFcLzlHQr60D0dOi.jpg",
-      "posterShape": "poster",
-      "description": "An archivist takes a job restoring damaged videotapes and gets pulled into the vortex of a mystery involving the missing director and a demonic cult.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13365348"
-    },
-    {
       "id": "tt13444912",
       "type": "series",
       "name": "The Midnight Club",
@@ -198,6 +183,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt9813792"
+    },
+    {
+      "id": "tt26545992",
+      "type": "series",
+      "name": "Lanterns",
+      "poster": "https://image.tmdb.org/t/p/w500/rb94rKVIzLyfWufIN7WqLvadBDH.jpg",
+      "posterShape": "poster",
+      "description": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt26545992"
     },
     {
       "id": "tt26576161",
