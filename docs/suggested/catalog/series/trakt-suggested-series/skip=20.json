@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt0306414",
+      "type": "series",
+      "name": "The Wire",
+      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
+      "posterShape": "poster",
+      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2002",
+      "imdb_id": "tt0306414"
+    },
+    {
       "id": "tt14063678",
       "type": "series",
       "name": "The Gold",
@@ -129,20 +143,6 @@
       "imdb_id": "tt17677860"
     },
     {
-      "id": "tt5290382",
-      "type": "series",
-      "name": "MINDHUNTER",
-      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
-      "posterShape": "poster",
-      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt5290382"
-    },
-    {
       "id": "tt33035373",
       "type": "series",
       "name": "HIS & HERS",
@@ -203,20 +203,6 @@
       "imdb_id": "tt14582876"
     },
     {
-      "id": "tt35515227",
-      "type": "series",
-      "name": "CIA",
-      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
-      "posterShape": "poster",
-      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35515227"
-    },
-    {
       "id": "tt4258440",
       "type": "series",
       "name": "River",
@@ -230,6 +216,20 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt4258440"
+    },
+    {
+      "id": "tt35515227",
+      "type": "series",
+      "name": "CIA",
+      "poster": "https://image.tmdb.org/t/p/w500/fEXauqIabKrMPQ2lVTHKdrkrR4Z.jpg",
+      "posterShape": "poster",
+      "description": "When by-the-book FBI Special Agent Bill Goodman is loaned out to a clandestine CIA/FBI task force, he finds himself teamed up with secretive and roguish CIA case officer Colin Glass. Together they work covert operations in New York, uncovering international plots, terrorist cells, and geopolitical secrets.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35515227"
     },
     {
       "id": "tt2304589",
@@ -260,21 +260,6 @@
       "imdb_id": "tt37972251"
     },
     {
-      "id": "tt6037988",
-      "type": "series",
-      "name": "Last Seen",
-      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
-      "posterShape": "poster",
-      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt6037988"
-    },
-    {
       "id": "tt3428912",
       "type": "series",
       "name": "Happy Valley",
@@ -288,6 +273,21 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt3428912"
+    },
+    {
+      "id": "tt6037988",
+      "type": "series",
+      "name": "Last Seen",
+      "poster": "https://image.tmdb.org/t/p/w500/vozJZjHv0Yyv4PjoOxF5tVMUGFI.jpg",
+      "posterShape": "poster",
+      "description": "When emergency dispatcher Ian Ridley receives a frantic call from a teenager he believes could be his long-missing daughter, he stops at nothing to find her.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt6037988"
     }
   ]
 }
