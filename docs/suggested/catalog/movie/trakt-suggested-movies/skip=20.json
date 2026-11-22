@@ -226,21 +226,6 @@
       "imdb_id": "tt0144084"
     },
     {
-      "id": "tt30144839",
-      "type": "movie",
-      "name": "One Battle After Another",
-      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
-      "posterShape": "poster",
-      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
-      "genres": [
-        "Thriller",
-        "Crime",
-        "Comedy"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30144839"
-    },
-    {
       "id": "tt7693316",
       "type": "movie",
       "name": "Devotion",
@@ -254,6 +239,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt7693316"
+    },
+    {
+      "id": "tt30144839",
+      "type": "movie",
+      "name": "One Battle After Another",
+      "poster": "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg",
+      "posterShape": "poster",
+      "description": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Comedy"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt30144839"
     },
     {
       "id": "tt15799564",
@@ -286,19 +286,18 @@
       "imdb_id": "tt1392190"
     },
     {
-      "id": "tt1730768",
+      "id": "tt0332452",
       "type": "movie",
-      "name": "The Zookeeper's Wife",
-      "poster": "https://image.tmdb.org/t/p/w500/50KGpMiIvSkF4WHOgp0gM6r6sMU.jpg",
+      "name": "Troy",
+      "poster": "https://image.tmdb.org/t/p/w500/a07wLy4ONfpsjnBqMwhlWTJTcm.jpg",
       "posterShape": "poster",
-      "description": "The account of keepers of the Warsaw Zoo, Jan and Antonina Zabinski, who helped save hundreds of people and animals during the Nazi invasion.",
+      "description": "In year 1250 B.C. during the late Bronze age, two emerging nations begin to clash. Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnon to help him get her back. Agamemnon sees this as an opportunity for power. They set off with 1,000 ships holding 50,000 Greeks to Troy.",
       "genres": [
-        "Drama",
-        "History",
-        "War"
+        "Action",
+        "Adventure"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt1730768"
+      "releaseInfo": "2004",
+      "imdb_id": "tt0332452"
     }
   ]
 }
