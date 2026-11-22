@@ -271,19 +271,17 @@
       "imdb_id": "tt31938062"
     },
     {
-      "id": "tt9148598",
+      "id": "tt11173006",
       "type": "series",
-      "name": "McMillion$",
-      "poster": "https://image.tmdb.org/t/p/w500/xyUciqZC5hGYJqefmbGbTy5fxYh.jpg",
+      "name": "Super Pumped: The Battle for Uber",
+      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
       "posterShape": "poster",
-      "description": "A detailed account of the McDonald's Monopoly game scam during the 1990s as told by the participants in the case, including the prizewinners and the FBI agents who caught the security officer who orchestrated the entire scheme.",
+      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
       "genres": [
-        "Documentary",
-        "Crime",
         "Drama"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9148598"
+      "releaseInfo": "2022",
+      "imdb_id": "tt11173006"
     }
   ]
 }
