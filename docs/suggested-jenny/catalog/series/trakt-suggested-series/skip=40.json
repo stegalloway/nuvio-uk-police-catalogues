@@ -1,133 +1,57 @@
 {
   "metas": [
     {
-      "id": "tt13365348",
+      "id": "tt11173006",
       "type": "series",
-      "name": "Archive 81",
-      "poster": "https://image.tmdb.org/t/p/w500/l1jeSEm6a88GFcLzlHQr60D0dOi.jpg",
+      "name": "Super Pumped: The Battle for Uber",
+      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
       "posterShape": "poster",
-      "description": "An archivist takes a job restoring damaged videotapes and gets pulled into the vortex of a mystery involving the missing director and a demonic cult.",
+      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
       "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13365348"
-    },
-    {
-      "id": "tt13444912",
-      "type": "series",
-      "name": "The Midnight Club",
-      "poster": "https://image.tmdb.org/t/p/w500/2Y4F9BHkacKIMnDBZI3GGKpG1If.jpg",
-      "posterShape": "poster",
-      "description": "Inside a hospice for terminally ill teens, members of an exclusive club make a chilling pact: The first to die must send a sign from beyond the grave.",
-      "genres": [
-        "Mystery",
         "Drama"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt13444912"
+      "imdb_id": "tt11173006"
     },
     {
-      "id": "tt7985576",
+      "id": "tt23330464",
       "type": "series",
-      "name": "The Serpent",
-      "poster": "https://image.tmdb.org/t/p/w500/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+      "name": "Stolen Youth: Inside the Cult at Sarah Lawrence",
+      "poster": "https://image.tmdb.org/t/p/w500/r00i76ZaQ0NtwK2mkpVLkT6skkg.jpg",
       "posterShape": "poster",
-      "description": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+      "description": "A group of bright Sarah Lawrence College students fall under the dark influence of a friend's father, Larry Ray. With unprecedented access to the survivors who lived with Ray, the series follows the cult from its origins through its still-unfolding aftermath.",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt23330464"
+    },
+    {
+      "id": "tt21315194",
+      "type": "series",
+      "name": "I Just Killed My Dad",
+      "poster": "https://image.tmdb.org/t/p/w500/iSpsCUpm0U8YLTwfG8pKn1nxJsD.jpg",
+      "posterShape": "poster",
+      "description": "Anthony Templet shot his father and never denied it. But why he did it is a complex question with profound implications. Explore Anthony's psyche prior to the events of June 3, 2019 and the journey of his mental and emotional aftermath.",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt21315194"
+    },
+    {
+      "id": "tt8354062",
+      "type": "series",
+      "name": "One of Us Is Lying",
+      "poster": "https://image.tmdb.org/t/p/w500/hKMpbHY7xqFKaBR8W7jE61JlQB6.jpg",
+      "posterShape": "poster",
+      "description": "The story of what happens when five high schoolers walk into detention and only four make it out alive. Everyone is a suspect, and everyone has something to hide.",
       "genres": [
         "Drama",
-        "Crime"
+        "Mystery"
       ],
       "releaseInfo": "2021",
-      "imdb_id": "tt7985576"
-    },
-    {
-      "id": "tt33332385",
-      "type": "series",
-      "name": "Widow's Bay",
-      "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
-      "posterShape": "poster",
-      "description": "The mayor of a New England town resolves to turn it into the next tourist hot spot, despite local warnings that it's cursed.",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33332385"
-    },
-    {
-      "id": "tt34579520",
-      "type": "series",
-      "name": "Murder Before Evensong",
-      "poster": "https://image.tmdb.org/t/p/w500/xn7TFZnR9U2KpJovIg5F1WZ1qs2.jpg",
-      "posterShape": "poster",
-      "description": "In 1980s England, Canon Daniel Clement, the Rector of Champton, finds himself unexpectedly entangled in a murder case when a dead body turns up in the church. When Daniel announces a plan to modernize the church, the parish is suddenly divided. And then a body is found dead at the back of the church. As the police move in and the bodies start piling up, Daniel is the only one who can try and keep his fractured community together... and catch a killer.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt34579520"
-    },
-    {
-      "id": "tt11475228",
-      "type": "series",
-      "name": "Killer Inside: The Mind of Aaron Hernandez",
-      "poster": "https://image.tmdb.org/t/p/w500/2MfrqxkMGIqsCHYTz2pMhEoOJpB.jpg",
-      "posterShape": "poster",
-      "description": "Via interviews with friends, players and insiders, this docuseries examines how Aaron Hernandez went from an NFL star to a convicted killer.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11475228"
-    },
-    {
-      "id": "tt35590630",
-      "type": "series",
-      "name": "American Murder: Gabby Petito",
-      "poster": "https://image.tmdb.org/t/p/w500/83PrIV5PH124m1sR4UIubm7E9sO.jpg",
-      "posterShape": "poster",
-      "description": "What happened in the final days of Gabby Petito's life? In this gripping true-crime series, her loved ones reveal the untold story of her tragic murder.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35590630"
-    },
-    {
-      "id": "tt9148598",
-      "type": "series",
-      "name": "McMillion$",
-      "poster": "https://image.tmdb.org/t/p/w500/xyUciqZC5hGYJqefmbGbTy5fxYh.jpg",
-      "posterShape": "poster",
-      "description": "A detailed account of the McDonald's Monopoly game scam during the 1990s as told by the participants in the case, including the prizewinners and the FBI agents who caught the security officer who orchestrated the entire scheme.",
-      "genres": [
-        "Documentary",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9148598"
-    },
-    {
-      "id": "tt32937780",
-      "type": "series",
-      "name": "Something Very Bad Is Going to Happen",
-      "poster": "https://image.tmdb.org/t/p/w500/tuj37DlqEqib8sTO4h3nHJeTAJ2.jpg",
-      "posterShape": "poster",
-      "description": "A bride has a feeling that something horrifying will happen at her wedding — and the closer to the altar she gets, the worse it becomes.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32937780"
+      "imdb_id": "tt8354062"
     },
     {
       "id": "tt18970124",
@@ -143,33 +67,19 @@
       "imdb_id": "tt18970124"
     },
     {
-      "id": "tt13651632",
+      "id": "tt8415836",
       "type": "series",
-      "name": "Night Stalker: The Hunt for a Serial Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/fOX6cKsDSCRKrDCk4vWFv2MgzM3.jpg",
+      "name": "Guillermo del Toro's Cabinet of Curiosities",
+      "poster": "https://image.tmdb.org/t/p/w500/a91e9hpWwfCqxJI4xM9Q2RhuxgI.jpg",
       "posterShape": "poster",
-      "description": "Beneath the sunlit glamour of 1985 L.A. lurks a relentlessly evil serial killer. In this true-crime story, two detectives won't rest until they catch him.",
+      "description": "Bizarre nightmares unfold in eight tales of terror in this visually stunning, spine-tingling horror collection curated by Guillermo del Toro.",
       "genres": [
-        "Documentary",
-        "Crime",
-        "Mystery"
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt13651632"
-    },
-    {
-      "id": "tt14111774",
-      "type": "series",
-      "name": "John Wayne Gacy: Devil in Disguise",
-      "poster": "https://image.tmdb.org/t/p/w500/3LZHmVND6WyY0bhoLlyWPRl5Pa1.jpg",
-      "posterShape": "poster",
-      "description": "The chilling story of one of the world’s most notorious serial killers told through the words of Gacy himself, those who were forever changed by his unspeakable deeds and those who believe that the full truth remains concealed to this day.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt14111774"
+      "releaseInfo": "2022",
+      "imdb_id": "tt8415836"
     },
     {
       "id": "tt43476716",
@@ -186,76 +96,130 @@
       "imdb_id": "tt43476716"
     },
     {
-      "id": "tt20560404",
+      "id": "tt14016500",
       "type": "series",
-      "name": "Keep Sweet: Pray and Obey",
-      "poster": "https://image.tmdb.org/t/p/w500/4Nmb8R9fO9ezzTDZKE5hwkPhu7M.jpg",
+      "name": "The Summer I Turned Pretty",
+      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
       "posterShape": "poster",
-      "description": "In interviews and rare home video footage, ex-FLDS members share the truth about their isolated community — and the events that pushed them to leave.",
+      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
       "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt20560404"
-    },
-    {
-      "id": "tt11600174",
-      "type": "series",
-      "name": "The Pharmacist",
-      "poster": "https://image.tmdb.org/t/p/w500/kbh8VyM5SVG0P3ingHK8xOlArSw.jpg",
-      "posterShape": "poster",
-      "description": "After his son's tragic death, a Louisiana pharmacist goes to extremes to expose the rampant corruption behind the opioid addiction crisis.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11600174"
-    },
-    {
-      "id": "tt9813792",
-      "type": "series",
-      "name": "FROM",
-      "poster": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-      "posterShape": "poster",
-      "description": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest – including the terrifying creatures that come out when the sun goes down.",
-      "genres": [
-        "Mystery",
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt9813792"
-    },
-    {
-      "id": "tt26576161",
-      "type": "series",
-      "name": "The Terminal List: Dark Wolf",
-      "poster": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg",
-      "posterShape": "poster",
-      "description": "Before The Terminal List, Navy SEAL Ben Edwards finds himself entangled in the black operations side of the CIA. The deeper Ben goes into the 'gray', the harder it will become to not give himself over to his darker impulses. Every man has two wolves inside him – light and dark – fighting for control. Which wolf will Ben Edwards feed?",
-      "genres": [
-        "Action & Adventure",
         "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt26576161"
+      "releaseInfo": "2022",
+      "imdb_id": "tt14016500"
     },
     {
-      "id": "tt1998372",
+      "id": "tt15574312",
       "type": "series",
-      "name": "Under the Banner of Heaven",
-      "poster": "https://image.tmdb.org/t/p/w500/gKyXUkyKRg9LdZzZWRzk0eKD5HJ.jpg",
+      "name": "The Patient",
+      "poster": "https://image.tmdb.org/t/p/w500/fB1848j0pvNnYilXB0ho5OCfiIz.jpg",
       "posterShape": "poster",
-      "description": "A devout detective's faith is tested as he investigates a brutal murder that seems to be connected to an esteemed Utah family's spiral into LDS fundamentalism and their distrust in the government.",
+      "description": "A psychotherapist finds himself held prisoner by a serial killer with an unusual request: curb his homicidal urges.",
       "genres": [
-        "Crime",
         "Drama",
-        "Mystery"
+        "Crime"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt1998372"
+      "imdb_id": "tt15574312"
+    },
+    {
+      "id": "tt27031263",
+      "type": "series",
+      "name": "Teacup",
+      "poster": "https://image.tmdb.org/t/p/w500/cP5zuQvWAFrgWptS0iXvDI3iND.jpg",
+      "posterShape": "poster",
+      "description": "A mysterious event traps people on a rural Georgia farm, forcing them to unite against an unknown, deadly force. A young boy named Arlo becomes central to uncovering the truth.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt27031263"
+    },
+    {
+      "id": "tt9859436",
+      "type": "series",
+      "name": "The Walking Dead: The Ones Who Live",
+      "poster": "https://image.tmdb.org/t/p/w500/ywbacot78IuNhGW4uVZPxxxVTkm.jpg",
+      "posterShape": "poster",
+      "description": "Rick and Michonne are thrown into another world, built on a war against the dead... And ultimately, a war against the living. Can they find each other and who they were in a place and situation unlike any they've ever known before? Are they enemies? Lovers? Victims? Victors? Without each other, are they even alive – or will they find that they, too, are the Walking Dead?",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt9859436"
+    },
+    {
+      "id": "tt8014982",
+      "type": "series",
+      "name": "The Body",
+      "poster": "https://image.tmdb.org/t/p/w500/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
+      "posterShape": "poster",
+      "description": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt8014982"
+    },
+    {
+      "id": "tt33480540",
+      "type": "series",
+      "name": "This Is the Zodiac Speaking",
+      "poster": "https://image.tmdb.org/t/p/w500/crvYcZTN7TTEa85nClY3JqL2F0O.jpg",
+      "posterShape": "poster",
+      "description": "In this true-crime docuseries, a family searching for answers shares clues and eye-opening testimonies about the prime suspect in the Zodiac murders.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt33480540"
+    },
+    {
+      "id": "tt1831804",
+      "type": "series",
+      "name": "The Stand",
+      "poster": "https://image.tmdb.org/t/p/w500/w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
+      "posterShape": "poster",
+      "description": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt1831804"
+    },
+    {
+      "id": "tt35590630",
+      "type": "series",
+      "name": "American Murder: Gabby Petito",
+      "poster": "https://image.tmdb.org/t/p/w500/83PrIV5PH124m1sR4UIubm7E9sO.jpg",
+      "posterShape": "poster",
+      "description": "What happened in the final days of Gabby Petito's life? In this gripping true-crime series, her loved ones reveal the untold story of her tragic murder.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt35590630"
+    },
+    {
+      "id": "tt14865290",
+      "type": "series",
+      "name": "Heist",
+      "poster": "https://image.tmdb.org/t/p/w500/ttG7SIqtuYRLSHJWE27zdY71hJo.jpg",
+      "posterShape": "poster",
+      "description": "Millions in stolen cash. Missing luxury bourbon. Watch ordinary people almost get away with these extraordinary heists in this true crime series.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt14865290"
     },
     {
       "id": "tt35629774",
@@ -272,19 +236,46 @@
       "imdb_id": "tt35629774"
     },
     {
-      "id": "tt11343600",
+      "id": "tt20782578",
       "type": "series",
-      "name": "Brand New Cherry Flavor",
-      "poster": "https://image.tmdb.org/t/p/w500/cX4acZbi2l4v051NJZfonqY0E3X.jpg",
+      "name": "Mind Over Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/qDhVWwcRCXSFJuIOfLyvj1buTzY.jpg",
       "posterShape": "poster",
-      "description": "A filmmaker heads to Hollywood in the early ’90s to make her movie but tumbles down a hallucinatory rabbit hole of sex, magic, revenge — and kittens.",
+      "description": "Chronicles the bizarre and psychologically complex story of six individuals who were convicted for the 1985 murder of a beloved 68- year-old grandmother, Helen Wilson, in Beatrice, Nebraska.",
       "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
+        "Documentary",
+        "Crime"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11343600"
+      "releaseInfo": "2022",
+      "imdb_id": "tt20782578"
+    },
+    {
+      "id": "tt37438628",
+      "type": "series",
+      "name": "Conversations with a Killer: The Son of Sam Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/bSJ221k1EOuBHiye7ae29VqxjnS.jpg",
+      "posterShape": "poster",
+      "description": "Mixing present-day interviews with previously unheard recordings, this true-crime series examines serial killer David Berkowitz's mark on 1970s New York.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt37438628"
+    },
+    {
+      "id": "tt11141900",
+      "type": "series",
+      "name": "Ted Bundy: Falling for a Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
+      "posterShape": "poster",
+      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11141900"
     }
   ]
 }

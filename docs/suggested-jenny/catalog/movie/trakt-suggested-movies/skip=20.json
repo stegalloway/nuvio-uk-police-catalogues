@@ -112,6 +112,21 @@
       "imdb_id": "tt32358390"
     },
     {
+      "id": "tt38773219",
+      "type": "movie",
+      "name": "Ebenezer",
+      "poster": "https://image.tmdb.org/t/p/w500/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
+      "posterShape": "poster",
+      "description": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness.",
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt38773219"
+    },
+    {
       "id": "tt1051906",
       "type": "movie",
       "name": "The Invisible Man",
@@ -269,21 +284,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt34494076"
-    },
-    {
-      "id": "tt27564844",
-      "type": "movie",
-      "name": "Iron Lung",
-      "poster": "https://image.tmdb.org/t/p/w500/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
-      "posterShape": "poster",
-      "description": "In a post-apocalyptic future where an event known as \"The Quiet Rapture\" caused all known stars and habitable planets in the universe to disappear, a convict is sent to search an ocean of blood discovered on a desolate moon, using a small submarine nicknamed the \"Iron Lung\".",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt27564844"
     }
   ]
 }

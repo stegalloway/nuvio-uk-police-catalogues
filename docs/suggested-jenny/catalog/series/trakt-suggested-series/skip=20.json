@@ -1,78 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt13623632",
-      "type": "series",
-      "name": "Alien: Earth",
-      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
-      "posterShape": "poster",
-      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt13623632"
-    },
-    {
-      "id": "tt33043892",
-      "type": "series",
-      "name": "Dexter: Resurrection",
-      "poster": "https://image.tmdb.org/t/p/w500/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
-      "posterShape": "poster",
-      "description": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt33043892"
-    },
-    {
-      "id": "tt11285470",
-      "type": "series",
-      "name": "The Expecting",
-      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
-      "posterShape": "poster",
-      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11285470"
-    },
-    {
-      "id": "tt11794812",
-      "type": "series",
-      "name": "Cross",
-      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
-      "posterShape": "poster",
-      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt11794812"
-    },
-    {
-      "id": "tt8354062",
-      "type": "series",
-      "name": "One of Us Is Lying",
-      "poster": "https://image.tmdb.org/t/p/w500/hKMpbHY7xqFKaBR8W7jE61JlQB6.jpg",
-      "posterShape": "poster",
-      "description": "The story of what happens when five high schoolers walk into detention and only four make it out alive. Everyone is a suspect, and everyone has something to hide.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt8354062"
-    },
-    {
       "id": "tt34771210",
       "type": "series",
       "name": "I Will Find You",
@@ -88,45 +16,75 @@
       "imdb_id": "tt34771210"
     },
     {
-      "id": "tt31938062",
+      "id": "tt11540908",
       "type": "series",
-      "name": "The Pitt",
-      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+      "name": "Carrie",
+      "poster": "https://image.tmdb.org/t/p/w500/sSFwvLI4rVqRil8J2cZOM3rOYGv.jpg",
       "posterShape": "poster",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
       "genres": [
-        "Drama"
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31938062"
+      "releaseInfo": "2026",
+      "imdb_id": "tt11540908"
     },
     {
-      "id": "tt11173006",
+      "id": "tt14111774",
       "type": "series",
-      "name": "Super Pumped: The Battle for Uber",
-      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
+      "name": "John Wayne Gacy: Devil in Disguise",
+      "poster": "https://image.tmdb.org/t/p/w500/3LZHmVND6WyY0bhoLlyWPRl5Pa1.jpg",
       "posterShape": "poster",
-      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
+      "description": "The chilling story of one of the world’s most notorious serial killers told through the words of Gacy himself, those who were forever changed by his unspeakable deeds and those who believe that the full truth remains concealed to this day.",
       "genres": [
-        "Drama"
+        "Documentary",
+        "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11173006"
+      "releaseInfo": "2021",
+      "imdb_id": "tt14111774"
     },
     {
-      "id": "tt8415836",
+      "id": "tt11475228",
       "type": "series",
-      "name": "Guillermo del Toro's Cabinet of Curiosities",
-      "poster": "https://image.tmdb.org/t/p/w500/a91e9hpWwfCqxJI4xM9Q2RhuxgI.jpg",
+      "name": "Killer Inside: The Mind of Aaron Hernandez",
+      "poster": "https://image.tmdb.org/t/p/w500/2MfrqxkMGIqsCHYTz2pMhEoOJpB.jpg",
       "posterShape": "poster",
-      "description": "Bizarre nightmares unfold in eight tales of terror in this visually stunning, spine-tingling horror collection curated by Guillermo del Toro.",
+      "description": "Via interviews with friends, players and insiders, this docuseries examines how Aaron Hernandez went from an NFL star to a convicted killer.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11475228"
+    },
+    {
+      "id": "tt3960394",
+      "type": "series",
+      "name": "Interview with the Vampire",
+      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
+      "posterShape": "poster",
+      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
       "genres": [
         "Drama",
-        "Mystery",
         "Sci-Fi & Fantasy"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt8415836"
+      "imdb_id": "tt3960394"
+    },
+    {
+      "id": "tt10148174",
+      "type": "series",
+      "name": "The Walking Dead: World Beyond",
+      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
+      "posterShape": "poster",
+      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10148174"
     },
     {
       "id": "tt31314754",
@@ -143,61 +101,47 @@
       "imdb_id": "tt31314754"
     },
     {
-      "id": "tt21946032",
+      "id": "tt9064858",
       "type": "series",
-      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
+      "name": "Them",
+      "poster": "https://image.tmdb.org/t/p/w500/2JIrVunDSjldv7Jv2uNKrrqwfej.jpg",
       "posterShape": "poster",
-      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
+      "description": "A limited anthology series that explores terror in America.",
       "genres": [
-        "Documentary",
+        "Drama",
+        "Mystery",
         "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt21946032"
+      "releaseInfo": "2021",
+      "imdb_id": "tt9064858"
     },
     {
-      "id": "tt27031263",
+      "id": "tt6053512",
       "type": "series",
-      "name": "Teacup",
-      "poster": "https://image.tmdb.org/t/p/w500/cP5zuQvWAFrgWptS0iXvDI3iND.jpg",
+      "name": "Home Before Dark",
+      "poster": "https://image.tmdb.org/t/p/w500/mt4P2epJrSaqrlkMP9fTUKLP9OE.jpg",
       "posterShape": "poster",
-      "description": "A mysterious event traps people on a rural Georgia farm, forcing them to unite against an unknown, deadly force. A young boy named Arlo becomes central to uncovering the truth.",
+      "description": "Young investigative journalist Hilde Lisko moves with her family to the small town her father left behind, only to unearth shocking secrets in her pursuit of the truth.",
       "genres": [
-        "Sci-Fi & Fantasy",
         "Mystery",
         "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt27031263"
+      "releaseInfo": "2020",
+      "imdb_id": "tt6053512"
     },
     {
-      "id": "tt9859436",
+      "id": "tt13623632",
       "type": "series",
-      "name": "The Walking Dead: The Ones Who Live",
-      "poster": "https://image.tmdb.org/t/p/w500/ywbacot78IuNhGW4uVZPxxxVTkm.jpg",
+      "name": "Alien: Earth",
+      "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
       "posterShape": "poster",
-      "description": "Rick and Michonne are thrown into another world, built on a war against the dead... And ultimately, a war against the living. Can they find each other and who they were in a place and situation unlike any they've ever known before? Are they enemies? Lovers? Victims? Victors? Without each other, are they even alive – or will they find that they, too, are the Walking Dead?",
+      "description": "When the mysterious deep space research vessel USCSS Maginot crash-lands on Earth, Wendy and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
       "genres": [
         "Sci-Fi & Fantasy",
         "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt9859436"
-    },
-    {
-      "id": "tt11656892",
-      "type": "series",
-      "name": "Des",
-      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
-      "posterShape": "poster",
-      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11656892"
+      "releaseInfo": "2025",
+      "imdb_id": "tt13623632"
     },
     {
       "id": "tt9642938",
@@ -215,18 +159,60 @@
       "imdb_id": "tt9642938"
     },
     {
-      "id": "tt8014982",
+      "id": "tt11285470",
       "type": "series",
-      "name": "The Body",
-      "poster": "https://image.tmdb.org/t/p/w500/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
+      "name": "The Expecting",
+      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
       "posterShape": "poster",
-      "description": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
+      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
       "genres": [
         "Mystery",
         "Drama"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt8014982"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11285470"
+    },
+    {
+      "id": "tt27142031",
+      "type": "series",
+      "name": "American Manhunt: The Boston Marathon Bombing",
+      "poster": "https://image.tmdb.org/t/p/w500/yagaaZpOgmX3cku7fgMCb4dyNeC.jpg",
+      "posterShape": "poster",
+      "description": "Archive footage, chilling reenactments and exclusive interviews shed new light on a tragedy — and two brothers — that suspended a city in terror.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt27142031"
+    },
+    {
+      "id": "tt13269706",
+      "type": "series",
+      "name": "Seduced: Inside the NXIVM Cult",
+      "poster": "https://image.tmdb.org/t/p/w500/2algVl1riUbFcFBxxy1Ops6FNM7.jpg",
+      "posterShape": "poster",
+      "description": "This four-part documentary series follows the story of India Oxenberg's perilous journey through the dark and criminal world of the notorious self-help-group-turned-sex-slave-cult NXIVM.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt13269706"
+    },
+    {
+      "id": "tt35676401",
+      "type": "series",
+      "name": "The Yogurt Shop Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
+      "posterShape": "poster",
+      "description": "In 1991, four teenage girls were brutally murdered at a frozen yogurt shop in Austin, Texas. What happened that night forever shook the Austin community and continues to mystify the police and haunt the families left in the wake of unthinkable loss.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt35676401"
     },
     {
       "id": "tt13729648",
@@ -243,46 +229,61 @@
       "imdb_id": "tt13729648"
     },
     {
-      "id": "tt1831804",
+      "id": "tt11794812",
       "type": "series",
-      "name": "The Stand",
-      "poster": "https://image.tmdb.org/t/p/w500/w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
+      "name": "Cross",
+      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
       "posterShape": "poster",
-      "description": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
+      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
       "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt1831804"
-    },
-    {
-      "id": "tt11141900",
-      "type": "series",
-      "name": "Ted Bundy: Falling for a Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
-      "posterShape": "poster",
-      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11141900"
-    },
-    {
-      "id": "tt11041332",
-      "type": "series",
-      "name": "Yellowjackets",
-      "poster": "https://image.tmdb.org/t/p/w500/xRnGrn7Z7SC0KIBodocoU1QgDZF.jpg",
-      "posterShape": "poster",
-      "description": "This equal parts survival epic, psychological horror story and coming-of-age drama tells the saga of a team of wildly talented high school girls soccer players who become the (un)lucky survivors of a plane crash deep in the remote northern wilderness. The series chronicles their descent from a complicated but thriving team to savage clans, while also tracking the lives they’ve attempted to piece back together nearly 25 years later.",
-      "genres": [
+        "Crime",
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11041332"
+      "releaseInfo": "2024",
+      "imdb_id": "tt11794812"
+    },
+    {
+      "id": "tt11656892",
+      "type": "series",
+      "name": "Des",
+      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
+      "posterShape": "poster",
+      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11656892"
+    },
+    {
+      "id": "tt31938062",
+      "type": "series",
+      "name": "The Pitt",
+      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+      "posterShape": "poster",
+      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31938062"
+    },
+    {
+      "id": "tt9148598",
+      "type": "series",
+      "name": "McMillion$",
+      "poster": "https://image.tmdb.org/t/p/w500/xyUciqZC5hGYJqefmbGbTy5fxYh.jpg",
+      "posterShape": "poster",
+      "description": "A detailed account of the McDonald's Monopoly game scam during the 1990s as told by the participants in the case, including the prizewinners and the FBI agents who caught the security officer who orchestrated the entire scheme.",
+      "genres": [
+        "Documentary",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt9148598"
     }
   ]
 }
