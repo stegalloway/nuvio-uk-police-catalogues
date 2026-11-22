@@ -80,6 +80,20 @@
       "imdb_id": "tt18970124"
     },
     {
+      "id": "tt43476716",
+      "type": "series",
+      "name": "Worst Neighbor Ever",
+      "poster": "https://image.tmdb.org/t/p/w500/1WarGMl1xR0l7ut72putZcgrCJS.jpg",
+      "posterShape": "poster",
+      "description": "This intense documentary series details true stories of neighbors gone bad, from heinous fraud schemes to senseless acts of violent retribution.",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt43476716"
+    },
+    {
       "id": "tt8415836",
       "type": "series",
       "name": "Guillermo del Toro's Cabinet of Curiosities",
@@ -93,20 +107,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt8415836"
-    },
-    {
-      "id": "tt43476716",
-      "type": "series",
-      "name": "Worst Neighbor Ever",
-      "poster": "https://image.tmdb.org/t/p/w500/1WarGMl1xR0l7ut72putZcgrCJS.jpg",
-      "posterShape": "poster",
-      "description": "This intense documentary series details true stories of neighbors gone bad, from heinous fraud schemes to senseless acts of violent retribution.",
-      "genres": [
-        "Crime",
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt43476716"
     },
     {
       "id": "tt14016500",
