@@ -55,6 +55,19 @@
       "imdb_id": "tt28088571"
     },
     {
+      "id": "tt10638522",
+      "type": "movie",
+      "name": "Talk to Me",
+      "poster": "https://image.tmdb.org/t/p/w500/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
+      "posterShape": "poster",
+      "description": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt10638522"
+    },
+    {
       "id": "tt13778486",
       "type": "movie",
       "name": "Succubus",
@@ -67,19 +80,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt13778486"
-    },
-    {
-      "id": "tt10638522",
-      "type": "movie",
-      "name": "Talk to Me",
-      "poster": "https://image.tmdb.org/t/p/w500/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
-      "posterShape": "poster",
-      "description": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt10638522"
     },
     {
       "id": "tt35538033",
