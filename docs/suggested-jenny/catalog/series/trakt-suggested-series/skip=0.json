@@ -212,6 +212,19 @@
       "imdb_id": "tt11600174"
     },
     {
+      "id": "tt33546863",
+      "type": "series",
+      "name": "Off Campus",
+      "poster": "https://image.tmdb.org/t/p/w500/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
+      "posterShape": "poster",
+      "description": "Hannah Wells tutors hockey captain Garrett Graham to win over her crush. Their deal becomes real connection as they face their pasts. Friends Logan, Dean, Tucker, and Allie navigate college life and love.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33546863"
+    },
+    {
       "id": "tt19244304",
       "type": "series",
       "name": "IT: Welcome to Derry",
@@ -267,21 +280,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt15567174"
-    },
-    {
-      "id": "tt31458276",
-      "type": "series",
-      "name": "Grotesquerie",
-      "poster": "https://image.tmdb.org/t/p/w500/oskgLp7inXPU9NgfL2NWRW0KK2e.jpg",
-      "posterShape": "poster",
-      "description": "A series of heinous crimes have unsettled a small community, and Detective Lois Tryon feels they are eerily personal, as if someone—or something—is taunting her.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31458276"
     }
   ]
 }
