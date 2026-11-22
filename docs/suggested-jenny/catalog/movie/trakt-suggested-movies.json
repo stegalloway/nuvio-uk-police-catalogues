@@ -152,19 +152,6 @@
       "imdb_id": "tt32246771"
     },
     {
-      "id": "tt14415204",
-      "type": "movie",
-      "name": "Never Let Go",
-      "poster": "https://image.tmdb.org/t/p/w500/3EpZ2ksjijmdr8BhISP03PYzNFW.jpg",
-      "posterShape": "poster",
-      "description": "As an evil takes over the world beyond their front doorstep, the only protection for a mother and her twin sons is their house and their family’s protective bond.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt14415204"
-    },
-    {
       "id": "tt3515878",
       "type": "movie",
       "name": "Do Not Enter",
@@ -176,6 +163,19 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt3515878"
+    },
+    {
+      "id": "tt14415204",
+      "type": "movie",
+      "name": "Never Let Go",
+      "poster": "https://image.tmdb.org/t/p/w500/3EpZ2ksjijmdr8BhISP03PYzNFW.jpg",
+      "posterShape": "poster",
+      "description": "As an evil takes over the world beyond their front doorstep, the only protection for a mother and her twin sons is their house and their family’s protective bond.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt14415204"
     },
     {
       "id": "tt32881442",

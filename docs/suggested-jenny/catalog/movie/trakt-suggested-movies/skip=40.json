@@ -142,6 +142,20 @@
       "imdb_id": "tt32362890"
     },
     {
+      "id": "tt13232552",
+      "type": "movie",
+      "name": "The Man in the White Van",
+      "poster": "https://image.tmdb.org/t/p/w500/A98LHlo4wvgV3d79IovLhL0KSL5.jpg",
+      "posterShape": "poster",
+      "description": "In early 1970s Florida, an ominous white van stalks young women. A teenage girl is the latest victim, but this one won't stay a victim.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt13232552"
+    },
+    {
       "id": "tt4196566",
       "type": "movie",
       "name": "The Deliverance",
@@ -264,20 +278,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15474916"
-    },
-    {
-      "id": "tt11245972",
-      "type": "movie",
-      "name": "Scream",
-      "poster": "https://image.tmdb.org/t/p/w500/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
-      "posterShape": "poster",
-      "description": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11245972"
     }
   ]
 }
