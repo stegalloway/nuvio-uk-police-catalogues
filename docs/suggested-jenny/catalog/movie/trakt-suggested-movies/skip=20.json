@@ -1,6 +1,19 @@
 {
   "metas": [
     {
+      "id": "tt5737388",
+      "type": "movie",
+      "name": "The Accursed",
+      "poster": "https://image.tmdb.org/t/p/w500/kBPkV6Gqvbmq6z25bpw3ofsk5ue.jpg",
+      "posterShape": "poster",
+      "description": "Hana spends twenty years suppressing a maleficent curse that was placed upon her bloodline, only to have a family member knowingly release it forcing her to kill or to be killed.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt5737388"
+    },
+    {
       "id": "tt10963926",
       "type": "movie",
       "name": "Two Witches",
@@ -126,6 +139,19 @@
       "imdb_id": "tt1051906"
     },
     {
+      "id": "tt30505578",
+      "type": "movie",
+      "name": "Feed",
+      "poster": "https://image.tmdb.org/t/p/w500/nICoMIb6FcHqnrKeO43zKY3w8vT.jpg",
+      "posterShape": "poster",
+      "description": "Five social media influencers spend a weekend at a forest retreat but inadvertently awaken and confront the world's first vampire.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt30505578"
+    },
+    {
       "id": "tt7069210",
       "type": "movie",
       "name": "The Conjuring: The Devil Made Me Do It",
@@ -139,19 +165,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt7069210"
-    },
-    {
-      "id": "tt30505578",
-      "type": "movie",
-      "name": "Feed",
-      "poster": "https://image.tmdb.org/t/p/w500/nICoMIb6FcHqnrKeO43zKY3w8vT.jpg",
-      "posterShape": "poster",
-      "description": "Five social media influencers spend a weekend at a forest retreat but inadvertently awaken and confront the world's first vampire.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt30505578"
     },
     {
       "id": "tt36958312",
@@ -267,20 +280,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt21807222"
-    },
-    {
-      "id": "tt34494076",
-      "type": "movie",
-      "name": "Hungry",
-      "poster": "https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg",
-      "posterShape": "poster",
-      "description": "A group of holidaymakers must fight for their lives against a rampaging hippo on the loose after becoming lost in the Louisiana swamplands.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34494076"
     }
   ]
 }

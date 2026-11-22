@@ -72,20 +72,6 @@
       "imdb_id": "tt23148340"
     },
     {
-      "id": "tt15837600",
-      "type": "series",
-      "name": "Griselda",
-      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
-      "posterShape": "poster",
-      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15837600"
-    },
-    {
       "id": "tt1640719",
       "type": "series",
       "name": "Under the Bridge",
@@ -98,6 +84,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt1640719"
+    },
+    {
+      "id": "tt15837600",
+      "type": "series",
+      "name": "Griselda",
+      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
+      "posterShape": "poster",
+      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15837600"
     },
     {
       "id": "tt14586350",
@@ -114,20 +114,6 @@
       "imdb_id": "tt14586350"
     },
     {
-      "id": "tt4301160",
-      "type": "series",
-      "name": "Black Bird",
-      "poster": "https://image.tmdb.org/t/p/w500/qu312pwM61NPTr7nexvovCClDNP.jpg",
-      "posterShape": "poster",
-      "description": "As Jimmy Keene begins a 10-year prison sentence, he gets an incredible offer: If he can elicit a confession from suspected killer Larry Hall, Jimmy will be freed. Completing this mission becomes the challenge of a lifetime.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt4301160"
-    },
-    {
       "id": "tt31842126",
       "type": "series",
       "name": "The Good Daughter",
@@ -140,6 +126,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt31842126"
+    },
+    {
+      "id": "tt4301160",
+      "type": "series",
+      "name": "Black Bird",
+      "poster": "https://image.tmdb.org/t/p/w500/qu312pwM61NPTr7nexvovCClDNP.jpg",
+      "posterShape": "poster",
+      "description": "As Jimmy Keene begins a 10-year prison sentence, he gets an incredible offer: If he can elicit a confession from suspected killer Larry Hall, Jimmy will be freed. Completing this mission becomes the challenge of a lifetime.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt4301160"
     },
     {
       "id": "tt8045494",
