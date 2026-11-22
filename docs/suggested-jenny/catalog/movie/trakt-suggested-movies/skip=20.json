@@ -156,6 +156,22 @@
       "imdb_id": "tt36958312"
     },
     {
+      "id": "tt14270702",
+      "type": "movie",
+      "name": "God Is a Bullet",
+      "poster": "https://image.tmdb.org/t/p/w500/5kiLS9nsSJxDdlYUyYGiSUt8Fi8.jpg",
+      "posterShape": "poster",
+      "description": "Vice detective Bob Hightower finds his ex-wife murdered and daughter kidnapped by a cult. Frustrated by the botched official investigations, he quits the force and infiltrates the cult to hunt down the leader with the help of the cult’s only female victim escapee, Case Hardin.",
+      "genres": [
+        "Thriller",
+        "Action",
+        "Crime",
+        "Horror"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt14270702"
+    },
+    {
       "id": "tt14030816",
       "type": "movie",
       "name": "Baghead",
@@ -268,20 +284,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt27564844"
-    },
-    {
-      "id": "tt31511689",
-      "type": "movie",
-      "name": "Vicious",
-      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
-      "posterShape": "poster",
-      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31511689"
     }
   ]
 }
