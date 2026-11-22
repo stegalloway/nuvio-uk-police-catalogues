@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt16030542",
-      "type": "series",
-      "name": "The Recruit",
-      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
-      "posterShape": "poster",
-      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt16030542"
-    },
-    {
       "id": "tt7491982",
       "type": "series",
       "name": "FBI",
@@ -85,6 +70,21 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt27954448"
+    },
+    {
+      "id": "tt14379784",
+      "type": "series",
+      "name": "The Devil's Hour",
+      "poster": "https://image.tmdb.org/t/p/w500/mFU6ZPAs6g8Y9Eld28GULJYt3rC.jpg",
+      "posterShape": "poster",
+      "description": "Lucy wakes every night at exactly 3:33am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14379784"
     },
     {
       "id": "tt5675620",
@@ -277,19 +277,18 @@
       "imdb_id": "tt5722298"
     },
     {
-      "id": "tt2188671",
+      "id": "tt1640719",
       "type": "series",
-      "name": "Bates Motel",
-      "poster": "https://image.tmdb.org/t/p/w500/xXKcfZE7ulYxgjjYv51s0zDG69s.jpg",
+      "name": "Under the Bridge",
+      "poster": "https://image.tmdb.org/t/p/w500/4YMpCGsAAHXWGScHsK1sbd7wprE.jpg",
       "posterShape": "poster",
-      "description": "A \"contemporary prequel\" to the 1960 film Psycho, depicting the life of Norman Bates and his mother Norma prior to the events portrayed in Hitchcock's film, albeit in a different fictional town and in a modern setting. The series begins after the death of Norma's husband, when she purchases a motel located in a coastal Oregon town so she and Norman can start a new life.",
+      "description": "Fourteen-year old Reena Virk went to join friends at a party and never returned home. Through the eyes of Rebecca Godfrey and a local police officer, learn the hidden world of the young girls accused of the murder — revealing startling truths about the unlikely killer.",
       "genres": [
         "Drama",
-        "Crime",
-        "Mystery"
+        "Crime"
       ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2188671"
+      "releaseInfo": "2024",
+      "imdb_id": "tt1640719"
     }
   ]
 }
