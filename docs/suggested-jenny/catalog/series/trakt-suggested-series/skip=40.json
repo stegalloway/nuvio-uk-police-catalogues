@@ -87,6 +87,20 @@
       "imdb_id": "tt11475228"
     },
     {
+      "id": "tt35590630",
+      "type": "series",
+      "name": "American Murder: Gabby Petito",
+      "poster": "https://image.tmdb.org/t/p/w500/83PrIV5PH124m1sR4UIubm7E9sO.jpg",
+      "posterShape": "poster",
+      "description": "What happened in the final days of Gabby Petito's life? In this gripping true-crime series, her loved ones reveal the untold story of her tragic murder.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt35590630"
+    },
+    {
       "id": "tt9148598",
       "type": "series",
       "name": "McMillion$",
@@ -144,20 +158,6 @@
       "imdb_id": "tt13651632"
     },
     {
-      "id": "tt43476716",
-      "type": "series",
-      "name": "Worst Neighbor Ever",
-      "poster": "https://image.tmdb.org/t/p/w500/1WarGMl1xR0l7ut72putZcgrCJS.jpg",
-      "posterShape": "poster",
-      "description": "This intense documentary series details true stories of neighbors gone bad, from heinous fraud schemes to senseless acts of violent retribution.",
-      "genres": [
-        "Crime",
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt43476716"
-    },
-    {
       "id": "tt14111774",
       "type": "series",
       "name": "John Wayne Gacy: Devil in Disguise",
@@ -172,6 +172,20 @@
       "imdb_id": "tt14111774"
     },
     {
+      "id": "tt43476716",
+      "type": "series",
+      "name": "Worst Neighbor Ever",
+      "poster": "https://image.tmdb.org/t/p/w500/1WarGMl1xR0l7ut72putZcgrCJS.jpg",
+      "posterShape": "poster",
+      "description": "This intense documentary series details true stories of neighbors gone bad, from heinous fraud schemes to senseless acts of violent retribution.",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt43476716"
+    },
+    {
       "id": "tt20560404",
       "type": "series",
       "name": "Keep Sweet: Pray and Obey",
@@ -184,6 +198,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt20560404"
+    },
+    {
+      "id": "tt11600174",
+      "type": "series",
+      "name": "The Pharmacist",
+      "poster": "https://image.tmdb.org/t/p/w500/kbh8VyM5SVG0P3ingHK8xOlArSw.jpg",
+      "posterShape": "poster",
+      "description": "After his son's tragic death, a Louisiana pharmacist goes to extremes to expose the rampant corruption behind the opioid addiction crisis.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11600174"
     },
     {
       "id": "tt9813792",
@@ -215,20 +243,6 @@
       "imdb_id": "tt26576161"
     },
     {
-      "id": "tt35590630",
-      "type": "series",
-      "name": "American Murder: Gabby Petito",
-      "poster": "https://image.tmdb.org/t/p/w500/83PrIV5PH124m1sR4UIubm7E9sO.jpg",
-      "posterShape": "poster",
-      "description": "What happened in the final days of Gabby Petito's life? In this gripping true-crime series, her loved ones reveal the untold story of her tragic murder.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35590630"
-    },
-    {
       "id": "tt1998372",
       "type": "series",
       "name": "Under the Banner of Heaven",
@@ -244,18 +258,18 @@
       "imdb_id": "tt1998372"
     },
     {
-      "id": "tt11600174",
+      "id": "tt35629774",
       "type": "series",
-      "name": "The Pharmacist",
-      "poster": "https://image.tmdb.org/t/p/w500/kbh8VyM5SVG0P3ingHK8xOlArSw.jpg",
+      "name": "Gone Girls: The Long Island Serial Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/vWTep5omXCxFtf5hlUc8VlmFI0u.jpg",
       "posterShape": "poster",
-      "description": "After his son's tragic death, a Louisiana pharmacist goes to extremes to expose the rampant corruption behind the opioid addiction crisis.",
+      "description": "This tense true-crime series examines the hunt for the Long Island serial killer through the perspective of his victims, their loved ones and the police.",
       "genres": [
         "Documentary",
         "Crime"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11600174"
+      "releaseInfo": "2025",
+      "imdb_id": "tt35629774"
     },
     {
       "id": "tt11343600",
@@ -271,20 +285,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11343600"
-    },
-    {
-      "id": "tt35629774",
-      "type": "series",
-      "name": "Gone Girls: The Long Island Serial Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/vWTep5omXCxFtf5hlUc8VlmFI0u.jpg",
-      "posterShape": "poster",
-      "description": "This tense true-crime series examines the hunt for the Long Island serial killer through the perspective of his victims, their loved ones and the police.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35629774"
     }
   ]
 }
