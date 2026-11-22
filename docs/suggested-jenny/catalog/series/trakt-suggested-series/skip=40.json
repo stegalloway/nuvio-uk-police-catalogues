@@ -1,56 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt31938062",
+      "id": "tt35676401",
       "type": "series",
-      "name": "The Pitt",
-      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+      "name": "The Yogurt Shop Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
       "posterShape": "poster",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "description": "In 1991, four teenage girls were brutally murdered at a frozen yogurt shop in Austin, Texas. What happened that night forever shook the Austin community and continues to mystify the police and haunt the families left in the wake of unthinkable loss.",
       "genres": [
-        "Drama"
+        "Documentary",
+        "Crime"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt31938062"
-    },
-    {
-      "id": "tt11173006",
-      "type": "series",
-      "name": "Super Pumped: The Battle for Uber",
-      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
-      "posterShape": "poster",
-      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11173006"
-    },
-    {
-      "id": "tt23330464",
-      "type": "series",
-      "name": "Stolen Youth: Inside the Cult at Sarah Lawrence",
-      "poster": "https://image.tmdb.org/t/p/w500/r00i76ZaQ0NtwK2mkpVLkT6skkg.jpg",
-      "posterShape": "poster",
-      "description": "A group of bright Sarah Lawrence College students fall under the dark influence of a friend's father, Larry Ray. With unprecedented access to the survivors who lived with Ray, the series follows the cult from its origins through its still-unfolding aftermath.",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt23330464"
-    },
-    {
-      "id": "tt21315194",
-      "type": "series",
-      "name": "I Just Killed My Dad",
-      "poster": "https://image.tmdb.org/t/p/w500/iSpsCUpm0U8YLTwfG8pKn1nxJsD.jpg",
-      "posterShape": "poster",
-      "description": "Anthony Templet shot his father and never denied it. But why he did it is a complex question with profound implications. Explore Anthony's psyche prior to the events of June 3, 2019 and the journey of his mental and emotional aftermath.",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt21315194"
+      "imdb_id": "tt35676401"
     },
     {
       "id": "tt8354062",
@@ -65,33 +27,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt8354062"
-    },
-    {
-      "id": "tt18970124",
-      "type": "series",
-      "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/dSwfINzvtVJZYy1L7fsrRfOetAm.jpg",
-      "posterShape": "poster",
-      "description": "He dined with the powerful. He preyed on the vulnerable. Beneath a smiling exterior was the horrifying darkness of a sadistic serial killer.",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt18970124"
-    },
-    {
-      "id": "tt43476716",
-      "type": "series",
-      "name": "Worst Neighbor Ever",
-      "poster": "https://image.tmdb.org/t/p/w500/1WarGMl1xR0l7ut72putZcgrCJS.jpg",
-      "posterShape": "poster",
-      "description": "This intense documentary series details true stories of neighbors gone bad, from heinous fraud schemes to senseless acts of violent retribution.",
-      "genres": [
-        "Crime",
-        "Documentary"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt43476716"
     },
     {
       "id": "tt8415836",
@@ -122,18 +57,57 @@
       "imdb_id": "tt14016500"
     },
     {
-      "id": "tt15574312",
+      "id": "tt23330464",
       "type": "series",
-      "name": "The Patient",
-      "poster": "https://image.tmdb.org/t/p/w500/fB1848j0pvNnYilXB0ho5OCfiIz.jpg",
+      "name": "Stolen Youth: Inside the Cult at Sarah Lawrence",
+      "poster": "https://image.tmdb.org/t/p/w500/r00i76ZaQ0NtwK2mkpVLkT6skkg.jpg",
       "posterShape": "poster",
-      "description": "A psychotherapist finds himself held prisoner by a serial killer with an unusual request: curb his homicidal urges.",
+      "description": "A group of bright Sarah Lawrence College students fall under the dark influence of a friend's father, Larry Ray. With unprecedented access to the survivors who lived with Ray, the series follows the cult from its origins through its still-unfolding aftermath.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Documentary"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt23330464"
+    },
+    {
+      "id": "tt21315194",
+      "type": "series",
+      "name": "I Just Killed My Dad",
+      "poster": "https://image.tmdb.org/t/p/w500/iSpsCUpm0U8YLTwfG8pKn1nxJsD.jpg",
+      "posterShape": "poster",
+      "description": "Anthony Templet shot his father and never denied it. But why he did it is a complex question with profound implications. Explore Anthony's psyche prior to the events of June 3, 2019 and the journey of his mental and emotional aftermath.",
+      "genres": [
+        "Documentary"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt15574312"
+      "imdb_id": "tt21315194"
+    },
+    {
+      "id": "tt18970124",
+      "type": "series",
+      "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/dSwfINzvtVJZYy1L7fsrRfOetAm.jpg",
+      "posterShape": "poster",
+      "description": "He dined with the powerful. He preyed on the vulnerable. Beneath a smiling exterior was the horrifying darkness of a sadistic serial killer.",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt18970124"
+    },
+    {
+      "id": "tt43476716",
+      "type": "series",
+      "name": "Worst Neighbor Ever",
+      "poster": "https://image.tmdb.org/t/p/w500/1WarGMl1xR0l7ut72putZcgrCJS.jpg",
+      "posterShape": "poster",
+      "description": "This intense documentary series details true stories of neighbors gone bad, from heinous fraud schemes to senseless acts of violent retribution.",
+      "genres": [
+        "Crime",
+        "Documentary"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt43476716"
     },
     {
       "id": "tt27031263",
@@ -165,6 +139,20 @@
       "imdb_id": "tt9859436"
     },
     {
+      "id": "tt15574312",
+      "type": "series",
+      "name": "The Patient",
+      "poster": "https://image.tmdb.org/t/p/w500/fB1848j0pvNnYilXB0ho5OCfiIz.jpg",
+      "posterShape": "poster",
+      "description": "A psychotherapist finds himself held prisoner by a serial killer with an unusual request: curb his homicidal urges.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15574312"
+    },
+    {
       "id": "tt8014982",
       "type": "series",
       "name": "The Body",
@@ -177,6 +165,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt8014982"
+    },
+    {
+      "id": "tt1831804",
+      "type": "series",
+      "name": "The Stand",
+      "poster": "https://image.tmdb.org/t/p/w500/w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
+      "posterShape": "poster",
+      "description": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt1831804"
     },
     {
       "id": "tt33480540",
@@ -193,18 +195,18 @@
       "imdb_id": "tt33480540"
     },
     {
-      "id": "tt1831804",
+      "id": "tt35629774",
       "type": "series",
-      "name": "The Stand",
-      "poster": "https://image.tmdb.org/t/p/w500/w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
+      "name": "Gone Girls: The Long Island Serial Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/vWTep5omXCxFtf5hlUc8VlmFI0u.jpg",
       "posterShape": "poster",
-      "description": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
+      "description": "This tense true-crime series examines the hunt for the Long Island serial killer through the perspective of his victims, their loved ones and the police.",
       "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
+        "Documentary",
+        "Crime"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt1831804"
+      "releaseInfo": "2025",
+      "imdb_id": "tt35629774"
     },
     {
       "id": "tt35590630",
@@ -235,18 +237,18 @@
       "imdb_id": "tt14865290"
     },
     {
-      "id": "tt35629774",
+      "id": "tt37438628",
       "type": "series",
-      "name": "Gone Girls: The Long Island Serial Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/vWTep5omXCxFtf5hlUc8VlmFI0u.jpg",
+      "name": "Conversations with a Killer: The Son of Sam Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/bSJ221k1EOuBHiye7ae29VqxjnS.jpg",
       "posterShape": "poster",
-      "description": "This tense true-crime series examines the hunt for the Long Island serial killer through the perspective of his victims, their loved ones and the police.",
+      "description": "Mixing present-day interviews with previously unheard recordings, this true-crime series examines serial killer David Berkowitz's mark on 1970s New York.",
       "genres": [
         "Documentary",
         "Crime"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt35629774"
+      "imdb_id": "tt37438628"
     },
     {
       "id": "tt20782578",
@@ -263,18 +265,18 @@
       "imdb_id": "tt20782578"
     },
     {
-      "id": "tt37438628",
+      "id": "tt11141900",
       "type": "series",
-      "name": "Conversations with a Killer: The Son of Sam Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/bSJ221k1EOuBHiye7ae29VqxjnS.jpg",
+      "name": "Ted Bundy: Falling for a Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
       "posterShape": "poster",
-      "description": "Mixing present-day interviews with previously unheard recordings, this true-crime series examines serial killer David Berkowitz's mark on 1970s New York.",
+      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
       "genres": [
         "Documentary",
         "Crime"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt37438628"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11141900"
     }
   ]
 }

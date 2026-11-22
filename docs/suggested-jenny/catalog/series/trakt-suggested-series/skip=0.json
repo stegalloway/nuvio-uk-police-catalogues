@@ -15,20 +15,6 @@
       "imdb_id": "tt13018148"
     },
     {
-      "id": "tt21946032",
-      "type": "series",
-      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
-      "posterShape": "poster",
-      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt21946032"
-    },
-    {
       "id": "tt2953250",
       "type": "series",
       "name": "Shining Girls",
@@ -42,6 +28,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt2953250"
+    },
+    {
+      "id": "tt21946032",
+      "type": "series",
+      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
+      "posterShape": "poster",
+      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt21946032"
     },
     {
       "id": "tt36303968",
@@ -114,20 +114,6 @@
       "imdb_id": "tt14586350"
     },
     {
-      "id": "tt31842126",
-      "type": "series",
-      "name": "The Good Daughter",
-      "poster": "https://image.tmdb.org/t/p/w500/qJPvyo9Pxz3MQndd3tKSocLz1Nt.jpg",
-      "posterShape": "poster",
-      "description": "Sisters Charlotte and Samantha Quinn have spent the last twenty-eight years trying to piece together the lives that were fractured by a single night of violence. When another attack splinters the small town of Pikeville, Charlotte is the first witness on the scene. Now a lawyer like her father, she’s forced to confront her own demons as the case twists through one shocking revelation after another. In the end, both she and Samantha find themselves wondering if the price of being the good daughter was worth it after all.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31842126"
-    },
-    {
       "id": "tt4301160",
       "type": "series",
       "name": "Black Bird",
@@ -140,6 +126,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt4301160"
+    },
+    {
+      "id": "tt31842126",
+      "type": "series",
+      "name": "The Good Daughter",
+      "poster": "https://image.tmdb.org/t/p/w500/qJPvyo9Pxz3MQndd3tKSocLz1Nt.jpg",
+      "posterShape": "poster",
+      "description": "Sisters Charlotte and Samantha Quinn have spent the last twenty-eight years trying to piece together the lives that were fractured by a single night of violence. When another attack splinters the small town of Pikeville, Charlotte is the first witness on the scene. Now a lawyer like her father, she’s forced to confront her own demons as the case twists through one shocking revelation after another. In the end, both she and Samantha find themselves wondering if the price of being the good daughter was worth it after all.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31842126"
     },
     {
       "id": "tt8045494",
@@ -156,34 +156,6 @@
       "imdb_id": "tt8045494"
     },
     {
-      "id": "tt22646714",
-      "type": "series",
-      "name": "Killer Sally",
-      "poster": "https://image.tmdb.org/t/p/w500/46WBP1KGrI9pPstPhxkBvNR0T0m.jpg",
-      "posterShape": "poster",
-      "description": "Interviews with friends, family and Sally McNeil herself chart a bodybuilding couple’s rocky marriage — and its shocking end in a Valentine's Day murder.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt22646714"
-    },
-    {
-      "id": "tt23553310",
-      "type": "series",
-      "name": "Crime Scene: The Texas Killing Fields",
-      "poster": "https://image.tmdb.org/t/p/w500/lIQN4JWtO0opwEVdUOtMqU3Yaaz.jpg",
-      "posterShape": "poster",
-      "description": "An overgrown field and a stretch of highway connect a series of grisly murders spanning several decades as grieving families search for answers.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt23553310"
-    },
-    {
       "id": "tt10970552",
       "type": "series",
       "name": "The Haunting of Bly Manor",
@@ -198,18 +170,18 @@
       "imdb_id": "tt10970552"
     },
     {
-      "id": "tt11600174",
+      "id": "tt22646714",
       "type": "series",
-      "name": "The Pharmacist",
-      "poster": "https://image.tmdb.org/t/p/w500/kbh8VyM5SVG0P3ingHK8xOlArSw.jpg",
+      "name": "Killer Sally",
+      "poster": "https://image.tmdb.org/t/p/w500/46WBP1KGrI9pPstPhxkBvNR0T0m.jpg",
       "posterShape": "poster",
-      "description": "After his son's tragic death, a Louisiana pharmacist goes to extremes to expose the rampant corruption behind the opioid addiction crisis.",
+      "description": "Interviews with friends, family and Sally McNeil herself chart a bodybuilding couple’s rocky marriage — and its shocking end in a Valentine's Day murder.",
       "genres": [
         "Documentary",
         "Crime"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11600174"
+      "releaseInfo": "2022",
+      "imdb_id": "tt22646714"
     },
     {
       "id": "tt33546863",
@@ -237,6 +209,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt19244304"
+    },
+    {
+      "id": "tt11600174",
+      "type": "series",
+      "name": "The Pharmacist",
+      "poster": "https://image.tmdb.org/t/p/w500/kbh8VyM5SVG0P3ingHK8xOlArSw.jpg",
+      "posterShape": "poster",
+      "description": "After his son's tragic death, a Louisiana pharmacist goes to extremes to expose the rampant corruption behind the opioid addiction crisis.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11600174"
     },
     {
       "id": "tt10574558",
@@ -281,6 +267,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt31458276"
+    },
+    {
+      "id": "tt15567174",
+      "type": "series",
+      "name": "The Fall of the House of Usher",
+      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
+      "posterShape": "poster",
+      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15567174"
     }
   ]
 }
