@@ -1,6 +1,37 @@
 {
   "metas": [
     {
+      "id": "tt22084616",
+      "type": "movie",
+      "name": "Spider-Man: Brand New Day",
+      "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "posterShape": "poster",
+      "description": "Fighting crime full-time as Spider-Man in a world that doesn't remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt22084616"
+    },
+    {
+      "id": "tt0373469",
+      "type": "movie",
+      "name": "Kiss Kiss Bang Bang",
+      "poster": "https://image.tmdb.org/t/p/w500/aWfjIkpENFX6Uw82pET7EQ6jnrd.jpg",
+      "posterShape": "poster",
+      "description": "A petty thief posing as an actor is brought to Los Angeles for an unlikely audition and finds himself in the middle of a murder investigation along with his high school dream girl and a detective who's been training him for his upcoming role...",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2005",
+      "imdb_id": "tt0373469"
+    },
+    {
       "id": "tt15398776",
       "type": "movie",
       "name": "Oppenheimer",
@@ -29,21 +60,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt7181546"
-    },
-    {
-      "id": "tt0172495",
-      "type": "movie",
-      "name": "Gladiator",
-      "poster": "https://image.tmdb.org/t/p/w500/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg",
-      "posterShape": "poster",
-      "description": "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences.",
-      "genres": [
-        "Action",
-        "Drama",
-        "Adventure"
-      ],
-      "releaseInfo": "2000",
-      "imdb_id": "tt0172495"
     },
     {
       "id": "tt31434639",
@@ -255,6 +271,21 @@
       "imdb_id": "tt7693316"
     },
     {
+      "id": "tt1392190",
+      "type": "movie",
+      "name": "Mad Max: Fury Road",
+      "poster": "https://image.tmdb.org/t/p/w500/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+      "posterShape": "poster",
+      "description": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt1392190"
+    },
+    {
       "id": "tt1730768",
       "type": "movie",
       "name": "The Zookeeper's Wife",
@@ -268,35 +299,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt1730768"
-    },
-    {
-      "id": "tt0332452",
-      "type": "movie",
-      "name": "Troy",
-      "poster": "https://image.tmdb.org/t/p/w500/a07wLy4ONfpsjnBqMwhlWTJTcm.jpg",
-      "posterShape": "poster",
-      "description": "In year 1250 B.C. during the late Bronze age, two emerging nations begin to clash. Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnon to help him get her back. Agamemnon sees this as an opportunity for power. They set off with 1,000 ships holding 50,000 Greeks to Troy.",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseInfo": "2004",
-      "imdb_id": "tt0332452"
-    },
-    {
-      "id": "tt31349844",
-      "type": "movie",
-      "name": "Runner",
-      "poster": "https://image.tmdb.org/t/p/w500/vJk2TW1QZAmBiD7oj9ZF9EPTYY1.jpg",
-      "posterShape": "poster",
-      "description": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31349844"
     }
   ]
 }
