@@ -152,19 +152,6 @@
       "imdb_id": "tt32246771"
     },
     {
-      "id": "tt3515878",
-      "type": "movie",
-      "name": "Do Not Enter",
-      "poster": "https://image.tmdb.org/t/p/w500/8V2jpc1K8icNr0EScpqARyitXlc.jpg",
-      "posterShape": "poster",
-      "description": "A group of young explorers investigates an old abandoned hotel, only to encounter a strange supernatural being and a competing group looking for a legendary hidden treasure.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt3515878"
-    },
-    {
       "id": "tt14415204",
       "type": "movie",
       "name": "Never Let Go",
@@ -176,6 +163,19 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt14415204"
+    },
+    {
+      "id": "tt3515878",
+      "type": "movie",
+      "name": "Do Not Enter",
+      "poster": "https://image.tmdb.org/t/p/w500/8V2jpc1K8icNr0EScpqARyitXlc.jpg",
+      "posterShape": "poster",
+      "description": "A group of young explorers investigates an old abandoned hotel, only to encounter a strange supernatural being and a competing group looking for a legendary hidden treasure.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt3515878"
     },
     {
       "id": "tt32881442",
@@ -261,17 +261,17 @@
       "imdb_id": "tt32329539"
     },
     {
-      "id": "tt10963926",
+      "id": "tt5737388",
       "type": "movie",
-      "name": "Two Witches",
-      "poster": "https://image.tmdb.org/t/p/w500/a6JHz23BOfbzWxL5JsrBWQHqMuh.jpg",
+      "name": "The Accursed",
+      "poster": "https://image.tmdb.org/t/p/w500/kBPkV6Gqvbmq6z25bpw3ofsk5ue.jpg",
       "posterShape": "poster",
-      "description": "A matriarchal witch passes on her sinister inheritance to her grand-daughter, triggering the most horrific curses.",
+      "description": "Hana spends twenty years suppressing a maleficent curse that was placed upon her bloodline, only to have a family member knowingly release it forcing her to kill or to be killed.",
       "genres": [
         "Horror"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt10963926"
+      "releaseInfo": "2021",
+      "imdb_id": "tt5737388"
     }
   ]
 }
