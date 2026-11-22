@@ -114,20 +114,6 @@
       "imdb_id": "tt8429394"
     },
     {
-      "id": "tt13232552",
-      "type": "movie",
-      "name": "The Man in the White Van",
-      "poster": "https://image.tmdb.org/t/p/w500/A98LHlo4wvgV3d79IovLhL0KSL5.jpg",
-      "posterShape": "poster",
-      "description": "In early 1970s Florida, an ominous white van stalks young women. A teenage girl is the latest victim, but this one won't stay a victim.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt13232552"
-    },
-    {
       "id": "tt18482470",
       "type": "movie",
       "name": "Blood and Snow",
@@ -280,6 +266,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt27444133"
+    },
+    {
+      "id": "tt15474916",
+      "type": "movie",
+      "name": "Smile",
+      "poster": "https://image.tmdb.org/t/p/w500/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
+      "posterShape": "poster",
+      "description": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15474916"
     }
   ]
 }

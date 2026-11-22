@@ -219,21 +219,6 @@
       "imdb_id": "tt13515258"
     },
     {
-      "id": "tt32141377",
-      "type": "movie",
-      "name": "28 Years Later: The Bone Temple",
-      "poster": "https://image.tmdb.org/t/p/w500/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
-      "posterShape": "poster",
-      "description": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32141377"
-    },
-    {
       "id": "tt9100018",
       "type": "movie",
       "name": "Cobweb",
@@ -272,6 +257,19 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11123012"
+    },
+    {
+      "id": "tt5737388",
+      "type": "movie",
+      "name": "The Accursed",
+      "poster": "https://image.tmdb.org/t/p/w500/kBPkV6Gqvbmq6z25bpw3ofsk5ue.jpg",
+      "posterShape": "poster",
+      "description": "Hana spends twenty years suppressing a maleficent curse that was placed upon her bloodline, only to have a family member knowingly release it forcing her to kill or to be killed.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt5737388"
     }
   ]
 }
