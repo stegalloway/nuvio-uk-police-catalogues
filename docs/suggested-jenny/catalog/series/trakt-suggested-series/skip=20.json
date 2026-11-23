@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt14111774",
-      "type": "series",
-      "name": "John Wayne Gacy: Devil in Disguise",
-      "poster": "https://image.tmdb.org/t/p/w500/3LZHmVND6WyY0bhoLlyWPRl5Pa1.jpg",
-      "posterShape": "poster",
-      "description": "The chilling story of one of the world’s most notorious serial killers told through the words of Gacy himself, those who were forever changed by his unspeakable deeds and those who believe that the full truth remains concealed to this day.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt14111774"
-    },
-    {
       "id": "tt11475228",
       "type": "series",
       "name": "Killer Inside: The Mind of Aaron Hernandez",
@@ -158,20 +144,6 @@
       "imdb_id": "tt9642938"
     },
     {
-      "id": "tt11285470",
-      "type": "series",
-      "name": "The Expecting",
-      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
-      "posterShape": "poster",
-      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11285470"
-    },
-    {
       "id": "tt27142031",
       "type": "series",
       "name": "American Manhunt: The Boston Marathon Bombing",
@@ -184,6 +156,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt27142031"
+    },
+    {
+      "id": "tt11285470",
+      "type": "series",
+      "name": "The Expecting",
+      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
+      "posterShape": "poster",
+      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11285470"
     },
     {
       "id": "tt13269706",
@@ -281,6 +267,19 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt11656892"
+    },
+    {
+      "id": "tt23330464",
+      "type": "series",
+      "name": "Stolen Youth: Inside the Cult at Sarah Lawrence",
+      "poster": "https://image.tmdb.org/t/p/w500/r00i76ZaQ0NtwK2mkpVLkT6skkg.jpg",
+      "posterShape": "poster",
+      "description": "A group of bright Sarah Lawrence College students fall under the dark influence of a friend's father, Larry Ray. With unprecedented access to the survivors who lived with Ray, the series follows the cult from its origins through its still-unfolding aftermath.",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt23330464"
     }
   ]
 }

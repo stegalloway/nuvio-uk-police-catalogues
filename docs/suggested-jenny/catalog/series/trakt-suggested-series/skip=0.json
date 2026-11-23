@@ -156,20 +156,6 @@
       "imdb_id": "tt8045494"
     },
     {
-      "id": "tt22646714",
-      "type": "series",
-      "name": "Killer Sally",
-      "poster": "https://image.tmdb.org/t/p/w500/46WBP1KGrI9pPstPhxkBvNR0T0m.jpg",
-      "posterShape": "poster",
-      "description": "Interviews with friends, family and Sally McNeil herself chart a bodybuilding couple’s rocky marriage — and its shocking end in a Valentine's Day murder.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt22646714"
-    },
-    {
       "id": "tt10970552",
       "type": "series",
       "name": "The Haunting of Bly Manor",
@@ -283,6 +269,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt31458276"
+    },
+    {
+      "id": "tt14111774",
+      "type": "series",
+      "name": "John Wayne Gacy: Devil in Disguise",
+      "poster": "https://image.tmdb.org/t/p/w500/3LZHmVND6WyY0bhoLlyWPRl5Pa1.jpg",
+      "posterShape": "poster",
+      "description": "The chilling story of one of the world’s most notorious serial killers told through the words of Gacy himself, those who were forever changed by his unspeakable deeds and those who believe that the full truth remains concealed to this day.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt14111774"
     }
   ]
 }
