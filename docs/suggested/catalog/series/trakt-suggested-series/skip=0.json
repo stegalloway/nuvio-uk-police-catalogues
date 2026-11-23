@@ -100,20 +100,6 @@
       "imdb_id": "tt2243973"
     },
     {
-      "id": "tt5011816",
-      "type": "series",
-      "name": "Sneaky Pete",
-      "poster": "https://image.tmdb.org/t/p/w500/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
-      "posterShape": "poster",
-      "description": "A con man on the run from a vicious gangster takes cover from his past by assuming the identity of his prison cellmate, Pete, “reuniting” with Pete’s estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he’s trying to escape - and, just maybe, give him a taste of the loving family he’s never had.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt5011816"
-    },
-    {
       "id": "tt5715524",
       "type": "series",
       "name": "Mayans M.C.",
@@ -128,19 +114,32 @@
       "imdb_id": "tt5715524"
     },
     {
-      "id": "tt26598805",
+      "id": "tt5011816",
       "type": "series",
-      "name": "Nocturne",
-      "poster": "https://image.tmdb.org/t/p/w500/nyvXVcPnHEwVmqCdzjjCsu1jqhm.jpg",
+      "name": "Sneaky Pete",
+      "poster": "https://image.tmdb.org/t/p/w500/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
       "posterShape": "poster",
-      "description": "When a victim of notorious serial killer Jurek Walter unexpectedly turns up alive, detective Jonah Lynn races against time to find the one person still missing, while his protégé Saga Bauer goes undercover to get answers from the killer himself.",
+      "description": "A con man on the run from a vicious gangster takes cover from his past by assuming the identity of his prison cellmate, Pete, “reuniting” with Pete’s estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he’s trying to escape - and, just maybe, give him a taste of the loving family he’s never had.",
       "genres": [
-        "Crime",
         "Drama",
-        "Mystery"
+        "Crime"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt26598805"
+      "releaseInfo": "2015",
+      "imdb_id": "tt5011816"
+    },
+    {
+      "id": "tt5290382",
+      "type": "series",
+      "name": "MINDHUNTER",
+      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+      "posterShape": "poster",
+      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt5290382"
     },
     {
       "id": "tt1064899",
@@ -171,18 +170,19 @@
       "imdb_id": "tt6439752"
     },
     {
-      "id": "tt5290382",
+      "id": "tt26598805",
       "type": "series",
-      "name": "MINDHUNTER",
-      "poster": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+      "name": "Nocturne",
+      "poster": "https://image.tmdb.org/t/p/w500/nyvXVcPnHEwVmqCdzjjCsu1jqhm.jpg",
       "posterShape": "poster",
-      "description": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+      "description": "When a victim of notorious serial killer Jurek Walter unexpectedly turns up alive, detective Jonah Lynn races against time to find the one person still missing, while his protégé Saga Bauer goes undercover to get answers from the killer himself.",
       "genres": [
+        "Crime",
         "Drama",
-        "Crime"
+        "Mystery"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt5290382"
+      "releaseInfo": "2026",
+      "imdb_id": "tt26598805"
     },
     {
       "id": "tt11761194",

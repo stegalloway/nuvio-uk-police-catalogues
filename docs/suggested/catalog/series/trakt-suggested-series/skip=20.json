@@ -1,32 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt0306414",
+      "id": "tt13018148",
       "type": "series",
-      "name": "The Wire",
-      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
+      "name": "Tell Me Lies",
+      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
       "posterShape": "poster",
-      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
+      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2002",
-      "imdb_id": "tt0306414"
-    },
-    {
-      "id": "tt14063678",
-      "type": "series",
-      "name": "The Gold",
-      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
-      "posterShape": "poster",
-      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14063678"
+      "releaseInfo": "2022",
+      "imdb_id": "tt13018148"
     },
     {
       "id": "tt6510950",
@@ -43,18 +29,18 @@
       "imdb_id": "tt6510950"
     },
     {
-      "id": "tt13018148",
+      "id": "tt14063678",
       "type": "series",
-      "name": "Tell Me Lies",
-      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
+      "name": "The Gold",
+      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
       "posterShape": "poster",
-      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
+      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
       "genres": [
-        "Drama",
-        "Mystery"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13018148"
+      "releaseInfo": "2023",
+      "imdb_id": "tt14063678"
     },
     {
       "id": "tt5611024",
@@ -72,6 +58,20 @@
       "imdb_id": "tt5611024"
     },
     {
+      "id": "tt0306414",
+      "type": "series",
+      "name": "The Wire",
+      "poster": "https://image.tmdb.org/t/p/w500/4lbclFySvugI51fwsyxBTOm4DqK.jpg",
+      "posterShape": "poster",
+      "description": "Told from the points of view of both the Baltimore homicide and narcotics detectives and their targets, the series captures a universe in which the national war on drugs has become a permanent, self-sustaining bureaucracy, and distinctions between good and evil are routinely obliterated.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2002",
+      "imdb_id": "tt0306414"
+    },
+    {
       "id": "tt2788432",
       "type": "series",
       "name": "American Crime Story",
@@ -84,20 +84,6 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt2788432"
-    },
-    {
-      "id": "tt31842126",
-      "type": "series",
-      "name": "The Good Daughter",
-      "poster": "https://image.tmdb.org/t/p/w500/qJPvyo9Pxz3MQndd3tKSocLz1Nt.jpg",
-      "posterShape": "poster",
-      "description": "Sisters Charlotte and Samantha Quinn have spent the last twenty-eight years trying to piece together the lives that were fractured by a single night of violence. When another attack splinters the small town of Pikeville, Charlotte is the first witness on the scene. Now a lawyer like her father, she’s forced to confront her own demons as the case twists through one shocking revelation after another. In the end, both she and Samantha find themselves wondering if the price of being the good daughter was worth it after all.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31842126"
     },
     {
       "id": "tt34771210",
@@ -188,19 +174,18 @@
       "imdb_id": "tt14582876"
     },
     {
-      "id": "tt4258440",
+      "id": "tt2356777",
       "type": "series",
-      "name": "River",
-      "poster": "https://image.tmdb.org/t/p/w500/fhiVcu9RA3MEVQtMowwQUsHJfJR.jpg",
+      "name": "True Detective",
+      "poster": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
       "posterShape": "poster",
-      "description": "Respected police officer John River, a gifted cop with a troubled mind, struggles to come to terms with the recent loss of a colleague, and chases a suspect across London - with tragic consequences. Now at odds with the authorities, River ends up in a precarious position as he seeks to bring closure to the mother of murdered teenager, who blames him for failing to keep his promise.",
+      "description": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
       "genres": [
-        "Crime",
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4258440"
+      "releaseInfo": "2014",
+      "imdb_id": "tt2356777"
     },
     {
       "id": "tt35515227",
@@ -215,6 +200,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35515227"
+    },
+    {
+      "id": "tt4258440",
+      "type": "series",
+      "name": "River",
+      "poster": "https://image.tmdb.org/t/p/w500/fhiVcu9RA3MEVQtMowwQUsHJfJR.jpg",
+      "posterShape": "poster",
+      "description": "Respected police officer John River, a gifted cop with a troubled mind, struggles to come to terms with the recent loss of a colleague, and chases a suspect across London - with tragic consequences. Now at odds with the authorities, River ends up in a precarious position as he seeks to bring closure to the mother of murdered teenager, who blames him for failing to keep his promise.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt4258440"
     },
     {
       "id": "tt2304589",
@@ -232,19 +232,6 @@
       "imdb_id": "tt2304589"
     },
     {
-      "id": "tt37972251",
-      "type": "series",
-      "name": "WAR",
-      "poster": "https://image.tmdb.org/t/p/w500/AtCR5LMuvwepTi1kipKq878Rbuq.jpg",
-      "posterShape": "poster",
-      "description": "An anthology series set in the elite world of London law following two rival firms, Cathcarts and Taylor & Byrne, as they face off in a different headline-making legal battle each season.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt37972251"
-    },
-    {
       "id": "tt3428912",
       "type": "series",
       "name": "Happy Valley",
@@ -258,6 +245,19 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt3428912"
+    },
+    {
+      "id": "tt37972251",
+      "type": "series",
+      "name": "WAR",
+      "poster": "https://image.tmdb.org/t/p/w500/AtCR5LMuvwepTi1kipKq878Rbuq.jpg",
+      "posterShape": "poster",
+      "description": "An anthology series set in the elite world of London law following two rival firms, Cathcarts and Taylor & Byrne, as they face off in a different headline-making legal battle each season.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt37972251"
     },
     {
       "id": "tt6037988",

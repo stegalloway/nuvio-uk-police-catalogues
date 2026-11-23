@@ -30,18 +30,18 @@
       "imdb_id": "tt32267726"
     },
     {
-      "id": "tt2356777",
+      "id": "tt31842126",
       "type": "series",
-      "name": "True Detective",
-      "poster": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
+      "name": "The Good Daughter",
+      "poster": "https://image.tmdb.org/t/p/w500/qJPvyo9Pxz3MQndd3tKSocLz1Nt.jpg",
       "posterShape": "poster",
-      "description": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+      "description": "Sisters Charlotte and Samantha Quinn have spent the last twenty-eight years trying to piece together the lives that were fractured by a single night of violence. When another attack splinters the small town of Pikeville, Charlotte is the first witness on the scene. Now a lawyer like her father, she’s forced to confront her own demons as the case twists through one shocking revelation after another. In the end, both she and Samantha find themselves wondering if the price of being the good daughter was worth it after all.",
       "genres": [
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2356777"
+      "releaseInfo": "2026",
+      "imdb_id": "tt31842126"
     },
     {
       "id": "tt32559610",
@@ -102,6 +102,20 @@
       "imdb_id": "tt5675620"
     },
     {
+      "id": "tt9131050",
+      "type": "series",
+      "name": "A Confession",
+      "poster": "https://image.tmdb.org/t/p/w500/6c6q8m5PCiXv3TlxmM0vIcLylb0.jpg",
+      "posterShape": "poster",
+      "description": "The story of how Detective Superintendent Steve Fulcher deliberately breached police procedure and protocol to catch a killer, a decision that ultimately cost him his career and reputation.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt9131050"
+    },
+    {
       "id": "tt5743796",
       "type": "series",
       "name": "Warrior",
@@ -116,20 +130,6 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt5743796"
-    },
-    {
-      "id": "tt9131050",
-      "type": "series",
-      "name": "A Confession",
-      "poster": "https://image.tmdb.org/t/p/w500/6c6q8m5PCiXv3TlxmM0vIcLylb0.jpg",
-      "posterShape": "poster",
-      "description": "The story of how Detective Superintendent Steve Fulcher deliberately breached police procedure and protocol to catch a killer, a decision that ultimately cost him his career and reputation.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt9131050"
     },
     {
       "id": "tt1637727",
@@ -249,6 +249,20 @@
       "imdb_id": "tt0460627"
     },
     {
+      "id": "tt1640719",
+      "type": "series",
+      "name": "Under the Bridge",
+      "poster": "https://image.tmdb.org/t/p/w500/4YMpCGsAAHXWGScHsK1sbd7wprE.jpg",
+      "posterShape": "poster",
+      "description": "Fourteen-year old Reena Virk went to join friends at a party and never returned home. Through the eyes of Rebecca Godfrey and a local police officer, learn the hidden world of the young girls accused of the murder — revealing startling truths about the unlikely killer.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt1640719"
+    },
+    {
       "id": "tt0118437",
       "type": "series",
       "name": "The Practice",
@@ -275,20 +289,6 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt5722298"
-    },
-    {
-      "id": "tt1640719",
-      "type": "series",
-      "name": "Under the Bridge",
-      "poster": "https://image.tmdb.org/t/p/w500/4YMpCGsAAHXWGScHsK1sbd7wprE.jpg",
-      "posterShape": "poster",
-      "description": "Fourteen-year old Reena Virk went to join friends at a party and never returned home. Through the eyes of Rebecca Godfrey and a local police officer, learn the hidden world of the young girls accused of the murder — revealing startling truths about the unlikely killer.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt1640719"
     }
   ]
 }
