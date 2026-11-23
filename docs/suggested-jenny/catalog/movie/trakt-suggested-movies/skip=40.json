@@ -158,20 +158,6 @@
       "imdb_id": "tt30851137"
     },
     {
-      "id": "tt28498159",
-      "type": "movie",
-      "name": "The Other",
-      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
-      "posterShape": "poster",
-      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt28498159"
-    },
-    {
       "id": "tt8004664",
       "type": "movie",
       "name": "Come Play",
@@ -184,6 +170,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt8004664"
+    },
+    {
+      "id": "tt28498159",
+      "type": "movie",
+      "name": "The Other",
+      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
+      "posterShape": "poster",
+      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt28498159"
     },
     {
       "id": "tt3065204",
@@ -240,21 +240,6 @@
       "imdb_id": "tt24807110"
     },
     {
-      "id": "tt32880932",
-      "type": "movie",
-      "name": "V/H/S/Beyond",
-      "poster": "https://image.tmdb.org/t/p/w500/wXaf6VGNHIGU7qivapGOF7o4o4N.jpg",
-      "posterShape": "poster",
-      "description": "The infinite playground of forbidden worlds and dangerous lifeforms offered by the sci-fi horror genre will lead to the biggest, maddest, bloodiest V/H/S ever.",
-      "genres": [
-        "Horror",
-        "Science Fiction",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt32880932"
-    },
-    {
       "id": "tt27444133",
       "type": "movie",
       "name": "Shades of Desire",
@@ -281,6 +266,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15474916"
+    },
+    {
+      "id": "tt11245972",
+      "type": "movie",
+      "name": "Scream",
+      "poster": "https://image.tmdb.org/t/p/w500/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
+      "posterShape": "poster",
+      "description": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11245972"
     }
   ]
 }
