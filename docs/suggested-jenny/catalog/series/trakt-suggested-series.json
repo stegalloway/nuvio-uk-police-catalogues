@@ -72,20 +72,6 @@
       "imdb_id": "tt23148340"
     },
     {
-      "id": "tt15837600",
-      "type": "series",
-      "name": "Griselda",
-      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
-      "posterShape": "poster",
-      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt15837600"
-    },
-    {
       "id": "tt1640719",
       "type": "series",
       "name": "Under the Bridge",
@@ -98,6 +84,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt1640719"
+    },
+    {
+      "id": "tt15837600",
+      "type": "series",
+      "name": "Griselda",
+      "poster": "https://image.tmdb.org/t/p/w500/nhEtK1lJKb3kqBtDBDXynGr3hJL.jpg",
+      "posterShape": "poster",
+      "description": "Inspired by real events, this fictional dramatization shows Griselda Blanco's journey from Medellín to becoming \"the Godmother\" of Miami's drug empire.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt15837600"
     },
     {
       "id": "tt14586350",

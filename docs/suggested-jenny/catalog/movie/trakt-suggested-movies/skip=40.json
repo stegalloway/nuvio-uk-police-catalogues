@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt34494076",
-      "type": "movie",
-      "name": "Hungry",
-      "poster": "https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg",
-      "posterShape": "poster",
-      "description": "A group of holidaymakers must fight for their lives against a rampaging hippo on the loose after becoming lost in the Louisiana swamplands.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34494076"
-    },
-    {
       "id": "tt27564844",
       "type": "movie",
       "name": "Iron Lung",
@@ -157,20 +143,6 @@
       "imdb_id": "tt32358390"
     },
     {
-      "id": "tt4196566",
-      "type": "movie",
-      "name": "The Deliverance",
-      "poster": "https://image.tmdb.org/t/p/w500/og1FteMFRInoQnlZeWqEn8XpXHh.jpg",
-      "posterShape": "poster",
-      "description": "Ebony Jackson, a struggling single mother fighting her personal demons, moves her family into a new home for a fresh start. But when strange occurrences inside the home raise the suspicions of Child Protective Services and threaten to tear the family apart, Ebony soon finds herself locked in a battle for her life and the souls of her children.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt4196566"
-    },
-    {
       "id": "tt8004664",
       "type": "movie",
       "name": "Come Play",
@@ -280,6 +252,34 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt27444133"
+    },
+    {
+      "id": "tt15474916",
+      "type": "movie",
+      "name": "Smile",
+      "poster": "https://image.tmdb.org/t/p/w500/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
+      "posterShape": "poster",
+      "description": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15474916"
+    },
+    {
+      "id": "tt11245972",
+      "type": "movie",
+      "name": "Scream",
+      "poster": "https://image.tmdb.org/t/p/w500/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
+      "posterShape": "poster",
+      "description": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11245972"
     }
   ]
 }
