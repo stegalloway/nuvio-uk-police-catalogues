@@ -1,30 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt31938062",
+      "id": "tt11656892",
       "type": "series",
-      "name": "The Pitt",
-      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+      "name": "Des",
+      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
       "posterShape": "poster",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
       "genres": [
+        "Crime",
         "Drama"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31938062"
-    },
-    {
-      "id": "tt11173006",
-      "type": "series",
-      "name": "Super Pumped: The Battle for Uber",
-      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
-      "posterShape": "poster",
-      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11173006"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11656892"
     },
     {
       "id": "tt23330464",
@@ -53,6 +41,19 @@
       "imdb_id": "tt21315194"
     },
     {
+      "id": "tt14016500",
+      "type": "series",
+      "name": "The Summer I Turned Pretty",
+      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
+      "posterShape": "poster",
+      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14016500"
+    },
+    {
       "id": "tt8354062",
       "type": "series",
       "name": "One of Us Is Lying",
@@ -65,6 +66,20 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt8354062"
+    },
+    {
+      "id": "tt15574312",
+      "type": "series",
+      "name": "The Patient",
+      "poster": "https://image.tmdb.org/t/p/w500/fB1848j0pvNnYilXB0ho5OCfiIz.jpg",
+      "posterShape": "poster",
+      "description": "A psychotherapist finds himself held prisoner by a serial killer with an unusual request: curb his homicidal urges.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt15574312"
     },
     {
       "id": "tt18970124",
@@ -107,33 +122,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt43476716"
-    },
-    {
-      "id": "tt14016500",
-      "type": "series",
-      "name": "The Summer I Turned Pretty",
-      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
-      "posterShape": "poster",
-      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14016500"
-    },
-    {
-      "id": "tt15574312",
-      "type": "series",
-      "name": "The Patient",
-      "poster": "https://image.tmdb.org/t/p/w500/fB1848j0pvNnYilXB0ho5OCfiIz.jpg",
-      "posterShape": "poster",
-      "description": "A psychotherapist finds himself held prisoner by a serial killer with an unusual request: curb his homicidal urges.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15574312"
     },
     {
       "id": "tt9859436",
@@ -275,6 +263,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt37438628"
+    },
+    {
+      "id": "tt11141900",
+      "type": "series",
+      "name": "Ted Bundy: Falling for a Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
+      "posterShape": "poster",
+      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11141900"
     }
   ]
 }
