@@ -54,19 +54,6 @@
       "imdb_id": "tt28088571"
     },
     {
-      "id": "tt10638522",
-      "type": "movie",
-      "name": "Talk to Me",
-      "poster": "https://image.tmdb.org/t/p/w500/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
-      "posterShape": "poster",
-      "description": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt10638522"
-    },
-    {
       "id": "tt13778486",
       "type": "movie",
       "name": "Succubus",
@@ -79,6 +66,19 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt13778486"
+    },
+    {
+      "id": "tt10638522",
+      "type": "movie",
+      "name": "Talk to Me",
+      "poster": "https://image.tmdb.org/t/p/w500/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
+      "posterShape": "poster",
+      "description": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt10638522"
     },
     {
       "id": "tt35538033",
@@ -139,20 +139,6 @@
       "imdb_id": "tt30505578"
     },
     {
-      "id": "tt36958312",
-      "type": "movie",
-      "name": "The Devil's Mouth",
-      "poster": "https://image.tmdb.org/t/p/w500/lH8k9uCWYn2b2gsYleqYBDPbWa8.jpg",
-      "posterShape": "poster",
-      "description": "A group of college friends' Thailand adventure turns deadly when they become trapped in submerged caves with a dangerous predator. As oxygen runs low, past conflicts emerge in their desperate fight for survival.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt36958312"
-    },
-    {
       "id": "tt14270702",
       "type": "movie",
       "name": "God Is a Bullet",
@@ -169,6 +155,20 @@
       "imdb_id": "tt14270702"
     },
     {
+      "id": "tt36958312",
+      "type": "movie",
+      "name": "The Devil's Mouth",
+      "poster": "https://image.tmdb.org/t/p/w500/lH8k9uCWYn2b2gsYleqYBDPbWa8.jpg",
+      "posterShape": "poster",
+      "description": "A group of college friends' Thailand adventure turns deadly when they become trapped in submerged caves with a dangerous predator. As oxygen runs low, past conflicts emerge in their desperate fight for survival.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt36958312"
+    },
+    {
       "id": "tt14030816",
       "type": "movie",
       "name": "Baghead",
@@ -180,20 +180,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt14030816"
-    },
-    {
-      "id": "tt33978029",
-      "type": "movie",
-      "name": "Ready or Not: Here I Come",
-      "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
-      "posterShape": "poster",
-      "description": "Moments after surviving an all-out attack from the Le Domas family, Grace discovers she’s reached the next level of the nightmarish game — and this time with her estranged sister Faith at her side. Grace has one chance to survive, keep her sister alive, and claim the High Seat of the Council that controls the world. Four rival families are hunting her for the throne, and whoever wins rules it all.",
-      "genres": [
-        "Horror",
-        "Comedy"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33978029"
     },
     {
       "id": "tt13405778",
@@ -208,6 +194,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt13405778"
+    },
+    {
+      "id": "tt33978029",
+      "type": "movie",
+      "name": "Ready or Not: Here I Come",
+      "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+      "posterShape": "poster",
+      "description": "Moments after surviving an all-out attack from the Le Domas family, Grace discovers she’s reached the next level of the nightmarish game — and this time with her estranged sister Faith at her side. Grace has one chance to survive, keep her sister alive, and claim the High Seat of the Council that controls the world. Four rival families are hunting her for the throne, and whoever wins rules it all.",
+      "genres": [
+        "Horror",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33978029"
     },
     {
       "id": "tt10954984",

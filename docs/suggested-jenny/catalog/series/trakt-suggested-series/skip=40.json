@@ -1,32 +1,17 @@
 {
   "metas": [
     {
-      "id": "tt8415836",
+      "id": "tt14016500",
       "type": "series",
-      "name": "Guillermo del Toro's Cabinet of Curiosities",
-      "poster": "https://image.tmdb.org/t/p/w500/a91e9hpWwfCqxJI4xM9Q2RhuxgI.jpg",
+      "name": "The Summer I Turned Pretty",
+      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
       "posterShape": "poster",
-      "description": "Bizarre nightmares unfold in eight tales of terror in this visually stunning, spine-tingling horror collection curated by Guillermo del Toro.",
+      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
       "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
+        "Drama"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt8415836"
-    },
-    {
-      "id": "tt23330464",
-      "type": "series",
-      "name": "Stolen Youth: Inside the Cult at Sarah Lawrence",
-      "poster": "https://image.tmdb.org/t/p/w500/r00i76ZaQ0NtwK2mkpVLkT6skkg.jpg",
-      "posterShape": "poster",
-      "description": "A group of bright Sarah Lawrence College students fall under the dark influence of a friend's father, Larry Ray. With unprecedented access to the survivors who lived with Ray, the series follows the cult from its origins through its still-unfolding aftermath.",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt23330464"
+      "imdb_id": "tt14016500"
     },
     {
       "id": "tt21315194",
@@ -42,17 +27,19 @@
       "imdb_id": "tt21315194"
     },
     {
-      "id": "tt18970124",
+      "id": "tt8415836",
       "type": "series",
-      "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/dSwfINzvtVJZYy1L7fsrRfOetAm.jpg",
+      "name": "Guillermo del Toro's Cabinet of Curiosities",
+      "poster": "https://image.tmdb.org/t/p/w500/a91e9hpWwfCqxJI4xM9Q2RhuxgI.jpg",
       "posterShape": "poster",
-      "description": "He dined with the powerful. He preyed on the vulnerable. Beneath a smiling exterior was the horrifying darkness of a sadistic serial killer.",
+      "description": "Bizarre nightmares unfold in eight tales of terror in this visually stunning, spine-tingling horror collection curated by Guillermo del Toro.",
       "genres": [
-        "Documentary"
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt18970124"
+      "imdb_id": "tt8415836"
     },
     {
       "id": "tt15574312",
@@ -67,6 +54,19 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15574312"
+    },
+    {
+      "id": "tt18970124",
+      "type": "series",
+      "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/dSwfINzvtVJZYy1L7fsrRfOetAm.jpg",
+      "posterShape": "poster",
+      "description": "He dined with the powerful. He preyed on the vulnerable. Beneath a smiling exterior was the horrifying darkness of a sadistic serial killer.",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt18970124"
     },
     {
       "id": "tt43476716",
@@ -154,20 +154,6 @@
       "imdb_id": "tt33480540"
     },
     {
-      "id": "tt35629774",
-      "type": "series",
-      "name": "Gone Girls: The Long Island Serial Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/vWTep5omXCxFtf5hlUc8VlmFI0u.jpg",
-      "posterShape": "poster",
-      "description": "This tense true-crime series examines the hunt for the Long Island serial killer through the perspective of his victims, their loved ones and the police.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35629774"
-    },
-    {
       "id": "tt35590630",
       "type": "series",
       "name": "American Murder: Gabby Petito",
@@ -196,18 +182,18 @@
       "imdb_id": "tt14865290"
     },
     {
-      "id": "tt37438628",
+      "id": "tt35629774",
       "type": "series",
-      "name": "Conversations with a Killer: The Son of Sam Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/bSJ221k1EOuBHiye7ae29VqxjnS.jpg",
+      "name": "Gone Girls: The Long Island Serial Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/vWTep5omXCxFtf5hlUc8VlmFI0u.jpg",
       "posterShape": "poster",
-      "description": "Mixing present-day interviews with previously unheard recordings, this true-crime series examines serial killer David Berkowitz's mark on 1970s New York.",
+      "description": "This tense true-crime series examines the hunt for the Long Island serial killer through the perspective of his victims, their loved ones and the police.",
       "genres": [
         "Documentary",
         "Crime"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt37438628"
+      "imdb_id": "tt35629774"
     },
     {
       "id": "tt20782578",
@@ -222,6 +208,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt20782578"
+    },
+    {
+      "id": "tt37438628",
+      "type": "series",
+      "name": "Conversations with a Killer: The Son of Sam Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/bSJ221k1EOuBHiye7ae29VqxjnS.jpg",
+      "posterShape": "poster",
+      "description": "Mixing present-day interviews with previously unheard recordings, this true-crime series examines serial killer David Berkowitz's mark on 1970s New York.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt37438628"
     },
     {
       "id": "tt11141900",

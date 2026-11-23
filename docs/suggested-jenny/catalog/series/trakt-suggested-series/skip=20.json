@@ -1,18 +1,32 @@
 {
   "metas": [
     {
-      "id": "tt10148174",
+      "id": "tt3960394",
       "type": "series",
-      "name": "The Walking Dead: World Beyond",
-      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
+      "name": "Interview with the Vampire",
+      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
       "posterShape": "poster",
-      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
+      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
       "genres": [
         "Drama",
         "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10148174"
+      "releaseInfo": "2022",
+      "imdb_id": "tt3960394"
+    },
+    {
+      "id": "tt14111774",
+      "type": "series",
+      "name": "John Wayne Gacy: Devil in Disguise",
+      "poster": "https://image.tmdb.org/t/p/w500/3LZHmVND6WyY0bhoLlyWPRl5Pa1.jpg",
+      "posterShape": "poster",
+      "description": "The chilling story of one of the world’s most notorious serial killers told through the words of Gacy himself, those who were forever changed by his unspeakable deeds and those who believe that the full truth remains concealed to this day.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt14111774"
     },
     {
       "id": "tt11540908",
@@ -28,20 +42,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt11540908"
-    },
-    {
-      "id": "tt14111774",
-      "type": "series",
-      "name": "John Wayne Gacy: Devil in Disguise",
-      "poster": "https://image.tmdb.org/t/p/w500/3LZHmVND6WyY0bhoLlyWPRl5Pa1.jpg",
-      "posterShape": "poster",
-      "description": "The chilling story of one of the world’s most notorious serial killers told through the words of Gacy himself, those who were forever changed by his unspeakable deeds and those who believe that the full truth remains concealed to this day.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt14111774"
     },
     {
       "id": "tt11475228",
@@ -70,6 +70,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt31314754"
+    },
+    {
+      "id": "tt11822998",
+      "type": "series",
+      "name": "The Trials of Gabriel Fernandez",
+      "poster": "https://image.tmdb.org/t/p/w500/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
+      "posterShape": "poster",
+      "description": "A boy’s brutal murder and the public trials of his guardians and social workers prompt questions about the system’s protection of vulnerable children.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11822998"
     },
     {
       "id": "tt9064858",
@@ -101,18 +115,18 @@
       "imdb_id": "tt6053512"
     },
     {
-      "id": "tt11822998",
+      "id": "tt11285470",
       "type": "series",
-      "name": "The Trials of Gabriel Fernandez",
-      "poster": "https://image.tmdb.org/t/p/w500/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
+      "name": "The Expecting",
+      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
       "posterShape": "poster",
-      "description": "A boy’s brutal murder and the public trials of his guardians and social workers prompt questions about the system’s protection of vulnerable children.",
+      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
       "genres": [
-        "Documentary",
-        "Crime"
+        "Mystery",
+        "Drama"
       ],
       "releaseInfo": "2020",
-      "imdb_id": "tt11822998"
+      "imdb_id": "tt11285470"
     },
     {
       "id": "tt13623632",
@@ -127,20 +141,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt13623632"
-    },
-    {
-      "id": "tt11285470",
-      "type": "series",
-      "name": "The Expecting",
-      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
-      "posterShape": "poster",
-      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11285470"
     },
     {
       "id": "tt9642938",
@@ -158,17 +158,32 @@
       "imdb_id": "tt9642938"
     },
     {
-      "id": "tt11173006",
+      "id": "tt27142031",
       "type": "series",
-      "name": "Super Pumped: The Battle for Uber",
-      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
+      "name": "American Manhunt: The Boston Marathon Bombing",
+      "poster": "https://image.tmdb.org/t/p/w500/yagaaZpOgmX3cku7fgMCb4dyNeC.jpg",
       "posterShape": "poster",
-      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
+      "description": "Archive footage, chilling reenactments and exclusive interviews shed new light on a tragedy — and two brothers — that suspended a city in terror.",
       "genres": [
-        "Drama"
+        "Documentary",
+        "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11173006"
+      "releaseInfo": "2023",
+      "imdb_id": "tt27142031"
+    },
+    {
+      "id": "tt13269706",
+      "type": "series",
+      "name": "Seduced: Inside the NXIVM Cult",
+      "poster": "https://image.tmdb.org/t/p/w500/2algVl1riUbFcFBxxy1Ops6FNM7.jpg",
+      "posterShape": "poster",
+      "description": "This four-part documentary series follows the story of India Oxenberg's perilous journey through the dark and criminal world of the notorious self-help-group-turned-sex-slave-cult NXIVM.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt13269706"
     },
     {
       "id": "tt31938062",
@@ -182,6 +197,33 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt31938062"
+    },
+    {
+      "id": "tt11173006",
+      "type": "series",
+      "name": "Super Pumped: The Battle for Uber",
+      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
+      "posterShape": "poster",
+      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11173006"
+    },
+    {
+      "id": "tt13729648",
+      "type": "series",
+      "name": "Candy",
+      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
+      "posterShape": "poster",
+      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13729648"
     },
     {
       "id": "tt11794812",
@@ -199,34 +241,6 @@
       "imdb_id": "tt11794812"
     },
     {
-      "id": "tt13729648",
-      "type": "series",
-      "name": "Candy",
-      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
-      "posterShape": "poster",
-      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13729648"
-    },
-    {
-      "id": "tt27142031",
-      "type": "series",
-      "name": "American Manhunt: The Boston Marathon Bombing",
-      "poster": "https://image.tmdb.org/t/p/w500/yagaaZpOgmX3cku7fgMCb4dyNeC.jpg",
-      "posterShape": "poster",
-      "description": "Archive footage, chilling reenactments and exclusive interviews shed new light on a tragedy — and two brothers — that suspended a city in terror.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt27142031"
-    },
-    {
       "id": "tt11656892",
       "type": "series",
       "name": "Des",
@@ -241,31 +255,17 @@
       "imdb_id": "tt11656892"
     },
     {
-      "id": "tt13269706",
+      "id": "tt23330464",
       "type": "series",
-      "name": "Seduced: Inside the NXIVM Cult",
-      "poster": "https://image.tmdb.org/t/p/w500/2algVl1riUbFcFBxxy1Ops6FNM7.jpg",
+      "name": "Stolen Youth: Inside the Cult at Sarah Lawrence",
+      "poster": "https://image.tmdb.org/t/p/w500/r00i76ZaQ0NtwK2mkpVLkT6skkg.jpg",
       "posterShape": "poster",
-      "description": "This four-part documentary series follows the story of India Oxenberg's perilous journey through the dark and criminal world of the notorious self-help-group-turned-sex-slave-cult NXIVM.",
+      "description": "A group of bright Sarah Lawrence College students fall under the dark influence of a friend's father, Larry Ray. With unprecedented access to the survivors who lived with Ray, the series follows the cult from its origins through its still-unfolding aftermath.",
       "genres": [
-        "Documentary",
-        "Crime"
+        "Documentary"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt13269706"
-    },
-    {
-      "id": "tt14016500",
-      "type": "series",
-      "name": "The Summer I Turned Pretty",
-      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
-      "posterShape": "poster",
-      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14016500"
+      "releaseInfo": "2023",
+      "imdb_id": "tt23330464"
     },
     {
       "id": "tt8354062",

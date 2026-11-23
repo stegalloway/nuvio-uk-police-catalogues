@@ -15,6 +15,20 @@
       "imdb_id": "tt13018148"
     },
     {
+      "id": "tt21946032",
+      "type": "series",
+      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
+      "posterShape": "poster",
+      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt21946032"
+    },
+    {
       "id": "tt2953250",
       "type": "series",
       "name": "Shining Girls",
@@ -28,20 +42,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt2953250"
-    },
-    {
-      "id": "tt21946032",
-      "type": "series",
-      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
-      "posterShape": "poster",
-      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt21946032"
     },
     {
       "id": "tt36303968",
@@ -170,20 +170,6 @@
       "imdb_id": "tt10970552"
     },
     {
-      "id": "tt19244304",
-      "type": "series",
-      "name": "IT: Welcome to Derry",
-      "poster": "https://image.tmdb.org/t/p/w500/nyy3BITeIjviv6PFIXtqvc8i6xi.jpg",
-      "posterShape": "poster",
-      "description": "In 1962, amid a spate of unexplained disappearances of local children, a group of misfit friends begin to suspect a long-buried ancient evil lurking. As the kids set out to determine what's really going on, a rising unease prompts several townspeople to work together to restore peace – all while a U.S. military operation seeks to exploit Derry for its own objectives.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt19244304"
-    },
-    {
       "id": "tt11600174",
       "type": "series",
       "name": "The Pharmacist",
@@ -196,6 +182,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt11600174"
+    },
+    {
+      "id": "tt19244304",
+      "type": "series",
+      "name": "IT: Welcome to Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/nyy3BITeIjviv6PFIXtqvc8i6xi.jpg",
+      "posterShape": "poster",
+      "description": "In 1962, amid a spate of unexplained disappearances of local children, a group of misfit friends begin to suspect a long-buried ancient evil lurking. As the kids set out to determine what's really going on, a rising unease prompts several townspeople to work together to restore peace – all while a U.S. military operation seeks to exploit Derry for its own objectives.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt19244304"
     },
     {
       "id": "tt10574558",
@@ -242,6 +242,20 @@
       "imdb_id": "tt34771210"
     },
     {
+      "id": "tt15567174",
+      "type": "series",
+      "name": "The Fall of the House of Usher",
+      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
+      "posterShape": "poster",
+      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15567174"
+    },
+    {
       "id": "tt31458276",
       "type": "series",
       "name": "Grotesquerie",
@@ -257,32 +271,18 @@
       "imdb_id": "tt31458276"
     },
     {
-      "id": "tt15567174",
+      "id": "tt10148174",
       "type": "series",
-      "name": "The Fall of the House of Usher",
-      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
+      "name": "The Walking Dead: World Beyond",
+      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
       "posterShape": "poster",
-      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15567174"
-    },
-    {
-      "id": "tt3960394",
-      "type": "series",
-      "name": "Interview with the Vampire",
-      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
-      "posterShape": "poster",
-      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
+      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
       "genres": [
         "Drama",
         "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt3960394"
+      "releaseInfo": "2020",
+      "imdb_id": "tt10148174"
     }
   ]
 }

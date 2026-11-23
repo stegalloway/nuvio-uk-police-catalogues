@@ -99,6 +99,21 @@
       "imdb_id": "tt28129069"
     },
     {
+      "id": "tt30851137",
+      "type": "movie",
+      "name": "The Bride!",
+      "poster": "https://image.tmdb.org/t/p/w500/lV8YHwGkYZsm6EfIqnhaSz2avKt.jpg",
+      "posterShape": "poster",
+      "description": "A lonely Frankenstein travels to 1930s Chicago to ask groundbreaking scientist Dr. Euphronious to create a companion for him. The two revive a murdered young woman and The Bride is born. But what ensues is beyond what either of them imagined.",
+      "genres": [
+        "Science Fiction",
+        "Horror",
+        "Fantasy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt30851137"
+    },
+    {
       "id": "tt4459134",
       "type": "movie",
       "name": "Frank and Penelope",
@@ -128,21 +143,6 @@
       "imdb_id": "tt32362890"
     },
     {
-      "id": "tt30851137",
-      "type": "movie",
-      "name": "The Bride!",
-      "poster": "https://image.tmdb.org/t/p/w500/lV8YHwGkYZsm6EfIqnhaSz2avKt.jpg",
-      "posterShape": "poster",
-      "description": "A lonely Frankenstein travels to 1930s Chicago to ask groundbreaking scientist Dr. Euphronious to create a companion for him. The two revive a murdered young woman and The Bride is born. But what ensues is beyond what either of them imagined.",
-      "genres": [
-        "Science Fiction",
-        "Horror",
-        "Fantasy"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt30851137"
-    },
-    {
       "id": "tt32358390",
       "type": "movie",
       "name": "The Cycle",
@@ -156,6 +156,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32358390"
+    },
+    {
+      "id": "tt28498159",
+      "type": "movie",
+      "name": "The Other",
+      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
+      "posterShape": "poster",
+      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt28498159"
     },
     {
       "id": "tt3065204",
@@ -183,20 +197,6 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt8004664"
-    },
-    {
-      "id": "tt28498159",
-      "type": "movie",
-      "name": "The Other",
-      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
-      "posterShape": "poster",
-      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt28498159"
     },
     {
       "id": "tt34793095",
