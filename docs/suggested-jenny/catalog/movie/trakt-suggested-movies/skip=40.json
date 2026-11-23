@@ -114,6 +114,20 @@
       "imdb_id": "tt8429394"
     },
     {
+      "id": "tt18482470",
+      "type": "movie",
+      "name": "Blood and Snow",
+      "poster": "https://image.tmdb.org/t/p/w500/dgKnID0LCGlAb5TXi8WKVTRnPaX.jpg",
+      "posterShape": "poster",
+      "description": "When researchers rescue a fellow scientist who survived a meteorite strike in the Arctic, they discover she may not be who they think she is. Is she some-how changed?",
+      "genres": [
+        "Science Fiction",
+        "Horror"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt18482470"
+    },
+    {
       "id": "tt32358390",
       "type": "movie",
       "name": "The Cycle",
@@ -127,20 +141,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32358390"
-    },
-    {
-      "id": "tt18482470",
-      "type": "movie",
-      "name": "Blood and Snow",
-      "poster": "https://image.tmdb.org/t/p/w500/dgKnID0LCGlAb5TXi8WKVTRnPaX.jpg",
-      "posterShape": "poster",
-      "description": "When researchers rescue a fellow scientist who survived a meteorite strike in the Arctic, they discover she may not be who they think she is. Is she some-how changed?",
-      "genres": [
-        "Science Fiction",
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt18482470"
     },
     {
       "id": "tt30851137",
@@ -268,18 +268,18 @@
       "imdb_id": "tt15474916"
     },
     {
-      "id": "tt11245972",
+      "id": "tt13345606",
       "type": "movie",
-      "name": "Scream",
-      "poster": "https://image.tmdb.org/t/p/w500/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
+      "name": "Evil Dead Rise",
+      "poster": "https://image.tmdb.org/t/p/w500/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg",
       "posterShape": "poster",
-      "description": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
+      "description": "A reunion between two estranged sisters gets cut short by the rise of flesh-possessing demons, thrusting them into a primal battle for survival as they face the most nightmarish version of family imaginable.",
       "genres": [
         "Horror",
-        "Mystery"
+        "Thriller"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11245972"
+      "releaseInfo": "2023",
+      "imdb_id": "tt13345606"
     }
   ]
 }
