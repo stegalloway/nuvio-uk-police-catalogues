@@ -255,21 +255,6 @@
       "imdb_id": "tt3281548"
     },
     {
-      "id": "tt15799564",
-      "type": "movie",
-      "name": "Wild Horse Nine",
-      "poster": "https://image.tmdb.org/t/p/w500/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
-      "posterShape": "poster",
-      "description": "Shortly before the 1973 Chilean coup, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief, MJ. Amongst the Island's iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris's newfound bond with a pair of rebellious students threatens to send everyone’s trip to this remote paradise sideways.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt15799564"
-    },
-    {
       "id": "tt0144084",
       "type": "movie",
       "name": "American Psycho",
@@ -283,6 +268,21 @@
       ],
       "releaseInfo": "2000",
       "imdb_id": "tt0144084"
+    },
+    {
+      "id": "tt15799564",
+      "type": "movie",
+      "name": "Wild Horse Nine",
+      "poster": "https://image.tmdb.org/t/p/w500/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+      "posterShape": "poster",
+      "description": "Shortly before the 1973 Chilean coup, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief, MJ. Amongst the Island's iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris's newfound bond with a pair of rebellious students threatens to send everyone’s trip to this remote paradise sideways.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt15799564"
     },
     {
       "id": "tt0332452",
