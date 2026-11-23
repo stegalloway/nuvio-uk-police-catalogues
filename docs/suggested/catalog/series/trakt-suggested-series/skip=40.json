@@ -262,6 +262,20 @@
       "imdb_id": "tt0118437"
     },
     {
+      "id": "tt1936532",
+      "type": "series",
+      "name": "Major Crimes",
+      "poster": "https://image.tmdb.org/t/p/w500/fZ502JXujnxVtprmigTO2jA205P.jpg",
+      "posterShape": "poster",
+      "description": "Major Crimes explores how the American justice system approaches the art of the deals as law enforcement officers and prosecutors work together to score a conviction. Los Angeles Police Captain Sharon Raydor heads up a special squad within the LAPD that deals with high-profile or particularly sensitive crimes.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2012",
+      "imdb_id": "tt1936532"
+    },
+    {
       "id": "tt5722298",
       "type": "series",
       "name": "Private Eyes",
@@ -275,21 +289,6 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt5722298"
-    },
-    {
-      "id": "tt2188671",
-      "type": "series",
-      "name": "Bates Motel",
-      "poster": "https://image.tmdb.org/t/p/w500/xXKcfZE7ulYxgjjYv51s0zDG69s.jpg",
-      "posterShape": "poster",
-      "description": "A \"contemporary prequel\" to the 1960 film Psycho, depicting the life of Norman Bates and his mother Norma prior to the events portrayed in Hitchcock's film, albeit in a different fictional town and in a modern setting. The series begins after the death of Norma's husband, when she purchases a motel located in a coastal Oregon town so she and Norman can start a new life.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Mystery"
-      ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2188671"
     }
   ]
 }

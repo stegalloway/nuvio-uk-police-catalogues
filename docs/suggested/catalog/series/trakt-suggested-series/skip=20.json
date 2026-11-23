@@ -15,20 +15,6 @@
       "imdb_id": "tt13018148"
     },
     {
-      "id": "tt6510950",
-      "type": "series",
-      "name": "Condor",
-      "poster": "https://image.tmdb.org/t/p/w500/xgmkmT4Uik4QpvRipYUxcqNx5yR.jpg",
-      "posterShape": "poster",
-      "description": "Young CIA analyst Joe Turner has his idealism tested when he learns that the CIA has been using an algorithm he developed to spy on American citizens, leading the organization to a terrorist plot that threatens the lives of millions.  Inspired by Sydney Pollack’s 1975 political thriller Three Days of the Condor.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6510950"
-    },
-    {
       "id": "tt14063678",
       "type": "series",
       "name": "The Gold",
@@ -41,6 +27,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt14063678"
+    },
+    {
+      "id": "tt6510950",
+      "type": "series",
+      "name": "Condor",
+      "poster": "https://image.tmdb.org/t/p/w500/xgmkmT4Uik4QpvRipYUxcqNx5yR.jpg",
+      "posterShape": "poster",
+      "description": "Young CIA analyst Joe Turner has his idealism tested when he learns that the CIA has been using an algorithm he developed to spy on American citizens, leading the organization to a terrorist plot that threatens the lives of millions.  Inspired by Sydney Pollack’s 1975 political thriller Three Days of the Condor.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6510950"
     },
     {
       "id": "tt5611024",
@@ -159,21 +159,6 @@
       "imdb_id": "tt3205802"
     },
     {
-      "id": "tt14379784",
-      "type": "series",
-      "name": "The Devil's Hour",
-      "poster": "https://image.tmdb.org/t/p/w500/mFU6ZPAs6g8Y9Eld28GULJYt3rC.jpg",
-      "posterShape": "poster",
-      "description": "Lucy wakes every night at exactly 3:33 am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
-      "genres": [
-        "Mystery",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14379784"
-    },
-    {
       "id": "tt14582876",
       "type": "series",
       "name": "On Call",
@@ -189,18 +174,19 @@
       "imdb_id": "tt14582876"
     },
     {
-      "id": "tt2356777",
+      "id": "tt14379784",
       "type": "series",
-      "name": "True Detective",
-      "poster": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
+      "name": "The Devil's Hour",
+      "poster": "https://image.tmdb.org/t/p/w500/mFU6ZPAs6g8Y9Eld28GULJYt3rC.jpg",
       "posterShape": "poster",
-      "description": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+      "description": "Lucy wakes every night at exactly 3:33 am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
       "genres": [
-        "Drama",
-        "Mystery"
+        "Mystery",
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt2356777"
+      "releaseInfo": "2022",
+      "imdb_id": "tt14379784"
     },
     {
       "id": "tt35515227",
@@ -215,6 +201,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35515227"
+    },
+    {
+      "id": "tt2356777",
+      "type": "series",
+      "name": "True Detective",
+      "poster": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
+      "posterShape": "poster",
+      "description": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2356777"
     },
     {
       "id": "tt4258440",
@@ -247,6 +247,19 @@
       "imdb_id": "tt2304589"
     },
     {
+      "id": "tt37972251",
+      "type": "series",
+      "name": "WAR",
+      "poster": "https://image.tmdb.org/t/p/w500/AtCR5LMuvwepTi1kipKq878Rbuq.jpg",
+      "posterShape": "poster",
+      "description": "An anthology series set in the elite world of London law following two rival firms, Cathcarts and Taylor & Byrne, as they face off in a different headline-making legal battle each season.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt37972251"
+    },
+    {
       "id": "tt3428912",
       "type": "series",
       "name": "Happy Valley",
@@ -260,19 +273,6 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt3428912"
-    },
-    {
-      "id": "tt37972251",
-      "type": "series",
-      "name": "WAR",
-      "poster": "https://image.tmdb.org/t/p/w500/AtCR5LMuvwepTi1kipKq878Rbuq.jpg",
-      "posterShape": "poster",
-      "description": "An anthology series set in the elite world of London law following two rival firms, Cathcarts and Taylor & Byrne, as they face off in a different headline-making legal battle each season.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt37972251"
     },
     {
       "id": "tt6037988",
