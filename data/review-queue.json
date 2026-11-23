@@ -1,4 +1,23 @@
 {
   "schema": 1,
-  "candidates": []
+  "candidates": [
+    {
+      "tmdbId": 339513,
+      "name": "Evil on the Web: Social Media Monsters",
+      "category": "true-crime",
+      "score": 1,
+      "firstAir": "2026-01-13",
+      "lastAir": "2026-01-13",
+      "firstSeen": "2026-11-23",
+      "lastSeen": "2026-11-23",
+      "observations": 1,
+      "status": "pending",
+      "eligibleForAuto": false,
+      "needsArtwork": true,
+      "network": "",
+      "episodes": 1,
+      "seasons": 1,
+      "overview": "This British true-crime documentary series explores shocking real-life crimes in which social media played a crucial role. From online stalking and manipulation to fraud and murder, each episode reveals how digital connections can turn…"
+    }
+  ]
 }
