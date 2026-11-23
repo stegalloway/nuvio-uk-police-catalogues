@@ -170,20 +170,6 @@
       "imdb_id": "tt22646714"
     },
     {
-      "id": "tt23553310",
-      "type": "series",
-      "name": "Crime Scene: The Texas Killing Fields",
-      "poster": "https://image.tmdb.org/t/p/w500/lIQN4JWtO0opwEVdUOtMqU3Yaaz.jpg",
-      "posterShape": "poster",
-      "description": "An overgrown field and a stretch of highway connect a series of grisly murders spanning several decades as grieving families search for answers.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt23553310"
-    },
-    {
       "id": "tt10970552",
       "type": "series",
       "name": "The Haunting of Bly Manor",
@@ -282,6 +268,21 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt15567174"
+    },
+    {
+      "id": "tt31458276",
+      "type": "series",
+      "name": "Grotesquerie",
+      "poster": "https://image.tmdb.org/t/p/w500/oskgLp7inXPU9NgfL2NWRW0KK2e.jpg",
+      "posterShape": "poster",
+      "description": "A series of heinous crimes have unsettled a small community, and Detective Lois Tryon feels they are eerily personal, as if someone—or something—is taunting her.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt31458276"
     }
   ]
 }
