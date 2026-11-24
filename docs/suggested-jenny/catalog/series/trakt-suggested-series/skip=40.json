@@ -56,19 +56,6 @@
       "imdb_id": "tt21315194"
     },
     {
-      "id": "tt14016500",
-      "type": "series",
-      "name": "The Summer I Turned Pretty",
-      "poster": "https://image.tmdb.org/t/p/w500/xBIz53wYWsKfFpN0TaizVAjKJ0z.jpg",
-      "posterShape": "poster",
-      "description": "Every summer, Belly and her family head to the Fishers’ beach house in Cousins. Every summer is the same ... until Belly turns sixteen. Relationships will be tested, painful truths will be revealed, and Belly will be forever changed. It’s a summer of first love, first heartbreak and growing up — it's the summer she turns pretty.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14016500"
-    },
-    {
       "id": "tt8354062",
       "type": "series",
       "name": "One of Us Is Lying",
@@ -278,6 +265,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt37438628"
+    },
+    {
+      "id": "tt11141900",
+      "type": "series",
+      "name": "Ted Bundy: Falling for a Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
+      "posterShape": "poster",
+      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11141900"
     }
   ]
 }
