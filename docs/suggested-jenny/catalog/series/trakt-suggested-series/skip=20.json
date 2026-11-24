@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt31458276",
+      "type": "series",
+      "name": "Grotesquerie",
+      "poster": "https://image.tmdb.org/t/p/w500/oskgLp7inXPU9NgfL2NWRW0KK2e.jpg",
+      "posterShape": "poster",
+      "description": "A series of heinous crimes have unsettled a small community, and Detective Lois Tryon feels they are eerily personal, as if someone—or something—is taunting her.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Crime"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt31458276"
+    },
+    {
       "id": "tt14111774",
       "type": "series",
       "name": "John Wayne Gacy: Devil in Disguise",
@@ -215,17 +230,18 @@
       "imdb_id": "tt13269706"
     },
     {
-      "id": "tt31938062",
+      "id": "tt35676401",
       "type": "series",
-      "name": "The Pitt",
-      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+      "name": "The Yogurt Shop Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
       "posterShape": "poster",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "description": "In 1991, four teenage girls were brutally murdered at a frozen yogurt shop in Austin, Texas. What happened that night forever shook the Austin community and continues to mystify the police and haunt the families left in the wake of unthinkable loss.",
       "genres": [
-        "Drama"
+        "Documentary",
+        "Crime"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt31938062"
+      "imdb_id": "tt35676401"
     },
     {
       "id": "tt11173006",
@@ -239,20 +255,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11173006"
-    },
-    {
-      "id": "tt35676401",
-      "type": "series",
-      "name": "The Yogurt Shop Murders",
-      "poster": "https://image.tmdb.org/t/p/w500/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
-      "posterShape": "poster",
-      "description": "In 1991, four teenage girls were brutally murdered at a frozen yogurt shop in Austin, Texas. What happened that night forever shook the Austin community and continues to mystify the police and haunt the families left in the wake of unthinkable loss.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35676401"
     },
     {
       "id": "tt13729648",
@@ -269,19 +271,17 @@
       "imdb_id": "tt13729648"
     },
     {
-      "id": "tt11794812",
+      "id": "tt31938062",
       "type": "series",
-      "name": "Cross",
-      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
+      "name": "The Pitt",
+      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
       "posterShape": "poster",
-      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
+      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
       "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
+        "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt11794812"
+      "releaseInfo": "2025",
+      "imdb_id": "tt31938062"
     }
   ]
 }

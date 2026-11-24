@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt11794812",
+      "type": "series",
+      "name": "Cross",
+      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
+      "posterShape": "poster",
+      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt11794812"
+    },
+    {
       "id": "tt11656892",
       "type": "series",
       "name": "Des",
@@ -55,6 +70,19 @@
       "imdb_id": "tt8354062"
     },
     {
+      "id": "tt18970124",
+      "type": "series",
+      "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/dSwfINzvtVJZYy1L7fsrRfOetAm.jpg",
+      "posterShape": "poster",
+      "description": "He dined with the powerful. He preyed on the vulnerable. Beneath a smiling exterior was the horrifying darkness of a sadistic serial killer.",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt18970124"
+    },
+    {
       "id": "tt15574312",
       "type": "series",
       "name": "The Patient",
@@ -67,19 +95,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15574312"
-    },
-    {
-      "id": "tt18970124",
-      "type": "series",
-      "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/dSwfINzvtVJZYy1L7fsrRfOetAm.jpg",
-      "posterShape": "poster",
-      "description": "He dined with the powerful. He preyed on the vulnerable. Beneath a smiling exterior was the horrifying darkness of a sadistic serial killer.",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt18970124"
     },
     {
       "id": "tt8415836",
@@ -264,20 +279,6 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt11141900"
-    },
-    {
-      "id": "tt11083696",
-      "type": "series",
-      "name": "Cruel Summer",
-      "poster": "https://image.tmdb.org/t/p/w500/x7CMVS7kjWJFdt1wdtj5rdvTwss.jpg",
-      "posterShape": "poster",
-      "description": "Taking place over three summers - 1993, 1994, 1995 - in a small Texas town, a beautiful popular teen, Kate, is abducted and, seemingly unrelated, a girl, Jeanette, goes from being a sweet, awkward outlier to the most popular girl in town and, by ’95, the most despised person in America.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11083696"
     }
   ]
 }
