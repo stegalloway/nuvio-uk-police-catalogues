@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt34494076",
+      "type": "movie",
+      "name": "Hungry",
+      "poster": "https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg",
+      "posterShape": "poster",
+      "description": "A group of holidaymakers must fight for their lives against a rampaging hippo on the loose after becoming lost in the Louisiana swamplands.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34494076"
+    },
+    {
       "id": "tt27564844",
       "type": "movie",
       "name": "Iron Lung",
@@ -267,20 +281,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt11245972"
-    },
-    {
-      "id": "tt13345606",
-      "type": "movie",
-      "name": "Evil Dead Rise",
-      "poster": "https://image.tmdb.org/t/p/w500/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg",
-      "posterShape": "poster",
-      "description": "A reunion between two estranged sisters gets cut short by the rise of flesh-possessing demons, thrusting them into a primal battle for survival as they face the most nightmarish version of family imaginable.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt13345606"
     }
   ]
 }

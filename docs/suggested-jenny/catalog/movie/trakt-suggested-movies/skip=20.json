@@ -252,6 +252,19 @@
       "imdb_id": "tt32612507"
     },
     {
+      "id": "tt7413600",
+      "type": "movie",
+      "name": "Martyrs Lane",
+      "poster": "https://image.tmdb.org/t/p/w500/2p9ATFUEiXT75LmMsSCBicnpX8e.jpg",
+      "posterShape": "poster",
+      "description": "Leah, 10, has terrible nightmares. Her mother seems distant somehow, lost in her thoughts.  A small, nightly visitor brings Leah comfort, but soon Leah will realize that her little visitor offers knowledge that might be very, very dangerous.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt7413600"
+    },
+    {
       "id": "tt21807222",
       "type": "movie",
       "name": "Saw X",
@@ -265,20 +278,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt21807222"
-    },
-    {
-      "id": "tt34494076",
-      "type": "movie",
-      "name": "Hungry",
-      "poster": "https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg",
-      "posterShape": "poster",
-      "description": "A group of holidaymakers must fight for their lives against a rampaging hippo on the loose after becoming lost in the Louisiana swamplands.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34494076"
     }
   ]
 }
