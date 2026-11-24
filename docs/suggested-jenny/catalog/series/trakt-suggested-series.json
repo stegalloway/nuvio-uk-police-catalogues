@@ -15,6 +15,20 @@
       "imdb_id": "tt13018148"
     },
     {
+      "id": "tt21946032",
+      "type": "series",
+      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
+      "posterShape": "poster",
+      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt21946032"
+    },
+    {
       "id": "tt2953250",
       "type": "series",
       "name": "Shining Girls",
@@ -28,20 +42,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt2953250"
-    },
-    {
-      "id": "tt21946032",
-      "type": "series",
-      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
-      "posterShape": "poster",
-      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt21946032"
     },
     {
       "id": "tt36303968",
@@ -156,20 +156,6 @@
       "imdb_id": "tt8045494"
     },
     {
-      "id": "tt10970552",
-      "type": "series",
-      "name": "The Haunting of Bly Manor",
-      "poster": "https://image.tmdb.org/t/p/w500/vIXQ8UymmQ7zJEPrKJP3s3fSbhR.jpg",
-      "posterShape": "poster",
-      "description": "After an au pair's tragic death, Henry Wingrave hires a young American nanny to care for his orphaned niece and nephew who reside at Bly Manor with the estate's chef Owen, groundskeeper Jamie and housekeeper, Mrs. Grose. But all is not as it seems at the manor, and centuries of dark secrets of love and loss are waiting to be unearthed in this chilling tale.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10970552"
-    },
-    {
       "id": "tt22646714",
       "type": "series",
       "name": "Killer Sally",
@@ -184,18 +170,32 @@
       "imdb_id": "tt22646714"
     },
     {
-      "id": "tt19244304",
+      "id": "tt23553310",
       "type": "series",
-      "name": "IT: Welcome to Derry",
-      "poster": "https://image.tmdb.org/t/p/w500/nyy3BITeIjviv6PFIXtqvc8i6xi.jpg",
+      "name": "Crime Scene: The Texas Killing Fields",
+      "poster": "https://image.tmdb.org/t/p/w500/lIQN4JWtO0opwEVdUOtMqU3Yaaz.jpg",
       "posterShape": "poster",
-      "description": "In 1962, amid a spate of unexplained disappearances of local children, a group of misfit friends begin to suspect a long-buried ancient evil lurking. As the kids set out to determine what's really going on, a rising unease prompts several townspeople to work together to restore peace – all while a U.S. military operation seeks to exploit Derry for its own objectives.",
+      "description": "An overgrown field and a stretch of highway connect a series of grisly murders spanning several decades as grieving families search for answers.",
       "genres": [
-        "Drama",
-        "Mystery"
+        "Documentary",
+        "Crime"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt19244304"
+      "releaseInfo": "2022",
+      "imdb_id": "tt23553310"
+    },
+    {
+      "id": "tt10970552",
+      "type": "series",
+      "name": "The Haunting of Bly Manor",
+      "poster": "https://image.tmdb.org/t/p/w500/vIXQ8UymmQ7zJEPrKJP3s3fSbhR.jpg",
+      "posterShape": "poster",
+      "description": "After an au pair's tragic death, Henry Wingrave hires a young American nanny to care for his orphaned niece and nephew who reside at Bly Manor with the estate's chef Owen, groundskeeper Jamie and housekeeper, Mrs. Grose. But all is not as it seems at the manor, and centuries of dark secrets of love and loss are waiting to be unearthed in this chilling tale.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10970552"
     },
     {
       "id": "tt11600174",
@@ -210,6 +210,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt11600174"
+    },
+    {
+      "id": "tt19244304",
+      "type": "series",
+      "name": "IT: Welcome to Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/nyy3BITeIjviv6PFIXtqvc8i6xi.jpg",
+      "posterShape": "poster",
+      "description": "In 1962, amid a spate of unexplained disappearances of local children, a group of misfit friends begin to suspect a long-buried ancient evil lurking. As the kids set out to determine what's really going on, a rising unease prompts several townspeople to work together to restore peace – all while a U.S. military operation seeks to exploit Derry for its own objectives.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt19244304"
     },
     {
       "id": "tt10574558",
@@ -241,19 +255,18 @@
       "imdb_id": "tt32252772"
     },
     {
-      "id": "tt31458276",
+      "id": "tt15567174",
       "type": "series",
-      "name": "Grotesquerie",
-      "poster": "https://image.tmdb.org/t/p/w500/oskgLp7inXPU9NgfL2NWRW0KK2e.jpg",
+      "name": "The Fall of the House of Usher",
+      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
       "posterShape": "poster",
-      "description": "A series of heinous crimes have unsettled a small community, and Detective Lois Tryon feels they are eerily personal, as if someone—or something—is taunting her.",
+      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
       "genres": [
-        "Drama",
         "Mystery",
-        "Crime"
+        "Drama"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31458276"
+      "releaseInfo": "2023",
+      "imdb_id": "tt15567174"
     },
     {
       "id": "tt34771210",
@@ -269,20 +282,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt34771210"
-    },
-    {
-      "id": "tt15567174",
-      "type": "series",
-      "name": "The Fall of the House of Usher",
-      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
-      "posterShape": "poster",
-      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15567174"
     }
   ]
 }
