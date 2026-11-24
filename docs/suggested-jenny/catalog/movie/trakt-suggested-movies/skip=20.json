@@ -28,6 +28,20 @@
       "imdb_id": "tt14509110"
     },
     {
+      "id": "tt12298506",
+      "type": "movie",
+      "name": "Black Box",
+      "poster": "https://image.tmdb.org/t/p/w500/ldlpTitpSTBINwgifzlRRXveXUF.jpg",
+      "posterShape": "poster",
+      "description": "After losing his wife and his memory in a car accident, a single father undergoes an experimental treatment that causes him to question who he really is.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt12298506"
+    },
+    {
       "id": "tt12749596",
       "type": "movie",
       "name": "Host",
@@ -54,6 +68,19 @@
       "imdb_id": "tt28088571"
     },
     {
+      "id": "tt10638522",
+      "type": "movie",
+      "name": "Talk to Me",
+      "poster": "https://image.tmdb.org/t/p/w500/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
+      "posterShape": "poster",
+      "description": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt10638522"
+    },
+    {
       "id": "tt13778486",
       "type": "movie",
       "name": "Succubus",
@@ -66,19 +93,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt13778486"
-    },
-    {
-      "id": "tt10638522",
-      "type": "movie",
-      "name": "Talk to Me",
-      "poster": "https://image.tmdb.org/t/p/w500/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
-      "posterShape": "poster",
-      "description": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt10638522"
     },
     {
       "id": "tt35538033",
@@ -166,22 +180,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt36958312"
-    },
-    {
-      "id": "tt14270702",
-      "type": "movie",
-      "name": "God Is a Bullet",
-      "poster": "https://image.tmdb.org/t/p/w500/5kiLS9nsSJxDdlYUyYGiSUt8Fi8.jpg",
-      "posterShape": "poster",
-      "description": "Vice detective Bob Hightower finds his ex-wife murdered and daughter kidnapped by a cult. Frustrated by the botched official investigations, he quits the force and infiltrates the cult to hunt down the leader with the help of the cult’s only female victim escapee, Case Hardin.",
-      "genres": [
-        "Thriller",
-        "Action",
-        "Crime",
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14270702"
     },
     {
       "id": "tt14030816",
