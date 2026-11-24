@@ -227,6 +227,20 @@
       "imdb_id": "tt32252772"
     },
     {
+      "id": "tt15567174",
+      "type": "series",
+      "name": "The Fall of the House of Usher",
+      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
+      "posterShape": "poster",
+      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15567174"
+    },
+    {
       "id": "tt34771210",
       "type": "series",
       "name": "I Will Find You",
@@ -240,20 +254,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt34771210"
-    },
-    {
-      "id": "tt15567174",
-      "type": "series",
-      "name": "The Fall of the House of Usher",
-      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
-      "posterShape": "poster",
-      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15567174"
     },
     {
       "id": "tt31458276",

@@ -29,6 +29,20 @@
       "imdb_id": "tt14111774"
     },
     {
+      "id": "tt11475228",
+      "type": "series",
+      "name": "Killer Inside: The Mind of Aaron Hernandez",
+      "poster": "https://image.tmdb.org/t/p/w500/2MfrqxkMGIqsCHYTz2pMhEoOJpB.jpg",
+      "posterShape": "poster",
+      "description": "Via interviews with friends, players and insiders, this docuseries examines how Aaron Hernandez went from an NFL star to a convicted killer.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11475228"
+    },
+    {
       "id": "tt11540908",
       "type": "series",
       "name": "Carrie",
@@ -42,20 +56,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt11540908"
-    },
-    {
-      "id": "tt11475228",
-      "type": "series",
-      "name": "Killer Inside: The Mind of Aaron Hernandez",
-      "poster": "https://image.tmdb.org/t/p/w500/2MfrqxkMGIqsCHYTz2pMhEoOJpB.jpg",
-      "posterShape": "poster",
-      "description": "Via interviews with friends, players and insiders, this docuseries examines how Aaron Hernandez went from an NFL star to a convicted killer.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11475228"
     },
     {
       "id": "tt31314754",
@@ -212,6 +212,20 @@
       "imdb_id": "tt11173006"
     },
     {
+      "id": "tt35676401",
+      "type": "series",
+      "name": "The Yogurt Shop Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
+      "posterShape": "poster",
+      "description": "In 1991, four teenage girls were brutally murdered at a frozen yogurt shop in Austin, Texas. What happened that night forever shook the Austin community and continues to mystify the police and haunt the families left in the wake of unthinkable loss.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt35676401"
+    },
+    {
       "id": "tt13729648",
       "type": "series",
       "name": "Candy",
@@ -266,20 +280,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt23330464"
-    },
-    {
-      "id": "tt8354062",
-      "type": "series",
-      "name": "One of Us Is Lying",
-      "poster": "https://image.tmdb.org/t/p/w500/hKMpbHY7xqFKaBR8W7jE61JlQB6.jpg",
-      "posterShape": "poster",
-      "description": "The story of what happens when five high schoolers walk into detention and only four make it out alive. Everyone is a suspect, and everyone has something to hide.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt8354062"
     }
   ]
 }

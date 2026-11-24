@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt8354062",
+      "type": "series",
+      "name": "One of Us Is Lying",
+      "poster": "https://image.tmdb.org/t/p/w500/hKMpbHY7xqFKaBR8W7jE61JlQB6.jpg",
+      "posterShape": "poster",
+      "description": "The story of what happens when five high schoolers walk into detention and only four make it out alive. Everyone is a suspect, and everyone has something to hide.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt8354062"
+    },
+    {
       "id": "tt14016500",
       "type": "series",
       "name": "The Summer I Turned Pretty",
@@ -265,20 +279,6 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt11041332"
-    },
-    {
-      "id": "tt13444912",
-      "type": "series",
-      "name": "The Midnight Club",
-      "poster": "https://image.tmdb.org/t/p/w500/2Y4F9BHkacKIMnDBZI3GGKpG1If.jpg",
-      "posterShape": "poster",
-      "description": "Inside a hospice for terminally ill teens, members of an exclusive club make a chilling pact: The first to die must send a sign from beyond the grave.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13444912"
     }
   ]
 }
