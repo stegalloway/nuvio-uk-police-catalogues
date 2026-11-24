@@ -1,33 +1,47 @@
 {
   "metas": [
     {
-      "id": "tt11794812",
+      "id": "tt35676401",
       "type": "series",
-      "name": "Cross",
-      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
+      "name": "The Yogurt Shop Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
       "posterShape": "poster",
-      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
+      "description": "In 1991, four teenage girls were brutally murdered at a frozen yogurt shop in Austin, Texas. What happened that night forever shook the Austin community and continues to mystify the police and haunt the families left in the wake of unthinkable loss.",
       "genres": [
-        "Crime",
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt35676401"
+    },
+    {
+      "id": "tt8354062",
+      "type": "series",
+      "name": "One of Us Is Lying",
+      "poster": "https://image.tmdb.org/t/p/w500/hKMpbHY7xqFKaBR8W7jE61JlQB6.jpg",
+      "posterShape": "poster",
+      "description": "The story of what happens when five high schoolers walk into detention and only four make it out alive. Everyone is a suspect, and everyone has something to hide.",
+      "genres": [
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt11794812"
+      "releaseInfo": "2021",
+      "imdb_id": "tt8354062"
     },
     {
-      "id": "tt11656892",
+      "id": "tt8415836",
       "type": "series",
-      "name": "Des",
-      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
+      "name": "Guillermo del Toro's Cabinet of Curiosities",
+      "poster": "https://image.tmdb.org/t/p/w500/a91e9hpWwfCqxJI4xM9Q2RhuxgI.jpg",
       "posterShape": "poster",
-      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
+      "description": "Bizarre nightmares unfold in eight tales of terror in this visually stunning, spine-tingling horror collection curated by Guillermo del Toro.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11656892"
+      "releaseInfo": "2022",
+      "imdb_id": "tt8415836"
     },
     {
       "id": "tt23330464",
@@ -56,20 +70,6 @@
       "imdb_id": "tt21315194"
     },
     {
-      "id": "tt8354062",
-      "type": "series",
-      "name": "One of Us Is Lying",
-      "poster": "https://image.tmdb.org/t/p/w500/hKMpbHY7xqFKaBR8W7jE61JlQB6.jpg",
-      "posterShape": "poster",
-      "description": "The story of what happens when five high schoolers walk into detention and only four make it out alive. Everyone is a suspect, and everyone has something to hide.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt8354062"
-    },
-    {
       "id": "tt18970124",
       "type": "series",
       "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
@@ -95,21 +95,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15574312"
-    },
-    {
-      "id": "tt8415836",
-      "type": "series",
-      "name": "Guillermo del Toro's Cabinet of Curiosities",
-      "poster": "https://image.tmdb.org/t/p/w500/a91e9hpWwfCqxJI4xM9Q2RhuxgI.jpg",
-      "posterShape": "poster",
-      "description": "Bizarre nightmares unfold in eight tales of terror in this visually stunning, spine-tingling horror collection curated by Guillermo del Toro.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt8415836"
     },
     {
       "id": "tt43476716",
@@ -169,6 +154,20 @@
       "imdb_id": "tt8014982"
     },
     {
+      "id": "tt1831804",
+      "type": "series",
+      "name": "The Stand",
+      "poster": "https://image.tmdb.org/t/p/w500/w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
+      "posterShape": "poster",
+      "description": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt1831804"
+    },
+    {
       "id": "tt33480540",
       "type": "series",
       "name": "This Is the Zodiac Speaking",
@@ -183,18 +182,18 @@
       "imdb_id": "tt33480540"
     },
     {
-      "id": "tt1831804",
+      "id": "tt35629774",
       "type": "series",
-      "name": "The Stand",
-      "poster": "https://image.tmdb.org/t/p/w500/w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
+      "name": "Gone Girls: The Long Island Serial Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/vWTep5omXCxFtf5hlUc8VlmFI0u.jpg",
       "posterShape": "poster",
-      "description": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
+      "description": "This tense true-crime series examines the hunt for the Long Island serial killer through the perspective of his victims, their loved ones and the police.",
       "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
+        "Documentary",
+        "Crime"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt1831804"
+      "releaseInfo": "2025",
+      "imdb_id": "tt35629774"
     },
     {
       "id": "tt35590630",
@@ -225,18 +224,18 @@
       "imdb_id": "tt14865290"
     },
     {
-      "id": "tt35629774",
+      "id": "tt37438628",
       "type": "series",
-      "name": "Gone Girls: The Long Island Serial Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/vWTep5omXCxFtf5hlUc8VlmFI0u.jpg",
+      "name": "Conversations with a Killer: The Son of Sam Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/bSJ221k1EOuBHiye7ae29VqxjnS.jpg",
       "posterShape": "poster",
-      "description": "This tense true-crime series examines the hunt for the Long Island serial killer through the perspective of his victims, their loved ones and the police.",
+      "description": "Mixing present-day interviews with previously unheard recordings, this true-crime series examines serial killer David Berkowitz's mark on 1970s New York.",
       "genres": [
         "Documentary",
         "Crime"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt35629774"
+      "imdb_id": "tt37438628"
     },
     {
       "id": "tt20782578",
@@ -253,20 +252,6 @@
       "imdb_id": "tt20782578"
     },
     {
-      "id": "tt37438628",
-      "type": "series",
-      "name": "Conversations with a Killer: The Son of Sam Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/bSJ221k1EOuBHiye7ae29VqxjnS.jpg",
-      "posterShape": "poster",
-      "description": "Mixing present-day interviews with previously unheard recordings, this true-crime series examines serial killer David Berkowitz's mark on 1970s New York.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt37438628"
-    },
-    {
       "id": "tt11141900",
       "type": "series",
       "name": "Ted Bundy: Falling for a Killer",
@@ -279,6 +264,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt11141900"
+    },
+    {
+      "id": "tt11083696",
+      "type": "series",
+      "name": "Cruel Summer",
+      "poster": "https://image.tmdb.org/t/p/w500/x7CMVS7kjWJFdt1wdtj5rdvTwss.jpg",
+      "posterShape": "poster",
+      "description": "Taking place over three summers - 1993, 1994, 1995 - in a small Texas town, a beautiful popular teen, Kate, is abducted and, seemingly unrelated, a girl, Jeanette, goes from being a sweet, awkward outlier to the most popular girl in town and, by ’95, the most despised person in America.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt11083696"
     }
   ]
 }
