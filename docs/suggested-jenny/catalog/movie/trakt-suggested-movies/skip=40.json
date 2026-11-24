@@ -44,19 +44,6 @@
       "imdb_id": "tt31511689"
     },
     {
-      "id": "tt10306450",
-      "type": "movie",
-      "name": "The Kindred",
-      "poster": "https://image.tmdb.org/t/p/w500/jDXAaMLk7NNXdXZkeTMtr4xo6f5.jpg",
-      "posterShape": "poster",
-      "description": "After her father’s suicide, a young mother investigates what led to his death. But when she is haunted by spirits and unearths an unsolved mystery from 30 years ago, she discovers a dark family history that could prove deadly for her child.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt10306450"
-    },
-    {
       "id": "tt39143902",
       "type": "movie",
       "name": "Leviticus",
@@ -280,6 +267,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15474916"
+    },
+    {
+      "id": "tt11245972",
+      "type": "movie",
+      "name": "Scream",
+      "poster": "https://image.tmdb.org/t/p/w500/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
+      "posterShape": "poster",
+      "description": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt11245972"
     }
   ]
 }
