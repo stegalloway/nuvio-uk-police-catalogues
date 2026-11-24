@@ -262,6 +262,19 @@
       "imdb_id": "tt0460627"
     },
     {
+      "id": "tt0118437",
+      "type": "series",
+      "name": "The Practice",
+      "poster": "https://image.tmdb.org/t/p/w500/7OKZSUIWhjFP0F2s478zTrAYwDB.jpg",
+      "posterShape": "poster",
+      "description": "A provocative legal drama focused on young associates at a bare-bones Boston firm and their scrappy boss, Bobby Donnell. The show's forte is its storylines about “people who walk a moral tightrope.”",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "1997",
+      "imdb_id": "tt0118437"
+    },
+    {
       "id": "tt1936532",
       "type": "series",
       "name": "Major Crimes",
@@ -274,19 +287,6 @@
       ],
       "releaseInfo": "2012",
       "imdb_id": "tt1936532"
-    },
-    {
-      "id": "tt0118437",
-      "type": "series",
-      "name": "The Practice",
-      "poster": "https://image.tmdb.org/t/p/w500/7OKZSUIWhjFP0F2s478zTrAYwDB.jpg",
-      "posterShape": "poster",
-      "description": "A provocative legal drama focused on young associates at a bare-bones Boston firm and their scrappy boss, Bobby Donnell. The show's forte is its storylines about “people who walk a moral tightrope.”",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "1997",
-      "imdb_id": "tt0118437"
     }
   ]
 }
