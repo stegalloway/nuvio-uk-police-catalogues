@@ -112,6 +112,19 @@
       "imdb_id": "tt18412256"
     },
     {
+      "id": "tt35050712",
+      "type": "movie",
+      "name": "Saccharine",
+      "poster": "https://image.tmdb.org/t/p/w500/bCHPB5WZy4T0Rerh1GTuQLzU0rF.jpg",
+      "posterShape": "poster",
+      "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35050712"
+    },
+    {
       "id": "tt32268156",
       "type": "movie",
       "name": "The Last House",
@@ -124,19 +137,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32268156"
-    },
-    {
-      "id": "tt35050712",
-      "type": "movie",
-      "name": "Saccharine",
-      "poster": "https://image.tmdb.org/t/p/w500/bCHPB5WZy4T0Rerh1GTuQLzU0rF.jpg",
-      "posterShape": "poster",
-      "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35050712"
     },
     {
       "id": "tt32246771",
@@ -206,19 +206,19 @@
       "imdb_id": "tt50389959"
     },
     {
-      "id": "tt38773219",
+      "id": "tt32141377",
       "type": "movie",
-      "name": "Ebenezer",
-      "poster": "https://image.tmdb.org/t/p/w500/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
+      "name": "28 Years Later: The Bone Temple",
+      "poster": "https://image.tmdb.org/t/p/w500/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
       "posterShape": "poster",
-      "description": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness.",
+      "description": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
       "genres": [
-        "Fantasy",
-        "Drama",
-        "Horror"
+        "Horror",
+        "Thriller",
+        "Science Fiction"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt38773219"
+      "imdb_id": "tt32141377"
     },
     {
       "id": "tt13515258",
