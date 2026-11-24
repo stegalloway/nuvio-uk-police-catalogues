@@ -156,6 +156,20 @@
       "imdb_id": "tt8045494"
     },
     {
+      "id": "tt22646714",
+      "type": "series",
+      "name": "Killer Sally",
+      "poster": "https://image.tmdb.org/t/p/w500/46WBP1KGrI9pPstPhxkBvNR0T0m.jpg",
+      "posterShape": "poster",
+      "description": "Interviews with friends, family and Sally McNeil herself chart a bodybuilding couple’s rocky marriage — and its shocking end in a Valentine's Day murder.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt22646714"
+    },
+    {
       "id": "tt10970552",
       "type": "series",
       "name": "The Haunting of Bly Manor",
@@ -168,6 +182,19 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt10970552"
+    },
+    {
+      "id": "tt8771910",
+      "type": "series",
+      "name": "Self Made: Inspired by the Life of Madam C.J. Walker",
+      "poster": "https://image.tmdb.org/t/p/w500/2TMkFGAbsTfN3DHJu5AemEpdcEE.jpg",
+      "posterShape": "poster",
+      "description": "An African American washerwoman rises from poverty to build a beauty empire and become the first female self-made millionaire.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt8771910"
     },
     {
       "id": "tt11600174",
@@ -254,35 +281,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt34771210"
-    },
-    {
-      "id": "tt31458276",
-      "type": "series",
-      "name": "Grotesquerie",
-      "poster": "https://image.tmdb.org/t/p/w500/oskgLp7inXPU9NgfL2NWRW0KK2e.jpg",
-      "posterShape": "poster",
-      "description": "A series of heinous crimes have unsettled a small community, and Detective Lois Tryon feels they are eerily personal, as if someone—or something—is taunting her.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31458276"
-    },
-    {
-      "id": "tt10148174",
-      "type": "series",
-      "name": "The Walking Dead: World Beyond",
-      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
-      "posterShape": "poster",
-      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
-      "genres": [
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10148174"
     }
   ]
 }
