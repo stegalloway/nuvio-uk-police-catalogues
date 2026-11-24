@@ -44,6 +44,19 @@
       "imdb_id": "tt31511689"
     },
     {
+      "id": "tt10306450",
+      "type": "movie",
+      "name": "The Kindred",
+      "poster": "https://image.tmdb.org/t/p/w500/jDXAaMLk7NNXdXZkeTMtr4xo6f5.jpg",
+      "posterShape": "poster",
+      "description": "After her father’s suicide, a young mother investigates what led to his death. But when she is haunted by spirits and unearths an unsolved mystery from 30 years ago, she discovers a dark family history that could prove deadly for her child.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt10306450"
+    },
+    {
       "id": "tt39143902",
       "type": "movie",
       "name": "Leviticus",
@@ -84,21 +97,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32362890"
-    },
-    {
-      "id": "tt4459134",
-      "type": "movie",
-      "name": "Frank and Penelope",
-      "poster": "https://image.tmdb.org/t/p/w500/5NpXoAi3nEQkEgLO09nmotPfyNa.jpg",
-      "posterShape": "poster",
-      "description": "A tale of love and violence when a man on his emotional last legs finds a savior seductively dancing in a run-down strip club. And a life most certainly headed off a cliff suddenly becomes redirected - as everything is now worth dying for.",
-      "genres": [
-        "Thriller",
-        "Horror",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt4459134"
     },
     {
       "id": "tt8429394",
