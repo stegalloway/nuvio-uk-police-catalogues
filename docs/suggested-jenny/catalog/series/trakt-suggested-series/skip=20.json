@@ -172,21 +172,6 @@
       "imdb_id": "tt11285470"
     },
     {
-      "id": "tt9642938",
-      "type": "series",
-      "name": "Unsolved Mysteries",
-      "poster": "https://image.tmdb.org/t/p/w500/5Gn9hoJZUiJX5yb4datIcoq3Day.jpg",
-      "posterShape": "poster",
-      "description": "Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this gripping revival of the iconic documentary series.",
-      "genres": [
-        "Documentary",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9642938"
-    },
-    {
       "id": "tt33043892",
       "type": "series",
       "name": "Dexter: Resurrection",
@@ -200,6 +185,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt33043892"
+    },
+    {
+      "id": "tt9642938",
+      "type": "series",
+      "name": "Unsolved Mysteries",
+      "poster": "https://image.tmdb.org/t/p/w500/5Gn9hoJZUiJX5yb4datIcoq3Day.jpg",
+      "posterShape": "poster",
+      "description": "Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this gripping revival of the iconic documentary series.",
+      "genres": [
+        "Documentary",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt9642938"
     },
     {
       "id": "tt27142031",

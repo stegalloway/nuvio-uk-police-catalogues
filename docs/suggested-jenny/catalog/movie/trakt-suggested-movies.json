@@ -247,6 +247,19 @@
       "imdb_id": "tt9100018"
     },
     {
+      "id": "tt5737388",
+      "type": "movie",
+      "name": "The Accursed",
+      "poster": "https://image.tmdb.org/t/p/w500/kBPkV6Gqvbmq6z25bpw3ofsk5ue.jpg",
+      "posterShape": "poster",
+      "description": "Hana spends twenty years suppressing a maleficent curse that was placed upon her bloodline, only to have a family member knowingly release it forcing her to kill or to be killed.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt5737388"
+    },
+    {
       "id": "tt32329539",
       "type": "movie",
       "name": "Crawlers",
@@ -259,19 +272,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32329539"
-    },
-    {
-      "id": "tt5737388",
-      "type": "movie",
-      "name": "The Accursed",
-      "poster": "https://image.tmdb.org/t/p/w500/kBPkV6Gqvbmq6z25bpw3ofsk5ue.jpg",
-      "posterShape": "poster",
-      "description": "Hana spends twenty years suppressing a maleficent curse that was placed upon her bloodline, only to have a family member knowingly release it forcing her to kill or to be killed.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt5737388"
     }
   ]
 }
