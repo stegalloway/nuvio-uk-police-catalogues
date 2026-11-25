@@ -1,32 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt13269706",
+      "id": "tt11656892",
       "type": "series",
-      "name": "Seduced: Inside the NXIVM Cult",
-      "poster": "https://image.tmdb.org/t/p/w500/2algVl1riUbFcFBxxy1Ops6FNM7.jpg",
+      "name": "Des",
+      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
       "posterShape": "poster",
-      "description": "This four-part documentary series follows the story of India Oxenberg's perilous journey through the dark and criminal world of the notorious self-help-group-turned-sex-slave-cult NXIVM.",
+      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
       "genres": [
-        "Documentary",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
       "releaseInfo": "2020",
-      "imdb_id": "tt13269706"
-    },
-    {
-      "id": "tt35676401",
-      "type": "series",
-      "name": "The Yogurt Shop Murders",
-      "poster": "https://image.tmdb.org/t/p/w500/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
-      "posterShape": "poster",
-      "description": "In 1991, four teenage girls were brutally murdered at a frozen yogurt shop in Austin, Texas. What happened that night forever shook the Austin community and continues to mystify the police and haunt the families left in the wake of unthinkable loss.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35676401"
+      "imdb_id": "tt11656892"
     },
     {
       "id": "tt9148598",
@@ -211,6 +197,20 @@
       "imdb_id": "tt33480540"
     },
     {
+      "id": "tt14865290",
+      "type": "series",
+      "name": "Heist",
+      "poster": "https://image.tmdb.org/t/p/w500/ttG7SIqtuYRLSHJWE27zdY71hJo.jpg",
+      "posterShape": "poster",
+      "description": "Millions in stolen cash. Missing luxury bourbon. Watch ordinary people almost get away with these extraordinary heists in this true crime series.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt14865290"
+    },
+    {
       "id": "tt35629774",
       "type": "series",
       "name": "Gone Girls: The Long Island Serial Killer",
@@ -239,18 +239,18 @@
       "imdb_id": "tt35590630"
     },
     {
-      "id": "tt14865290",
+      "id": "tt20782578",
       "type": "series",
-      "name": "Heist",
-      "poster": "https://image.tmdb.org/t/p/w500/ttG7SIqtuYRLSHJWE27zdY71hJo.jpg",
+      "name": "Mind Over Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/qDhVWwcRCXSFJuIOfLyvj1buTzY.jpg",
       "posterShape": "poster",
-      "description": "Millions in stolen cash. Missing luxury bourbon. Watch ordinary people almost get away with these extraordinary heists in this true crime series.",
+      "description": "Chronicles the bizarre and psychologically complex story of six individuals who were convicted for the 1985 murder of a beloved 68- year-old grandmother, Helen Wilson, in Beatrice, Nebraska.",
       "genres": [
         "Documentary",
         "Crime"
       ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt14865290"
+      "releaseInfo": "2022",
+      "imdb_id": "tt20782578"
     },
     {
       "id": "tt37438628",
@@ -267,18 +267,18 @@
       "imdb_id": "tt37438628"
     },
     {
-      "id": "tt20782578",
+      "id": "tt11141900",
       "type": "series",
-      "name": "Mind Over Murder",
-      "poster": "https://image.tmdb.org/t/p/w500/qDhVWwcRCXSFJuIOfLyvj1buTzY.jpg",
+      "name": "Ted Bundy: Falling for a Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
       "posterShape": "poster",
-      "description": "Chronicles the bizarre and psychologically complex story of six individuals who were convicted for the 1985 murder of a beloved 68- year-old grandmother, Helen Wilson, in Beatrice, Nebraska.",
+      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
       "genres": [
         "Documentary",
         "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt20782578"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11141900"
     }
   ]
 }
