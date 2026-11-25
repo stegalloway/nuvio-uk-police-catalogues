@@ -192,6 +192,21 @@
       "imdb_id": "tt33043892"
     },
     {
+      "id": "tt6794990",
+      "type": "series",
+      "name": "Absentia",
+      "poster": "https://image.tmdb.org/t/p/w500/t3yVaAlmCLBwbqTrKGcWHwuCmkh.jpg",
+      "posterShape": "poster",
+      "description": "A missing FBI agent reappears six years after being declared dead.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt6794990"
+    },
+    {
       "id": "tt10327354",
       "type": "series",
       "name": "Prodigal Son",
@@ -275,19 +290,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt3647998"
-    },
-    {
-      "id": "tt0118437",
-      "type": "series",
-      "name": "The Practice",
-      "poster": "https://image.tmdb.org/t/p/w500/7OKZSUIWhjFP0F2s478zTrAYwDB.jpg",
-      "posterShape": "poster",
-      "description": "A provocative legal drama focused on young associates at a bare-bones Boston firm and their scrappy boss, Bobby Donnell. The show's forte is its storylines about “people who walk a moral tightrope.”",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "1997",
-      "imdb_id": "tt0118437"
     }
   ]
 }
