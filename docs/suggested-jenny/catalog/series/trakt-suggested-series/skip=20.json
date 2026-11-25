@@ -1,61 +1,19 @@
 {
   "metas": [
     {
-      "id": "tt15567174",
+      "id": "tt34771210",
       "type": "series",
-      "name": "The Fall of the House of Usher",
-      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
+      "name": "I Will Find You",
+      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
       "posterShape": "poster",
-      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15567174"
-    },
-    {
-      "id": "tt31458276",
-      "type": "series",
-      "name": "Grotesquerie",
-      "poster": "https://image.tmdb.org/t/p/w500/oskgLp7inXPU9NgfL2NWRW0KK2e.jpg",
-      "posterShape": "poster",
-      "description": "A series of heinous crimes have unsettled a small community, and Detective Lois Tryon feels they are eerily personal, as if someone—or something—is taunting her.",
+      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
       "genres": [
         "Drama",
         "Mystery",
         "Crime"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt31458276"
-    },
-    {
-      "id": "tt14111774",
-      "type": "series",
-      "name": "John Wayne Gacy: Devil in Disguise",
-      "poster": "https://image.tmdb.org/t/p/w500/3LZHmVND6WyY0bhoLlyWPRl5Pa1.jpg",
-      "posterShape": "poster",
-      "description": "The chilling story of one of the world’s most notorious serial killers told through the words of Gacy himself, those who were forever changed by his unspeakable deeds and those who believe that the full truth remains concealed to this day.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt14111774"
-    },
-    {
-      "id": "tt11475228",
-      "type": "series",
-      "name": "Killer Inside: The Mind of Aaron Hernandez",
-      "poster": "https://image.tmdb.org/t/p/w500/2MfrqxkMGIqsCHYTz2pMhEoOJpB.jpg",
-      "posterShape": "poster",
-      "description": "Via interviews with friends, players and insiders, this docuseries examines how Aaron Hernandez went from an NFL star to a convicted killer.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11475228"
+      "releaseInfo": "2026",
+      "imdb_id": "tt34771210"
     },
     {
       "id": "tt3960394",
@@ -86,20 +44,6 @@
       "imdb_id": "tt10148174"
     },
     {
-      "id": "tt11822998",
-      "type": "series",
-      "name": "The Trials of Gabriel Fernandez",
-      "poster": "https://image.tmdb.org/t/p/w500/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
-      "posterShape": "poster",
-      "description": "A boy’s brutal murder and the public trials of his guardians and social workers prompt questions about the system’s protection of vulnerable children.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11822998"
-    },
-    {
       "id": "tt11540908",
       "type": "series",
       "name": "Carrie",
@@ -113,6 +57,34 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt11540908"
+    },
+    {
+      "id": "tt14111774",
+      "type": "series",
+      "name": "John Wayne Gacy: Devil in Disguise",
+      "poster": "https://image.tmdb.org/t/p/w500/3LZHmVND6WyY0bhoLlyWPRl5Pa1.jpg",
+      "posterShape": "poster",
+      "description": "The chilling story of one of the world’s most notorious serial killers told through the words of Gacy himself, those who were forever changed by his unspeakable deeds and those who believe that the full truth remains concealed to this day.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt14111774"
+    },
+    {
+      "id": "tt11475228",
+      "type": "series",
+      "name": "Killer Inside: The Mind of Aaron Hernandez",
+      "poster": "https://image.tmdb.org/t/p/w500/2MfrqxkMGIqsCHYTz2pMhEoOJpB.jpg",
+      "posterShape": "poster",
+      "description": "Via interviews with friends, players and insiders, this docuseries examines how Aaron Hernandez went from an NFL star to a convicted killer.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11475228"
     },
     {
       "id": "tt31314754",
@@ -172,6 +144,20 @@
       "imdb_id": "tt6053512"
     },
     {
+      "id": "tt11822998",
+      "type": "series",
+      "name": "The Trials of Gabriel Fernandez",
+      "poster": "https://image.tmdb.org/t/p/w500/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
+      "posterShape": "poster",
+      "description": "A boy’s brutal murder and the public trials of his guardians and social workers prompt questions about the system’s protection of vulnerable children.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11822998"
+    },
+    {
       "id": "tt33043892",
       "type": "series",
       "name": "Dexter: Resurrection",
@@ -185,35 +171,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt33043892"
-    },
-    {
-      "id": "tt9642938",
-      "type": "series",
-      "name": "Unsolved Mysteries",
-      "poster": "https://image.tmdb.org/t/p/w500/5Gn9hoJZUiJX5yb4datIcoq3Day.jpg",
-      "posterShape": "poster",
-      "description": "Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this gripping revival of the iconic documentary series.",
-      "genres": [
-        "Documentary",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9642938"
-    },
-    {
-      "id": "tt27142031",
-      "type": "series",
-      "name": "American Manhunt: The Boston Marathon Bombing",
-      "poster": "https://image.tmdb.org/t/p/w500/yagaaZpOgmX3cku7fgMCb4dyNeC.jpg",
-      "posterShape": "poster",
-      "description": "Archive footage, chilling reenactments and exclusive interviews shed new light on a tragedy — and two brothers — that suspended a city in terror.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt27142031"
     },
     {
       "id": "tt11285470",
@@ -230,32 +187,19 @@
       "imdb_id": "tt11285470"
     },
     {
-      "id": "tt13269706",
+      "id": "tt9642938",
       "type": "series",
-      "name": "Seduced: Inside the NXIVM Cult",
-      "poster": "https://image.tmdb.org/t/p/w500/2algVl1riUbFcFBxxy1Ops6FNM7.jpg",
+      "name": "Unsolved Mysteries",
+      "poster": "https://image.tmdb.org/t/p/w500/5Gn9hoJZUiJX5yb4datIcoq3Day.jpg",
       "posterShape": "poster",
-      "description": "This four-part documentary series follows the story of India Oxenberg's perilous journey through the dark and criminal world of the notorious self-help-group-turned-sex-slave-cult NXIVM.",
+      "description": "Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this gripping revival of the iconic documentary series.",
       "genres": [
         "Documentary",
-        "Crime"
+        "Drama",
+        "Mystery"
       ],
       "releaseInfo": "2020",
-      "imdb_id": "tt13269706"
-    },
-    {
-      "id": "tt35676401",
-      "type": "series",
-      "name": "The Yogurt Shop Murders",
-      "poster": "https://image.tmdb.org/t/p/w500/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
-      "posterShape": "poster",
-      "description": "In 1991, four teenage girls were brutally murdered at a frozen yogurt shop in Austin, Texas. What happened that night forever shook the Austin community and continues to mystify the police and haunt the families left in the wake of unthinkable loss.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35676401"
+      "imdb_id": "tt9642938"
     },
     {
       "id": "tt11173006",
@@ -282,6 +226,63 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt31938062"
+    },
+    {
+      "id": "tt11794812",
+      "type": "series",
+      "name": "Cross",
+      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
+      "posterShape": "poster",
+      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt11794812"
+    },
+    {
+      "id": "tt13729648",
+      "type": "series",
+      "name": "Candy",
+      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
+      "posterShape": "poster",
+      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13729648"
+    },
+    {
+      "id": "tt27142031",
+      "type": "series",
+      "name": "American Manhunt: The Boston Marathon Bombing",
+      "poster": "https://image.tmdb.org/t/p/w500/yagaaZpOgmX3cku7fgMCb4dyNeC.jpg",
+      "posterShape": "poster",
+      "description": "Archive footage, chilling reenactments and exclusive interviews shed new light on a tragedy — and two brothers — that suspended a city in terror.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt27142031"
+    },
+    {
+      "id": "tt11656892",
+      "type": "series",
+      "name": "Des",
+      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
+      "posterShape": "poster",
+      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11656892"
     }
   ]
 }

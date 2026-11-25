@@ -15,20 +15,6 @@
       "imdb_id": "tt13018148"
     },
     {
-      "id": "tt21946032",
-      "type": "series",
-      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
-      "posterShape": "poster",
-      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt21946032"
-    },
-    {
       "id": "tt2953250",
       "type": "series",
       "name": "Shining Girls",
@@ -42,6 +28,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt2953250"
+    },
+    {
+      "id": "tt21946032",
+      "type": "series",
+      "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
+      "posterShape": "poster",
+      "description": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt21946032"
     },
     {
       "id": "tt36303968",
@@ -156,34 +156,6 @@
       "imdb_id": "tt8045494"
     },
     {
-      "id": "tt22646714",
-      "type": "series",
-      "name": "Killer Sally",
-      "poster": "https://image.tmdb.org/t/p/w500/46WBP1KGrI9pPstPhxkBvNR0T0m.jpg",
-      "posterShape": "poster",
-      "description": "Interviews with friends, family and Sally McNeil herself chart a bodybuilding couple’s rocky marriage — and its shocking end in a Valentine's Day murder.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt22646714"
-    },
-    {
-      "id": "tt23553310",
-      "type": "series",
-      "name": "Crime Scene: The Texas Killing Fields",
-      "poster": "https://image.tmdb.org/t/p/w500/lIQN4JWtO0opwEVdUOtMqU3Yaaz.jpg",
-      "posterShape": "poster",
-      "description": "An overgrown field and a stretch of highway connect a series of grisly murders spanning several decades as grieving families search for answers.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt23553310"
-    },
-    {
       "id": "tt10970552",
       "type": "series",
       "name": "The Haunting of Bly Manor",
@@ -196,6 +168,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt10970552"
+    },
+    {
+      "id": "tt22646714",
+      "type": "series",
+      "name": "Killer Sally",
+      "poster": "https://image.tmdb.org/t/p/w500/46WBP1KGrI9pPstPhxkBvNR0T0m.jpg",
+      "posterShape": "poster",
+      "description": "Interviews with friends, family and Sally McNeil herself chart a bodybuilding couple’s rocky marriage — and its shocking end in a Valentine's Day murder.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt22646714"
     },
     {
       "id": "tt33546863",
@@ -211,20 +197,6 @@
       "imdb_id": "tt33546863"
     },
     {
-      "id": "tt11600174",
-      "type": "series",
-      "name": "The Pharmacist",
-      "poster": "https://image.tmdb.org/t/p/w500/kbh8VyM5SVG0P3ingHK8xOlArSw.jpg",
-      "posterShape": "poster",
-      "description": "After his son's tragic death, a Louisiana pharmacist goes to extremes to expose the rampant corruption behind the opioid addiction crisis.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11600174"
-    },
-    {
       "id": "tt19244304",
       "type": "series",
       "name": "IT: Welcome to Derry",
@@ -237,6 +209,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt19244304"
+    },
+    {
+      "id": "tt11600174",
+      "type": "series",
+      "name": "The Pharmacist",
+      "poster": "https://image.tmdb.org/t/p/w500/kbh8VyM5SVG0P3ingHK8xOlArSw.jpg",
+      "posterShape": "poster",
+      "description": "After his son's tragic death, a Louisiana pharmacist goes to extremes to expose the rampant corruption behind the opioid addiction crisis.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11600174"
     },
     {
       "id": "tt10574558",
@@ -268,19 +254,33 @@
       "imdb_id": "tt32252772"
     },
     {
-      "id": "tt34771210",
+      "id": "tt31458276",
       "type": "series",
-      "name": "I Will Find You",
-      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
+      "name": "Grotesquerie",
+      "poster": "https://image.tmdb.org/t/p/w500/oskgLp7inXPU9NgfL2NWRW0KK2e.jpg",
       "posterShape": "poster",
-      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
+      "description": "A series of heinous crimes have unsettled a small community, and Detective Lois Tryon feels they are eerily personal, as if someone—or something—is taunting her.",
       "genres": [
         "Drama",
         "Mystery",
         "Crime"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34771210"
+      "releaseInfo": "2024",
+      "imdb_id": "tt31458276"
+    },
+    {
+      "id": "tt15567174",
+      "type": "series",
+      "name": "The Fall of the House of Usher",
+      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
+      "posterShape": "poster",
+      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15567174"
     }
   ]
 }
