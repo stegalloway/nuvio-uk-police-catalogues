@@ -14,19 +14,17 @@
       "imdb_id": "tt31170389"
     },
     {
-      "id": "tt34890576",
+      "id": "tt3427252",
       "type": "movie",
-      "name": "Clayface",
-      "poster": "https://image.tmdb.org/t/p/w500/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
+      "name": "The Boogeyman",
+      "poster": "https://image.tmdb.org/t/p/w500/pYwZdnXVnVxAr7dx4MEK7tTK9gI.jpg",
       "posterShape": "poster",
-      "description": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge.",
+      "description": "Still reeling from the tragic death of their mother, a teenage girl and her younger sister find themselves plagued by a sadistic presence in their house and struggle to get their grieving father to pay attention before it’s too late.",
       "genres": [
-        "Horror",
-        "Thriller",
-        "Science Fiction"
+        "Horror"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34890576"
+      "releaseInfo": "2023",
+      "imdb_id": "tt3427252"
     },
     {
       "id": "tt33763941",
@@ -42,17 +40,58 @@
       "imdb_id": "tt33763941"
     },
     {
-      "id": "tt3427252",
+      "id": "tt34890576",
       "type": "movie",
-      "name": "The Boogeyman",
-      "poster": "https://image.tmdb.org/t/p/w500/pYwZdnXVnVxAr7dx4MEK7tTK9gI.jpg",
+      "name": "Clayface",
+      "poster": "https://image.tmdb.org/t/p/w500/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
       "posterShape": "poster",
-      "description": "Still reeling from the tragic death of their mother, a teenage girl and her younger sister find themselves plagued by a sadistic presence in their house and struggle to get their grieving father to pay attention before it’s too late.",
+      "description": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34890576"
+    },
+    {
+      "id": "tt35050712",
+      "type": "movie",
+      "name": "Saccharine",
+      "poster": "https://image.tmdb.org/t/p/w500/bCHPB5WZy4T0Rerh1GTuQLzU0rF.jpg",
+      "posterShape": "poster",
+      "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
       "genres": [
         "Horror"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt3427252"
+      "releaseInfo": "2026",
+      "imdb_id": "tt35050712"
+    },
+    {
+      "id": "tt14415204",
+      "type": "movie",
+      "name": "Never Let Go",
+      "poster": "https://image.tmdb.org/t/p/w500/3EpZ2ksjijmdr8BhISP03PYzNFW.jpg",
+      "posterShape": "poster",
+      "description": "As an evil takes over the world beyond their front doorstep, the only protection for a mother and her twin sons is their house and their family’s protective bond.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt14415204"
+    },
+    {
+      "id": "tt32246771",
+      "type": "movie",
+      "name": "Bring Her Back",
+      "poster": "https://image.tmdb.org/t/p/w500/1Q3GlCXGYWELifxANYZ5OVMRVZl.jpg",
+      "posterShape": "poster",
+      "description": "Following the death of their father, a brother and sister are sent to live with a foster mother, only to learn that she is hiding a terrifying secret.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt32246771"
     },
     {
       "id": "tt11242218",
@@ -69,32 +108,30 @@
       "imdb_id": "tt11242218"
     },
     {
-      "id": "tt32393988",
+      "id": "tt22898462",
       "type": "movie",
-      "name": "Insidious: Out of the Further",
-      "poster": "https://image.tmdb.org/t/p/w500/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg",
+      "name": "The Conjuring: Last Rites",
+      "poster": "https://image.tmdb.org/t/p/w500/umvkcIb0XAk486TEmx1V5aVzhbm.jpg",
       "posterShape": "poster",
-      "description": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
+      "description": "Paranormal investigators Ed and Lorraine Warren take on one last terrifying case involving mysterious entities they must confront.",
       "genres": [
-        "Horror",
-        "Thriller"
+        "Horror"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32393988"
+      "releaseInfo": "2025",
+      "imdb_id": "tt22898462"
     },
     {
-      "id": "tt18412256",
+      "id": "tt3515878",
       "type": "movie",
-      "name": "Alien: Romulus",
-      "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
+      "name": "Do Not Enter",
+      "poster": "https://image.tmdb.org/t/p/w500/8V2jpc1K8icNr0EScpqARyitXlc.jpg",
       "posterShape": "poster",
-      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
+      "description": "A group of young explorers investigates an old abandoned hotel, only to encounter a strange supernatural being and a competing group looking for a legendary hidden treasure.",
       "genres": [
-        "Horror",
-        "Science Fiction"
+        "Horror"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt18412256"
+      "releaseInfo": "2026",
+      "imdb_id": "tt3515878"
     },
     {
       "id": "tt10374610",
@@ -112,70 +149,18 @@
       "imdb_id": "tt10374610"
     },
     {
-      "id": "tt32268156",
+      "id": "tt8004664",
       "type": "movie",
-      "name": "The Last House",
-      "poster": "https://image.tmdb.org/t/p/w500/wVvLthGKtnBVq1Cov86h8iB1SeQ.jpg",
+      "name": "Come Play",
+      "poster": "https://image.tmdb.org/t/p/w500/9jy9OzZi0Oy8Hdv603QWujbfCwx.jpg",
       "posterShape": "poster",
-      "description": "A family suddenly sealed inside their home must work together to survive against dwindling resources and the ominous threat keeping them trapped.",
+      "description": "Oliver, a lonely autistic boy, seeks solace and refuge in his ever-present cell phone and tablet. When a mysterious creature uses the boy's devices against him, his parents must fight to save their son from the monster beyond the screen.",
       "genres": [
         "Horror",
-        "Science Fiction"
+        "Mystery"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32268156"
-    },
-    {
-      "id": "tt35050712",
-      "type": "movie",
-      "name": "Saccharine",
-      "poster": "https://image.tmdb.org/t/p/w500/bCHPB5WZy4T0Rerh1GTuQLzU0rF.jpg",
-      "posterShape": "poster",
-      "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35050712"
-    },
-    {
-      "id": "tt32246771",
-      "type": "movie",
-      "name": "Bring Her Back",
-      "poster": "https://image.tmdb.org/t/p/w500/1Q3GlCXGYWELifxANYZ5OVMRVZl.jpg",
-      "posterShape": "poster",
-      "description": "Following the death of their father, a brother and sister are sent to live with a foster mother, only to learn that she is hiding a terrifying secret.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt32246771"
-    },
-    {
-      "id": "tt3515878",
-      "type": "movie",
-      "name": "Do Not Enter",
-      "poster": "https://image.tmdb.org/t/p/w500/8V2jpc1K8icNr0EScpqARyitXlc.jpg",
-      "posterShape": "poster",
-      "description": "A group of young explorers investigates an old abandoned hotel, only to encounter a strange supernatural being and a competing group looking for a legendary hidden treasure.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt3515878"
-    },
-    {
-      "id": "tt14415204",
-      "type": "movie",
-      "name": "Never Let Go",
-      "poster": "https://image.tmdb.org/t/p/w500/3EpZ2ksjijmdr8BhISP03PYzNFW.jpg",
-      "posterShape": "poster",
-      "description": "As an evil takes over the world beyond their front doorstep, the only protection for a mother and her twin sons is their house and their family’s protective bond.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt14415204"
+      "releaseInfo": "2020",
+      "imdb_id": "tt8004664"
     },
     {
       "id": "tt32881442",
@@ -191,34 +176,46 @@
       "imdb_id": "tt32881442"
     },
     {
-      "id": "tt50389959",
+      "id": "tt18412256",
       "type": "movie",
-      "name": "A Story of Derry",
-      "poster": "https://image.tmdb.org/t/p/w500/4PtzGcegF5Po1NmDAW9IklyvAUh.jpg",
+      "name": "Alien: Romulus",
+      "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
       "posterShape": "poster",
-      "description": "Hundreds of years before Pennywise, three youngsters venture into the Western Wood...where they encounter a terrifying ancient spirit.",
+      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
       "genres": [
-        "Drama",
         "Horror",
-        "Mystery"
+        "Science Fiction"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt50389959"
+      "releaseInfo": "2024",
+      "imdb_id": "tt18412256"
     },
     {
-      "id": "tt32141377",
+      "id": "tt32329539",
       "type": "movie",
-      "name": "28 Years Later: The Bone Temple",
-      "poster": "https://image.tmdb.org/t/p/w500/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+      "name": "Crawlers",
+      "poster": "https://image.tmdb.org/t/p/w500/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
       "posterShape": "poster",
-      "description": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
+      "description": "Tenants at Paradiso Palms apartments fight a deadly spider invasion while the cunning building manager might be their only hope for survival.",
       "genres": [
         "Horror",
-        "Thriller",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32329539"
+    },
+    {
+      "id": "tt32268156",
+      "type": "movie",
+      "name": "The Last House",
+      "poster": "https://image.tmdb.org/t/p/w500/wVvLthGKtnBVq1Cov86h8iB1SeQ.jpg",
+      "posterShape": "poster",
+      "description": "A family suddenly sealed inside their home must work together to survive against dwindling resources and the ominous threat keeping them trapped.",
+      "genres": [
+        "Horror",
         "Science Fiction"
       ],
       "releaseInfo": "2026",
-      "imdb_id": "tt32141377"
+      "imdb_id": "tt32268156"
     },
     {
       "id": "tt13515258",
@@ -247,31 +244,33 @@
       "imdb_id": "tt9100018"
     },
     {
-      "id": "tt5737388",
+      "id": "tt13778486",
       "type": "movie",
-      "name": "The Accursed",
-      "poster": "https://image.tmdb.org/t/p/w500/kBPkV6Gqvbmq6z25bpw3ofsk5ue.jpg",
+      "name": "Succubus",
+      "poster": "https://image.tmdb.org/t/p/w500/7AfBMebJS8mEtSV5ymdxEPpgvXb.jpg",
       "posterShape": "poster",
-      "description": "Hana spends twenty years suppressing a maleficent curse that was placed upon her bloodline, only to have a family member knowingly release it forcing her to kill or to be killed.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt5737388"
-    },
-    {
-      "id": "tt32329539",
-      "type": "movie",
-      "name": "Crawlers",
-      "poster": "https://image.tmdb.org/t/p/w500/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
-      "posterShape": "poster",
-      "description": "Tenants at Paradiso Palms apartments fight a deadly spider invasion while the cunning building manager might be their only hope for survival.",
+      "description": "A new father going through a marital separation joins a dating app and matches with a beautiful but mysterious young woman... whose powers of seduction and manipulation entangle him in a mystery more horrifying than he could have ever imagined.",
       "genres": [
         "Horror",
         "Thriller"
       ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt13778486"
+    },
+    {
+      "id": "tt50389959",
+      "type": "movie",
+      "name": "A Story of Derry",
+      "poster": "https://image.tmdb.org/t/p/w500/4PtzGcegF5Po1NmDAW9IklyvAUh.jpg",
+      "posterShape": "poster",
+      "description": "Hundreds of years before Pennywise, three youngsters venture into the Western Wood...where they encounter a terrifying ancient spirit.",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
       "releaseInfo": "2026",
-      "imdb_id": "tt32329539"
+      "imdb_id": "tt50389959"
     }
   ]
 }
