@@ -143,21 +143,6 @@
       "imdb_id": "tt24807110"
     },
     {
-      "id": "tt10548174",
-      "type": "movie",
-      "name": "28 Years Later",
-      "poster": "https://image.tmdb.org/t/p/w500/n5FygjEppOvac6yEaowi26nTyw3.jpg",
-      "posterShape": "poster",
-      "description": "Twenty-eight years after the Rage virus outbreak, a heavily-defended island survives connected to the mainland by a single causeway. When one of the group leaves the island into the dark heart of the mainland, he discovers secrets, wonders, and horrors that have mutated not only the infected but other survivors as well.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt10548174"
-    },
-    {
       "id": "tt32358390",
       "type": "movie",
       "name": "The Cycle",
@@ -184,6 +169,19 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt3065204"
+    },
+    {
+      "id": "tt10306450",
+      "type": "movie",
+      "name": "The Kindred",
+      "poster": "https://image.tmdb.org/t/p/w500/jDXAaMLk7NNXdXZkeTMtr4xo6f5.jpg",
+      "posterShape": "poster",
+      "description": "After her father’s suicide, a young mother investigates what led to his death. But when she is haunted by spirits and unearths an unsolved mystery from 30 years ago, she discovers a dark family history that could prove deadly for her child.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt10306450"
     },
     {
       "id": "tt13345606",
@@ -241,6 +239,20 @@
       "imdb_id": "tt39143902"
     },
     {
+      "id": "tt6483422",
+      "type": "movie",
+      "name": "They Reach",
+      "poster": "https://image.tmdb.org/t/p/w500/wX1t2sPKN2JGzp0rcg4sVx8fyid.jpg",
+      "posterShape": "poster",
+      "description": "In 1979, a young girl stumbles upon a possessed tape player. She unknowingly unleashes a demonic entity that haunts her family while slowly dragging the small town of Clarkston to Hell.",
+      "genres": [
+        "Adventure",
+        "Horror"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt6483422"
+    },
+    {
       "id": "tt0070047",
       "type": "movie",
       "name": "The Exorcist",
@@ -265,20 +277,6 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt8350360"
-    },
-    {
-      "id": "tt35672862",
-      "type": "movie",
-      "name": "Hokum",
-      "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
-      "posterShape": "poster",
-      "description": "When novelist Ohm Bauman retreats to a remote inn to scatter his parents' ashes, he is consumed by tales of a witch haunting the honeymoon suite. Disturbing visions and a shocking disappearance forces him to confront dark corners of his past.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35672862"
     }
   ]
 }
