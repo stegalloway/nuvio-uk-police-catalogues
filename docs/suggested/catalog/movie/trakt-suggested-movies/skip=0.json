@@ -134,6 +134,19 @@
       "imdb_id": "tt1392214"
     },
     {
+      "id": "tt8236336",
+      "type": "movie",
+      "name": "The Report",
+      "poster": "https://image.tmdb.org/t/p/w500/sG5NI6TMNR9ftOdTIXmG0hrBYSY.jpg",
+      "posterShape": "poster",
+      "description": "The story of Daniel Jones, lead investigator for the US Senate’s sweeping study into the CIA's Detention and Interrogation Program, which was found to be brutal, immoral and ineffective. With the truth at stake, Jones battled tirelessly to make public what many in power sought to keep hidden.",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt8236336"
+    },
+    {
       "id": "tt0780504",
       "type": "movie",
       "name": "Drive",
@@ -147,19 +160,6 @@
       ],
       "releaseInfo": "2011",
       "imdb_id": "tt0780504"
-    },
-    {
-      "id": "tt8236336",
-      "type": "movie",
-      "name": "The Report",
-      "poster": "https://image.tmdb.org/t/p/w500/sG5NI6TMNR9ftOdTIXmG0hrBYSY.jpg",
-      "posterShape": "poster",
-      "description": "The story of Daniel Jones, lead investigator for the US Senate’s sweeping study into the CIA's Detention and Interrogation Program, which was found to be brutal, immoral and ineffective. With the truth at stake, Jones battled tirelessly to make public what many in power sought to keep hidden.",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8236336"
     },
     {
       "id": "tt16311594",
