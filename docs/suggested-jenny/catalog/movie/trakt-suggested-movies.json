@@ -176,20 +176,6 @@
       "imdb_id": "tt32881442"
     },
     {
-      "id": "tt18412256",
-      "type": "movie",
-      "name": "Alien: Romulus",
-      "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
-      "posterShape": "poster",
-      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
-      "genres": [
-        "Horror",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt18412256"
-    },
-    {
       "id": "tt32329539",
       "type": "movie",
       "name": "Crawlers",
@@ -202,6 +188,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32329539"
+    },
+    {
+      "id": "tt18412256",
+      "type": "movie",
+      "name": "Alien: Romulus",
+      "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
+      "posterShape": "poster",
+      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt18412256"
     },
     {
       "id": "tt32268156",
