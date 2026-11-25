@@ -43,20 +43,6 @@
       "imdb_id": "tt0306414"
     },
     {
-      "id": "tt6510950",
-      "type": "series",
-      "name": "Condor",
-      "poster": "https://image.tmdb.org/t/p/w500/xgmkmT4Uik4QpvRipYUxcqNx5yR.jpg",
-      "posterShape": "poster",
-      "description": "Young CIA analyst Joe Turner has his idealism tested when he learns that the CIA has been using an algorithm he developed to spy on American citizens, leading the organization to a terrorist plot that threatens the lives of millions.  Inspired by Sydney Pollack’s 1975 political thriller Three Days of the Condor.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt6510950"
-    },
-    {
       "id": "tt5611024",
       "type": "series",
       "name": "Fool Me Once",
@@ -70,6 +56,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt5611024"
+    },
+    {
+      "id": "tt6510950",
+      "type": "series",
+      "name": "Condor",
+      "poster": "https://image.tmdb.org/t/p/w500/xgmkmT4Uik4QpvRipYUxcqNx5yR.jpg",
+      "posterShape": "poster",
+      "description": "Young CIA analyst Joe Turner has his idealism tested when he learns that the CIA has been using an algorithm he developed to spy on American citizens, leading the organization to a terrorist plot that threatens the lives of millions.  Inspired by Sydney Pollack’s 1975 political thriller Three Days of the Condor.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt6510950"
     },
     {
       "id": "tt2788432",
@@ -187,21 +187,6 @@
       "imdb_id": "tt3428912"
     },
     {
-      "id": "tt3205802",
-      "type": "series",
-      "name": "How to Get Away with Murder",
-      "poster": "https://image.tmdb.org/t/p/w500/bJs8Y6T88NcgksxA8UaVl4YX8p8.jpg",
-      "posterShape": "poster",
-      "description": "A sexy, suspense-driven legal thriller about a group of ambitious law students and their brilliant, mysterious criminal defense professor. They become entangled in a murder plot and will shake the entire university and change the course of their lives.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2014",
-      "imdb_id": "tt3205802"
-    },
-    {
       "id": "tt14582876",
       "type": "series",
       "name": "On Call",
@@ -232,18 +217,19 @@
       "imdb_id": "tt14379784"
     },
     {
-      "id": "tt2356777",
+      "id": "tt3205802",
       "type": "series",
-      "name": "True Detective",
-      "poster": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
+      "name": "How to Get Away with Murder",
+      "poster": "https://image.tmdb.org/t/p/w500/bJs8Y6T88NcgksxA8UaVl4YX8p8.jpg",
       "posterShape": "poster",
-      "description": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+      "description": "A sexy, suspense-driven legal thriller about a group of ambitious law students and their brilliant, mysterious criminal defense professor. They become entangled in a murder plot and will shake the entire university and change the course of their lives.",
       "genres": [
+        "Crime",
         "Drama",
         "Mystery"
       ],
       "releaseInfo": "2014",
-      "imdb_id": "tt2356777"
+      "imdb_id": "tt3205802"
     },
     {
       "id": "tt35515227",
@@ -260,19 +246,18 @@
       "imdb_id": "tt35515227"
     },
     {
-      "id": "tt4258440",
+      "id": "tt2356777",
       "type": "series",
-      "name": "River",
-      "poster": "https://image.tmdb.org/t/p/w500/fhiVcu9RA3MEVQtMowwQUsHJfJR.jpg",
+      "name": "True Detective",
+      "poster": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
       "posterShape": "poster",
-      "description": "Respected police officer John River, a gifted cop with a troubled mind, struggles to come to terms with the recent loss of a colleague, and chases a suspect across London - with tragic consequences. Now at odds with the authorities, River ends up in a precarious position as he seeks to bring closure to the mother of murdered teenager, who blames him for failing to keep his promise.",
+      "description": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
       "genres": [
-        "Crime",
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt4258440"
+      "releaseInfo": "2014",
+      "imdb_id": "tt2356777"
     },
     {
       "id": "tt2304589",
@@ -288,6 +273,21 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt2304589"
+    },
+    {
+      "id": "tt4258440",
+      "type": "series",
+      "name": "River",
+      "poster": "https://image.tmdb.org/t/p/w500/fhiVcu9RA3MEVQtMowwQUsHJfJR.jpg",
+      "posterShape": "poster",
+      "description": "Respected police officer John River, a gifted cop with a troubled mind, struggles to come to terms with the recent loss of a colleague, and chases a suspect across London - with tragic consequences. Now at odds with the authorities, River ends up in a precarious position as he seeks to bring closure to the mother of murdered teenager, who blames him for failing to keep his promise.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt4258440"
     }
   ]
 }
