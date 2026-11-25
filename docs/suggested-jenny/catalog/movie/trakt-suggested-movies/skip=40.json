@@ -72,6 +72,20 @@
       "imdb_id": "tt32362890"
     },
     {
+      "id": "tt28498159",
+      "type": "movie",
+      "name": "The Other",
+      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
+      "posterShape": "poster",
+      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt28498159"
+    },
+    {
       "id": "tt35538033",
       "type": "movie",
       "name": "Resident Evil",
@@ -85,20 +99,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35538033"
-    },
-    {
-      "id": "tt28498159",
-      "type": "movie",
-      "name": "The Other",
-      "poster": "https://image.tmdb.org/t/p/w500/kE6FV8Lc9Aqir6OlgaNgnbFcy9E.jpg",
-      "posterShape": "poster",
-      "description": "Unable to conceive, a couple seeks to build a family with a young orphan, survivor of tragic childhood. But their act of love turns to horror when they realize the violence in their foster's past has returned to destroy the new family.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt28498159"
     },
     {
       "id": "tt10665342",
@@ -158,6 +158,19 @@
       "imdb_id": "tt10548174"
     },
     {
+      "id": "tt3065204",
+      "type": "movie",
+      "name": "The Conjuring 2",
+      "poster": "https://image.tmdb.org/t/p/w500/zEqyD0SBt6HL7W9JQoWwtd5Do1T.jpg",
+      "posterShape": "poster",
+      "description": "Lorraine and Ed Warren travel to north London to help a single mother raising four children alone in a house plagued by malicious spirits.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2016",
+      "imdb_id": "tt3065204"
+    },
+    {
       "id": "tt32358390",
       "type": "movie",
       "name": "The Cycle",
@@ -171,19 +184,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32358390"
-    },
-    {
-      "id": "tt3065204",
-      "type": "movie",
-      "name": "The Conjuring 2",
-      "poster": "https://image.tmdb.org/t/p/w500/zEqyD0SBt6HL7W9JQoWwtd5Do1T.jpg",
-      "posterShape": "poster",
-      "description": "Lorraine and Ed Warren travel to north London to help a single mother raising four children alone in a house plagued by malicious spirits.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt3065204"
     },
     {
       "id": "tt10306450",
