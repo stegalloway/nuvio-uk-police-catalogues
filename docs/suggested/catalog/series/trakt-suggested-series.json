@@ -100,20 +100,6 @@
       "imdb_id": "tt4276618"
     },
     {
-      "id": "tt5011816",
-      "type": "series",
-      "name": "Sneaky Pete",
-      "poster": "https://image.tmdb.org/t/p/w500/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
-      "posterShape": "poster",
-      "description": "A con man on the run from a vicious gangster takes cover from his past by assuming the identity of his prison cellmate, Pete, “reuniting” with Pete’s estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he’s trying to escape - and, just maybe, give him a taste of the loving family he’s never had.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt5011816"
-    },
-    {
       "id": "tt5715524",
       "type": "series",
       "name": "Mayans M.C.",
@@ -126,6 +112,20 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt5715524"
+    },
+    {
+      "id": "tt5011816",
+      "type": "series",
+      "name": "Sneaky Pete",
+      "poster": "https://image.tmdb.org/t/p/w500/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
+      "posterShape": "poster",
+      "description": "A con man on the run from a vicious gangster takes cover from his past by assuming the identity of his prison cellmate, Pete, “reuniting” with Pete’s estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he’s trying to escape - and, just maybe, give him a taste of the loving family he’s never had.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt5011816"
     },
     {
       "id": "tt26598805",

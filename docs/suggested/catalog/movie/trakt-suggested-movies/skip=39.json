@@ -1,19 +1,48 @@
 {
   "metas": [
     {
-      "id": "tt2543164",
+      "id": "tt0332452",
       "type": "movie",
-      "name": "Arrival",
-      "poster": "https://image.tmdb.org/t/p/w500/pEzNVQfdzYDzVK0XqxERIw2x2se.jpg",
+      "name": "Troy",
+      "poster": "https://image.tmdb.org/t/p/w500/a07wLy4ONfpsjnBqMwhlWTJTcm.jpg",
       "posterShape": "poster",
-      "description": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+      "description": "In year 1250 B.C. during the late Bronze age, two emerging nations begin to clash. Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnon to help him get her back. Agamemnon sees this as an opportunity for power. They set off with 1,000 ships holding 50,000 Greeks to Troy.",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "releaseInfo": "2004",
+      "imdb_id": "tt0332452"
+    },
+    {
+      "id": "tt1730768",
+      "type": "movie",
+      "name": "The Zookeeper's Wife",
+      "poster": "https://image.tmdb.org/t/p/w500/50KGpMiIvSkF4WHOgp0gM6r6sMU.jpg",
+      "posterShape": "poster",
+      "description": "The account of keepers of the Warsaw Zoo, Jan and Antonina Zabinski, who helped save hundreds of people and animals during the Nazi invasion.",
       "genres": [
         "Drama",
-        "Science Fiction",
-        "Mystery"
+        "History",
+        "War"
       ],
-      "releaseInfo": "2016",
-      "imdb_id": "tt2543164"
+      "releaseInfo": "2017",
+      "imdb_id": "tt1730768"
+    },
+    {
+      "id": "tt6924650",
+      "type": "movie",
+      "name": "Midway",
+      "poster": "https://image.tmdb.org/t/p/w500/hj8pyoNnynGeJTAbl7jcLZO8Uhx.jpg",
+      "posterShape": "poster",
+      "description": "The story of the Battle of Midway, and the leaders and soldiers who used their instincts, fortitude and bravery to overcome massive odds.",
+      "genres": [
+        "War",
+        "History",
+        "Action"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt6924650"
     },
     {
       "id": "tt31349844",
@@ -73,21 +102,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt29028515"
-    },
-    {
-      "id": "tt16431870",
-      "type": "movie",
-      "name": "The Family Plan",
-      "poster": "https://image.tmdb.org/t/p/w500/jLLtx3nTRSLGPAKl4RoIv1FbEBr.jpg",
-      "posterShape": "poster",
-      "description": "Dan Morgan is many things: a devoted husband, a loving father, a celebrated car salesman. He's also a former assassin. And when his past catches up to his present, he's forced to take his unsuspecting family on a road trip unlike any other.",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Adventure"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt16431870"
     },
     {
       "id": "tt33296751",
