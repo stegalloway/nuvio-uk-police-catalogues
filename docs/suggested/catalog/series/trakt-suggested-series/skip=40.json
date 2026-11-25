@@ -101,6 +101,21 @@
       "imdb_id": "tt37063558"
     },
     {
+      "id": "tt14379784",
+      "type": "series",
+      "name": "The Devil's Hour",
+      "poster": "https://image.tmdb.org/t/p/w500/mFU6ZPAs6g8Y9Eld28GULJYt3rC.jpg",
+      "posterShape": "poster",
+      "description": "Lucy wakes every night at exactly 3:33 am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14379784"
+    },
+    {
       "id": "tt5675620",
       "type": "series",
       "name": "Marvel's The Punisher",
@@ -275,19 +290,6 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt3647998"
-    },
-    {
-      "id": "tt0118437",
-      "type": "series",
-      "name": "The Practice",
-      "poster": "https://image.tmdb.org/t/p/w500/7OKZSUIWhjFP0F2s478zTrAYwDB.jpg",
-      "posterShape": "poster",
-      "description": "A provocative legal drama focused on young associates at a bare-bones Boston firm and their scrappy boss, Bobby Donnell. The show's forte is its storylines about “people who walk a moral tightrope.”",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "1997",
-      "imdb_id": "tt0118437"
     }
   ]
 }
