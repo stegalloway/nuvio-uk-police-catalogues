@@ -46,6 +46,21 @@
       "imdb_id": "tt11083552"
     },
     {
+      "id": "tt6791350",
+      "type": "movie",
+      "name": "Guardians of the Galaxy Vol. 3",
+      "poster": "https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+      "posterShape": "poster",
+      "description": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt6791350"
+    },
+    {
       "id": "tt9603208",
       "type": "movie",
       "name": "Mission: Impossible - The Final Reckoning",
@@ -280,21 +295,6 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt0478970"
-    },
-    {
-      "id": "tt0203119",
-      "type": "movie",
-      "name": "Sexy Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/xTfCZTzhgHNAR1pf5D49WH4buI5.jpg",
-      "posterShape": "poster",
-      "description": "Ex-safecracker Gal Dove has served his time behind bars and is blissfully retired to a Spanish villa paradise with a wife he adores. The idyll is shattered by the arrival of his nemesis Don Logan, intent on persuading Gal to return to London for one last big job.",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Drama"
-      ],
-      "releaseInfo": "2001",
-      "imdb_id": "tt0203119"
     }
   ]
 }

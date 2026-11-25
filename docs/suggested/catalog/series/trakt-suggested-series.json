@@ -15,6 +15,22 @@
       "imdb_id": "tt13444408"
     },
     {
+      "id": "tt0078657",
+      "type": "series",
+      "name": "Minder",
+      "poster": "https://image.tmdb.org/t/p/w500/4s9hiyQvTaMe1bK91HRCTgDTAoF.jpg",
+      "posterShape": "poster",
+      "description": "Roguish comedy drama following the misadventures of small-time crook Arthur Daley.",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Action & Adventure",
+        "Crime"
+      ],
+      "releaseInfo": "1979",
+      "imdb_id": "tt0078657"
+    },
+    {
       "id": "tt0979432",
       "type": "series",
       "name": "Boardwalk Empire",
@@ -100,20 +116,6 @@
       "imdb_id": "tt4276618"
     },
     {
-      "id": "tt5715524",
-      "type": "series",
-      "name": "Mayans M.C.",
-      "poster": "https://image.tmdb.org/t/p/w500/510A0upV9WRAynEgs1E2B3eBxi5.jpg",
-      "posterShape": "poster",
-      "description": "Set in the aftermath of Jax Teller’s death, Ezekiel \"EZ\" Reyes is fresh out of prison and a prospect in the Mayans M.C. charter on the Cali/Mexi border. Now, EZ must carve out his new identity in a town where he was once the golden boy with the American Dream in his grasp.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt5715524"
-    },
-    {
       "id": "tt5011816",
       "type": "series",
       "name": "Sneaky Pete",
@@ -126,6 +128,20 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt5011816"
+    },
+    {
+      "id": "tt5715524",
+      "type": "series",
+      "name": "Mayans M.C.",
+      "poster": "https://image.tmdb.org/t/p/w500/510A0upV9WRAynEgs1E2B3eBxi5.jpg",
+      "posterShape": "poster",
+      "description": "Set in the aftermath of Jax Teller’s death, Ezekiel \"EZ\" Reyes is fresh out of prison and a prospect in the Mayans M.C. charter on the Cali/Mexi border. Now, EZ must carve out his new identity in a town where he was once the golden boy with the American Dream in his grasp.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt5715524"
     },
     {
       "id": "tt26598805",
@@ -157,18 +173,18 @@
       "imdb_id": "tt1064899"
     },
     {
-      "id": "tt6439752",
+      "id": "tt11761194",
       "type": "series",
-      "name": "Snowfall",
-      "poster": "https://image.tmdb.org/t/p/w500/y7ntzl7msiaS6o7dvDbNG7XFYcR.jpg",
+      "name": "Power Book IV: Force",
+      "poster": "https://image.tmdb.org/t/p/w500/cR0ursLXoT0zfX9XDGAzQRAnK0W.jpg",
       "posterShape": "poster",
-      "description": "Los Angeles. 1983. A storm is coming and its name is crack. Set against the infancy of the crack cocaine epidemic and its ultimate radical impact on the culture as we know it, the story follows numerous characters on a violent collision course.",
+      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt6439752"
+      "releaseInfo": "2022",
+      "imdb_id": "tt11761194"
     },
     {
       "id": "tt10732104",
@@ -185,18 +201,18 @@
       "imdb_id": "tt10732104"
     },
     {
-      "id": "tt11761194",
+      "id": "tt6439752",
       "type": "series",
-      "name": "Power Book IV: Force",
-      "poster": "https://image.tmdb.org/t/p/w500/cR0ursLXoT0zfX9XDGAzQRAnK0W.jpg",
+      "name": "Snowfall",
+      "poster": "https://image.tmdb.org/t/p/w500/y7ntzl7msiaS6o7dvDbNG7XFYcR.jpg",
       "posterShape": "poster",
-      "description": "Tommy Egan leaves New York behind and plans to take on Chicago, using his outsider status to break all the local rules and rewrite them on his quest to become the biggest drug dealer in the city.",
+      "description": "Los Angeles. 1983. A storm is coming and its name is crack. Set against the infancy of the crack cocaine epidemic and its ultimate radical impact on the culture as we know it, the story follows numerous characters on a violent collision course.",
       "genres": [
-        "Crime",
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11761194"
+      "releaseInfo": "2017",
+      "imdb_id": "tt6439752"
     },
     {
       "id": "tt1489428",
@@ -256,32 +272,18 @@
       "imdb_id": "tt5071412"
     },
     {
-      "id": "tt13018148",
+      "id": "tt14063678",
       "type": "series",
-      "name": "Tell Me Lies",
-      "poster": "https://image.tmdb.org/t/p/w500/tc5c5X1ZbJx5guaQUo1Xqt24S8z.jpg",
+      "name": "The Gold",
+      "poster": "https://image.tmdb.org/t/p/w500/9JY9Gza4HQhXjIPXg9uSy8FeiSM.jpg",
       "posterShape": "poster",
-      "description": "When Lucy Albright and Stephen DeMarco meet at college, they are at that formative age when seemingly mundane choices lead the way to irrevocable consequences. They quickly fall into an addictive entanglement that will permanently alter not only their lives, but the lives of everyone around them.",
+      "description": "On 26 November 1983, six armed men break into the Brink's-Mat security depot, stumbling across gold bullion worth £26m.",
       "genres": [
-        "Drama",
-        "Mystery"
+        "Crime",
+        "Drama"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13018148"
-    },
-    {
-      "id": "tt0903747",
-      "type": "series",
-      "name": "Breaking Bad",
-      "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
-      "posterShape": "poster",
-      "description": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0903747"
+      "releaseInfo": "2023",
+      "imdb_id": "tt14063678"
     }
   ]
 }
