@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt1051906",
+      "type": "movie",
+      "name": "The Invisible Man",
+      "poster": "https://image.tmdb.org/t/p/w500/5EufsDwXdY2CVttYOk2WtYhgKpa.jpg",
+      "posterShape": "poster",
+      "description": "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Horror"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt1051906"
+    },
+    {
       "id": "tt14371860",
       "type": "movie",
       "name": "Apartment 7A",
@@ -264,19 +279,6 @@
       ],
       "releaseInfo": "1973",
       "imdb_id": "tt0070047"
-    },
-    {
-      "id": "tt8350360",
-      "type": "movie",
-      "name": "Annabelle Comes Home",
-      "poster": "https://image.tmdb.org/t/p/w500/qFjtLOeVl4jpzPUhp4cl4ieANHY.jpg",
-      "posterShape": "poster",
-      "description": "Determined to keep Annabelle from wreaking more havoc, demonologists Ed and Lorraine Warren bring the possessed doll to the locked artifacts room in their home, placing her “safely” behind sacred glass and enlisting a priest’s holy blessing. But an unholy night of horror awaits as Annabelle awakens the evil spirits in the room, who all set their sights on a new target—the Warrens' ten-year-old daughter, Judy, and her friends.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8350360"
     }
   ]
 }
