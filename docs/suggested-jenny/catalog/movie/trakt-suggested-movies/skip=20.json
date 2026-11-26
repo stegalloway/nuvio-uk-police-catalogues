@@ -151,22 +151,6 @@
       "imdb_id": "tt21201300"
     },
     {
-      "id": "tt14270702",
-      "type": "movie",
-      "name": "God Is a Bullet",
-      "poster": "https://image.tmdb.org/t/p/w500/5kiLS9nsSJxDdlYUyYGiSUt8Fi8.jpg",
-      "posterShape": "poster",
-      "description": "Vice detective Bob Hightower finds his ex-wife murdered and daughter kidnapped by a cult. Frustrated by the botched official investigations, he quits the force and infiltrates the cult to hunt down the leader with the help of the cult’s only female victim escapee, Case Hardin.",
-      "genres": [
-        "Thriller",
-        "Action",
-        "Crime",
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14270702"
-    },
-    {
       "id": "tt14509110",
       "type": "movie",
       "name": "No One Will Save You",
@@ -193,6 +177,22 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt34494076"
+    },
+    {
+      "id": "tt14270702",
+      "type": "movie",
+      "name": "God Is a Bullet",
+      "poster": "https://image.tmdb.org/t/p/w500/5kiLS9nsSJxDdlYUyYGiSUt8Fi8.jpg",
+      "posterShape": "poster",
+      "description": "Vice detective Bob Hightower finds his ex-wife murdered and daughter kidnapped by a cult. Frustrated by the botched official investigations, he quits the force and infiltrates the cult to hunt down the leader with the help of the cult’s only female victim escapee, Case Hardin.",
+      "genres": [
+        "Thriller",
+        "Action",
+        "Crime",
+        "Horror"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt14270702"
     },
     {
       "id": "tt8036976",
