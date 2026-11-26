@@ -1,20 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt15567174",
-      "type": "series",
-      "name": "The Fall of the House of Usher",
-      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
-      "posterShape": "poster",
-      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15567174"
-    },
-    {
       "id": "tt34771210",
       "type": "series",
       "name": "I Will Find You",
@@ -30,18 +16,19 @@
       "imdb_id": "tt34771210"
     },
     {
-      "id": "tt3960394",
+      "id": "tt31458276",
       "type": "series",
-      "name": "Interview with the Vampire",
-      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
+      "name": "Grotesquerie",
+      "poster": "https://image.tmdb.org/t/p/w500/oskgLp7inXPU9NgfL2NWRW0KK2e.jpg",
       "posterShape": "poster",
-      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
+      "description": "A series of heinous crimes have unsettled a small community, and Detective Lois Tryon feels they are eerily personal, as if someone—or something—is taunting her.",
       "genres": [
         "Drama",
-        "Sci-Fi & Fantasy"
+        "Mystery",
+        "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt3960394"
+      "releaseInfo": "2024",
+      "imdb_id": "tt31458276"
     },
     {
       "id": "tt10148174",
@@ -58,19 +45,18 @@
       "imdb_id": "tt10148174"
     },
     {
-      "id": "tt11540908",
+      "id": "tt3960394",
       "type": "series",
-      "name": "Carrie",
-      "poster": "https://image.tmdb.org/t/p/w500/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
+      "name": "Interview with the Vampire",
+      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
       "posterShape": "poster",
-      "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
+      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
       "genres": [
-        "Mystery",
         "Drama",
         "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt11540908"
+      "releaseInfo": "2022",
+      "imdb_id": "tt3960394"
     },
     {
       "id": "tt14111774",
@@ -101,6 +87,21 @@
       "imdb_id": "tt11475228"
     },
     {
+      "id": "tt11540908",
+      "type": "series",
+      "name": "Carrie",
+      "poster": "https://image.tmdb.org/t/p/w500/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
+      "posterShape": "poster",
+      "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt11540908"
+    },
+    {
       "id": "tt31314754",
       "type": "series",
       "name": "Devil in Disguise: John Wayne Gacy",
@@ -113,6 +114,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt31314754"
+    },
+    {
+      "id": "tt11822998",
+      "type": "series",
+      "name": "The Trials of Gabriel Fernandez",
+      "poster": "https://image.tmdb.org/t/p/w500/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
+      "posterShape": "poster",
+      "description": "A boy’s brutal murder and the public trials of his guardians and social workers prompt questions about the system’s protection of vulnerable children.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11822998"
     },
     {
       "id": "tt9064858",
@@ -144,18 +159,18 @@
       "imdb_id": "tt6053512"
     },
     {
-      "id": "tt11822998",
+      "id": "tt11285470",
       "type": "series",
-      "name": "The Trials of Gabriel Fernandez",
-      "poster": "https://image.tmdb.org/t/p/w500/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
+      "name": "The Expecting",
+      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
       "posterShape": "poster",
-      "description": "A boy’s brutal murder and the public trials of his guardians and social workers prompt questions about the system’s protection of vulnerable children.",
+      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
       "genres": [
-        "Documentary",
-        "Crime"
+        "Mystery",
+        "Drama"
       ],
       "releaseInfo": "2020",
-      "imdb_id": "tt11822998"
+      "imdb_id": "tt11285470"
     },
     {
       "id": "tt13623632",
@@ -187,20 +202,6 @@
       "imdb_id": "tt33043892"
     },
     {
-      "id": "tt11285470",
-      "type": "series",
-      "name": "The Expecting",
-      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
-      "posterShape": "poster",
-      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11285470"
-    },
-    {
       "id": "tt9642938",
       "type": "series",
       "name": "Unsolved Mysteries",
@@ -216,17 +217,32 @@
       "imdb_id": "tt9642938"
     },
     {
-      "id": "tt11173006",
+      "id": "tt27142031",
       "type": "series",
-      "name": "Super Pumped: The Battle for Uber",
-      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
+      "name": "American Manhunt: The Boston Marathon Bombing",
+      "poster": "https://image.tmdb.org/t/p/w500/yagaaZpOgmX3cku7fgMCb4dyNeC.jpg",
       "posterShape": "poster",
-      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
+      "description": "Archive footage, chilling reenactments and exclusive interviews shed new light on a tragedy — and two brothers — that suspended a city in terror.",
       "genres": [
-        "Drama"
+        "Documentary",
+        "Crime"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt11173006"
+      "releaseInfo": "2023",
+      "imdb_id": "tt27142031"
+    },
+    {
+      "id": "tt13269706",
+      "type": "series",
+      "name": "Seduced: Inside the NXIVM Cult",
+      "poster": "https://image.tmdb.org/t/p/w500/2algVl1riUbFcFBxxy1Ops6FNM7.jpg",
+      "posterShape": "poster",
+      "description": "This four-part documentary series follows the story of India Oxenberg's perilous journey through the dark and criminal world of the notorious self-help-group-turned-sex-slave-cult NXIVM.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt13269706"
     },
     {
       "id": "tt31938062",
@@ -242,47 +258,31 @@
       "imdb_id": "tt31938062"
     },
     {
-      "id": "tt11794812",
+      "id": "tt11173006",
       "type": "series",
-      "name": "Cross",
-      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
+      "name": "Super Pumped: The Battle for Uber",
+      "poster": "https://image.tmdb.org/t/p/w500/rGZ7Hv2VvPHKM0Pav6cHyX4jaLN.jpg",
       "posterShape": "poster",
-      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
+      "description": "Based on the shocking true story, strap in for the meteoric rise and fall of Uber founder, Travis Kalanick. With a lift from venture capitalist Bill Gurley and board member Arianna Huffington, Kalanick takes a win-at-all-costs approach to forge the fledgling start-up into a multi-billion-dollar tech titan. But every surge comes at a price – and as his visionary drive spirals out of control, it threatens to be the downfall of it all.",
       "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt11794812"
-    },
-    {
-      "id": "tt13729648",
-      "type": "series",
-      "name": "Candy",
-      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
-      "posterShape": "poster",
-      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
-      "genres": [
-        "Drama",
-        "Crime"
+        "Drama"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt13729648"
+      "imdb_id": "tt11173006"
     },
     {
-      "id": "tt27142031",
+      "id": "tt35676401",
       "type": "series",
-      "name": "American Manhunt: The Boston Marathon Bombing",
-      "poster": "https://image.tmdb.org/t/p/w500/yagaaZpOgmX3cku7fgMCb4dyNeC.jpg",
+      "name": "The Yogurt Shop Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
       "posterShape": "poster",
-      "description": "Archive footage, chilling reenactments and exclusive interviews shed new light on a tragedy — and two brothers — that suspended a city in terror.",
+      "description": "In 1991, four teenage girls were brutally murdered at a frozen yogurt shop in Austin, Texas. What happened that night forever shook the Austin community and continues to mystify the police and haunt the families left in the wake of unthinkable loss.",
       "genres": [
         "Documentary",
         "Crime"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt27142031"
+      "releaseInfo": "2025",
+      "imdb_id": "tt35676401"
     }
   ]
 }

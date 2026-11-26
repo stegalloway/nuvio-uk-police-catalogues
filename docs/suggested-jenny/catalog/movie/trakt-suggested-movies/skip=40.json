@@ -16,20 +16,6 @@
       "imdb_id": "tt1051906"
     },
     {
-      "id": "tt32612507",
-      "type": "movie",
-      "name": "Lee Cronin's The Mummy",
-      "poster": "https://image.tmdb.org/t/p/w500/1q308iixueCU4pFtSYugNOevtNx.jpg",
-      "posterShape": "poster",
-      "description": "The young daughter of a journalist disappears into the desert without a trace—eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32612507"
-    },
-    {
       "id": "tt14371860",
       "type": "movie",
       "name": "Apartment 7A",
@@ -42,6 +28,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt14371860"
+    },
+    {
+      "id": "tt32612507",
+      "type": "movie",
+      "name": "Lee Cronin's The Mummy",
+      "poster": "https://image.tmdb.org/t/p/w500/1q308iixueCU4pFtSYugNOevtNx.jpg",
+      "posterShape": "poster",
+      "description": "The young daughter of a journalist disappears into the desert without a trace—eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32612507"
     },
     {
       "id": "tt28129069",
@@ -169,19 +169,6 @@
       "imdb_id": "tt3065204"
     },
     {
-      "id": "tt10306450",
-      "type": "movie",
-      "name": "The Kindred",
-      "poster": "https://image.tmdb.org/t/p/w500/jDXAaMLk7NNXdXZkeTMtr4xo6f5.jpg",
-      "posterShape": "poster",
-      "description": "After her father’s suicide, a young mother investigates what led to his death. But when she is haunted by spirits and unearths an unsolved mystery from 30 years ago, she discovers a dark family history that could prove deadly for her child.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt10306450"
-    },
-    {
       "id": "tt32358390",
       "type": "movie",
       "name": "The Cycle",
@@ -195,6 +182,19 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32358390"
+    },
+    {
+      "id": "tt10306450",
+      "type": "movie",
+      "name": "The Kindred",
+      "poster": "https://image.tmdb.org/t/p/w500/jDXAaMLk7NNXdXZkeTMtr4xo6f5.jpg",
+      "posterShape": "poster",
+      "description": "After her father’s suicide, a young mother investigates what led to his death. But when she is haunted by spirits and unearths an unsolved mystery from 30 years ago, she discovers a dark family history that could prove deadly for her child.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt10306450"
     },
     {
       "id": "tt13345606",
@@ -211,20 +211,6 @@
       "imdb_id": "tt13345606"
     },
     {
-      "id": "tt39143902",
-      "type": "movie",
-      "name": "Leviticus",
-      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
-      "posterShape": "poster",
-      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
-      "genres": [
-        "Horror",
-        "Romance"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt39143902"
-    },
-    {
       "id": "tt27444133",
       "type": "movie",
       "name": "Shades of Desire",
@@ -237,6 +223,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt27444133"
+    },
+    {
+      "id": "tt39143902",
+      "type": "movie",
+      "name": "Leviticus",
+      "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+      "posterShape": "poster",
+      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most:  each other.",
+      "genres": [
+        "Horror",
+        "Romance"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt39143902"
     },
     {
       "id": "tt37676033",
