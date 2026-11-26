@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt11794812",
+      "type": "series",
+      "name": "Cross",
+      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
+      "posterShape": "poster",
+      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt11794812"
+    },
+    {
       "id": "tt11656892",
       "type": "series",
       "name": "Des",
@@ -30,6 +45,19 @@
       "imdb_id": "tt9148598"
     },
     {
+      "id": "tt23330464",
+      "type": "series",
+      "name": "Stolen Youth: Inside the Cult at Sarah Lawrence",
+      "poster": "https://image.tmdb.org/t/p/w500/r00i76ZaQ0NtwK2mkpVLkT6skkg.jpg",
+      "posterShape": "poster",
+      "description": "A group of bright Sarah Lawrence College students fall under the dark influence of a friend's father, Larry Ray. With unprecedented access to the survivors who lived with Ray, the series follows the cult from its origins through its still-unfolding aftermath.",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt23330464"
+    },
+    {
       "id": "tt8354062",
       "type": "series",
       "name": "One of Us Is Lying",
@@ -42,6 +70,19 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt8354062"
+    },
+    {
+      "id": "tt21315194",
+      "type": "series",
+      "name": "I Just Killed My Dad",
+      "poster": "https://image.tmdb.org/t/p/w500/iSpsCUpm0U8YLTwfG8pKn1nxJsD.jpg",
+      "posterShape": "poster",
+      "description": "Anthony Templet shot his father and never denied it. But why he did it is a complex question with profound implications. Explore Anthony's psyche prior to the events of June 3, 2019 and the journey of his mental and emotional aftermath.",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt21315194"
     },
     {
       "id": "tt8415836",
@@ -59,30 +100,18 @@
       "imdb_id": "tt8415836"
     },
     {
-      "id": "tt23330464",
+      "id": "tt15574312",
       "type": "series",
-      "name": "Stolen Youth: Inside the Cult at Sarah Lawrence",
-      "poster": "https://image.tmdb.org/t/p/w500/r00i76ZaQ0NtwK2mkpVLkT6skkg.jpg",
+      "name": "The Patient",
+      "poster": "https://image.tmdb.org/t/p/w500/fB1848j0pvNnYilXB0ho5OCfiIz.jpg",
       "posterShape": "poster",
-      "description": "A group of bright Sarah Lawrence College students fall under the dark influence of a friend's father, Larry Ray. With unprecedented access to the survivors who lived with Ray, the series follows the cult from its origins through its still-unfolding aftermath.",
+      "description": "A psychotherapist finds himself held prisoner by a serial killer with an unusual request: curb his homicidal urges.",
       "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt23330464"
-    },
-    {
-      "id": "tt21315194",
-      "type": "series",
-      "name": "I Just Killed My Dad",
-      "poster": "https://image.tmdb.org/t/p/w500/iSpsCUpm0U8YLTwfG8pKn1nxJsD.jpg",
-      "posterShape": "poster",
-      "description": "Anthony Templet shot his father and never denied it. But why he did it is a complex question with profound implications. Explore Anthony's psyche prior to the events of June 3, 2019 and the journey of his mental and emotional aftermath.",
-      "genres": [
-        "Documentary"
+        "Drama",
+        "Crime"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt21315194"
+      "imdb_id": "tt15574312"
     },
     {
       "id": "tt18970124",
@@ -96,20 +125,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt18970124"
-    },
-    {
-      "id": "tt15574312",
-      "type": "series",
-      "name": "The Patient",
-      "poster": "https://image.tmdb.org/t/p/w500/fB1848j0pvNnYilXB0ho5OCfiIz.jpg",
-      "posterShape": "poster",
-      "description": "A psychotherapist finds himself held prisoner by a serial killer with an unusual request: curb his homicidal urges.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15574312"
     },
     {
       "id": "tt43476716",
@@ -197,6 +212,20 @@
       "imdb_id": "tt33480540"
     },
     {
+      "id": "tt35590630",
+      "type": "series",
+      "name": "American Murder: Gabby Petito",
+      "poster": "https://image.tmdb.org/t/p/w500/83PrIV5PH124m1sR4UIubm7E9sO.jpg",
+      "posterShape": "poster",
+      "description": "What happened in the final days of Gabby Petito's life? In this gripping true-crime series, her loved ones reveal the untold story of her tragic murder.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt35590630"
+    },
+    {
       "id": "tt14865290",
       "type": "series",
       "name": "Heist",
@@ -225,20 +254,6 @@
       "imdb_id": "tt35629774"
     },
     {
-      "id": "tt35590630",
-      "type": "series",
-      "name": "American Murder: Gabby Petito",
-      "poster": "https://image.tmdb.org/t/p/w500/83PrIV5PH124m1sR4UIubm7E9sO.jpg",
-      "posterShape": "poster",
-      "description": "What happened in the final days of Gabby Petito's life? In this gripping true-crime series, her loved ones reveal the untold story of her tragic murder.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35590630"
-    },
-    {
       "id": "tt20782578",
       "type": "series",
       "name": "Mind Over Murder",
@@ -265,20 +280,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt37438628"
-    },
-    {
-      "id": "tt11141900",
-      "type": "series",
-      "name": "Ted Bundy: Falling for a Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
-      "posterShape": "poster",
-      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11141900"
     }
   ]
 }
