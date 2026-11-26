@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt1051906",
+      "type": "movie",
+      "name": "The Invisible Man",
+      "poster": "https://image.tmdb.org/t/p/w500/5EufsDwXdY2CVttYOk2WtYhgKpa.jpg",
+      "posterShape": "poster",
+      "description": "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
+      "genres": [
+        "Thriller",
+        "Science Fiction",
+        "Horror"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt1051906"
+    },
+    {
       "id": "tt14371860",
       "type": "movie",
       "name": "Apartment 7A",
@@ -169,6 +184,19 @@
       "imdb_id": "tt32358390"
     },
     {
+      "id": "tt10306450",
+      "type": "movie",
+      "name": "The Kindred",
+      "poster": "https://image.tmdb.org/t/p/w500/jDXAaMLk7NNXdXZkeTMtr4xo6f5.jpg",
+      "posterShape": "poster",
+      "description": "After her father’s suicide, a young mother investigates what led to his death. But when she is haunted by spirits and unearths an unsolved mystery from 30 years ago, she discovers a dark family history that could prove deadly for her child.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2021",
+      "imdb_id": "tt10306450"
+    },
+    {
       "id": "tt13345606",
       "type": "movie",
       "name": "Evil Dead Rise",
@@ -249,34 +277,6 @@
       ],
       "releaseInfo": "1973",
       "imdb_id": "tt0070047"
-    },
-    {
-      "id": "tt15474916",
-      "type": "movie",
-      "name": "Smile",
-      "poster": "https://image.tmdb.org/t/p/w500/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
-      "posterShape": "poster",
-      "description": "After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15474916"
-    },
-    {
-      "id": "tt35672862",
-      "type": "movie",
-      "name": "Hokum",
-      "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
-      "posterShape": "poster",
-      "description": "When novelist Ohm Bauman retreats to a remote inn to scatter his parents' ashes, he is consumed by tales of a witch haunting the honeymoon suite. Disturbing visions and a shocking disappearance forces him to confront dark corners of his past.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt35672862"
     }
   ]
 }
