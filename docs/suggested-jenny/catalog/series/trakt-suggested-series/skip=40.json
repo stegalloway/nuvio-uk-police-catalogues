@@ -44,21 +44,6 @@
       "imdb_id": "tt11656892"
     },
     {
-      "id": "tt9148598",
-      "type": "series",
-      "name": "McMillion$",
-      "poster": "https://image.tmdb.org/t/p/w500/xyUciqZC5hGYJqefmbGbTy5fxYh.jpg",
-      "posterShape": "poster",
-      "description": "A detailed account of the McDonald's Monopoly game scam during the 1990s as told by the participants in the case, including the prizewinners and the FBI agents who caught the security officer who orchestrated the entire scheme.",
-      "genres": [
-        "Documentary",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt9148598"
-    },
-    {
       "id": "tt23330464",
       "type": "series",
       "name": "Stolen Youth: Inside the Cult at Sarah Lawrence",
@@ -280,6 +265,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt20782578"
+    },
+    {
+      "id": "tt37438628",
+      "type": "series",
+      "name": "Conversations with a Killer: The Son of Sam Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/bSJ221k1EOuBHiye7ae29VqxjnS.jpg",
+      "posterShape": "poster",
+      "description": "Mixing present-day interviews with previously unheard recordings, this true-crime series examines serial killer David Berkowitz's mark on 1970s New York.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt37438628"
     }
   ]
 }
