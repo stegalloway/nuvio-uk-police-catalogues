@@ -142,20 +142,6 @@
       "imdb_id": "tt8045494"
     },
     {
-      "id": "tt31842126",
-      "type": "series",
-      "name": "The Good Daughter",
-      "poster": "https://image.tmdb.org/t/p/w500/qJPvyo9Pxz3MQndd3tKSocLz1Nt.jpg",
-      "posterShape": "poster",
-      "description": "Sisters Charlotte and Samantha Quinn have spent the last twenty-eight years trying to piece together the lives that were fractured by a single night of violence. When another attack splinters the small town of Pikeville, Charlotte is the first witness on the scene. Now a lawyer like her father, she’s forced to confront her own demons as the case twists through one shocking revelation after another. In the end, both she and Samantha find themselves wondering if the price of being the good daughter was worth it after all.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt31842126"
-    },
-    {
       "id": "tt22646714",
       "type": "series",
       "name": "Killer Sally",
@@ -196,6 +182,21 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt10970552"
+    },
+    {
+      "id": "tt31842126",
+      "type": "series",
+      "name": "The Good Daughter",
+      "poster": "https://image.tmdb.org/t/p/w500/qJPvyo9Pxz3MQndd3tKSocLz1Nt.jpg",
+      "posterShape": "poster",
+      "description": "Sisters Charlotte and Samantha Quinn have spent the last twenty-eight years trying to piece together the lives that were fractured by a single night of violence. When another attack splinters the small town of Pikeville, Charlotte is the first witness on the scene. Now a lawyer like her father, she’s forced to confront her own demons as the case twists through one shocking revelation after another. In the end, both she and Samantha find themselves wondering if the price of being the good daughter was worth it after all.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt31842126"
     },
     {
       "id": "tt33546863",
