@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt16030542",
-      "type": "series",
-      "name": "The Recruit",
-      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
-      "posterShape": "poster",
-      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt16030542"
-    },
-    {
       "id": "tt6037988",
       "type": "series",
       "name": "Last Seen",
@@ -207,21 +192,6 @@
       "imdb_id": "tt33043892"
     },
     {
-      "id": "tt6794990",
-      "type": "series",
-      "name": "Absentia",
-      "poster": "https://image.tmdb.org/t/p/w500/t3yVaAlmCLBwbqTrKGcWHwuCmkh.jpg",
-      "posterShape": "poster",
-      "description": "A missing FBI agent reappears six years after being declared dead.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt6794990"
-    },
-    {
       "id": "tt10327354",
       "type": "series",
       "name": "Prodigal Son",
@@ -237,18 +207,62 @@
       "imdb_id": "tt10327354"
     },
     {
-      "id": "tt2433738",
+      "id": "tt6794990",
       "type": "series",
-      "name": "Wentworth",
-      "poster": "https://image.tmdb.org/t/p/w500/3nikr0NE3t8UMgI1Ba6hXaeEgKr.jpg",
+      "name": "Absentia",
+      "poster": "https://image.tmdb.org/t/p/w500/t3yVaAlmCLBwbqTrKGcWHwuCmkh.jpg",
       "posterShape": "poster",
-      "description": "Bea Smith is locked up while awaiting trial for the attempted murder of her husband and must learn how life works in prison. A modern adaptation and sequel of the iconic Prisoner series.",
+      "description": "A missing FBI agent reappears six years after being declared dead.",
       "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt6794990"
+    },
+    {
+      "id": "tt7942796",
+      "type": "series",
+      "name": "Magnum P.I.",
+      "poster": "https://image.tmdb.org/t/p/w500/hN7DKusbmKPqSZnMG5hemioMAiE.jpg",
+      "posterShape": "poster",
+      "description": "Thomas Magnum, a decorated former Navy SEAL, returns home from Afghanistan and applies his military skills to become a private investigator in Hawaii taking jobs no one else will—with the help of fellow vets T.C. Calvin and Rick Wright, and former MI:6 agent, Juliet Higgins.",
+      "genres": [
+        "Action & Adventure",
         "Drama",
         "Crime"
       ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2433738"
+      "releaseInfo": "2018",
+      "imdb_id": "tt7942796"
+    },
+    {
+      "id": "tt3647998",
+      "type": "series",
+      "name": "Taboo",
+      "poster": "https://image.tmdb.org/t/p/w500/om1wVOuEtwH3krHutIWO9sJzkS5.jpg",
+      "posterShape": "poster",
+      "description": "Adventurer James Keziah Delaney returns to London from Africa in 1814 along with fourteen stolen diamonds to seek vengeance after the death of his father.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt3647998"
+    },
+    {
+      "id": "tt6964748",
+      "type": "series",
+      "name": "Alex Rider",
+      "poster": "https://image.tmdb.org/t/p/w500/7VkzkvA0XckUClWrlkt4fnmTrkL.jpg",
+      "posterShape": "poster",
+      "description": "Alex Rider is an ordinary teenager enlisted to work on behalf of MI6, where he uses skills he didn't know he had to become an extraordinary spy.",
+      "genres": [
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt6964748"
     },
     {
       "id": "tt8014982",
@@ -277,20 +291,6 @@
       ],
       "releaseInfo": "2005",
       "imdb_id": "tt0460627"
-    },
-    {
-      "id": "tt6964748",
-      "type": "series",
-      "name": "Alex Rider",
-      "poster": "https://image.tmdb.org/t/p/w500/7VkzkvA0XckUClWrlkt4fnmTrkL.jpg",
-      "posterShape": "poster",
-      "description": "Alex Rider is an ordinary teenager enlisted to work on behalf of MI6, where he uses skills he didn't know he had to become an extraordinary spy.",
-      "genres": [
-        "Drama",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt6964748"
     }
   ]
 }
