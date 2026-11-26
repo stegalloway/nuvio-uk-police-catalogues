@@ -217,6 +217,21 @@
       "imdb_id": "tt35515227"
     },
     {
+      "id": "tt14379784",
+      "type": "series",
+      "name": "The Devil's Hour",
+      "poster": "https://image.tmdb.org/t/p/w500/mFU6ZPAs6g8Y9Eld28GULJYt3rC.jpg",
+      "posterShape": "poster",
+      "description": "Lucy wakes every night at exactly 3:33 am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14379784"
+    },
+    {
       "id": "tt3205802",
       "type": "series",
       "name": "How to Get Away with Murder",
@@ -274,21 +289,6 @@
       ],
       "releaseInfo": "2015",
       "imdb_id": "tt4258440"
-    },
-    {
-      "id": "tt16030542",
-      "type": "series",
-      "name": "The Recruit",
-      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
-      "posterShape": "poster",
-      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt16030542"
     }
   ]
 }

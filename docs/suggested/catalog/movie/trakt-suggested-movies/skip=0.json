@@ -119,6 +119,22 @@
       "imdb_id": "tt6320628"
     },
     {
+      "id": "tt3501632",
+      "type": "movie",
+      "name": "Thor: Ragnarok",
+      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "posterShape": "poster",
+      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt3501632"
+    },
+    {
       "id": "tt8236336",
       "type": "movie",
       "name": "The Report",
@@ -130,20 +146,6 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt8236336"
-    },
-    {
-      "id": "tt16311594",
-      "type": "movie",
-      "name": "F1",
-      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
-      "posterShape": "poster",
-      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
-      "genres": [
-        "Action",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt16311594"
     },
     {
       "id": "tt0780504",
@@ -159,6 +161,20 @@
       ],
       "releaseInfo": "2011",
       "imdb_id": "tt0780504"
+    },
+    {
+      "id": "tt16311594",
+      "type": "movie",
+      "name": "F1",
+      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+      "posterShape": "poster",
+      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt16311594"
     },
     {
       "id": "tt3799694",
@@ -204,22 +220,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt12593682"
-    },
-    {
-      "id": "tt3501632",
-      "type": "movie",
-      "name": "Thor: Ragnarok",
-      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
-      "posterShape": "poster",
-      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt3501632"
     },
     {
       "id": "tt0985699",
