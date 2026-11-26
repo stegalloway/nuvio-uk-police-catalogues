@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt13729648",
+      "type": "series",
+      "name": "Candy",
+      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
+      "posterShape": "poster",
+      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt13729648"
+    },
+    {
       "id": "tt11794812",
       "type": "series",
       "name": "Cross",
@@ -58,20 +72,6 @@
       "imdb_id": "tt23330464"
     },
     {
-      "id": "tt8354062",
-      "type": "series",
-      "name": "One of Us Is Lying",
-      "poster": "https://image.tmdb.org/t/p/w500/hKMpbHY7xqFKaBR8W7jE61JlQB6.jpg",
-      "posterShape": "poster",
-      "description": "The story of what happens when five high schoolers walk into detention and only four make it out alive. Everyone is a suspect, and everyone has something to hide.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt8354062"
-    },
-    {
       "id": "tt21315194",
       "type": "series",
       "name": "I Just Killed My Dad",
@@ -85,19 +85,18 @@
       "imdb_id": "tt21315194"
     },
     {
-      "id": "tt8415836",
+      "id": "tt8354062",
       "type": "series",
-      "name": "Guillermo del Toro's Cabinet of Curiosities",
-      "poster": "https://image.tmdb.org/t/p/w500/a91e9hpWwfCqxJI4xM9Q2RhuxgI.jpg",
+      "name": "One of Us Is Lying",
+      "poster": "https://image.tmdb.org/t/p/w500/hKMpbHY7xqFKaBR8W7jE61JlQB6.jpg",
       "posterShape": "poster",
-      "description": "Bizarre nightmares unfold in eight tales of terror in this visually stunning, spine-tingling horror collection curated by Guillermo del Toro.",
+      "description": "The story of what happens when five high schoolers walk into detention and only four make it out alive. Everyone is a suspect, and everyone has something to hide.",
       "genres": [
         "Drama",
-        "Mystery",
-        "Sci-Fi & Fantasy"
+        "Mystery"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt8415836"
+      "releaseInfo": "2021",
+      "imdb_id": "tt8354062"
     },
     {
       "id": "tt15574312",
@@ -125,6 +124,21 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt18970124"
+    },
+    {
+      "id": "tt8415836",
+      "type": "series",
+      "name": "Guillermo del Toro's Cabinet of Curiosities",
+      "poster": "https://image.tmdb.org/t/p/w500/a91e9hpWwfCqxJI4xM9Q2RhuxgI.jpg",
+      "posterShape": "poster",
+      "description": "Bizarre nightmares unfold in eight tales of terror in this visually stunning, spine-tingling horror collection curated by Guillermo del Toro.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt8415836"
     },
     {
       "id": "tt43476716",
@@ -184,20 +198,6 @@
       "imdb_id": "tt8014982"
     },
     {
-      "id": "tt1831804",
-      "type": "series",
-      "name": "The Stand",
-      "poster": "https://image.tmdb.org/t/p/w500/w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
-      "posterShape": "poster",
-      "description": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt1831804"
-    },
-    {
       "id": "tt33480540",
       "type": "series",
       "name": "This Is the Zodiac Speaking",
@@ -210,6 +210,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt33480540"
+    },
+    {
+      "id": "tt1831804",
+      "type": "series",
+      "name": "The Stand",
+      "poster": "https://image.tmdb.org/t/p/w500/w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
+      "posterShape": "poster",
+      "description": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt1831804"
     },
     {
       "id": "tt35590630",
@@ -266,20 +280,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt20782578"
-    },
-    {
-      "id": "tt37438628",
-      "type": "series",
-      "name": "Conversations with a Killer: The Son of Sam Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/bSJ221k1EOuBHiye7ae29VqxjnS.jpg",
-      "posterShape": "poster",
-      "description": "Mixing present-day interviews with previously unheard recordings, this true-crime series examines serial killer David Berkowitz's mark on 1970s New York.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt37438628"
     }
   ]
 }
