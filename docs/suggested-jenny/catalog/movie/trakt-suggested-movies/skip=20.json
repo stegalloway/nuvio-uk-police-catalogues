@@ -206,20 +206,6 @@
       "imdb_id": "tt14509110"
     },
     {
-      "id": "tt6246322",
-      "type": "movie",
-      "name": "Don't Breathe 2",
-      "poster": "https://image.tmdb.org/t/p/w500/aOu6PJVO9RyGAzdUwG6fupu0gpz.jpg",
-      "posterShape": "poster",
-      "description": "The Blind Man has been hiding out for several years in an isolated cabin and has taken in and raised a young girl orphaned from a devastating house fire. Their quiet life together is shattered when a group of criminals kidnap the girl, forcing the Blind Man to leave his safe haven to save her.",
-      "genres": [
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt6246322"
-    },
-    {
       "id": "tt33978029",
       "type": "movie",
       "name": "Ready or Not: Here I Come",
@@ -274,6 +260,21 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt21807222"
+    },
+    {
+      "id": "tt8036976",
+      "type": "movie",
+      "name": "Send Help",
+      "poster": "https://image.tmdb.org/t/p/w500/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
+      "posterShape": "poster",
+      "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Comedy"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt8036976"
     }
   ]
 }
