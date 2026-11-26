@@ -132,6 +132,20 @@
       "imdb_id": "tt8236336"
     },
     {
+      "id": "tt16311594",
+      "type": "movie",
+      "name": "F1",
+      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+      "posterShape": "poster",
+      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt16311594"
+    },
+    {
       "id": "tt0780504",
       "type": "movie",
       "name": "Drive",
@@ -145,20 +159,6 @@
       ],
       "releaseInfo": "2011",
       "imdb_id": "tt0780504"
-    },
-    {
-      "id": "tt16311594",
-      "type": "movie",
-      "name": "F1",
-      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
-      "posterShape": "poster",
-      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
-      "genres": [
-        "Action",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt16311594"
     },
     {
       "id": "tt3799694",
@@ -206,21 +206,6 @@
       "imdb_id": "tt12593682"
     },
     {
-      "id": "tt0985699",
-      "type": "movie",
-      "name": "Valkyrie",
-      "poster": "https://image.tmdb.org/t/p/w500/8eoRtXswC8IQDsqW7iJWO56NhAv.jpg",
-      "posterShape": "poster",
-      "description": "Wounded in Africa during World War II, Nazi Col. Claus von Stauffenberg returns to his native Germany and joins the Resistance in a daring plan to create a shadow government and assassinate Adolf Hitler. When events unfold so that he becomes a central player, he finds himself tasked with both leading the coup and personally killing the Führer.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "War"
-      ],
-      "releaseInfo": "2008",
-      "imdb_id": "tt0985699"
-    },
-    {
       "id": "tt3501632",
       "type": "movie",
       "name": "Thor: Ragnarok",
@@ -235,6 +220,21 @@
       ],
       "releaseInfo": "2017",
       "imdb_id": "tt3501632"
+    },
+    {
+      "id": "tt0985699",
+      "type": "movie",
+      "name": "Valkyrie",
+      "poster": "https://image.tmdb.org/t/p/w500/8eoRtXswC8IQDsqW7iJWO56NhAv.jpg",
+      "posterShape": "poster",
+      "description": "Wounded in Africa during World War II, Nazi Col. Claus von Stauffenberg returns to his native Germany and joins the Resistance in a daring plan to create a shadow government and assassinate Adolf Hitler. When events unfold so that he becomes a central player, he finds himself tasked with both leading the coup and personally killing the Führer.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "releaseInfo": "2008",
+      "imdb_id": "tt0985699"
     },
     {
       "id": "tt1130884",
