@@ -100,6 +100,20 @@
       "imdb_id": "tt11822998"
     },
     {
+      "id": "tt31314754",
+      "type": "series",
+      "name": "Devil in Disguise: John Wayne Gacy",
+      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
+      "posterShape": "poster",
+      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31314754"
+    },
+    {
       "id": "tt11540908",
       "type": "series",
       "name": "Carrie",
@@ -113,20 +127,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt11540908"
-    },
-    {
-      "id": "tt31314754",
-      "type": "series",
-      "name": "Devil in Disguise: John Wayne Gacy",
-      "poster": "https://image.tmdb.org/t/p/w500/vsXSxLYsAq0VsjWIMRpQGorjLjh.jpg",
-      "posterShape": "poster",
-      "description": "When a teenager goes missing, it becomes clear that many young men and boys have disappeared at the hands of John Wayne Gacy, the prime suspect.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31314754"
     },
     {
       "id": "tt9064858",
@@ -244,17 +244,18 @@
       "imdb_id": "tt13269706"
     },
     {
-      "id": "tt31938062",
+      "id": "tt35676401",
       "type": "series",
-      "name": "The Pitt",
-      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+      "name": "The Yogurt Shop Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
       "posterShape": "poster",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "description": "In 1991, four teenage girls were brutally murdered at a frozen yogurt shop in Austin, Texas. What happened that night forever shook the Austin community and continues to mystify the police and haunt the families left in the wake of unthinkable loss.",
       "genres": [
-        "Drama"
+        "Documentary",
+        "Crime"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt31938062"
+      "imdb_id": "tt35676401"
     },
     {
       "id": "tt11173006",
@@ -270,18 +271,18 @@
       "imdb_id": "tt11173006"
     },
     {
-      "id": "tt35676401",
+      "id": "tt13729648",
       "type": "series",
-      "name": "The Yogurt Shop Murders",
-      "poster": "https://image.tmdb.org/t/p/w500/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
+      "name": "Candy",
+      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
       "posterShape": "poster",
-      "description": "In 1991, four teenage girls were brutally murdered at a frozen yogurt shop in Austin, Texas. What happened that night forever shook the Austin community and continues to mystify the police and haunt the families left in the wake of unthinkable loss.",
+      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
       "genres": [
-        "Documentary",
+        "Drama",
         "Crime"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35676401"
+      "releaseInfo": "2022",
+      "imdb_id": "tt13729648"
     }
   ]
 }

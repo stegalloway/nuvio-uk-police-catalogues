@@ -1,18 +1,17 @@
 {
   "metas": [
     {
-      "id": "tt13729648",
+      "id": "tt31938062",
       "type": "series",
-      "name": "Candy",
-      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
+      "name": "The Pitt",
+      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
       "posterShape": "poster",
-      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
+      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
       "genres": [
-        "Drama",
-        "Crime"
+        "Drama"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt13729648"
+      "releaseInfo": "2025",
+      "imdb_id": "tt31938062"
     },
     {
       "id": "tt11794812",
@@ -84,6 +83,19 @@
       "imdb_id": "tt8354062"
     },
     {
+      "id": "tt18970124",
+      "type": "series",
+      "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/dSwfINzvtVJZYy1L7fsrRfOetAm.jpg",
+      "posterShape": "poster",
+      "description": "He dined with the powerful. He preyed on the vulnerable. Beneath a smiling exterior was the horrifying darkness of a sadistic serial killer.",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt18970124"
+    },
+    {
       "id": "tt15574312",
       "type": "series",
       "name": "The Patient",
@@ -96,19 +108,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15574312"
-    },
-    {
-      "id": "tt18970124",
-      "type": "series",
-      "name": "Conversations with a Killer: The John Wayne Gacy Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/dSwfINzvtVJZYy1L7fsrRfOetAm.jpg",
-      "posterShape": "poster",
-      "description": "He dined with the powerful. He preyed on the vulnerable. Beneath a smiling exterior was the horrifying darkness of a sadistic serial killer.",
-      "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt18970124"
     },
     {
       "id": "tt8415836",
