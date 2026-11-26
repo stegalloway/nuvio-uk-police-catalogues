@@ -16,20 +16,6 @@
       "imdb_id": "tt1051906"
     },
     {
-      "id": "tt14371860",
-      "type": "movie",
-      "name": "Apartment 7A",
-      "poster": "https://image.tmdb.org/t/p/w500/uipHKJHY1nNEQyprXjfNzH0GIOF.jpg",
-      "posterShape": "poster",
-      "description": "A struggling young dancer finds herself drawn in by dark forces when a peculiar, well-connected older couple promise her a shot at fame.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt14371860"
-    },
-    {
       "id": "tt32612507",
       "type": "movie",
       "name": "Lee Cronin's The Mummy",
@@ -42,6 +28,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32612507"
+    },
+    {
+      "id": "tt14371860",
+      "type": "movie",
+      "name": "Apartment 7A",
+      "poster": "https://image.tmdb.org/t/p/w500/uipHKJHY1nNEQyprXjfNzH0GIOF.jpg",
+      "posterShape": "poster",
+      "description": "A struggling young dancer finds herself drawn in by dark forces when a peculiar, well-connected older couple promise her a shot at fame.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt14371860"
     },
     {
       "id": "tt28129069",

@@ -1,17 +1,18 @@
 {
   "metas": [
     {
-      "id": "tt31938062",
+      "id": "tt13729648",
       "type": "series",
-      "name": "The Pitt",
-      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+      "name": "Candy",
+      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
       "posterShape": "poster",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
       "genres": [
-        "Drama"
+        "Drama",
+        "Crime"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31938062"
+      "releaseInfo": "2022",
+      "imdb_id": "tt13729648"
     },
     {
       "id": "tt11794812",
@@ -171,7 +172,7 @@
       "id": "tt8014982",
       "type": "series",
       "name": "The Body",
-      "poster": "https://image.tmdb.org/t/p/w500/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/zleCYDRbW5mKwgZwVK4SNIrKXWx.jpg",
       "posterShape": "poster",
       "description": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
       "genres": [
