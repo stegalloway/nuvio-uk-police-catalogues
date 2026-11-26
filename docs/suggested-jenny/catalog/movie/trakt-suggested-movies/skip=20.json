@@ -41,19 +41,6 @@
       "imdb_id": "tt5737388"
     },
     {
-      "id": "tt10963926",
-      "type": "movie",
-      "name": "Two Witches",
-      "poster": "https://image.tmdb.org/t/p/w500/a6JHz23BOfbzWxL5JsrBWQHqMuh.jpg",
-      "posterShape": "poster",
-      "description": "A matriarchal witch passes on her sinister inheritance to her grand-daughter, triggering the most horrific curses.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt10963926"
-    },
-    {
       "id": "tt28088571",
       "type": "movie",
       "name": "Eye for an Eye",
@@ -65,6 +52,19 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt28088571"
+    },
+    {
+      "id": "tt10963926",
+      "type": "movie",
+      "name": "Two Witches",
+      "poster": "https://image.tmdb.org/t/p/w500/a6JHz23BOfbzWxL5JsrBWQHqMuh.jpg",
+      "posterShape": "poster",
+      "description": "A matriarchal witch passes on her sinister inheritance to her grand-daughter, triggering the most horrific curses.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt10963926"
     },
     {
       "id": "tt10638522",
