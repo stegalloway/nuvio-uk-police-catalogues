@@ -169,20 +169,6 @@
       "imdb_id": "tt27031263"
     },
     {
-      "id": "tt8014982",
-      "type": "series",
-      "name": "The Body",
-      "poster": "https://image.tmdb.org/t/p/w500/zleCYDRbW5mKwgZwVK4SNIrKXWx.jpg",
-      "posterShape": "poster",
-      "description": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt8014982"
-    },
-    {
       "id": "tt33480540",
       "type": "series",
       "name": "This Is the Zodiac Speaking",
@@ -195,6 +181,20 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt33480540"
+    },
+    {
+      "id": "tt8014982",
+      "type": "series",
+      "name": "The Body",
+      "poster": "https://image.tmdb.org/t/p/w500/zleCYDRbW5mKwgZwVK4SNIrKXWx.jpg",
+      "posterShape": "poster",
+      "description": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt8014982"
     },
     {
       "id": "tt1831804",
