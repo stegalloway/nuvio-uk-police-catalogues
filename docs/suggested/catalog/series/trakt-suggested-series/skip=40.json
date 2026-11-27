@@ -208,21 +208,6 @@
       "imdb_id": "tt6794990"
     },
     {
-      "id": "tt7942796",
-      "type": "series",
-      "name": "Magnum P.I.",
-      "poster": "https://image.tmdb.org/t/p/w500/hN7DKusbmKPqSZnMG5hemioMAiE.jpg",
-      "posterShape": "poster",
-      "description": "Thomas Magnum, a decorated former Navy SEAL, returns home from Afghanistan and applies his military skills to become a private investigator in Hawaii taking jobs no one else will—with the help of fellow vets T.C. Calvin and Rick Wright, and former MI:6 agent, Juliet Higgins.",
-      "genres": [
-        "Action & Adventure",
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2018",
-      "imdb_id": "tt7942796"
-    },
-    {
       "id": "tt3647998",
       "type": "series",
       "name": "Taboo",
@@ -292,6 +277,19 @@
       ],
       "releaseInfo": "2013",
       "imdb_id": "tt2249364"
+    },
+    {
+      "id": "tt0118437",
+      "type": "series",
+      "name": "The Practice",
+      "poster": "https://image.tmdb.org/t/p/w500/7OKZSUIWhjFP0F2s478zTrAYwDB.jpg",
+      "posterShape": "poster",
+      "description": "A provocative legal drama focused on young associates at a bare-bones Boston firm and their scrappy boss, Bobby Donnell. The show's forte is its storylines about “people who walk a moral tightrope.”",
+      "genres": [
+        "Drama"
+      ],
+      "releaseInfo": "1997",
+      "imdb_id": "tt0118437"
     }
   ]
 }
