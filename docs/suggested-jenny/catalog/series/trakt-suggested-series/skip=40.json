@@ -1,32 +1,60 @@
 {
   "metas": [
     {
-      "id": "tt13269706",
+      "id": "tt13729648",
       "type": "series",
-      "name": "Seduced: Inside the NXIVM Cult",
-      "poster": "https://image.tmdb.org/t/p/w500/2algVl1riUbFcFBxxy1Ops6FNM7.jpg",
+      "name": "Candy",
+      "poster": "https://image.tmdb.org/t/p/w500/8vlxmTkiF2rzpvrWoN4mOoeVg1z.jpg",
       "posterShape": "poster",
-      "description": "This four-part documentary series follows the story of India Oxenberg's perilous journey through the dark and criminal world of the notorious self-help-group-turned-sex-slave-cult NXIVM.",
+      "description": "Candy Montgomery is a 1980s housewife and mother who did everything right — but when the pressure of conformity builds within her, her actions scream for just a bit of freedom. Until someone tells her to shush. With deadly results.",
       "genres": [
-        "Documentary",
+        "Drama",
         "Crime"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt13269706"
+      "releaseInfo": "2022",
+      "imdb_id": "tt13729648"
     },
     {
-      "id": "tt35676401",
+      "id": "tt11794812",
       "type": "series",
-      "name": "The Yogurt Shop Murders",
-      "poster": "https://image.tmdb.org/t/p/w500/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
+      "name": "Cross",
+      "poster": "https://image.tmdb.org/t/p/w500/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
       "posterShape": "poster",
-      "description": "In 1991, four teenage girls were brutally murdered at a frozen yogurt shop in Austin, Texas. What happened that night forever shook the Austin community and continues to mystify the police and haunt the families left in the wake of unthinkable loss.",
+      "description": "Alex Cross is a brilliant but flawed homicide detective and full of contradictions. A doting father and family man, Cross is single-minded to the point of obsession when he hunts killers. He is desperate for love, but his wife’s murder has left him too damaged to receive it.",
       "genres": [
-        "Documentary",
-        "Crime"
+        "Crime",
+        "Drama",
+        "Mystery"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35676401"
+      "releaseInfo": "2024",
+      "imdb_id": "tt11794812"
+    },
+    {
+      "id": "tt11656892",
+      "type": "series",
+      "name": "Des",
+      "poster": "https://image.tmdb.org/t/p/w500/9llAQpT74W2fajazgRvgN5Z5fyG.jpg",
+      "posterShape": "poster",
+      "description": "The story of one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men, the series explores the personal and professional consequences of coming into contact with a man like Nilsen.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11656892"
+    },
+    {
+      "id": "tt23330464",
+      "type": "series",
+      "name": "Stolen Youth: Inside the Cult at Sarah Lawrence",
+      "poster": "https://image.tmdb.org/t/p/w500/r00i76ZaQ0NtwK2mkpVLkT6skkg.jpg",
+      "posterShape": "poster",
+      "description": "A group of bright Sarah Lawrence College students fall under the dark influence of a friend's father, Larry Ray. With unprecedented access to the survivors who lived with Ray, the series follows the cult from its origins through its still-unfolding aftermath.",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt23330464"
     },
     {
       "id": "tt8354062",
@@ -41,6 +69,19 @@
       ],
       "releaseInfo": "2021",
       "imdb_id": "tt8354062"
+    },
+    {
+      "id": "tt21315194",
+      "type": "series",
+      "name": "I Just Killed My Dad",
+      "poster": "https://image.tmdb.org/t/p/w500/iSpsCUpm0U8YLTwfG8pKn1nxJsD.jpg",
+      "posterShape": "poster",
+      "description": "Anthony Templet shot his father and never denied it. But why he did it is a complex question with profound implications. Explore Anthony's psyche prior to the events of June 3, 2019 and the journey of his mental and emotional aftermath.",
+      "genres": [
+        "Documentary"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt21315194"
     },
     {
       "id": "tt8415836",
@@ -58,30 +99,18 @@
       "imdb_id": "tt8415836"
     },
     {
-      "id": "tt23330464",
+      "id": "tt15574312",
       "type": "series",
-      "name": "Stolen Youth: Inside the Cult at Sarah Lawrence",
-      "poster": "https://image.tmdb.org/t/p/w500/r00i76ZaQ0NtwK2mkpVLkT6skkg.jpg",
+      "name": "The Patient",
+      "poster": "https://image.tmdb.org/t/p/w500/fB1848j0pvNnYilXB0ho5OCfiIz.jpg",
       "posterShape": "poster",
-      "description": "A group of bright Sarah Lawrence College students fall under the dark influence of a friend's father, Larry Ray. With unprecedented access to the survivors who lived with Ray, the series follows the cult from its origins through its still-unfolding aftermath.",
+      "description": "A psychotherapist finds himself held prisoner by a serial killer with an unusual request: curb his homicidal urges.",
       "genres": [
-        "Documentary"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt23330464"
-    },
-    {
-      "id": "tt21315194",
-      "type": "series",
-      "name": "I Just Killed My Dad",
-      "poster": "https://image.tmdb.org/t/p/w500/iSpsCUpm0U8YLTwfG8pKn1nxJsD.jpg",
-      "posterShape": "poster",
-      "description": "Anthony Templet shot his father and never denied it. But why he did it is a complex question with profound implications. Explore Anthony's psyche prior to the events of June 3, 2019 and the journey of his mental and emotional aftermath.",
-      "genres": [
-        "Documentary"
+        "Drama",
+        "Crime"
       ],
       "releaseInfo": "2022",
-      "imdb_id": "tt21315194"
+      "imdb_id": "tt15574312"
     },
     {
       "id": "tt18970124",
@@ -95,20 +124,6 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt18970124"
-    },
-    {
-      "id": "tt15574312",
-      "type": "series",
-      "name": "The Patient",
-      "poster": "https://image.tmdb.org/t/p/w500/fB1848j0pvNnYilXB0ho5OCfiIz.jpg",
-      "posterShape": "poster",
-      "description": "A psychotherapist finds himself held prisoner by a serial killer with an unusual request: curb his homicidal urges.",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt15574312"
     },
     {
       "id": "tt43476716",
@@ -196,20 +211,6 @@
       "imdb_id": "tt33480540"
     },
     {
-      "id": "tt35629774",
-      "type": "series",
-      "name": "Gone Girls: The Long Island Serial Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/vWTep5omXCxFtf5hlUc8VlmFI0u.jpg",
-      "posterShape": "poster",
-      "description": "This tense true-crime series examines the hunt for the Long Island serial killer through the perspective of his victims, their loved ones and the police.",
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt35629774"
-    },
-    {
       "id": "tt35590630",
       "type": "series",
       "name": "American Murder: Gabby Petito",
@@ -238,18 +239,18 @@
       "imdb_id": "tt14865290"
     },
     {
-      "id": "tt37438628",
+      "id": "tt35629774",
       "type": "series",
-      "name": "Conversations with a Killer: The Son of Sam Tapes",
-      "poster": "https://image.tmdb.org/t/p/w500/bSJ221k1EOuBHiye7ae29VqxjnS.jpg",
+      "name": "Gone Girls: The Long Island Serial Killer",
+      "poster": "https://image.tmdb.org/t/p/w500/vWTep5omXCxFtf5hlUc8VlmFI0u.jpg",
       "posterShape": "poster",
-      "description": "Mixing present-day interviews with previously unheard recordings, this true-crime series examines serial killer David Berkowitz's mark on 1970s New York.",
+      "description": "This tense true-crime series examines the hunt for the Long Island serial killer through the perspective of his victims, their loved ones and the police.",
       "genres": [
         "Documentary",
         "Crime"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt37438628"
+      "imdb_id": "tt35629774"
     },
     {
       "id": "tt20782578",
@@ -266,18 +267,18 @@
       "imdb_id": "tt20782578"
     },
     {
-      "id": "tt11141900",
+      "id": "tt37438628",
       "type": "series",
-      "name": "Ted Bundy: Falling for a Killer",
-      "poster": "https://image.tmdb.org/t/p/w500/z42KuycEdAhylrHPQjRVaWay2uA.jpg",
+      "name": "Conversations with a Killer: The Son of Sam Tapes",
+      "poster": "https://image.tmdb.org/t/p/w500/bSJ221k1EOuBHiye7ae29VqxjnS.jpg",
       "posterShape": "poster",
-      "description": "After years of silence, Ted Bundy’s long-term girlfriend Elizabeth Kendall, her daughter Molly, and other survivors come forward for the first time in a docuseries that reframes Bundy’s crimes from a female perspective. The series reveals how Bundy’s pathological hatred of women collided with the culture wars and the feminist movement of the 1970s in one of the most infamous crime stories of our time.",
+      "description": "Mixing present-day interviews with previously unheard recordings, this true-crime series examines serial killer David Berkowitz's mark on 1970s New York.",
       "genres": [
         "Documentary",
         "Crime"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11141900"
+      "releaseInfo": "2025",
+      "imdb_id": "tt37438628"
     }
   ]
 }
