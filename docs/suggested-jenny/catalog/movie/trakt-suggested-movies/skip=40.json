@@ -173,19 +173,6 @@
       "imdb_id": "tt24807110"
     },
     {
-      "id": "tt8350360",
-      "type": "movie",
-      "name": "Annabelle Comes Home",
-      "poster": "https://image.tmdb.org/t/p/w500/qFjtLOeVl4jpzPUhp4cl4ieANHY.jpg",
-      "posterShape": "poster",
-      "description": "Determined to keep Annabelle from wreaking more havoc, demonologists Ed and Lorraine Warren bring the possessed doll to the locked artifacts room in their home, placing her “safely” behind sacred glass and enlisting a priest’s holy blessing. But an unholy night of horror awaits as Annabelle awakens the evil spirits in the room, who all set their sights on a new target—the Warrens' ten-year-old daughter, Judy, and her friends.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt8350360"
-    },
-    {
       "id": "tt3065204",
       "type": "movie",
       "name": "The Conjuring 2",
@@ -280,6 +267,19 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt34793095"
+    },
+    {
+      "id": "tt0070047",
+      "type": "movie",
+      "name": "The Exorcist",
+      "poster": "https://image.tmdb.org/t/p/w500/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
+      "posterShape": "poster",
+      "description": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "1973",
+      "imdb_id": "tt0070047"
     }
   ]
 }

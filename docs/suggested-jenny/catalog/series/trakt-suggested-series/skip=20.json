@@ -244,17 +244,18 @@
       "imdb_id": "tt13269706"
     },
     {
-      "id": "tt31938062",
+      "id": "tt35676401",
       "type": "series",
-      "name": "The Pitt",
-      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+      "name": "The Yogurt Shop Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
       "posterShape": "poster",
-      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
+      "description": "In 1991, four teenage girls were brutally murdered at a frozen yogurt shop in Austin, Texas. What happened that night forever shook the Austin community and continues to mystify the police and haunt the families left in the wake of unthinkable loss.",
       "genres": [
-        "Drama"
+        "Documentary",
+        "Crime"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt31938062"
+      "imdb_id": "tt35676401"
     },
     {
       "id": "tt11173006",
@@ -270,18 +271,17 @@
       "imdb_id": "tt11173006"
     },
     {
-      "id": "tt35676401",
+      "id": "tt31938062",
       "type": "series",
-      "name": "The Yogurt Shop Murders",
-      "poster": "https://image.tmdb.org/t/p/w500/r25wcu2RZcWzq6GtR8MPD7i25OS.jpg",
+      "name": "The Pitt",
+      "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
       "posterShape": "poster",
-      "description": "In 1991, four teenage girls were brutally murdered at a frozen yogurt shop in Austin, Texas. What happened that night forever shook the Austin community and continues to mystify the police and haunt the families left in the wake of unthinkable loss.",
+      "description": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
       "genres": [
-        "Documentary",
-        "Crime"
+        "Drama"
       ],
       "releaseInfo": "2025",
-      "imdb_id": "tt35676401"
+      "imdb_id": "tt31938062"
     }
   ]
 }
