@@ -1,19 +1,33 @@
 {
   "metas": [
     {
-      "id": "tt16030542",
+      "id": "tt2356777",
       "type": "series",
-      "name": "The Recruit",
-      "poster": "https://image.tmdb.org/t/p/w500/mLbFg0u2DPYuB5CILzwWk3kdI8b.jpg",
+      "name": "True Detective",
+      "poster": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
       "posterShape": "poster",
-      "description": "Recruited out of law school by the CIA, a daredevil young attorney leaps unprepared into the dangerous world of international espionage.",
+      "description": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
       "genres": [
         "Drama",
-        "Crime",
-        "Action & Adventure"
+        "Mystery"
       ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt16030542"
+      "releaseInfo": "2014",
+      "imdb_id": "tt2356777"
+    },
+    {
+      "id": "tt4258440",
+      "type": "series",
+      "name": "River",
+      "poster": "https://image.tmdb.org/t/p/w500/fhiVcu9RA3MEVQtMowwQUsHJfJR.jpg",
+      "posterShape": "poster",
+      "description": "Respected police officer John River, a gifted cop with a troubled mind, struggles to come to terms with the recent loss of a colleague, and chases a suspect across London - with tragic consequences. Now at odds with the authorities, River ends up in a precarious position as he seeks to bring closure to the mother of murdered teenager, who blames him for failing to keep his promise.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2015",
+      "imdb_id": "tt4258440"
     },
     {
       "id": "tt37972251",
@@ -118,6 +132,21 @@
       "imdb_id": "tt5743796"
     },
     {
+      "id": "tt33043892",
+      "type": "series",
+      "name": "Dexter: Resurrection",
+      "poster": "https://image.tmdb.org/t/p/w500/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
+      "posterShape": "poster",
+      "description": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt33043892"
+    },
+    {
       "id": "tt9131050",
       "type": "series",
       "name": "A Confession",
@@ -163,19 +192,19 @@
       "imdb_id": "tt5164196"
     },
     {
-      "id": "tt33043892",
+      "id": "tt6794990",
       "type": "series",
-      "name": "Dexter: Resurrection",
-      "poster": "https://image.tmdb.org/t/p/w500/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
+      "name": "Absentia",
+      "poster": "https://image.tmdb.org/t/p/w500/t3yVaAlmCLBwbqTrKGcWHwuCmkh.jpg",
       "posterShape": "poster",
-      "description": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
+      "description": "A missing FBI agent reappears six years after being declared dead.",
       "genres": [
         "Crime",
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt33043892"
+      "releaseInfo": "2017",
+      "imdb_id": "tt6794990"
     },
     {
       "id": "tt10327354",
@@ -193,21 +222,6 @@
       "imdb_id": "tt10327354"
     },
     {
-      "id": "tt6794990",
-      "type": "series",
-      "name": "Absentia",
-      "poster": "https://image.tmdb.org/t/p/w500/t3yVaAlmCLBwbqTrKGcWHwuCmkh.jpg",
-      "posterShape": "poster",
-      "description": "A missing FBI agent reappears six years after being declared dead.",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt6794990"
-    },
-    {
       "id": "tt7335184",
       "type": "series",
       "name": "You",
@@ -221,34 +235,6 @@
       ],
       "releaseInfo": "2018",
       "imdb_id": "tt7335184"
-    },
-    {
-      "id": "tt3647998",
-      "type": "series",
-      "name": "Taboo",
-      "poster": "https://image.tmdb.org/t/p/w500/om1wVOuEtwH3krHutIWO9sJzkS5.jpg",
-      "posterShape": "poster",
-      "description": "Adventurer James Keziah Delaney returns to London from Africa in 1814 along with fourteen stolen diamonds to seek vengeance after the death of his father.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt3647998"
-    },
-    {
-      "id": "tt6964748",
-      "type": "series",
-      "name": "Alex Rider",
-      "poster": "https://image.tmdb.org/t/p/w500/7VkzkvA0XckUClWrlkt4fnmTrkL.jpg",
-      "posterShape": "poster",
-      "description": "Alex Rider is an ordinary teenager enlisted to work on behalf of MI6, where he uses skills he didn't know he had to become an extraordinary spy.",
-      "genres": [
-        "Drama",
-        "Action & Adventure"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt6964748"
     },
     {
       "id": "tt8014982",
@@ -265,6 +251,20 @@
       "imdb_id": "tt8014982"
     },
     {
+      "id": "tt6964748",
+      "type": "series",
+      "name": "Alex Rider",
+      "poster": "https://image.tmdb.org/t/p/w500/7VkzkvA0XckUClWrlkt4fnmTrkL.jpg",
+      "posterShape": "poster",
+      "description": "Alex Rider is an ordinary teenager enlisted to work on behalf of MI6, where he uses skills he didn't know he had to become an extraordinary spy.",
+      "genres": [
+        "Drama",
+        "Action & Adventure"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt6964748"
+    },
+    {
       "id": "tt0460627",
       "type": "series",
       "name": "Bones",
@@ -279,19 +279,18 @@
       "imdb_id": "tt0460627"
     },
     {
-      "id": "tt2249364",
+      "id": "tt3647998",
       "type": "series",
-      "name": "Broadchurch",
-      "poster": "https://image.tmdb.org/t/p/w500/2NhBFUTg5KVBmGwafxtLwVdsqrr.jpg",
+      "name": "Taboo",
+      "poster": "https://image.tmdb.org/t/p/w500/om1wVOuEtwH3krHutIWO9sJzkS5.jpg",
       "posterShape": "poster",
-      "description": "The murder of a young boy in a small coastal town brings a media frenzy, which threatens to tear the community apart.",
+      "description": "Adventurer James Keziah Delaney returns to London from Africa in 1814 along with fourteen stolen diamonds to seek vengeance after the death of his father.",
       "genres": [
-        "Crime",
         "Drama",
         "Mystery"
       ],
-      "releaseInfo": "2013",
-      "imdb_id": "tt2249364"
+      "releaseInfo": "2017",
+      "imdb_id": "tt3647998"
     }
   ]
 }
