@@ -203,21 +203,6 @@
       "imdb_id": "tt14582876"
     },
     {
-      "id": "tt14379784",
-      "type": "series",
-      "name": "The Devil's Hour",
-      "poster": "https://image.tmdb.org/t/p/w500/mFU6ZPAs6g8Y9Eld28GULJYt3rC.jpg",
-      "posterShape": "poster",
-      "description": "Lucy wakes every night at exactly 3:33 am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
-      "genres": [
-        "Mystery",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt14379784"
-    },
-    {
       "id": "tt3205802",
       "type": "series",
       "name": "How to Get Away with Murder",
@@ -231,6 +216,21 @@
       ],
       "releaseInfo": "2014",
       "imdb_id": "tt3205802"
+    },
+    {
+      "id": "tt14379784",
+      "type": "series",
+      "name": "The Devil's Hour",
+      "poster": "https://image.tmdb.org/t/p/w500/mFU6ZPAs6g8Y9Eld28GULJYt3rC.jpg",
+      "posterShape": "poster",
+      "description": "Lucy wakes every night at exactly 3:33 am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt14379784"
     },
     {
       "id": "tt35515227",
