@@ -30,21 +30,6 @@
       "imdb_id": "tt14063678"
     },
     {
-      "id": "tt0439100",
-      "type": "series",
-      "name": "Weeds",
-      "poster": "https://image.tmdb.org/t/p/w500/gKUsBTa5b0GY7U4iWBseeBalfjO.jpg",
-      "posterShape": "poster",
-      "description": "After the unexpected death of her husband, a suburban mom resorts to selling weed to support her family.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2005",
-      "imdb_id": "tt0439100"
-    },
-    {
       "id": "tt1652216",
       "type": "series",
       "name": "DCI Banks",
@@ -290,6 +275,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt16030542"
+    },
+    {
+      "id": "tt2356777",
+      "type": "series",
+      "name": "True Detective",
+      "poster": "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
+      "posterShape": "poster",
+      "description": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "releaseInfo": "2014",
+      "imdb_id": "tt2356777"
     }
   ]
 }

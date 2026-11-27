@@ -16,21 +16,6 @@
       "imdb_id": "tt5950044"
     },
     {
-      "id": "tt0478970",
-      "type": "movie",
-      "name": "Ant-Man",
-      "poster": "https://image.tmdb.org/t/p/w500/rQRnQfUl3kfp78nCWq8Ks04vnq1.jpg",
-      "posterShape": "poster",
-      "description": "Armed with the astonishing ability to shrink in scale but increase in strength, master thief Scott Lang must embrace his inner-hero and help his mentor, Doctor Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world.",
-      "genres": [
-        "Science Fiction",
-        "Adventure",
-        "Action"
-      ],
-      "releaseInfo": "2015",
-      "imdb_id": "tt0478970"
-    },
-    {
       "id": "tt0203119",
       "type": "movie",
       "name": "Sexy Beast",
@@ -182,20 +167,6 @@
       "imdb_id": "tt1392170"
     },
     {
-      "id": "tt7526136",
-      "type": "movie",
-      "name": "Heart of the Beast",
-      "poster": "https://image.tmdb.org/t/p/w500/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
-      "posterShape": "poster",
-      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
-      "genres": [
-        "Adventure",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt7526136"
-    },
-    {
       "id": "tt2119532",
       "type": "movie",
       "name": "Hacksaw Ridge",
@@ -209,6 +180,20 @@
       ],
       "releaseInfo": "2016",
       "imdb_id": "tt2119532"
+    },
+    {
+      "id": "tt7526136",
+      "type": "movie",
+      "name": "Heart of the Beast",
+      "poster": "https://image.tmdb.org/t/p/w500/6sYemVUn79UPKz1ZsSG6kPU4RVy.jpg",
+      "posterShape": "poster",
+      "description": "After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.",
+      "genres": [
+        "Adventure",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt7526136"
     },
     {
       "id": "tt6924650",
@@ -298,6 +283,21 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt30144839"
+    },
+    {
+      "id": "tt8579674",
+      "type": "movie",
+      "name": "1917",
+      "poster": "https://image.tmdb.org/t/p/w500/iZf0KyrE25z1sage4SYFLCCrMi9.jpg",
+      "posterShape": "poster",
+      "description": "At the height of the First World War, two young British soldiers must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers.",
+      "genres": [
+        "War",
+        "Drama",
+        "History"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt8579674"
     }
   ]
 }

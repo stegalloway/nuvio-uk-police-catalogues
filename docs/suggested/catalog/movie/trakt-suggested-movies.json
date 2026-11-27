@@ -31,22 +31,6 @@
       "imdb_id": "tt7131622"
     },
     {
-      "id": "tt3501632",
-      "type": "movie",
-      "name": "Thor: Ragnarok",
-      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
-      "posterShape": "poster",
-      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt3501632"
-    },
-    {
       "id": "tt11083552",
       "type": "movie",
       "name": "Wrath of Man",
@@ -133,6 +117,22 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt6320628"
+    },
+    {
+      "id": "tt3501632",
+      "type": "movie",
+      "name": "Thor: Ragnarok",
+      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "posterShape": "poster",
+      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt3501632"
     },
     {
       "id": "tt8236336",
