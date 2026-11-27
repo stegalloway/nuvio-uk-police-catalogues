@@ -208,6 +208,21 @@
       "imdb_id": "tt6794990"
     },
     {
+      "id": "tt7335184",
+      "type": "series",
+      "name": "You",
+      "poster": "https://image.tmdb.org/t/p/w500/oANi0vEE92nuijiZQgPZ88FSxqQ.jpg",
+      "posterShape": "poster",
+      "description": "A dangerously charming, obsessive man goes to extreme measures to insert himself into the lives of women who fascinate him.",
+      "genres": [
+        "Mystery",
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2018",
+      "imdb_id": "tt7335184"
+    },
+    {
       "id": "tt3647998",
       "type": "series",
       "name": "Taboo",
@@ -277,19 +292,6 @@
       ],
       "releaseInfo": "2013",
       "imdb_id": "tt2249364"
-    },
-    {
-      "id": "tt0118437",
-      "type": "series",
-      "name": "The Practice",
-      "poster": "https://image.tmdb.org/t/p/w500/7OKZSUIWhjFP0F2s478zTrAYwDB.jpg",
-      "posterShape": "poster",
-      "description": "A provocative legal drama focused on young associates at a bare-bones Boston firm and their scrappy boss, Bobby Donnell. The show's forte is its storylines about “people who walk a moral tightrope.”",
-      "genres": [
-        "Drama"
-      ],
-      "releaseInfo": "1997",
-      "imdb_id": "tt0118437"
     }
   ]
 }
