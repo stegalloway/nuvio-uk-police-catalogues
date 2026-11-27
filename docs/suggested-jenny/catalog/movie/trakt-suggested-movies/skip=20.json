@@ -43,19 +43,6 @@
       "imdb_id": "tt13405778"
     },
     {
-      "id": "tt10963926",
-      "type": "movie",
-      "name": "Two Witches",
-      "poster": "https://image.tmdb.org/t/p/w500/a6JHz23BOfbzWxL5JsrBWQHqMuh.jpg",
-      "posterShape": "poster",
-      "description": "A matriarchal witch passes on her sinister inheritance to her grand-daughter, triggering the most horrific curses.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt10963926"
-    },
-    {
       "id": "tt28088571",
       "type": "movie",
       "name": "Eye for an Eye",
@@ -67,6 +54,19 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt28088571"
+    },
+    {
+      "id": "tt10963926",
+      "type": "movie",
+      "name": "Two Witches",
+      "poster": "https://image.tmdb.org/t/p/w500/a6JHz23BOfbzWxL5JsrBWQHqMuh.jpg",
+      "posterShape": "poster",
+      "description": "A matriarchal witch passes on her sinister inheritance to her grand-daughter, triggering the most horrific curses.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt10963926"
     },
     {
       "id": "tt10638522",
@@ -208,20 +208,6 @@
       "imdb_id": "tt34494076"
     },
     {
-      "id": "tt14509110",
-      "type": "movie",
-      "name": "No One Will Save You",
-      "poster": "https://image.tmdb.org/t/p/w500/ehGIDAMaYy6Eg0o8ga0oqflDjqW.jpg",
-      "posterShape": "poster",
-      "description": "A lonely woman battles extraterrestrials who threaten her future while forcing her to face her past.",
-      "genres": [
-        "Horror",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14509110"
-    },
-    {
       "id": "tt14270702",
       "type": "movie",
       "name": "God Is a Bullet",
@@ -236,6 +222,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt14270702"
+    },
+    {
+      "id": "tt14509110",
+      "type": "movie",
+      "name": "No One Will Save You",
+      "poster": "https://image.tmdb.org/t/p/w500/ehGIDAMaYy6Eg0o8ga0oqflDjqW.jpg",
+      "posterShape": "poster",
+      "description": "A lonely woman battles extraterrestrials who threaten her future while forcing her to face her past.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt14509110"
     },
     {
       "id": "tt33978029",
