@@ -108,21 +108,6 @@
       "imdb_id": "tt11242218"
     },
     {
-      "id": "tt10374610",
-      "type": "movie",
-      "name": "The Long Walk",
-      "poster": "https://image.tmdb.org/t/p/w500/wobVTa99eW0ht6c1rNNzLkazPtR.jpg",
-      "posterShape": "poster",
-      "description": "In a dystopian America, fifty teenage boys take part in a deadly annual walking contest, forced to maintain a minimum pace or be executed, until only one survivor remains.",
-      "genres": [
-        "Science Fiction",
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt10374610"
-    },
-    {
       "id": "tt22898462",
       "type": "movie",
       "name": "The Conjuring: Last Rites",
@@ -147,6 +132,21 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt3515878"
+    },
+    {
+      "id": "tt10374610",
+      "type": "movie",
+      "name": "The Long Walk",
+      "poster": "https://image.tmdb.org/t/p/w500/wobVTa99eW0ht6c1rNNzLkazPtR.jpg",
+      "posterShape": "poster",
+      "description": "In a dystopian America, fifty teenage boys take part in a deadly annual walking contest, forced to maintain a minimum pace or be executed, until only one survivor remains.",
+      "genres": [
+        "Science Fiction",
+        "Thriller",
+        "Horror"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt10374610"
     },
     {
       "id": "tt8004664",
@@ -176,20 +176,6 @@
       "imdb_id": "tt32881442"
     },
     {
-      "id": "tt18412256",
-      "type": "movie",
-      "name": "Alien: Romulus",
-      "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
-      "posterShape": "poster",
-      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
-      "genres": [
-        "Horror",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt18412256"
-    },
-    {
       "id": "tt32329539",
       "type": "movie",
       "name": "Crawlers",
@@ -202,6 +188,20 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt32329539"
+    },
+    {
+      "id": "tt18412256",
+      "type": "movie",
+      "name": "Alien: Romulus",
+      "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
+      "posterShape": "poster",
+      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt18412256"
     },
     {
       "id": "tt13515258",
