@@ -108,6 +108,20 @@
       "imdb_id": "tt11242218"
     },
     {
+      "id": "tt9213874",
+      "type": "movie",
+      "name": "Breeder",
+      "poster": "https://image.tmdb.org/t/p/w500/alsb3UC17kxIcytLWvwkmL0STgU.jpg",
+      "posterShape": "poster",
+      "description": "An eccentric poodle breeder lures a broke college student to her remote ranch with a promise of research funding. But, as he soon learns, there’s a catch.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt9213874"
+    },
+    {
       "id": "tt22898462",
       "type": "movie",
       "name": "The Conjuring: Last Rites",
@@ -256,19 +270,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt13778486"
-    },
-    {
-      "id": "tt11123012",
-      "type": "movie",
-      "name": "The Secret of Sinchanee",
-      "poster": "https://image.tmdb.org/t/p/w500/5TcVPNaoIlfQHJchqYQ7mehBcaH.jpg",
-      "posterShape": "poster",
-      "description": "An industrial tow truck driver suffering from insomnia returns to his childhood home after the untimely death of his father, to discover that a paranormal presence has been living in the house and haunting the sacred land it was built on.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2021",
-      "imdb_id": "tt11123012"
     }
   ]
 }
