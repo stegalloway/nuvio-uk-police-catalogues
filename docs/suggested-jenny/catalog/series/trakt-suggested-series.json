@@ -269,18 +269,19 @@
       "imdb_id": "tt32252772"
     },
     {
-      "id": "tt15567174",
+      "id": "tt34771210",
       "type": "series",
-      "name": "The Fall of the House of Usher",
-      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
+      "name": "I Will Find You",
+      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
       "posterShape": "poster",
-      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
+      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
       "genres": [
+        "Drama",
         "Mystery",
-        "Drama"
+        "Crime"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt15567174"
+      "releaseInfo": "2026",
+      "imdb_id": "tt34771210"
     }
   ]
 }

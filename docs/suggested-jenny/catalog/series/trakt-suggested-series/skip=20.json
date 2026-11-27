@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt15567174",
+      "type": "series",
+      "name": "The Fall of the House of Usher",
+      "poster": "https://image.tmdb.org/t/p/w500/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
+      "posterShape": "poster",
+      "description": "To secure their fortune — and future — two ruthless siblings build a family dynasty that begins to crumble when their heirs mysteriously die, one by one.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt15567174"
+    },
+    {
       "id": "tt31458276",
       "type": "series",
       "name": "Grotesquerie",
@@ -14,49 +28,6 @@
       ],
       "releaseInfo": "2024",
       "imdb_id": "tt31458276"
-    },
-    {
-      "id": "tt34771210",
-      "type": "series",
-      "name": "I Will Find You",
-      "poster": "https://image.tmdb.org/t/p/w500/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
-      "posterShape": "poster",
-      "description": "Wrongfully imprisoned for murdering his own son, a father sets out on a desperate rescue mission after learning the boy may still be alive.",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34771210"
-    },
-    {
-      "id": "tt10148174",
-      "type": "series",
-      "name": "The Walking Dead: World Beyond",
-      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
-      "posterShape": "poster",
-      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
-      "genres": [
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt10148174"
-    },
-    {
-      "id": "tt3960394",
-      "type": "series",
-      "name": "Interview with the Vampire",
-      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
-      "posterShape": "poster",
-      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
-      "genres": [
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt3960394"
     },
     {
       "id": "tt14111774",
@@ -87,19 +58,46 @@
       "imdb_id": "tt11475228"
     },
     {
-      "id": "tt11540908",
+      "id": "tt3960394",
       "type": "series",
-      "name": "Carrie",
-      "poster": "https://image.tmdb.org/t/p/w500/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
+      "name": "Interview with the Vampire",
+      "poster": "https://image.tmdb.org/t/p/w500/mQ0fbfc5ELwb2zjFZM4uwAnN3ee.jpg",
       "posterShape": "poster",
-      "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
+      "description": "A century-old vampire from New Orleans reunites with an ailing journalist to recount his life of bloodlust and his tumultuous relationship with the rakish Frenchman who turned him.",
       "genres": [
-        "Mystery",
         "Drama",
         "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt11540908"
+      "releaseInfo": "2022",
+      "imdb_id": "tt3960394"
+    },
+    {
+      "id": "tt10148174",
+      "type": "series",
+      "name": "The Walking Dead: World Beyond",
+      "poster": "https://image.tmdb.org/t/p/w500/6HanIV2hTLE2w7A5bI1KJb3bTL7.jpg",
+      "posterShape": "poster",
+      "description": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt10148174"
+    },
+    {
+      "id": "tt11822998",
+      "type": "series",
+      "name": "The Trials of Gabriel Fernandez",
+      "poster": "https://image.tmdb.org/t/p/w500/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
+      "posterShape": "poster",
+      "description": "A boy’s brutal murder and the public trials of his guardians and social workers prompt questions about the system’s protection of vulnerable children.",
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11822998"
     },
     {
       "id": "tt31314754",
@@ -116,18 +114,19 @@
       "imdb_id": "tt31314754"
     },
     {
-      "id": "tt11822998",
+      "id": "tt11540908",
       "type": "series",
-      "name": "The Trials of Gabriel Fernandez",
-      "poster": "https://image.tmdb.org/t/p/w500/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
+      "name": "Carrie",
+      "poster": "https://image.tmdb.org/t/p/w500/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
       "posterShape": "poster",
-      "description": "A boy’s brutal murder and the public trials of his guardians and social workers prompt questions about the system’s protection of vulnerable children.",
+      "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
       "genres": [
-        "Documentary",
-        "Crime"
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11822998"
+      "releaseInfo": "2026",
+      "imdb_id": "tt11540908"
     },
     {
       "id": "tt9064858",
@@ -157,20 +156,6 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt6053512"
-    },
-    {
-      "id": "tt11285470",
-      "type": "series",
-      "name": "The Expecting",
-      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
-      "posterShape": "poster",
-      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
-      "genres": [
-        "Mystery",
-        "Drama"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11285470"
     },
     {
       "id": "tt13623632",
@@ -215,6 +200,20 @@
       ],
       "releaseInfo": "2020",
       "imdb_id": "tt9642938"
+    },
+    {
+      "id": "tt11285470",
+      "type": "series",
+      "name": "The Expecting",
+      "poster": "https://image.tmdb.org/t/p/w500/rHfAk3vs2ZRBNFFzQyMKKKxD7js.jpg",
+      "posterShape": "poster",
+      "description": "Follow the dark journey of a young woman down on her luck and pregnant under mysterious circumstances. She must deal with the increasingly disturbing effects of her pregnancy and the potential conspiracy surrounding it.",
+      "genres": [
+        "Mystery",
+        "Drama"
+      ],
+      "releaseInfo": "2020",
+      "imdb_id": "tt11285470"
     },
     {
       "id": "tt27142031",
