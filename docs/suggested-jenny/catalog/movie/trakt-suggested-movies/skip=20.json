@@ -165,20 +165,6 @@
       "imdb_id": "tt30505578"
     },
     {
-      "id": "tt34494076",
-      "type": "movie",
-      "name": "Hungry",
-      "poster": "https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg",
-      "posterShape": "poster",
-      "description": "A group of holidaymakers must fight for their lives against a rampaging hippo on the loose after becoming lost in the Louisiana swamplands.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34494076"
-    },
-    {
       "id": "tt26581740",
       "type": "movie",
       "name": "Weapons",
@@ -191,6 +177,20 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt26581740"
+    },
+    {
+      "id": "tt34494076",
+      "type": "movie",
+      "name": "Hungry",
+      "poster": "https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg",
+      "posterShape": "poster",
+      "description": "A group of holidaymakers must fight for their lives against a rampaging hippo on the loose after becoming lost in the Louisiana swamplands.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt34494076"
     },
     {
       "id": "tt14509110",
