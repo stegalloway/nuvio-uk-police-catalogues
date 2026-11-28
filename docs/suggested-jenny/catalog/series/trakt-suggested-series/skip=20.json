@@ -87,19 +87,18 @@
       "imdb_id": "tt11475228"
     },
     {
-      "id": "tt11540908",
+      "id": "tt11822998",
       "type": "series",
-      "name": "Carrie",
-      "poster": "https://image.tmdb.org/t/p/w500/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
+      "name": "The Trials of Gabriel Fernandez",
+      "poster": "https://image.tmdb.org/t/p/w500/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
       "posterShape": "poster",
-      "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
+      "description": "A boy’s brutal murder and the public trials of his guardians and social workers prompt questions about the system’s protection of vulnerable children.",
       "genres": [
-        "Mystery",
-        "Drama",
-        "Sci-Fi & Fantasy"
+        "Documentary",
+        "Crime"
       ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt11540908"
+      "releaseInfo": "2020",
+      "imdb_id": "tt11822998"
     },
     {
       "id": "tt31314754",
@@ -116,18 +115,19 @@
       "imdb_id": "tt31314754"
     },
     {
-      "id": "tt11822998",
+      "id": "tt11540908",
       "type": "series",
-      "name": "The Trials of Gabriel Fernandez",
-      "poster": "https://image.tmdb.org/t/p/w500/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
+      "name": "Carrie",
+      "poster": "https://image.tmdb.org/t/p/w500/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
       "posterShape": "poster",
-      "description": "A boy’s brutal murder and the public trials of his guardians and social workers prompt questions about the system’s protection of vulnerable children.",
+      "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
       "genres": [
-        "Documentary",
-        "Crime"
+        "Mystery",
+        "Drama",
+        "Sci-Fi & Fantasy"
       ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt11822998"
+      "releaseInfo": "2026",
+      "imdb_id": "tt11540908"
     },
     {
       "id": "tt9064858",

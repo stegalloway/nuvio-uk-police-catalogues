@@ -14,19 +14,6 @@
       "imdb_id": "tt31170389"
     },
     {
-      "id": "tt33763941",
-      "type": "movie",
-      "name": "Passenger",
-      "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
-      "posterShape": "poster",
-      "description": "After a young couple witnesses a gruesome highway accident, they soon realize they did not leave the crash scene alone, as a demonic presence called the Passenger that won't stop until it claims them both turns their van life adventure into a nightmare.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt33763941"
-    },
-    {
       "id": "tt3427252",
       "type": "movie",
       "name": "The Boogeyman",
@@ -38,6 +25,19 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt3427252"
+    },
+    {
+      "id": "tt33763941",
+      "type": "movie",
+      "name": "Passenger",
+      "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
+      "posterShape": "poster",
+      "description": "After a young couple witnesses a gruesome highway accident, they soon realize they did not leave the crash scene alone, as a demonic presence called the Passenger that won't stop until it claims them both turns their van life adventure into a nightmare.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt33763941"
     },
     {
       "id": "tt34890576",
@@ -108,6 +108,19 @@
       "imdb_id": "tt11242218"
     },
     {
+      "id": "tt22898462",
+      "type": "movie",
+      "name": "The Conjuring: Last Rites",
+      "poster": "https://image.tmdb.org/t/p/w500/umvkcIb0XAk486TEmx1V5aVzhbm.jpg",
+      "posterShape": "poster",
+      "description": "Paranormal investigators Ed and Lorraine Warren take on one last terrifying case involving mysterious entities they must confront.",
+      "genres": [
+        "Horror"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt22898462"
+    },
+    {
       "id": "tt9213874",
       "type": "movie",
       "name": "Breeder",
@@ -120,19 +133,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt9213874"
-    },
-    {
-      "id": "tt22898462",
-      "type": "movie",
-      "name": "The Conjuring: Last Rites",
-      "poster": "https://image.tmdb.org/t/p/w500/umvkcIb0XAk486TEmx1V5aVzhbm.jpg",
-      "posterShape": "poster",
-      "description": "Paranormal investigators Ed and Lorraine Warren take on one last terrifying case involving mysterious entities they must confront.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt22898462"
     },
     {
       "id": "tt3515878",
