@@ -1,21 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt1051906",
-      "type": "movie",
-      "name": "The Invisible Man",
-      "poster": "https://image.tmdb.org/t/p/w500/5EufsDwXdY2CVttYOk2WtYhgKpa.jpg",
-      "posterShape": "poster",
-      "description": "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.",
-      "genres": [
-        "Thriller",
-        "Science Fiction",
-        "Horror"
-      ],
-      "releaseInfo": "2020",
-      "imdb_id": "tt1051906"
-    },
-    {
       "id": "tt14371860",
       "type": "movie",
       "name": "Apartment 7A",
@@ -279,6 +264,20 @@
       ],
       "releaseInfo": "2022",
       "imdb_id": "tt15474916"
+    },
+    {
+      "id": "tt35672862",
+      "type": "movie",
+      "name": "Hokum",
+      "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+      "posterShape": "poster",
+      "description": "When novelist Ohm Bauman retreats to a remote inn to scatter his parents' ashes, he is consumed by tales of a witch haunting the honeymoon suite. Disturbing visions and a shocking disappearance forces him to confront dark corners of his past.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt35672862"
     }
   ]
 }
