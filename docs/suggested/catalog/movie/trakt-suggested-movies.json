@@ -134,20 +134,18 @@
       "imdb_id": "tt1392214"
     },
     {
-      "id": "tt3501632",
+      "id": "tt16311594",
       "type": "movie",
-      "name": "Thor: Ragnarok",
-      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "name": "F1",
+      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
       "posterShape": "poster",
-      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
       "genres": [
         "Action",
-        "Adventure",
-        "Comedy",
-        "Science Fiction"
+        "Drama"
       ],
-      "releaseInfo": "2017",
-      "imdb_id": "tt3501632"
+      "releaseInfo": "2025",
+      "imdb_id": "tt16311594"
     },
     {
       "id": "tt8236336",
@@ -161,20 +159,6 @@
       ],
       "releaseInfo": "2019",
       "imdb_id": "tt8236336"
-    },
-    {
-      "id": "tt16311594",
-      "type": "movie",
-      "name": "F1",
-      "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
-      "posterShape": "poster",
-      "description": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
-      "genres": [
-        "Action",
-        "Drama"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt16311594"
     },
     {
       "id": "tt0780504",
@@ -237,6 +221,22 @@
       "imdb_id": "tt12593682"
     },
     {
+      "id": "tt3501632",
+      "type": "movie",
+      "name": "Thor: Ragnarok",
+      "poster": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "posterShape": "poster",
+      "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2017",
+      "imdb_id": "tt3501632"
+    },
+    {
       "id": "tt1130884",
       "type": "movie",
       "name": "Shutter Island",
@@ -250,6 +250,21 @@
       ],
       "releaseInfo": "2010",
       "imdb_id": "tt1130884"
+    },
+    {
+      "id": "tt0985699",
+      "type": "movie",
+      "name": "Valkyrie",
+      "poster": "https://image.tmdb.org/t/p/w500/8eoRtXswC8IQDsqW7iJWO56NhAv.jpg",
+      "posterShape": "poster",
+      "description": "Wounded in Africa during World War II, Nazi Col. Claus von Stauffenberg returns to his native Germany and joins the Resistance in a daring plan to create a shadow government and assassinate Adolf Hitler. When events unfold so that he becomes a central player, he finds himself tasked with both leading the coup and personally killing the Führer.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "releaseInfo": "2008",
+      "imdb_id": "tt0985699"
     },
     {
       "id": "tt7349662",
@@ -280,21 +295,6 @@
       ],
       "releaseInfo": "2025",
       "imdb_id": "tt11539996"
-    },
-    {
-      "id": "tt5950044",
-      "type": "movie",
-      "name": "Superman",
-      "poster": "https://image.tmdb.org/t/p/w500/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg",
-      "posterShape": "poster",
-      "description": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
-      "genres": [
-        "Science Fiction",
-        "Adventure",
-        "Action"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt5950044"
     }
   ]
 }
