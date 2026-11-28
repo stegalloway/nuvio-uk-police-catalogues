@@ -71,6 +71,20 @@
       "imdb_id": "tt28498159"
     },
     {
+      "id": "tt10665342",
+      "type": "movie",
+      "name": "Halloween Ends",
+      "poster": "https://image.tmdb.org/t/p/w500/q06saepaXeBdkMibuN4R2fXmgIw.jpg",
+      "posterShape": "poster",
+      "description": "Four years after the events of Halloween in 2018, Laurie has decided to liberate herself from fear and rage and embrace life. But when a young man is accused of killing a boy he was babysitting, it ignites a cascade of violence and terror that will force Laurie to finally confront the evil she can’t control, once and for all.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2022",
+      "imdb_id": "tt10665342"
+    },
+    {
       "id": "tt35538033",
       "type": "movie",
       "name": "Resident Evil",
@@ -84,20 +98,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt35538033"
-    },
-    {
-      "id": "tt10665342",
-      "type": "movie",
-      "name": "Halloween Ends",
-      "poster": "https://image.tmdb.org/t/p/w500/q06saepaXeBdkMibuN4R2fXmgIw.jpg",
-      "posterShape": "poster",
-      "description": "Four years after the events of Halloween in 2018, Laurie has decided to liberate herself from fear and rage and embrace life. But when a young man is accused of killing a boy he was babysitting, it ignites a cascade of violence and terror that will force Laurie to finally confront the evil she can’t control, once and for all.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2022",
-      "imdb_id": "tt10665342"
     },
     {
       "id": "tt20198774",
