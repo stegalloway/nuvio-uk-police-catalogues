@@ -108,6 +108,21 @@
       "imdb_id": "tt11242218"
     },
     {
+      "id": "tt10374610",
+      "type": "movie",
+      "name": "The Long Walk",
+      "poster": "https://image.tmdb.org/t/p/w500/wobVTa99eW0ht6c1rNNzLkazPtR.jpg",
+      "posterShape": "poster",
+      "description": "In a dystopian America, fifty teenage boys take part in a deadly annual walking contest, forced to maintain a minimum pace or be executed, until only one survivor remains.",
+      "genres": [
+        "Science Fiction",
+        "Thriller",
+        "Horror"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt10374610"
+    },
+    {
       "id": "tt22898462",
       "type": "movie",
       "name": "The Conjuring: Last Rites",
@@ -146,21 +161,6 @@
       ],
       "releaseInfo": "2026",
       "imdb_id": "tt3515878"
-    },
-    {
-      "id": "tt10374610",
-      "type": "movie",
-      "name": "The Long Walk",
-      "poster": "https://image.tmdb.org/t/p/w500/wobVTa99eW0ht6c1rNNzLkazPtR.jpg",
-      "posterShape": "poster",
-      "description": "In a dystopian America, fifty teenage boys take part in a deadly annual walking contest, forced to maintain a minimum pace or be executed, until only one survivor remains.",
-      "genres": [
-        "Science Fiction",
-        "Thriller",
-        "Horror"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt10374610"
     },
     {
       "id": "tt8004664",
@@ -218,6 +218,21 @@
       "imdb_id": "tt32329539"
     },
     {
+      "id": "tt32141377",
+      "type": "movie",
+      "name": "28 Years Later: The Bone Temple",
+      "poster": "https://image.tmdb.org/t/p/w500/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+      "posterShape": "poster",
+      "description": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Science Fiction"
+      ],
+      "releaseInfo": "2026",
+      "imdb_id": "tt32141377"
+    },
+    {
       "id": "tt13515258",
       "type": "movie",
       "name": "Oracle",
@@ -229,19 +244,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt13515258"
-    },
-    {
-      "id": "tt9100018",
-      "type": "movie",
-      "name": "Cobweb",
-      "poster": "https://image.tmdb.org/t/p/w500/cGXFosYUHYjjdKrOmA0bbjvzhKz.jpg",
-      "posterShape": "poster",
-      "description": "Eight year old Peter is plagued by a mysterious, constant tapping from inside his bedroom wall—one that his parents insist is all in his imagination. As Peter's fear intensifies, he believes that his parents could be hiding a terrible, dangerous secret and questions their trustworthiness.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt9100018"
     },
     {
       "id": "tt32268156",
@@ -258,18 +260,17 @@
       "imdb_id": "tt32268156"
     },
     {
-      "id": "tt13778486",
+      "id": "tt9100018",
       "type": "movie",
-      "name": "Succubus",
-      "poster": "https://image.tmdb.org/t/p/w500/7AfBMebJS8mEtSV5ymdxEPpgvXb.jpg",
+      "name": "Cobweb",
+      "poster": "https://image.tmdb.org/t/p/w500/cGXFosYUHYjjdKrOmA0bbjvzhKz.jpg",
       "posterShape": "poster",
-      "description": "A new father going through a marital separation joins a dating app and matches with a beautiful but mysterious young woman... whose powers of seduction and manipulation entangle him in a mystery more horrifying than he could have ever imagined.",
+      "description": "Eight year old Peter is plagued by a mysterious, constant tapping from inside his bedroom wall—one that his parents insist is all in his imagination. As Peter's fear intensifies, he believes that his parents could be hiding a terrible, dangerous secret and questions their trustworthiness.",
       "genres": [
-        "Horror",
-        "Thriller"
+        "Horror"
       ],
-      "releaseInfo": "2024",
-      "imdb_id": "tt13778486"
+      "releaseInfo": "2023",
+      "imdb_id": "tt9100018"
     }
   ]
 }

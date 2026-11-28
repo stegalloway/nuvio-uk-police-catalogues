@@ -1,6 +1,20 @@
 {
   "metas": [
     {
+      "id": "tt13778486",
+      "type": "movie",
+      "name": "Succubus",
+      "poster": "https://image.tmdb.org/t/p/w500/7AfBMebJS8mEtSV5ymdxEPpgvXb.jpg",
+      "posterShape": "poster",
+      "description": "A new father going through a marital separation joins a dating app and matches with a beautiful but mysterious young woman... whose powers of seduction and manipulation entangle him in a mystery more horrifying than he could have ever imagined.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2024",
+      "imdb_id": "tt13778486"
+    },
+    {
       "id": "tt11123012",
       "type": "movie",
       "name": "The Secret of Sinchanee",
@@ -14,18 +28,17 @@
       "imdb_id": "tt11123012"
     },
     {
-      "id": "tt13405778",
+      "id": "tt28088571",
       "type": "movie",
-      "name": "Insidious: The Red Door",
-      "poster": "https://image.tmdb.org/t/p/w500/d07phJqCx6z5wILDYqkyraorDPi.jpg",
+      "name": "Eye for an Eye",
+      "poster": "https://image.tmdb.org/t/p/w500/lpepbfVziHJLhVoxTEKs8ok00iu.jpg",
       "posterShape": "poster",
-      "description": "To put their demons to rest once and for all, Josh Lambert and a college-aged Dalton Lambert must go deeper into The Further than ever before, facing their family's dark past and a host of new and more horrifying terrors that lurk behind the red door.",
+      "description": "Anna, grieving the sudden death of her parents, relocates from New York to a small Florida town to live with the grandmother she has never met. Isolated, vulnerable, and in need of friends, she finds brief solace in the company of two local teens. But when she becomes complicit to their unforgivable act of violence, she finds herself ensnared by Mr. Sandman – the twisted soul of a tormented child who haunts bullies’ dreams before feasting on their eyeballs when they finally wake - Anna must right her wrong before becoming a victim of this gruesome curse.",
       "genres": [
-        "Horror",
-        "Thriller"
+        "Horror"
       ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt13405778"
+      "releaseInfo": "2025",
+      "imdb_id": "tt28088571"
     },
     {
       "id": "tt50389959",
@@ -43,6 +56,20 @@
       "imdb_id": "tt50389959"
     },
     {
+      "id": "tt13405778",
+      "type": "movie",
+      "name": "Insidious: The Red Door",
+      "poster": "https://image.tmdb.org/t/p/w500/d07phJqCx6z5wILDYqkyraorDPi.jpg",
+      "posterShape": "poster",
+      "description": "To put their demons to rest once and for all, Josh Lambert and a college-aged Dalton Lambert must go deeper into The Further than ever before, facing their family's dark past and a host of new and more horrifying terrors that lurk behind the red door.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt13405778"
+    },
+    {
       "id": "tt10963926",
       "type": "movie",
       "name": "Two Witches",
@@ -54,19 +81,6 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt10963926"
-    },
-    {
-      "id": "tt28088571",
-      "type": "movie",
-      "name": "Eye for an Eye",
-      "poster": "https://image.tmdb.org/t/p/w500/lpepbfVziHJLhVoxTEKs8ok00iu.jpg",
-      "posterShape": "poster",
-      "description": "Anna, grieving the sudden death of her parents, relocates from New York to a small Florida town to live with the grandmother she has never met. Isolated, vulnerable, and in need of friends, she finds brief solace in the company of two local teens. But when she becomes complicit to their unforgivable act of violence, she finds herself ensnared by Mr. Sandman – the twisted soul of a tormented child who haunts bullies’ dreams before feasting on their eyeballs when they finally wake - Anna must right her wrong before becoming a victim of this gruesome curse.",
-      "genres": [
-        "Horror"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt28088571"
     },
     {
       "id": "tt10638522",
@@ -110,21 +124,6 @@
       "imdb_id": "tt12764628"
     },
     {
-      "id": "tt32141377",
-      "type": "movie",
-      "name": "28 Years Later: The Bone Temple",
-      "poster": "https://image.tmdb.org/t/p/w500/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
-      "posterShape": "poster",
-      "description": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
-      "genres": [
-        "Horror",
-        "Thriller",
-        "Science Fiction"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt32141377"
-    },
-    {
       "id": "tt36958312",
       "type": "movie",
       "name": "The Devil's Mouth",
@@ -166,32 +165,20 @@
       "imdb_id": "tt30505578"
     },
     {
-      "id": "tt30274401",
+      "id": "tt14270702",
       "type": "movie",
-      "name": "Five Nights at Freddy's 2",
-      "poster": "https://image.tmdb.org/t/p/w500/udAxQEORq2I5wxI97N2TEqdhzBE.jpg",
+      "name": "God Is a Bullet",
+      "poster": "https://image.tmdb.org/t/p/w500/5kiLS9nsSJxDdlYUyYGiSUt8Fi8.jpg",
       "posterShape": "poster",
-      "description": "One year since the supernatural nightmare at Freddy Fazbear's Pizza, the stories about what transpired there have been twisted into a campy local legend, inspiring the town's first ever Fazfest. With the truth kept from her, Abby sneaks out to reconnect with Freddy, Bonnie, Chica, and Foxy, setting into motion a terrifying series of events that will reveal dark secrets about the real origin of Freddy's, and unleash a decades-hidden horror.",
+      "description": "Vice detective Bob Hightower finds his ex-wife murdered and daughter kidnapped by a cult. Frustrated by the botched official investigations, he quits the force and infiltrates the cult to hunt down the leader with the help of the cult’s only female victim escapee, Case Hardin.",
       "genres": [
-        "Horror",
-        "Thriller"
+        "Thriller",
+        "Action",
+        "Crime",
+        "Horror"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt30274401"
-    },
-    {
-      "id": "tt34494076",
-      "type": "movie",
-      "name": "Hungry",
-      "poster": "https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg",
-      "posterShape": "poster",
-      "description": "A group of holidaymakers must fight for their lives against a rampaging hippo on the loose after becoming lost in the Louisiana swamplands.",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseInfo": "2026",
-      "imdb_id": "tt34494076"
+      "releaseInfo": "2023",
+      "imdb_id": "tt14270702"
     },
     {
       "id": "tt14509110",
@@ -222,34 +209,18 @@
       "imdb_id": "tt26581740"
     },
     {
-      "id": "tt14270702",
+      "id": "tt34494076",
       "type": "movie",
-      "name": "God Is a Bullet",
-      "poster": "https://image.tmdb.org/t/p/w500/5kiLS9nsSJxDdlYUyYGiSUt8Fi8.jpg",
+      "name": "Hungry",
+      "poster": "https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg",
       "posterShape": "poster",
-      "description": "Vice detective Bob Hightower finds his ex-wife murdered and daughter kidnapped by a cult. Frustrated by the botched official investigations, he quits the force and infiltrates the cult to hunt down the leader with the help of the cult’s only female victim escapee, Case Hardin.",
-      "genres": [
-        "Thriller",
-        "Action",
-        "Crime",
-        "Horror"
-      ],
-      "releaseInfo": "2023",
-      "imdb_id": "tt14270702"
-    },
-    {
-      "id": "tt31511689",
-      "type": "movie",
-      "name": "Vicious",
-      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
-      "posterShape": "poster",
-      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
+      "description": "A group of holidaymakers must fight for their lives against a rampaging hippo on the loose after becoming lost in the Louisiana swamplands.",
       "genres": [
         "Horror",
         "Thriller"
       ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt31511689"
+      "releaseInfo": "2026",
+      "imdb_id": "tt34494076"
     },
     {
       "id": "tt33978029",
@@ -266,6 +237,20 @@
       "imdb_id": "tt33978029"
     },
     {
+      "id": "tt31511689",
+      "type": "movie",
+      "name": "Vicious",
+      "poster": "https://image.tmdb.org/t/p/w500/shKGDGrwqmc9x2aTJcQszoXinq0.jpg",
+      "posterShape": "poster",
+      "description": "When Polly receives a mysterious box, it comes with one rule: place inside something she needs, something she hates, and something she loves. If she doesn’t obey, it will consume everything—and everyone—she’s ever known.",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt31511689"
+    },
+    {
       "id": "tt14030816",
       "type": "movie",
       "name": "Baghead",
@@ -277,6 +262,21 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt14030816"
+    },
+    {
+      "id": "tt21807222",
+      "type": "movie",
+      "name": "Saw X",
+      "poster": "https://image.tmdb.org/t/p/w500/u7Lp1Hi8aBS73jv4KRMIv5aK4ax.jpg",
+      "posterShape": "poster",
+      "description": "Between the events of 'Saw' and 'Saw II', a sick and desperate John Kramer travels to Mexico for a risky and experimental medical procedure in hopes of a miracle cure for his cancer, only to discover the entire operation is a scam to defraud the most vulnerable. Armed with a newfound purpose, the infamous serial killer returns to his work, turning the tables on the con artists in his signature visceral way through devious, deranged, and ingenious traps.",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "releaseInfo": "2023",
+      "imdb_id": "tt21807222"
     }
   ]
 }
