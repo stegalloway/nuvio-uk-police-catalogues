@@ -147,20 +147,6 @@
       "imdb_id": "tt33043892"
     },
     {
-      "id": "tt9131050",
-      "type": "series",
-      "name": "A Confession",
-      "poster": "https://image.tmdb.org/t/p/w500/6c6q8m5PCiXv3TlxmM0vIcLylb0.jpg",
-      "posterShape": "poster",
-      "description": "The story of how Detective Superintendent Steve Fulcher deliberately breached police procedure and protocol to catch a killer, a decision that ultimately cost him his career and reputation.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseInfo": "2019",
-      "imdb_id": "tt9131050"
-    },
-    {
       "id": "tt1637727",
       "type": "series",
       "name": "The Killing",
@@ -174,6 +160,20 @@
       ],
       "releaseInfo": "2011",
       "imdb_id": "tt1637727"
+    },
+    {
+      "id": "tt9131050",
+      "type": "series",
+      "name": "A Confession",
+      "poster": "https://image.tmdb.org/t/p/w500/6c6q8m5PCiXv3TlxmM0vIcLylb0.jpg",
+      "posterShape": "poster",
+      "description": "The story of how Detective Superintendent Steve Fulcher deliberately breached police procedure and protocol to catch a killer, a decision that ultimately cost him his career and reputation.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "releaseInfo": "2019",
+      "imdb_id": "tt9131050"
     },
     {
       "id": "tt5164196",
