@@ -180,20 +180,6 @@
       "imdb_id": "tt30274401"
     },
     {
-      "id": "tt26581740",
-      "type": "movie",
-      "name": "Weapons",
-      "poster": "https://image.tmdb.org/t/p/w500/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg",
-      "posterShape": "poster",
-      "description": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "releaseInfo": "2025",
-      "imdb_id": "tt26581740"
-    },
-    {
       "id": "tt34494076",
       "type": "movie",
       "name": "Hungry",
@@ -220,6 +206,20 @@
       ],
       "releaseInfo": "2023",
       "imdb_id": "tt14509110"
+    },
+    {
+      "id": "tt26581740",
+      "type": "movie",
+      "name": "Weapons",
+      "poster": "https://image.tmdb.org/t/p/w500/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg",
+      "posterShape": "poster",
+      "description": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "releaseInfo": "2025",
+      "imdb_id": "tt26581740"
     },
     {
       "id": "tt14270702",
